@@ -12,8 +12,8 @@ export BROWSERGYM_EXPERIMENT_TIMEOUT=600 # 10 minutes
 # == using openai ==
 model_name="<YOUR MODEL NAME>"
 tag="<YOUR TAG>"
-export USE_ENV_DYNAMICS=true
-export ENV_DYNAMICS_PATH="<YOUR ENV DYNAMICS PATH>"
+export USE_ENV_DYNAMICS=true # this is for step 3 of non-parametric test-time adaptation
+export ENV_DYNAMICS_PATH="<YOUR ENV DYNAMICS PATH>" # please specify the processed environment dynamics path
 
 python src/run_agent.py \
   --use_openai \

@@ -8,7 +8,8 @@ export WA_MAP="$BASE_URL:443"
 export WA_HOMEPAGE="$BASE_URL:80"
 export TOKENIZERS_PARALLELISM=false
 
-export ENV_DYNAMICS_EXPLORATION=true
+
+export ENV_DYNAMICS_EXPLORATION=true # this is for step 1 of non-parametric test-time adaptation
 
 # ======= on WebArena ======
 export VLLM_PORT=8001

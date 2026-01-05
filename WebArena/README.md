@@ -14,6 +14,11 @@ Follow the environment setup [guide](https://github.com/ServiceNow/BrowserGym/bl
 cp vllm/model_runner.py "$(python -c 'import vllm, os; print(os.path.join(os.path.dirname(vllm.__file__), "worker"))' | tail -n 1)"
 ```
 
+#### Step 1: WebArena Task Evaluation
+```bash
+bash WebArena/run_webarena.sh
+```
+
 ### Non-Parametric Test-Time Adaptation
 
 #### Step 1: Persona-based Exploration and Environment Dynamics Extraction
@@ -22,12 +27,12 @@ bash WebArena/run_exploration.sh
 ```
 
 #### Step 2: Environment Dynamics Filtering
-Use the [jupyter notebook](WebArena/notebooks/dynamic_modelling.ipynb) to filter the environment dynamics.
+Use the [jupyter notebook](notebooks/dynamic_modelling.ipynb) to filter the environment dynamics.
 
 #### Step 3: WebArena Task Evaluation
 ```bash
 bash WebArena/run_webarena.sh
 ```
 
-### Evaluation
-Use the [jupyter notebook](WebArena/evaluation/eval_webarena_analysis.ipynb) to evaluate the results.
+### Display Results
+Use the [jupyter notebook](evaluation/eval_webarena_analysis.ipynb) to display the final evaluation results.

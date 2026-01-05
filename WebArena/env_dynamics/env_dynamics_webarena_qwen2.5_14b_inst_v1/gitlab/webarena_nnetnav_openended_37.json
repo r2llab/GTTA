@@ -1,0 +1,62 @@
+[
+  {
+    "initial_state": "GitLab 'Projects' dashboard page with list of projects and options including 'Topics'.",
+    "action": "click [284] where [284] is Topics",
+    "environmental_dynamics": "Navigated to 'Topics' page, showing an empty display with a message indicating no topics are currently available."
+  },
+  {
+    "initial_state": "GitLab explore page with topics section stating 'There are no topics to show.'",
+    "action": "click [240] where [240] is Explore",
+    "environmental_dynamics": "Navigated to the 'Projects' section showing a list of projects with details such as names, images, and update timestamps."
+  },
+  {
+    "initial_state": "Explore page on GitLab featuring a list of projects and a help link.",
+    "action": "click [156] where [156] is Help",
+    "environmental_dynamics": "The 'Help' link expanded into a dropdown menu, listing various help-related options and providing a focused interactive menu."
+  },
+  {
+    "initial_state": "GitLab homepage with projects and options to create, explore, and manage projects",
+    "action": "click [229] where [229] is New project",
+    "environmental_dynamics": "Navigated to the 'New Project' page to create a new GitLab project, displaying options to create a blank project, create from a template, or import a project from another source."
+  },
+  {
+    "initial_state": "GitLab 'New Project' page with options to create a new project from scratch, from a template, or by importing",
+    "action": "Attempt to perfom \"click\" on element \"[174]\" but no matching element found. Please check the observation more carefully.",
+    "environmental_dynamics": "No change"
+  },
+  {
+    "initial_state": "GitLab 'New Project' page with various project creation options and navigation links",
+    "action": "click [143] where [143] is Merge requests",
+    "environmental_dynamics": "The Merge requests link was clicked, expanding its sub-menu to show additional options such as 'Assigned to you' and 'Review requests for you', and a tooltip 'Merge requests' was displayed."
+  },
+  {
+    "initial_state": "GitLab homepage with the 'Merge requests' section collapsed and 'Create new...' link focused",
+    "action": "click [127] where [127] is Create new...",
+    "environmental_dynamics": "The 'Create new...' dropdown menu expanded, displaying options to create a new project/repository, group, or snippet."
+  },
+  {
+    "initial_state": "GitLab's New Project page offering options to create a project from scratch, template, or import",
+    "action": "click [133] where [133] is New project/repository",
+    "environmental_dynamics": "The dropdown menu associated with 'Create new...' expanded, displaying options like 'New project/repository', and then closed immediately after clicking on 'New project/repository'."
+  },
+  {
+    "initial_state": "GitLab 'New Project' page with options to create blank, from template, or import project",
+    "action": "click [237] where [237] is Create blank project Create a blank project to store your files, plan your work, and collaborate on code, among other things.",
+    "environmental_dynamics": "The page state transitioned to the create blank project form, where input fields for project name, project URL, and project slug are visible, along with options to set visibility level and configure repository initialization."
+  },
+  {
+    "initial_state": "GitLab page for creating a new project with a form to specify project details like name, URL, and visibility level",
+    "action": "type [269] [My tech project ] where [269] is My awesome project",
+    "environmental_dynamics": "The project name in the form was updated to 'My tech project', and the page navigation and main content area updated to reflect the newly created project 'My tech project' along with its ID and status message confirming successful creation."
+  },
+  {
+    "initial_state": "GitLab repository page for 'My tech project' with various sections including issues, merge requests, and files list",
+    "action": "click [870] where [870] is README",
+    "environmental_dynamics": "Navigated to the README.md file within the repository, displaying detailed inline content and file navigation options."
+  },
+  {
+    "initial_state": "GitHub repository README.md page listing basic starting steps for new contributors and including a suggestion to use a template",
+    "action": "click [716] where [716] is Use the template at the bottom",
+    "environmental_dynamics": "The 'Use the template at the bottom' link is now focused and the paragraph below it is described with additional context."
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "initial_state": "One Stop Market homepage with the search combobox collapsed and not focused.",
+    "action": "click [378] where [378] is \ue615 Search",
+    "environmental_dynamics": "The search combobox is now expanded and focused, making it ready for text input or search suggestions."
+  },
+  {
+    "initial_state": "One Stop Market homepage with various product showcases and the navigation menu expanded, showing categories like Beauty & Personal Care, Sports & Outdoors, Clothing, Shoes & Jewelry, etc.",
+    "action": "click [648] where [648] is \ue622 Clothing, Shoes & Jewelry",
+    "environmental_dynamics": "The view changed to the 'Clothing, Shoes & Jewelry' category page, displaying a list of items in this category along with sorting, filtering, and pagination options."
+  },
+  {
+    "initial_state": "Category page for 'Clothing, Shoes & Jewelry' with a collapsed and unfocused search combobox.",
+    "action": "click [415] where [415] is \ue615 Search",
+    "environmental_dynamics": "The search combobox expanded and became focused, ready for text input."
+  },
+  {
+    "initial_state": "Category page for 'Clothing, Shoes & Jewelry' with the search box focused but no search terms entered.",
+    "action": "type [415] [travel accessories ] where [415] is \ue615 Search",
+    "environmental_dynamics": "A search for 'travel accessories' was performed, and the page updated to display search results related to 'travel accessories' with the search term filled in, the heading and product list reflecting the new query."
+  }
+]

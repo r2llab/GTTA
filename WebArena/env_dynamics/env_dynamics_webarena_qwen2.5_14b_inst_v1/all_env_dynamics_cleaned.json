@@ -1,0 +1,702 @@
+{
+  "map": [
+    {
+      "initial_state": "OpenStreetMap homepage with a search bar",
+      "action": "type [145] [New York ] where [145] is Search",
+      "environmental_dynamics": "The search bar was populated with the text 'New York', and a section titled 'Search Results' containing a list of relevant results emerged below the search bar."
+    },
+    {
+      "initial_state": "OpenStreetMap page for New York, with search results and map images",
+      "action": "click [487] where [487] is City of New York, New York, United States",
+      "environmental_dynamics": "A 'Loading...' status bar appeared, and the map started loading a more detailed view centered on 'City of New York, New York, United States'."
+    },
+    {
+      "initial_state": "An OpenStreetMap page displaying details of the 'City of New York' relation with a menu allowing access to various page sections, such as GPS traces, user diaries, and login options, with a search bar.",
+      "action": "click [408] where [408] is Share",
+      "environmental_dynamics": "A pop-up sharing section appeared, offering options to share the current map view through a link, short link, HTML, Geo URI, and an image download tab."
+    },
+    {
+      "initial_state": "An OpenStreetMap page displaying information about the relation 'City of New York' (175905) with a section on 'Share' that has a heading but no expanded details",
+      "action": "click [304] where [304] is Share",
+      "environmental_dynamics": "No change, as clicking on the 'Share' heading did not expand or alter any visible details."
+    },
+    {
+      "initial_state": "OpenStreetMap page with search results for 'parks near NY' currently loading",
+      "action": "click [147] where [147] is Go",
+      "environmental_dynamics": "The 'Go' button was clicked, resulting in the search results being updated to display 'No results found'."
+    },
+    {
+      "initial_state": "OpenStreetMap with search results section and a search query for 'parks near NY'",
+      "action": "click [461] where [461] is Close",
+      "environmental_dynamics": "The search results section, including the 'Search Results' heading and the 'No results found' message, was closed, revealing the default welcome paragraph and 'Start Mapping' button."
+    },
+    {
+      "initial_state": "OpenStreetMap webpage showing search results for parks near NY with no layers menu displayed",
+      "action": "click [402] where [402] is Layers",
+      "environmental_dynamics": "A 'Map Layers' menu appeared with options for different map overlays and troubleshoot settings."
+    },
+    {
+      "initial_state": "OpenStreetMap page displaying search results for 'parks' with various location links",
+      "action": "click [449] where [449] is Wesley Clover Parks, Nepean, Ottawa, Eastern Ontario, Ontario, Canada",
+      "environmental_dynamics": "Navigated to a 'Not Found' page indicating that way #231765508 could not be found."
+    },
+    {
+      "initial_state": "An OpenStreetMap page displaying 'Not Found' for a specific way ID, with a search bar and navigation options.",
+      "action": "click [147] where [147] is Go",
+      "environmental_dynamics": "The page transitioned to the main OpenStreetMap welcome screen, replacing the 'Not Found' message with a welcome paragraph and 'Learn More' button, while retaining the search functionality and navigation elements."
+    },
+    {
+      "initial_state": "OpenStreetMap page with information about a way named Peace Garden",
+      "action": "click [149] where [149] is Find directions between two points",
+      "environmental_dynamics": "A new section with input fields for 'From' and 'To' addresses, a directions mode combobox, and 'Go' and 'Reverse Directions' buttons appeared, providing options to find directions between two points."
+    },
+    {
+      "initial_state": "An OpenStreetMap page displaying details of 'Way: Lewisboro Town Park (156222728)' with a collapsed 'Nodes' section",
+      "action": "click [1651] where [1651] is 24 nodes",
+      "environmental_dynamics": "The 'Nodes' section expanded, revealing a list of 24 nodes with clickable links for each node."
+    },
+    {
+      "initial_state": "An OpenStreetMap page displaying details of a way (Lewisboro Town Park)",
+      "action": "click [1418] where [1418] is View History",
+      "environmental_dynamics": "The page transitioned to display the history of the way, changing the heading to reflect this transition."
+    },
+    {
+      "initial_state": "OpenStreetMap homepage with zoom controls visible",
+      "action": "type [145] [Central Park ] where [145] is Search",
+      "environmental_dynamics": "The search bar contained 'Central Park' after typing, and a section showing search results from OpenStreetMap Nominatim appeared below the search bar."
+    },
+    {
+      "initial_state": "OpenStreetMap homepage focused on 'Central Park' search results, with a search bar containing 'Central Park'",
+      "action": "click [449] where [449] is Central Park, New York County, City of New York, New York, United States",
+      "environmental_dynamics": "The page transitioned to a new location by clicking on the specific 'Central Park' result; a loading status message appeared indicating that the page is updating to the new location details."
+    }
+  ],
+  "reddit": [
+    {
+      "initial_state": "Postmill homepage with featured forums and a blank search box",
+      "action": "type [54] [r/fitness ] where [54] is Search query",
+      "environmental_dynamics": "The search box was populated with the text 'r/fitness', and the interface transitioned to a search results page displaying relevant content."
+    },
+    {
+      "initial_state": "Webpage displaying search results for 'r/fitness' with a search bar at the top",
+      "action": "click [115] where [115] is Search",
+      "environmental_dynamics": "The 'Search' button was clicked but no visible changes occurred as the search results and page layout remained the same."
+    },
+    {
+      "initial_state": "Search results page showing 2 results for r/fitness",
+      "action": "click [171] where [171] is Downvote",
+      "environmental_dynamics": "The downvote button for the first comment was clicked, updating the downvote count and changing the button label to 'Retract downvote'."
+    },
+    {
+      "initial_state": "Search results page for 'r/fitness' showing two articles",
+      "action": "click [208] where [208] is Reply",
+      "environmental_dynamics": "The 'Reply' link became focused and a comment section with a textbox, checkboxes, and formatting help appeared below the second article."
+    },
+    {
+      "initial_state": "A search results page for 'r/fitness' with two articles and a text input for posting a new comment.",
+      "action": "click [392] where [392] is Post",
+      "environmental_dynamics": "The page changed to a single comment thread titled 'When did this sub go from advice and talks of quality to survivors bias posts? Is there a sub that better matches how this was years ago?'. The focus shifted to a new comment posted by 'MarvelsGrantMan136'."
+    },
+    {
+      "initial_state": "Subreddit thread page, with a commented section on the thread",
+      "action": "click [358] where [358] is Retract upvote",
+      "environmental_dynamics": "The upvote count for the comment changed from '384' to '0', and the 'Retract upvote' button changed to an 'Upvote' button."
+    },
+    {
+      "initial_state": "View of a comment section on a Reddit-like platform where a user (MarvelsGrantMan136) has written several comments.",
+      "action": "click [170] where [170] is MarvelsGrantMan136",
+      "environmental_dynamics": "The browser navigated to a profile page for user 'MarvelsGrantMan136', displaying the user's submitted posts and comments."
+    },
+    {
+      "initial_state": "Homepage of Postmill showing featured forums with navigation links and main content.",
+      "action": "click [42] where [42] is Forums",
+      "environmental_dynamics": "Navigated to a list of forums displaying forum names, descriptions, subscriptions options, and number of submissions."
+    },
+    {
+      "initial_state": "List of forums page with various forum categories visible",
+      "action": "click [163] where [163] is relationship_advice \u2014 relationship_advice",
+      "environmental_dynamics": "The page transitioned to the 'relationship_advice' forum, displaying threads and posts specific to relationship-related advice."
+    },
+    {
+      "initial_state": "List of forums showcasing various categories of forums",
+      "action": "click [183] where [183] is worldnews \u2014 worldnews",
+      "environmental_dynamics": "The browser navigated to the specific 'worldnews' forum, displaying threads and submissions related to world news."
+    },
+    {
+      "initial_state": "A webpage displaying a list of world news submissions and comments",
+      "action": "click [119] where [119] is Comments",
+      "environmental_dynamics": "The page transitioned to the 'Recent comments' section, displaying various comment threads with upvote/downvote options and reply functionalities."
+    },
+    {
+      "initial_state": "Reddit-like discussion post page with content about relationship advice and a commenting section",
+      "action": "goto [http://ec2-54-162-4-248.compute-1.amazonaws.com:8080/r/fitness]",
+      "environmental_dynamics": "The browser navigated to a 404 Not Found page."
+    },
+    {
+      "initial_state": "404 Not Found page with a link to go to the home page",
+      "action": "click [12] where [12] is Go to home page",
+      "environmental_dynamics": "Navigated to the Postmill homepage, displaying various interactive elements such as navigation links, a search box, and user interface components."
+    },
+    {
+      "initial_state": "List of forums page with main content and sidebar containing forums sorted by most active or recent activity",
+      "action": "click [117] where [117] is Alphabetical",
+      "environmental_dynamics": "The page transitioned to show an alphabetical list of all forums."
+    },
+    {
+      "initial_state": "Overview of a subreddit page containing multiple forums and navigation options",
+      "action": "click [315] where [315] is science",
+      "environmental_dynamics": "The page focused on the 'science' subreddit, showing discussion articles, upvote/downvote buttons, and comment counts related to scientific topics."
+    },
+    {
+      "initial_state": "GitHub-like news forum displaying multiple world news articles with voting and comment counts.",
+      "action": "hover [163] where [163] is No comments",
+      "environmental_dynamics": "The hover action on 'No comments' expanded the section to show additional details or options."
+    },
+    {
+      "initial_state": "Postmill user comment page with multiple articles commented by AllanfromWales1",
+      "action": "click [57] where [57] is Submit",
+      "environmental_dynamics": "Transitioned to submission creation page, presenting radio buttons for URL and Image submission options, a title and body textbox for the submission, formatting help, forum selection dropdown, and a 'Create submission' button."
+    },
+    {
+      "initial_state": "Create submission page with form fields for URL or Image, Title, Body, Markdown checkbox, Forum selection, and Create submission button",
+      "action": "click [395] where [395] is Create submission",
+      "environmental_dynamics": "An alert message 'Please fill in this field.' appeared, indicating that a required field was left unfilled before attempting to create the submission."
+    },
+    {
+      "initial_state": "Create submission page with an empty title field and a focused error alert",
+      "action": "type [137] [Workout Routine For Runners ] where [137] is ",
+      "environmental_dynamics": "The title field was filled with the text 'Workout Routine For Runners' and the focused state was retained."
+    },
+    {
+      "initial_state": "Create submission page with a partially filled out form including title and empty body field",
+      "action": "type [142] [Here are some valuable tips for runners to improve their performance and prevent injuries. Remember to stretch before and after your runs, stay hydrated, and adjust your pace according to your fitness level. For more detailed workout plans, please refer to the attached online resources. ] where [142] is ",
+      "environmental_dynamics": "The body text field filled with content and the preview section updated to reflect the new body text."
+    },
+    {
+      "initial_state": "Create submission page with a 'Choose one...' combobox for forum selection",
+      "action": "click [378] where [378] is Choose one\u2026",
+      "environmental_dynamics": "The combobox and its suggestions list expanded, showing a list of forum options for selection."
+    },
+    {
+      "initial_state": "Create submission page with a dropdown menu for selecting a forum, currently displaying 'Choose one\u2026'",
+      "action": "click [477] where [477] is Connecticut",
+      "environmental_dynamics": "The selected value in the forum combobox changed to 'Connecticut', and the dropdown menu closed."
+    },
+    {
+      "initial_state": "Create submission form visible with pre-filled fields for title and body",
+      "action": "click [395] where [395] is Create submission",
+      "environmental_dynamics": "The form submission led to a new page displaying the submitted content titled 'Sample Fitness Routine', showing comments and interaction options such as upvoting and downvoting."
+    },
+    {
+      "initial_state": "Sample Fitness Routine page with a textbox for comments and a checkbox for formatting help",
+      "action": "click [185] where [185] is ",
+      "environmental_dynamics": "The formatting help checkbox became focused and checked when clicked, expanding to reveal a table showing various Markdown syntax examples."
+    },
+    {
+      "initial_state": "A page displaying a sample fitness routine with a comment section where the user is composing a comment",
+      "action": "click [318] where [318] is Post",
+      "environmental_dynamics": "The composed comment was posted as a new comment thread, with the comment section now showing the posted comment and associated actions like 'Reply' and 'Edit'."
+    },
+    {
+      "initial_state": "A Postmill forum page displaying a fitness routine thread with a comment reply section visible, including a post button [357].",
+      "action": "click [357] where [357] is Post",
+      "environmental_dynamics": "An alert message appeared, indicating the need to fill in the comment field, as the post was attempted without entering any text."
+    },
+    {
+      "initial_state": "A webpage for editing a comment containing 'This routine has been really helpful for my fitness goals! Keep them coming!'",
+      "action": "type [175] [This routine has been very useful for my fitness goals. Keep them coming!] where [175] is Comment",
+      "environmental_dynamics": "The comment text was updated from 'This routine has been really helpful for my fitness goals! Keep them coming!' to 'This routine has been very useful for my fitness goals. Keep them coming!', and the textbox became focused."
+    },
+    {
+      "initial_state": "Page for editing a comment with fields for input and options to edit or delete the comment",
+      "action": "click [316] where [316] is Save",
+      "environmental_dynamics": "Navigated to the main thread of the post, displaying the original post and comment thread with options to view all comments and interact with the specific comment."
+    },
+    {
+      "initial_state": "Article page in a news forum with comments and voting functionality",
+      "action": "click [768] where [768] is Upvote",
+      "environmental_dynamics": "The upvote button for an article was clicked, and the count for upvotes updated from '0' to '1'."
+    },
+    {
+      "initial_state": "A Postmill webpage with various user comments and submissions visible, including an article with a score of 'Upvote: -1, Downvote: 0'",
+      "action": "click [778] where [778] is Downvote",
+      "environmental_dynamics": "The score of the article changed to 'Upvote: -1, Downvote: 1' after the downvote action was performed."
+    },
+    {
+      "initial_state": "Create submission page with form inputs and a 'Create submission' button",
+      "action": "click [395] where [395] is Create submission",
+      "environmental_dynamics": "The 'Create submission' button was clicked, but the page did not transition and no changes were visible, except the combobox was now focused."
+    },
+    {
+      "initial_state": "Create submission page with a dropdown menu labeled 'Choose one\u2026' closed",
+      "action": "click [378] where [378] is Choose one\u2026",
+      "environmental_dynamics": "The 'Choose one\u2026' combobox expanded to reveal a list of forum options for selection."
+    },
+    {
+      "initial_state": "Page displaying a user comment thread with a comment form visible",
+      "action": "click [353] where [353] is Post",
+      "environmental_dynamics": "A message indicating an invalid CSRF token and errors in form submission appeared, and the textbox no longer has focus."
+    },
+    {
+      "initial_state": "AskReddit homepage with a list of posts",
+      "action": "click [152] where [152] is Why bleaching your butthole isn\u2019t called changing your ring tone?",
+      "environmental_dynamics": "The page transitioned to a detailed post view displaying the comments section for 'Why bleaching your butthole isn\u2019t called changing your ring tone?'"
+    },
+    {
+      "initial_state": "Reddit post page with upvote and downvote buttons for submission.",
+      "action": "click [160] where [160] is Downvote",
+      "environmental_dynamics": "The upvote button's text changed to '\u22121', and a new 'Retract downvote' button was added for the submission."
+    },
+    {
+      "initial_state": "Reddit post page with comments and voting options visible",
+      "action": "click [160] where [160] is Retract downvote",
+      "environmental_dynamics": "The downvote button became inactive and the score of the post changed from \u22121 to 0."
+    },
+    {
+      "initial_state": "AskReddit page for a post titled 'Why bleaching your butthole isn\u2019t called changing your ring tone?' which includes 16 comments and has a '0' upvotes/downvotes count",
+      "action": "click [150] where [150] is Upvote",
+      "environmental_dynamics": "The upvote count changed from '0' to '1', reflecting a successful upvote action."
+    },
+    {
+      "initial_state": "Postmill forum page displaying a fitness routine submission with an upvote count of 0",
+      "action": "click [164] where [164] is Upvote",
+      "environmental_dynamics": "The upvote button was clicked, updating the upvote count to '1' and changing the button text to 'Retract upvote'."
+    },
+    {
+      "initial_state": "A postmill page displaying a fitness routine submission with a downvote count of -1 and a button labeled 'Retract downvote'.",
+      "action": "click [174] where [174] is Retract downvote",
+      "environmental_dynamics": "The downvote count changed to 0, and the button text updated to 'Downvote'."
+    },
+    {
+      "initial_state": "Postmill forum page with comments and upvote/downvote buttons visible",
+      "action": "click [577] where [577] is Upvote",
+      "environmental_dynamics": "The 'Upvote' button for a comment section was clicked, changing its text to 'Retract upvote' and incrementing the upvote count by 1."
+    },
+    {
+      "initial_state": "Recent comments page with multiple user comments",
+      "action": "click [570] where [570] is Edit",
+      "environmental_dynamics": "The page transitioned to an editing interface for a specific comment titled 'Editing comment', enabling inline editing and preview options."
+    },
+    {
+      "initial_state": "Editing submission page for 'Sample Fitness Routine' with fields for URL, title, body, and preview",
+      "action": "click [267] where [267] is Edit submission",
+      "environmental_dynamics": "The submission was successfully edited, and the page transitioned to the published submission view with a confirmation alert displaying the edit status, modified comment section, and updated title section."
+    }
+  ],
+  "shopping_admin": [
+    {
+      "initial_state": "Magento Admin Dashboard with various sales, catalog, customers, and other headings visible",
+      "action": "click [801] where [801] is http://ec2-54-162-4-248.compute-1.amazonaws.com:8083/admin/catalog/product/edit/id/20/",
+      "environmental_dynamics": "The browser navigated to the product edit page for 'Quest Lumaflex\u2122 Band' under the Catalog section, displaying detailed product configuration fields such as price, SKU, and attributes."
+    },
+    {
+      "initial_state": "Magento Admin Panel displaying a product editing screen with a menu bar, product details, and various attributes such as price, categories, and stock status.",
+      "action": "click [1024] where [1024] is ",
+      "environmental_dynamics": "The combobox for 'Weight' was expanded, showing selectable options related to the weight attribute."
+    },
+    {
+      "initial_state": "Magento Admin New Product creation page, displaying various product details fields and buttons such as Save, Save options, Back, Add Attribute, and a focused 'Price' input field.",
+      "action": "click [841] where [841] is Save",
+      "environmental_dynamics": "No change, as clicking the 'Save' button did not trigger any visible changes on the page."
+    },
+    {
+      "initial_state": "Magento Admin panel at the 'New Product' section of the inventory catalog with various product details and options editable.",
+      "action": "click [855] where [855] is ",
+      "environmental_dynamics": "A dialog titled 'Add Attribute' was opened, allowing the user to add new attributes to the product."
+    },
+    {
+      "initial_state": "Magento Admin New Product page with price set to $50",
+      "action": "click [841] where [841] is Save",
+      "environmental_dynamics": "A warning message appeared indicating that the URL key specified would generate a conflicting URL and suggested solutions to resolve the conflict."
+    },
+    {
+      "initial_state": "The 'Quest Lumaflex\u2122 Band' product page in the Magento Admin panel with various navigation and main content elements available.",
+      "action": "click [846] where [846] is \ue626 Back",
+      "environmental_dynamics": "Navigated back to the main product catalog page displaying a list of all products."
+    },
+    {
+      "initial_state": "Magento Admin products page with various product listings",
+      "action": "click [718] where [718] is Add Product",
+      "environmental_dynamics": "The page transitioned to a new product creation form with fields for product details and configurations."
+    },
+    {
+      "initial_state": "Magento Admin panel's Order Management page with Information tab active",
+      "action": "click [2432] where [2432] is Invoices",
+      "environmental_dynamics": "The tab selection changed to 'Invoices', bringing up a new tabpanel with invoice details and options."
+    },
+    {
+      "initial_state": "Magento Admin Orders page showing order details with an Invoices tab containing a single invoice record",
+      "action": "click [1545] where [1545] is View",
+      "environmental_dynamics": "Navigated to the detailed view of a specific invoice, displaying comprehensive order and account information, item invoiced details, and invoice history."
+    },
+    {
+      "initial_state": "Magento Admin Invoices page displaying order details and customer information",
+      "action": "click [687] where [687] is Send Email",
+      "environmental_dynamics": "A confirmation dialog appeared, asking if the invoice email should be sent to the customer, with OK and Cancel buttons."
+    },
+    {
+      "initial_state": "Order invoice page for a completed order with options to print, send email, and submit comments.",
+      "action": "click [1014] where [1014] is OK",
+      "environmental_dynamics": "A confirmation message 'You sent the message.' appeared, indicating that the email was successfully sent to the customer."
+    },
+    {
+      "initial_state": "Magento Admin Invoices page for Order # 000000299 with a comment textbox requesting a size change for a product and options to notify customer and make comment visible on storefront",
+      "action": "click [953] where [953] is Submit Comment",
+      "environmental_dynamics": "A new list item was added showing the submitted customer comment: 'Customer requested a size change for the Gwen Drawstring Bike Short from size 28 to size 30.'"
+    },
+    {
+      "initial_state": "Magento Admin panel on an order view page with an Invoices tab selected which displays invoice details in a table with selectable options",
+      "action": "click [1495] where [1495] is ",
+      "environmental_dynamics": "The 'Options' column header now includes a 'Select All' checkbox and the 'Options' button became focused."
+    },
+    {
+      "initial_state": "Magento admin page for creating a new shipment with a table containing shipment tracking options",
+      "action": "click [800] where [800] is Add Tracking Number",
+      "environmental_dynamics": "A new row appeared in the shipment tracking table with a combobox and textbox fields for 'Carrier' and 'Title', and a 'Number' textbox, making the 'Add Tracking Number' button focused."
+    },
+    {
+      "initial_state": "Magento Admin's New Shipment page with order details and shipment options editable",
+      "action": "click [927] where [927] is Submit Shipment",
+      "environmental_dynamics": "The 'Submit Shipment' button was clicked, but the page state did not change, remaining the same after the click action."
+    },
+    {
+      "initial_state": "New Shipment creation page for order #000000304 in the Magento Admin",
+      "action": "click [931] where [931] is Submit Shipment",
+      "environmental_dynamics": "The page transitioned to the order detail page for #000000304, reflecting a shipment confirmation with the status 'Processing', and updated buttons and sections reflecting the completed shipment step."
+    },
+    {
+      "initial_state": "A page for creating a new order with fields for customer selection",
+      "action": "click [720] where [720] is Create New Customer",
+      "environmental_dynamics": "The form expanded to include sections for account and address information, with options to submit the order and cancel."
+    },
+    {
+      "initial_state": "Magento product creation page with a list of input fields for product details and a variety of menu options for settings such as tax class and country of manufacture.",
+      "action": "click [962] where [962] is notice-W1BG018",
+      "environmental_dynamics": "The 'Tax Class' combobox was clicked and expanded, revealing the option menu items for selection."
+    },
+    {
+      "initial_state": "New product creation page in Magento Admin with detailed product attributes and options panels",
+      "action": "click [1079] where [1079] is New Category",
+      "environmental_dynamics": "A dialog titled 'New Category' appeared, allowing the creation of a new category with fields for category name and parent category selection."
+    },
+    {
+      "initial_state": "Product creation form on Magento Admin with various fields editable and ready to save",
+      "action": "click [841] where [841] is Save",
+      "environmental_dynamics": "The 'Save' button was clicked, but no additional changes were visible in the form or dialog; the dialog for creating a new category remains visible and focused."
+    },
+    {
+      "initial_state": "Magento Admin New Customer page, with several fields for customer account information and four buttons at the bottom (Back, Reset, Save and Continue Edit, Save Customer)",
+      "action": "click [739] where [739] is Save and Continue Edit",
+      "environmental_dynamics": "The 'First Name' field now has a red asterisk and appears focused, and error text 'This is a required field.' is displayed next to several required fields indicating that they are mandatory."
+    },
+    {
+      "initial_state": "Customer creation page in Magento Admin with fields for account and customer information, a 'Save Customer' button, and navigation elements",
+      "action": "click [741] where [741] is Save Customer",
+      "environmental_dynamics": "The page refreshed and transitioned to a customers list view with a message indicating the customer was saved, displaying a table of customer records and options for viewing and managing them."
+    },
+    {
+      "initial_state": "Magento Admin panel's New Customer form, with customer details filled out and email field focused",
+      "action": "click [741] where [741] is Save Customer",
+      "environmental_dynamics": "A warning message appeared indicating a customer with the same email address already exists in an associated website, preventing the account from being saved."
+    }
+  ],
+  "gitlab": [
+    {
+      "initial_state": "GitLab homepage with a visible search box and other project listings",
+      "action": "click [127] where [127] is ",
+      "environmental_dynamics": "The search bar expanded into a full search input, displaying default search suggestions and becoming ready for text input."
+    },
+    {
+      "initial_state": "Projects dashboard showing various GitLab project lists and details",
+      "action": "type [968] [tech recruiter ] where [968] is Search GitLab",
+      "environmental_dynamics": "The search bar now contains 'tech recruiter' and the results view updated to only show items related to that term."
+    },
+    {
+      "initial_state": "GitLab search results page with a specific search term, showing projects related to the search",
+      "action": "click [316] where [316] is Byte Blaze / byteblaze_tech_recruiter_project",
+      "environmental_dynamics": "Navigated to the project page 'Byte Blaze / byteblaze_tech_recruiter_project', displaying repository details, files, and a project-specific sidebar."
+    },
+    {
+      "initial_state": "GitLab repository page displaying issues, merge requests, and other project information",
+      "action": "click [352] where [352] is Merge requests",
+      "environmental_dynamics": "The view switched to the Merge requests section, presenting explanatory text and a 'New merge request' control."
+    },
+    {
+      "initial_state": "GitLab merge requests page for the project with a 'New merge request' link",
+      "action": "click [599] where [599] is New merge request",
+      "environmental_dynamics": "The browser opened the 'New merge request' form showing selectors for source and target branches and related fields."
+    },
+    {
+      "initial_state": "GitLab page for creating a new merge request, with branch selectors empty",
+      "action": "click [713] where [713] is Compare branches and continue",
+      "environmental_dynamics": "An alert banner appeared stating the form contains an error because both source and target branches must be selected."
+    },
+    {
+      "initial_state": "New merge request page with branch selectors visible",
+      "action": "click [628] where [628] is Select source branch",
+      "environmental_dynamics": "The source-branch selector dropdown opened, revealing a search box and a list of branches to choose from."
+    },
+    {
+      "initial_state": "New merge request page after choosing identical source and target branches",
+      "action": "click [720] where [720] is Compare branches and continue",
+      "environmental_dynamics": "The prior error message updated to 'You must select different branches', reflecting the failed validation."
+    },
+    {
+      "initial_state": "GitLab project page showing top navigation bar",
+      "action": "click [165] where [165] is ",
+      "environmental_dynamics": "The 'Merge requests' global menu expanded, listing shortcuts such as 'Assigned to you' and 'Review requests for you'."
+    },
+    {
+      "initial_state": "GitLab project page with focus in main content",
+      "action": "click [75] where [75] is Skip to content",
+      "environmental_dynamics": "Jumped to the Projects dashboard, replacing the view with a list of accessible projects and their metadata."
+    },
+    {
+      "initial_state": "GitLab Dashboard displaying project list and navigation links",
+      "action": "click [175] where [175] is Help",
+      "environmental_dynamics": "A help dropdown opened, exposing items like 'What's new', 'Support', and 'Keyboard shortcuts'."
+    },
+    {
+      "initial_state": "GitLab projects dashboard",
+      "action": "click [468] where [468] is Byte Blaze / byteblaze_tech_recruiter_project",
+      "environmental_dynamics": "Navigated back to the 'byteblaze_tech_recruiter_project' repository page showing files and project overview."
+    },
+    {
+      "initial_state": "GitLab repository page showing file list",
+      "action": "click [688] where [688] is ",
+      "environmental_dynamics": "Switched to the GitLab Web IDE, loading the multi-pane editor interface for code editing and committing."
+    },
+    {
+      "initial_state": "GitLab repository page with 'Create new...' control in the header",
+      "action": "click [212] where [212] is New issue",
+      "environmental_dynamics": "Opened the New Issue form within the project, displaying title, description and assignee inputs."
+    },
+    {
+      "initial_state": "GitLab 'New Issue' form with empty fields",
+      "action": "type [605] [Review my pull request changes ] where [605] is Title (required)",
+      "environmental_dynamics": "The title field was populated with 'Review my pull request changes'."
+    },
+    {
+      "initial_state": "GitLab issue creation page with the form filled",
+      "action": "click [853] where [853] is Create issue",
+      "environmental_dynamics": "The page redirected to a newly created issue, showing its details and confirming successful creation."
+    },
+    {
+      "initial_state": "GitLab issue page for 'Review my pull request changes'",
+      "action": "click [754] where [754] is Sort or filter",
+      "environmental_dynamics": "A sort/filter panel opened, offering options to reorganise the issue activity feed."
+    },
+    {
+      "initial_state": "GitLab issue page",
+      "action": "click [676] where [676] is Create merge request",
+      "environmental_dynamics": "Navigated to the New Merge Request screen pre-filled with a branch created from this issue."
+    },
+    {
+      "initial_state": "New merge request page reached from issue",
+      "action": "go_back",
+      "environmental_dynamics": "Returned to the originating issue page, restoring its timeline and controls."
+    },
+    {
+      "initial_state": "GitLab issue page after returning",
+      "action": "click [688] where [688] is Review my pull request changes",
+      "environmental_dynamics": "A new activity entry appeared stating a branch was created to address the issue."
+    },
+    {
+      "initial_state": "GitLab dashboard with 'Create new...' visible",
+      "action": "click [140] where [140] is ",
+      "environmental_dynamics": "The 'Create new...' dropdown opened, offering to create a new project, group, or snippet."
+    },
+    {
+      "initial_state": "GitLab Projects dashboard",
+      "action": "click [147] where [147] is New project/repository",
+      "environmental_dynamics": "Loaded the 'Create new project' page with options for blank, template, or import."
+    },
+    {
+      "initial_state": "GitLab 'New Project' page",
+      "action": "click [237] where [237] is Create blank project ...",
+      "environmental_dynamics": "Displayed the blank-project creation form with inputs for name, URL, and visibility."
+    },
+    {
+      "initial_state": "Blank project creation form",
+      "action": "type [269] [SecureLoginProject ] where [269] is Project name",
+      "environmental_dynamics": "Upon submitting, a new project 'SecureLoginProject' was created and its project overview page loaded."
+    },
+    {
+      "initial_state": "SecureLoginProject repository page with success alert",
+      "action": "click [600] where [600] is Dismiss",
+      "environmental_dynamics": "The creation success alert was closed and removed from the interface."
+    },
+    {
+      "initial_state": "SecureLoginProject project overview",
+      "action": "click [363] where [363] is CI/CD",
+      "environmental_dynamics": "Navigated to the CI/CD area, revealing sub-sections such as Pipelines, Jobs, and Schedules."
+    },
+    {
+      "initial_state": "CI/CD Pipelines page",
+      "action": "click [619] where [619] is Run pipeline",
+      "environmental_dynamics": "Opened the 'Run pipeline' form requiring branch name and variables before execution."
+    },
+    {
+      "initial_state": "Run pipeline form with default settings",
+      "action": "click [622] where [622] is Run pipeline",
+      "environmental_dynamics": "The Run pipeline button became disabled, indicating the pipeline submission is being processed or blocked by validation."
+    },
+    {
+      "initial_state": "Run pipeline page with controls",
+      "action": "click [624] where [624] is Cancel",
+      "environmental_dynamics": "Returned to the Pipelines list view, which showed a message that no pipelines currently exist."
+    },
+    {
+      "initial_state": "Pipelines list with navigation sidebar",
+      "action": "click [617] where [617] is CI lint",
+      "environmental_dynamics": "Navigated to the CI Lint tool, loading a YAML editor and a Validate button."
+    },
+    {
+      "initial_state": "CI Lint page with YAML content in editor",
+      "action": "click [708] where [708] is Validate",
+      "environmental_dynamics": "Validation ran and surfaced syntax error alerts below the editor."
+    },
+    {
+      "initial_state": "CI Lint page after validation error",
+      "action": "click [715] where [715] is Clear",
+      "environmental_dynamics": "The editor content was cleared, resetting the validation state."
+    },
+    {
+      "initial_state": "SecureLoginProject navigation sidebar",
+      "action": "click [499] where [499] is Settings",
+      "environmental_dynamics": "Opened Project Settings, exposing subsections like General, Integrations, and Advanced."
+    },
+    {
+      "initial_state": "Project Settings \u2013 General tab",
+      "action": "type [631] [A tech project that focuses on secure login functionalities. ] where [631] is Description",
+      "environmental_dynamics": "The description field was updated with the provided text and became active."
+    },
+    {
+      "initial_state": "Project Settings page with modified description",
+      "action": "click [651] where [651] is Save changes",
+      "environmental_dynamics": "A confirmation banner appeared stating the project was successfully updated."
+    },
+    {
+      "initial_state": "Project Settings with visibility & features section collapsed",
+      "action": "click [662] where [662] is Expand",
+      "environmental_dynamics": "The visibility, features, and permissions section expanded to show detailed feature toggles."
+    },
+    {
+      "initial_state": "Project Settings with detailed feature toggles visible",
+      "action": "click [703] where [703] is Issues",
+      "environmental_dynamics": "The Issues feature was disabled, and its related access-level controls were greyed out."
+    },
+    {
+      "initial_state": "User settings \u2013 Edit Profile page",
+      "action": "type [509] [She/Her ] where [509] is Pronouns",
+      "environmental_dynamics": "The Pronouns field was filled with 'She/Her'."
+    },
+    {
+      "initial_state": "Edit Profile form with updated pronouns",
+      "action": "click [595] where [595] is Update profile settings",
+      "environmental_dynamics": "A success message 'Profile was successfully updated' appeared at the top of the page."
+    },
+    {
+      "initial_state": "Edit Profile page showing activity settings",
+      "action": "click [575] where [575] is Private profile",
+      "environmental_dynamics": "The 'Private profile' checkbox toggled on, hiding activity-related personal information in the user's profile."
+    }
+  ],
+  "shopping": [
+    {
+      "initial_state": "Product listing page with multiple products, each having options such as \u201cAdd to Compare\u201d.",
+      "action": "click [1748] where [1748] is \\ue61f Add to Compare",
+      "environmental_dynamics": "An alert message confirms that \u201cTony Chachere's More Spice Creole Seasoning - 14 oz\u201d has been added to the comparison list."
+    },
+    {
+      "initial_state": "Product page for \u201cLobster Cobbler Pot Pie - Gourmet Frozen Seafood Appetizers (Set of 8 Trays)\u201d with an \u201cAdd to Cart\u201d button.",
+      "action": "click [1574] where [1574] is Add to Cart",
+      "environmental_dynamics": "An alert confirms the product was added to the cart and the \u201cMy Cart\u201d counter increases from 4 \u2192 5."
+    },
+    {
+      "initial_state": "Product detail page for the same Lobster Cobbler Pot Pie with wish-list controls visible.",
+      "action": "click [1579] where [1579] is Add to Wish List",
+      "environmental_dynamics": "The view switches to the \u201cMy Wish List\u201d page, now listing the newly-added item."
+    },
+    {
+      "initial_state": "My Wish List page showing three items.",
+      "action": "click [1605] where [1605] is Remove item",
+      "environmental_dynamics": "After removal the browser unexpectedly loads a \u201c404 Not Found\u201d page; the wish-list count drops to 2."
+    },
+    {
+      "initial_state": "404 Not Found page with a list of recently viewed products.",
+      "action": "click [1595] where [1595] is  (product thumbnail)",
+      "environmental_dynamics": "Navigates away from the error page to the product page for \u201cLobster Cobbler Pot Pie\u2026\u201d, restoring normal browsing."
+    },
+    {
+      "initial_state": "Shopping-cart page with subtotal only (shipping line absent).",
+      "action": "click [2078] where [2078] is  (estimate-shipping control)",
+      "environmental_dynamics": "A new row \u201cShipping (Flat Rate \u2013 Fixed) $40.00\u201d appears and the order total increases accordingly."
+    },
+    {
+      "initial_state": "Shopping-cart page containing 11 items.",
+      "action": "click [2082] where [2082] is Move to Wishlist",
+      "environmental_dynamics": "Item \u201cKitsch Pro Dual Edge Brush\u2026\u201d is moved from cart to wish list; cart count drops 11 \u2192 10 and an alert confirms the move."
+    },
+    {
+      "initial_state": "Shopping-cart summary with checkout button visible.",
+      "action": "click [2031] where [2031] is Proceed to Checkout",
+      "environmental_dynamics": "The browser loads the \u201cCheckout\u201d page showing shipping-address and shipping-method steps."
+    },
+    {
+      "initial_state": "Checkout page (shipping methods) with a \u201cNext\u201d button focused.",
+      "action": "click [816] where [816] is Next",
+      "environmental_dynamics": "Payment-information and order-summary panels appear; the \u201cPlace Order\u201d button becomes available."
+    },
+    {
+      "initial_state": "Checkout page with payment panel visible.",
+      "action": "click [1418] where [1418] is Place Order",
+      "environmental_dynamics": "The button enters a loading state; order processing begins."
+    },
+    {
+      "initial_state": "Payment form (credit-card field) on checkout.",
+      "action": "type [992] [credit card]",
+      "environmental_dynamics": "Submission completes and the site redirects to an order-success/thank-you page."
+    },
+    {
+      "initial_state": "Thank-you page after successful purchase.",
+      "action": "click [1366] where [1366] is Continue Shopping",
+      "environmental_dynamics": "User is returned to the store homepage with product showcases visible."
+    },
+    {
+      "initial_state": "My Wish List page with no items.",
+      "action": "click [1528] where [1528] is My Wish List (link repeated)",
+      "environmental_dynamics": "No change \u2013 the control was clicked but the page state remained the same (expected navigation did not occur)."
+    },
+    {
+      "initial_state": "Home & Kitchen category page containing many items.",
+      "action": "Attempt to perform \"click\" on element \"[598]\" but element not found",
+      "environmental_dynamics": "No change \u2013 the attempted action failed because the target element did not exist."
+    },
+    {
+      "initial_state": "Product page for \u201cPre-baked Gingerbread House Kit \u2026\u201d with collapsed \u2018Reviews\u2019.",
+      "action": "click [1500] where [1500] is Add Your Review",
+      "environmental_dynamics": "The Reviews tab expands, showing existing reviews plus a form with rating, nickname, summary, and review fields."
+    },
+    {
+      "initial_state": "Same product page with review form filled out.",
+      "action": "click [1717] where [1717] is Submit Review",
+      "environmental_dynamics": "A confirmation alert appears indicating the submitted review is awaiting moderation; the form resets."
+    },
+    {
+      "initial_state": "Products Comparison List showing three products side-by-side.",
+      "action": "click [1453] where [1453] is \\ue616 Remove Product",
+      "environmental_dynamics": "The selected product row is removed from the comparison table; list now shows two products."
+    },
+    {
+      "initial_state": "Product detail page with account controls (signed-in).",
+      "action": "click [266] where [266] is Sign Out",
+      "environmental_dynamics": "User is logged out; a page displays \u201cYou are signed out\u201d with automatic redirection to the homepage."
+    },
+    {
+      "initial_state": "Product page for \u201cV8 +Energy \u2026\u201d with cart count 7.",
+      "action": "click [1643] where [1643] is Add to Cart",
+      "environmental_dynamics": "Button label changes to \u201cAdded\u201d; cart count increments to 8 confirming the item was added."
+    }
+  ]
+}

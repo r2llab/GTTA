@@ -1,0 +1,197 @@
+[
+  {
+    "initial_state": "Dashboard page of Magento Admin with navigation menu listing options including DASHBOARD, SALES, CATALOG, CUSTOMERS, MARKETING, CONTENT, REPORTS, STORES, SYSTEM, and FIND PARTNERS & EXTENSIONS",
+    "action": "click [207] where [207] is \ue603 CUSTOMERS",
+    "environmental_dynamics": "The 'CUSTOMERS' option in the navigation menu was focused, revealing an expanded dropdown menu with options 'All Customers', 'Now Online', 'Login as Customer Log', and 'Customer Groups'."
+  },
+  {
+    "initial_state": "Magento Admin Dashboard with sections for DASHBOARD, SALES, CATALOG, CUSTOMERS, MARKETING, CONTENT, REPORTS, STORES, SYSTEM, and FIND PARTNERS & EXTENSIONS.",
+    "action": "click [214] where [214] is All Customers",
+    "environmental_dynamics": "The page transitioned to display the 'All Customers' section within the CUSTOMERS menu, showing a customer management table with options to add new customers, filter and export data, and details of individual customers."
+  },
+  {
+    "initial_state": "Customers / Customers / Magento Admin page displaying a list of customer records",
+    "action": "click [716] where [716] is Add New Customer",
+    "environmental_dynamics": "Navigation shifted to a new page titled 'New Customer' with form fields for creating a new customer account."
+  },
+  {
+    "initial_state": "Magneto Admin panel's 'New Customer' form with customer account information fields, including First Name, Last Name, and other details",
+    "action": "type [808] [John ] where [808] is ",
+    "environmental_dynamics": "The 'First Name' textbox expanded and became focused, displaying the typed text 'John'."
+  },
+  {
+    "initial_state": "Magento admin panel's customer creation page, with the 'First Name *' textbox containing the text 'John' and focused",
+    "action": "type [820] [Doe ] where [820] is Last Name *",
+    "environmental_dynamics": "The 'Last Name *' textbox was populated with 'Doe', and the focus shifted to this textbox."
+  },
+  {
+    "initial_state": "Magento Admin customer creation page with form fields for customer details such as name, email, etc.",
+    "action": "click [823] where [823] is ",
+    "environmental_dynamics": "The focus moved to the 'Name Suffix' textbox field."
+  },
+  {
+    "initial_state": "New customer creation form in Magento Admin with fields for customer information including Name Suffix focused",
+    "action": "type [826] [Smith ] where [826] is Name Suffix",
+    "environmental_dynamics": "The textbox for 'Name Suffix' was populated with 'Smith' and the field is no longer focused."
+  },
+  {
+    "initial_state": "Magento customer creation page with account information fields, including name, email, and other details.",
+    "action": "type [832] [johndoe@example.com ] where [832] is ",
+    "environmental_dynamics": "The email field was populated with the text 'johndoe@example.com' and became focused."
+  },
+  {
+    "initial_state": "Customer creation page in Magento Admin with fields for account and customer information, a 'Save Customer' button, and navigation elements",
+    "action": "click [741] where [741] is Save Customer",
+    "environmental_dynamics": "The page refreshed and transitioned to a customers list view with a message indicating the customer was saved, displaying a table of customer records and options for viewing and managing them."
+  },
+  {
+    "initial_state": "Magento Admin Customers page, displaying customer records and 'Add New Customer' button",
+    "action": "click [714] where [714] is Add New Customer",
+    "environmental_dynamics": "Navigated to a new page for creating a new customer, displaying fields for account information and a form to fill in customer details."
+  },
+  {
+    "initial_state": "Magento Admin panel on a New Customer form with dropdowns for website association and customer group selection",
+    "action": "type [785] [Retailer ] where [785] is notice-P1R37PP",
+    "environmental_dynamics": "The customer group dropdown was changed from 'General' to 'Retailer'."
+  },
+  {
+    "initial_state": "Magento Admin New Customer page, with several fields for customer account information and four buttons at the bottom (Back, Reset, Save and Continue Edit, Save Customer)",
+    "action": "click [739] where [739] is Save and Continue Edit",
+    "environmental_dynamics": "The 'First Name' field now has a red asterisk and appears focused, and error text 'This is a required field.' is displayed next to several required fields indicating that they are mandatory."
+  },
+  {
+    "initial_state": "Magento Admin panel customer creation page with focused input field on First Name",
+    "action": "click [737] where [737] is Reset",
+    "environmental_dynamics": "The focus shifted to the 'Reset' button, potentially preparing to revert form inputs to their default values."
+  },
+  {
+    "initial_state": "Customer creation form page in Magento Admin with various fields and buttons for customer account information",
+    "action": "click [739] where [739] is Save and Continue Edit",
+    "environmental_dynamics": "The form did not change visually, but the 'Save and Continue Edit' button was clicked, potentially saving the current form data and possibly loading or refreshing the page with the next set of information fields."
+  },
+  {
+    "initial_state": "Magento Admin panel new customer form opened with fields for customer information",
+    "action": "type [808] [John ] where [808] is First Name * This is a required field.",
+    "environmental_dynamics": "The 'First Name * This is a required field.' textbox was filled with the content 'John' and received focus, as indicated by the presence of the value 'John' and focused state."
+  },
+  {
+    "initial_state": "Magento Admin panel's new customer form page with 'First Name' and associated input fields filled and focused on 'First Name'",
+    "action": "type [820] [Doe ] where [820] is Last Name * This is a required field.",
+    "environmental_dynamics": "The focus shifted to the 'Last Name' input field and the value of 'Last Name' field was updated to 'Doe'."
+  },
+  {
+    "initial_state": "Magento Admin panel's New Customer page, showing various input fields for customer account details.",
+    "action": "click [823] where [823] is ",
+    "environmental_dynamics": "The 'Name Suffix' textbox received focus, becoming the active input field for text entry."
+  },
+  {
+    "initial_state": "Magento Admin New Customer page with a form for customer details filled in partially and the 'Name Suffix' textbox unfilled and focused",
+    "action": "type [826] [Smith ] where [826] is Name Suffix",
+    "environmental_dynamics": "The value 'Smith' was typed into the 'Name Suffix' textbox, and the textbox is now filled with the text 'Smith' and remains focused."
+  },
+  {
+    "initial_state": "Magento Admin - New Customer Page with form fields for customer information",
+    "action": "type [832] [johndoe@example.com ] where [832] is Email * This is a required field.",
+    "environmental_dynamics": "The 'Email' input field was updated with the value 'johndoe@example.com', and it gained focus."
+  },
+  {
+    "initial_state": "Magento Admin panel's New Customer form, with customer details filled out and email field focused",
+    "action": "click [741] where [741] is Save Customer",
+    "environmental_dynamics": "A message appeared indicating a customer with the same email address already exists in an associated website, and the email field input changed from 'johndoe@example.com' to a non-focused state."
+  },
+  {
+    "initial_state": "Magento Admin panel with a 'New Customer' form displayed",
+    "action": "go_back",
+    "environmental_dynamics": "The page did not change; the 'go_back' action likely attempted to navigate to a previous page, but no change was observed in the current form page."
+  },
+  {
+    "initial_state": "A Magento Admin new customer creation page with various fields such as First Name, Last Name, Email etc.",
+    "action": "type [808] [John ] where [808] is ",
+    "environmental_dynamics": "The 'First Name' textbox field was populated with the content 'John', and it became the focused element."
+  },
+  {
+    "initial_state": "Magento Admin customer creation page with 'First Name *' and 'Last Name *' fields partially filled",
+    "action": "type [820] [Doe ] where [820] is Last Name *",
+    "environmental_dynamics": "The 'Last Name *' field now contains the value 'Doe' and is in focus."
+  },
+  {
+    "initial_state": "Magento Admin customer creation form with various input fields, with the 'Last Name' field having focus",
+    "action": "type [826] [Smith ] where [826] is Name Suffix",
+    "environmental_dynamics": "The 'Name Suffix' textbox received focus and was populated with the text 'Smith'."
+  },
+  {
+    "initial_state": "Customer creation form on Magento Admin panel with Name Suffix field focused",
+    "action": "type [832] [johndoe@example.com ] where [832] is ",
+    "environmental_dynamics": "The email field was populated with the value 'johndoe@example.com' and is now focused."
+  },
+  {
+    "initial_state": "Magento Admin panel new customer form with customer details being filled",
+    "action": "click [741] where [741] is Save Customer",
+    "environmental_dynamics": "A warning message appeared indicating a customer with the same email already exists in an associated website, preventing the account from being saved."
+  },
+  {
+    "initial_state": "Detail view for a new customer creation on the Magento Admin panel",
+    "action": "click [720] where [720] is \ue626 Back",
+    "environmental_dynamics": "Navigated back to the customer management dashboard, showing a list of existing customers."
+  },
+  {
+    "initial_state": "Customers list view page in Magento Admin with add new customer button",
+    "action": "click [716] where [716] is Add New Customer",
+    "environmental_dynamics": "The browser navigated to a new page for adding a new customer, displaying account information fields and buttons for back, reset, saving edits, and saving the customer."
+  },
+  {
+    "initial_state": "Magneto Admin customer creation page focused on account information fields",
+    "action": "type [808] [John ] where [808] is ",
+    "environmental_dynamics": "The 'First Name' textbox was filled with the value 'John' and the field became focused."
+  },
+  {
+    "initial_state": "Magento Admin new customer creation page with fields like First Name and Last Name present",
+    "action": "type [820] [Doe ] where [820] is ",
+    "environmental_dynamics": "The Last Name field was filled with 'Doe' and subsequently became the focused input field."
+  },
+  {
+    "initial_state": "A customer creation page in the Magento Admin interface with fields for account information, customer details, and options for action buttons like 'Back', 'Reset', 'Save and Continue Edit', 'Save Customer'. The 'Last Name *' field is focused.",
+    "action": "type [826] [Smith ] where [826] is Name Suffix",
+    "environmental_dynamics": "The 'Name Suffix' field was populated with the value 'Smith' and gained focus."
+  },
+  {
+    "initial_state": "Magento Admin New Customer page with fields for customer information, including email",
+    "action": "type [832] [johndoe@example.com ] where [832] is Email *",
+    "environmental_dynamics": "The email field 'Email *' now contains the value 'johndoe@example.com' and is focused."
+  },
+  {
+    "initial_state": "New Customer creation form page in Magento Admin",
+    "action": "click [741] where [741] is Save Customer",
+    "environmental_dynamics": "A message appeared indicating that a customer with the same email address already exists in an associated website."
+  },
+  {
+    "initial_state": "Page for creating a new customer in the Magento Admin interface",
+    "action": "go_back",
+    "environmental_dynamics": "The page navigated back to the previous view in the browser history, likely the customers list or a similar customer management overview page."
+  },
+  {
+    "initial_state": "Magento Admin customer creation page with various customer detail fields",
+    "action": "type [808] [John  ] where [808] is ",
+    "environmental_dynamics": "The 'First Name' textbox has been populated with 'John ', and the field is now focused."
+  },
+  {
+    "initial_state": "Form page for creating a new customer in the Magento Admin, with the first name field focused and pre-filled with 'John ' and last name field showing default focus.",
+    "action": "type [820] [Doe ] where [820] is Last Name *",
+    "environmental_dynamics": "The last name field was populated with 'Doe' and became the focused element on the page."
+  },
+  {
+    "initial_state": "A Magento customer creation page with input fields for customer information including Name Suffix, currently empty",
+    "action": "type [826] [Smith ] where [826] is Name Suffix",
+    "environmental_dynamics": "The Name Suffix field now contains the text 'Smith'."
+  },
+  {
+    "initial_state": "Magento Admin panel's New Customer page with customer account information form",
+    "action": "type [832] [johndoe@example.com  ] where [832] is ",
+    "environmental_dynamics": "The email field ('Email *') was populated with the value 'johndoe@example.com' and received focus."
+  },
+  {
+    "initial_state": "Magento Admin New Customer creation page with forms for account and customer information",
+    "action": "click [741] where [741] is Save Customer",
+    "environmental_dynamics": "A warning message appeared indicating that a customer with the same email address already exists in an associated website."
+  }
+]

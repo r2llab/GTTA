@@ -1,0 +1,197 @@
+[
+  {
+    "initial_state": "Product showcase page on One Stop Market with a list of products",
+    "action": "click [1374] where [1374] is Image",
+    "environmental_dynamics": "The page transitioned to the product details page for 'Pre-baked Gingerbread House Kit Value Pack, 17 oz., Pack of 2, Total 34 oz.'"
+  },
+  {
+    "initial_state": "A product page for a pre-baked gingerbread house kit on an online shopping site",
+    "action": "Attempt to perfom \"click\" on element \"[1437]\" but no matching element found. Please check the observation more carefully.",
+    "environmental_dynamics": "No change"
+  },
+  {
+    "initial_state": "Detailed product page of 'Pre-baked Gingerbread House Kit Value Pack', displaying sections such as overview and reviews count.",
+    "action": "click [1539] where [1539] is Reviews (1)",
+    "environmental_dynamics": "The reviews section was expanded and focused, revealing a detailed customer review and providing fields for submitting a new review."
+  },
+  {
+    "initial_state": "Product page for 'Pre-baked Gingerbread House Kit Value Pack, 17 oz., Pack of 2, Total 34 oz.' with a 'Your Rating' section where the radio buttons were not checked",
+    "action": "click [1577] where [1577] is Rating \ue605\ue605\ue605\ue605\ue605 5 stars",
+    "environmental_dynamics": "The 'Rating 5 stars' radio button was selected, changing its visual state and making it the selected rating option."
+  },
+  {
+    "initial_state": "Product page for a pre-baked gingerbread house kit, including a review section with a form for submitting a review.",
+    "action": "type [1590] [Quality time with kids ] where [1590] is ",
+    "environmental_dynamics": "The 'Summary' field in the review submission form was filled with the text 'Quality time with kids'."
+  },
+  {
+    "initial_state": "Product detail page for a gingerbread house kit with a customer review form where the review text field is empty",
+    "action": "type [1595] [Creating memories with children is priceless, even if it means taking the time to assemble the gingerbread house kit. The product is worth every penny! ] where [1595] is Review*",
+    "environmental_dynamics": "The review text field is now populated with the text 'Creating memories with children is priceless, even if it means taking the time to assemble the gingerbread house kit. The product is worth every penny!'"
+  },
+  {
+    "initial_state": "Product page of a Pre-baked Gingerbread House Kit with review form open and filled",
+    "action": "click [1598] where [1598] is Submit Review",
+    "environmental_dynamics": "A success notification indicating the review has been submitted for moderation appeared."
+  },
+  {
+    "initial_state": "A product page for a pre-baked gingerbread house kit",
+    "action": "click [1455] where [1455] is Add to Wish List",
+    "environmental_dynamics": "The page navigated to the 'My Wish List' page, displaying the newly added gingerbread house kit along with other items."
+  },
+  {
+    "initial_state": "User Interface on My Wish List page with recently ordered list templates showing",
+    "action": "click [1617] where [1617] is ",
+    "environmental_dynamics": "One item in the 'Recently Ordered' section now has its 'Add to Cart' checkbox checked."
+  },
+  {
+    "initial_state": "My Wish List page, displaying items in a list including 'Uttermost Volterra Crackled Taupe-Gray Ceramic Table Lamp' with price and remove options",
+    "action": "click [1437] where [1437] is ",
+    "environmental_dynamics": "Navigated to the product detail page of the 'Uttermost Volterra Crackled Taupe-Gray Ceramic Table Lamp', showing detailed information, reviews, and options to add to cart or wish list."
+  },
+  {
+    "initial_state": "Product page for a ceramic table lamp with options to add to cart, compare, and wishlist",
+    "action": "click [1440] where [1440] is Add to Wish List",
+    "environmental_dynamics": "The page transitioned to the 'My Wish List' page with a confirmation alert indicating the item has been added to the wish list, showing details of the newly added item along with existing items in the wish list."
+  },
+  {
+    "initial_state": "My Wish List page on an eCommerce website",
+    "action": "click [1557] where [1557] is Account Information",
+    "environmental_dynamics": "The page changed to the 'Account Information' section under My Account, focusing on profile editing features."
+  },
+  {
+    "initial_state": "A webpage displaying 'Account Information' with elements including a banner, navigation menu, account details editing section, wish list, and other informational sections.",
+    "action": "click [1612] where [1612] is \ue616 Remove This Item",
+    "environmental_dynamics": "A confirmation message was displayed indicating that 'Uttermost Volterra Crackled Taupe-Gray Ceramic Table Lamp' was removed from the wish list, reducing the item count in the wish list from 3 to 2."
+  },
+  {
+    "initial_state": "An account information page with various options and a 'My Wish List' section containing two products.",
+    "action": "click [1589] where [1589] is Add to Cart",
+    "environmental_dynamics": "A notification appeared informing that 'Pre-baked Gingerbread House Kit Value Pack, 17 oz., Pack of 2, Total 34 oz.' was added to the shopping cart."
+  },
+  {
+    "initial_state": "Account information page with a list of sections including My Wish List which displays 'You have no items in your wish list.'",
+    "action": "click [1461] where [1461] is ",
+    "environmental_dynamics": "The 'My Wish List' section updated to display '1 item', and a new list item with a product was added showing the product 'Kitsch Pro Dual Edge Brush and Comb, 2-in-1 Edge Control and Hair Brush, Hairline brush, 2 Pack'."
+  },
+  {
+    "initial_state": "Account Information page with sections for first name, last name, email change, password change, and remote shopping assistance.",
+    "action": "click [1463] where [1463] is Stored Payment Methods",
+    "environmental_dynamics": "Navigated to the 'Stored Payment Methods' page, which states 'You have no stored payment methods.'"
+  },
+  {
+    "initial_state": "Account page with sections for My Account, Recently Ordered items, and Wish List",
+    "action": "click [1457] where [1457] is ",
+    "environmental_dynamics": "No change"
+  },
+  {
+    "initial_state": "Page displaying stored payment methods, navigation links, and a list of recently ordered items and wish list items.",
+    "action": "click [1461] where [1461] is My Product Reviews",
+    "environmental_dynamics": "Navigated to the 'My Product Reviews' section which now displays a list of product reviews with pagination options."
+  },
+  {
+    "initial_state": "My Product Reviews page, listing reviews with columns for Created, Product Name, Rating, Review, and an action column.",
+    "action": "click [1451] where [1451] is Rating: \ue605\ue605\ue605\ue605\ue605 \ue605\ue605\ue605\ue605\ue605 20%",
+    "environmental_dynamics": "No change, but the rating cell was clicked."
+  },
+  {
+    "initial_state": "My Product Reviews page listing one product review",
+    "action": "click [1461] where [1461] is See Details",
+    "environmental_dynamics": "The page transitioned to 'Review Details', showing a detailed view of the product review, including an image, description, rating, and additional review options."
+  },
+  {
+    "initial_state": "A webpage displaying product review details and user account information, including navigation menus and product lists.",
+    "action": "click [1569] where [1569] is ",
+    "environmental_dynamics": "No change was observed as clicking on an 'Add to Cart' label likely did not trigger any visible UI update."
+  },
+  {
+    "initial_state": "A product review page detailing pre-baked gingerbread house kits, featuring user reviews and options to add products to the compare list.",
+    "action": "click [1533] where [1533] is \ue616 Remove This Item",
+    "environmental_dynamics": "A dialog box appeared confirming the removal of an item from the compare list with options to cancel or proceed with the removal."
+  },
+  {
+    "initial_state": "Product review page for 'Pre-baked Gingerbread House Kit Value Pack, 17 oz., Pack of 2, Total 34 oz.'",
+    "action": "click [1531] where [1531] is ",
+    "environmental_dynamics": "A dialog appeared, indicating that the 'Remove This Item' option for 'Belle Of The Ball Princess Sprinkle Mix' in the Compare Products list was clicked, with options to Cancel or confirm the removal."
+  },
+  {
+    "initial_state": "A webpage displaying details of a review about a gingerbread house kit, with a 'Compare Products' section listing three items, one of which is currently focused for removal.",
+    "action": "click [1533] where [1533] is \ue616 Remove This Item",
+    "environmental_dynamics": "A confirmation dialog appeared to ask whether the user is sure about removing the item from the Compare Products list."
+  },
+  {
+    "initial_state": "One-stop market product details page displaying review details of a gingerbread house kit",
+    "action": "click [1631] where [1631] is \ue616 Remove This Item",
+    "environmental_dynamics": "A modal dialog appears asking if the user is sure they want to remove the item from the compare products list with options 'Cancel' and 'OK'."
+  },
+  {
+    "initial_state": "A product review details page with customer reviews and the option to add a new review",
+    "action": "click [1460] where [1460] is Add Your Review",
+    "environmental_dynamics": "The 'Add Your Review' section became interactive, enabling a user to submit a new review."
+  },
+  {
+    "initial_state": "Product page for 'Pre-baked Gingerbread House Kit Value Pack' with SKU information and rating section",
+    "action": "click [1484] where [1484] is ",
+    "environmental_dynamics": "The element with id 1484, containing SKU information and rating details, was interacted with, possibly triggering a reveal of additional review or rating-related information."
+  },
+  {
+    "initial_state": "Product page for a gingerbread house kit",
+    "action": "click [1527] where [1527] is Add to Wish List",
+    "environmental_dynamics": "The page transitioned to My Wish List, showing the gingerbread house kit added to the wish list under an updated wish list summary, displaying 2 items."
+  },
+  {
+    "initial_state": "My Wish List page displaying 2 items in the wish list",
+    "action": "click [1501] where [1501] is Remove item",
+    "environmental_dynamics": "A product (Pre-baked Gingerbread House Kit Value Pack, 17 oz., Pack of 2, Total 34 oz.) was removed from the wish list, reducing the item count to 1."
+  },
+  {
+    "initial_state": "A page displaying 'My Wish List' with one item listed, along with other navigational links and account information.",
+    "action": "click [1500] where [1500] is Remove item",
+    "environmental_dynamics": "The item in the wish list has been removed, leaving a message stating 'You have no items in your wish list'."
+  },
+  {
+    "initial_state": "My Wish List page with various sections including wish list items and navigation elements",
+    "action": "click [1455] where [1455] is My Account",
+    "environmental_dynamics": "Navigated to the 'My Account' page, displaying account information, contact details, recent reviews, recent orders, and options to manage addresses and subscriptions."
+  },
+  {
+    "initial_state": "My Account page overview with sections on account information, contact info and more",
+    "action": "click [1461] where [1461] is ",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "My Account webpage within a website, including a 'Compare Products' section listing 3 items",
+    "action": "click [226] where [226] is Compare Products 3 items",
+    "environmental_dynamics": "Navigated to a products comparison list page displaying details of the three items in a structured comparison table."
+  },
+  {
+    "initial_state": "Products Comparison List page on Magento Commerce with three items compared",
+    "action": "goto ['http://onestopmarket.com']",
+    "environmental_dynamics": "Navigated to the homepage of onestopmarket.com, showing a banner, navigation menu, and shop categories similar to the initial comparison page structure."
+  },
+  {
+    "initial_state": "Products Comparison List - Magento Commerce with 3 items being compared",
+    "action": "click [232] where [232] is Compare Products 3 items",
+    "environmental_dynamics": "The number of items in the comparison list remained the same, but the element now displays focus or interaction highlighting."
+  },
+  {
+    "initial_state": "Products Comparison List page with three products listed for comparison",
+    "action": "click [1453] where [1453] is \ue616 Remove Product",
+    "environmental_dynamics": "The third product in the comparison list, likely 'Belle Of The Ball Princess Sprinkle Mix', was removed, updating the table to reflect two remaining products."
+  },
+  {
+    "initial_state": "Comparison page of various products listed with SKU details, descriptions, and other product data.",
+    "action": "click [1554] where [1554] is B001Q1J3QY",
+    "environmental_dynamics": "The SKU number 'B001Q1J3QY' was clicked, highlighting it but otherwise no additional content was revealed or the web page changed."
+  },
+  {
+    "initial_state": "Products Comparison List - Magento Commerce with a table displaying 3 products and options to remove each product",
+    "action": "click [1447] where [1447] is \ue616 Remove Product",
+    "environmental_dynamics": "One of the products was removed from the comparison table, reducing the number of product entries by one."
+  },
+  {
+    "initial_state": "Products Comparison List - Magento Commerce homepage with a compare products table featuring multiple items",
+    "action": "click [1450] where [1450] is \ue616 Remove Product",
+    "environmental_dynamics": "The product at the first row in the compare table was removed, leaving two products in the comparison."
+  }
+]

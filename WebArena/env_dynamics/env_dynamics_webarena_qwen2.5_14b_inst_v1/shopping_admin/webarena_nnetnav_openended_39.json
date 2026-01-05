@@ -1,0 +1,192 @@
+[
+  {
+    "initial_state": "Magento Admin Dashboard with various sales and customer data tables",
+    "action": "click [850] where [850] is http://ec2-54-162-4-248.compute-1.amazonaws.com:8083/admin/sales/order/view/order_id/299/",
+    "environmental_dynamics": "Navigated to the order view page for order ID 000000299, showing detailed information and tabs for the order."
+  },
+  {
+    "initial_state": "Magento Admin page focused on viewing order #000000299 with 'Sales' tab in navigation menu not focused.",
+    "action": "click [194] where [194] is \ue60b SALES",
+    "environmental_dynamics": "The 'Sales' tab in the navigation menu is now focused and highlighted, indicating its selection."
+  },
+  {
+    "initial_state": "Magento Admin panel showing details of order #000000299, with several tabs like Information, Invoices, Credit Memos, Shipments, and Comments History.",
+    "action": "click [843] where [843] is ",
+    "environmental_dynamics": "No change."
+  },
+  {
+    "initial_state": "A Magento Admin page displaying order details of order #000000299 with various tabs and fields for notes, order totals, and comments",
+    "action": "click [1088] where [1088] is Submit Comment",
+    "environmental_dynamics": "The 'Submit Comment' button became focused, indicating it is ready to be clicked."
+  },
+  {
+    "initial_state": "Magento Admin panel's Order Management page with Information tab active",
+    "action": "click [2432] where [2432] is Invoices",
+    "environmental_dynamics": "The tab selection changed to 'Invoices', bringing up a new tabpanel with invoice details and options."
+  },
+  {
+    "initial_state": "Magento Admin panel on an order view page displaying invoices tab details",
+    "action": "click [1495] where [1495] is ",
+    "environmental_dynamics": "A checkbox in the 'Options' column header became focused, indicating the user can potentially select all items in the table."
+  },
+  {
+    "initial_state": "Magento Admin Orders page showing order details with an Invoices tab containing a single invoice record",
+    "action": "click [1545] where [1545] is View",
+    "environmental_dynamics": "Navigated to the detailed view of a specific invoice, displaying comprehensive order and account information, item invoiced details, and invoice history."
+  },
+  {
+    "initial_state": "Magento Admin Invoice page for order details",
+    "action": "click [877] where [877] is ",
+    "environmental_dynamics": "No change."
+  },
+  {
+    "initial_state": "Magento Admin panel displaying Sales and Invoices section for Order #000000299",
+    "action": "hover [148] where [148] is \ue60b SALES",
+    "environmental_dynamics": "No change, although the 'SALES' menu item was hovered over, no additional interface elements were activated or altered."
+  },
+  {
+    "initial_state": "Magento Admin Invoices page displaying order details and customer information",
+    "action": "click [687] where [687] is Send Email",
+    "environmental_dynamics": "A confirmation dialog appeared, asking if the invoice email should be sent to the customer, with OK and Cancel buttons."
+  },
+  {
+    "initial_state": "Order invoice page for a completed order with options to print, send email, and submit comments.",
+    "action": "click [1014] where [1014] is OK",
+    "environmental_dynamics": "A confirmation message 'You sent the message.' appeared, indicating that the email was successfully sent to the customer."
+  },
+  {
+    "initial_state": "Magento Admin page displaying detailed order invoice with sections for order information, customer information, address details, payment information, and items invoiced",
+    "action": "click [883] where [883] is ",
+    "environmental_dynamics": "The row corresponding to the 'Nadia Elements Shell' product in the items invoiced table became fully visible, with detailed product attributes being clearly visible."
+  },
+  {
+    "initial_state": "Magento Admin Invoices page showing an order's details and invoice history",
+    "action": "click [953] where [953] is Submit Comment",
+    "environmental_dynamics": "The 'Submit Comment' button was clicked, highlighting it and making it focused."
+  },
+  {
+    "initial_state": "A Magento Admin panel displaying order details including account, address, payment, and invoicing sections.",
+    "action": "click [975] where [975] is Discount",
+    "environmental_dynamics": "No change, but the 'Discount' cell was clicked."
+  },
+  {
+    "initial_state": "Magento Admin Invoice page showing order details",
+    "action": "click [971] where [971] is $243.00",
+    "environmental_dynamics": "The element representing the subtotal amount of $243.00 was clicked, but no visible changes occurred in the page layout or additional content."
+  },
+  {
+    "initial_state": "Magento Admin Invoices page detailing an order and invoice information",
+    "action": "click [943] where [943] is Comment Text",
+    "environmental_dynamics": "The 'Comment Text' textbox became focused, allowing text input for adding a comment."
+  },
+  {
+    "initial_state": "Magento Admin Invoices page displaying order information and a comment section",
+    "action": "type [943] [Customer requested a size change for the Gwen Drawstring Bike Short from size 28 to size 30.] where [943] is ",
+    "environmental_dynamics": "The textbox for the comment section now displays the text 'Customer requested a size change for the Gwen Drawstring Bike Short from size 28 to size 30.'"
+  },
+  {
+    "initial_state": "Magento Admin Invoices page for Order # 000000299 with a comment textbox requesting a size change for a product and options to notify customer and make comment visible on storefront",
+    "action": "click [953] where [953] is Submit Comment",
+    "environmental_dynamics": "A new list item was added showing the submitted customer comment: 'Customer requested a size change for the Gwen Drawstring Bike Short from size 28 to size 30.'"
+  },
+  {
+    "initial_state": "Magento Admin Invoices page with details of an order and customer information",
+    "action": "click [687] where [687] is Send Email",
+    "environmental_dynamics": "A confirmation dialog opened, asking the user if they want to send an invoice email to the customer."
+  },
+  {
+    "initial_state": "Magento Admin Invoices page showing details of order #000000299 with a confirmation message 'You sent the message.' and modal dialog asking for confirmation to send an invoice email",
+    "action": "click [1046] where [1046] is OK",
+    "environmental_dynamics": "The modal dialog for sending an invoice email was dismissed, returning the page to its previous state without any changes in the invoice details."
+  },
+  {
+    "initial_state": "Magento Admin Invoices page with details about an order including address, payment, shipping, and items invoiced",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page scrolled down, likely revealing more content or details lower down on the invoice page."
+  },
+  {
+    "initial_state": "Magento Admin panel displaying order details with textboxes and buttons for order operations",
+    "action": "Attempt to perfom \"click\" on element \"[1088]\" but no matching element found. Please check the observation more carefully.",
+    "environmental_dynamics": "No change"
+  },
+  {
+    "initial_state": "Magento Admin Invoices page for order #000000299, displaying order details and a comment section with an unsubmitted comment.",
+    "action": "click [953] where [953] is Submit Comment",
+    "environmental_dynamics": "Focusing on and highlighting the 'Submit Comment' button, ready for form submission."
+  },
+  {
+    "initial_state": "Magento Admin Invoices page displaying order details for Order # 000000299 including billing and shipping info, payment & shipping method, and items invoiced",
+    "action": "type [943] [Size change requested from size 28 to size 30 ] where [943] is Comment Text",
+    "environmental_dynamics": "The 'Comment Text' textbox field for the order invoice was populated with the text 'Size change requested from size 28 to size 30'."
+  },
+  {
+    "initial_state": "Magento Admin panel showing an invoice page for order # 000000299, with order details, addresses, payment method, items, and a comment section.",
+    "action": "click [953] where [953] is Submit Comment",
+    "environmental_dynamics": "A new comment was added to the invoice history with a timestamp and the text 'Size change requested from size 28 to size 30', and the comment section was updated to display the latest comment."
+  },
+  {
+    "initial_state": "Details page of order #000000299 in the Magento Admin panel",
+    "action": "goto [http://ec2-54-162-4-248.compute-1.amazonaws.com:8083/admin/sales/order/view/order_id/299/]",
+    "environmental_dynamics": "Navigated to the order view page of order #000000299, displaying information tabs for 'Information', 'Invoices', 'Credit Memos', 'Shipments', and 'Comments History'."
+  },
+  {
+    "initial_state": "Magento Admin order view page with various order details and tabs available",
+    "action": "click [1088] where [1088] is Submit Comment",
+    "environmental_dynamics": "The 'Submit Comment' button became focused and ready for interaction."
+  },
+  {
+    "initial_state": "Magento Admin page displaying an order's information with a comment section containing comment fields",
+    "action": "type [1078] [Customer requested a size change for the Gwen Drawstring Bike Short from size 28 to size 30 ] where [1078] is ",
+    "environmental_dynamics": "The comment field was populated with the text 'Customer requested a size change for the Gwen Drawstring Bike Short from size 28 to size 30'."
+  },
+  {
+    "initial_state": "Magneto Admin's order view page with order details and comment section visible",
+    "action": "click [1088] where [1088] is Submit Comment",
+    "environmental_dynamics": "The 'Submit Comment' button, previously unclicked, initiated a comment submission process which now refreshes or transitions the page state, indicating the operation was completed."
+  },
+  {
+    "initial_state": "Magento Admin order information page with multiple tabs for different order details",
+    "action": "click [2432] where [2432] is Invoices",
+    "environmental_dynamics": "The 'Invoices' tab became the active tab, displaying a table with invoice details for the order including date, invoice number, status, and amount."
+  },
+  {
+    "initial_state": "Magento Admin panel on an order view page with an Invoices tab selected which displays invoice details in a table with selectable options",
+    "action": "click [1495] where [1495] is ",
+    "environmental_dynamics": "The 'Options' column header now includes a 'Select All' checkbox and the 'Options' button became focused."
+  },
+  {
+    "initial_state": "Magento Admin Orders page with various tabs, showing invoice information of order #000000299",
+    "action": "click [1545] where [1545] is View",
+    "environmental_dynamics": "Navigated to the view for a specific invoice #000000003, displaying detailed order, billing, shipping, and items invoiced information."
+  },
+  {
+    "initial_state": "Magento Admin Invoices page displaying order details and order invoice history with a comment section containing a textbox for comments which was initially empty",
+    "action": "type [943] [Size change requested from size 28 to size 30. ] where [943] is ",
+    "environmental_dynamics": "The comment 'Size change requested from size 28 to size 30.' was entered into the comment textbox field."
+  },
+  {
+    "initial_state": "Magento Invoices page with detailed information on Order # 000000299",
+    "action": "click [953] where [953] is ",
+    "environmental_dynamics": "No change"
+  },
+  {
+    "initial_state": "A Magento Admin page displaying order and account details with an 'Invoice History' section including a checkbox for 'Notify Customer by Email' which was unchecked",
+    "action": "click [943] where [943] is Notify Customer by Email",
+    "environmental_dynamics": "The 'Notify Customer by Email' checkbox was checked and focused after the click action."
+  },
+  {
+    "initial_state": "Magento Admin Invoices page for order #000000299, with a comment section visible",
+    "action": "click [949] where [949] is Submit Comment",
+    "environmental_dynamics": "The 'Submit Comment' button became focused, indicating it received a click."
+  },
+  {
+    "initial_state": "Magento Admin invoice page where order details and comments section are visible",
+    "action": "click [944] where [944] is ",
+    "environmental_dynamics": "The 'Notify Customer by Email' checkbox toggled to unchecked and gained focus."
+  },
+  {
+    "initial_state": "Magento Admin page displaying an invoice for an order, with sections for order and account information, address, payment, shipping, and order total.",
+    "action": "click [949] where [949] is Submit Comment",
+    "environmental_dynamics": "The 'Submit Comment' button became focused and is now clickable, indicating the user can submit a comment in the invoice section."
+  }
+]

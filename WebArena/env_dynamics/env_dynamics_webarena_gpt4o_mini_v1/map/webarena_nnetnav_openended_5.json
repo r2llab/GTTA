@@ -1,0 +1,47 @@
+[
+  {
+    "initial_state": "OpenStreetMap homepage with search bar visible",
+    "action": "type [145] [attractions near NY ] where [145] is Search",
+    "environmental_dynamics": "The search bar was updated with the input 'attractions near NY', and the page is displaying search results related to the query."
+  },
+  {
+    "initial_state": "OpenStreetMap attractions near NY page with search results visible",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page scrolled down, revealing a message that indicates 'No results found' below the existing search results."
+  },
+  {
+    "initial_state": "OpenStreetMap attractions near NY page with search results displayed",
+    "action": "click [394] where [394] is Zoom In",
+    "environmental_dynamics": "The page zoomed in, making the map and all displayed information appear larger, and a tooltip indicating 'Zoom In' was also shown."
+  },
+  {
+    "initial_state": "OpenStreetMap search results for 'attractions near NY'",
+    "action": "type [145] [attractions near Boston ] where [145] is Search",
+    "environmental_dynamics": "The search textbox was updated with the new query 'attractions near Boston', and the search results section displayed relevant attractions near Boston instead of New York."
+  },
+  {
+    "initial_state": "OpenStreetMap attractions near Boston page displaying search results",
+    "action": "click [489] where [489] is Granary Burying Ground, Tremont Place, Beacon Hill, Boston, Suffolk County, Massachusetts, 02133, United States",
+    "environmental_dynamics": "The page updated to show a 'Loading...' status message, indicating that additional details for the selected attraction (Granary Burying Ground) are being fetched."
+  },
+  {
+    "initial_state": "attractions near Boston | OpenStreetMap",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page scrolled down, revealing more geographical features and details about the Granary Burying Ground."
+  },
+  {
+    "initial_state": "Way: Granary Burying Ground (29861355) | OpenStreetMap",
+    "action": "click [117] where [117] is About",
+    "environmental_dynamics": "The page navigated to the 'About' section of OpenStreetMap, displaying detailed information about the platform and its community."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with various navigation links and information visible",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page scrolled down, revealing additional sections of content and details about OpenStreetMap."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with various sections and links available",
+    "action": "click [117] where [117] is ",
+    "environmental_dynamics": "no change"
+  }
+]

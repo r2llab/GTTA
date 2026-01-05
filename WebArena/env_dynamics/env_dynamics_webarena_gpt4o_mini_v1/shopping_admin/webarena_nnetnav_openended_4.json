@@ -1,0 +1,72 @@
+[
+  {
+    "initial_state": "Dashboard / Magento Admin with focus on the Dashboard section",
+    "action": "click [156] where [156] is \ue60b SALES",
+    "environmental_dynamics": "The SALES section became focused, revealing a submenu with links for 'Orders', 'Invoices', 'Shipments', 'Credit Memos', 'Billing Agreements', and 'Transactions'."
+  },
+  {
+    "initial_state": "Dashboard / Magento Admin",
+    "action": "click [168] where [168] is Orders",
+    "environmental_dynamics": "The page transitioned to the 'Orders' section within the Sales area, showing various order details and actions available."
+  },
+  {
+    "initial_state": "Magento Admin Order Management page with order list visible",
+    "action": "click [1404] where [1404] is 000000309",
+    "environmental_dynamics": "The page navigated to the detail view of order #000000309, displaying specific order information such as order date, status, customer details, and item details."
+  },
+  {
+    "initial_state": "Order details page for order #000000309",
+    "action": "click [781] where [781] is Edit Customer",
+    "environmental_dynamics": "The page navigated to the customer details for 'Sarah Miller', allowing access to customer information, including personal information and account management options."
+  },
+  {
+    "initial_state": "Sarah Miller / Customers / Customers / Magento Admin page with various customer management options",
+    "action": "click [755] where [755] is Save Customer",
+    "environmental_dynamics": "The message 'You saved the customer.' appeared on the page indicating that the customer was successfully saved."
+  },
+  {
+    "initial_state": "Magento Admin Customers page, focused",
+    "action": "click [565] where [565] is Add New Customer",
+    "environmental_dynamics": "The page navigated to the 'New Customer' form, displaying fields for entering new customer information, along with buttons to save or return."
+  },
+  {
+    "initial_state": "New Customer / Customers / Customers / Magento Admin",
+    "action": "type [808] [John ] where [808] is ",
+    "environmental_dynamics": "The textbox for 'First Name' was updated with the value 'John' and is now focused."
+  },
+  {
+    "initial_state": "New Customer / Customers / Customers / Magento Admin",
+    "action": "type [820] [Doe ] where [820] is Last Name *",
+    "environmental_dynamics": "The textbox for 'Last Name' populated with the value 'Doe', indicating that the user has entered their last name."
+  },
+  {
+    "initial_state": "New Customer / Customers / Customers / Magento Admin with focused fields",
+    "action": "type [832] [john.doe@example.com ] where [832] is ",
+    "environmental_dynamics": "The textbox for 'Email' was updated to contain the value 'john.doe@example.com', indicating the user has input their email address."
+  },
+  {
+    "initial_state": "New Customer / Customers / Customers / Magento Admin, with the Date of Birth textbox empty",
+    "action": "type [847] [2000-01-01 ] where [847] is Date of Birth",
+    "environmental_dynamics": "The textbox for Date of Birth was populated with the value '2000-01-01', and a validation message indicating 'Please enter a valid date.' was displayed."
+  },
+  {
+    "initial_state": "New Customer / Customers / Customers / Magento Admin, gender combobox not expanded, 'Not Specified' selected",
+    "action": "type [861] [Male ] where [861] is notice-KFDI2KW",
+    "environmental_dynamics": "The gender combobox was opened and the value 'Male' was selected, reflecting the user's input choice."
+  },
+  {
+    "initial_state": "New Customer / Customers / Customers / Magento Admin with the Tax/VAT Number textbox empty",
+    "action": "type [855] [123456789 ] where [855] is ",
+    "environmental_dynamics": "The Tax/VAT Number textbox is now filled with the value '123456789'."
+  },
+  {
+    "initial_state": "New Customer / Customers / Customers / Magento Admin",
+    "action": "click [861] where [861] is notice-KFDI2KW",
+    "environmental_dynamics": "The gender selection combobox expanded, allowing the user to choose from the options: Male, Female, and Not Specified."
+  },
+  {
+    "initial_state": "New Customer form in Magento Admin with various fields visible",
+    "action": "click [861] where [861] is notice-KFDI2KW",
+    "environmental_dynamics": "The combobox for 'Gender' expanded to reveal options for Male, Female, and Not Specified, allowing the user to select a gender."
+  }
+]

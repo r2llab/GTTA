@@ -1,0 +1,197 @@
+[
+  {
+    "initial_state": "OpenStreetMap homepage with main navigation links, search box, and a visible 'Find directions between two points' link.",
+    "action": "click [149] where [149] is Find directions between two points",
+    "environmental_dynamics": "A directions panel opened on the page, displaying 'From' and 'To' textbox fields, a transportation mode selector, and additional direction-related buttons and controls."
+  },
+  {
+    "initial_state": "OpenStreetMap page with the 'From' textbox in the directions section empty and focused.",
+    "action": "type [158] [Pittsburgh Fire Station ] where [158] is From",
+    "environmental_dynamics": "The 'From' textbox was populated with 'Pittsburgh Bureau of Fire Station 24, 1729, Mary Street, South Side Flats, Pittsburgh, Allegheny County, Pennsylvania, 15203, United States' as a result of entering 'Pittsburgh Fire Station', and the field is now focused and shows the resolved location as static text."
+  },
+  {
+    "initial_state": "OpenStreetMap webpage with the route planning panel open; the 'From' textbox is filled with an address and focused, while the 'To' textbox is empty and unfocused.",
+    "action": "type [163] [UPMC Mercy Hospital ] where [163] is To",
+    "environmental_dynamics": "The 'To' textbox is now filled with 'UPMC Mercy, 1400, Locust Street, Bluff, Pittsburgh, Allegheny County, Pennsylvania, 15219, United States' and is focused, and detailed driving directions from Pittsburgh Bureau of Fire Station 24 to UPMC Mercy are displayed in a new 'Directions' section below."
+  },
+  {
+    "initial_state": "OpenStreetMap page displaying driving directions from 'Pittsburgh Bureau of Fire Station 24' to 'UPMC Mercy' with the 'To' textbox focused and travel mode set to 'Car (OSRM)'.",
+    "action": "click [169] where [169] is Foot (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with 'Car (OSRM)' selected in the travel mode combobox, showing directions from 'Pittsburgh Bureau of Fire Station 24' to 'UPMC Mercy' and detailed driving route.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions result page shows 'Car (OSRM)' selected as the current transport mode in the combobox, with route details displayed for a trip from 'Pittsburgh Bureau of Fire Station 24' to 'UPMC Mercy'.",
+    "action": "click [169] where [169] is Foot (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page showing a route from Pittsburgh Bureau of Fire Station 24 to UPMC Mercy with 'Car (OSRM)' selected as the travel mode in the combobox.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page displaying directions from Pittsburgh Bureau of Fire Station 24 to UPMC Mercy, with the 'To' textbox focused and travel mode set to 'Car (OSRM)'",
+    "action": "click [169] where [169] is Foot (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with route information between 'Pittsburgh Bureau of Fire Station 24' and 'UPMC Mercy'; 'Go' button visible but not focused.",
+    "action": "click [171] where [171] is Go",
+    "environmental_dynamics": "The 'Go' button became focused, but the directions and route information remained the same; no new directions were generated."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page showing a route from Pittsburgh Bureau of Fire Station 24 to UPMC Mercy with 'Car (OSRM)' selected in the mode combobox and detailed driving directions displayed.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page showing directions from 'Pittsburgh Bureau of Fire Station 24' to 'UPMC Mercy', with corresponding addresses in the 'From' and 'To' fields, and the directions table displayed.",
+    "action": "click [174] where [174] is Reverse Directions",
+    "environmental_dynamics": "The 'From' and 'To' fields were swapped to show coordinates ('40.4364, -79.9855' to '40.4263, -79.9813'), and the directions table updated to reflect the reversed route with new step-by-step instructions."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with 'Car (OSRM)' selected in the travel mode combobox; directions from '40.4364, -79.9855' to '40.4263, -79.9813' and route steps displayed.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap page showing driving directions from '40.4364, -79.9855' to '40.4263, -79.9813' with 'Car (OSRM)' as the selected routing option in the combobox.",
+    "action": "click [169] where [169] is Foot (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page displaying a route from 40.4364, -79.9855 (From) to 40.4263, -79.9813 (To) with detailed step-by-step directions shown.",
+    "action": "click [174] where [174] is Reverse Directions",
+    "environmental_dynamics": "The 'From' and 'To' fields swapped values to reverse the route, and the directions table updated to display the new route information for the reversed trip, including changed route steps, distance, and time."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with the route set to 'Car (OSRM)' in the transport mode combobox, displaying directions and route details.",
+    "action": "click [169] where [169] is Foot (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page showing a route from '40.4263, -79.9813' (From) to '40.4364, -79.9855' (To), with driving directions and steps detailed.",
+    "action": "click [174] where [174] is Reverse Directions",
+    "environmental_dynamics": "Clicking 'Reverse Directions' swapped the 'From' and 'To' locations, recalculated the route, updated the distance/time summary, and displayed new driving directions reflecting the reversed journey."
+  },
+  {
+    "initial_state": "OpenStreetMap directions results showing route details for 'Car (OSRM)' as selected in the routing method combobox.",
+    "action": "click [169] where [169] is Foot (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page showing route from 40.4364, -79.9855 to 40.4263, -79.9813, with 'Car (OSRM)' selected as the transportation mode and detailed directions displayed.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions panel is visible with detailed directions from 'From' to 'To' and the 'Close' button is present.",
+    "action": "click [153] where [153] is Close",
+    "environmental_dynamics": "The directions panel was closed, removing the specific directions, route options, and summary section from the view and returning to the homepage welcome content."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with navigation, search bar, and various informational sections; 'Find directions between two points' link is visible.",
+    "action": "click [149] where [149] is Find directions between two points",
+    "environmental_dynamics": "A directions panel appeared, allowing users to input start and end locations, choose a route type (Car, Bicycle, Foot), and access route-related actions such as 'Go' and 'Reverse Directions'."
+  },
+  {
+    "initial_state": "OpenStreetMap page with the 'From' textbox empty in the directions section.",
+    "action": "type [158] [Pittsburgh Fire Station ] where [158] is From",
+    "environmental_dynamics": "The text 'Pittsburgh Fire Station' was entered into the 'From' textbox in the directions section, and this textbox is now focused with the new value displayed."
+  },
+  {
+    "initial_state": "OpenStreetMap directions interface with the 'From' field set to 'Pittsburgh Fire Station' and the 'To' field empty.",
+    "action": "type [163] [UPMC Mercy Hospital ] where [163] is To",
+    "environmental_dynamics": "The 'To' textbox is updated to 'UPMC Mercy, 1400, Locust Street, Bluff, Pittsburgh, Allegheny County, Pennsylvania, 15219, United States', the directions section appears, and a route with step-by-step instructions from Pittsburgh Bureau of Fire Station 24 to UPMC Mercy is displayed along with distance and estimated time."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page showing route from 'Pittsburgh Bureau of Fire Station 24' to 'UPMC Mercy', with human-readable addresses in 'From' and 'To' fields and driving directions steps listed.",
+    "action": "click [174] where [174] is Reverse Directions",
+    "environmental_dynamics": "The 'Reverse Directions' button was clicked, swapping the 'From' and 'To' fields to lat/lon coordinates for the new start and end points, updating both the distance/time summary and the step-by-step driving directions to reflect the reversed route."
+  },
+  {
+    "initial_state": "OpenStreetMap directions panel showing route from 40.4364, -79.9855 to 40.4263, -79.9813, transport mode set to 'Car (OSRM)' with detailed step-by-step directions for car selected.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions panel with 'From' field set to '40.4364, -79.9855' and 'To' field set to '40.4263, -79.9813', directions provided for that route.",
+    "action": "click [174] where [174] is Reverse Directions",
+    "environmental_dynamics": "The 'From' and 'To' textbox values were swapped, and the directions panel updated to show the new reversed route, including new step-by-step directions and updated distance and time."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with a directions form populated and step-by-step route visible; the 'Reverse Directions' button is focused.",
+    "action": "click [163] where [163] is To",
+    "environmental_dynamics": "The focus shifted from the 'Reverse Directions' button to the 'To' textbox in the directions form, making it ready for text input."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with 'From' set to coordinates and 'To' set to '40.4364, -79.9855'; directions for the current route are displayed.",
+    "action": "type [163] [UPMC Presbyterian Hospital ] where [163] is To",
+    "environmental_dynamics": "The 'To' textbox value changed from coordinates to 'UPMC Presbyterian Hospital, 200, Lothrop Street, West Oakland, Pittsburgh, Allegheny County, Pennsylvania, 15213, United States', and new directions and distance/time were generated for the updated destination."
+  },
+  {
+    "initial_state": "OpenStreetMap page with directions displayed for 'Car (OSRM)', showing route steps and estimated distance and duration. The 'To' textbox is focused and the transport mode combobox is collapsed with 'Car (OSRM)' selected.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "No change; clicking the 'Bicycle (OSRM)' option did not update the selected mode or trigger any new directions or page update."
+  },
+  {
+    "initial_state": "OpenStreetMap directions panel showing route from '40.4263, -79.9813' to 'UPMC Presbyterian Hospital' with the travel mode set to 'Car (OSRM)' and car option selected in the mode combobox.",
+    "action": "click [169] where [169] is Foot (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions panel is open, showing a route from '40.4263, -79.9813' to 'UPMC Presbyterian Hospital, 200, Lothrop Street, West Oakland, Pittsburgh, Allegheny County, Pennsylvania, 15213, United States', with detailed step-by-step directions listed.",
+    "action": "click [174] where [174] is Reverse Directions",
+    "environmental_dynamics": "The route was reversed, so the 'From' and 'To' fields swapped; new directions are shown for traveling from 'UPMC Presbyterian Hospital, 200, Lothrop Street...' (now as coordinates '40.4427, -79.9606') to '40.4263, -79.9813', and the directions table and summary updated to reflect the reversed route."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page displaying a route with driving mode set to 'Car (OSRM)' and the 'Reverse Directions' button focused.",
+    "action": "click [169] where [169] is Foot (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap page with driving directions listed from '40.4427, -79.9606' (From) to '40.4263, -79.9813' (To), showing steps and summary for that route.",
+    "action": "click [174] where [174] is Reverse Directions",
+    "environmental_dynamics": "The 'From' and 'To' route endpoints were swapped, resulting in a new set of driving directions and summary for the reversed route, with updated distance, estimated time, and step-by-step instructions reflecting the new direction."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with route details from '40.4263, -79.9813' to '40.4427, -79.9606' for 'Car (OSRM)' as the selected mode of transport.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page displaying route details for 'Car (OSRM)' mode, with detailed directions and segments listed.",
+    "action": "click [169] where [169] is Foot (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions panel is open with the 'Car (OSRM)' option selected in the transportation mode combobox, showing directions from point A to point B.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap webpage displaying a directions panel with step-by-step directions and a visible 'Close' button for the directions panel.",
+    "action": "click [153] where [153] is Close",
+    "environmental_dynamics": "The directions panel and all related route information were closed, returning the page to its standard welcome and map interface."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with main navigation links, a search bar, an introductory welcome section, and a link labeled 'Find directions between two points' visible.",
+    "action": "click [149] where [149] is Find directions between two points",
+    "environmental_dynamics": "A new section for finding directions appeared, featuring 'From' and 'To' text boxes, a transportation mode selection combobox, and buttons for 'Go' and 'Reverse Directions'."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with the 'From' textbox in the directions section empty and ready for input.",
+    "action": "type [158] [Pittsburgh Bureau of Fire Station 24 ] where [158] is From",
+    "environmental_dynamics": "The 'From' textbox has been filled with 'Pittsburgh Bureau of Fire Station 24, 1729, Mary Street, South Side Flats, Pittsburgh, Allegheny County, Pennsylvania, 15203, United States', and is now focused."
+  },
+  {
+    "initial_state": "OpenStreetMap page with the route planning section open; 'To' textbox is empty and focused.",
+    "action": "type [163] [UPMC Mercy Hospital ] where [163] is To",
+    "environmental_dynamics": "The 'To' textbox is now filled with 'UPMC Mercy, 1400, Locust Street, Bluff, Pittsburgh, Allegheny County, Pennsylvania, 15219, United States', and a 'Loading...' status message appears, indicating the site is searching for directions."
+  }
+]

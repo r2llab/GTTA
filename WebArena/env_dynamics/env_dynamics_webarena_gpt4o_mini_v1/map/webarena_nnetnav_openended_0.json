@@ -1,0 +1,197 @@
+[
+  {
+    "initial_state": "OpenStreetMap homepage with a focused search bar",
+    "action": "type [145] [attractions near Paris ] where [145] is Search",
+    "environmental_dynamics": "The search input field was updated with the text 'attractions near Paris', and a 'Search Results' section was introduced indicating that the search results would be displayed."
+  },
+  {
+    "initial_state": "OpenStreetMap search results for 'attractions near Paris'",
+    "action": "type [145] [Paris ] where [145] is Search",
+    "environmental_dynamics": "The search query was updated in the search textbox to 'Paris', triggering a new search which retrieved results related to 'Paris'."
+  },
+  {
+    "initial_state": "OpenStreetMap page showing search results for 'Paris'",
+    "action": "type [145] [attractions near Paris ] where [145] is Search",
+    "environmental_dynamics": "The search input was updated to 'attractions near Paris' and the search results were refreshed, displaying a new header and a loading status."
+  },
+  {
+    "initial_state": "OpenStreetMap results page for attractions near Paris with visible search results",
+    "action": "click [394] where [394] is Zoom In",
+    "environmental_dynamics": "The page zoomed in, adjusting the map view and making the 'Zoom In' link focused with a tooltip displayed."
+  },
+  {
+    "initial_state": "attractions near Paris | OpenStreetMap with 'Show My Location' button visible",
+    "action": "click [399] where [399] is Show My Location",
+    "environmental_dynamics": "The 'Show My Location' button was clicked, triggering a tooltip indicating the action taken, and the button is now focused, showing its functionality."
+  },
+  {
+    "initial_state": "OpenStreetMap attractions near Paris page with search results visible",
+    "action": "click [402] where [402] is Layers",
+    "environmental_dynamics": "A 'Map Layers' section opened, displaying options for different map layers along with checkboxes for overlays, allowing the user to customize the map view."
+  },
+  {
+    "initial_state": "attractions near Paris | OpenStreetMap with Zoom In link visible",
+    "action": "click [394] where [394] is Zoom In",
+    "environmental_dynamics": "The map zoomed in, updating the scale display to '500 m' and enabling a tooltip for the Zoom In option."
+  },
+  {
+    "initial_state": "attractions near Paris | OpenStreetMap with 'Show My Location' button visible",
+    "action": "click [399] where [399] is Show My Location",
+    "environmental_dynamics": "The 'Show My Location' button was clicked, and the tooltip indicating 'Show My Location' became visible, signaling that the feature to display the user's current location is now in use."
+  },
+  {
+    "initial_state": "attractions near Paris | OpenStreetMap page with search results displayed",
+    "action": "click [394] where [394] is Zoom In",
+    "environmental_dynamics": "The page zoomed in, changing the scale to show '300 m' instead of '500 m' and providing a tooltip indicating 'Zoom In'."
+  },
+  {
+    "initial_state": "attractions near Paris | OpenStreetMap with 'Show My Location' button visible and focused",
+    "action": "click [399] where [399] is Show My Location",
+    "environmental_dynamics": "The browser's focus shifted to display a tooltip that provides additional information about the 'Show My Location' button, which is now indicated as active."
+  },
+  {
+    "initial_state": "OpenStreetMap attractions near Paris page with focus on the button 'Show My Location'",
+    "action": "click [402] where [402] is Layers",
+    "environmental_dynamics": "The focus shifted from the 'Show My Location' button to the 'Layers' link, indicating that the layers menu has been activated."
+  },
+  {
+    "initial_state": "OpenStreetMap attractions near Paris page, with 'Zoom In' link visible",
+    "action": "click [394] where [394] is Zoom In",
+    "environmental_dynamics": "The map zoom level increased, making the details of nearby attractions more prominent, and a tooltip indicating 'Zoom In' appeared."
+  },
+  {
+    "initial_state": "attractions near Paris | OpenStreetMap with visible Search Results",
+    "action": "click [394] where [394] is Zoom In",
+    "environmental_dynamics": "The map zoom level increased, changing the displayed scale from '100 m' to '50 m' and from '500 ft' to '200 ft'."
+  },
+  {
+    "initial_state": "attractions near Paris | OpenStreetMap with 'Show My Location' button visible",
+    "action": "click [399] where [399] is Show My Location",
+    "environmental_dynamics": "The 'Show My Location' button was clicked, and a tooltip appeared providing information related to the user's current location."
+  },
+  {
+    "initial_state": "attractions near Paris | OpenStreetMap, with various map and navigation elements visible",
+    "action": "click [402] where [402] is Layers",
+    "environmental_dynamics": "A 'Map Layers' section opened, displaying options for different map layers including 'Standard', 'CyclOSM', '\u00d6PNVKarte', and 'Humanitarian', along with checkboxes to enable overlays and troubleshoot the map."
+  },
+  {
+    "initial_state": "OpenStreetMap page displaying attractions near Paris",
+    "action": "click [394] where [394] is Zoom In",
+    "environmental_dynamics": "The map zoomed in, providing a closer view of the area, while the zoom level indicators updated to reflect '30 m' and '100 ft'."
+  },
+  {
+    "initial_state": "OpenStreetMap page displaying attractions near Paris",
+    "action": "click [402] where [402] is Layers",
+    "environmental_dynamics": "The focus shifted to the 'Layers' link, suggesting that a layers menu or options related to map layers may potentially open for further interaction."
+  },
+  {
+    "initial_state": "OpenStreetMap page displaying attractions near Paris",
+    "action": "click [394] where [394] is Zoom In",
+    "environmental_dynamics": "The page zoomed in, changing the scale as indicated by updated static text from '30 m' to '20 m' and revealing a tooltip for the Zoom In action."
+  },
+  {
+    "initial_state": "attractions near Paris | OpenStreetMap with visible search results",
+    "action": "click [394] where [394] is Zoom In",
+    "environmental_dynamics": "The map zoomed in, allowing a closer view of the attractions around Paris, while the zoom control remained focused."
+  },
+  {
+    "initial_state": "attractions near Paris | OpenStreetMap with search results displayed",
+    "action": "click [402] where [402] is Layers",
+    "environmental_dynamics": "A 'Map Layers' section opened, displaying available map layer options and a list of checkboxes for enabling overlays, including options for 'Map Notes', 'Map Data', and 'Public GPS Traces'."
+  },
+  {
+    "initial_state": "OpenStreetMap attractions near Paris",
+    "action": "click [394] where [394] is Zoom In",
+    "environmental_dynamics": "The page zoomed in, enhancing the visibility of map details, and a tooltip indicating 'Zoom In' became visible."
+  },
+  {
+    "initial_state": "attractions near Paris | OpenStreetMap page with map visible",
+    "action": "click [394] where [394] is Zoom In",
+    "environmental_dynamics": "The map zoomed in, providing a closer view of attractions near Paris."
+  },
+  {
+    "initial_state": "OpenStreetMap page showing attractions near Paris with a visible search bar and map",
+    "action": "click [399] where [399] is Show My Location",
+    "environmental_dynamics": "The 'Show My Location' button was clicked, causing the browser to focus on the user's current location, and a tooltip indicating 'Show My Location' was displayed."
+  },
+  {
+    "initial_state": "attractions near Paris | OpenStreetMap with search results displayed",
+    "action": "click [394] where [394] is Zoom In",
+    "environmental_dynamics": "The page zoomed in, enhancing the detail of the map view, indicated by a change in focus for the 'Zoom In' link and the tooltip being updated."
+  },
+  {
+    "initial_state": "OpenStreetMap page displaying attractions near Paris",
+    "action": "click [402] where [402] is Layers",
+    "environmental_dynamics": "The focus shifted to the 'Layers' link, indicating that it has been clicked, possibly opening a list of available map layers."
+  },
+  {
+    "initial_state": "attractions near Paris | OpenStreetMap with the main map view displayed",
+    "action": "click [402] where [402] is Layers",
+    "environmental_dynamics": "A 'Map Layers' dialog opened, revealing options to enable overlays for troubleshooting, as well as checkboxes for 'Map Notes', 'Map Data', and 'Public GPS Traces'."
+  },
+  {
+    "initial_state": "OpenStreetMap attractions near Paris page with search results displayed",
+    "action": "click [394] where [394] is Zoom In",
+    "environmental_dynamics": "The page zoomed in, enhancing the visibility of the map and activating a tooltip indicating the 'Zoom In' function."
+  },
+  {
+    "initial_state": "OpenStreetMap page displaying attractions near Paris",
+    "action": "click [399] where [399] is Show My Location",
+    "environmental_dynamics": "The 'Show My Location' button was clicked, making the user's location focus on the map, evidenced by the button gaining a focused state and a tooltip confirming the action."
+  },
+  {
+    "initial_state": "attractions near Paris | OpenStreetMap with search results displayed",
+    "action": "click [402] where [402] is Layers",
+    "environmental_dynamics": "The focus shifted to the 'Layers' link, which is now highlighted, allowing the user to interact with map layer options."
+  },
+  {
+    "initial_state": "OpenStreetMap page displaying attractions near Paris with search results",
+    "action": "click [394] where [394] is Zoom In",
+    "environmental_dynamics": "The 'Zoom In' link was activated, resulting in the map view being zoomed in closer, allowing for a more detailed view of the attractions."
+  },
+  {
+    "initial_state": "OpenStreetMap attractions near Paris page",
+    "action": "click [399] where [399] is Show My Location",
+    "environmental_dynamics": "The 'Show My Location' button was clicked, resulting in the tooltip becoming visible, indicating that the user's location is being displayed."
+  },
+  {
+    "initial_state": "attractions near Paris | OpenStreetMap with search results displayed",
+    "action": "click [402] where [402] is Layers",
+    "environmental_dynamics": "The 'Map Layers' modal opened, presenting options for different map layers along with checkboxes to enable overlays for troubleshooting."
+  },
+  {
+    "initial_state": "OpenStreetMap page showing attractions near Paris",
+    "action": "click [394] where [394] is Zoom In",
+    "environmental_dynamics": "The page zoomed in, modifying the appearance of the map and making the 'Zoom In' link focused while a tooltip indicating 'Zoom In' appeared."
+  },
+  {
+    "initial_state": "attractions near Paris | OpenStreetMap with 'Show My Location' button visible",
+    "action": "click [399] where [399] is Show My Location",
+    "environmental_dynamics": "The 'Show My Location' button was clicked, causing the focus to shift to the button and a tooltip indicating 'Show My Location' to appear."
+  },
+  {
+    "initial_state": "attractions near Paris | OpenStreetMap with focus on search section",
+    "action": "click [402] where [402] is Layers",
+    "environmental_dynamics": "The focus shifted to the 'Layers' link, highlighting it as currently active, which suggests that some layer options might be presented or interacted with."
+  },
+  {
+    "initial_state": "attractions near Paris | OpenStreetMap with search results visible",
+    "action": "click [394] where [394] is Zoom In",
+    "environmental_dynamics": "The page zoom level increased, as indicated by the tooltip displaying 'Zoom In' becoming visible."
+  },
+  {
+    "initial_state": "attractions near Paris | OpenStreetMap with search results displayed",
+    "action": "click [399] where [399] is Show My Location",
+    "environmental_dynamics": "The user's location was shown on the map, as indicated by the focus on the 'Show My Location' button, and a new tooltip appeared confirming the action."
+  },
+  {
+    "initial_state": "OpenStreetMap search results for attractions near Paris",
+    "action": "click [394] where [394] is Zoom In",
+    "environmental_dynamics": "The 'Zoom In' link was clicked, causing a tooltip to update its description to indicate the active zoom level."
+  },
+  {
+    "initial_state": "attractions near Paris | OpenStreetMap with search results displayed",
+    "action": "click [402] where [402] is Layers",
+    "environmental_dynamics": "A 'Map Layers' section opened, displaying options for different map layers and checkboxes to enable overlays, along with instructional text."
+  }
+]

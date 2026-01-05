@@ -1,0 +1,47 @@
+[
+  {
+    "initial_state": "OpenStreetMap homepage with a visible search bar",
+    "action": "type [145] [Carnegie Science Center ] where [145] is Search",
+    "environmental_dynamics": "The search bar's text was updated to 'Carnegie Science Center' and search results were displayed below the search bar."
+  },
+  {
+    "initial_state": "OpenStreetMap search results page with details on the Carnegie Science Center",
+    "action": "click [449] where [449] is Carnegie Science Center, 1, Allegheny Avenue, Chateau, Pittsburgh, Allegheny County, Pennsylvania, 15212, United States",
+    "environmental_dynamics": "The page transitioned to a detailed view of the selected way '222624191', showing version history, relations, and nodes associated with the Carnegie Science Center."
+  },
+  {
+    "initial_state": "OpenStreetMap page displaying details of a specific way, with a share option in the navigation bar available for interaction",
+    "action": "click [408] where [408] is Share",
+    "environmental_dynamics": "A new section titled 'Share' appeared, offering options to share a link or HTML, customize image dimensions, and download images."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with a search bar and details about 'Way: 222624191'",
+    "action": "type [145] [coffee shops near Carnegie Science Center ] where [145] is Search",
+    "environmental_dynamics": "The search bar was populated with the query 'coffee shops near Carnegie Science Center', and the page title changed to reflect this search query."
+  },
+  {
+    "initial_state": "OpenStreetMap page displaying search results for 'coffee shops near Carnegie Science Center' with no results found and zoom level 19",
+    "action": "click [396] where [396] is Zoom Out",
+    "environmental_dynamics": "The map zoomed out, reducing the zoom level from 19 to 18, widening the visible area and changing the distance markers from '20 m' and '50 ft' to '30 m' and '100 ft'."
+  },
+  {
+    "initial_state": "OpenStreetMap search results page with 'coffee shops near Carnegie Science Center' in the search box and 'Go' button visible",
+    "action": "click [147] where [147] is Go",
+    "environmental_dynamics": "The 'Go' button became focused and remains unchanged otherwise, indicating the action of clicking was registered but did not alter other page elements or trigger navigation."
+  },
+  {
+    "initial_state": "OpenStreetMap page showing 'coffee shops near Carnegie Science Center' with no search results",
+    "action": "Attempt to perfom \"click\" on element \"[449]\" but no matching element found. Please check the observation more carefully.",
+    "environmental_dynamics": "No change"
+  },
+  {
+    "initial_state": "OpenStreetMap page displaying 'coffee shops near Carnegie Science Center' with no search results",
+    "action": "click [394] where [394] is Zoom In",
+    "environmental_dynamics": "The map zoomed in, increasing the map detail level and reducing the area covered."
+  },
+  {
+    "initial_state": "OpenStreetMap page with a search query for 'coffee shops near Carnegie Science Center' and no results found",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The map view panned and zoomed out, changing the zoom level and location URL"
+  }
+]

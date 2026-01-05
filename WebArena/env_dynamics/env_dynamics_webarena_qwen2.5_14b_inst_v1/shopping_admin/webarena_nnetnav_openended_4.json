@@ -1,0 +1,197 @@
+[
+  {
+    "initial_state": "Magento Admin Dashboard with navigation bar showing main categories",
+    "action": "click [156] where [156] is \ue60b SALES",
+    "environmental_dynamics": "The navigation menu expanded to display subcategories under 'Sales' when the 'Sales' option was clicked."
+  },
+  {
+    "initial_state": "Dashboard / Magento Admin with sales navigation options",
+    "action": "click [168] where [168] is Orders",
+    "environmental_dynamics": "Navigated to Orders / Operations / Sales within Magento Admin, displaying an order management page with filters and detailed order information."
+  },
+  {
+    "initial_state": "Orders list page in Magento Admin with multiple order details listed",
+    "action": "click [1463] where [1463] is View",
+    "environmental_dynamics": "The page transitioned to display detailed view of order #000000065, showing information such as order date, customer details, billing/shipping addresses, and items ordered, along with options for actions like 'Back', 'Edit', 'Cancel', and 'Send Email'."
+  },
+  {
+    "initial_state": "Magento Admin panel's order details page for order #000000065",
+    "action": "click [744] where [744] is Ship",
+    "environmental_dynamics": "The page transitioned to a new shipment creation page for the same order, with a form to add shipping details and options."
+  },
+  {
+    "initial_state": "Magento admin page for creating a new shipment with a table containing shipment tracking options",
+    "action": "click [800] where [800] is Add Tracking Number",
+    "environmental_dynamics": "A new row appeared in the shipment tracking table with a combobox and textbox fields for 'Carrier' and 'Title', and a 'Number' textbox, making the 'Add Tracking Number' button focused."
+  },
+  {
+    "initial_state": "Magento Admin's New Shipment page with order details and shipment options editable",
+    "action": "click [927] where [927] is Submit Shipment",
+    "environmental_dynamics": "The 'Submit Shipment' button was clicked, but the page state did not change, remaining the same after the click action."
+  },
+  {
+    "initial_state": "Magento Admin panel within the Sales > Shipments section with the main content being the 'New Shipment' form",
+    "action": "click [461] where [461] is \ue60d STORES",
+    "environmental_dynamics": "The STORES link in the navigation menu expanded, showing a vertical menu of store-related settings and options."
+  },
+  {
+    "initial_state": "Magento Admin New Shipment page with various order and shipment details",
+    "action": "click [927] where [927] is Submit Shipment",
+    "environmental_dynamics": "The form submitted as indicated by the focus moving to a button representing the submission action, but the page content essentially remains unchanged, showing readiness for a new shipment process."
+  },
+  {
+    "initial_state": "Magento Admin panel displaying the 'New Shipment' page for a new shipment under the Sales -> Operations menu with specific order and account information visible",
+    "action": "go_back",
+    "environmental_dynamics": "Navigated back to the previous page showing the detailed order view for a specific order with sections for order information, addresses, payment, and shipment options."
+  },
+  {
+    "initial_state": "A detailed page for a specific order with information fields such as order date, status, and order items visible",
+    "action": "go_back",
+    "environmental_dynamics": "Navigated back to the previous page displaying multiple order entries and an overview of order statuses."
+  },
+  {
+    "initial_state": "Sales order listing page displaying a table of orders with details such as ID, purchase date, bill-to and ship-to names, and order status.",
+    "action": "click [1749] where [1749] is ",
+    "environmental_dynamics": "The view transitioned from a list of orders to a detailed order page, showing information for order #000000304 including account, address, payment, shipping method, and items ordered, alongside action buttons like 'Back,' 'Edit,' and 'Cancel'."
+  },
+  {
+    "initial_state": "Orders page in Magento Admin with order details",
+    "action": "click [744] where [744] is Ship",
+    "environmental_dynamics": "The page transitioned to the 'New Shipment' page within the shipping section, showing fields and tables for creating a new shipment for the selected order."
+  },
+  {
+    "initial_state": "New Shipment creation page for order #000000304 in the Magento Admin",
+    "action": "click [931] where [931] is Submit Shipment",
+    "environmental_dynamics": "The page transitioned to the order detail page for #000000304, reflecting a shipment confirmation with the status 'Processing', and updated buttons and sections reflecting the completed shipment step."
+  },
+  {
+    "initial_state": "Magento admin panel on the order details page with 'Information' tab selected",
+    "action": "click [2372] where [2372] is Invoices",
+    "environmental_dynamics": "The 'Invoices' tab was selected, replacing the previous content with a panel showing invoice management tools and options, and the tab label for 'Invoices' was highlighted as focused."
+  },
+  {
+    "initial_state": "Magento Admin Sales Order page displaying shipment and order information with 'Invoices' tab selected",
+    "action": "click [1128] where [1128] is \ue60fDefault View",
+    "environmental_dynamics": "The 'Default View' button within the 'Invoices' tab panel gained focus, indicating it was clicked."
+  },
+  {
+    "initial_state": "Magento Admin panel on the Sales Orders page, with tabs for Information, Invoices, Credit Memos, Shipments, and Comments History, with the Invoices tab selected and expanded.",
+    "action": "click [1130] where [1130] is ",
+    "environmental_dynamics": "The row in the Invoices tab containing 'We couldn't find any records.' remains unchanged, as no additional content or table rows appeared or changed after clicking the button corresponding to element [1130]."
+  },
+  {
+    "initial_state": "Magento Admin Orders page with an expanded 'Invoices' tab showing a header with search options and a table indicating no records found.",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page scrolled down, revealing more of the content below the current view, including potentially more of the table or additional sections."
+  },
+  {
+    "initial_state": "Magento Admin dashboard with Sales tab visible but not focused",
+    "action": "click [195] where [195] is \ue60b SALES",
+    "environmental_dynamics": "The 'Sales' tab became focused and expanded, showing a dropdown menu with options such as 'Orders', 'Invoices', 'Shipments', and 'Credit Memos'."
+  },
+  {
+    "initial_state": "A Magento Admin panel showing a sales order with tabs for Information, Invoices, Credit Memos, Shipments, and Comments History. The 'Invoices' tab is selected.",
+    "action": "click [2349] where [2349] is Information",
+    "environmental_dynamics": "The page navigated to the 'Information' tab, displaying the relevant information for the order."
+  },
+  {
+    "initial_state": "The browser displayed the Transactions / Operations / Sales page within the Magento Admin, showing a table of transaction records and a navigation menu with different sections.",
+    "action": "click [147] where [147] is \ue604 DASHBOARD",
+    "environmental_dynamics": "Navigated to the Dashboard where the page displays a summary of sales, customer information, and product trends."
+  },
+  {
+    "initial_state": "Magento Admin Dashboard with multiple tabs and sections including Sales, Customers, Marketing, etc.",
+    "action": "click [156] where [156] is \ue60b SALES",
+    "environmental_dynamics": "The 'Sales' tab in the menubar expanded to show a vertical menu with subcategories such as Orders, Invoices, Shipments, Credit Memos, and others, with the 'Sales' tab becoming focused."
+  },
+  {
+    "initial_state": "Dashboard of Magento Admin, with a section showing Sales menu and its sub-menu items including Orders",
+    "action": "click [168] where [168] is Orders",
+    "environmental_dynamics": "Navigated to the Orders page in the Sales section, displaying a list of orders with details such as ID, purchase date, customer name, and status."
+  },
+  {
+    "initial_state": "Orders / Operations / Sales / Magento Admin home page with a navigation bar, banner, main order list table, and footer.",
+    "action": "click [714] where [714] is Create New Order",
+    "environmental_dynamics": "Navigated to a new page titled 'Create New Order in Default Store View' with a section for customer selection and a back button."
+  },
+  {
+    "initial_state": "A webpage displaying the Magento Admin interface for creating a new order, containing a customer selection table with pagination controls.",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page scrolled down, revealing more content below the customer selection table."
+  },
+  {
+    "initial_state": "A page for creating a new order with fields for customer selection",
+    "action": "click [720] where [720] is Create New Customer",
+    "environmental_dynamics": "The form expanded to include sections for account and address information, with options to submit the order and cancel."
+  },
+  {
+    "initial_state": "Magento Admin panel with New Order form displayed, providing fields for order creation such as customer details, address information, and submit order button",
+    "action": "click [163] where [163] is \ue604 DASHBOARD",
+    "environmental_dynamics": "The page transitioned to the Dashboard section of the Magento Admin panel, showcasing various sales and product statistics, including best-selling products and recent order summaries."
+  },
+  {
+    "initial_state": "Magento Admin Dashboard with navigation menu containing items like DASHBOARD, SALES, CATALOG, CUSTOMERS, MARKETING, CONTENT, REPORTS, STORES, and SYSTEM",
+    "action": "click [156] where [156] is \ue60b SALES",
+    "environmental_dynamics": "The 'SALES' menu item was clicked, expanding the submenu under SALES, including sub-items such as Orders, Invoices, Shipments, Credit Memos, Billing Agreements, Transactions, and Braintree Virtual Terminal."
+  },
+  {
+    "initial_state": "Magento Admin Dashboard with various sales, catalog, customers, marketing, reports, stores, and system options",
+    "action": "click [801] where [801] is http://ec2-54-162-4-248.compute-1.amazonaws.com:8083/admin/catalog/product/edit/id/29/",
+    "environmental_dynamics": "The page navigated to a product edit page for 'Sprite Stasis Ball 65 cm'."
+  },
+  {
+    "initial_state": "Magento Admin Dashboard with a navigational menu to various sections including Sales, Catalog, Customers, Marketing, Content, Reports, Stores, and System",
+    "action": "click [156] where [156] is \ue60b SALES",
+    "environmental_dynamics": "The 'Sales' submenu was expanded, revealing further options such as 'Orders', 'Invoices', 'Shipments', 'Credit Memos', 'Billing Agreements', and 'Transactions'."
+  },
+  {
+    "initial_state": "Dashboard / Magento Admin page with a sales overview, including recent orders, bestsellers, and customer reports.",
+    "action": "click [168] where [168] is Orders",
+    "environmental_dynamics": "Navigated to the Orders section under Sales, displaying details of recent orders and order data in a tabular format with options for actions like viewing individual orders."
+  },
+  {
+    "initial_state": "Orders page within the Magento Admin panel, displaying a list of orders and order statuses with interactive elements like 'Create New Order' button and 'Search' feature.",
+    "action": "click [708] where [708] is ",
+    "environmental_dynamics": "The browser navigated to a detailed view of a specific order (#000000299), showing order status, account, and address information along with a table of ordered products and payment/shipping details."
+  },
+  {
+    "initial_state": "A Magento Admin page displaying order information with multiple tabs for different sections of the order",
+    "action": "click [2431] where [2431] is Invoices",
+    "environmental_dynamics": "The 'Invoices' tab was clicked, switching the main content to display a list of invoices for the order."
+  },
+  {
+    "initial_state": "Magento Admin, 'Orders' -> 'Operations' -> 'Sales' page displaying a specific order with a sidebar containing tabs for 'Invoices', 'Credit Memos', 'Shipments', and 'Comments History'.",
+    "action": "click [1545] where [1545] is View",
+    "environmental_dynamics": "The browser navigated from the 'Orders / Operations / Sales' page to a detailed view ('#000000003') of an order, showing its information including order date, account details, addresses, payment and shipping methods, and item-specific details under the 'Items Invoiced' section."
+  },
+  {
+    "initial_state": "Magento Admin Invoices page with order details and customer information visible",
+    "action": "click [685] where [685] is Login as Customer",
+    "environmental_dynamics": "A dialog titled 'Login as Customer not enabled' opened, indicating that the remote shopping assistance feature is not enabled and suggesting to contact the customer for user configuration."
+  },
+  {
+    "initial_state": "Magento Admin page displaying an order and customer details with sections for order total and invoice history",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page content was scrolled down, revealing more of the 'Invoice Totals' section, 'Comment Text', and 'Notify Customer by Email' checkbox."
+  },
+  {
+    "initial_state": "Magento Admin Panel - Invoice for Sarah Miller with 'Login as Customer not enabled' dialog visible",
+    "action": "click [744] where [744] is ",
+    "environmental_dynamics": "No change"
+  },
+  {
+    "initial_state": "Magento Admin Invoices page displaying order details",
+    "action": "Attempt to perfom \"click\" on element \"[237]\" but no matching element found. Please check the observation more carefully.",
+    "environmental_dynamics": "No change"
+  },
+  {
+    "initial_state": "Invoice details page in Magento Admin showing billing, shipping, and order item information.",
+    "action": "click [744] where [744] is ",
+    "environmental_dynamics": "No change."
+  },
+  {
+    "initial_state": "Magento Admin panel displaying an invoice for sales orders with detailed billing, shipping, and payment information",
+    "action": "click [683] where [683] is \ue626 Back",
+    "environmental_dynamics": "Navigated back to the previous page or view as the 'Back' button was clicked."
+  }
+]

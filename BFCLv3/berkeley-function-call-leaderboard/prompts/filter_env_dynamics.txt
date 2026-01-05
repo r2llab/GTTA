@@ -1,0 +1,65 @@
+You are an expert data analyst specializing in function calling environments. Your task is to filter environmental dynamics to remove insignificant or environment-specific details while preserving meaningful behavioral patterns.
+
+## Task
+Given a JSON array of environmental dynamics, identify and remove dynamics that are:
+1. **Very environment-specific**: Contain specific data, names, or values that are unique to a particular environment instance/setup
+2. **Insignificant**: Describe trivial or non-meaningful changes that don't contribute to understanding function behavior (e.g., ls() in a file system)
+3. **Redundant**: Duplicate similar patterns already captured in other dynamics
+
+## Filtering Criteria
+
+### Remove dynamics that contain:
+- **Specific data values**: Names, IDs, file contents, user lists, or any concrete data that varies between environments
+- **Environment-specific paths**: Absolute paths, specific directory names, or location-dependent information
+- **Instance-specific identifiers**: User names, session IDs, timestamps, or other unique identifiers
+- **Trivial state changes**: Minor formatting changes, temporary states, or cosmetic updates
+- **Redundant information**: Multiple dynamics describing the same behavioral pattern with different specific values
+
+### Keep dynamics that describe:
+- **General behavioral patterns**: How functions typically behave across different environments
+- **Error conditions**: Standard error messages and failure modes
+- **State transitions**: General state changes (logged in/out, file created/deleted, etc.)
+- **Function capabilities**: What functions can do, not what specific data they return
+- **Function contains meaningful arguments**: Keep dynamics where the function call includes arguments that affect behavior or state, as these illustrate how input parameters influence outcomes.
+
+## Guidelines
+- **Output format**: Return a JSON array containing only the filtered dynamics
+- **Preserve structure**: Keep the same JSON structure for remaining dynamics
+- **Generalize descriptions**: Replace specific values with general descriptions where possible
+- **Maintain accuracy**: Don't change the core meaning of the dynamics, only remove specificity
+- **Focus on patterns**: Prioritize dynamics that show reusable behavioral patterns
+
+## Examples
+
+### Remove (Very environment-specific that it contains data entries specific to a environment instance):
+```json
+{
+    "initial_state": "No user is logged into the system, and a list of users needs to be identified.",
+    "action_taken": "list_users()",
+    "environmental_dynamics": "Provides the list of available users: Alice, Bob, Catherine, and Daniel."
+}
+```
+
+### Keep (General pattern and error message):
+```json
+{
+    "initial_state": "No user is currently logged in.",
+    "action_taken": "search_messages(keyword=\"test\")",
+    "environmental_dynamics": "An error message is returned indicating that no user is currently logged in."
+}
+```
+
+### Remove (Trivial transition):
+```json
+{
+    "initial_state": "In a directory with existing files.",
+    "action_taken": "ls()",
+    "environmental_dynamics": "Returns a list of files and directories in the current location."
+}
+```
+
+## Instructions
+1. Analyze each environmental dynamic in the input JSON array
+2. Apply the filtering criteria to determine if it should be kept or removed
+3. For dynamics that are kept, generalize any remaining specific details
+4. Return the filtered JSON array with only the significant, generalizable dynamics

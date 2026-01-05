@@ -1,0 +1,197 @@
+[
+  {
+    "initial_state": "One Stop Market homepage with several featured products and a search bar available for input; the search bar is empty and the user is welcomed as Emma Lopez.",
+    "action": "type [272] [pet ] where [272] is \ue615 Search",
+    "environmental_dynamics": "A search was submitted for the term 'pet', and the page updated to display the search results for 'pet', showing relevant products and updating the heading, breadcrumbs, and filters to match the search query."
+  },
+  {
+    "initial_state": "E-commerce search results page for 'pet', with a list of product results including 'PetCords Dog and Cat Cord Protector', and a visible link for '12 Reviews' on that product.",
+    "action": "click [1414] where [1414] is 12 \u00a0Reviews",
+    "environmental_dynamics": "The page navigated to the product detail page for 'PetCords Dog and Cat Cord Protector', displaying product details, pricing, reviews, and purchase options."
+  },
+  {
+    "initial_state": "Product page for 'PetCords Dog and Cat Cord Protector' with tabs for 'Details' and 'Reviews (12)', where the 'Reviews (12)' tab is not expanded or selected.",
+    "action": "click [1771] where [1771] is Reviews (12)",
+    "environmental_dynamics": "The 'Reviews (12)' tab is now expanded and selected, displaying a list of customer reviews and the review submission form below the product details."
+  },
+  {
+    "initial_state": "Product page for PetCords Dog and Cat Cord Protector with the review form open and no rating selected.",
+    "action": "click [2070] where [2070] is Rating \ue605\ue605\ue605\ue605 4 stars",
+    "environmental_dynamics": "The '4 stars' rating radio button in the review form is now selected and focused, updating the user's rating selection."
+  },
+  {
+    "initial_state": "Product page for PetCords Dog and Cat Cord Protector with a review form, where the 'Summary*' textbox is empty and not focused.",
+    "action": "type [2086] [Good protection, could be more durable] where [2086] is Summary*",
+    "environmental_dynamics": "The 'Summary*' textbox in the review form now contains the text 'Good protection, could be more durable' and is focused."
+  },
+  {
+    "initial_state": "Product page for PetCords Dog and Cat Cord Protector with the review form open; the 'Review*' textbox is empty and focused.",
+    "action": "type [2091] [This cord protector keeps my dog safe from chewing, but I wish it was a bit stronger. Overall, I feel better knowing my pet is protected.] where [2091] is Review*",
+    "environmental_dynamics": "The 'Review*' textbox has been populated with the text 'This cord protector keeps my dog safe from chewing, but I wish it was a bit stronger. Overall, I feel better knowing my pet is protected.' and remains focused."
+  },
+  {
+    "initial_state": "Product page for PetCords Dog and Cat Cord Protector with the 'Submit Review' button visible and a review form filled out with rating, nickname, summary, and review text.",
+    "action": "click [2094] where [2094] is Submit Review",
+    "environmental_dynamics": "After clicking 'Submit Review', an alert appears stating 'You submitted your review for moderation,' the review form is no longer present, and the product details tab becomes selected instead of the reviews tab."
+  },
+  {
+    "initial_state": "Product detail page for PetCords Dog and Cat Cord Protector with product information and 'Add to Cart' button visible.",
+    "action": "click [1448] where [1448] is Add to Cart",
+    "environmental_dynamics": "A new alert appeared confirming the product was added to the cart, and the 'My Cart' link now shows '1 item' in the cart."
+  },
+  {
+    "initial_state": "Product detail page for PetCords Dog and Cat Cord Protector, with an alert confirming the item was added to the shopping cart and a visible link to the shopping cart.",
+    "action": "click [1968] where [1968] is shopping cart",
+    "environmental_dynamics": "Navigated from the product detail page to the shopping cart page, displaying the shopping cart contents, order total, and checkout options."
+  },
+  {
+    "initial_state": "Shopping cart page displaying the cart summary and a single item (PetCords Dog and Cat Cord Protector) with item controls.",
+    "action": "click [1928] where [1928] is PetCords Dog and Cat Cord Protector- Protects Your Pets from Chewing Through Insulated Cables up to 10ft, Unscented, Odorless",
+    "environmental_dynamics": "Navigated to the product detail page for PetCords Dog and Cat Cord Protector, presenting detailed descriptions, images, reviews, and options to add to cart or wishlist."
+  },
+  {
+    "initial_state": "Product detail page for 'PetCords Dog and Cat Cord Protector', with the 'Details' tab displayed and the 'Reviews (12)' tab unselected.",
+    "action": "click [1818] where [1818] is Reviews (12)",
+    "environmental_dynamics": "The 'Reviews (12)' tab was selected and expanded, displaying a list of customer reviews for the product."
+  },
+  {
+    "initial_state": "Product detail page for 'PetCords Dog and Cat Cord Protector' with the 'Add Your Review' form visible and no star rating selected in the review form.",
+    "action": "click [1853] where [1853] is Rating \ue605\ue605\ue605\ue605 4 stars",
+    "environmental_dynamics": "The '4 stars' radio button in the review rating section is now selected and focused, indicating a 4-star rating choice for the review."
+  },
+  {
+    "initial_state": "Product page for PetCords Dog and Cat Cord Protector with the review form open; the 'Summary*' textbox is empty and unfocused.",
+    "action": "type [1869] [Good balance of protection and value] where [1869] is Summary*",
+    "environmental_dynamics": "The 'Summary*' textbox in the review form is now filled with the text 'Good balance of protection and value' and is focused."
+  },
+  {
+    "initial_state": "Product review page with the review submission form for 'PetCords Dog and Cat Cord Protector' open, the 'Review*' textbox empty and focused.",
+    "action": "type [1874] [I've tried a few cord protectors and this one is easy to install. It gives me peace of mind that my dog is safe, but it could be a bit tougher for persistent chewers. Still, good value overall.] where [1874] is Review*",
+    "environmental_dynamics": "The content 'I've tried a few cord protectors and this one is easy to install. It gives me peace of mind that my dog is safe, but it could be a bit tougher for persistent chewers. Still, good value overall.' was entered into the 'Review*' textbox of the review submission form."
+  },
+  {
+    "initial_state": "Product page for PetCords Dog and Cat Cord Protector with the review submission form open; '1 star' rating radio button is selected.",
+    "action": "click [1853] where [1853] is Rating \ue605\ue605\ue605\ue605 4 stars",
+    "environmental_dynamics": "The '4 stars' rating radio button is now selected and focused in the review submission form, replacing the previous '1 star' selection."
+  },
+  {
+    "initial_state": "Product page for PetCords Cord Protector with the review form open and the 'Summary*' textbox containing 'Good balance of protection and value'.",
+    "action": "type [1869] [Easy to use, but not chew-proof for all pets] where [1869] is Summary*",
+    "environmental_dynamics": "The 'Summary*' textbox in the review form was updated to 'Easy to use, but not chew-proof for all pets' and is now focused."
+  },
+  {
+    "initial_state": "Product page for PetCords Dog and Cat Cord Protector with a review form partially filled out. The 'Summary' textbox is focused and contains user input.",
+    "action": "type [1874] [This cord protector is easy to install and didn't have any odor, but my cat was able to chew through it after a few days. It might work better for smaller pets or less persistent chewers.] where [1874] is Review*",
+    "environmental_dynamics": "The 'Review' textbox in the review form is now populated with the text: 'This cord protector is easy to install and didn't have any odor, but my cat was able to chew through it after a few days. It might work better for smaller pets or less persistent chewers.'"
+  },
+  {
+    "initial_state": "Product review page with the review form partially completed: rating set to 1 star, nickname 'Emma', summary entered, and the 'Review*' required field empty and focused.",
+    "action": "click [1877] where [1877] is Submit Review",
+    "environmental_dynamics": "After clicking 'Submit Review', a validation error message 'This is a required field.' appeared below the empty 'Review*' textbox, indicating the field must be filled to submit the review."
+  },
+  {
+    "initial_state": "Product page for PetCords Dog and Cat Cord Protector with a visible review submission form where the 'Review*' textbox is empty and focused.",
+    "action": "type [1874] [This cord protector is easy to install and didn't have any odor, but my cat was able to chew through it after a few days. It might work better for smaller pets or less persistent chewers.] where [1874] is Review*",
+    "environmental_dynamics": "The review text was entered into the 'Review*' textbox, populating it with the user's typed content, but no other changes to the page occurred."
+  },
+  {
+    "initial_state": "Product page for PetCords with a review form visible and filled out, showing a required field error for the Review textbox.",
+    "action": "click [1877] where [1877] is Submit Review",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "Product page for 'PetCords Dog and Cat Cord Protector' with the review form visible and the 'Review*' text box empty and focused, showing a required field warning.",
+    "action": "type [1874] [This cord protector is easy to install and didn't have any odor, but my cat was able to chew through it after a few days. It might work better for smaller pets or less persistent chewers.] where [1874] is Review*",
+    "environmental_dynamics": "The review text was entered in the 'Review*' textbox, replacing the required-field warning with the provided content."
+  },
+  {
+    "initial_state": "Product page for 'PetCords Dog and Cat Cord Protector' with the review form visible and filled in (rating selected, nickname and summary entered, review field empty and focused with a required field error).",
+    "action": "click [1877] where [1877] is Submit Review",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "Product page for 'PetCords Dog and Cat Cord Protector' with a product review form open where the 'Review*' text box is empty and focused, showing a validation message that the field is required.",
+    "action": "type [1874] [This product is easy to apply and works well for my dog, but determined chewers might get through it. Satisfied overall, but keep an eye on your pets.] where [1874] is Review*",
+    "environmental_dynamics": "The 'Review*' text box is now filled with the user-entered review: 'This product is easy to apply and works well for my dog, but determined chewers might get through it. Satisfied overall, but keep an eye on your pets.'"
+  },
+  {
+    "initial_state": "Product page for PetCords Dog and Cat Cord Protector with a visible review submission form filled out and the 'Submit Review' button available.",
+    "action": "click [1877] where [1877] is Submit Review",
+    "environmental_dynamics": "The review form disappeared and was replaced by an alert stating 'You submitted your review for moderation.'; the details tab became active, and the 'Reviews' tab was deselected, showing the product description instead of the list of customer reviews."
+  },
+  {
+    "initial_state": "Product page for 'PetCords Dog and Cat Cord Protector' with the 'Details' tab expanded and the 'Reviews (12)' tab collapsed.",
+    "action": "click [1821] where [1821] is Reviews (12)",
+    "environmental_dynamics": "The 'Reviews (12)' tab is now expanded and selected, displaying customer reviews and associated review content below the tabs."
+  },
+  {
+    "initial_state": "Product page for PetCords Dog and Cat Cord Protector, displaying customer reviews with the first reviews page (page 1) active.",
+    "action": "click [2214] where [2214] is Page 2",
+    "environmental_dynamics": "The reviews section has updated to display the second page of customer reviews, with navigation controls indicating page 2 is now active."
+  },
+  {
+    "initial_state": "Product page for 'PetCords Dog and Cat Cord Protector' with the 'Reviews (12)' tab open and the reviews section visible.",
+    "action": "click [1552] where [1552] is Details",
+    "environmental_dynamics": "The 'Details' tab was selected and expanded, revealing the full product description and details, while the 'Reviews (12)' tab was deselected and its content was hidden."
+  },
+  {
+    "initial_state": "Product page for 'PetCords Dog and Cat Cord Protector' with 1 item in the cart and no notification about adding to cart.",
+    "action": "click [1495] where [1495] is Add to Cart",
+    "environmental_dynamics": "The cart number increased from 1 to 2, and a confirmation alert appeared indicating that 'PetCords Dog and Cat Cord Protector' was added to the shopping cart."
+  },
+  {
+    "initial_state": "Product detail page for 'PetCords Dog and Cat Cord Protector', showing product information, stock status, add to cart button, wish list/compare links, and alerts for review submission and item addition to cart.",
+    "action": "click [2355] where [2355] is shopping cart",
+    "environmental_dynamics": "The view switched from the product detail page to the Shopping Cart page, displaying a summary of cart totals, item details (PetCords Dog and Cat Cord Protector with quantity and subtotal), checkout options, and cart management features."
+  },
+  {
+    "initial_state": "Shopping cart page with the 'Estimate Shipping and Tax' tab collapsed and not selected; summary and order details are visible.",
+    "action": "click [1509] where [1509] is Estimate Shipping and Tax \ue622",
+    "environmental_dynamics": "The 'Estimate Shipping and Tax' tab was expanded and selected, displaying a form to enter country, state, and zip code for shipping estimation and revealing flat rate shipping options."
+  },
+  {
+    "initial_state": "Shopping cart page displaying cart summary and a list of cart items with options to move, edit, or remove each item, and the 'Edit' link for a product is present and clickable.",
+    "action": "click [1957] where [1957] is Edit",
+    "environmental_dynamics": "The browser navigated from the shopping cart page to the detailed product page for 'PetCords Dog and Cat Cord Protector', showing in-depth product information and allowing item modifications such as quantity updates or adding to wish list or compare."
+  },
+  {
+    "initial_state": "Product detail page for 'PetCords Dog and Cat Cord Protector' with the 'Details' tab open and its product description visible.",
+    "action": "click [1810] where [1810] is Reviews (12)",
+    "environmental_dynamics": "The 'Reviews (12)' tab became selected and expanded, displaying customer reviews and a form for submitting a new review."
+  },
+  {
+    "initial_state": "Product detail page for PetCords Dog and Cat Cord Protector, with the Reviews (12) tab open and showing page 1 of customer reviews.",
+    "action": "click [2204] where [2204] is Page 2",
+    "environmental_dynamics": "The reviews section advanced to page 2, displaying a new set of customer reviews and updating the pagination controls to indicate that page 2 is currently being viewed."
+  },
+  {
+    "initial_state": "Product page for 'PetCords Dog and Cat Cord Protector', with the 'Reviews (12)' tab open and currently showing page 2 of customer reviews.",
+    "action": "click [2295] where [2295] is \ue617 Page Previous",
+    "environmental_dynamics": "The customer reviews in the 'Reviews (12)' tab changed from page 2 to page 1, displaying different review content and updating the pagination indicators to show that page 1 is now active."
+  },
+  {
+    "initial_state": "Product detail page for 'PetCords Dog and Cat Cord Protector,' showing product reviews, cart quantity set to 2, and an 'Update Cart' button available.",
+    "action": "click [1485] where [1485] is Update Cart",
+    "environmental_dynamics": "The browser navigated to the Shopping Cart page, displaying a confirmation alert that the product was updated in the shopping cart and showing the current contents and totals of the cart."
+  },
+  {
+    "initial_state": "Shopping cart page showing multiple items in the cart, including their quantities, subtotals, and options to proceed to checkout, edit, or remove items.",
+    "action": "click [1847] where [1847] is Proceed to Checkout",
+    "environmental_dynamics": "After clicking 'Proceed to Checkout', the shopping cart was emptied and a message appeared stating 'You have no items in your shopping cart,' with a link to continue shopping."
+  },
+  {
+    "initial_state": "Shopping Cart page with a collapsed, unfocused search combobox labeled 'Search'",
+    "action": "click [264] where [264] is \ue615 Search",
+    "environmental_dynamics": "The search combobox expanded and received focus, readying it for user input and displaying possible autocomplete options."
+  },
+  {
+    "initial_state": "Shopping cart page with search bar focused and no items in the cart.",
+    "action": "type [264] [pet ] where [264] is \ue615 Search",
+    "environmental_dynamics": "The search bar received input 'pet' and the page updated to show search results for 'pet', displaying a list of relevant products and filtering options."
+  },
+  {
+    "initial_state": "E-commerce search results page for 'pet', showing a list of products and product information with an option to click on '12 Reviews' for the PetCords Dog and Cat Cord Protector product.",
+    "action": "click [1246] where [1246] is 12 \u00a0Reviews",
+    "environmental_dynamics": "Navigated from the search results page to the product detail page for 'PetCords Dog and Cat Cord Protector- Protects Your Pets from Chewing Through Insulated Cables up to 10ft, Unscented, Odorless', revealing detailed product information, reviews, and purchase options for this item."
+  }
+]

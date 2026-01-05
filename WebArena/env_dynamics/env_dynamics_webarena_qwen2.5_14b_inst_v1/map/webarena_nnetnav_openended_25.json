@@ -1,0 +1,197 @@
+[
+  {
+    "initial_state": "OpenStreetMap homepage with a search bar and default view",
+    "action": "type [145] [parks near New York ] where [145] is Search",
+    "environmental_dynamics": "The search bar now contains the query 'parks near New York', and a search results section with a list of parks in the area has appeared below the search bar."
+  },
+  {
+    "initial_state": "OpenStreetMap webpage displaying search results for 'parks near New York'",
+    "action": "click [449] where [449] is Lewisboro Town Park, Town of Lewisboro, Westchester County, New York, United States",
+    "environmental_dynamics": "The browser loaded additional information about the selected park, Lewisboro Town Park, Town of Lewisboro, Westchester County, New York, United States, indicated by a 'Loading...' status message."
+  },
+  {
+    "initial_state": "OpenStreetMap page showing parks near New York",
+    "action": "click [394] where [394] is Zoom In",
+    "environmental_dynamics": "The view zoomed in, changing the zoom level from 50 meters to 30 meters."
+  },
+  {
+    "initial_state": "OpenStreetMap page detailing Lewisboro Town Park with navigation and information sections",
+    "action": "click [494] where [494] is Close",
+    "environmental_dynamics": "A welcome modal opened on the page, replacing the Lewisboro Town Park details, with a header and a 'Close' button."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with a search box and various navigation links",
+    "action": "type [145] [parks near New York ] where [145] is Search",
+    "environmental_dynamics": "The search textbox was filled with 'parks near New York', and a section titled 'Search Results' with a list of parks in the specified area became visible."
+  },
+  {
+    "initial_state": "OpenStreetMap search results page displaying parks near New York",
+    "action": "click [640] where [640] is Old Field Preserve South Parcel, Town of Lewisboro, Westchester County, New York, United States",
+    "environmental_dynamics": "The browser navigated to the detailed page for 'Old Field Preserve South Parcel', showing information about the specific park including its tags and history."
+  },
+  {
+    "initial_state": "OpenStreetMap way detail page for 'Old Field Preserve South Parcel'",
+    "action": "click [147] where [147] is Go",
+    "environmental_dynamics": "The focus shifted to the 'Go' button in the search section at the top, suggesting an interaction that could trigger the search or navigation based on the input in the search box."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with a search box and various navigation links",
+    "action": "type [145] [parks near New York ] where [145] is Search",
+    "environmental_dynamics": "The search box was populated with the text 'parks near New York' and became focused, and a heading 'Search Results' along with a list of park names in the vicinity of New York appeared below the search section."
+  },
+  {
+    "initial_state": "OpenStreetMap search results page with a list of parks near New York",
+    "action": "click [795] where [795] is Lewisboro Town Park, Town of Lewisboro, Westchester County, New York, United States",
+    "environmental_dynamics": "Navigated to a detailed page for Lewisboro Town Park, showing its metadata and location details."
+  },
+  {
+    "initial_state": "OpenStreetMap page displaying details of Lewisboro Town Park",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page scrolled down, revealing more detailed information about the park including version history and tags."
+  },
+  {
+    "initial_state": "OpenStreetMap page displaying details of Lewisboro Town Park way",
+    "action": "hover [827] where [827] is ",
+    "environmental_dynamics": "No change"
+  },
+  {
+    "initial_state": "An OpenStreetMap page detailing information about 'Way: Lewisboro Town Park (156222728)', including navigation links, a section for way details, tags, nodes and related actions like 'View History' and 'Download XML'",
+    "action": "click [402] where [402] is Layers",
+    "environmental_dynamics": "A new section titled 'Map Layers' appeared, offering various map overlays with options to enable features like 'Map Notes', 'Map Data', and 'Public GPS Traces'"
+  },
+  {
+    "initial_state": "Page displaying specific details of Lewisboro Town Park on OpenStreetMap",
+    "action": "click [147] where [147] is Go",
+    "environmental_dynamics": "The focus shifted to the 'Go' button, indicating an interactive form or search area became active for user input."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage, displaying various navigation options and a search bar",
+    "action": "type [145] [parks near New York ] where [145] is Search",
+    "environmental_dynamics": "The search bar displayed 'parks near New York' as the search query, and search results for parks near New York appeared below the search bar."
+  },
+  {
+    "initial_state": "OpenStreetMap page displaying search results for parks near New York, with detailed information for each searched park shown as clickable links",
+    "action": "click [950] where [950] is Lewisboro Town Park, Town of Lewisboro, Westchester County, New York, United States",
+    "environmental_dynamics": "Navigated to the detailed page of Lewisboro Town Park with a section displaying version history, tags, and map layers."
+  },
+  {
+    "initial_state": "OpenStreetMap page displaying details of Lewisboro Town Park",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page scrolled down, revealing more content below the initial view."
+  },
+  {
+    "initial_state": "An OpenStreetMap page displaying information about Lewisboro Town Park with sections for navigation, search, map layers, and waypoints",
+    "action": "Attempt to perfom \"click\" on element \"[434]\" but no matching element found. Please check the observation more carefully.",
+    "environmental_dynamics": "No change"
+  },
+  {
+    "initial_state": "An OpenStreetMap page focused on a specific location 'Way: Lewisboro Town Park', with a banner, navigation options, and a 'Go' button next to a search box.",
+    "action": "click [147] where [147] is Go",
+    "environmental_dynamics": "The 'Go' button became focused, indicating it was clicked."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with multiple sections visible, including a welcome banner and map layers",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page content scrolled down, revealing more of the map layers and additional options below."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with search bar and sections for map layers",
+    "action": "type [145] [parks near New York ] where [145] is Search",
+    "environmental_dynamics": "The search bar was filled with the query 'parks near New York', and a new section labeled 'Search Results' appeared with a list of park locations that match the search."
+  },
+  {
+    "initial_state": "OpenStreetMap webpage displaying search results for parks near New York with details on multiple park locations",
+    "action": "click [1119] where [1119] is Lewisboro Town Park, Town of Lewisboro, Westchester County, New York, United States",
+    "environmental_dynamics": "The page transitioned to a detailed view of the Lewisboro Town Park, showing its edit history and map location."
+  },
+  {
+    "initial_state": "OpenStreetMap page displaying details of 'Lewisboro Town Park' with various navigation and content sections",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page content scrolled down, revealing further content below the initial view."
+  },
+  {
+    "initial_state": "OpenStreetMap page with detailed information about 'Way: Lewisboro Town Park (156222728)'.",
+    "action": "click [1151] where [1151] is Close",
+    "environmental_dynamics": "The detailed information section was closed, revealing a welcome message and introductory content about OpenStreetMap."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with zoom controls visible",
+    "action": "click [394] where [394] is Zoom In",
+    "environmental_dynamics": "The map zoomed in, changing the distance labels from '100 m' and '500 ft' to '50 m' and '200 ft', respectively."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with a search bar and 'Go' button available for interaction",
+    "action": "click [147] where [147] is Go",
+    "environmental_dynamics": "The 'Go' button became focused, indicating it is ready to be triggered."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with search bar visible",
+    "action": "type [145] [parks near New York ] where [145] is Search",
+    "environmental_dynamics": "The search bar populated with the phrase 'parks near New York' and focused on the input field, triggering a search that displayed a heading 'Search Results' along with a list of park locations identified in the vicinity of New York."
+  },
+  {
+    "initial_state": "OpenStreetMap with search results for parks near New York, displaying multiple parks including Lewisboro Town Park",
+    "action": "click [1283] where [1283] is Lewisboro Town Park, Town of Lewisboro, Westchester County, New York, United States",
+    "environmental_dynamics": "The page transitioned to a detailed view of the specific way (Lewisboro Town Park) displaying its version history, tags, and nodes."
+  },
+  {
+    "initial_state": "OpenStreetMap page for a specific way (Lewisboro Town Park)",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page scrolled down, revealing more details about the way and its history."
+  },
+  {
+    "initial_state": "OpenStreetMap page for 'Way: Lewisboro Town Park (156222728)' with various navigation and control elements like 'Zoom In' and 'Zoom Out' buttons, and several map layer options.",
+    "action": "click [394] where [394] is Zoom In",
+    "environmental_dynamics": "The 'Zoom In' button became focused, and a tooltip appeared indicating 'Zoom In' functionality."
+  },
+  {
+    "initial_state": "OpenStreetMap page displaying details for 'Lewisboro Town Park' with various map controls and layers visible",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The webpage content has scrolled down, revealing additional sections and map details such as distance units and new image tiles."
+  },
+  {
+    "initial_state": "OpenStreetMap page with details of Lewisboro Town Park and various UI elements visible",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page scrolled down, revealing more details including updated distance units and additional map layer images."
+  },
+  {
+    "initial_state": "An OpenStreetMap page displaying details of a way (Lewisboro Town Park)",
+    "action": "click [1418] where [1418] is View History",
+    "environmental_dynamics": "The page transitioned to display the history of the way, changing the heading to reflect this transition."
+  },
+  {
+    "initial_state": "OpenStreetMap page displaying 'Way History' of Lewisboro Town Park",
+    "action": "click [1622] where [1622] is View Details",
+    "environmental_dynamics": "The view changed to show detailed information about 'Way: Lewisboro Town Park' instead of its history, with a button for 'View History' replacing 'Close'."
+  },
+  {
+    "initial_state": "OpenStreetMap page showing the details of Lewisboro Town Park with a time-stamped edit history",
+    "action": "click [1634] where [1634] is Mon, 27 Mar 2017 05:02:24 +0000",
+    "environmental_dynamics": "No change."
+  },
+  {
+    "initial_state": "OpenStreetMap webpage showing details of 'Lewisboro Town Park'",
+    "action": "click [1637] where [1637] is Tags",
+    "environmental_dynamics": "No change."
+  },
+  {
+    "initial_state": "The OpenStreetMap page for 'Way: Lewisboro Town Park (156222728)', including details like tags, latest version details, and associated buttons and links.",
+    "action": "click [1649] where [1649] is Nodes",
+    "environmental_dynamics": "The 'Nodes' section was clicked, but no visible changes occurred as no new elements were expanded or shown, indicating that no additional data was displayed or altered on the page."
+  },
+  {
+    "initial_state": "An OpenStreetMap page showing details of 'Way: Lewisboro Town Park (156222728)' with a collapsed 'Nodes' section",
+    "action": "click [1651] where [1651] is 24 nodes",
+    "environmental_dynamics": "The 'Nodes' section expanded, revealing a list of 24 nodes with clickable links for each node."
+  },
+  {
+    "initial_state": "OpenStreetMap page displaying 'Way: Lewisboro Town Park (156222728)' with details including tags, nodes, and map layers.",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page content scrolled down, revealing additional details or elements below the current viewport."
+  },
+  {
+    "initial_state": "OpenStreetMap page displaying details of 'Lewisboro Town Park' with zoom levels and other navigation options available",
+    "action": "click [394] where [394] is Zoom In",
+    "environmental_dynamics": "The page zoomed in, changing the displayed map scale from 1 km to 500 m and adjusting the labels for zoom levels accordingly."
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "initial_state": "OpenStreetMap homepage with search bar visible",
+    "action": "type [145] [Statue of Liberty ] where [145] is Search",
+    "environmental_dynamics": "The search box was populated with the text 'Statue of Liberty', focusing the user on the search results related to that location."
+  },
+  {
+    "initial_state": "OpenStreetMap page focused on the Statue of Liberty with search results displayed",
+    "action": "click [449] where [449] is Statue of Liberty, Flagpole Plaza, Manhattan, New York County, City of New York, New York, 10004, United States",
+    "environmental_dynamics": "A new section of the map related to the clicked link was loaded, indicated by a 'Loading...' status message appearing, and the previous search results were likely replaced with this new view."
+  },
+  {
+    "initial_state": "Statue of Liberty | OpenStreetMap with directions and search available",
+    "action": "click [149] where [149] is Find directions between two points",
+    "environmental_dynamics": "The browser navigated to a new page displaying the details for navigating directions from one point to another, including new input fields and buttons for route settings."
+  },
+  {
+    "initial_state": "OpenStreetMap page focused on the Statue of Liberty location",
+    "action": "type [158] [Times Square ] where [158] is From",
+    "environmental_dynamics": "The textbox labeled 'From' was updated with the text 'Times Square', indicating a new starting location for directions."
+  },
+  {
+    "initial_state": "OpenStreetMap page showing the Statue of Liberty location with a partially filled 'To' textbox",
+    "action": "type [163] [Statue of Liberty ] where [163] is To",
+    "environmental_dynamics": "The 'To' textbox was updated to include the value 'Statue of Liberty', reflecting a new destination for navigation."
+  },
+  {
+    "initial_state": "OpenStreetMap route planning page with directions displayed",
+    "action": "click [171] where [171] is Go",
+    "environmental_dynamics": "The button labeled 'Go' was clicked, which triggered a route calculation, resulting in the directions section being updated with the relevant route and estimated time."
+  },
+  {
+    "initial_state": "OpenStreetMap page displaying directions from Times Square to the Statue of Liberty",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page scrolled down, revealing more of the directions and map area."
+  },
+  {
+    "initial_state": "OpenStreetMap detail page for Statue of Liberty display",
+    "action": "scroll [up]",
+    "environmental_dynamics": "The page scrolled up, revealing additional content above the current viewport."
+  }
+]

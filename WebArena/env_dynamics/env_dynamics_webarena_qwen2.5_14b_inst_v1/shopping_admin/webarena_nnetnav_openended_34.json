@@ -1,0 +1,32 @@
+[
+  {
+    "initial_state": "Magento Admin Dashboard displaying sales order summary",
+    "action": "click [850] where [850] is http://ec2-54-162-4-248.compute-1.amazonaws.com:8083/admin/sales/order/view/order_id/299/",
+    "environmental_dynamics": "The state transitioned to a specific order view page (#000000299) with detailed information about the order, including item details, payment and shipping methods, and order totals."
+  },
+  {
+    "initial_state": "Magento Admin panel displaying order information, with an available 'Comment' text box that is not focused.",
+    "action": "click [1078] where [1078] is ",
+    "environmental_dynamics": "The 'Comment' text box is now focused, indicating it is ready to accept input."
+  },
+  {
+    "initial_state": "Magento Admin Order Details page displaying order information and a comments section with a textbox for entering comments.",
+    "action": "type [1078] [Thank you for your purchase! Your order has been shipped. ] where [1078] is Comment",
+    "environmental_dynamics": "The comment textbox in the comments section was autofilled with the text 'Thank you for your purchase! Your order has been shipped.'"
+  },
+  {
+    "initial_state": "Detail page for order #000000299 in Magento Admin with comments section visible",
+    "action": "click [1088] where [1088] is Submit Comment",
+    "environmental_dynamics": "The 'Submit Comment' button became focused and clicked, indicating that a comment might have been submitted."
+  },
+  {
+    "initial_state": "Magento Admin panel displaying the order details for '#000000299' with sections for Order & Account Information, Address Information, Payment & Shipping Method, Items Ordered, and Order Total including a Comment field with the default value 'Thank you for your purchase! Your order has been shipped.\n'",
+    "action": "click [1085] where [1085] is ",
+    "environmental_dynamics": "The checkbox for 'Visible on Storefront' was checked, and the label text for the checkbox became focused and marked as checked='true'."
+  },
+  {
+    "initial_state": "Magento Order Admin page displaying order details and options to edit order status and comments",
+    "action": "click [1082] where [1082] is Notify Customer by Email",
+    "environmental_dynamics": "The checkbox for 'Notify Customer by Email' was checked and became focused."
+  }
+]

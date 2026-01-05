@@ -1,0 +1,36 @@
+You are an expert at creating exploration strategies that will help guide an LLM to explore and understand a new function calling environment. Your task is to synthesize some exploration goals based on a list of functions and a specific environment.
+
+## Task
+Given a list of functions and an environment, create ${N} distinct goals that will explore diffferent aspects of the environment. Each goal should represent different exploration strategies and approaches to discovering functionality.
+
+## Input Format
+- **Environment**: The computing environment or system (e.g., "file system", "vehicle control", "web browser")
+- **Functions**: A list of available functions/commands alongside with detailed descriptions (e.g., ["cd()", "ls()", "pwd()", "mkdir()", "rm()"])
+
+## Output Format
+Output a JSON list of goals. Each goal should be a single sentence that captures the exploration goal and the strategy to achieve it.
+
+Format: ["goal description", "goal description", ...]
+
+## Example Output
+**Environment**: File System
+**Functions**:
+{"name": "touch", "description": "This tool belongs to the Gorilla file system. It is a simple file system that allows users to perform basic file operations such as navigating directories, creating files and directories, reading and writing to files, etc. Tool description: Create a new file of any extension in the current directory.", "parameters": {"type": "dict", "properties": {"file_name": {"type": "string", "description": "The name of the new file in the current directory. file_name is local to the current directory and does not allow path."}}, "required": ["file_name"]}, "response": {"type": "dict", "properties": {}}}
+{"name": "wc", "description": "This tool belongs to the Gorilla file system. It is a simple file system that allows users to perform basic file operations such as navigating directories, creating files and directories, reading and writing to files, etc. Tool description: Count the number of lines, words, and characters in a file of any extension from current directory.", "parameters": {"type": "dict", "properties": {"file_name": {"type": "string", "description": "Name of the file of current directory to perform wc operation on."}, "mode": {"type": "string", "description": "Mode of operation ('l' for lines, 'w' for words, 'c' for characters). ", "default": "l"}}, "required": ["file_name"]}, "response": {"type": "dict", "properties": {"count": {"type": "integer", "description": "The count of the number of lines, words, or characters in the file."}, "type": {"type": "string", "description": "The type of unit we are counting. [Enum]: [\"lines\", \"words\", \"characters\"]"}}}}
+{"name": "ls", "description": "This tool belongs to the Gorilla file system. It is a simple file system that allows users to perform basic file operations such as navigating directories, creating files and directories, reading and writing to files, etc. Tool description: List the contents of the current directory.", "parameters": {"type": "dict", "properties": {"a": {"type": "boolean", "description": "Show hidden files and directories. Defaults to False. ", "default": false}}, "required": []}, "response": {"type": "dict", "properties": {"current_directory_content": {"type": "array", "description": "A list of the contents of the specified directory.", "items": {"type": "string"}}}}}
+{"name": "rm", "description": "This tool belongs to the Gorilla file system. It is a simple file system that allows users to perform basic file operations such as navigating directories, creating files and directories, reading and writing to files, etc. Tool description: Remove a file or directory.", "parameters": {"type": "dict", "properties": {"file_name": {"type": "string", "description": "The name of the file or directory to remove. "}}, "required": ["file_name"]}, "response": {"type": "dict", "properties": {"result": {"type": "string", "description": "The result of the remove operation."}}}}
+
+
+Generated goals:
+[
+  "Explore simple ways to create a file with touch(), count words of the file with wc(), and remove the file with rm().",
+  "Understand the "file_name" argument of the touch() function to see if a file can be created using a path instead of just a file name."
+]
+
+## Guidelines
+- **Be function-specific**: Each goal should explicitly mention which specific functions/tools will be used and in what sequence
+- **Incorporate function descriptions into goal formulation**: You should examine the given function descriptions (i.e., input or output arguments) to propose goals to solve confusing or ambiguous function descriptions or environmental dynamics.
+- **Ensure clarity and achievability**: Each goal should be a single, clear action that can be completed with the available functions
+
+## Your Task
+Now synthesize goal descriptions for the environment and functions provided in the format of a JSON list. Please do not leave any comment.

@@ -1,0 +1,17 @@
+{
+    "intro": "You are given the output of an action taken by an autonomous intelligent agent navigating a web browser.  Your objective is to produce a description of the changes made to the state of the browser.\n\nHere's the information you'll have:\n\nInitial state of the browser as an accessibility tree: This is a simplified representation of the webpage, providing key information.\nFinal state of the browser: This is the accessibility tree representation after the agent took the action\nThe action taken by the web agent: The agent can take actions that fall under the following categories (we also provide descriptions of each action as they were provided to the agent):\n\nPage Operation Actions:\n`click [id]`: This action clicks on an element with a specific id on the webpage.\n`type [id] [content] [press_enter_after=0|1]`: Use this to type the content into the field with id. By default, the \"Enter\" key is pressed after typing unless press_enter_after is set to 0.\n`hover [id]`: Hover over an element with id.\n`press [key_comb]`:  Simulates the pressing of a key combination on the keyboard (e.g., Ctrl+v).\n`scroll [direction=down|up]`: Scroll the page up or down.\n\nTab Management Actions:\n`new_tab`: Open a new, empty browser tab.\n`tab_focus [tab_index]`: Switch the browser's focus to a specific tab using its index.\n`close_tab`: Close the currently active tab.\n\nURL Navigation Actions:\n`goto [url]`: Navigate to a specific URL.\n`go_back`: Navigate to the previously viewed page.\n`go_forward`: Navigate to the next page (if a previous 'go_back' action was performed).\n\nCompletion Action:\n`stop [answer]`: Issue this action when you believe the task is complete. If the objective is to find a text-based answer, provide the answer in the bracket. If you believe the task is impossible to complete, provide the answer as \"N/A\" in the bracket.\n\nTo be successful, it is very important to follow the following rules:\n1. Explictly think about the various features on the website and how the interaction with the website changed these features\n2. Provide the description of changes in one or two sentences.\n3. Strictly follow the format \"State change: <your-answer>\" for your output",
+    "examples": [],
+    "template": "Initial state:\n{init_observation}\nFinal state:\n{final_observation}\nAction: {action}",
+    "meta_data": {
+        "observation": "accessibility_tree",
+        "action_type": "id_accessibility_tree",
+        "keywords": [
+            "init_observation",
+            "final_observation",
+            "action"
+        ],
+        "prompt_constructor": "PassivePromptConstructor",
+        "answer_phrase": "State change: ",
+        "action_splitter": ":"
+    }
+}

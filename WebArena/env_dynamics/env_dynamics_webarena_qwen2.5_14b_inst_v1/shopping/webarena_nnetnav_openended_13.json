@@ -1,0 +1,197 @@
+[
+  {
+    "initial_state": "One Stop Market homepage with several product showcases",
+    "action": "click [1720] where [1720] is Tony Chachere's More Spice Creole Seasoning - 14 oz",
+    "environmental_dynamics": "The browser navigated to the product page for 'Tony Chachere's More Spice Creole Seasoning - 14 oz', displaying detailed product information and reviews."
+  },
+  {
+    "initial_state": "Product page detailing Tony Chachere's More Spice Creole Seasoning - 14 oz",
+    "action": "click [1563] where [1563] is 12\u00a0 Reviews ",
+    "environmental_dynamics": "The reviews tab was expanded and selected, displaying a list of customer reviews and a review submission form."
+  },
+  {
+    "initial_state": "Product page for Tony Chachere's More Spice Creole Seasoning - 14 oz, with a 'Reviews (12)' tab selected and expanded, showing review content and a review submission section.",
+    "action": "click [1726] where [1726] is ",
+    "environmental_dynamics": "The 'Nickname' field in the review submission section received focus, and the label for the 'Nickname' field and its corresponding input field are now visible and focused."
+  },
+  {
+    "initial_state": "Product page for Tony Chachere's More Spice Creole Seasoning with customer review section open",
+    "action": "type [1734] [Awesome seasoning for all your cooking needs!] where [1734] is ",
+    "environmental_dynamics": "The text box for the review summary now contains the text 'Awesome seasoning for all your cooking needs!', indicating a review summary has been typed and the text box is focused."
+  },
+  {
+    "initial_state": "A page showing details and reviews for Tony Chachere's More Spice Creole Seasoning, with an active review form section requesting rating, nickname, summary, and review content.",
+    "action": "click [1742] where [1742] is Submit Review",
+    "environmental_dynamics": "The 'Submit Review' button was clicked, but since it doesn't trigger any visible changes, the state remains unchanged except for the button becoming unavailable for click."
+  },
+  {
+    "initial_state": "Product page for 'Tony Chachere's More Spice Creole Seasoning - 14 oz' with customer reviews and ratings",
+    "action": "goto [http://onestopmarket.com/kids-products.html]",
+    "environmental_dynamics": "The browser navigated to a '404 Not Found' page for the URL 'http://onestopmarket.com/kids-products.html', displaying an error message and suggestions for what to do next."
+  },
+  {
+    "initial_state": "A 404 error page with details on why the page could not be found and suggestions for actions to take",
+    "action": "click [1514] where [1514] is Go back",
+    "environmental_dynamics": "Navigated back to the product page for 'Tony Chachere's More Spice Creole Seasoning - 14 oz' displaying product details and options."
+  },
+  {
+    "initial_state": "Product page for Tony Chachere's More Spice Creole Seasoning - 14 oz with options to add to cart and wish list",
+    "action": "click [1593] where [1593] is Add to Wish List",
+    "environmental_dynamics": "The product has been added to the wish list, redirecting the page to display the wish list content with the added item."
+  },
+  {
+    "initial_state": "One-stop market wish list page, showing one item in the wish list",
+    "action": "click [1566] where [1566] is Edit",
+    "environmental_dynamics": "The wish list item details section has been expanded to include edit functionalities, allowing for modifications to the wish list entry."
+  },
+  {
+    "initial_state": "Page displaying details of 'Tony Chachere's More Spice Creole Seasoning - 14 oz' with a search bar, product options, and tabs for details and reviews.",
+    "action": "Attempt to perfom \"click\" on element \"[1798]\" but no matching element found. Please check the observation more carefully.",
+    "environmental_dynamics": "No change, as the attempted click action failed due to no matching element found."
+  },
+  {
+    "initial_state": "A product page for Tony Chachere's More Spice Creole Seasoning with a list of navigation elements including 'My Account', 'My Wish List', 'Sign Out', 'Welcome, Emma Lopez!', and a 'My Cart' link",
+    "action": "click [1593] where [1593] is Add to Compare",
+    "environmental_dynamics": "A product addition alert appeared indicating that the item was added to the comparison list, and an additional navigation link 'Compare Products 2 items' was added."
+  },
+  {
+    "initial_state": "Product detail page of Tony Chachere's More Spice Creole Seasoning - 14 oz.",
+    "action": "click [1595] where [1595] is Update Wish List",
+    "environmental_dynamics": "The page transitioned to the My Wish List page, listing the updated wish list with 2 items, and displaying an alert indicating that the product was updated in the wish list."
+  },
+  {
+    "initial_state": "My Wish List page displaying 2 items with the option to view comments, edit, and remove items",
+    "action": "click [1786] where [1786] is Add to Cart",
+    "environmental_dynamics": "One of the items was removed from the wish list, updated the wish list count to 1 item and triggered an 'Add to Cart' confirmation for that item."
+  },
+  {
+    "initial_state": "My Wish List page of an online shopping site with items listed and account-related sections visible",
+    "action": "goto [http://onestopmarket.com/kids-products.html]",
+    "environmental_dynamics": "Navigated to the '404 Not Found' page, which indicates that the requested page does not exist."
+  },
+  {
+    "initial_state": "404 Not Found page with user navigation and product comparison sections visible",
+    "action": "Attempt to perfom \"click\" on element \"[177]\" but no matching element found. Please check the observation more carefully.",
+    "environmental_dynamics": "No change"
+  },
+  {
+    "initial_state": "Website 404 Not Found page with links for navigating back and resolving the issue",
+    "action": "click [1572] where [1572] is Store Home",
+    "environmental_dynamics": "Navigated to the homepage, displaying product showcases and category menu options."
+  },
+  {
+    "initial_state": "One Stop Market homepage with a list of product showcases and options to add products to cart, wish list, and comparison list.",
+    "action": "click [1727] where [1727] is \ue61f Add to Compare",
+    "environmental_dynamics": "A confirmation alert appeared indicating that the product Belle Of The Ball Princess Sprinkle Mix had been added to the comparison list, increasing the number of items in the comparison list to 3."
+  },
+  {
+    "initial_state": "One Stop Market homepage with a list of products and a search bar, including a section showing products with 'Add to Cart', 'Add to Wish List', and 'Add to Compare' options.",
+    "action": "click [1593] where [1593] is 1 \u00a0Review",
+    "environmental_dynamics": "The page focused and navigated to the product detail page 'Pre-baked Gingerbread House Kit Value Pack, 17 oz., Pack of 2, Total 34 oz.'"
+  },
+  {
+    "initial_state": "Product page for 'Pre-baked Gingerbread House Kit Value Pack, 17 oz., Pack of 2, Total 34 oz.'",
+    "action": "click [1648] where [1648] is Add to Wish List",
+    "environmental_dynamics": "The user was redirected to the 'My Wish List' page with an alert confirming the product has been added to the wish list."
+  },
+  {
+    "initial_state": "Webpage showing 'My Wish List', with various menu items and options like adding to cart and view all for recently ordered items",
+    "action": "click [1717] where [1717] is ",
+    "environmental_dynamics": "The checkbox next to the 'Add to Cart' option for the 'Uttermost Volterra Crackled Taupe-Gray Ceramic Table Lamp' became visible and clickable after clicking on it."
+  },
+  {
+    "initial_state": "My Wish List page with various items and options for user interaction, such as 'Add to Cart' buttons and a 'Remove item' button.",
+    "action": "Attempt to perfom \"click\" on element \"[1593]\" but no matching element found. Please check the observation more carefully.",
+    "environmental_dynamics": "No change occurred as the attempted 'click' action on the element '[1593]' did not find a matching element."
+  },
+  {
+    "initial_state": "A user's My Wish List page showing 1 item, with options to remove each item, update the list, or share it.",
+    "action": "click [1622] where [1622] is Remove item",
+    "environmental_dynamics": "An alert informing the user that the item 'Pre-baked Gingerbread House Kit Value Pack, 17 oz., Pack of 2, Total 34 oz.' has been removed from the wish list appeared, and the list of items is now empty."
+  },
+  {
+    "initial_state": "My Wish List page with product lists and options",
+    "action": "goto [http://onestopmarket.com/kids-products.html]",
+    "environmental_dynamics": "Navigated to a 404 Not Found page with error message and suggestions for getting back on track."
+  },
+  {
+    "initial_state": "A 404 error page after attempting to navigate to a non-existent URL with a list of potential actions to get back to the previous page or products.",
+    "action": "click [1566] where [1566] is Go back",
+    "environmental_dynamics": "Navigated back to the 'My Wish List' page, showing a list of products in the wish list and account navigation options."
+  },
+  {
+    "initial_state": "My Wish List page with navigation and account details visible",
+    "action": "goto [http://onestopmarket.com/kids-products.html]",
+    "environmental_dynamics": "The page transitioned to a 404 Not Found error page indicating the requested page was not found."
+  },
+  {
+    "initial_state": "404 Not Found page with an option to go back and search bars visible",
+    "action": "click [1572] where [1572] is My Account",
+    "environmental_dynamics": "Navigated to the My Account page, displaying account and order information."
+  },
+  {
+    "initial_state": "Customer account page with sections for account information, recent orders, and address management links",
+    "action": "click [1579] where [1579] is Manage Addresses",
+    "environmental_dynamics": "The browser navigated to the 'Address Book' page, showing default billing and shipping addresses along with options to manage additional addresses."
+  },
+  {
+    "initial_state": "Address Book page",
+    "action": "click [1591] where [1591] is Add New Address",
+    "environmental_dynamics": "Navigated to the 'Add New Address' form, where fields for contact information and address details are visible and ready for input."
+  },
+  {
+    "initial_state": "A page for adding a new address with text fields including First Name, Last Name, Company, Phone, and address details such as Street Address, City, Zip/Postal Code, and Country, as well as optional checkboxes for setting default address types.",
+    "action": "type [1595] [123 Main Street] where [1595] is Street Address",
+    "environmental_dynamics": "The 'Street Address' text field was populated with '123 Main Street' and now has focus."
+  },
+  {
+    "initial_state": "Add New Address form on a website, focusing on entering a new address with various input fields for the user's contact and address information.",
+    "action": "click [1853] where [1853] is Zambia",
+    "environmental_dynamics": "The combobox for country selection was changed to display 'Zambia', although the visual UI and form don't seem to reflect additional interactive changes due to the selection."
+  },
+  {
+    "initial_state": "Add New Address page with State/Province dropdown initially set to 'Please select a region, state or province.'",
+    "action": "click [1890] where [1890] is Maine",
+    "environmental_dynamics": "The State/Province dropdown has been updated, showing 'Maine' as a selected option with all other options remaining unselected."
+  },
+  {
+    "initial_state": "Add New Address page on an e-commerce website displaying various address fields such as First Name, Last Name, Street Address, Country, State/Province, but the City field was empty.",
+    "action": "type [1932] [City] where [1932] is City",
+    "environmental_dynamics": "The City field was filled in with the text 'City' and is now focused and marked as required."
+  },
+  {
+    "initial_state": "Add New Address form on an e-commerce website with the Zip/Postal Code field empty",
+    "action": "type [1937] [99999 ] where [1937] is Zip/Postal Code *",
+    "environmental_dynamics": "The Zip/Postal Code field now contains the value '99999' and has a description indicating it is a required field."
+  },
+  {
+    "initial_state": "On an address creation page where user can fill in contact and address information.",
+    "action": "click [1951] where [1951] is Save Address",
+    "environmental_dynamics": "No change; however, the Save Address button was clicked, implying a potential submission of the entered address information."
+  },
+  {
+    "initial_state": "Add New Address page on an e-commerce website",
+    "action": "click [1963] where [1963] is My Account",
+    "environmental_dynamics": "Navigated to the 'My Account' page, showing account information, addresses, and recent orders."
+  },
+  {
+    "initial_state": "OneStopMarket account page with navigation elements such as 'My Account', 'Sign Out', and 'My Cart'",
+    "action": "goto [http://onestopmarket.com/kids-products.html]",
+    "environmental_dynamics": "The page transitioned to a 404 Not Found error page, indicating the requested URL was not found."
+  },
+  {
+    "initial_state": "404 Not Found page with elements such as user account links, search bar, and recent items in compare products section",
+    "action": "click [1570] where [1570] is Store Home",
+    "environmental_dynamics": "Navigated to the store's homepage, showing product showcases, navigation menu, and various items for sale."
+  },
+  {
+    "initial_state": "One Stop Market product page",
+    "action": "click [1760] where [1760] is Add to Cart",
+    "environmental_dynamics": "A confirmation alert appeared indicating that the item 'So Delicious Dairy Free CocoWhip Light, Vegan, Non-GMO Project Verified, 9 oz. Tub' was added to the cart, and the cart count updated to 1 item."
+  },
+  {
+    "initial_state": "One Stop Market homepage with product showcases and a wish list link",
+    "action": "click [1763] where [1763] is \ue601 Add to Wish List",
+    "environmental_dynamics": "The user was redirected to the 'My Wish List' page where the product 'So Delicious Dairy Free CocoWhip Light, Vegan, Non-GMO Project Verified, 9 oz. Tub' has been added, and a message confirming the addition to the wish list appeared."
+  }
+]

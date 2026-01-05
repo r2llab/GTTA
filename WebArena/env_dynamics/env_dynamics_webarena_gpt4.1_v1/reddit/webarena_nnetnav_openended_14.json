@@ -1,0 +1,12 @@
+[
+  {
+    "initial_state": "Postmill homepage with a message indicating no forum subscriptions and a main navigation section including a 'Forums' link.",
+    "action": "click [42] where [42] is Forums",
+    "environmental_dynamics": "The browser navigated to the List of Forums page, displaying a directory of forums each with subscription and submission count options, and new pagination controls at the bottom."
+  },
+  {
+    "initial_state": "Forum list page with searchbox labeled 'Search query' present and empty. The main content shows a list of various forum articles and sections.",
+    "action": "type [50] [pets ] where [50] is Search query",
+    "environmental_dynamics": "The searchbox is populated with the typed query 'pets', the view transitions to a search results page with the heading 'Search', displaying results and articles containing the keyword 'pets'."
+  }
+]

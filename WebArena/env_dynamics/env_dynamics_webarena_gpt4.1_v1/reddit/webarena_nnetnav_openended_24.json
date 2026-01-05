@@ -1,0 +1,17 @@
+[
+  {
+    "initial_state": "Postmill homepage with navigation links, search, account controls, and main area indicating no forum subscriptions and showing a sidebar for featured forums.",
+    "action": "click [42] where [42] is Forums",
+    "environmental_dynamics": "The view switched to the 'List of forums' page, displaying a list of various forums with subscription buttons and the total number of submissions for each forum."
+  },
+  {
+    "initial_state": "List of forums page showing the first page of forum listings, with a pagination bar at the bottom where the 'Next' button is clickable but 'Previous' is disabled.",
+    "action": "click [655] where [655] is Next",
+    "environmental_dynamics": "The forums listing updated to display the next (second) page of forums, with the pagination bar now enabling the 'Previous' button and loading a new set of forum articles."
+  },
+  {
+    "initial_state": "List of forums page showing multiple forum listings including 'DIY', each with subscribe buttons and submission counts.",
+    "action": "click [585] where [585] is DIY \u2014 DIY",
+    "environmental_dynamics": "The browser navigated to the 'DIY' forum page, displaying recent posts, sorting options, a forum sidebar with subscription buttons, and details specific to the DIY forum."
+  }
+]

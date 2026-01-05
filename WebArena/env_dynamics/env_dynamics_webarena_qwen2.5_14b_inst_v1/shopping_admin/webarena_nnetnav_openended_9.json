@@ -1,0 +1,147 @@
+[
+  {
+    "initial_state": "Magento Admin Dashboard with various tabs such as DASHBOARD, SALES, CATALOG, CUSTOMERS, MARKETING, CONTENT, REPORTS, STORES, and SYSTEM",
+    "action": "click [156] where [156] is \ue60b SALES",
+    "environmental_dynamics": "The 'Sales' submenu has been expanded, revealing additional menu items related to sales management, and the 'SALES' tab is now focused."
+  },
+  {
+    "initial_state": "Main Dashboard of Magento Admin with navigation links to various sections such as Dashboard, Sales, CATALOG, CUSTOMERS, etc.",
+    "action": "click [168] where [168] is Orders",
+    "environmental_dynamics": "Navigated to the Orders page under the Sales section, displaying a list of recent orders including details such as Order ID, Purchase Date, Customer Names, and Order Status."
+  },
+  {
+    "initial_state": "Orders page within the Magento Admin, listing orders with various details such as ID, name, email, and order status.",
+    "action": "click [714] where [714] is Create New Order",
+    "environmental_dynamics": "Navigated to a new page titled 'Create New Order in Default Store View' for creating a new order, presenting customer selection options and a back button."
+  },
+  {
+    "initial_state": "New Order creation page for an unspecified customer in Magento Admin",
+    "action": "click [1089] where [1089] is 71",
+    "environmental_dynamics": "A new order form appeared, indicating the attempt to create an order for customer with ID 71 (John Doe), and the focus transitioned to the order details section."
+  },
+  {
+    "initial_state": "Magento Admin order creation page with fields available for customer and product information entry.",
+    "action": "type [3008] [new_customer@example.com ] where [3008] is ",
+    "environmental_dynamics": "The email field was filled with the value 'new_customer@example.com' and changed from 'test@example.com'."
+  },
+  {
+    "initial_state": "A Magento admin panel for creating a new order, with the country field for the billing address pre-set to 'United States' and not expanded.",
+    "action": "click [3068] where [3068] is Country *",
+    "environmental_dynamics": "The 'Country' combobox for the billing address is now expanded to show a list of country options for selection."
+  },
+  {
+    "initial_state": "Magento Admin New Order creation page with form fields for account and address information preloaded but not filled out.",
+    "action": "type [3394] [Pittsburgh ] where [3394] is ",
+    "environmental_dynamics": "The 'City' field in the Billing Address section became focused and the value 'Pittsburgh' was entered into the field."
+  },
+  {
+    "initial_state": "New Order creation page of Magento Admin with billing and shipping address forms visible",
+    "action": "click [3399] where [3399] is Zip/Postal Code *",
+    "environmental_dynamics": "The 'Zip/Postal Code *' field on the billing address section became focused."
+  },
+  {
+    "initial_state": "New Order form in Magento Admin with the Zip/Postal Code field empty",
+    "action": "type [3399] [15219 ] where [3399] is Zip/Postal Code *",
+    "environmental_dynamics": "The Zip/Postal Code field was populated with '15219' and is now focused."
+  },
+  {
+    "initial_state": "Magento Admin's New Order page with customer details form partially filled",
+    "action": "click [707] where [707] is Submit Order",
+    "environmental_dynamics": "The form fields for the billing address now display validation errors, indicating that certain fields are required, and the focused state is transferred to the first name textbox."
+  },
+  {
+    "initial_state": "Magento Admin panel with Sales section not focused",
+    "action": "click [166] where [166] is \ue60b SALES",
+    "environmental_dynamics": "The 'Sales' section in the navigation menu was activated and is now focused."
+  },
+  {
+    "initial_state": "Magento Admin panel for creating a new order with an incomplete address field for the phone number",
+    "action": "type [3404] [412-555-5555 ] where [3404] is Phone Number * This is a required field.",
+    "environmental_dynamics": "The phone number field for the billing address was filled in with '412-555-5555' and became focused, indicating that the field now contains valid input."
+  },
+  {
+    "initial_state": "Magento Admin's 'New Order' page, with fields for billing and shipping address, payment and shipping methods, and a 'Submit Order' button highlighted for interaction.",
+    "action": "click [707] where [707] is Submit Order",
+    "environmental_dynamics": "A form submission was initiated when the 'Submit Order' button was clicked, but the page did not change; it remained on the 'New Order' page."
+  },
+  {
+    "initial_state": "Magento Admin panel with sections for Orders, Sales, CATALOG, CUSTOMERS, MARKETING, CONTENT, REPORTS, STORES, SYSTEM, and a focused navigation menu with the option to go to FIND PARTNERS & EXTENSIONS",
+    "action": "click [633] where [633] is \ue612 FIND PARTNERS & EXTENSIONS",
+    "environmental_dynamics": "Navigated to the Magento Marketplace page showcasing 'Platinum Partners' with details on their products and services, and additional sections for Searching Partners, Magento Marketplace, and About Us."
+  },
+  {
+    "initial_state": "Magento Marketplace / Magento Admin dashboard with main content being a list of Platinum Partners and Featured Platinum Partners",
+    "action": "click [177] where [177] is \ue608 CATALOG",
+    "environmental_dynamics": "The 'CATALOG' menu item became focused and its sub-menu items 'Products' and 'Categories' expanded, indicating a navigation towards catalog operations."
+  },
+  {
+    "initial_state": "Magento admin dashboard with main navigation, including multiple menu items like Dashboard, Sales, Catalog, Customers, Marketing, Content, Reports, Stores, System, and Find Partners & Extensions",
+    "action": "click [189] where [189] is Products",
+    "environmental_dynamics": "Navigated to the Catalog section under Products, showing a list of available product types and a detailed product list with options to add new products or filter and edit existing ones."
+  },
+  {
+    "initial_state": "Products / Inventory / Catalog / Magento Admin with various product entries in a table and buttons for product actions",
+    "action": "click [718] where [718] is Add Product",
+    "environmental_dynamics": "Navigated to the New Product page for creating a new product, showing fields for product name, SKU, price, tax class, quantity, stock status, weight, categories, visibility, new from date, country of manufacture, and additional tabs for configurations, images and videos, SEO, related products, customizable options, and more."
+  },
+  {
+    "initial_state": "Magento Admin New Product page with product fields visible, including Product Name and SKU fields empty",
+    "action": "type [933] [Inkjet Printer ] where [933] is ",
+    "environmental_dynamics": "The Product Name field is now populated with the text 'Inkjet Printer', and the field is focused."
+  },
+  {
+    "initial_state": "Magento Admin new product page with existing values filled out and SKU field for global SKU * focused",
+    "action": "type [939] [Inkjet Printer ] where [939] is [global] SKU *",
+    "environmental_dynamics": "The SKU field [global] SKU * was modified to display the text 'Inkjet Printer', making it the same as the Product Name field's value."
+  },
+  {
+    "initial_state": "Magento Admin panel's New Product page with multiple fields such as SKU, Price, Quantity, Tax Class, etc., with SKU and Product Name fields filled in.",
+    "action": "click [950] where [950] is ",
+    "environmental_dynamics": "The focus moved to the Price field and the input box for entering the value of the price became active and ready for user input."
+  },
+  {
+    "initial_state": "A Magento Admin product creation page with various product details fields such as Name, SKU, and Price among others, with the 'Price' field focused on.",
+    "action": "type [950] [100.00 ] where [950] is [global] Price * $",
+    "environmental_dynamics": "The price field for the new product was updated to display '100.00'."
+  },
+  {
+    "initial_state": "Magento Admin panel's product creation page with specific fields like weight set through accessibility tree representation",
+    "action": "type [997] [5  ] where [997] is [global] Weight lbs",
+    "environmental_dynamics": "The weight field for the product was updated to 5 lbs."
+  },
+  {
+    "initial_state": "Magento product creation page with a list of input fields for product details and a variety of menu options for settings such as tax class and country of manufacture.",
+    "action": "click [962] where [962] is notice-W1BG018",
+    "environmental_dynamics": "The 'Tax Class' combobox was clicked and expanded, revealing the option menu items for selection."
+  },
+  {
+    "initial_state": "New product creation page in Magento Admin with detailed product attributes and options panels",
+    "action": "click [1079] where [1079] is New Category",
+    "environmental_dynamics": "A dialog titled 'New Category' appeared, allowing the creation of a new category with fields for category name and parent category selection."
+  },
+  {
+    "initial_state": "Magento Admin panel's New Product page with category creation dialog open",
+    "action": "type [2312] [Printers and Accessories ] where [2312] is ",
+    "environmental_dynamics": "The value in the textbox for 'Category Name' in the New Category dialog was updated to 'Printers and Accessories'."
+  },
+  {
+    "initial_state": "Magneto Admin's New Product page, with a dialog for creating a new category open, focused on the 'Category Name *' field",
+    "action": "click [2312] where [2312] is Category Name *",
+    "environmental_dynamics": "The 'Category Name *' field remained unchanged but became focused, allowing the user to start typing a category name if not already filled."
+  },
+  {
+    "initial_state": "Magento Admin new product creation page with a dialog opened for creating a new category named 'Printers and Accessories'",
+    "action": "click [2315] where [2315] is ",
+    "environmental_dynamics": "The focus moved to the 'Parent Category' field within the 'New Category' dialog."
+  },
+  {
+    "initial_state": "Magento Admin 'New Product' page with a dialog for 'New Category' open and focus on the 'New Category' button",
+    "action": "click [2287] where [2287] is Create Category",
+    "environmental_dynamics": "The focus shifted to the 'Create Category' button within the 'New Category' dialog."
+  },
+  {
+    "initial_state": "Product creation form on Magento Admin with various fields editable and ready to save",
+    "action": "click [841] where [841] is Save",
+    "environmental_dynamics": "The 'Save' button was clicked, but no additional changes were visible in the form or dialog; the dialog for creating a new category remains visible and focused."
+  }
+]

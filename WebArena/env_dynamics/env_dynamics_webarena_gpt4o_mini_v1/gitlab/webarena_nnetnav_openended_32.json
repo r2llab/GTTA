@@ -1,0 +1,197 @@
+[
+  {
+    "initial_state": "GitLab dashboard page with search bar visible",
+    "action": "type [130] [frontend developer ] where [130] is Search GitLab",
+    "environmental_dynamics": "The search result displayed an error message indicating that the endpoint has been requested too many times, instead of providing search results."
+  },
+  {
+    "initial_state": "GitLab dashboard page",
+    "action": "go_back",
+    "environmental_dynamics": "The page navigated back to a previous state, displaying a message indicating that too many requests had been made to the endpoint along with an option to try again later."
+  },
+  {
+    "initial_state": "GitLab dashboard page",
+    "action": "type [130] [frontend developer ] where [130] is Search GitLab",
+    "environmental_dynamics": "The search input was updated with the query 'frontend developer', and the focus shifted to the search results section indicating a search was performed."
+  },
+  {
+    "initial_state": "GitLab search page with 'frontend developer' in the search box",
+    "action": "type [130] [frontend engineer ] where [130] is Merge requests",
+    "environmental_dynamics": "The search box was updated to reflect the new input 'frontend engineer ', and the link 'Issues' now shows a count of 74 instead of 0."
+  },
+  {
+    "initial_state": "GitLab search page with 'Search for projects, issues, etc.' input focused and showing 'frontend developer'",
+    "action": "type [227] [frontend engineer ] where [227] is Search for projects, issues, etc.",
+    "environmental_dynamics": "The search input was populated with 'frontend engineer' and the search results area displayed a message indicating that the endpoint has been requested too many times."
+  },
+  {
+    "initial_state": "An error message indicating too many requests were made",
+    "action": "go_back",
+    "environmental_dynamics": "The browser navigated back to the previous page, displaying the GitLab homepage with various navigation links and a search field."
+  },
+  {
+    "initial_state": "GitLab search page with search for projects, issues, etc. input field focused and pre-filled with 'frontend engineer'",
+    "action": "type [227] [frontend engineer ] where [227] is Search for projects, issues, etc.",
+    "environmental_dynamics": "The input field was populated with 'frontend engineer', and an error message was displayed stating 'This endpoint has been requested too many times. Try again later.'"
+  },
+  {
+    "initial_state": "Error message page indicating too many requests",
+    "action": "go_back",
+    "environmental_dynamics": "The browser navigated back to the previous page, displaying the GitLab homepage with a search interface focused on the 'frontend developer' search term."
+  },
+  {
+    "initial_state": "GitLab search page with 'frontend developer' in the search box",
+    "action": "type [227] [frontend developer jobs ] where [227] is Search for projects, issues, etc.",
+    "environmental_dynamics": "The search box updated its value to 'frontend developer jobs', reflecting the new search term input by the agent."
+  },
+  {
+    "initial_state": "GitLab search results for 'frontend developer jobs'",
+    "action": "type [227] [frontend engineer ] where [227] is Search for projects, issues, etc.",
+    "environmental_dynamics": "The search input updated to 'frontend engineer', changing the search query."
+  },
+  {
+    "initial_state": "GitLab search page with the search term 'frontend engineer'",
+    "action": "type [227] [frontend developer ] where [227] is Search for projects, issues, etc.",
+    "environmental_dynamics": "The search input was updated to 'frontend developer', and the displayed message changed to indicate no projects matched the new search term."
+  },
+  {
+    "initial_state": "GitLab search page with 'frontend developer' entered in the search box",
+    "action": "type [227] [frontend developer jobs ] where [227] is Search for projects, issues, etc.",
+    "environmental_dynamics": "The search results area updated to display a message indicating that the endpoint has been requested too many times, preventing further search results from appearing."
+  },
+  {
+    "initial_state": "Webpage indicating too many requests",
+    "action": "go_back",
+    "environmental_dynamics": "The browser navigated back to the previous page, revealing the GitLab frontend developer search interface with various searchable options, including a search box and project links."
+  },
+  {
+    "initial_state": "GitLab search page with search bar pre-filled with 'frontend developer jobs'",
+    "action": "type [227] [frontend developer ] where [227] is Search for projects, issues, etc.",
+    "environmental_dynamics": "The search bar was cleared and a notification message appeared indicating that the endpoint had been requested too many times, preventing further queries."
+  },
+  {
+    "initial_state": "Error message indicating too many requests",
+    "action": "go_back",
+    "environmental_dynamics": "The browser navigated back to the GitLab homepage, displaying the 'Search' section with the search box pre-filled with the query 'frontend developer' and accessible navigation options."
+  },
+  {
+    "initial_state": "GitLab search page with search box containing 'frontend developer' and search button visible",
+    "action": "click [231] where [231] is Search",
+    "environmental_dynamics": "A message appeared stating 'This endpoint has been requested too many times. Try again later.', indicating that the search action could not be completed."
+  },
+  {
+    "initial_state": "Error page indicating too many requests for an endpoint",
+    "action": "go_back",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "Error message stating 'This endpoint has been requested too many times. Try again later.'",
+    "action": "go_back",
+    "environmental_dynamics": "The page navigated back to the previous state, showing the GitLab homepage with various links and a search box."
+  },
+  {
+    "initial_state": "GitLab search page with search term 'frontend developer jobs' entered",
+    "action": "type [227] [frontend developer ] where [227] is Search for projects, issues, etc.",
+    "environmental_dynamics": "The search box has been updated to display the new search term 'frontend developer', allowing for a revised search query."
+  },
+  {
+    "initial_state": "GitLab search page with 'frontend developer' in the search box",
+    "action": "type [227] [frontend engineer ] where [227] is Search for projects, issues, etc.",
+    "environmental_dynamics": "The search box was updated to show 'frontend engineer' as the new search term."
+  },
+  {
+    "initial_state": "GitLab search page with 'frontend engineer' entered in the search box",
+    "action": "type [227] [frontend developer] [press_enter_after=1 ] where [227] is Search for projects, issues, etc.",
+    "environmental_dynamics": "The search term changed from 'frontend engineer' to 'frontend developer] [press_enter_after=1' in the search box, and the search results updated to indicate no projects found matching the new search term."
+  },
+  {
+    "initial_state": "GitLab search page with search box for projects, issues, etc., and the term 'frontend developer] [press_enter_after=1' entered",
+    "action": "type [227] [frontend developer] [press_enter_after=1 ] where [227] is Search for projects, issues, etc.",
+    "environmental_dynamics": "The search was submitted, leading to a notification indicating that the endpoint has been requested too many times, preventing further action."
+  },
+  {
+    "initial_state": "Error message indicating too many requests on the previous page",
+    "action": "go_back",
+    "environmental_dynamics": "The browser navigated back to the GitLab homepage, displaying the search interface and various links and sections for navigating GitLab features."
+  },
+  {
+    "initial_state": "GitLab search page with a search input for projects",
+    "action": "type [227] [frontend developer  ] where [227] is Search for projects, issues, etc.",
+    "environmental_dynamics": "The search input was filled with the text 'frontend developer', and an error message displayed indicating that the endpoint has been requested too many times."
+  },
+  {
+    "initial_state": "Browser displaying an error message stating 'This endpoint has been requested too many times. Try again later.'",
+    "action": "Attempt to perfom \"type\" on element \"[227]\" but no matching element found. Please check the observation more carefully.",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "Error message indicating too many requests",
+    "action": "go_back",
+    "environmental_dynamics": "The browser navigated back to the previous page, displaying the GitLab search page for 'frontend engineer', which includes a search input and sections for projects and issues."
+  },
+  {
+    "initial_state": "GitLab search results for 'frontend engineer'",
+    "action": "go_back",
+    "environmental_dynamics": "The page navigated back to the search results for 'frontend developer', updating the displayed data, including the counts of issues and merge requests."
+  },
+  {
+    "initial_state": "GitLab job search page with 'frontend engineer' in the search box",
+    "action": "type [227] [frontend developer jobs] [press_enter_after=1 ] where [227] is Search for projects, issues, etc.",
+    "environmental_dynamics": "The search box was updated with the text 'frontend developer jobs] [press_enter_after=1', and the search was triggered automatically by pressing the Enter key."
+  },
+  {
+    "initial_state": "GitLab search results page with search input and clear button",
+    "action": "click [228] where [228] is Clear",
+    "environmental_dynamics": "The text in the search box was cleared, returning it to the default state without any input."
+  },
+  {
+    "initial_state": "GitLab search interface with 'Search for projects, issues, etc.' input field focused",
+    "action": "type [227] [frontend developer ] [press_enter_after=1 ] where [227] is Search for projects, issues, etc.",
+    "environmental_dynamics": "The input field now contains the text 'frontend developer ] [press_enter_after=1', which reflects the user's input, and a 'Clear' button became visible."
+  },
+  {
+    "initial_state": "Search results page for 'frontend developer ] [press_enter_after=1' on GitLab",
+    "action": "click [228] where [228] is Clear",
+    "environmental_dynamics": "The search input was cleared, removing the previous search term."
+  },
+  {
+    "initial_state": "GitLab search page with search bar focused, showing search suggestions",
+    "action": "type [227] [frontend developer] [press_enter_after=1 ] where [227] is Search for projects, issues, etc.",
+    "environmental_dynamics": "The search results page indicated that the search endpoint has been requested too many times, displaying a message that suggests trying again later."
+  },
+  {
+    "initial_state": "Error message stating 'This endpoint has been requested too many times. Try again later.'",
+    "action": "go_back",
+    "environmental_dynamics": "The browser navigated back to the previous page, returning to the GitLab search interface where a search for 'frontend developer ] [press_enter_after=1' was attempted."
+  },
+  {
+    "initial_state": "GitLab search page with 'Search for projects, issues, etc.' input field focused",
+    "action": "type [227] [frontend developer] [press_enter_after=1 ] where [227] is Search for projects, issues, etc.",
+    "environmental_dynamics": "The search input field was populated with the text 'frontend developer' and the search action was executed, displaying a message indicating no projects matched the query."
+  },
+  {
+    "initial_state": "Search results page on GitLab with the search box displaying 'frontend developer] [press_enter_after=1'",
+    "action": "type [227] [frontend developer] [press_enter_after=1 ] where [227] is Search for projects, issues, etc.",
+    "environmental_dynamics": "The search query 'frontend developer' was entered into the search box, and the Enter key was pressed, triggering the search process."
+  },
+  {
+    "initial_state": "Search results for 'frontend developer] [press_enter_after=1' on GitLab",
+    "action": "click [228] where [228] is Clear",
+    "environmental_dynamics": "The search input was cleared, removing the text 'frontend developer] [press_enter_after=1' from the search box, which is now empty and ready for new input."
+  },
+  {
+    "initial_state": "GitLab search page with search box focused",
+    "action": "type [227] [frontend developer] [press_enter_after=1 ] where [227] is Search for projects, issues, etc.",
+    "environmental_dynamics": "The search box was populated with the text 'frontend developer] [press_enter_after=1', and a 'Clear' button appeared alongside it, allowing for further modification of the search input."
+  },
+  {
+    "initial_state": "GitLab search page with search input focused, showing search results",
+    "action": "click [228] where [228] is Clear",
+    "environmental_dynamics": "The search input was cleared, removing the previous term 'frontend developer] [press_enter_after=1' and returning to an empty state, allowing for new input."
+  },
+  {
+    "initial_state": "GitLab search page with the search box for projects, issues, etc. focused",
+    "action": "type [227] [frontend developer] [press_enter_after=1 ] where [227] is Search for projects, issues, etc.",
+    "environmental_dynamics": "The search was executed, resulting in a message stating 'This endpoint has been requested too many times. Try again later.' indicating the query could not be processed."
+  }
+]

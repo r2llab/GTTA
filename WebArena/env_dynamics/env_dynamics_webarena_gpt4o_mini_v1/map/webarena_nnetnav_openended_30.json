@@ -1,0 +1,197 @@
+[
+  {
+    "initial_state": "OpenStreetMap homepage with various navigation and functional elements visible",
+    "action": "Attempt to perfom \"click\" on element \"[171]\" but no matching element found. Please check the observation more carefully.",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap homepage",
+    "action": "Attempt to perfom \"click\" on element \"[171]\" but no matching element found. Please check the observation more carefully.",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with search bar focused",
+    "action": "Attempt to perfom \"type\" on element \"[164]\" but no matching element found. Please check the observation more carefully.",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap map view with the 'Search' textbox focused",
+    "action": "click [147] where [147] is Go",
+    "environmental_dynamics": "The map updated to show the results of the search query initiated by clicking the 'Go' button."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with map view visible",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page scrolled down, revealing additional map details and controls, enhancing the user's navigation experience."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with various navigation links and sections visible",
+    "action": "Attempt to perfom \"type\" on element \"[164]\" but no matching element found. Please check the observation more carefully.",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with various links and buttons visible",
+    "action": "Attempt to perfom \"click\" on element \"[171]\" but no matching element found. Please check the observation more carefully.",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with the Search section visible and the 'Go' button focused",
+    "action": "click [147] where [147] is Go",
+    "environmental_dynamics": "The search query submitted, triggering a map search based on the input in the search textbox."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with map and navigation options visible",
+    "action": "click [149] where [149] is Find directions between two points",
+    "environmental_dynamics": "The section for finding directions between two points expanded, revealing input fields for 'From' and 'To', and additional controls for transportation options and reversing directions."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with the 'From' textbox visible",
+    "action": "click [158] where [158] is From",
+    "environmental_dynamics": "The 'From' textbox became focused, allowing the user to enter a location for mapping."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with 'From' textbox focused and empty",
+    "action": "type [158] [Central Park ] where [158] is From",
+    "environmental_dynamics": "The 'From' textbox now displays the value 'Central Park, New York County, City of New York, New York, United States', indicating that the user has entered a location."
+  },
+  {
+    "initial_state": "OpenStreetMap with 'From' and 'To' textboxes visible, 'To' textbox empty",
+    "action": "type [163] [Times Square ] where [163] is To",
+    "environmental_dynamics": "The 'To' textbox was updated to include the text 'Times Square', reflecting the new destination for the directions."
+  },
+  {
+    "initial_state": "OpenStreetMap with direction inputs filled and a visible 'Go' button",
+    "action": "click [171] where [171] is Go",
+    "environmental_dynamics": "The directions on the map were updated and displayed based on the calculated route after clicking the 'Go' button."
+  },
+  {
+    "initial_state": "OpenStreetMap with directions displayed",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page scrolled down, revealing additional content or further directions in the 'Directions' section."
+  },
+  {
+    "initial_state": "OpenStreetMap navigation page with map visible",
+    "action": "click [394] where [394] is Zoom In",
+    "environmental_dynamics": "The page zoomed in on the map, with the 'Zoom In' link visually updated to indicate it is focused, providing a tooltip describing the action."
+  },
+  {
+    "initial_state": "OpenStreetMap with directions displayed",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page was scrolled down, revealing more details of the directions and additional content below."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page displaying route from Central Park to Times Square",
+    "action": "click [174] where [174] is Reverse Directions",
+    "environmental_dynamics": "The directions were reversed, updating the route to show directions from Times Square back to Central Park, with new distance and time details accordingly."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with directions section visible",
+    "action": "click [171] where [171] is Go",
+    "environmental_dynamics": "The directions were recalculated and the interface refreshed, with the 'Go' button being focused, indicating that the navigation process is now actively initiated."
+  },
+  {
+    "initial_state": "OpenStreetMap main map view with directions displayed",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page scrolled down, allowing visibility of additional map details and content below the initially visible area."
+  },
+  {
+    "initial_state": "OpenStreetMap with directions displayed",
+    "action": "click [394] where [394] is Zoom In",
+    "environmental_dynamics": "The map zoomed in, providing a closer view of the area while keeping the directions intact."
+  },
+  {
+    "initial_state": "OpenStreetMap route directions displayed",
+    "action": "click [174] where [174] is Reverse Directions",
+    "environmental_dynamics": "The directions have been reversed, with updated route information showing a new starting point and ending point, and the distance adjusted to 4.7km."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with input fields and directions visible",
+    "action": "click [171] where [171] is Go",
+    "environmental_dynamics": "The 'Go' button was clicked, which initiated the routing process to display directions based on the specified locations."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with directions visible",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page scrolled down, revealing additional content below the initial view."
+  },
+  {
+    "initial_state": "OpenStreetMap main page with navigation and directions visible",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page scrolled down, revealing additional content below the initially visible directions."
+  },
+  {
+    "initial_state": "OpenStreetMap main page, focused",
+    "action": "click [408] where [408] is Share",
+    "environmental_dynamics": "A sharing options modal appeared, allowing users to access links or HTML for sharing the map, along with additional options such as including a marker and selecting image formats."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with navigation options visible",
+    "action": "click [314] where [314] is Link",
+    "environmental_dynamics": "A modal dialog opened displaying a link for sharing the map, allowing users to easily copy or share the map link with others."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with directions available",
+    "action": "click [315] where [315] is Short Link",
+    "environmental_dynamics": "The 'Short Link' was clicked, resulting in the textbox updated to display a new shortened URL for sharing."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with mapping and navigation features visible",
+    "action": "press [Ctrl+c]",
+    "environmental_dynamics": "No change"
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with directions and sharing options visible",
+    "action": "click [315] where [315] is Short Link",
+    "environmental_dynamics": "A modal or dialog appeared showing a short link for the map, enhancing sharing options."
+  },
+  {
+    "initial_state": "OpenStreetMap with route details displayed",
+    "action": "click [171] where [171] is Go",
+    "environmental_dynamics": "The directions section expanded to highlight route instructions with distance and time, and the 'Go' button received focus, indicating readiness to initiate navigation."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with focus on various navigation elements",
+    "action": "click [408] where [408] is Share",
+    "environmental_dynamics": "The focus shifted to the 'Share' link, highlighting it for interaction, likely triggering a sharing interface or options to share the map."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with input fields and a 'Go' button",
+    "action": "click [171] where [171] is Go",
+    "environmental_dynamics": "The 'Go' button was clicked, which initiated the calculation of directions based on the provided coordinates, and the directions are now being displayed in a new format."
+  },
+  {
+    "initial_state": "OpenStreetMap webpage with visible directions and other navigation elements",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page scrolled down, revealing more details related to the directions provided."
+  },
+  {
+    "initial_state": "OpenStreetMap main interface with directions and other features visible",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page scrolled down, revealing more of the map and additional content related to the location directions."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with directions displayed",
+    "action": "click [408] where [408] is Share",
+    "environmental_dynamics": "A sharing menu appeared, providing options for sharing including a link, short link, and HTML format, allowing the user to share their current map view."
+  },
+  {
+    "initial_state": "OpenStreetMap with routing directions displayed",
+    "action": "click [315] where [315] is Short Link",
+    "environmental_dynamics": "The 'Short Link' option was clicked, displaying a short URL in the corresponding textbox, making it easily shareable."
+  },
+  {
+    "initial_state": "OpenStreetMap with directions visible and focused on the 'c' textbox",
+    "action": "press [Ctrl+c]",
+    "environmental_dynamics": "The content of the textbox was copied to the clipboard."
+  },
+  {
+    "initial_state": "OpenStreetMap with 'From' and 'To' textbox showing coordinates",
+    "action": "press [Ctrl+v]",
+    "environmental_dynamics": "The 'To' textbox value was updated from '40.7570, -73.9860' to 'cv', indicating that the agent executed a paste operation."
+  },
+  {
+    "initial_state": "OpenStreetMap with route information displayed",
+    "action": "click [171] where [171] is Go",
+    "environmental_dynamics": "The 'Go' button was clicked, triggering an update that focused the 'Go' button and most likely processed the directions for the specified route."
+  }
+]

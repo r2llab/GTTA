@@ -1,0 +1,197 @@
+[
+  {
+    "initial_state": "One Stop Market homepage with banner, menu, cart, product listings, and an 'Advanced Search' link visible in the search section.",
+    "action": "click [275] where [275] is Advanced Search",
+    "environmental_dynamics": "The browser navigated to the Advanced Search page, replacing the main content area with an advanced search form including fields such as Product Name, SKU, Description, Short Description, and Price."
+  },
+  {
+    "initial_state": "Advanced Search page displaying an advanced search form with several visible textboxes including an empty Product Name textbox.",
+    "action": "type [1486] [action figure] where [1486] is Product Name",
+    "environmental_dynamics": "The Product Name textbox was filled in with 'action figure' and is now focused."
+  },
+  {
+    "initial_state": "Advanced Search page with the product name 'action figure' entered in the search box and the Search button available.",
+    "action": "click [1518] where [1518] is Search",
+    "environmental_dynamics": "The page updated to display 'Advanced Search Results' showing an alert that no items matched the search criteria, provided an option to modify the search, and showed search criteria and recently ordered products."
+  },
+  {
+    "initial_state": "Advanced Search Results page displaying an alert indicating no items matched the search criteria, with a visible 'Modify your search.' link.",
+    "action": "click [1481] where [1481] is Modify your search.",
+    "environmental_dynamics": "The browser navigated from the search results page back to the Advanced Search input form, with previously entered search criteria ('action figure') pre-filled in the Product Name field, allowing the search to be modified."
+  },
+  {
+    "initial_state": "Advanced Search page with the 'Product Name' textbox containing the value 'action figure'",
+    "action": "type [1486] [collectible] where [1486] is Product Name",
+    "environmental_dynamics": "The value in the 'Product Name' textbox changed to 'collectible', and the textbox is now focused."
+  },
+  {
+    "initial_state": "Advanced Search page with various search fields filled, particularly the 'Product Name' field containing 'collectible', and a 'Search' button available.",
+    "action": "click [1518] where [1518] is Search",
+    "environmental_dynamics": "The page transitioned from the Advanced Search form to the Advanced Search Results page, displaying a list of 723 items that match the search term 'collectible', along with additional filtering, paging, and result browsing options."
+  },
+  {
+    "initial_state": "Advanced Search Results page displaying a product list, including '212 by Carolina Herrera for Women 0.17 oz Eau de Toilette Miniature Collectible' with its reviews link visible.",
+    "action": "click [1624] where [1624] is 10 \u00a0Reviews",
+    "environmental_dynamics": "Navigated to the product page for '212 by Carolina Herrera for Women 0.17 oz Eau de Toilette Miniature Collectible', displaying detailed information, image, price, rating, and options to add to cart, wish list, or compare, with review information prominently shown."
+  },
+  {
+    "initial_state": "Product detail page for '212 by Carolina Herrera for Women 0.17 oz Eau de Toilette Miniature Collectible', with the 'Reviews (10)' tab visible but not selected.",
+    "action": "click [1652] where [1652] is Reviews (10)",
+    "environmental_dynamics": "The 'Reviews (10)' tab was activated, displaying the customer reviews section and a form for submitting a new review, while also focusing on the 'Reviews (10)' tab link."
+  },
+  {
+    "initial_state": "Product page for '212 by Carolina Herrera for Women 0.17 oz Eau de Toilette Miniature Collectible' with the 'Reviews (10)' tab selected and its content visible.",
+    "action": "click [1609] where [1609] is Details",
+    "environmental_dynamics": "The 'Details' tab was selected, causing the product details panel to appear and the reviews panel to be hidden."
+  },
+  {
+    "initial_state": "Product page for '212 by Carolina Herrera for Women 0.17 oz Eau de Toilette Miniature Collectible' with the 'Details' tab selected and its content visible.",
+    "action": "click [1652] where [1652] is Reviews (10)",
+    "environmental_dynamics": "The 'Reviews (10)' tab was selected, displaying the customer reviews section along with a form to submit a new review."
+  },
+  {
+    "initial_state": "Product page for '212 by Carolina Herrera for Women 0.17 oz Eau de Toilette Miniature Collectible', including product details, reviews, and a review submission section.",
+    "action": "click [276] where [276] is store logo",
+    "environmental_dynamics": "The browser navigated from the specific product page to the homepage, displaying store highlights and a list of featured products instead of product-specific details and reviews."
+  },
+  {
+    "initial_state": "One Stop Market homepage with multiple product showcases and an 'Advanced Search' link visible among the search tools.",
+    "action": "click [389] where [389] is Advanced Search",
+    "environmental_dynamics": "The browser navigated to the 'Advanced Search' page, displaying advanced search fields such as Product Name, SKU, Description, and Price, replacing the product showcase content."
+  },
+  {
+    "initial_state": "Advanced Search page with all search fields empty and the 'Product Name' textbox empty and unfocused.",
+    "action": "type [1486] [rare book] where [1486] is Product Name",
+    "environmental_dynamics": "The text 'rare book' was entered into the 'Product Name' textbox, which is now focused."
+  },
+  {
+    "initial_state": "Advanced Search page with various fields filled out and the 'Search' button visible and clickable in the advanced search area.",
+    "action": "click [1518] where [1518] is Search",
+    "environmental_dynamics": "The page navigated to the Advanced Search Results screen, displaying an alert that no items matched the search criteria, and showing a summary of the search terms and additional search results interface."
+  },
+  {
+    "initial_state": "Advanced Search Results page displaying a message that no items match the search criteria for 'rare book', with a visible link labeled 'Modify your search.'",
+    "action": "click [1481] where [1481] is Modify your search.",
+    "environmental_dynamics": "Clicking the 'Modify your search' link returned the user to the Advanced Search form, prefilled with 'rare book' as the product name and ready to enter or adjust advanced search criteria."
+  },
+  {
+    "initial_state": "Advanced Search page with 'Product Name' textbox containing the value 'rare book'",
+    "action": "type [1486] [signed book] where [1486] is Product Name",
+    "environmental_dynamics": "The value in the 'Product Name' textbox was changed from 'rare book' to 'signed book', and the textbox is now focused."
+  },
+  {
+    "initial_state": "Advanced search page with various search fields filled in (Product Name: 'signed book'), and the 'Search' button available.",
+    "action": "click [1518] where [1518] is Search",
+    "environmental_dynamics": "The page transitioned to the 'Advanced Search Results' view, displaying an alert that no items were found matching the search criteria along with the search filters applied and options to modify the search or view other products."
+  },
+  {
+    "initial_state": "Advanced Search Results page displaying an alert with no matching items found and a 'Modify your search.' link.",
+    "action": "click [1481] where [1481] is Modify your search.",
+    "environmental_dynamics": "The page transitioned from search results to the Advanced Search form, where previous search fields including 'Product Name: signed book' are pre-filled and can now be modified."
+  },
+  {
+    "initial_state": "Advanced Search page with 'signed book' entered in the 'Product Name' field.",
+    "action": "type [1486] [first edition ] where [1486] is Product Name",
+    "environmental_dynamics": "The 'Product Name' field was updated from 'signed book' to 'first edition', and the page navigated to the Advanced Search Results view, displaying an alert message that no items match the search criteria."
+  },
+  {
+    "initial_state": "Advanced search results page displaying a message that no items matched the search criteria, with a visible link labeled 'Modify your search.'",
+    "action": "click [1481] where [1481] is Modify your search.",
+    "environmental_dynamics": "Clicking the 'Modify your search.' link returned the user to the advanced search form, prefilled with the previously entered search term ('first edition'), allowing search criteria to be edited."
+  },
+  {
+    "initial_state": "Advanced Search page with 'Product Name' field containing 'first edition' and other advanced search criteria fields visible.",
+    "action": "type [1486] [vintage ] where [1486] is Product Name",
+    "environmental_dynamics": "The browser navigated to the 'Advanced Search Results' page showing 1572 items found for 'Product Name: vintage', presenting a list of matching products with options to refine or modify the search."
+  },
+  {
+    "initial_state": "Advanced Search Results page showing a list of products, with product '(Mix case) Vintage soda - Americana Variety (12 pack)' displayed including a link for '12 \u00a0Reviews'.",
+    "action": "click [1537] where [1537] is 12 \u00a0Reviews",
+    "environmental_dynamics": "The browser navigated to the product details page for '(Mix case) Vintage soda - Americana Variety (12 pack)', displaying product information, images, price, and review tabs."
+  },
+  {
+    "initial_state": "Product page for '(Mix case) Vintage soda - Americana Variety (12 pack)' with the 'Details' tab visible and the 'Reviews (12)' tab available but not selected.",
+    "action": "click [1657] where [1657] is Reviews (12)",
+    "environmental_dynamics": "The 'Reviews (12)' tab is now selected and expanded, displaying customer reviews, ratings, and a review submission form below the product information."
+  },
+  {
+    "initial_state": "Product page for '(Mix case) Vintage soda - Americana Variety (12 pack)' is visible with product details and customer reviews.",
+    "action": "click [2009] where [2009] is Contact Us",
+    "environmental_dynamics": "The browser navigated to the 'Contact Us' page, displaying a contact form for user inquiries, and the heading 'Contact Us' is now focused."
+  },
+  {
+    "initial_state": "Contact Us page of One Stop Market, displaying a contact form and related account links.",
+    "action": "click [233] where [233] is store logo",
+    "environmental_dynamics": "The browser navigated from the Contact Us page to the One Stop Market homepage, replacing the contact form with a product showcase and homepage content."
+  },
+  {
+    "initial_state": "One Stop Market homepage displaying a product showcase and a navigation menu, with an 'Advanced Search' link visible in the search section.",
+    "action": "click [389] where [389] is Advanced Search",
+    "environmental_dynamics": "The browser navigated to the Advanced Search page, replacing the product showcase with a search form allowing input of criteria such as Product Name, SKU, Description, Short Description, and Price."
+  },
+  {
+    "initial_state": "Advanced Search page showing search filters including 'Product Name' textbox, with an inactive search button.",
+    "action": "type [1486] [signed memorabilia ] where [1486] is Product Name",
+    "environmental_dynamics": "The page navigated to 'Advanced Search Results' showing no results for 'signed memorabilia', displaying a message that no items match this search and allowing the user to modify their search."
+  },
+  {
+    "initial_state": "Advanced Search Results page displaying a message that no items matched the search criteria for 'signed memorabilia,' with an alert and a 'Modify your search.' link.",
+    "action": "click [1364] where [1364] is Modify your search.",
+    "environmental_dynamics": "Clicking 'Modify your search.' returned the user to the Advanced Search form, with the 'Product Name' field pre-filled with 'signed memorabilia' and search input fields available for modification."
+  },
+  {
+    "initial_state": "Advanced Search page with the Product Name field containing 'signed memorabilia'.",
+    "action": "type [1486] [autograph ] where [1486] is Product Name",
+    "environmental_dynamics": "The contents of the Product Name field were changed to 'autograph', and the page navigated to the Advanced Search Results, displaying an alert that no items match the search criteria and showing the entered search term under results."
+  },
+  {
+    "initial_state": "Advanced Search Results page with an alert stating no items matched the search criteria and a visible 'Modify your search.' link.",
+    "action": "click [1481] where [1481] is Modify your search.",
+    "environmental_dynamics": "The page navigated back to the Advanced Search form, with previous search input ('autograph') pre-filled and form fields available for editing and resubmission."
+  },
+  {
+    "initial_state": "Advanced Search page with the 'Product Name' textbox already containing the value 'autograph'",
+    "action": "type [1486] [comic book ] where [1486] is Product Name",
+    "environmental_dynamics": "After updating the 'Product Name' field with 'comic book', the page navigated to and displayed the 'Advanced Search Results' page showing the results for the query 'comic book', including 6 items found and their details."
+  },
+  {
+    "initial_state": "Catalog Advanced Search Results page displaying a list of 6 items found for 'comic book', including '3dRose Retro Aliens and Flying Saucer Comic Book Cover Design Pillow Case, 16 x 16' as a clickable product link.",
+    "action": "click [1525] where [1525] is 3dRose Retro Aliens and Flying Saucer Comic Book Cover Design Pillow Case, 16 x 16",
+    "environmental_dynamics": "The browser navigated to the product detail page for '3dRose Retro Aliens and Flying Saucer Comic Book Cover Design Pillow Case, 16 x 16', showing the product description, price, availability, and additional details."
+  },
+  {
+    "initial_state": "Product page for '3dRose Retro Aliens and Flying Saucer Comic Book Cover Design Pillow Case, 16 x 16', with the 'Details' tab visible in the product information section.",
+    "action": "click [1641] where [1641] is Reviews",
+    "environmental_dynamics": "The 'Reviews' tab was opened, displaying a review submission form with rating, nickname, summary, and review fields, and the 'Reviews' tab is now active and focused."
+  },
+  {
+    "initial_state": "Product page for '3dRose Retro Aliens and Flying Saucer Comic Book Cover Design Pillow Case, 16 x 16', with product details, review form, and site navigation visible.",
+    "action": "click [275] where [275] is store logo",
+    "environmental_dynamics": "The browser navigated away from the product page to the homepage, showing a product showcase listing multiple items, their ratings, and navigation for browsing items by page."
+  },
+  {
+    "initial_state": "One Stop Market homepage with product showcases displayed, including links, ratings, and Add to Cart buttons, and a navigation menu present; 'Advanced Search' is available as a visible clickable link.",
+    "action": "click [389] where [389] is Advanced Search",
+    "environmental_dynamics": "The browser navigated to the Advanced Search page, which replaces the product showcases with an advanced search form featuring fields for product name, SKU, description, price filters, and a search button."
+  },
+  {
+    "initial_state": "Advanced Search page with various search input fields, including 'Product Name', and the search button initially enabled.",
+    "action": "type [1486] [trading card ] where [1486] is Product Name",
+    "environmental_dynamics": "The browser navigated from the Advanced Search page to the Advanced Search Results page, displaying results for the search term 'trading card', with one item found and the search criteria shown."
+  },
+  {
+    "initial_state": "Advanced search results page listing one product ('TCGAMES Card Binder for Pokemon Cards Binder 4-Pocket, 440 Pockets Trading Card Games Collection Binder with Sleeves') with clickable link to the product page.",
+    "action": "click [1525] where [1525] is TCGAMES Card Binder for Pokemon Cards Binder 4-Pocket, 440 Pockets Trading Card Games Collection Binder with Sleeves",
+    "environmental_dynamics": "Navigated from the search results to the product details page for the 'TCGAMES Card Binder for Pokemon Cards Binder 4-Pocket, 440 Pockets Trading Card Games Collection Binder with Sleeves', displaying product information, images, description, and purchase options."
+  },
+  {
+    "initial_state": "Product page for 'TCGAMES Card Binder for Pokemon Cards Binder 4-Pocket, 440 Pockets Trading Card Games Collection Binder with Sleeves', with the 'Details' tab content visible and the 'Reviews' tab not selected.",
+    "action": "click [1775] where [1775] is Reviews",
+    "environmental_dynamics": "The 'Reviews' tab was selected, replacing the 'Details' content area with the reviews submission form where the user can rate, enter their nickname, summary, and review for the product."
+  },
+  {
+    "initial_state": "Product details page for 'TCGAMES Card Binder for Pokemon Cards Binder 4-Pocket, 440 Pockets Trading Card Games Collection Binder with Sleeves', with reviews section open and product review form visible.",
+    "action": "click [275] where [275] is store logo",
+    "environmental_dynamics": "The page navigated away from the product details and review form to the store homepage, displaying a product showcase and list of featured products."
+  }
+]

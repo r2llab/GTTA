@@ -1,0 +1,22 @@
+[
+  {
+    "initial_state": "OpenStreetMap homepage with a search bar",
+    "action": "type [145] [Niagara Falls ] where [145] is Search",
+    "environmental_dynamics": "The search bar's value was updated to 'Niagara Falls', and a search results section with specific locations related to Niagara Falls was displayed below the search bar."
+  },
+  {
+    "initial_state": "OpenStreetMap search results page displaying multiple entries related to 'Niagara Falls'",
+    "action": "click [449] where [449] is Niagara Falls, City of Niagara Falls, Niagara County, New York, United States",
+    "environmental_dynamics": "The page transitioned to detailed information about the 'Niagara Falls' relation, showing tags, version history, and member ways of the selected location."
+  },
+  {
+    "initial_state": "OpenStreetMap page showing details of Relation: Niagara Falls with various clickable elements like tags, history, members, and search options",
+    "action": "click [538] where [538] is Horseshoe Falls (56539663)",
+    "environmental_dynamics": "The map content updated and a loading status message appeared, indicating that the view is transitioning to focus on 'Horseshoe Falls'."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage showing information about Niagara Falls",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page scrolled down, revealing detailed information about Horseshoe Falls including version history, tags, part of relation, nodes, and download/view history options."
+  }
+]

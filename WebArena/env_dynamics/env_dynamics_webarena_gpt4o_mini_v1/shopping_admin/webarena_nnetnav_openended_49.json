@@ -1,0 +1,197 @@
+[
+  {
+    "initial_state": "Dashboard / Magento Admin",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page scrolled down, revealing additional content below the initial viewport."
+  },
+  {
+    "initial_state": "Dashboard / Magento Admin",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page scrolled down, revealing additional content that was previously off-screen."
+  },
+  {
+    "initial_state": "Dashboard / Magento Admin",
+    "action": "click [156] where [156] is \ue60b SALES",
+    "environmental_dynamics": "The SALES menu item is now focused, and a vertical menu has appeared below it, displaying options like Orders, Invoices, Shipments, Credit Memos, Billing Agreements, and Transactions."
+  },
+  {
+    "initial_state": "Dashboard / Magento Admin",
+    "action": "click [168] where [168] is Orders",
+    "environmental_dynamics": "Navigated to the 'Orders' section within the Magento Admin, updating the page title and focus to 'Orders / Operations / Sales / Magento Admin'."
+  },
+  {
+    "initial_state": "Orders / Operations / Sales / Magento Admin page",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page scrolled down, revealing more order records in the table."
+  },
+  {
+    "initial_state": "Magento Admin Orders Page with list of orders displayed",
+    "action": "click [1460] where [1460] is View",
+    "environmental_dynamics": "The page navigated to the detailed view of order #000000065, which includes customer information, order status, and items ordered."
+  },
+  {
+    "initial_state": "Magento Admin Order View page for Order #000000065",
+    "action": "click [1017] where [1017] is ",
+    "environmental_dynamics": "The status combobox expanded, allowing the user to select different order statuses, and the comment textbox became active for user input."
+  },
+  {
+    "initial_state": "Order view page for order #000000065 in Magento Admin",
+    "action": "click [1031] where [1031] is Submit Comment",
+    "environmental_dynamics": "A form was submitted, with a response indicating that the comment has been submitted successfully, allowing the user to add feedback to the order."
+  },
+  {
+    "initial_state": "Order View page with status combobox collapsed",
+    "action": "click [1017] where [1017] is Status",
+    "environmental_dynamics": "The status combobox expanded, allowing the user to select a new status from the available options."
+  },
+  {
+    "initial_state": "Magento Admin Order View page with order details",
+    "action": "click [1017] where [1017] is Status",
+    "environmental_dynamics": "The 'Status' combobox was expanded, allowing the user to select a different order status from the available options."
+  },
+  {
+    "initial_state": "Magento Admin Order View page for Order #000000065",
+    "action": "click [1031] where [1031] is Submit Comment",
+    "environmental_dynamics": "A comment submission process was initiated after clicking the 'Submit Comment' button, but the result of this action is not directly reflected in the current state of the page."
+  },
+  {
+    "initial_state": "Magento Admin Order page with order details visible",
+    "action": "click [1017] where [1017] is ",
+    "environmental_dynamics": "The 'Status' combobox expanded, revealing a dropdown menu for selecting order status, while the 'Comment' textbox is now focused and ready for input."
+  },
+  {
+    "initial_state": "Magento Admin Order View page with Order Status combobox focused and expanded",
+    "action": "click [1017] where [1017] is Status",
+    "environmental_dynamics": "The Status combobox lost its expanded state, indicating that a selection has been made, but the specific status selection made is not visible in the provided state."
+  },
+  {
+    "initial_state": "Order Details page for Order #000000065 in Magento Admin",
+    "action": "click [1017] where [1017] is Status",
+    "environmental_dynamics": "The Status combobox was expanded, allowing for the selection of different order statuses from the dropdown menu."
+  },
+  {
+    "initial_state": "Magento Admin Order #000000065 page with order details displayed",
+    "action": "click [1017] where [1017] is ",
+    "environmental_dynamics": "The status combobox expanded, allowing for a selection of order statuses."
+  },
+  {
+    "initial_state": "Order view with status combobox focused but not expanded",
+    "action": "click [1017] where [1017] is Status",
+    "environmental_dynamics": "The status combobox expanded, allowing the user to select different status options for the order."
+  },
+  {
+    "initial_state": "Magento Admin Order Management page focused on order #000000065",
+    "action": "click [1017] where [1017] is ",
+    "environmental_dynamics": "The status combobox expanded and is focused, allowing the user to select a new status for the order."
+  },
+  {
+    "initial_state": "Order view page for order number 000000065 in Magento Admin",
+    "action": "click [1017] where [1017] is Status",
+    "environmental_dynamics": "The status dropdown menu expanded, allowing the user to select a new status for the order."
+  },
+  {
+    "initial_state": "Magento Admin Order View page with Order and Account Information displayed",
+    "action": "click [1017] where [1017] is ",
+    "environmental_dynamics": "The dropdown for the status field expanded, allowing the user to select from various order statuses."
+  },
+  {
+    "initial_state": "Magento Admin Order page with various sections visible",
+    "action": "click [1017] where [1017] is ",
+    "environmental_dynamics": "The status combobox expanded to show a dropdown list, allowing for selection of the order status, and the comment textbox became focused, enabling user input."
+  },
+  {
+    "initial_state": "Order view page with order details displayed",
+    "action": "click [1017] where [1017] is Status",
+    "environmental_dynamics": "The 'Status' combobox was activated, enabling the selection of different status options through a dropdown menu."
+  },
+  {
+    "initial_state": "Order view page for order #000000065 in Magento Admin",
+    "action": "click [1017] where [1017] is ",
+    "environmental_dynamics": "The status combobox became expanded, allowing the user to select from available order status options."
+  },
+  {
+    "initial_state": "Order view page in Magento Admin with order details visible",
+    "action": "click [1031] where [1031] is Submit Comment",
+    "environmental_dynamics": "A confirmation message appeared indicating that the comment was submitted successfully."
+  },
+  {
+    "initial_state": "Magento Admin Orders page with order details visible",
+    "action": "click [1017] where [1017] is ",
+    "environmental_dynamics": "The combo box for 'Status' has expanded, allowing for a selection of order statuses to be made."
+  },
+  {
+    "initial_state": "Order details page in Magento Admin",
+    "action": "type [1021] [The order is currently pending, and we will notify you once it ships.] [press_enter_after=0 ] where [1021] is ",
+    "environmental_dynamics": "The textbox for comments was updated with the text 'The order is currently pending, and we will notify you once it ships.', and the focus remained on the textbox."
+  },
+  {
+    "initial_state": "Order view page for order #000000065 in Magento Admin",
+    "action": "click [1031] where [1031] is Submit Comment",
+    "environmental_dynamics": "The comment was submitted, and the system processes the input, likely updating the order status or notifying relevant parties."
+  },
+  {
+    "initial_state": "Magento Admin Panel on the Sales page",
+    "action": "click [195] where [195] is \ue60b SALES",
+    "environmental_dynamics": "The focus shifted to the 'SALES' link, and a submenu opened up displaying additional options including 'Orders', 'Invoices', 'Shipments', 'Credit Memos', 'Billing Agreements', 'Transactions', and 'Braintree Virtual Terminal'."
+  },
+  {
+    "initial_state": "Magento Admin Order View Page with Order Details",
+    "action": "type [1021] [The order is currently pending, and we will notify you once it ships. ] where [1021] is Comment",
+    "environmental_dynamics": "The text area for the 'Comment' field was updated with the input 'The order is currently pending, and we will notify you once it ships.', and the focus remains on this text area."
+  },
+  {
+    "initial_state": "Magento Admin Order View page with order details",
+    "action": "click [1025] where [1025] is ",
+    "environmental_dynamics": "The 'Notify Customer by Email' checkbox was checked, indicating that the customer will be notified via email about the order status."
+  },
+  {
+    "initial_state": "Magento Admin Order Management page",
+    "action": "click [1017] where [1017] is ",
+    "environmental_dynamics": "The status combobox expanded, allowing the user to select a new order status from the dropdown menu."
+  },
+  {
+    "initial_state": "Magento Admin Order View page",
+    "action": "click [1017] where [1017] is ",
+    "environmental_dynamics": "The status combobox expanded, allowing the user to select different order statuses from the dropdown menu."
+  },
+  {
+    "initial_state": "Magento Admin order details page for order #000000065",
+    "action": "click [1031] where [1031] is Submit Comment",
+    "environmental_dynamics": "The comment input field is now submitted, potentially triggering a processing action that confirms the comment submission for the order."
+  },
+  {
+    "initial_state": "Magento Admin Order page for customer Grace Nguyen",
+    "action": "click [784] where [784] is Edit Customer",
+    "environmental_dynamics": "The page navigated to the Customer Information section, focusing on the details of Grace Nguyen, allowing further edits to her customer account."
+  },
+  {
+    "initial_state": "Magento Admin customer management page",
+    "action": "click [755] where [755] is Save Customer",
+    "environmental_dynamics": "The page updated to reflect that the customer information has been successfully saved, showing a message 'You saved the customer.'"
+  },
+  {
+    "initial_state": "Customers / Customers / Magento Admin page",
+    "action": "click [716] where [716] is Add New Customer",
+    "environmental_dynamics": "The page transitioned to the 'New Customer' section, displaying a form to add a new customer, with buttons for saving or resetting information."
+  },
+  {
+    "initial_state": "New Customer / Customers / Customers / Magento Admin with all fields visible",
+    "action": "type [818] [John ] where [818] is ",
+    "environmental_dynamics": "The textbox for 'First Name' is now filled with the value 'John' and is currently focused."
+  },
+  {
+    "initial_state": "New Customer / Customers / Customers / Magento Admin with Last Name textbox empty",
+    "action": "type [830] [Doe ] where [830] is Last Name *",
+    "environmental_dynamics": "The Last Name textbox was updated with the value 'Doe', and it is now focused."
+  },
+  {
+    "initial_state": "New Customer form in Magento Admin, fields present and focused",
+    "action": "type [842] [john.doe@example.com ] where [842] is Email *",
+    "environmental_dynamics": "The 'Email *' textbox was updated with the value 'john.doe@example.com'."
+  },
+  {
+    "initial_state": "New Customer / Customers / Customers / Magento Admin",
+    "action": "click [871] where [871] is notice-H6Y4HW8",
+    "environmental_dynamics": "The combobox for 'Gender' became focused and expanded, revealing the options of Male, Female, and Not Specified for selection."
+  }
+]

@@ -1,0 +1,197 @@
+[
+  {
+    "initial_state": "GitLab project page with a list of personal and starred projects",
+    "action": "click [140] where [140] is ",
+    "environmental_dynamics": "The 'Create new...' dropdown menu expanded, showing options to create a new project/repository, new group, and new snippet."
+  },
+  {
+    "initial_state": "GitLab Projects Dashboard",
+    "action": "click [147] where [147] is New project/repository",
+    "environmental_dynamics": "Navigated to the 'Create new project' page, displaying options to create a blank project, create from a template, or import a project."
+  },
+  {
+    "initial_state": "GitLab 'New Project' page with 'Create new...' link visible",
+    "action": "click [127] where [127] is Create new...",
+    "environmental_dynamics": "The 'Create new...' menu expanded to reveal additional options for creating a project/repository, a new group, or a new snippet."
+  },
+  {
+    "initial_state": "GitLab new project page with a list of creation options, including 'New project/repository', visible and expandable on hover",
+    "action": "click [133] where [133] is New project/repository",
+    "environmental_dynamics": "The dropdown menu for creating a new project/repository was collapsed as the focus moved away after being clicked."
+  },
+  {
+    "initial_state": "GitLab 'New Project' page with options to create a blank project, from a template, or import a project",
+    "action": "click [237] where [237] is Create blank project Create a blank project to store your files, plan your work, and collaborate on code, among other things.",
+    "environmental_dynamics": "The page changed to display a form for creating a blank project, including fields for project name, URL, and visibility level."
+  },
+  {
+    "initial_state": "GitLab 'New Project' page with form fields for project name, URL, and visibility settings.",
+    "action": "click [331] where [331] is ",
+    "environmental_dynamics": "The checkbox for 'Enable Static Application Security Testing (SAST)' was clicked, resulting in the checkbox becoming checked and focused."
+  },
+  {
+    "initial_state": "GitLab 'New Project' page with project creation form fields visible",
+    "action": "type [269] [SecureLoginProject ] where [269] is Project name",
+    "environmental_dynamics": "A new project 'SecureLoginProject' was created, and the UI now shows 'Project Information' for the created project, including a main section describing the project's visibility level and project ID."
+  },
+  {
+    "initial_state": "GitLab repository page for SecureLoginProject with a dismissable alert message about project creation",
+    "action": "click [600] where [600] is Dismiss",
+    "environmental_dynamics": "The dismissable alert message confirming the successful creation of the project was closed after clicking the 'Dismiss' button."
+  },
+  {
+    "initial_state": "GitLab homepage for the Byte Blaze / SecureLoginProject project with repository details visible",
+    "action": "click [363] where [363] is CI/CD",
+    "environmental_dynamics": "The interface navigated to the CI/CD section with views specific to Pipelines, Editor, Jobs, and Schedules becoming visible."
+  },
+  {
+    "initial_state": "GitLab repository page for the Pipelines section",
+    "action": "click [582] where [582] is Pipelines",
+    "environmental_dynamics": "No change"
+  },
+  {
+    "initial_state": "GitLab pipelines page listing 'SecureLoginProject' pipelines",
+    "action": "click [619] where [619] is Run pipeline",
+    "environmental_dynamics": "The page transitioned to a 'Run pipeline' form, prompting to input branch name or variables for initiating a new pipeline run."
+  },
+  {
+    "initial_state": "GitLab pipeline run page for Byte Blaze's SecureLoginProject",
+    "action": "click [622] where [622] is Run pipeline",
+    "environmental_dynamics": "The 'Run pipeline' button became disabled and visually indicated as such after being clicked."
+  },
+  {
+    "initial_state": "A GitLab page for running a pipeline with input fields and a 'Run pipeline' button.",
+    "action": "click [624] where [624] is Cancel",
+    "environmental_dynamics": "Navigated to the 'Pipelines' page within the project, displaying pipeline tabs and a message indicating no current pipelines."
+  },
+  {
+    "initial_state": "GitLab page for the SecureLoginProject pipelines with 'All 0' tab selected",
+    "action": "click [601] where [601] is Finished",
+    "environmental_dynamics": "The tab selection changed from 'All 0' to 'Finished', and the content section updated to show 'There are currently no finished pipelines.'"
+  },
+  {
+    "initial_state": "GitLab repository page under 'Pipelines' tab with a section heading 'There are currently no finished pipelines.'",
+    "action": "click [748] where [748] is There are currently no finished pipelines.",
+    "environmental_dynamics": "No change."
+  },
+  {
+    "initial_state": "GitLab pipelines page for the SecureLoginProject",
+    "action": "hover [617] where [617] is CI lint",
+    "environmental_dynamics": "No change"
+  },
+  {
+    "initial_state": "GitLab 'Pipelines' page for a project, showing navigation and pipeline tabs",
+    "action": "click [617] where [617] is CI lint",
+    "environmental_dynamics": "Navigated to the 'CI Lint' page, focused on validating the CI configuration with a configuration editor and validation button present."
+  },
+  {
+    "initial_state": "GitLab CI Lint page displaying the configuration editor with placeholder text",
+    "action": "type [689] [.gitlab-ci.yml content ] where [689] is Editor content;Press Alt+F1 for Accessibility Options.",
+    "environmental_dynamics": "The text inside the code editor has been replaced with the input provided by the user, indicating that '.gitlab-ci.yml content' has been typed into the editor."
+  },
+  {
+    "initial_state": "GitLab repository's CI Lint page with a configuration editor and validation button",
+    "action": "click [708] where [708] is Validate",
+    "environmental_dynamics": "The validation process was triggered, leading to the appearance of status alerts and error messages identified in the .gitlab-ci.yml configuration."
+  },
+  {
+    "initial_state": "GitLab CI Lint page for Byte Blaze's SecureLoginProject with various project navigation options and a configuration editor",
+    "action": "Attempt to perfom \"click\" on element \"[364]\" but no matching element found. Please check the observation more carefully.",
+    "environmental_dynamics": "No change"
+  },
+  {
+    "initial_state": "GitLab CI Lint page with editor content, validation button, and status alerts visible",
+    "action": "click [715] where [715] is Clear",
+    "environmental_dynamics": "The 'Clear' button became focused, indicating it is ready for interaction."
+  },
+  {
+    "initial_state": "GitLab CI Lint page for the SecureLoginProject repository with a code editor for .gitlab-ci.yml validation",
+    "action": "click [689] where [689] is Editor content;Press Alt+F1 for Accessibility Options.",
+    "environmental_dynamics": "The textbox associated with the editor in the code section became focused, allowing direct input or editing of the .gitlab-ci.yml file content."
+  },
+  {
+    "initial_state": "GitLab CI Lint page with a code editor displaying the content of .gitlab-ci.yml",
+    "action": "type [689] [.yaml content] where [689] is Editor content;Press Alt+F1 for Accessibility Options.",
+    "environmental_dynamics": "The editor's content changed to display '.yaml content', indicating the input text was successfully typed into the editor field."
+  },
+  {
+    "initial_state": "GitLab CI Lint page with a main section containing a CI configuration editor and validation status",
+    "action": "click [708] where [708] is Validate",
+    "environmental_dynamics": "The 'Validate' button was clicked, initiating a CI configuration validation which displayed an alert indicating the syntax is incorrect and provided a status message."
+  },
+  {
+    "initial_state": "GitLab project's CI Lint page showing invalid YAML configuration",
+    "action": "type [689] [valid .gitlab-ci.yml content ] where [689] is Editor content;Press Alt+F1 for Accessibility Options.",
+    "environmental_dynamics": "The value in the YAML editor was updated to include 'valid .gitlab-ci.yml content', and the editor received focus."
+  },
+  {
+    "initial_state": "GitLab CI Lint page displaying a .gitlab-ci.yml editor with validation status and actions like 'Validate', 'Clear', among others",
+    "action": "click [708] where [708] is Validate",
+    "environmental_dynamics": "No change; however, the validation process was triggered, updating the alert area if the configuration was incorrect as indicated by the status alert."
+  },
+  {
+    "initial_state": "GitLab CI Lint page providing the content of .gitlab-ci.yml for validation",
+    "action": "type [689] [valid .gitlab-ci.yml content ] where [689] is Editor content;Press Alt+F1 for Accessibility Options.",
+    "environmental_dynamics": "The content of the code editor was updated to include additional valid .gitlab-ci.yml content, making the editor focused and showing newly typed content."
+  },
+  {
+    "initial_state": "GitLab CI Lint page with a form for validating CI configuration",
+    "action": "click [708] where [708] is Validate",
+    "environmental_dynamics": "The 'Validate' button was clicked, but no visible changes occurred in the form or alert sections."
+  },
+  {
+    "initial_state": "GitLab CI/CD configuration validation page with editor and validation results",
+    "action": "click [715] where [715] is Clear",
+    "environmental_dynamics": "The 'Clear' button became focused and upon clicking, the textbox content was cleared, removing any previously entered .gitlab-ci.yml content."
+  },
+  {
+    "initial_state": "GitLab CI Lint page displaying the .gitlab-ci.yml validation form",
+    "action": "type [689] [valid .gitlab-ci.yml content  ] where [689] is Editor content;Press Alt+F1 for Accessibility Options.",
+    "environmental_dynamics": "The content of the editor has been updated to 'valid .gitlab-ci.yml content', and the editor field is now focused."
+  },
+  {
+    "initial_state": "GitLab CI Lint validation page with a form to input and validate .gitlab-ci.yml content",
+    "action": "click [708] where [708] is Validate",
+    "environmental_dynamics": "The validate button was clicked, but no visible changes occurred on the page layout or alerts."
+  },
+  {
+    "initial_state": "GitLab CI Lint page for validating .gitlab-ci.yml content with valid configuration",
+    "action": "type [689] [invalid .gitlab-ci.yml content ] where [689] is Editor content;Press Alt+F1 for Accessibility Options.",
+    "environmental_dynamics": "The content of the editor textbox expanded to include additional lines of invalid .gitlab-ci.yml content."
+  },
+  {
+    "initial_state": "GitLab CI Lint webpage with content of .gitlab-ci.yml file editable in an editor, showing validation status and buttons for Validate, Clear and Simulate pipeline",
+    "action": "click [708] where [708] is Validate",
+    "environmental_dynamics": "The validation was triggered, reinforcing the existing alert about the syntax error in the CI configuration."
+  },
+  {
+    "initial_state": "GitLab repository page with project navigation and CI Lint content",
+    "action": "click [564] where [564] is ",
+    "environmental_dynamics": "Navigated to the 'Snippets' section, displaying a page for managing code snippets."
+  },
+  {
+    "initial_state": "GitLab project page with a focus on project snippets",
+    "action": "click [499] where [499] is Settings",
+    "environmental_dynamics": "Navigated to the project settings, where multiple sub-sections such as general project settings, badges, service desk, and advanced options became visible and interactive."
+  },
+  {
+    "initial_state": "GitLab project settings page focused on the project name and additional details like topics and avatar",
+    "action": "type [631] [A tech project that focuses on secure login functionalities. ] where [631] is ",
+    "environmental_dynamics": "The project description input field now contains 'A tech project that focuses on secure login functionalities.' and it is focused for further input."
+  },
+  {
+    "initial_state": "Settings page for the 'SecureLoginProject' project on GitLab with multiple configurable options regarding project visibility, features, description, and avatar.",
+    "action": "click [651] where [651] is Save changes",
+    "environmental_dynamics": "A confirmation alert appeared indicating that the project 'SecureLoginProject' was successfully updated."
+  },
+  {
+    "initial_state": "General settings page of the GitLab project SecureLoginProject",
+    "action": "click [662] where [662] is Expand",
+    "environmental_dynamics": "The section for visibility, project features, and permissions expanded, showing detailed visibility options and feature toggles."
+  },
+  {
+    "initial_state": "GitLab project settings page with options for project visibility, features, permissions, and other project configurations.",
+    "action": "click [703] where [703] is Issues",
+    "environmental_dynamics": "The 'Issues' switch became focused and unchecked, disabling the corresponding access level combobox for the Issues feature."
+  }
+]

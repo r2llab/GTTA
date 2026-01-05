@@ -1,0 +1,157 @@
+[
+  {
+    "initial_state": "One Stop Market homepage with search bar collapsed",
+    "action": "click [272] where [272] is Search entire store here...",
+    "environmental_dynamics": "The search bar expanded and is now focused, allowing users to enter search terms and displaying an autocomplete list."
+  },
+  {
+    "initial_state": "One Stop Market homepage with search bar focused",
+    "action": "type [272] [children's toys ] where [272] is \ue615 Search",
+    "environmental_dynamics": "Text 'children's toys ' was entered into the search bar, allowing the search functionality to potentially display relevant results based on this query."
+  },
+  {
+    "initial_state": "One Stop Market homepage with search bar focused",
+    "action": "press [Enter]",
+    "environmental_dynamics": "The 'Search' button became enabled, allowing the user to perform a search."
+  },
+  {
+    "initial_state": "One Stop Market homepage with product showcases visible",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page scrolled down, revealing additional product listings and possible further content."
+  },
+  {
+    "initial_state": "One Stop Market homepage, focused on product showcases",
+    "action": "click [1382] where [1382] is Pre-baked Gingerbread House Kit Value Pack, 17 oz., Pack of 2, Total 34 oz.",
+    "environmental_dynamics": "The browser navigated to the product detail page for the 'Pre-baked Gingerbread House Kit Value Pack', displaying detailed product information and an option to add the item to the cart."
+  },
+  {
+    "initial_state": "Product page for Pre-baked Gingerbread House Kit with focused view on product details",
+    "action": "click [1503] where [1503] is Reviews (1)",
+    "environmental_dynamics": "The 'Reviews (1)' tab became expanded and selected, displaying the customer review section along with the existing review content, including a rating and a form to submit a new review."
+  },
+  {
+    "initial_state": "One Stop Market",
+    "action": "go_back",
+    "environmental_dynamics": "The browser navigated back to the previous page showing details for the 'Pre-baked Gingerbread House Kit Value Pack'."
+  },
+  {
+    "initial_state": "One Stop Market homepage",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page scrolled down, revealing additional products and information below the initially visible section."
+  },
+  {
+    "initial_state": "One Stop Market homepage",
+    "action": "click [1536] where [1536] is V8 +Energy, Healthy Energy Drink, Steady Energy from Black and Green Tea, Pomegranate Blueberry, 8 Ounce Can ,Pack of 24",
+    "environmental_dynamics": "The page navigated to the product detail page for 'V8 +Energy, Healthy Energy Drink, Steady Energy from Black and Green Tea, Pomegranate Blueberry, 8 Ounce Can, Pack of 24', displaying product details such as pricing, rating, and available actions such as 'Add to Cart', 'Add to Wish List', and 'Add to Compare'."
+  },
+  {
+    "initial_state": "V8 +Energy product page with product details",
+    "action": "click [1534] where [1534] is 12\u00a0 Reviews ",
+    "environmental_dynamics": "The page navigated to the Reviews section, expanding to show customer reviews, including ratings and feedback from users about the product."
+  },
+  {
+    "initial_state": "V8 +Energy product page with review section expanded",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page scrolled down, revealing additional customer reviews and sections of the product details."
+  },
+  {
+    "initial_state": "V8 +Energy product page with customer reviews section visible",
+    "action": "click [1537] where [1537] is Add Your Review",
+    "environmental_dynamics": "The 'Add Your Review' section expanded, allowing the user to input a star rating, nickname, summary, and review text, along with an active submit button."
+  },
+  {
+    "initial_state": "V8 +Energy product review page, focused",
+    "action": "click [1795] where [1795] is Rating \ue605\ue605\ue605\ue605\ue605 5 stars",
+    "environmental_dynamics": "The 5-star rating option was selected for the review, visually indicating the user's choice."
+  },
+  {
+    "initial_state": "Product review submission page for V8 +Energy drink",
+    "action": "type [1808] [Great energy drink! ] where [1808] is ",
+    "environmental_dynamics": "The summary text box was populated with the text 'Great energy drink!', indicating the user has entered their review summary."
+  },
+  {
+    "initial_state": "V8 +Energy product page with review form visible",
+    "action": "type [1813] [This energy drink provides a good boost without the crash and has a pleasant taste! ] where [1813] is Review*",
+    "environmental_dynamics": "The input field for the review was populated with the text 'This energy drink provides a good boost without the crash and has a pleasant taste!', indicating that the user has entered their review."
+  },
+  {
+    "initial_state": "V8 +Energy product page with review form visible",
+    "action": "click [1816] where [1816] is Submit Review",
+    "environmental_dynamics": "A confirmation alert appeared stating 'You submitted your review for moderation,' indicating that the review has been successfully submitted."
+  },
+  {
+    "initial_state": "V8 +Energy product page, focused",
+    "action": "go_back",
+    "environmental_dynamics": "The browser navigated back to the previous page, returning to the last visited content before the product page."
+  },
+  {
+    "initial_state": "V8 +Energy product page, focused",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page scrolled down, revealing more content related to the product, including additional details and user reviews."
+  },
+  {
+    "initial_state": "V8 +Energy product page",
+    "action": "click [1564] where [1564] is Add to Wish List",
+    "environmental_dynamics": "The browser navigated to the 'My Wish List' page, indicating that the item 'V8 +Energy, Healthy Energy Drink' has been successfully added to the wish list, along with an alert message confirming the addition."
+  },
+  {
+    "initial_state": "My Wish List with 1 item (V8 +Energy, Healthy Energy Drink, Steady Energy from Black and Green Tea, Pomegranate Blueberry, 8 Ounce Can, Pack of 24)",
+    "action": "click [1672] where [1672] is \ue616 Remove This Item",
+    "environmental_dynamics": "The item was removed from the wish list, and an alert indicated that 'V8 +Energy, Healthy Energy Drink, Steady Energy from Black and Green Tea, Pomegranate Blueberry, 8 Ounce Can, Pack of 24 has been removed from your Wish List.' The wish list now shows 'You have no items in your wish list.'"
+  },
+  {
+    "initial_state": "My Wish List page with items listed",
+    "action": "click [239] where [239] is \ue611 My Cart 3 3items",
+    "environmental_dynamics": "A cart dialog opened, displaying details of the items in the cart, including the subtotal and options to proceed to checkout or edit the cart."
+  },
+  {
+    "initial_state": "My Wish List with multiple items displayed",
+    "action": "click [272] where [272] is ",
+    "environmental_dynamics": "The details of the selected item were expanded to show its size and color attributes, with the 'See Details' tab now focused and visible."
+  },
+  {
+    "initial_state": "My Wish List with items visible",
+    "action": "click [267] where [267] is Proceed to Checkout",
+    "environmental_dynamics": "The browser navigated to the 'Checkout' page, displaying the checkout process with shipping details and an order summary."
+  },
+  {
+    "initial_state": "Checkout page with Shipping Address and a button to add a new address",
+    "action": "click [398] where [398] is +New Address",
+    "environmental_dynamics": "A modal dialog for entering a new shipping address opened, allowing the user to input information such as name, address, and phone number."
+  },
+  {
+    "initial_state": "Checkout page with shipping address form",
+    "action": "type [412] [Smith ] where [412] is Last Name*",
+    "environmental_dynamics": "The value of the 'Last Name*' textbox changed from 'Lopez' to 'Smith', and the textbox is now focused."
+  },
+  {
+    "initial_state": "Checkout page with shipping address details filled in where Street Address Line 1 is empty",
+    "action": "type [426] [123 Elm St ] where [426] is Street Address: Line 1",
+    "environmental_dynamics": "The textbox for 'Street Address: Line 1' was updated to contain the value '123 Elm St', indicating that user input was successfully entered."
+  },
+  {
+    "initial_state": "Checkout page with Shipping Address dialog open, focused on City input",
+    "action": "type [766] [San Mateo ] where [766] is City*",
+    "environmental_dynamics": "The value in the 'City' input field was updated to 'San Mateo', reflecting the new input."
+  },
+  {
+    "initial_state": "Checkout page with the form for shipping address filled in",
+    "action": "type [771] [94010] [press_enter_after=0 ] where [771] is Zip/Postal Code*",
+    "environmental_dynamics": "The Zip/Postal Code textbox was modified to display the value '94010', now representing the new postal code input by the user."
+  },
+  {
+    "initial_state": "Checkout page with shipping address section",
+    "action": "type [776] [6505551212 ] where [776] is ",
+    "environmental_dynamics": "The phone number textbox accepted the input '6505551212', and the provided zip/postal code textbox displayed an alert indicating the zip code seems to be invalid, suggesting a correction."
+  },
+  {
+    "initial_state": "Checkout page with shipping address details visible",
+    "action": "type [771] [94010] [press_enter_after=0 ] where [771] is Zip/Postal Code*",
+    "environmental_dynamics": "The value in the Zip/Postal Code textbox was updated to '94010', but an alert appeared indicating that the provided Zip/Postal Code seems to be invalid."
+  },
+  {
+    "initial_state": "Checkout page with filled shipping address form",
+    "action": "type [771] [94010] [press_enter_after=0 ] where [771] is Zip/Postal Code*",
+    "environmental_dynamics": "The value in the 'Zip/Postal Code*' field was changed to '94010]' but also triggered an alert indicating that the provided Zip/Postal Code seems to be invalid."
+  }
+]

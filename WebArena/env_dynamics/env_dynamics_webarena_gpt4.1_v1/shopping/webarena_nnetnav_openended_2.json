@@ -1,0 +1,197 @@
+[
+  {
+    "initial_state": "One Stop Market homepage with the search combobox closed and not focused.",
+    "action": "click [272] where [272] is \ue615 Search",
+    "environmental_dynamics": "The Search combobox is now focused and expanded, making the search field ready for input."
+  },
+  {
+    "initial_state": "One Stop Market homepage with the search bar focused and ready for input, showing a grid of featured products.",
+    "action": "type [272] [books ] where [272] is \ue615 Search",
+    "environmental_dynamics": "After typing 'books' into the search bar and pressing enter, the page reloaded to display search results for 'books', including a heading confirming the query, search filters, and a new list of matching products."
+  },
+  {
+    "initial_state": "E-commerce search results page showing item listings for 'books', including a visible entry for the BDRSRX Novelty Bookshelf with a clickable product title link.",
+    "action": "click [1518] where [1518] is BDRSRX Novelty Bookshelf Floor Standing Bookcas Student Dormitory Desktop Bookshelf Drawer Type Bookshees Office Storage Bookcase for STO Books Magazines Cds and More Display Rack Bookshees",
+    "environmental_dynamics": "The browser navigated from the search results to the product details page for the BDRSRX Novelty Bookshelf, displaying detailed product information, price, stock status, and purchasing options."
+  },
+  {
+    "initial_state": "Product detail page for 'BDRSRX Novelty Bookshelf Floor Standing Bookcas Student Dormitory Desktop Bookshelf Drawer Type Bookshees Office Storage Bookcase', with a link labeled 'Advanced Search' visible in the search section.",
+    "action": "click [422] where [422] is Advanced Search",
+    "environmental_dynamics": "Navigated from the product detail page to the Advanced Search page, which now displays advanced search filters (Product Name, SKU, Description, etc.) and a heading 'Advanced Search'."
+  },
+  {
+    "initial_state": "Magento Advanced Search page with an empty 'Product Name' textbox in the Search Settings section.",
+    "action": "type [1486] [book] where [1486] is Product Name",
+    "environmental_dynamics": "The text 'book' was entered into the 'Product Name' textbox, which is now focused and displays the value."
+  },
+  {
+    "initial_state": "Advanced Search page with search fields filled (e.g., Product Name is 'book') and a clickable 'Search' button visible.",
+    "action": "click [1518] where [1518] is Search",
+    "environmental_dynamics": "Clicking the 'Search' button submitted the advanced search form, transitioning the page to display 'Advanced Search Results' with a listing of 1286 items matching the query and additional filter, sorting, and pagination controls."
+  },
+  {
+    "initial_state": "Advanced Search Results page showing items 1-12 out of 1286, with page 1 marked as the current page in the pagination controls.",
+    "action": "click [1885] where [1885] is Page 2",
+    "environmental_dynamics": "The catalog advanced search results updated to display items 13-24 out of 1286, and the pagination now marks page 2 as the current page, with a 'Page Previous' button enabled and page 1 as a clickable link."
+  },
+  {
+    "initial_state": "Catalog advanced search results page displaying a list of products including '3dRose Retro Aliens and Flying Saucer Comic Book Cover Design Pillow Case, 16 x 16', each with options to add to cart, wish list, or compare.",
+    "action": "click [1857] where [1857] is 3dRose Retro Aliens and Flying Saucer Comic Book Cover Design Pillow Case, 16 x 16",
+    "environmental_dynamics": "Navigated from the advanced search results page to the product detail page for '3dRose Retro Aliens and Flying Saucer Comic Book Cover Design Pillow Case, 16 x 16', showing detailed product information, price, availability, SKU, product specifications, and purchase options."
+  },
+  {
+    "initial_state": "Product detail page for '3dRose Retro Aliens and Flying Saucer Comic Book Cover Design Pillow Case, 16 x 16' with an 'Advanced Search' link visible.",
+    "action": "click [422] where [422] is Advanced Search",
+    "environmental_dynamics": "The browser navigated to the 'Advanced Search' page, displaying advanced search form fields and information relevant to catalog searching."
+  },
+  {
+    "initial_state": "Advanced Search page with the Product Name textbox empty and not focused.",
+    "action": "type [1486] [novel] where [1486] is Product Name",
+    "environmental_dynamics": "The Product Name textbox is now focused and contains the typed value 'novel'."
+  },
+  {
+    "initial_state": "Advanced Search page with various filter textboxes filled (e.g., 'Product Name' set to 'novel') and a clickable 'Search' button available in the Search Settings area.",
+    "action": "click [1518] where [1518] is Search",
+    "environmental_dynamics": "The page navigated from the Advanced Search form to the Advanced Search Results page, displaying a list of 171 matching products with options for sorting, pagination, and product actions."
+  },
+  {
+    "initial_state": "Advanced Search Results page with products displayed in a grid view, 'Grid' marked as the current view, 'List' as a clickable option, and 12 items shown per page.",
+    "action": "click [1502] where [1502] is View as \ue60b List",
+    "environmental_dynamics": "The product display switched from grid to list view (with 'List' now selected and 'Grid' clickable), and the number of items per page changed from 12 to 10."
+  },
+  {
+    "initial_state": "Advanced Search Results page displaying search results 1-10 out of 171, with pagination on page 1.",
+    "action": "click [1881] where [1881] is Page 2",
+    "environmental_dynamics": "The results list updated to show items 11-20 out of 171, and the pagination now indicates that page 2 is currently selected; navigation controls updated to allow returning to page 1."
+  },
+  {
+    "initial_state": "Advanced Search Results page with a list of products matching 'novel', displaying product listings including 'BDRSRX Novelty Bookshelf Floor Standing Bookcas Student Dormitory Desktop Bookshelf Drawer Type Bookshees Office Storage Bookcase for STO Books Magazines Cds and More Display Rack Bookshees'.",
+    "action": "click [1758] where [1758] is BDRSRX Novelty Bookshelf Floor Standing Bookcas Student Dormitory Desktop Bookshelf Drawer Type Bookshees Office Storage Bookcase for STO Books Magazines Cds and More Display Rack Bookshees",
+    "environmental_dynamics": "Navigated from the search results page to the product details page for 'BDRSRX Novelty Bookshelf Floor Standing Bookcas Student Dormitory Desktop Bookshelf Drawer Type Bookshees Office Storage Bookcase for STO Books Magazines Cds and More Display Rack Bookshees', displaying detailed product information, images, price, and purchase options."
+  },
+  {
+    "initial_state": "Product detail page for 'BDRSRX Novelty Bookshelf Floor Standing Bookcas Student Dormitory Desktop Bookshelf' with main content and sidebar navigation visible.",
+    "action": "click [422] where [422] is Advanced Search",
+    "environmental_dynamics": "The page navigated to the 'Advanced Search' interface, displaying a form for detailed catalog search with input fields for product name, SKU, description, price, and other advanced criteria."
+  },
+  {
+    "initial_state": "Advanced Search page displaying a form with empty 'Product Name' field and other search fields visible.",
+    "action": "type [1486] [book] where [1486] is Product Name",
+    "environmental_dynamics": "The text 'book' was entered into the 'Product Name' textbox, and the field is now focused with the value set to 'book'."
+  },
+  {
+    "initial_state": "Advanced Search page with search form filled (Product Name: 'book') and the Search button clickable.",
+    "action": "click [1518] where [1518] is Search",
+    "environmental_dynamics": "Clicking the 'Search' button submitted the form, and the page transitioned to Advanced Search Results, displaying 1286 items matching the criteria 'Product Name: book', along with various product listings and search refinement options."
+  },
+  {
+    "initial_state": "Advanced Search Results page showing items 1-12 out of 1286 with page 1 selected in the pagination controls.",
+    "action": "click [1885] where [1885] is Page 2",
+    "environmental_dynamics": "The page changed to show items 13-24 of 1286, and page 2 is now highlighted as the current page in the pagination controls, with a new previous page link available."
+  },
+  {
+    "initial_state": "Advanced Search Results page displaying product listings for 'book', with the item '3-Tier Bookshelf Wood and Metal Bookcase, Industrial Display Shelf Modern Open Bookcase Storage Shelf for Home Office, Living Room, Bedroom, 23.6\"x11.8\"x31.5\"' shown among other search results.",
+    "action": "click [1730] where [1730] is 3-Tier Bookshelf Wood and Metal Bookcase, Industrial Display Shelf Modern Open Bookcase Storage Shelf for Home Office, Living Room, Bedroom, 23.6\"x11.8\"x31.5\"",
+    "environmental_dynamics": "The browser navigated from the search results to the product detail page for '3-Tier Bookshelf Wood and Metal Bookcase, Industrial Display Shelf Modern Open Bookcase Storage Shelf for Home Office, Living Room, Bedroom, 23.6\"x11.8\"x31.5\"', displaying detailed information, specifications, and purchasing options for this item."
+  },
+  {
+    "initial_state": "Product detail page for '3-Tier Bookshelf Wood and Metal Bookcase' displaying product information and actions including 'Add to Wish List'.",
+    "action": "click [1552] where [1552] is Add to Wish List",
+    "environmental_dynamics": "The page transitioned to the 'My Wish List' section, displaying a confirmation alert that the product was added to the wish list and showing the product listed within the wish list."
+  },
+  {
+    "initial_state": "User's wish list page displaying 1 item (3-Tier Bookshelf Wood and Metal Bookcase) with an 'Add to Cart' button available for that item.",
+    "action": "click [1525] where [1525] is Add to Cart",
+    "environmental_dynamics": "The selected item was removed from the wish list and added to the shopping cart, as indicated by the cart count increasing from 3 to 4 and wish list sections now displaying 'You have no items in your wish list.'"
+  },
+  {
+    "initial_state": "User is on the 'My Wish List' page, with no items in their wish list and an 'Advanced Search' link visible in the search section.",
+    "action": "click [410] where [410] is Advanced Search",
+    "environmental_dynamics": "Clicking 'Advanced Search' navigated the browser to the 'Advanced Search' page, replacing the wish list content with advanced catalog search fields and options."
+  },
+  {
+    "initial_state": "Advanced Search page displaying a form with multiple searchable fields, including an empty 'Product Name' textbox.",
+    "action": "type [1513] [book] where [1513] is Product Name",
+    "environmental_dynamics": "The 'Product Name' textbox now contains the text 'book' and is focused."
+  },
+  {
+    "initial_state": "Advanced Search page displaying a search form with 'Product Name' pre-filled as 'book' and a clickable Search button.",
+    "action": "click [1545] where [1545] is Search",
+    "environmental_dynamics": "The page transitioned to the Advanced Search Results, displaying a list of 1286 items matching 'book' in the product name, along with item details, filters, and pagination controls."
+  },
+  {
+    "initial_state": "Advanced Search Results page displaying items 1-12 of 1286, currently on page 1.",
+    "action": "click [1912] where [1912] is Page 2",
+    "environmental_dynamics": "The item list updated to show items 13-24, and the pagination UI now marks Page 2 as the current page with the option to navigate to Page 1 or other subsequent pages."
+  },
+  {
+    "initial_state": "Advanced Search Results page showing items 13-24 out of 1286, currently on page 2 of the search results.",
+    "action": "click [1932] where [1932] is \ue608 Page Next",
+    "environmental_dynamics": "The search results paginated forward to page 3, now displaying items 25-36 of 1286 and updating the page navigation to reflect that the user is currently on page 3."
+  },
+  {
+    "initial_state": "E-commerce advanced search results page showing items 25-36 of 1286, sorted by 'Product Name' in ascending order; the 'Set Descending Direction' sort link is visible.",
+    "action": "click [1540] where [1540] is \ue613 Set Descending Direction",
+    "environmental_dynamics": "The sort order for products changed from ascending to descending by product name; the 'Set Descending Direction' link changed to 'Set Ascending Direction' and the displayed items on the page updated to reflect the new sort order."
+  },
+  {
+    "initial_state": "Advanced Search Results page showing a list of book-related products, including a visible product link for 'YYFANGYF Bookshelf, Rotating 360 Degree Bookcase Children's Floor-to-Ceiling Picture Book Stand...'",
+    "action": "click [1815] where [1815] is YYFANGYF Bookshelf, Rotating 360 Degree Bookcase Children's Floor-to-Ceiling Picture Book Stand Multi-Layer Dustproof Simple Shelf for Living Room and Bedroom (Color : Gray, Size : 40x132cm)",
+    "environmental_dynamics": "The browser navigated to the product details page for 'YYFANGYF Bookshelf, Rotating 360 Degree Bookcase', displaying detailed information, options, and purchase actions for that specific product."
+  },
+  {
+    "initial_state": "Product page for 'YYFANGYF Bookshelf' with the 'Details' tab opened and product details visible.",
+    "action": "click [1707] where [1707] is Reviews",
+    "environmental_dynamics": "The 'Reviews' tab was opened, displaying the product review form where the user can submit a rating, nickname, summary, and review."
+  },
+  {
+    "initial_state": "Product detail page for a YYFANGYF Bookshelf with a review form displayed, and no rating selected in the review section.",
+    "action": "click [1745] where [1745] is Rating \ue605\ue605\ue605\ue605\ue605 5 stars",
+    "environmental_dynamics": "The 5-star rating option in the review form was selected and is now checked and focused."
+  },
+  {
+    "initial_state": "Product page for a bookshelf with the 'Reviews' tab open and the review submission form visible; the 'Summary*' textbox is empty.",
+    "action": "type [1758] [Stylish and Practical] where [1758] is Summary*",
+    "environmental_dynamics": "The 'Summary*' textbox in the review form is now filled with the text 'Stylish and Practical' and is focused."
+  },
+  {
+    "initial_state": "Product page for YYFANGYF Bookshelf, with the review form open; the 'Review*' textbox is empty and focused.",
+    "action": "type [1763] [This bookshelf is a perfect blend of style and utility. It rotates smoothly and is spacious enough for my growing book collection. Highly recommended for any reading enthusiast.] where [1763] is Review*",
+    "environmental_dynamics": "The content 'This bookshelf is a perfect blend of style and utility. It rotates smoothly and is spacious enough for my growing book collection. Highly recommended for any reading enthusiast.' was entered into the 'Review*' textbox, which is now populated and focused."
+  },
+  {
+    "initial_state": "Product page for a bookshelf with a review form open and completed, ready to submit a review (nickname, summary, and review text filled in, 1-star rating selected, 'Submit Review' button visible).",
+    "action": "click [1766] where [1766] is Submit Review",
+    "environmental_dynamics": "Upon clicking 'Submit Review', the review form is replaced by an alert message indicating that the review was submitted for moderation, and the 'Details' tab becomes visible and expanded, showing the product details."
+  },
+  {
+    "initial_state": "Product detail page for 'YYFANGYF Bookshelf' with navigation, product options, and a visible link labeled 'Advanced Search'",
+    "action": "click [450] where [450] is Advanced Search",
+    "environmental_dynamics": "The browser navigated to the 'Advanced Search' page, displaying a form with fields for Product Name, SKU, Description, Short Description, Price, and USD, replacing the product detail content."
+  },
+  {
+    "initial_state": "Advanced Search page with the 'Product Name' textbox empty and unfocused in the 'Search Settings' section.",
+    "action": "type [1513] [book] where [1513] is Product Name",
+    "environmental_dynamics": "The 'Product Name' textbox is now focused and contains the text 'book'."
+  },
+  {
+    "initial_state": "Advanced Search page with search filters filled, 'Search' button visible and clickable.",
+    "action": "click [1545] where [1545] is Search",
+    "environmental_dynamics": "The page navigated to an 'Advanced Search Results' view, displaying 1286 items matching the search criteria 'Product Name: book', along with paginated product listings and result refinement options."
+  },
+  {
+    "initial_state": "Catalog advanced search results page displaying items in grid view with a 'View as List' link available and 12 items shown per page.",
+    "action": "click [1529] where [1529] is View as \ue60b List",
+    "environmental_dynamics": "The search results switched from grid to list view, the 'View as List' link changed to 'View as Grid', and the pagination changed to display 10 items per page instead of 12."
+  },
+  {
+    "initial_state": "Catalog advanced search results page showing a list of items, with the 'Sort By' combobox (value='Product Name') not expanded.",
+    "action": "click [1537] where [1537] is Sort By",
+    "environmental_dynamics": "The 'Sort By' combobox is now focused and expanded, revealing sorting options to the user."
+  },
+  {
+    "initial_state": "Advanced Search Results page with sort combobox expanded, showing options 'Product Name' (selected) and 'Price'.",
+    "action": "click [1539] where [1539] is Price",
+    "environmental_dynamics": "no change"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "initial_state": "Postmill homepage with navigation and search features visible",
+    "action": "click [42] where [42] is Forums",
+    "environmental_dynamics": "The browser navigated to the 'List of forums' page, displaying various forum topics along with their subscription options and submission counts."
+  },
+  {
+    "initial_state": "List of forums with various forum listings",
+    "action": "type [50] [fitness ] where [50] is Search query",
+    "environmental_dynamics": "The search input box was updated with the term 'fitness', and the page transitioned to a search results view displaying articles related to fitness."
+  }
+]

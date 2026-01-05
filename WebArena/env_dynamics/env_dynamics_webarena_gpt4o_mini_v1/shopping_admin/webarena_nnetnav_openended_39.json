@@ -1,0 +1,197 @@
+[
+  {
+    "initial_state": "Dashboard / Magento Admin",
+    "action": "click [207] where [207] is \ue603 CUSTOMERS",
+    "environmental_dynamics": "The focus shifted to the 'CUSTOMERS' link in the navigation menu, highlighting it and expanding its associated menu options, which include 'All Customers', 'Now Online', 'Login as Customer Log', and 'Customer Groups'."
+  },
+  {
+    "initial_state": "Dashboard / Magento Admin",
+    "action": "click [214] where [214] is All Customers",
+    "environmental_dynamics": "The browser navigated to the 'Customers' section, displaying the 'All Customers' page within the Magento Admin interface."
+  },
+  {
+    "initial_state": "Magento Admin Customers page with a list of customers and 'Add New Customer' button visible",
+    "action": "click [716] where [716] is Add New Customer",
+    "environmental_dynamics": "The page navigated to the 'New Customer' form, with fields and options displayed for adding a new customer."
+  },
+  {
+    "initial_state": "New Customer / Customers / Customers / Magento Admin with empty First Name textbox",
+    "action": "type [808] [John ] where [808] is ",
+    "environmental_dynamics": "The First Name textbox was updated to contain the text 'John', and it is now focused."
+  },
+  {
+    "initial_state": "New Customer / Customers / Customers / Magento Admin with the Last Name textbox empty",
+    "action": "type [820] [Doe ] where [820] is ",
+    "environmental_dynamics": "The Last Name textbox was filled with the value 'Doe', reflecting the user's input."
+  },
+  {
+    "initial_state": "New Customer / Customers / Customers / Magento Admin with Email field empty",
+    "action": "type [832] [john.doe@example.com ] where [832] is Email *",
+    "environmental_dynamics": "The Email field was filled with the text 'john.doe@example.com', updating its value to reflect the user's input."
+  },
+  {
+    "initial_state": "New Customer / Customers / Customers / Magento Admin with Date of Birth textbox empty",
+    "action": "type [847] [1990-01-01 ] where [847] is Date of Birth",
+    "environmental_dynamics": "The textbox for 'Date of Birth' was populated with the value '1990-01-01', and a validation message 'Please enter a valid date.' was displayed."
+  },
+  {
+    "initial_state": "New Customer / Customers / Customers / Magento Admin",
+    "action": "click [861] where [861] is notice-RAKJVTD",
+    "environmental_dynamics": "The gender selection combobox was expanded, allowing the user to view and select from the available options: Male, Female, and Not Specified."
+  },
+  {
+    "initial_state": "New Customer / Customers / Customers / Magento Admin with Gender selection expanded",
+    "action": "click [863] where [863] is Male",
+    "environmental_dynamics": "The combobox for Gender was interacted with, resulting in the selection of 'Male' from the available menu items."
+  },
+  {
+    "initial_state": "New Customer / Customers / Customers / Magento Admin",
+    "action": "type [855] [123456789 ] where [855] is Tax/VAT Number",
+    "environmental_dynamics": "The textbox for 'Tax/VAT Number' was populated with the value '123456789', indicating the user has entered a Tax/VAT number."
+  },
+  {
+    "initial_state": "New Customer / Customers / Customers / Magento Admin",
+    "action": "click [863] where [863] is Male",
+    "environmental_dynamics": "The 'Gender' combobox was expanded, and the option 'Male' was selected."
+  },
+  {
+    "initial_state": "New Customer / Customers / Customers / Magento Admin with combobox for 'Send Welcome Email From' not expanded",
+    "action": "click [871] where [871] is notice-RLY22JB",
+    "environmental_dynamics": "The combobox for 'Send Welcome Email From' expanded to reveal its menu items, allowing the user to select an option."
+  },
+  {
+    "initial_state": "New Customer / Customers / Customers / Magento Admin",
+    "action": "click [871] where [871] is notice-RLY22JB",
+    "environmental_dynamics": "The combobox for 'Send Welcome Email From' opened up, allowing the user to choose among available options."
+  },
+  {
+    "initial_state": "New Customer form in Magento Admin",
+    "action": "click [741] where [741] is Save Customer",
+    "environmental_dynamics": "A confirmation dialogue appeared indicating that the customer information was successfully saved."
+  },
+  {
+    "initial_state": "New Customer / Customers / Customers / Magento Admin",
+    "action": "click [176] where [176] is Magento Admin Panel",
+    "environmental_dynamics": "The webpage navigated to the Dashboard of the Magento Admin, updating the title to reflect the new context and displaying the dashboard elements."
+  },
+  {
+    "initial_state": "Dashboard / Magento Admin with Customers tab not focused",
+    "action": "click [207] where [207] is \ue603 CUSTOMERS",
+    "environmental_dynamics": "The Customers tab became focused, and its associated dropdown menu was revealed, displaying options related to customer management."
+  },
+  {
+    "initial_state": "Dashboard / Magento Admin with focus on 'CUSTOMERS' menu",
+    "action": "click [214] where [214] is All Customers",
+    "environmental_dynamics": "The page transitioned from the Dashboard view to the Customers view, displaying a list of customers with their respective details."
+  },
+  {
+    "initial_state": "Customers / Customers / Magento Admin",
+    "action": "click [726] where [726] is Add New Customer",
+    "environmental_dynamics": "The page navigated to the 'New Customer' form, displaying fields for customer details and buttons to save or reset the information."
+  },
+  {
+    "initial_state": "New Customer form in Magento Admin",
+    "action": "click [741] where [741] is ",
+    "environmental_dynamics": "The 'First Name' textbox is now focused, and its input field is ready for user input."
+  },
+  {
+    "initial_state": "New Customer / Customers / Customers / Magento Admin with a focus on 'Gender' combobox",
+    "action": "click [873] where [873] is Male",
+    "environmental_dynamics": "The 'Gender' combobox expanded to display available options, and the option 'Male' was selected, updating the combobox value."
+  },
+  {
+    "initial_state": "New Customer / Customers / Customers / Magento Admin with Allow remote shopping assistance checkbox unchecked",
+    "action": "click [849] where [849] is Allow remote shopping assistance No",
+    "environmental_dynamics": "The Allow remote shopping assistance checkbox was clicked, changing its state to checked, indicating that remote shopping assistance is now enabled."
+  },
+  {
+    "initial_state": "New Customer / Customers / Customers / Magento Admin page with various form fields visible",
+    "action": "type [812] [Mr.  ] where [812] is Name Prefix",
+    "environmental_dynamics": "The textbox for 'Name Prefix' was updated to contain the value 'Mr.', and is now focused, ready for further input."
+  },
+  {
+    "initial_state": "New Customer / Customers / Customers / Magento Admin, focused on 'First Name' textbox",
+    "action": "type [818] [John ] where [818] is ",
+    "environmental_dynamics": "The 'First Name' textbox now contains the value 'John' and remains focused, indicating user input."
+  },
+  {
+    "initial_state": "New Customer / Customers / Customers / Magento Admin with the Last Name field empty",
+    "action": "type [830] [Doe ] where [830] is Last Name *",
+    "environmental_dynamics": "The Last Name field was updated to include the value 'Doe', reflecting the user's input."
+  },
+  {
+    "initial_state": "New Customer / Customers / Customers / Magento Admin with input fields for customer details",
+    "action": "type [832] [john.doe@example.com  ] where [832] is ",
+    "environmental_dynamics": "The email input field received the text 'john.doe@example.com', allowing the user to submit the email address for the new customer record."
+  },
+  {
+    "initial_state": "New Customer / Customers / Customers / Magento Admin page with various form fields",
+    "action": "click [849] where [849] is ",
+    "environmental_dynamics": "The checkbox labeled 'Allow remote shopping assistance' was clicked, changing its state to unchecked."
+  },
+  {
+    "initial_state": "New Customer / Customers / Customers / Magento Admin",
+    "action": "type [855] [123456789 ] where [855] is ",
+    "environmental_dynamics": "The input field for 'Date of Birth' is updated with the value '123456789', and a validation message indicating 'Please enter a valid date.' is now visible."
+  },
+  {
+    "initial_state": "New Customer / Customers / Customers / Magento Admin with Date of Birth field focused",
+    "action": "type [857] [1990-01-01 ] where [857] is Date of Birth Please enter a valid date.",
+    "environmental_dynamics": "The value '1990-01-01' was entered into the Date of Birth textbox."
+  },
+  {
+    "initial_state": "New Customer / Customers / Customers / Magento Admin with various input fields visible",
+    "action": "type [832] [john.doe@example.com ] where [832] is ",
+    "environmental_dynamics": "The textbox for 'Email' is now populated with the value 'john.doe@example.com', indicating that an email address has been entered."
+  },
+  {
+    "initial_state": "New Customer / Customers / Customers / Magento Admin, focused",
+    "action": "click [871] where [871] is notice-GIQMWJK",
+    "environmental_dynamics": "The Gender combobox expanded, revealing options for 'Male', 'Female', and 'Not Specified', allowing the user to select a gender."
+  },
+  {
+    "initial_state": "New Customer / Customers / Customers / Magento Admin",
+    "action": "click [873] where [873] is Male",
+    "environmental_dynamics": "The 'Male' menu item in the gender selection combobox was clicked, selecting it as the current choice."
+  },
+  {
+    "initial_state": "New Customer / Customers / Customers / Magento Admin with various form fields visible",
+    "action": "type [832] [john.doe@example.com ] where [832] is ",
+    "environmental_dynamics": "The email input field accepted the text 'john.doe@example.com', and the field is now highlighted as having a value."
+  },
+  {
+    "initial_state": "New Customer / Customers / Customers / Magento Admin with various input fields visible",
+    "action": "type [855] [123456789 ] where [855] is ",
+    "environmental_dynamics": "The textbox for 'Date of Birth' was updated to display the value '123456789' and it is now focused."
+  },
+  {
+    "initial_state": "New Customer / Customers / Customers / Magento Admin with focused fields",
+    "action": "type [832] [john.doe@example.com ] where [832] is ",
+    "environmental_dynamics": "The email input field was updated with the text 'john.doe@example.com', allowing for the entry of customer email information."
+  },
+  {
+    "initial_state": "New Customer / Customers / Customers / Magento Admin with various input fields",
+    "action": "click [873] where [873] is Male",
+    "environmental_dynamics": "The 'Gender' combobox was interacted with, changing the selected option to 'Male'."
+  },
+  {
+    "initial_state": "New Customer / Customers / Customers / Magento Admin with checkboxes unchecked",
+    "action": "click [849] where [849] is ",
+    "environmental_dynamics": "The 'Allow remote shopping assistance' checkbox was checked, indicating that the option is now enabled."
+  },
+  {
+    "initial_state": "New Customer / Customers / Customers / Magento Admin with email field focused",
+    "action": "type [842] [john.doe@example.com ] where [842] is Email *",
+    "environmental_dynamics": "The email text field was updated with the value 'john.doe@example.com', indicating user input."
+  },
+  {
+    "initial_state": "New Customer / Customers / Customers / Magento Admin, input for Date of Birth field is empty",
+    "action": "type [857] [1990-01-01  ] where [857] is ",
+    "environmental_dynamics": "The Date of Birth input field was populated with the value '1990-01-01', which is now displayed as the current value in the field."
+  },
+  {
+    "initial_state": "New Customer / Customers / Customers / Magento Admin with the Date of Birth textbox focused",
+    "action": "type [855] [123456789 ] where [855] is ",
+    "environmental_dynamics": "The Date of Birth textbox was updated to contain the value '123456789', allowing the user to enter a new date."
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "initial_state": "Postmill homepage with the main content indicating no forums are subscribed, and a sidebar navigation menu containing a 'Forums' link.",
+    "action": "click [42] where [42] is Forums",
+    "environmental_dynamics": "The browser navigated to the 'List of forums' page, displaying a list of available forums with details and subscribe buttons, as well as navigation to additional pages of forums."
+  },
+  {
+    "initial_state": "List of forums page displaying multiple forum articles, including a visible link for 'Music \u2014 Music'.",
+    "action": "click [504] where [504] is Music \u2014 Music",
+    "environmental_dynamics": "Navigated from the forum list to the Music forum page, displaying Music-specific posts, the heading '/f/Music', and sidebar information for the Music forum."
+  }
+]

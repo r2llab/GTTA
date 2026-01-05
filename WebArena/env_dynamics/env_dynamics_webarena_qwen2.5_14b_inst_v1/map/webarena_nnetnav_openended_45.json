@@ -1,0 +1,197 @@
+[
+  {
+    "initial_state": "OpenStreetMap homepage with various navigation options and a search bar",
+    "action": "go_back",
+    "environmental_dynamics": "Navigation went back to the previous page, likely removing the current OpenStreetMap homepage from view."
+  },
+  {
+    "initial_state": "An unspecified webpage",
+    "action": "goto [http://openstreetmap.org]",
+    "environmental_dynamics": "The browser navigated to the OpenStreetMap homepage, displaying a banner with navigation links, a search section with a search box and buttons, and informational paragraphs about OpenStreetMap."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with a search textbox visible but not focused",
+    "action": "type [145] [parks near NY ] where [145] is Search",
+    "environmental_dynamics": "The search textbox now contains the value 'parks near NY' and is focused, indicating that text was typed into the search field."
+  },
+  {
+    "initial_state": "OpenStreetMap page with search results for 'parks near NY' currently loading",
+    "action": "click [147] where [147] is Go",
+    "environmental_dynamics": "The 'Go' button was clicked, resulting in the search results being updated to display 'No results found'."
+  },
+  {
+    "initial_state": "OpenStreetMap with search results section and a search query for 'parks near NY'",
+    "action": "click [461] where [461] is Close",
+    "environmental_dynamics": "The search results section, including the 'Search Results' heading and the 'No results found' message, was closed, revealing the default welcome paragraph and 'Start Mapping' button."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with search bar visible",
+    "action": "click [145] where [145] is Search",
+    "environmental_dynamics": "The search bar became focused, allowing for text input."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with a search bar and various navigation options",
+    "action": "type [145] [parks near NY ] where [145] is Search",
+    "environmental_dynamics": "The search bar was populated with the query 'parks near NY' and is now focused for further input."
+  },
+  {
+    "initial_state": "OpenStreetMap page displaying search results for 'parks near NY' with the search input focused",
+    "action": "click [147] where [147] is Go",
+    "environmental_dynamics": "The focus shifted to the 'Go' button, implying an impending search operation with the current search query."
+  },
+  {
+    "initial_state": "OpenStreetMap page displaying search results for 'parks near NY' with the 'Zoom In' button focused",
+    "action": "click [394] where [394] is Zoom In",
+    "environmental_dynamics": "The map zoomed in, changing the measurement units to kilometers and miles, and updated the 'Zoom In' button tooltip to 'Zoom In'."
+  },
+  {
+    "initial_state": "OpenStreetMap webpage showing search results for 'parks near NY' with a list of no results found and the zoom in/out tools at the bottom",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page scrolled down, revealing additional images and updated distance measurement units at the bottom."
+  },
+  {
+    "initial_state": "A map page on OpenStreetMap displaying the search query 'parks near NY' with no search results and the 'Show My Location' button not focused",
+    "action": "click [399] where [399] is Show My Location",
+    "environmental_dynamics": "The 'Show My Location' button became focused, indicating it can now be interacted with to show the user's location on the map."
+  },
+  {
+    "initial_state": "OpenStreetMap page showing search results for 'parks near NY' with no results found",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The webpage scrolled down, revealing additional images and increasing the distance labels from 100 km to 500 km."
+  },
+  {
+    "initial_state": "OpenStreetMap webpage showing search results for parks near NY with no layers menu displayed",
+    "action": "click [402] where [402] is Layers",
+    "environmental_dynamics": "A 'Map Layers' menu appeared with options for different map overlays and troubleshoot settings."
+  },
+  {
+    "initial_state": "OpenStreetMap page showing search results for 'parks near NY' with no results found",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page scrolled down, keeping the same layout and content visible."
+  },
+  {
+    "initial_state": "OpenStreetMap search results page with 'No results found' and a search query for 'parks near NY' in the search box.",
+    "action": "click [480] where [480] is Close",
+    "environmental_dynamics": "The search results section was closed, displaying the default OpenStreetMap homepage with a welcome message."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with various navigation links and a search box",
+    "action": "click [145] where [145] is Search",
+    "environmental_dynamics": "The search box became focused, indicating it is ready for user input."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with a search section containing a textbox and a 'Go' button",
+    "action": "click [147] where [147] is Go",
+    "environmental_dynamics": "The 'Go' button became focused, indicating it was clicked."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with navigation and search options visible",
+    "action": "click [408] where [408] is Share",
+    "environmental_dynamics": "A 'Share' section expanded, offering options to link, HTML embed, Geo URI, and custom image download settings."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with a search bar visible",
+    "action": "click [145] where [145] is Search",
+    "environmental_dynamics": "The search bar became focused, allowing direct input for searching."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with a search bar on the top",
+    "action": "type [145] [parks near NY ] where [145] is Search",
+    "environmental_dynamics": "The search bar now contains the text 'parks near NY' and is focused, indicating the user has started a search query."
+  },
+  {
+    "initial_state": "OpenStreetMap search results page with search term 'parks near NY'",
+    "action": "click [576] where [576] is Close",
+    "environmental_dynamics": "The search results section closed, returning the page to its original state before the search."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with a search bar and multiple navigational links",
+    "action": "click [145] where [145] is Search",
+    "environmental_dynamics": "The search bar was focused, allowing for input."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with a search bar and various navigation links",
+    "action": "type [145] [parks near NY ] where [145] is Search",
+    "environmental_dynamics": "The search bar was filled with the query 'parks near NY' and became focused, and a 'Search Results' section with a loading status appeared."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with a search bar containing 'parks near NY' and a loading status",
+    "action": "click [147] where [147] is Go",
+    "environmental_dynamics": "The 'Go' button became focused, indicating it received a click."
+  },
+  {
+    "initial_state": "OpenStreetMap page displaying search results for 'parks near NY'",
+    "action": "go_back",
+    "environmental_dynamics": "The page navigated back to the previous page, likely the general OpenStreetMap map interface or homepage."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with a search bar containing the query 'parks near NY'",
+    "action": "click [145] where [145] is Search",
+    "environmental_dynamics": "The search bar retained its filled value 'parks near NY' but became focused, indicating it can now accept further input or commands."
+  },
+  {
+    "initial_state": "OpenStreetMap map displaying 'parks near NY' with no search results and navigation menu visible",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The map content scrolled down, revealing more of the map area but preserved the same search and navigation elements."
+  },
+  {
+    "initial_state": "OpenStreetMap page with a search bar and no results for 'parks near NY'",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page content scrolled down, revealing the lower portions of the static text and images."
+  },
+  {
+    "initial_state": "OpenStreetMap page with a search bar displaying 'parks near NY' and a 'Go' button",
+    "action": "click [147] where [147] is Go",
+    "environmental_dynamics": "The 'Go' button was clicked, leading to the appearance of a loading status message and disappearance of the 'No results found' message, indicating a search operation is underway."
+  },
+  {
+    "initial_state": "OpenStreetMap page showing search results for 'parks near NY'",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page scrolled down, likely moving the user closer to the bottom of the search results or to a different section of content."
+  },
+  {
+    "initial_state": "OpenStreetMap page showing search results for 'parks near NY', with a search bar and no results found",
+    "action": "Attempt to perfom \"click\" on element \"[616]\" but no matching element found. Please check the observation more carefully.",
+    "environmental_dynamics": "No change"
+  },
+  {
+    "initial_state": "OpenStreetMap page with a search bar and various navigation options, centered on 'parks near NY', no results found",
+    "action": "click [399] where [399] is Show My Location",
+    "environmental_dynamics": "The 'Show My Location' button was clicked, changing its focused state and creating a tooltip with the description 'Show My Location'."
+  },
+  {
+    "initial_state": "OpenStreetMap page displaying search results for 'parks near NY', with a search bar showing the query and an empty results list",
+    "action": "go_back",
+    "environmental_dynamics": "The browser navigated back to the previous page, reverting the state to before the search was performed."
+  },
+  {
+    "initial_state": "An OpenStreetMap page displaying search results for 'parks near NY' with no actual results found and the search field filled with the search query.",
+    "action": "click [145] where [145] is Search",
+    "environmental_dynamics": "The search field became focused, allowing direct input and potentially triggering a new search upon typing."
+  },
+  {
+    "initial_state": "OpenStreetMap search results page displaying 'parks near NY' with a search bar and results section.",
+    "action": "type [145] [water parks near NY ] where [145] is Search",
+    "environmental_dynamics": "The search bar content was updated to 'water parks near NY', and a 'Loading...' status message appeared indicating the search results are being fetched."
+  },
+  {
+    "initial_state": "OpenStreetMap search results page with search bar and 'Go' button visible",
+    "action": "click [147] where [147] is Go",
+    "environmental_dynamics": "The 'Go' button became focused, indicating it received the click action."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage after a search for 'water parks near NY' with search results loading",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page was scrolled down, revealing a list indicating 'No results found'."
+  },
+  {
+    "initial_state": "OpenStreetMap page displaying search results for 'water parks near NY' with a banner, navigation links, and information sharing options",
+    "action": "click [104] where [104] is ",
+    "environmental_dynamics": "Navigated to the 'Copyright and License' page, changing the layout to a legal information page including details on OpenStreetMap's license, attribution guidelines, and contributor sources."
+  },
+  {
+    "initial_state": "OpenStreetMap copyright and license information page",
+    "action": "go_back",
+    "environmental_dynamics": "Returned to a previous page showing search results for 'water parks near NY'"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "initial_state": "OpenStreetMap homepage with a search bar and a welcome message",
+    "action": "type [145] [Times Square, New York ] where [145] is Search",
+    "environmental_dynamics": "The search bar displayed the input 'Times Square, New York' and a search results section with various location options for Times Square was revealed below the search bar."
+  },
+  {
+    "initial_state": "OpenStreetMap search results page for Times Square, New York",
+    "action": "click [449] where [449] is Times Square, Theater District, Manhattan Community Board 5, Manhattan, New York County, City of New York, New York, 10036, United States",
+    "environmental_dynamics": "Navigated to a detailed page for Times Square with information about its description, tags, and members."
+  },
+  {
+    "initial_state": "OpenStreetMap page displaying information about 'Times Square' with a visible search and navigation section",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page scrolled down, revealing additional content towards the bottom of the page, including an extra image element."
+  }
+]

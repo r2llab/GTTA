@@ -1,0 +1,197 @@
+[
+  {
+    "initial_state": "One Stop Market homepage with various categories and products",
+    "action": "click [594] where [594] is \ue622 Home & Kitchen",
+    "environmental_dynamics": "Navigated to the 'Home & Kitchen' section of the website, showing lists of home kitchen items with options to sort, filter, and add items to cart or wish list."
+  },
+  {
+    "initial_state": "Home & Kitchen product page listing various items",
+    "action": "click [1499] where [1499] is Image",
+    "environmental_dynamics": "The page navigated to a detailed product page for 'Magic Home Nightstands Bedroom with Drawers, Faux Marble Nightstands Side Tables with PU Leather and Titanium Legs Beside End Table for Living Room/Bedroom/Office (Beige)' showing product details, images, and options for color and quantity."
+  },
+  {
+    "initial_state": "Magic Home Nightstands product page with 'Details' tab selected and focused",
+    "action": "click [1665] where [1665] is Reviews",
+    "environmental_dynamics": "The 'Reviews' tab was selected and expanded, replacing the 'Details' tab content with a form for submitting reviews and a submit button."
+  },
+  {
+    "initial_state": "A product page for Magic Home Nightstands with interactive elements including 'Add to Cart', 'Add to Wish List', and 'Add to Compare', as well as a review section with fields for rating, nickname, summary, and review.",
+    "action": "type [1716] [The nightstands are great quality and very stylish, but I recommend adding rubber pads to the bottom to protect wooden floors ] where [1716] is ",
+    "environmental_dynamics": "The review summary field was filled with the text 'The nightstands are great quality and very stylish, but I recommend adding rubber pads to the bottom to protect wooden floors'."
+  },
+  {
+    "initial_state": "Product detail page on an e-commerce site, specifically for a set of faux marble nightstands, with review submission fields visible.",
+    "action": "click [1724] where [1724] is Submit Review",
+    "environmental_dynamics": "The review submission form was submitted. The nickname, summary, and review text fields now appear empty with the cursor still focused in the nickname field waiting for new review input."
+  },
+  {
+    "initial_state": "Product detail page for Magic Home Nightstands with a tabbed section containing 'Details' and 'Reviews' with the 'Reviews' tab already selected and focused",
+    "action": "click [1665] where [1665] is Reviews",
+    "environmental_dynamics": "No change; the 'Reviews' tab remained selected and focused."
+  },
+  {
+    "initial_state": "Product detail page for Magic Home Nightstands, visible under reviews section with an incomplete review form focused on the 'Nickname' field",
+    "action": "type [1721] [These nightstands are of great quality and very stylish. The only concern I have is that they may scratch wooden floors. ] where [1721] is Review*",
+    "environmental_dynamics": "The 'Review*' field's text box has been filled with the user's review and is now focused."
+  },
+  {
+    "initial_state": "Product detail page with a section for submitting a review",
+    "action": "click [1724] where [1724] is Submit Review",
+    "environmental_dynamics": "The review submission process was triggered, making the 'Rating' radio buttons focused and ready for user input."
+  },
+  {
+    "initial_state": "Product detail page of 'Magic Home Nightstands Bedroom with Drawers, Faux Marble Nightstands Side Tables with PU Leather and Titanium Legs Beside End Table for Living Room/Bedroom/Office (Beige)'",
+    "action": "go_back",
+    "environmental_dynamics": "Returned to a list view of 'Home & Kitchen' items, showing a selection of home and kitchen products including images, prices, and 'Add to Cart' buttons."
+  },
+  {
+    "initial_state": "Home & Kitchen items page displaying the first 12 items out of 17241 items",
+    "action": "click [1862] where [1862] is Page 4",
+    "environmental_dynamics": "The page was changed to display items 37-48 out of 17241 items, indicating that the user moved to the fourth page of the item list."
+  },
+  {
+    "initial_state": "Home & Kitchen category page with a list of products",
+    "action": "click [2089] where [2089] is Magic Home Nightstands Bedroom with Drawers,Faux Marble Nightstands Side Tables with PU Leather and Titanium Legs Beside End Table for Living Room/Bedroom/Office (Beige)",
+    "environmental_dynamics": "Navigated to the product detail page for 'Magic Home Nightstands Bedroom with Drawers, Faux Marble Nightstands Side Tables with PU Leather and Titanium Legs Beside End Table for Living Room/Bedroom/Office (Beige)'."
+  },
+  {
+    "initial_state": "Product detail page for Magic Home Nightstands with sections for Details and Reviews.",
+    "action": "click [1665] where [1665] is Reviews",
+    "environmental_dynamics": "The reviews section expanded and became selected, replacing the details section as the active content pane, making the 'Reviews' tab selected and showing a review submission form."
+  },
+  {
+    "initial_state": "Product page for a nightstand with user review section open",
+    "action": "click [1700] where [1700] is Rating \ue605\ue605\ue605\ue605 4 stars",
+    "environmental_dynamics": "The radio button for 'Rating 4 stars' was selected and is now highlighted as the user's chosen rating."
+  },
+  {
+    "initial_state": "Product detail page for Magic Home Nightstands with review tab active",
+    "action": "click [1711] where [1711] is ",
+    "environmental_dynamics": "The 'Nickname' textbox obtained focus and the cursor is positioned for input."
+  },
+  {
+    "initial_state": "Product details page of 'Magic Home Nightstands Bedroom with Drawers' with a review form partially filled in.",
+    "action": "type [1716] [This product is well-made and good-looking. However, to prevent any damage to wooden floors, it's best to use with rubber pads underneath. ] where [1716] is Summary*",
+    "environmental_dynamics": "The summary field in the review form was filled with the text 'This product is well-made and good-looking. However, to prevent any damage to wooden floors, it's best to use with rubber pads underneath.' and became focused."
+  },
+  {
+    "initial_state": "A product page for 'Magic Home Nightstands' with a review section open, requiring a nickname, summary, and review",
+    "action": "type [1711] [Emma ] where [1711] is ",
+    "environmental_dynamics": "The 'Nickname' textbox populated with the value 'Emma', making the 'Summary' textbox focused and required."
+  },
+  {
+    "initial_state": "Product detail page for a nightstand with tabs for details and reviews, including a review section where 'Nickname*' input field is empty",
+    "action": "type [1711] [Emma Lopez ] where [1711] is Nickname*",
+    "environmental_dynamics": "The 'Nickname*' input field has been populated with the text 'Emma Lopez'."
+  },
+  {
+    "initial_state": "A product page for 'Magic Home Nightstands' with review section fields being empty, particularly the Summary field.",
+    "action": "type [1716] [These nightstands are wonderful, but make sure to use rubber pads for wooden floors. ] where [1716] is Summary*",
+    "environmental_dynamics": "The Summary field was populated with the text 'These nightstands are wonderful, but make sure to use rubber pads for wooden floors.'"
+  },
+  {
+    "initial_state": "Product review form on a product page with placeholder text and unfilled required fields",
+    "action": "click [1724] where [1724] is Submit Review",
+    "environmental_dynamics": "The form was submitted, transitioning the focus to a required 'Review' textbox with placeholder text indicating it is a required field."
+  },
+  {
+    "initial_state": "Product page for 'Magic Home Nightstands Bedroom with Drawers, Faux Marble Nightstands Side Tables with PU Leather and Titanium Legs Beside End Table for Living Room/Bedroom/Office (Beige)' with review section expanded",
+    "action": "Attempt to perfom \"click\" on element \"[212]\" but no matching element found. Please check the observation more carefully.",
+    "environmental_dynamics": "No change"
+  },
+  {
+    "initial_state": "Product page for 'Magic Home Nightstands Bedroom with Drawers, Faux Marble Nightstands Side Tables with PU Leather and Titanium Legs Beside End Table for Living Room/Bedroom/Office (Beige)' with review section visible and filled but unfocused",
+    "action": "type [1721] [These nightstands are wonderful, but make sure to use rubber pads for wooden floors. ] where [1721] is Review*",
+    "environmental_dynamics": "The review text area was filled with 'These nightstands are wonderful, but make sure to use rubber pads for wooden floors.' and became focused."
+  },
+  {
+    "initial_state": "A product page for Magic Home Nightstands with an active review submission form ready to be filled and submitted.",
+    "action": "click [1724] where [1724] is Submit Review",
+    "environmental_dynamics": "A confirmation alert appeared indicating that the review was submitted for moderation."
+  },
+  {
+    "initial_state": "Magic Home Nightstands product page with user interface elements like cart count, search bar, tabs for product details and reviews.",
+    "action": "click [1665] where [1665] is December 25, 2021",
+    "environmental_dynamics": "No change."
+  },
+  {
+    "initial_state": "Webpage for a product 'Magic Home Nightstands Bedroom with Drawers', which includes details about the item, images, and a tabbed section with 'Details' and 'Reviews'. The 'Details' tab is currently expanded.",
+    "action": "click [1666] where [1666] is Reviews",
+    "environmental_dynamics": "The 'Reviews' tab is expanded and selected, replacing the previous 'Details' tab display with form fields for the user to submit a review, including rating, nickname, summary, and review text sections."
+  },
+  {
+    "initial_state": "Product detail page for 'Magic Home Nightstands' with review submission form visible",
+    "action": "type [1717] [Review text for Emma ] where [1717] is Summary*",
+    "environmental_dynamics": "The Summary field in the review submission form was filled with the text 'Review text for Emma'."
+  },
+  {
+    "initial_state": "Product detail page for 'Magic Home Nightstands Bedroom with Drawers, Faux Marble Nightstands Side Tables with PU Leather and Titanium Legs Beside End Table for Living Room/Bedroom/Office (Beige)', with a partially filled review form",
+    "action": "type [1722] [These nightstands look great and are good quality, but be sure to use non-slip pads to protect your wooden floors. ] where [1722] is Review*",
+    "environmental_dynamics": "The 'Review' textbox was filled with the text 'These nightstands look great and are good quality, but be sure to use non-slip pads to protect your wooden floors.' and became focused."
+  },
+  {
+    "initial_state": "Product review page with a filled and focused review form",
+    "action": "click [1724] where [1724] is ",
+    "environmental_dynamics": "A rating radio button received focus, but no actual rating was selected as it remains unchecked."
+  },
+  {
+    "initial_state": "Product detail page with 'Add to Cart' button and user review section available",
+    "action": "click [1563] where [1563] is Add to Cart",
+    "environmental_dynamics": "The 'Add to Cart' button was clicked, but no visible changes were observed in the accessible elements or the product detail page's structure."
+  },
+  {
+    "initial_state": "Product detail page with review and rating section visible for a nightstand product",
+    "action": "click [1568] where [1568] is Add to Wish List",
+    "environmental_dynamics": "Navigated to the Wish List page where updates include confirmation messages for added items and a summarized list of current wish list entries."
+  },
+  {
+    "initial_state": "User is viewing their wish list page which contains 2 items.",
+    "action": "click [1752] where [1752] is \ue616 Remove This Item",
+    "environmental_dynamics": "One item has been removed from the wish list, leading to a message confirming the item was removed and displaying only 1 item in the wish list."
+  },
+  {
+    "initial_state": "A page displaying a user's wish list with one item, a nightstand.",
+    "action": "click [1688] where [1688] is Add to Cart",
+    "environmental_dynamics": "The page was navigated to the product page of the selected nightstand, showing detailed product information and an alert notifying that required options weren't entered."
+  },
+  {
+    "initial_state": "A product page for a nightstand with details and user account actions such as My Account, My Wish List, and Sign Out.",
+    "action": "click [263] where [263] is My Wish List",
+    "environmental_dynamics": "Navigated to the 'My Wish List' page, displaying a list of items in the user's wish list, with options to update and share the wish list."
+  },
+  {
+    "initial_state": "My Wish List page with 1 item listed",
+    "action": "click [1833] where [1833] is Add to Cart",
+    "environmental_dynamics": "Navigated to the product details page for the nightstand and displayed an alert indicating that the product's required option(s) weren't entered."
+  },
+  {
+    "initial_state": "Product page of 'Magic Home Nightstands Bedroom with Drawers, Faux Marble Nightstands Side Tables with PU Leather and Titanium Legs Beside End Table for Living Room/Bedroom/Office (Beige)', showing account options like Sign Out, My Cart, and navigation menu.",
+    "action": "click [266] where [266] is Sign Out",
+    "environmental_dynamics": "The user was signed out and the page changed to a confirmatory message 'You are signed out', with a redirection link to the homepage in 5 seconds."
+  },
+  {
+    "initial_state": "Webpage with a banner featuring 'Sign In', 'Create an Account', and 'Welcome to One Stop Market', a search bar, and a tablist with product categories. Main area shows a sign-out message.",
+    "action": "page_focus [0]",
+    "environmental_dynamics": "Navigated to the home page of One Stop Market, which now displays product showcases, a main header named 'One Stop Market', and product listings with option to add items to cart or wish list."
+  },
+  {
+    "initial_state": "One Stop Market homepage displaying categories including Video Games",
+    "action": "click [1077] where [1077] is \ue622 Video Games",
+    "environmental_dynamics": "The page changed to display a list of Video Games items, titled 'Video Games Items 1-12 of 932'."
+  },
+  {
+    "initial_state": "Video games products page listing",
+    "action": "click [1399] where [1399] is Image",
+    "environmental_dynamics": "The browser navigated to a product detail page for 'Celeste - Nintendo Animal Crossing Happy Home Designer Amiibo Card - 305'"
+  },
+  {
+    "initial_state": "Product page for 'Celeste - Nintendo Animal Crossing Happy Home Designer Amiibo Card'",
+    "action": "click [1416] where [1416] is ",
+    "environmental_dynamics": "The tab panel for 'Reviews (5)' expanded and became the selected tab, showing a list of customer reviews and allowing the user to submit their own review."
+  },
+  {
+    "initial_state": "A product page for Celeste - Nintendo Animal Crossing Happy Home Designer Amiibo Card, displaying reviews with a review form that includes rating options",
+    "action": "click [1586] where [1586] is ",
+    "environmental_dynamics": "The 5-star rating radio button in the review form was selected, making the form fields for Nickname, Summary, and Review visible and interactive, allowing the user to fill in their review. The 'Submit Review' button also became visible."
+  }
+]

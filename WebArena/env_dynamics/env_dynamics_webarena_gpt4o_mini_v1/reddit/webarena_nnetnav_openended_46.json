@@ -1,0 +1,52 @@
+[
+  {
+    "initial_state": "Postmill homepage with search box visible",
+    "action": "click [54] where [54] is Search query",
+    "environmental_dynamics": "The search box became focused, indicating it is ready for input."
+  },
+  {
+    "initial_state": "Postmill homepage with search box focused",
+    "action": "type [54] [workout routines ] where [54] is Search query",
+    "environmental_dynamics": "The search box value was updated to 'workout routines', and the focus remains on the search input."
+  },
+  {
+    "initial_state": "Search results page for 'workout routines'",
+    "action": "click [56] where [56] is Submit",
+    "environmental_dynamics": "The page navigated to a 'Create submission' form where users can submit content by entering a title, body, and selecting a forum."
+  },
+  {
+    "initial_state": "Create submission page with textboxes for title and body",
+    "action": "type [137] [My Latest Workout Routine ] where [137] is ",
+    "environmental_dynamics": "The title textbox was updated with the value 'My Latest Workout Routine', and the textbox is now focused."
+  },
+  {
+    "initial_state": "Create submission page with focused title and body textboxes",
+    "action": "type [142] [This workout routine includes a mix of cardio, strength training, and flexibility exercises designed to improve overall fitness. Please follow the guidelines for each exercise carefully. ] where [142] is Body",
+    "environmental_dynamics": "The text in the 'Body' textbox was updated with a detailed workout routine description, and the content character count may have increased."
+  },
+  {
+    "initial_state": "Create submission page with a focused textbox for the Title",
+    "action": "type [137] [My Latest Workout Routine] where [137] is ",
+    "environmental_dynamics": "The textbox for the Title now displays a tooltip indicating that it is a required field, enhancing user guidance."
+  },
+  {
+    "initial_state": "Create submission page with 'Choose one\u2026' combobox visible",
+    "action": "click [378] where [378] is Choose one\u2026",
+    "environmental_dynamics": "The 'Choose one\u2026' combobox expanded, revealing a list of selectable options for the user to choose from."
+  },
+  {
+    "initial_state": "Create submission page with various input fields and options",
+    "action": "click [620] where [620] is ",
+    "environmental_dynamics": "The 'Formatting help' checkbox was clicked, changing its checked state to 'true', indicating an active selection."
+  },
+  {
+    "initial_state": "Create submission page with focused combobox 'Choose one\u2026'",
+    "action": "click [378] where [378] is Choose one\u2026",
+    "environmental_dynamics": "The combobox for 'Choose one\u2026' was clicked, opening the dropdown menu for forum selection."
+  },
+  {
+    "initial_state": "Create submission page with radio buttons and textboxes",
+    "action": "click [378] where [378] is Choose one\u2026",
+    "environmental_dynamics": "The 'Choose one...' dropdown menu expanded to show a list of selectable options, allowing the user to select a forum for the submission."
+  }
+]

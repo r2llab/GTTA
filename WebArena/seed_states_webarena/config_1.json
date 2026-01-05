@@ -1,0 +1,10 @@
+{
+    "sites": [
+        "shopping"
+    ],
+    "start_url": "WA_SHOPPING",
+    "geolocation": null,
+    "require_reset": false,
+    "storage_state": "./.auth/shopping_state.json",
+    "intent": "n/a"
+}

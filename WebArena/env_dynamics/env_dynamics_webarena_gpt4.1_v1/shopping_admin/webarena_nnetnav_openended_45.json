@@ -1,0 +1,72 @@
+[
+  {
+    "initial_state": "Magento Admin dashboard with the main horizontal menu collapsed, showing DASHBOARD as the current section and MARKETING as a clickable menu link.",
+    "action": "click [226] where [226] is \ue609 MARKETING",
+    "environmental_dynamics": "The MARKETING link in the menu was clicked, expanding a vertical marketing submenu that displays sections for Promotions, Communications, SEO & Search, and User Content, each with their respective submenu links."
+  },
+  {
+    "initial_state": "Magento Admin dashboard with the Marketing menu expanded and 'Catalog Price Rule' link visible in the sub-menu.",
+    "action": "click [240] where [240] is Catalog Price Rule",
+    "environmental_dynamics": "Navigated from the Dashboard to the Catalog Price Rule section, displaying a table of existing catalog price rules along with options to add or manage rules."
+  },
+  {
+    "initial_state": "Magento Admin Catalog Price Rule page displaying a list of current catalog price rules, with table of rules visible and an 'Add New Rule' button present.",
+    "action": "click [694] where [694] is Add New Rule",
+    "environmental_dynamics": "The interface transitioned to the 'New Catalog Price Rule' page, presenting a form for entering details for a new catalog price rule, with input fields and rule configuration options now visible."
+  },
+  {
+    "initial_state": "Magento Admin's 'New Catalog Price Rule' page with the 'Rule Name' textbox empty",
+    "action": "type [778] [Spring Sale] where [778] is Rule Name *",
+    "environmental_dynamics": "The 'Rule Name' textbox was populated with the text 'Spring Sale' and is now focused."
+  },
+  {
+    "initial_state": "Magento Admin panel 'New Catalog Price Rule' page with the 'Description' field empty and focused on the 'Rule Name' textbox.",
+    "action": "type [784] [Discount on Spring Collection for all customers and websites] where [784] is Description",
+    "environmental_dynamics": "The 'Description' textbox has been filled with 'Discount on Spring Collection for all customers and websites', is now focused, and a tooltip appears indicating that unsaved changes have been made to the form section."
+  },
+  {
+    "initial_state": "Magento admin 'New Catalog Price Rule' creation page with the 'Active' checkbox labeled 'No' currently unchecked (inactive).",
+    "action": "click [791] where [791] is Active * No",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "Magento Admin's 'New Catalog Price Rule' form page, with the 'Websites' listbox showing no option selected.",
+    "action": "click [800] where [800] is ",
+    "environmental_dynamics": "A website option within the 'Websites' listbox was selected, and the listbox is now focused with the first option marked as selected."
+  },
+  {
+    "initial_state": "Magento Admin 'New Catalog Price Rule' page with 'Customer Groups' listbox showing four options, none selected.",
+    "action": "click [811] where [811] is ",
+    "environmental_dynamics": "The first option in the 'Customer Groups' listbox is now selected, indicating the user has clicked to select it as a target group for the price rule."
+  },
+  {
+    "initial_state": "Magento Admin panel with the 'New Catalog Price Rule' form open; in the 'Customer Groups' multi-select, the second option (id 811) is selected, and the third option (id 812) is not selected.",
+    "action": "click [812] where [812] is ",
+    "environmental_dynamics": "In the 'Customer Groups' multi-select field, the third option (id 812) became selected, and the second option (id 811) became unselected."
+  },
+  {
+    "initial_state": "Magento admin panel on the 'New Catalog Price Rule' page, with the main form visible and focus currently on the 'Customer Groups' listbox.",
+    "action": "click [820] where [820] is From",
+    "environmental_dynamics": "The focus shifted to the 'From' textbox in the form, with no visible modal or data change."
+  },
+  {
+    "initial_state": "Magento Admin 'New Catalog Price Rule' creation page with the 'From' date field focused and empty.",
+    "action": "type [820] [2024-04-01 ] where [820] is From",
+    "environmental_dynamics": "The 'From' date field was filled in with '2024-04-01', but an error message 'Please enter a valid date.' appeared and a tooltip indicated the tab contains invalid data."
+  },
+  {
+    "initial_state": "Magento Admin New Catalog Price Rule form with the 'To' date textbox empty and the 'From' date textbox containing '2024-04-01', with the 'To' field focused.",
+    "action": "type [828] [2024-04-30] where [828] is To",
+    "environmental_dynamics": "The 'To' date textbox was filled with the value '2024-04-30' and remains focused."
+  },
+  {
+    "initial_state": "Magento Admin 'New Catalog Price Rule' form, with the 'Active' checkbox labeled 'No' and unchecked.",
+    "action": "click [791] where [791] is Active * No",
+    "environmental_dynamics": "A new validation message 'Please enter a valid date.' appeared below the 'To' field, indicating form validation updated after clicking the 'Active' checkbox, but the checkbox itself remains unchecked."
+  },
+  {
+    "initial_state": "Magento Admin panel on the 'New Catalog Price Rule' creation page, with the 'Active' checkbox set to 'No' (unchecked).",
+    "action": "click [791] where [791] is Active * No",
+    "environmental_dynamics": "no change"
+  }
+]

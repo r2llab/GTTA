@@ -1,0 +1,22 @@
+[
+  {
+    "initial_state": "Postmill homepage showing a message that the user is not subscribed to any forum, with options for navigation including a 'Forums' link.",
+    "action": "click [42] where [42] is Forums",
+    "environmental_dynamics": "The browser navigated to the forums listing page, displaying a heading 'List of forums', a 'Create forum' button, and a list of public forums with subscribe buttons and submission counts."
+  },
+  {
+    "initial_state": "List of forums page displaying page 1 of the forum list with the 'Previous' button disabled and the 'Next' button clickable in the pagination controls.",
+    "action": "click [655] where [655] is Next",
+    "environmental_dynamics": "The forums pagination advanced from page 1 to page 2, loading a new set of forum articles; the 'Previous' button became enabled and the forum list content was updated to reflect the next page."
+  },
+  {
+    "initial_state": "List of forums page displaying the first page of forum listings with a pagination navigation at the bottom including a 'Next' link.",
+    "action": "click [656] where [656] is Next",
+    "environmental_dynamics": "The forums listing updated to show the next page (Page 2) of forums, displaying a new set of forum articles while retaining the page structure and navigation."
+  },
+  {
+    "initial_state": "List of forums page showing various forum articles including a visible and clickable link titled 'sports \u2014 sports'.",
+    "action": "click [425] where [425] is sports \u2014 sports",
+    "environmental_dynamics": "The browser navigated to the 'sports' forum page, displaying sports-related articles, forum details, and subscription options specific to the 'sports' forum."
+  }
+]

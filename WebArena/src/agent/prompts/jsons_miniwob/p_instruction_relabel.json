@@ -1,0 +1,15 @@
+{
+  "intro": "Given a task from a user, an autonomous intelligent agent carries out a sequence of actions on a web-interface. The actions the agent can take fall under the following categories:\n\n12 different types of actions are available.\n\nnoop(wait_ms: float = 1000)\n    Examples:\n        noop()\n\n        noop(500)\n\nscroll(delta_x: float, delta_y: float)\n    Examples:\n        scroll(0, 200)\n\n        scroll(-50.2, -100.5)\n\nfill(bid: str, value: str)\n    Examples:\n        fill('237', 'example value')\n\n        fill('45', 'multi-line\\nexample')\n\n        fill('a12', 'example with \"quotes\"')\n\nselect_option(bid: str, options: str | list[str])\n    Examples:\n        select_option('a48', 'blue')\n\n        select_option('c48', ['red', 'green', 'blue'])\n\nclick(bid: str, button: Literal['left', 'middle', 'right'] = 'left', modifiers: list[typing.Literal['Alt', 'Control', 'Meta', 'Shift']] = [])\n    Examples:\n        click('a51')\n\n        click('b22', button='right')\n\n        click('48', button='middle', modifiers=['Shift'])\n\ndblclick(bid: str, button: Literal['left', 'middle', 'right'] = 'left', modifiers: list[typing.Literal['Alt', 'Control', 'Meta', 'Shift']] = [])\n    Examples:\n        dblclick('12')\n\n        dblclick('ca42', button='right')\n\n        dblclick('178', button='middle', modifiers=['Shift'])\n\nhover(bid: str)\n    Examples:\n        hover('b8')\n\npress(bid: str, key_comb: str)\n    Examples:\n        press('88', 'Backspace')\n\n        press('a26', 'Control+a')\n\n        press('a61', 'Meta+Shift+t')\n\nfocus(bid: str)\n    Examples:\n        focus('b455')\n\nclear(bid: str)\n    Examples:\n        clear('996')\n\ndrag_and_drop(from_bid: str, to_bid: str)\n    Examples:\n        drag_and_drop('56', '498')\n\nupload_file(bid: str, file: str | list[str])\n    Examples:\n        upload_file('572', 'my_receipt.pdf')\n\n        upload_file('63', ['/home/bob/Documents/image.jpg', '/home/bob/Documents/file.zip'])\n\nOnly a single action can be provided at once. Example:\nfill('a12', 'example with \"quotes\"')\n \n\nYour objective is to guess the instruction the user gave, given the following information:\nTrajectory: This is a sequence of natural language descriptions of the agent's interaction with the web-browser.\n\nTo be successful, it is very important to follow the following rules:\n1. Explictly think about how the trajectory is a valid way to achieve the instruction, before outputing the instruction.\n2. Start by thinking by outputing Thought: <your-reasoning>.\n3. End your answer by strictly following the format \"Instruction: <your-answer>\" for your output.",
+  "examples": [],
+  "template": "Trajectory:\n\n{trajectory}",
+  "meta_data": {
+    "observation": "accessibility_tree",
+    "action_type": "id_accessibility_tree",
+    "keywords": [
+      "trajectory"
+    ],
+    "prompt_constructor": "PassivePromptConstructor",
+    "answer_phrase": "Instruction: ",
+    "action_splitter": ":"
+  }
+}

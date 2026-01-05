@@ -1,0 +1,47 @@
+[
+  {
+    "initial_state": "OpenStreetMap homepage with a search bar focused",
+    "action": "type [145] [parks near CMU ] where [145] is Search",
+    "environmental_dynamics": "The search bar's content changed to 'parks near CMU' after typing and is now focused on these search terms."
+  },
+  {
+    "initial_state": "OpenStreetMap search results page for 'parks near CMU' with a list of found parks",
+    "action": "click [449] where [449] is Peace Garden, Squirrel Hill North, Pittsburgh, Allegheny County, Pennsylvania, United States",
+    "environmental_dynamics": "The browser navigated to the detailed page for 'Peace Garden', displaying its attributes and history."
+  },
+  {
+    "initial_state": "OpenStreetMap page with information about a way named Peace Garden",
+    "action": "click [149] where [149] is Find directions between two points",
+    "environmental_dynamics": "A new section with input fields for 'From' and 'To' addresses, a directions mode combobox, and 'Go' and 'Reverse Directions' buttons appeared, providing options to find directions between two points."
+  },
+  {
+    "initial_state": "OpenStreetMap page featuring a navigation section with route form fields, from which the 'From' field is one",
+    "action": "click [158] where [158] is From",
+    "environmental_dynamics": "The 'From' textbox became focused, allowing direct input."
+  },
+  {
+    "initial_state": "OpenStreetMap page centered around 'Peace Garden' with a navigation menu and a route planning section containing 'From' and 'To' textboxes, with the 'From' textbox being focused",
+    "action": "type [158] [Peace Garden ] where [158] is From",
+    "environmental_dynamics": "The 'From' textbox expanded to display the entered location 'Peace Garden, Squirrel Hill North, Pittsburgh, Allegheny County, Pennsylvania, United States' with the text input field retaining focus."
+  },
+  {
+    "initial_state": "OpenStreetMap page with a route planner section for directions, the 'From' field containing a location and the 'To' field not yet filled.",
+    "action": "click [163] where [163] is To",
+    "environmental_dynamics": "The 'To' textbox became focused, ready for input."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with 'From' and 'To' input fields for entering locations",
+    "action": "type [163] [Carnegie Mellon University  ] where [163] is To",
+    "environmental_dynamics": "The 'To' textbox field was populated with 'Carnegie Mellon University' and gained focus, with additional direction details and a table of instructions appearing below the input fields."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with a route from 'Peace Garden' to 'Carnegie Mellon University' already calculated",
+    "action": "click [171] where [171] is Go",
+    "environmental_dynamics": "The 'Go' button became focused, indicating it was clicked, but the route directions remained unchanged."
+  },
+  {
+    "initial_state": "OpenStreetMap page showing directions from Peace Garden to Carnegie Mellon University with a 'Go' button focused",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page content scrolled down, revealing more directions or potentially concealing the top navigation elements."
+  }
+]

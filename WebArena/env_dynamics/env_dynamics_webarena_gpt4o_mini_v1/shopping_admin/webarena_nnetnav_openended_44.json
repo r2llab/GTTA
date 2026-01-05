@@ -1,0 +1,197 @@
+[
+  {
+    "initial_state": "Dashboard / Magento Admin",
+    "action": "click [840] where [840] is ",
+    "environmental_dynamics": "The page navigated to the order view details for Order #000000065, displaying comprehensive order information including customer details, order status, and items ordered."
+  },
+  {
+    "initial_state": "Magento Admin Order View for Grace Nguyen",
+    "action": "click [784] where [784] is Edit Customer",
+    "environmental_dynamics": "The page changed to the Customer View for Grace Nguyen, displaying detailed customer information and options, including the ability to edit customer details."
+  },
+  {
+    "initial_state": "Grace Nguyen / Customers / Customers / Magento Admin with Account Information link visible",
+    "action": "click [828] where [828] is Account Information",
+    "environmental_dynamics": "The Account Information section became focused, allowing the user to view and edit customer details related to Grace Nguyen, including fields for first name, last name, email, and more."
+  },
+  {
+    "initial_state": "Grace Nguyen / Customers / Customers / Magento Admin page with various buttons and information displayed",
+    "action": "click [749] where [749] is Reset Password",
+    "environmental_dynamics": "A confirmation message appeared indicating 'The customer will receive an email with a link to reset password,' and additional personal information of the customer was revealed."
+  },
+  {
+    "initial_state": "Magento Admin customer management page with the 'Customers' section selected",
+    "action": "click [832] where [832] is Account Information",
+    "environmental_dynamics": "The 'Account Information' section opened, revealing additional fields and options for editing customer details such as name, email, and group."
+  },
+  {
+    "initial_state": "Grace Nguyen / Customers / Customers / Magento Admin with personal information section",
+    "action": "click [749] where [749] is Reset Password",
+    "environmental_dynamics": "A section displaying the customer's password reset information is likely presented, prompting the user to input details or complete the password reset process."
+  },
+  {
+    "initial_state": "Grace Nguyen / Customers / Customers / Magento Admin with Addresses section not focused",
+    "action": "click [849] where [849] is Addresses",
+    "environmental_dynamics": "The Addresses section became focused, bringing its content into view where options to edit, add, or manage addresses are now presented, highlighting areas related to the billing and shipping addresses."
+  },
+  {
+    "initial_state": "Grace Nguyen / Customers / Customers / Magento Admin with address details displayed",
+    "action": "click [1029] where [1029] is Default Billing Address Edit",
+    "environmental_dynamics": "An 'Add/Update Address' dialog appeared, allowing for the editing of the billing address along with fields for entering additional address information."
+  },
+  {
+    "initial_state": "Grace Nguyen / Customers / Customers / Magento Admin with various elements visible",
+    "action": "type [1963] [5551234567 ] where [1963] is ",
+    "environmental_dynamics": "The textbox for 'Phone Number' was updated to reflect the value '5551234567', indicating a new phone number was entered."
+  },
+  {
+    "initial_state": "Grace Nguyen / Customers / Customers / Magento Admin, dialog 'Add/Update Address' opened with various input fields visible",
+    "action": "type [1963] [5551234567] where [1963] is ",
+    "environmental_dynamics": "The input field for 'Phone Number' was populated with the value '5551234567', enhancing the existing entry."
+  },
+  {
+    "initial_state": "Grace Nguyen / Customers / Customers / Magento Admin with Add/Update Address dialog open",
+    "action": "click [1594] where [1594] is Save",
+    "environmental_dynamics": "The address information was saved successfully, and the dialog closed, returning to the previous page state."
+  },
+  {
+    "initial_state": "Grace Nguyen / Customers / Customers / Magento Admin",
+    "action": "click [849] where [849] is Addresses",
+    "environmental_dynamics": "The 'Addresses' link was clicked, which focused on the Addresses section, possibly leading to a detailed view of the addresses associated with the customer."
+  },
+  {
+    "initial_state": "Grace Nguyen / Customers / Customers / Magento Admin",
+    "action": "click [1029] where [1029] is Default Billing Address Edit",
+    "environmental_dynamics": "A dialog 'Add/Update Address' opened, allowing the user to edit the billing address details with various input fields and options for saving or canceling the changes."
+  },
+  {
+    "initial_state": "Grace Nguyen / Customers / Customers / Magento Admin, Add/Update Address dialog",
+    "action": "type [2150] [987 Some New Address ] where [2150] is ",
+    "environmental_dynamics": "The 'Street Address' textbox was updated to reflect the value '987 Some New Address'."
+  },
+  {
+    "initial_state": "Grace Nguyen / Customers / Customers / Magento Admin with 'Add/Update Address' dialog open",
+    "action": "click [2065] where [2065] is Save",
+    "environmental_dynamics": "The system processed the save action, which is likely to update the address details provided in the form, and any relevant confirmation message or state change may occur after saving."
+  },
+  {
+    "initial_state": "Grace Nguyen / Customers / Customers / Magento Admin, with Addresses link not focused",
+    "action": "click [849] where [849] is Addresses",
+    "environmental_dynamics": "The Addresses link became focused, indicating that the user is now viewing or interacting with the Addresses section."
+  },
+  {
+    "initial_state": "Grace Nguyen / Customers / Customers / Magento Admin page with default addresses listed",
+    "action": "click [1042] where [1042] is Default Shipping Address Edit",
+    "environmental_dynamics": "A dialog titled 'Add/Update Address' appeared, allowing the user to edit the default shipping address, with form fields populated with the existing information."
+  },
+  {
+    "initial_state": "Grace Nguyen / Customers / Customers / Magento Admin with address details visible",
+    "action": "type [2606] [123 New Address St ] where [2606] is ",
+    "environmental_dynamics": "The textbox for street address was updated to show the new value '123 New Address St'."
+  },
+  {
+    "initial_state": "Magento Admin page for Grace Nguyen with customer details visible",
+    "action": "click [2519] where [2519] is ",
+    "environmental_dynamics": "The 'Add/Update Address' dialog opened, allowing the user to modify address information, with fields for name, address, and contact details displayed to input."
+  },
+  {
+    "initial_state": "Grace Nguyen / Customers / Customers / Magento Admin, Add/Update Address dialog open",
+    "action": "type [2606] [123 New Address St ] where [2606] is ",
+    "environmental_dynamics": "The textbox for 'Street Address' was populated with the value '123 New Address St'."
+  },
+  {
+    "initial_state": "Magento Admin Add/Update Address dialog",
+    "action": "click [2519] where [2519] is ",
+    "environmental_dynamics": "The form for adding or updating an address is visible and focused, with inputs for name, address, and contact details available."
+  },
+  {
+    "initial_state": "Grace Nguyen / Customers / Customers / Magento Admin, 'First Name' textbox value='Grace'",
+    "action": "type [2574] [Grace1] where [2574] is First Name *",
+    "environmental_dynamics": "The 'First Name' textbox was updated to reflect the new value 'Grace1', indicating that the user's first name has been changed."
+  },
+  {
+    "initial_state": "Grace Nguyen / Customers / Customers / Magento Admin, adding or updating address modal",
+    "action": "type [2580] [Smith ] where [2580] is ",
+    "environmental_dynamics": "The 'Last Name' textbox was updated with the value 'Smith', indicating a change in the last name field of the address form."
+  },
+  {
+    "initial_state": "Grace Nguyen / Customers / Customers / Magento Admin, editing 'Add/Update Address' dialog with previous street address '123 New Address St'",
+    "action": "type [2606] [456 Another New Address St ] where [2606] is ",
+    "environmental_dynamics": "The text field for street address was updated to '456 Another New Address St', indicating a change in the customer address."
+  },
+  {
+    "initial_state": "Grace Nguyen / Customers / Customers / Magento Admin with address management dialog open",
+    "action": "click [2519] where [2519] is ",
+    "environmental_dynamics": "The 'Add/Update Address' dialog remained open, but the elements indicating 'Save', 'Cancel', and 'Delete' are focused, highlighting options available to the user for address management."
+  },
+  {
+    "initial_state": "Grace Nguyen / Customers / Customers / Magento Admin page",
+    "action": "click [2519] where [2519] is ",
+    "environmental_dynamics": "The dialog 'Add/Update Address' was opened, allowing the user to edit or add an address for Grace Nguyen."
+  },
+  {
+    "initial_state": "Magento Admin Add/Update Address page",
+    "action": "click [1044] where [1044] is Add New Address",
+    "environmental_dynamics": "A new address form appeared, allowing the user to input details such as 'First Name', 'Last Name', 'Street Address', 'City', 'State', 'Zip/Postal Code', and 'Phone Number'."
+  },
+  {
+    "initial_state": "Grace Nguyen / Customers / Customers / Magento Admin with Last Name field showing 'Smith'",
+    "action": "type [2580] [Johnson ] where [2580] is Last Name *",
+    "environmental_dynamics": "The Last Name field was updated to 'Johnson', reflecting the new value entered by the user."
+  },
+  {
+    "initial_state": "Grace Nguyen / Customers / Customers / Magento Admin with address editing options",
+    "action": "type [2606] [123 New Street Address ] where [2606] is ",
+    "environmental_dynamics": "The text box for the street address was updated with the new value '123 New Street Address'."
+  },
+  {
+    "initial_state": "Magento Admin page for customer management",
+    "action": "click [2519] where [2519] is ",
+    "environmental_dynamics": "The 'Add/Update Address' dialog opened, allowing the user to input and modify customer address details."
+  },
+  {
+    "initial_state": "Grace Nguyen / Customers / Customers / Magento Admin",
+    "action": "click [832] where [832] is Account Information",
+    "environmental_dynamics": "The 'Account Information' section expanded, displaying additional form fields for account details such as first name, last name, and phone number."
+  },
+  {
+    "initial_state": "Grace Nguyen / Customers / Customers / Magento Admin",
+    "action": "click [1044] where [1044] is Add New Address",
+    "environmental_dynamics": "A dialog for 'Add/Update Address' appeared, allowing the user to input new address details, including fields for name, address, phone number, and additional options."
+  },
+  {
+    "initial_state": "Grace Nguyen / Customers / Customers / Magento Admin, address editing dialog open",
+    "action": "type [2949] [New Cambridge ] where [2949] is ",
+    "environmental_dynamics": "The text field for 'City' was updated to display the value 'New Cambridge', indicating that new input was received."
+  },
+  {
+    "initial_state": "Grace Nguyen / Customers / Customers / Magento Admin",
+    "action": "click [2871] where [2871] is notice-U9U1HD2",
+    "environmental_dynamics": "The state selection dropdown for 'State/Province' was expanded, revealing a list of available states for selection."
+  },
+  {
+    "initial_state": "Grace Nguyen / Customers / Customers / Magento Admin",
+    "action": "type [2574] [Grace1 ] where [2574] is ",
+    "environmental_dynamics": "The 'First Name' text box received input, now displaying the value 'Grace1' and focused for further edits."
+  },
+  {
+    "initial_state": "Grace Nguyen / Customers / Customers / Magento Admin with the Last Name field displaying 'Johnson'",
+    "action": "type [2580] [Johnson ] where [2580] is Last Name *",
+    "environmental_dynamics": "The Last Name field was updated to include an additional space at the end, changing its value to 'Johnson '."
+  },
+  {
+    "initial_state": "Magento Admin Customer management page",
+    "action": "click [1044] where [1044] is Add New Address",
+    "environmental_dynamics": "A dialog for adding a new address appeared, allowing the user to input address details and save them."
+  },
+  {
+    "initial_state": "Grace Nguyen / Customers / Customers / Magento Admin with address form visible",
+    "action": "type [2606] [456 Another New Address St ] where [2606] is ",
+    "environmental_dynamics": "The textbox for 'Street Address' was updated with the new value '456 Another New Address St', allowing for the modification of the customer's address."
+  },
+  {
+    "initial_state": "Grace Nguyen / Customers / Customers / Magento Admin with Add/Update Address dialog visible",
+    "action": "click [2519] where [2519] is ",
+    "environmental_dynamics": "The focus shifted away from the previous dialog's elements, making the 'Name Prefix', 'First Name', 'Last Name', 'Company', and 'Phone Number' textboxes available for input and modification."
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "initial_state": "One Stop Market homepage with product listings",
+    "action": "click [1382] where [1382] is Pre-baked Gingerbread House Kit Value Pack, 17 oz., Pack of 2, Total 34 oz.",
+    "environmental_dynamics": "The browser navigated to the product detail page for 'Pre-baked Gingerbread House Kit Value Pack, 17 oz., Pack of 2, Total 34 oz.', presenting detailed information about the product, including price, SKU, reviews, and quantity selection options."
+  },
+  {
+    "initial_state": "Pre-baked Gingerbread House Kit product page with details and options to add a review",
+    "action": "click [1534] where [1534] is 1\u00a0 Review ",
+    "environmental_dynamics": "The review section expanded and displayed the existing customer review along with a form for submitting a rating and feedback."
+  },
+  {
+    "initial_state": "Product review page for Pre-baked Gingerbread House Kit",
+    "action": "click [1683] where [1683] is Rating \ue605\ue605\ue605 3 stars",
+    "environmental_dynamics": "The rating for the product was changed to 3 stars, with the corresponding radio button for 3 stars now checked and focused."
+  },
+  {
+    "initial_state": "Pre-baked Gingerbread House Kit product review page",
+    "action": "type [1702] [Nice product but could be better ] where [1702] is ",
+    "environmental_dynamics": "The text box for the review was updated with the content 'Nice product but could be better', indicating user input for the review."
+  },
+  {
+    "initial_state": "Pre-baked Gingerbread House Kit Value Pack page with review form visible",
+    "action": "type [1707] [The gingerbread house kit was fun for my child, but some pieces were broken upon arrival and it could be improved. ] where [1707] is Review*",
+    "environmental_dynamics": "The input field for the review was populated with text stating that the gingerbread house kit was enjoyable for the child, but some pieces were found broken."
+  },
+  {
+    "initial_state": "Product review submission form for Pre-baked Gingerbread House Kit",
+    "action": "type [1697] [Emma] where [1697] is ",
+    "environmental_dynamics": "The 'Nickname' textbox was populated with the value 'Emma', allowing the user to submit their review with their name."
+  },
+  {
+    "initial_state": "Product page for 'Pre-baked Gingerbread House Kit Value Pack, 17 oz., Pack of 2, Total 34 oz.' with review submission form visible",
+    "action": "click [1710] where [1710] is Submit Review",
+    "environmental_dynamics": "A confirmation alert appeared indicating that the review was submitted for moderation."
+  },
+  {
+    "initial_state": "Pre-baked Gingerbread House Kit product page with reviews collapsed",
+    "action": "click [1654] where [1654] is Reviews (1)",
+    "environmental_dynamics": "The 'Reviews (1)' tab expanded to show the customer review content along with the review submission form."
+  },
+  {
+    "initial_state": "Pre-baked Gingerbread House Kit product page with review form visible",
+    "action": "type [1702] [Pretty good, but with some issues ] where [1702] is ",
+    "environmental_dynamics": "The review summary input field was populated with the text 'Pretty good, but with some issues', indicating the user's input for the review summary."
+  },
+  {
+    "initial_state": "Product review submission form with 1 star rating selected",
+    "action": "click [1683] where [1683] is Rating \ue605\ue605 2 stars",
+    "environmental_dynamics": "The rating changed from 1 star to 2 stars, reflecting a new selection in the review form."
+  },
+  {
+    "initial_state": "Pre-baked Gingerbread House Kit product page with review submission form visible",
+    "action": "click [1713] where [1713] is Submit Review",
+    "environmental_dynamics": "The review submission form was triggered, indicating that the review has been submitted for moderation, with a confirmation alert now present."
+  },
+  {
+    "initial_state": "Pre-baked Gingerbread House Kit product page, Review section focused",
+    "action": "click [1713] where [1713] is Submit Review",
+    "environmental_dynamics": "The review submission was processed, and a confirmation alert was displayed stating 'You submitted your review for moderation.'"
+  },
+  {
+    "initial_state": "Product page for Pre-baked Gingerbread House Kit with Reviews section visible",
+    "action": "click [1654] where [1654] is Reviews (1)",
+    "environmental_dynamics": "The Reviews tab was activated, which expanded to display all customer reviews, including the most recent one, and the focus shifted to the review content."
+  },
+  {
+    "initial_state": "Pre-baked Gingerbread House Kit product page with a review form visible",
+    "action": "click [1713] where [1713] is Submit Review",
+    "environmental_dynamics": "The review was submitted, and a confirmation alert appeared stating 'You submitted your review for moderation.'"
+  },
+  {
+    "initial_state": "Pre-baked Gingerbread House Kit product page",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page scrolled down, revealing more content below, such as additional product details or reviews."
+  },
+  {
+    "initial_state": "Pre-baked Gingerbread House Kit Value Pack product review page with review submission form visible",
+    "action": "click [1680] where [1680] is Rating \ue605 1 star",
+    "environmental_dynamics": "The 1 star rating was selected in the ratings section, confirming the user's choice and reflecting the new state as checked."
+  },
+  {
+    "initial_state": "Product review submission form for Pre-baked Gingerbread House Kit",
+    "action": "type [1710] [The gingerbread house kit is cute but arrived with broken pieces, which was disappointing. ] where [1710] is Review*",
+    "environmental_dynamics": "The text input for the review was filled with the message 'The gingerbread house kit is cute but arrived with broken pieces, which was disappointing.' and is now focused."
+  },
+  {
+    "initial_state": "Product page for Pre-baked Gingerbread House Kit with an active review submission form",
+    "action": "click [1713] where [1713] is Submit Review",
+    "environmental_dynamics": "The form submission was successful, and a confirmation alert appeared stating 'You submitted your review for moderation', indicating that the review process has been initiated."
+  },
+  {
+    "initial_state": "Product detail page for Pre-baked Gingerbread House Kit with a focus on the product",
+    "action": "click [1654] where [1654] is Reviews (1)",
+    "environmental_dynamics": "The 'Reviews (1)' tab became expanded and is now showing the customer review section with the details of the review, including the review text, rating, and reviewer information."
+  },
+  {
+    "initial_state": "Pre-baked Gingerbread House Kit product page with review section visible",
+    "action": "click [1713] where [1713] is Submit Review",
+    "environmental_dynamics": "The review submission process initiated, displaying error messages indicating that both the summary and review text fields are required and need to be filled before submission."
+  }
+]

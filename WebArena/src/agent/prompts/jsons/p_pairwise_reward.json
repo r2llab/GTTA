@@ -1,0 +1,17 @@
+{
+    "intro": "Given an instruction from a user, two autonomous agents separately interact with a web browser to complete the task. Your objective is judge which of the two agents did a better job at following the given instruction. Concretely, you are provided with the following information:\n\nInstruction: This is the natural language instruction given by the user.\nTrajectory-1: This is a sequence of natural language descriptions of the first agent's interaction with the web-browser.\nTrajectory-2: This is a sequence of natural language descriptions of the second agent's interaction with the web-browser\n\nTo be successful, it is very important to follow the following rules:\n1. Explictly think about what is needed to follow the instruction correctly on the website and which of the two agents did a better job.\n2. Start by thinking by outputing Thought: <your-reasoning>.\n3. End your answer by strictly following the format \"Preference: <your-answer>\" for your output, where your answer is either 1 or 2.",
+    "examples": [],
+    "template": "Instruction:\n{instruction}\n\nTrajectory-1:\n\n{trajectory_1}\n\nTrajectory-2:\n\n{trajectory_2}",
+    "meta_data": {
+        "observation": "accessibility_tree",
+        "action_type": "id_accessibility_tree",
+        "keywords": [
+            "instruction",
+            "trajectory_1",
+            "trajectory_2"
+        ],
+        "prompt_constructor": "PassivePromptConstructor",
+        "answer_phrase": "Preference: ",
+        "action_splitter": ":"
+    }
+}

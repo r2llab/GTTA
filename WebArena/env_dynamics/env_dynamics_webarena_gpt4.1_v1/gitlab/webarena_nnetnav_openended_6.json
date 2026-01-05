@@ -1,0 +1,197 @@
+[
+  {
+    "initial_state": "GitLab dashboard Projects page showing a list of user's and other projects, including 'Byte Blaze / a11y-syntax-highlighting' with a clickable link.",
+    "action": "click [320] where [320] is Byte Blaze / a11y-syntax-highlighting",
+    "environmental_dynamics": "The page navigated to the 'Byte Blaze / a11y-syntax-highlighting' project details, displaying repository navigation, files, project information, alerts, and sections from the README, including tables of theme color compliance and other project-specific details."
+  },
+  {
+    "initial_state": "GitLab project repository page for 'a11y-syntax-highlighting', showing the file list and README preview within the main content area.",
+    "action": "click [962] where [962] is README.md",
+    "environmental_dynamics": "The browser navigated to the dedicated README.md file view, displaying the full file content and file-specific actions (such as 'Copy file contents', 'Blame', and 'History') in the main area."
+  },
+  {
+    "initial_state": "GitLab project README.md page for 'a11y-syntax-highlighting', displaying project navigation, file details, and README content.",
+    "action": "click [328] where [328] is Issues",
+    "environmental_dynamics": "Navigated to the 'Issues' section of the GitLab repository, changing the main content to show issue tabs and related options for managing and viewing issues."
+  },
+  {
+    "initial_state": "GitLab project 'a11y-syntax-highlighting' Issues page showing a list of issues and a 'New issue' link.",
+    "action": "click [638] where [638] is New issue",
+    "environmental_dynamics": "The page navigated to the 'New Issue' form, presenting input fields for issue title, description, assignee, labels, and a button to create the issue."
+  },
+  {
+    "initial_state": "GitLab New Issue creation page with the 'Title (required)' textbox focused and empty.",
+    "action": "type [605] [Improve code block accessibility for colorblind users] where [605] is Title (required)",
+    "environmental_dynamics": "The 'Title (required)' textbox was filled with the text 'Improve code block accessibility for colorblind users'."
+  },
+  {
+    "initial_state": "GitLab 'New Issue' page for the 'a11y-syntax-highlighting' project, with the 'Description' textbox empty and unfocused.",
+    "action": "type [688] [Many code block themes use color combinations that are hard to discern for people with color vision deficiencies. Consider adding better contrast, patterns, or an option to choose colorblind-friendly palettes. ] where [688] is Description",
+    "environmental_dynamics": "The 'Description' textbox was populated with text about improving code block accessibility for colorblind users and is now focused."
+  },
+  {
+    "initial_state": "GitLab new issue creation page for the 'a11y-syntax-highlighting' project with the new issue form filled in and the 'Create issue' button available.",
+    "action": "click [853] where [853] is Create issue",
+    "environmental_dynamics": "A new issue was created and the browser navigated to the issue details page, displaying confirmation with the issue title, description, and related issue actions; the sidebar now indicates there are 2 issues instead of 1."
+  },
+  {
+    "initial_state": "GitLab issue detail page for 'Improve code block accessibility for colorblind users', with no assignees listed in the sidebar.",
+    "action": "click [999] where [999] is assign yourself",
+    "environmental_dynamics": "The issue has been assigned to the user Byte Blaze, whose avatar and details now appear in the 'Assignee' section, and two tooltips with the user's information are visible."
+  },
+  {
+    "initial_state": "GitLab issue page for 'Improve code block accessibility for colorblind users', with side panel showing no labels and an 'Edit' button for labels.",
+    "action": "click [1027] where [1027] is Edit",
+    "environmental_dynamics": "A label selection menu appeared in the sidebar, showing available project labels and search functionality, enabling label assignment to the issue."
+  },
+  {
+    "initial_state": "GitLab issue page with the labels menu open and label options including 'enhancement' visible but not assigned.",
+    "action": "click [1382] where [1382] is enhancement",
+    "environmental_dynamics": "The 'enhancement' label was selected and is now assigned to the issue, and the label button reflects this new selection."
+  },
+  {
+    "initial_state": "GitLab issue page for 'Improve code block accessibility for colorblind users' with the label selection menu open and the comment textbox empty.",
+    "action": "type [917] [Added the enhancement label. Suggestions for color palettes or contrast tools are welcome!] where [917] is Comment",
+    "environmental_dynamics": "The comment textbox is now populated and focused with the text 'Added the enhancement label. Suggestions for color palettes or contrast tools are welcome!', and the 'Comment' button became enabled."
+  },
+  {
+    "initial_state": "GitLab issue page with a filled and focused comment textbox and the 'Comment' button enabled.",
+    "action": "click [951] where [951] is Comment",
+    "environmental_dynamics": "After clicking the 'Comment' button, the comment is posted as a new visible entry in the activity timeline and the comment textbox is cleared and reset, with 'Comment' now disabled until new input is entered."
+  },
+  {
+    "initial_state": "GitLab issue detail page with the 'Add' button for tasks visible and not expanded.",
+    "action": "click [781] where [781] is Add",
+    "environmental_dynamics": "The 'Add' button was clicked and the add-task menu expanded, revealing options to add a new task or an existing task to the issue."
+  },
+  {
+    "initial_state": "GitLab issue page for 'Improve code block accessibility for colorblind users' with the 'Add' menu for tasks expanded and showing 'New task' and 'Existing task' options.",
+    "action": "click [788] where [788] is New task",
+    "environmental_dynamics": "A form for creating a new task appeared, featuring a textbox for entering a task title, and 'Create task' and 'Cancel' buttons, with the title textbox focused."
+  },
+  {
+    "initial_state": "GitLab issue page with a task creation form visible and the 'Add a title' textbox focused but empty.",
+    "action": "type [1558] [Research colorblind-friendly color palettes ] where [1558] is Add a title",
+    "environmental_dynamics": "The text 'Research colorblind-friendly color palettes ' was entered into the 'Add a title' textbox; a new task is now created and appears below the tasks heading, incrementing the task count from 0 to 1."
+  },
+  {
+    "initial_state": "GitLab issue page with a 'Create task' section open, including 'Add a title' textbox and visible 'Create task' and 'Cancel' buttons; 'Cancel' button is clickable.",
+    "action": "click [1562] where [1562] is Cancel",
+    "environmental_dynamics": "The 'Create task' section was closed, returning the page to the standard issue view without the add-task input fields and buttons."
+  },
+  {
+    "initial_state": "GitLab issue page for 'Improve code block accessibility for colorblind users' with the comment input box empty and the 'Comment' button disabled.",
+    "action": "type [917] [Does anyone have favorite open source accessibility preview tools or palette testers for colorblindness? Would love to hear what's worked well!] where [917] is Comment",
+    "environmental_dynamics": "The specified text was entered into the 'Comment' textbox, but there is no evidence that the comment was submitted or that the 'Comment' button state changed; the rest of the page remains unchanged."
+  },
+  {
+    "initial_state": "GitLab issue detail page, with the comment input editor in 'Write' (editing) mode.",
+    "action": "click [879] where [879] is Preview",
+    "environmental_dynamics": "The comment input editor switched from 'Write' mode to 'Preview' mode, displaying a message: 'Nothing to preview.'"
+  },
+  {
+    "initial_state": "GitLab issue detail page with the 'Preview' tab selected in the comment section.",
+    "action": "click [877] where [877] is Write",
+    "environmental_dynamics": "The 'Write' tab became selected in the comment section, revealing the text editing tools, formatting buttons, and an editable comment textbox for new input."
+  },
+  {
+    "initial_state": "GitLab issue page with the 'Make this an internal note' checkbox unchecked in the comment section.",
+    "action": "click [947] where [947] is Make this an internal note Internal notes are only visible to members with the role of Reporter or higher",
+    "environmental_dynamics": "The 'Make this an internal note' checkbox was checked, making internal note options active and changing the primary comment button to 'Add internal note', both now disabled until input is provided."
+  },
+  {
+    "initial_state": "GitLab issue page with the 'Make this an internal note' checkbox checked and focused.",
+    "action": "click [947] where [947] is Make this an internal note Internal notes are only visible to members with the role of Reporter or higher",
+    "environmental_dynamics": "The 'Make this an internal note' checkbox is now unchecked, changing the prospective note from internal to public."
+  },
+  {
+    "initial_state": "GitLab issue page displaying an open issue with the 'Comment' textbox visible, but empty.",
+    "action": "type [917] [Let's review competing accessibility tools before picking a color palette. @coreteam please share links in this thread.] where [917] is Comment",
+    "environmental_dynamics": "The text 'Let's review competing accessibility tools before picking a color palette. @coreteam please share links in this thread.' was entered into the 'Comment' textbox, but the comment was not submitted."
+  },
+  {
+    "initial_state": "GitLab issue page for 'Improve code block accessibility for colorblind users' with the comment editor visible and the 'Comment' textbox unfocused.",
+    "action": "click [917] where [917] is Comment",
+    "environmental_dynamics": "The 'Comment' textbox in the comment editor is now focused, ready for text input."
+  },
+  {
+    "initial_state": "GitLab issue page for 'Improve code block accessibility for colorblind users', with the '\ud83d\udc4d 0' reaction button visible and unselected.",
+    "action": "click [700] where [700] is \ud83d\udc4d 0",
+    "environmental_dynamics": "The '\ud83d\udc4d' reaction count increased from 0 to 1, a tooltip appeared stating 'You reacted with :thumbsup:', and a status banner appeared indicating 'Award added'."
+  },
+  {
+    "initial_state": "GitLab issue page showing an open issue with various buttons including 'Add a related issue' visible.",
+    "action": "click [809] where [809] is Add a related issue",
+    "environmental_dynamics": "A new section appeared with a textbox to paste an issue link or ID and 'Add'/'Cancel' buttons, allowing the user to input a related issue."
+  },
+  {
+    "initial_state": "GitLab issue page with the 'Add a related issue' modal open and the 'Paste issue link or <#issue id>' textbox focused and empty.",
+    "action": "type [1628] [#4 ] where [1628] is Paste issue link or <#issue id>",
+    "environmental_dynamics": "The issue ID '#4 ' was typed into the 'Paste issue link or <#issue id>' textbox, but no related issue was added yet; the main page state remains unchanged except for the input in the textbox."
+  },
+  {
+    "initial_state": "GitLab issue detail page with a comment input area present but not focused",
+    "action": "click [917] where [917] is Comment",
+    "environmental_dynamics": "The comment textbox is now focused, allowing the user to start typing a comment."
+  },
+  {
+    "initial_state": "GitLab issue page for 'Improve code block accessibility for colorblind users', with the comment input box focused and empty.",
+    "action": "type [917] [Does anyone have recommendations for colorblind-friendly palette generators or contrast checkers? ] where [917] is Comment",
+    "environmental_dynamics": "The text 'Does anyone have recommendations for colorblind-friendly palette generators or contrast checkers?' was entered into the comment input field, but the comment has not yet been submitted."
+  },
+  {
+    "initial_state": "GitLab issue page with a filled comment textbox containing a question about colorblind-friendly palette generators; the 'Comment' button is clickable.",
+    "action": "click [951] where [951] is Comment",
+    "environmental_dynamics": "The comment was submitted and now appears as a new comment in the activity feed; the comment textbox is cleared and the 'Comment' button is now disabled."
+  },
+  {
+    "initial_state": "GitLab issue page for 'Improve code block accessibility for colorblind users' with various issue details and a visible link labeled 'Research colorblind-friendly color palettes' under 'Linked items'.",
+    "action": "click [1571] where [1571] is Research colorblind-friendly color palettes",
+    "environmental_dynamics": "Clicking the 'Research colorblind-friendly color palettes' link opened a modal dialog displaying the details for that linked task, including title, status, assignee, labels, and date options."
+  },
+  {
+    "initial_state": "GitLab issue details page with a modal dialog open for the 'Research colorblind-friendly color palettes' task, where due date has not been set yet.",
+    "action": "click [1919] where [1919] is Add due date",
+    "environmental_dynamics": "A date picker dialog for selecting the due date opened within the modal, showing a calendar grid for August 2025 and options to pick a month and year."
+  },
+  {
+    "initial_state": "A GitLab issue modal for 'Research colorblind-friendly color palettes' is open, with the 'Due date' textbox focused and currently empty.",
+    "action": "type [1957] [2025-09-02 ] where [1957] is Due date",
+    "environmental_dynamics": "The 'Due date' textbox in the modal is populated with the value '2025-09-02' and a 'Clear date' button appears, indicating the due date was set."
+  },
+  {
+    "initial_state": "GitLab issue page for 'Improve code block accessibility for colorblind users' with a modal dialog open for the task 'Research colorblind-friendly color palettes'.",
+    "action": "click [1843] where [1843] is Close",
+    "environmental_dynamics": "The modal dialog for the task 'Research colorblind-friendly color palettes' was closed, returning the focus to the main issue page where the related task link is now focused."
+  },
+  {
+    "initial_state": "GitLab issue detail page for 'Improve code block accessibility for colorblind users', with all issue threads, comments, and sidebar visible.",
+    "action": "click [348] where [348] is Issues",
+    "environmental_dynamics": "Navigated from the issue detail page to the project issues list, displaying the list of all issues for the 'a11y-syntax-highlighting' project."
+  },
+  {
+    "initial_state": "GitLab project issues list page for 'a11y-syntax-highlighting' showing several issues, including 'Improve code block accessibility for colorblind users'.",
+    "action": "click [761] where [761] is Improve code block accessibility for colorblind users",
+    "environmental_dynamics": "The browser navigated to the detailed issue page for 'Improve code block accessibility for colorblind users', displaying full information, activity, and options related to that specific issue."
+  },
+  {
+    "initial_state": "GitLab issue detail page with the '\ud83d\udc4d 1' reaction button displayed alongside the issue content, showing a current count of 1 thumbs up.",
+    "action": "click [703] where [703] is \ud83d\udc4d 1",
+    "environmental_dynamics": "The thumbs up reaction count changed from 1 to 0 and a status message appeared at the bottom indicating 'Award removed', confirming the removal of the user's thumbs up reaction."
+  },
+  {
+    "initial_state": "GitLab issue page for 'Improve code block accessibility for colorblind users', with all issue details and a visible 'Reply to comment' button under a comment.",
+    "action": "click [1087] where [1087] is Reply to comment",
+    "environmental_dynamics": "A reply input area was opened beneath the comment, with focus on the 'Reply to comment' textbox and a tooltip labeled 'Reply to comment' is visible."
+  },
+  {
+    "initial_state": "GitLab issue page for 'Improve code block accessibility for colorblind users' with a focused 'Reply to comment' textbox and its tooltip visible.",
+    "action": "type [1765] [Thanks for these suggestions! I'll check out Color Oracle and Coblis. Does anyone else have experience with these tools, or have others they recommend?] where [1765] is Reply to comment",
+    "environmental_dynamics": "The content 'Thanks for these suggestions! I'll check out Color Oracle and Coblis. Does anyone else have experience with these tools, or have others they recommend?' was typed into the 'Reply to comment' textbox, but no new comments or visible changes occurred since the reply has not been submitted."
+  },
+  {
+    "initial_state": "GitLab issue page with a reply-to-comment text area open; the 'Write' tab is selected for the reply in the thread.",
+    "action": "click [1727] where [1727] is Preview",
+    "environmental_dynamics": "The 'Preview' tab for the reply is now selected, displaying a message 'Nothing to preview.' and deselecting the 'Write' tab in the reply panel."
+  }
+]

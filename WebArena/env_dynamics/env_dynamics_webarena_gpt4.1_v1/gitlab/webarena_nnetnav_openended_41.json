@@ -1,0 +1,197 @@
+[
+  {
+    "initial_state": "GitLab dashboard Projects page with a list of projects and a 'Filter by name' search box visible but not focused.",
+    "action": "click [269] where [269] is Filter by name",
+    "environmental_dynamics": "The 'Filter by name' search box is now focused, ready for text input."
+  },
+  {
+    "initial_state": "GitLab dashboard Projects page with the 'Filter by name' searchbox focused and empty, displaying a full list of projects.",
+    "action": "type [269] [api ] where [269] is Filter by name",
+    "environmental_dynamics": "The text 'api' was entered into the 'Filter by name' searchbox, updating the project list to show a message indicating there are no matching personal projects."
+  },
+  {
+    "initial_state": "GitLab dashboard Projects page with a 'New project' link visible among project navigation and filters.",
+    "action": "click [248] where [248] is New project",
+    "environmental_dynamics": "The browser navigated to the 'Create new project' page, displaying options to create a blank project, create from a template, or import a project."
+  },
+  {
+    "initial_state": "GitLab 'New Project' page where the user can choose to create a blank project, use a template, or import a project, with an overview of each option.",
+    "action": "click [244] where [244] is Create from template Create a project pre-populated with the necessary files to get you started quickly.",
+    "environmental_dynamics": "The main content area switched to display the 'Create from template' flow, revealing an extensive list of available project templates, their descriptions, options to preview, and buttons to use each template."
+  },
+  {
+    "initial_state": "GitLab 'Create from template' page listing multiple project templates, none of the 'Use template' radio buttons selected.",
+    "action": "click [390] where [390] is Use template",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "GitLab 'New Project' page with a list of templates, each showing a 'Use template' radio button that is not selected for 'NodeJS Express'.",
+    "action": "click [389] where [389] is ",
+    "environmental_dynamics": "The project creation form for the 'NodeJS Express' template is now displayed, with fields to specify project name, slug, description, and visibility, replacing the template listing."
+  },
+  {
+    "initial_state": "GitLab 'New Project' page with an empty and focused 'Project name' textbox.",
+    "action": "type [733] [weather-api-demo] where [733] is Project name",
+    "environmental_dynamics": "The 'Project name' textbox is now filled with the text 'weather-api-demo' and displays this value as static text below the input."
+  },
+  {
+    "initial_state": "GitLab new project creation page with the 'Project description (optional)' textbox empty and unfocused.",
+    "action": "type [759] [A demo weather API built with Express.js, includes endpoints and usage examples.] where [759] is Project description (optional)",
+    "environmental_dynamics": "The 'Project description (optional)' textbox is now filled with 'A demo weather API built with Express.js, includes endpoints and usage examples.' and is focused."
+  },
+  {
+    "initial_state": "GitLab new project creation page for 'weather-api-demo', with form fields and 'Create project' button visible and unfocused.",
+    "action": "click [790] where [790] is Create project",
+    "environmental_dynamics": "After clicking 'Create project', the page transitioned to an 'Import in progress' screen for the 'weather-api-demo' project, showing a progress message and sidebar navigation for the new project."
+  },
+  {
+    "initial_state": "GitLab project import progress page for 'weather-api-demo', displaying a message that the repository import is in progress.",
+    "action": "goto [http://ec2-18-226-185-217.us-east-2.compute.amazonaws.com:9001/byteblaze/weather-api-demo/-/import]",
+    "environmental_dynamics": "The page finished loading and now displays the full project overview for 'weather-api-demo' including project files, repository information, and alerts indicating the import was completed successfully."
+  },
+  {
+    "initial_state": "GitLab project repository page for 'weather-api-demo', showing the list of files and a preview of README.md contents in the lower section.",
+    "action": "click [1009] where [1009] is README.md",
+    "environmental_dynamics": "The browser navigated to the dedicated README.md file view, displaying the full rendered README.md content along with file-related operations and navigation options specific to this file."
+  },
+  {
+    "initial_state": "GitLab repository page displaying README.md file in the standard view with various navigation and project controls visible.",
+    "action": "click [1290] where [1290] is Open raw",
+    "environmental_dynamics": "The main content switched to show the raw text version of README.md, removing navigation elements and displaying only the Markdown source code."
+  },
+  {
+    "initial_state": "GitLab project README page for a Node Express template project, displaying information about CI/CD, Gitpod setup, and general instructions.",
+    "action": "goto [http://ec2-18-226-185-217.us-east-2.compute.amazonaws.com:9001/byteblaze/weather-api-demo]",
+    "environmental_dynamics": "The page navigated to the main GitLab project overview for 'Byte Blaze / weather-api-demo', revealing full project navigation menus, file listings, project-specific alerts, statistics, and the README rendered within the project context."
+  },
+  {
+    "initial_state": "GitLab project repository main page with a file listing, including a clickable link to README.md.",
+    "action": "click [1003] where [1003] is README.md",
+    "environmental_dynamics": "The browser navigated to the README.md file view, displaying its contents and related file management options."
+  },
+  {
+    "initial_state": "GitLab project repository page showing README.md with various navigation options, file operation buttons, and alerts.",
+    "action": "click [1284] where [1284] is Open raw",
+    "environmental_dynamics": "The main content was replaced with the raw text content of README.md, displaying the markdown as plain text and hiding navigation and sidebar elements."
+  },
+  {
+    "initial_state": "README section of a Node Express template project page with documentation and setup instructions displayed.",
+    "action": "goto [http://ec2-18-226-185-217.us-east-2.compute.amazonaws.com:9001/byteblaze/weather-api-demo]",
+    "environmental_dynamics": "The browser navigated to the GitLab project page for 'Byte Blaze / weather-api-demo', displaying project navigation, repository content, files, alerts, and README details."
+  },
+  {
+    "initial_state": "GitLab project repository page for 'weather-api-demo', displaying the file list and a preview of the README.md at the bottom.",
+    "action": "click [1003] where [1003] is README.md",
+    "environmental_dynamics": "The main content area updated to show the full README.md file view, including file actions and the complete rendered content of the README.md."
+  },
+  {
+    "initial_state": "GitLab project repository README.md page with various navigation elements, sidebar, and rendered README file controls visible.",
+    "action": "click [1284] where [1284] is Open raw",
+    "environmental_dynamics": "The page switched to display the raw contents of the README.md file as preformatted plain text, hiding navigation menus and controls."
+  },
+  {
+    "initial_state": "A GitLab project README page showing general project information and setup instructions for an Express.js template project.",
+    "action": "goto [http://ec2-18-226-185-217.us-east-2.compute.amazonaws.com:9001/byteblaze/weather-api-demo]",
+    "environmental_dynamics": "The browser navigated to the 'weather-api-demo' project page on GitLab under the 'Byte Blaze' group, displaying the full project navigation sidebar, repository contents, and project details."
+  },
+  {
+    "initial_state": "GitLab project repository page for 'weather-api-demo' with the file list visible, including a link to 'README.md'.",
+    "action": "click [1003] where [1003] is README.md",
+    "environmental_dynamics": "The main content switched to display the contents of the 'README.md' file, showing file-specific actions and information instead of the previous repository directory listing and README preview."
+  },
+  {
+    "initial_state": "GitLab project page showing the README.md file with its contents displayed, including a sidebar of project navigation links.",
+    "action": "click [297] where [297] is Repository",
+    "environmental_dynamics": "The main view switched from the README.md file content to the repository overview, displaying a table of files, folders, and commit information for the project."
+  },
+  {
+    "initial_state": "GitLab repository file browser page showing the file list and a README preview article at the bottom.",
+    "action": "click [865] where [865] is README.md",
+    "environmental_dynamics": "The page navigated to the dedicated README.md file view, displaying the full file contents and additional file operations specific to README.md."
+  },
+  {
+    "initial_state": "GitLab repository file view for README.md with the file action buttons (including a 'Download' link) visible, and no tooltip shown.",
+    "action": "click [1155] where [1155] is Download",
+    "environmental_dynamics": "A tooltip labeled 'Download' appeared next to the 'Download' link, providing additional information about the button."
+  },
+  {
+    "initial_state": "GitLab repository page showing the README.md file in detail view for the weather-api-demo project.",
+    "action": "click [295] where [295] is Repository",
+    "environmental_dynamics": "The main content changed from showing the README.md file to displaying the Repository's file list, with entries for folders and files such as bin, routes, Dockerfile, and README.md, in a table format."
+  },
+  {
+    "initial_state": "GitLab project repository file list and project README rendered inline",
+    "action": "click [865] where [865] is README.md",
+    "environmental_dynamics": "The page navigated to display the README.md file in full file view mode, featuring additional options specific to file management and viewing, such as 'Copy file path', 'Display source/rendered', and 'Download'."
+  },
+  {
+    "initial_state": "GitLab repository file view page for README.md with a visible and clickable 'Download' link among file actions.",
+    "action": "click [1155] where [1155] is Download",
+    "environmental_dynamics": "A tooltip labeled 'Download' appeared next to the 'Download' link, indicating that the download button received focus and a tooltip was shown, but no file download occurred yet in the accessibility tree."
+  },
+  {
+    "initial_state": "GitLab repository file view focused on README.md, displaying file content and options related to the README.md file.",
+    "action": "click [305] where [305] is Files",
+    "environmental_dynamics": "The view switched to the repository's file list, displaying all files and folders at the root of the project, with the file table now visible and README.md content no longer the central focus."
+  },
+  {
+    "initial_state": "GitLab repository file browser for the 'weather-api-demo' project at the root directory with a list of files and a preview of README.md in the lower section.",
+    "action": "click [865] where [865] is README.md",
+    "environmental_dynamics": "The browser navigated to the dedicated README.md file view, replacing the file explorer with a detailed view of README.md and additional file-specific actions such as 'Blame', 'Permalink', and file management buttons."
+  },
+  {
+    "initial_state": "GitLab repository page displaying the README.md file content for the 'weather-api-demo' project on the master branch.",
+    "action": "click [305] where [305] is Files",
+    "environmental_dynamics": "The page changed from displaying the README.md file to showing the repository's file listing, including files and directories at the root level."
+  },
+  {
+    "initial_state": "GitLab repository page for 'weather-api-demo' showing the file list and README preview with the file 'app.js' as a clickable link.",
+    "action": "click [876] where [876] is app.js",
+    "environmental_dynamics": "The page navigated to the file view for 'app.js', displaying its source code, file management options, and file-specific navigation features."
+  },
+  {
+    "initial_state": "GitLab repository file view for app.js, with file contents rendered in a structured web interface along with navigation and repository actions visible.",
+    "action": "click [1145] where [1145] is Open raw",
+    "environmental_dynamics": "The interface switched to show the raw contents of app.js as plain text, removing navigation elements and displaying only the file's code in a minimal view."
+  },
+  {
+    "initial_state": "A web page displaying the full source code of an Express application with no input fields or interactive UI, focused.",
+    "action": "press [ctrl+a]",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "A web page displaying Express.js application source code as static text",
+    "action": "press [ctrl+c]",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "A plain page displaying only the Express.js app.js file content as static text.",
+    "action": "goto [http://ec2-18-226-185-217.us-east-2.compute.amazonaws.com:9001/byteblaze/weather-api-demo]",
+    "environmental_dynamics": "The browser navigated to the GitLab project page for 'Byte Blaze / weather-api-demo', displaying the repository interface with project details, navigation sidebar, file list, and README content."
+  },
+  {
+    "initial_state": "GitLab project main page for 'weather-api-demo' with the file and directory listing visible, including a link to README.md.",
+    "action": "click [1003] where [1003] is README.md",
+    "environmental_dynamics": "The README.md file view opened, displaying its content with additional actions such as Blame, History, Permalink, copy file path, and display/render toggles now present in the main section."
+  },
+  {
+    "initial_state": "GitLab repository file view page for README.md in the weather-api-demo project, showing rendered README, navigation menus, and project controls",
+    "action": "click [1284] where [1284] is Open raw",
+    "environmental_dynamics": "The rendered file view switched to display the raw Markdown source code of README.md as plain text."
+  },
+  {
+    "initial_state": "Minimal documentation or README page for a Node Express template project, with static text instructions and links but no visible navigation, sidebar, or interactive repository features.",
+    "action": "goto [http://ec2-18-226-185-217.us-east-2.compute.amazonaws.com:9001/byteblaze/weather-api-demo]",
+    "environmental_dynamics": "The page navigated to the 'Byte Blaze / weather-api-demo' GitLab project, displaying full repository navigation, alerts, sidebar menus, file explorer, commit history, and detailed README content, providing comprehensive project information and typical GitLab UI elements."
+  },
+  {
+    "initial_state": "GitLab repository main page for 'weather-api-demo' with a file listing including README.md",
+    "action": "click [1003] where [1003] is README.md",
+    "environmental_dynamics": "The page transitioned to display the contents and details of the README.md file, including file-specific actions and the rendered README content."
+  },
+  {
+    "initial_state": "GitLab repository README.md page with a visible and clickable 'Download' link.",
+    "action": "click [1286] where [1286] is Download",
+    "environmental_dynamics": "A tooltip labeled 'Download' appeared, indicating that the 'Download' link was clicked and its tooltip is now visible and focused."
+  }
+]

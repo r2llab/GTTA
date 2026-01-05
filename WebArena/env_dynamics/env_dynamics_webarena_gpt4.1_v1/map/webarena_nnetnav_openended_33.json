@@ -1,0 +1,197 @@
+[
+  {
+    "initial_state": "OpenStreetMap homepage with general map controls, informational links, and a 'Find directions between two points' link visible.",
+    "action": "click [149] where [149] is Find directions between two points",
+    "environmental_dynamics": "A directions panel appeared on the page, showing 'From' and 'To' textboxes, travel mode options, and new control buttons for route planning."
+  },
+  {
+    "initial_state": "OpenStreetMap page with the 'From' textbox empty in the directions section.",
+    "action": "type [158] [Carnegie Mellon University ] where [158] is From",
+    "environmental_dynamics": "The 'From' textbox in the directions section is now filled with 'Carnegie Mellon University, Filmore Street, Bellefield, Pittsburgh, Allegheny County, Pennsylvania, 15213, United States', with the textbox focused."
+  },
+  {
+    "initial_state": "OpenStreetMap webpage showing a directions panel, with the 'From' textbox filled ('Carnegie Mellon University...') and focused for input, and the 'To' textbox empty and unfocused.",
+    "action": "type [163] [Pittsburgh International Airport ] where [163] is To",
+    "environmental_dynamics": "The 'To' textbox was populated with 'Pittsburgh International Airport, Airport Expressway, Findlay Township, Allegheny County, Pennsylvania, 15231, United States', and detailed turn-by-turn directions as well as route summary (distance and estimated time) from Carnegie Mellon University to Pittsburgh International Airport appeared on the page."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page showing directions from 'Carnegie Mellon University' to 'Pittsburgh International Airport' with the 'To' field focused and the route profile combobox set to 'Car (OSRM)', not expanded.",
+    "action": "click [166] where [166] is ",
+    "environmental_dynamics": "The route profile combobox is now focused and expanded, displaying route options such as Bicycle (OSRM), Car (OSRM), and Foot (OSRM)."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with route details from Carnegie Mellon University to Pittsburgh International Airport displayed in a section with a 'Close' button.",
+    "action": "click [153] where [153] is Close",
+    "environmental_dynamics": "The directions section with route details and the 'Close' button was closed, returning the interface to the main OpenStreetMap homepage view with the welcome section visible."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with various navigation links and a visible 'Find directions between two points' link.",
+    "action": "click [149] where [149] is Find directions between two points",
+    "environmental_dynamics": "A directions input panel appeared with 'From' and 'To' textboxes, a transportation mode combobox, and action buttons, allowing the user to enter route details."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with a directions section, where the 'Car (OSRM)' option in the routing method combobox is selected and the combobox is closed.",
+    "action": "click [166] where [166] is ",
+    "environmental_dynamics": "The routing method combobox became focused and expanded, displaying its available options for selection."
+  },
+  {
+    "initial_state": "OpenStreetMap main page with the directions panel open, showing the travel mode combobox expanded and 'Car (OSRM)' selected.",
+    "action": "click [169] where [169] is Foot (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with the 'From' textbox empty and the transportation method combobox expanded.",
+    "action": "type [158] [Carnegie Mellon University] where [158] is From",
+    "environmental_dynamics": "The text 'Carnegie Mellon University' was entered into the 'From' textbox, which is now focused, and the combobox for transportation method collapsed."
+  },
+  {
+    "initial_state": "OpenStreetMap page with the 'From' textbox filled with 'Carnegie Mellon University' and the 'To' textbox empty and unfocused.",
+    "action": "type [163] [Pittsburgh International Airport ] where [163] is To",
+    "environmental_dynamics": "The 'To' textbox was filled with 'Pittsburgh International Airport, Airport Expressway, Findlay Township, Allegheny County, Pennsylvania, 15231, United States', became focused, and a new 'Directions' panel appeared showing route details, a summary of distance and time, and step-by-step driving instructions from Carnegie Mellon University to Pittsburgh International Airport."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with the 'Car (OSRM)' transportation mode combobox collapsed and the 'To' textbox focused.",
+    "action": "click [166] where [166] is ",
+    "environmental_dynamics": "The 'Car (OSRM)' combobox is now focused and expanded to show the available transportation mode options: 'Bicycle (OSRM)', 'Car (OSRM)', and 'Foot (OSRM)'."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with the 'Car (OSRM)' option selected in the route type combobox and driving directions displayed from Carnegie Mellon University to Pittsburgh International Airport.",
+    "action": "click [169] where [169] is Foot (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with 'Car (OSRM)' selected as the active travel mode in an expanded combobox.",
+    "action": "click [169] where [169] is Foot (OSRM)",
+    "environmental_dynamics": "No change; clicking the 'Foot (OSRM)' option did not update the selection or other visible elements."
+  },
+  {
+    "initial_state": "OpenStreetMap page showing route directions from Carnegie Mellon University to Pittsburgh International Airport, with the transportation mode combobox (Car (OSRM)) expanded and focused.",
+    "action": "click [166] where [166] is ",
+    "environmental_dynamics": "The transportation mode combobox was collapsed; its options are now hidden."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page showing route from Carnegie Mellon University to Pittsburgh International Airport with the travel mode set to 'Car (OSRM)' in a combobox.",
+    "action": "click [169] where [169] is Foot (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with the routing options combobox (currently set to 'Car (OSRM)') visible and not expanded.",
+    "action": "click [166] where [166] is ",
+    "environmental_dynamics": "The routing options combobox expanded, showing the available routing modes for selection."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page showing route from Carnegie Mellon University to Pittsburgh International Airport, with the directions modal open, 'Car (OSRM)' selected as the transportation mode in the expanded mode selector dropdown.",
+    "action": "click [169] where [169] is Foot (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with the transportation mode combobox expanded and 'Car (OSRM)' selected.",
+    "action": "click [169] where [169] is Foot (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with the 'Car (OSRM)' route from Carnegie Mellon University to Pittsburgh International Airport selected; the transport mode combobox is expanded.",
+    "action": "click [171] where [171] is Go",
+    "environmental_dynamics": "The 'Car (OSRM)' transport mode combobox collapsed and focus moved to the 'Go' button, but the directions and other page content remain unchanged."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with a directions section visible; the transportation mode combobox displays 'Car (OSRM)' and is collapsed and not focused.",
+    "action": "click [166] where [166] is ",
+    "environmental_dynamics": "The 'Car (OSRM)' transportation mode combobox became focused and expanded, showing its menu options."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page showing route details from Carnegie Mellon University to Pittsburgh International Airport, with transportation mode combobox set to 'Car (OSRM)' and expanded options ('Bicycle', 'Car', 'Foot') visible.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions pane is visible with route calculated using Car (OSRM), the Car (OSRM) option in the travel mode combobox is selected and the combobox is expanded.",
+    "action": "click [169] where [169] is Foot (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page showing a route from Carnegie Mellon University to Pittsburgh International Airport, with the directions section expanded and mode combobox expanded.",
+    "action": "click [171] where [171] is Go",
+    "environmental_dynamics": "The 'Go' button was clicked, causing the route directions section to refresh and renumber, the combobox menu to collapse, and the focus to move to the 'Go' button\u2014otherwise no substantive change to the visible route or direction content."
+  },
+  {
+    "initial_state": "OpenStreetMap directions results page, with the transportation mode combobox ('Car (OSRM)') present and not expanded.",
+    "action": "click [166] where [166] is ",
+    "environmental_dynamics": "The transportation mode combobox became focused and expanded, displaying the available options ('Bicycle (OSRM)', 'Car (OSRM)', 'Foot (OSRM)')."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with the 'Car (OSRM)' mode selected in the transport mode combobox and directions from Carnegie Mellon University to Pittsburgh International Airport displayed.",
+    "action": "click [169] where [169] is Foot (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with the 'Car (OSRM)' routing option selected and the directions for 'Carnegie Mellon University' to 'Pittsburgh International Airport' shown.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap page with a directions section open, 'From' and 'To' fields filled, transportation mode combobox expanded, and the 'Go' button visible.",
+    "action": "click [171] where [171] is Go",
+    "environmental_dynamics": "The transportation mode combobox collapsed, focus shifted to the 'Go' button, and the directions panel was refreshed with new element IDs, but the visible directions content remained the same."
+  },
+  {
+    "initial_state": "OpenStreetMap directions results page with route from 'Carnegie Mellon University' to 'Pittsburgh International Airport' shown, combobox for route mode set to 'Car (OSRM)' and not expanded.",
+    "action": "click [166] where [166] is ",
+    "environmental_dynamics": "The route selection combobox for choosing mode of travel (currently set to 'Car (OSRM)') became focused and expanded, showing options for 'Bicycle (OSRM)', 'Car (OSRM)', and 'Foot (OSRM)'."
+  },
+  {
+    "initial_state": "OpenStreetMap directions panel open with route set from Carnegie Mellon University to Pittsburgh International Airport, route type 'Car (OSRM)' selected in the combobox and all route steps and details visible.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions pane showing a selected combobox for transportation mode with 'Car (OSRM)' selected and expanded, with directions listed for a car route.",
+    "action": "click [169] where [169] is Foot (OSRM)",
+    "environmental_dynamics": "No change; clicking the unselected 'Foot (OSRM)' option in the expanded combobox did not change the state in the accessibility tree."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page showing a route from Carnegie Mellon University to Pittsburgh International Airport, with the directions and 'Go' button visible and the route mode combobox expanded.",
+    "action": "click [171] where [171] is Go",
+    "environmental_dynamics": "The route mode combobox collapsed and the 'Go' button is now focused, but the directions did not change."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with the 'Car (OSRM)' route option combobox closed and the 'Go' button focused.",
+    "action": "click [166] where [166] is ",
+    "environmental_dynamics": "The route option combobox is now expanded and focused, displaying route choices such as 'Bicycle (OSRM)', 'Car (OSRM)', and 'Foot (OSRM)'."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page showing route from Carnegie Mellon University to Pittsburgh International Airport, with 'Car (OSRM)' selected in the travel mode combobox which is expanded.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "No change; clicking the unselected 'Bicycle (OSRM)' option in the expanded combobox did not update the state in the accessibility tree."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with driving directions from Carnegie Mellon University to Pittsburgh International Airport and the routing mode set to 'Car (OSRM)' in the combobox, which is expanded and focused.",
+    "action": "click [169] where [169] is Foot (OSRM)",
+    "environmental_dynamics": "No change; the combobox remains expanded and focused with 'Car (OSRM)' still selected and the directions unchanged, despite the attempt to click 'Foot (OSRM)'."
+  },
+  {
+    "initial_state": "OpenStreetMap directions result page showing route from Carnegie Mellon University to Pittsburgh International Airport, with a directions panel and a 'Close' button visible.",
+    "action": "click [153] where [153] is Close",
+    "environmental_dynamics": "The directions panel and route information were closed, and the page reverted to the main OpenStreetMap map view with the regular welcome and search interface visible."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with navigation and search features visible, including a link labeled 'Find directions between two points'.",
+    "action": "click [149] where [149] is Find directions between two points",
+    "environmental_dynamics": "A directions input panel appeared, allowing the user to input start and destination locations and select a transportation mode for route finding."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with a directions section containing an empty 'From' textbox.",
+    "action": "type [158] [Carnegie Mellon University ] where [158] is From",
+    "environmental_dynamics": "The 'From' textbox in the directions section was populated with 'Carnegie Mellon University, Filmore Street, Bellefield, Pittsburgh, Allegheny County, Pennsylvania, 15213, United States', likely via autocomplete, and is now focused."
+  },
+  {
+    "initial_state": "OpenStreetMap webpage with the directions panel open; the 'From' textbox is pre-filled with 'Carnegie Mellon University...' and focused, the 'To' textbox is empty and unfocused.",
+    "action": "type [163] [Pittsburgh International Airport ] where [163] is To",
+    "environmental_dynamics": "The agent typed 'Pittsburgh International Airport' into the 'To' textbox, shifting focus to it, and a detailed directions panel appeared showing step-by-step driving directions, distance, estimated time, and route details from Carnegie Mellon University to Pittsburgh International Airport."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with the 'To' textbox focused and the combobox for route method ('Car (OSRM)') collapsed and not focused.",
+    "action": "click [166] where [166] is ",
+    "environmental_dynamics": "The route method combobox is now focused and expanded, displaying the available travel options (Bicycle, Car, Foot) for selection."
+  }
+]

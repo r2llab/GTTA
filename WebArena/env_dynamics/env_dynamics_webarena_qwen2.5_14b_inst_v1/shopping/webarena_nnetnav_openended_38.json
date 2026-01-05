@@ -1,0 +1,197 @@
+[
+  {
+    "initial_state": "Product showcase page on One Stop Market",
+    "action": "click [1712] where [1712] is Image",
+    "environmental_dynamics": "The page navigated to the product detail page for 'Tony Chachere's More Spice Creole Seasoning - 14 oz', showing detailed product information and review options."
+  },
+  {
+    "initial_state": "A product page for Tony Chachere's More Spice Creole Seasoning - 14 oz with a rating section and other product details visible.",
+    "action": "click [1510] where [1510] is ",
+    "environmental_dynamics": "The page expanded to show detailed reviews, with individual customer reviews and ratings being displayed, and the tab for reviews was selected."
+  },
+  {
+    "initial_state": "Product detail page for 'Tony Chachere's More Spice Creole Seasoning - 14 oz' with reviews section visible",
+    "action": "hover [1521] where [1521] is 12\u00a0 Reviews ",
+    "environmental_dynamics": "The '12 Reviews' link became focused and highlighted upon hovering."
+  },
+  {
+    "initial_state": "Product page for Tony Chachere's More Spice Creole Seasoning with customer reviews section showing the first page of reviews.",
+    "action": "click [1521] where [1521] is 12\u00a0 Reviews ",
+    "environmental_dynamics": "The reviews section remained unchanged; however, the '12 Reviews' link became focused, indicating interaction readiness."
+  },
+  {
+    "initial_state": "Product page for Tony Chachere's More Spice Creole Seasoning - 14 oz, with scrolling content and a section displaying customer reviews.",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page scrolled down, revealing more of the customer review section, bringing more reviews into view."
+  },
+  {
+    "initial_state": "Product page for Tony Chachere's More Spice Creole Seasoning - 14 oz",
+    "action": "click [1551] where [1551] is Add to Wish List",
+    "environmental_dynamics": "The page navigated to My Wish List, displaying a confirmation that the product was added to the wish list along with the current wish list items."
+  },
+  {
+    "initial_state": "My Wish List page with a list of items, including 'Pre-baked Gingerbread House Kit Value Pack, 17 oz., Pack of 2, Total 34 oz.'",
+    "action": "click [1491] where [1491] is Pre-baked Gingerbread House Kit Value Pack, 17 oz., Pack of 2, Total 34 oz.",
+    "environmental_dynamics": "Navigated to the product detail page for the 'Pre-baked Gingerbread House Kit Value Pack, 17 oz., Pack of 2, Total 34 oz.'"
+  },
+  {
+    "initial_state": "Product page for 'Pre-baked Gingerbread House Kit Value Pack', containing details, ratings, and reviews section",
+    "action": "click [1523] where [1523] is 1\u00a0 Review ",
+    "environmental_dynamics": "The reviews tab was selected and expanded, displaying a detailed customer review."
+  },
+  {
+    "initial_state": "Product page for a pre-baked gingerbread house kit, showing details, reviews, and options to leave a review",
+    "action": "click [1699] where [1699] is Submit Review",
+    "environmental_dynamics": "The 'Nickname', 'Summary', and 'Review' fields gained error descriptions indicating they are required, and the star rating option became focused."
+  },
+  {
+    "initial_state": "Product detail page for a pre-baked gingerbread house kit with a customer review section and space for adding a new review",
+    "action": "click [1696] where [1696] is Review*",
+    "environmental_dynamics": "The 'Review*' textbox gained focus, indicating that it is ready for input."
+  },
+  {
+    "initial_state": "Product page for a pre-baked gingerbread house kit with a review section displaying user reviews and a form for adding a new review.",
+    "action": "type [1691] [The gingerbread house kit is quick and easy to assemble with quality materials, I'm excited to use it with my kids ] where [1691] is ",
+    "environmental_dynamics": "The Summary field in the form to add a new review has been populated with the text 'The gingerbread house kit is quick and easy to assemble with quality materials, I'm excited to use it with my kids'."
+  },
+  {
+    "initial_state": "Product review page for Pre-baked Gingerbread House Kit Value Pack, with 'Submit Review' button and review form fields visible.",
+    "action": "click [1699] where [1699] is Submit Review",
+    "environmental_dynamics": "The review form fields and 'Submit Review' button were submitted, indicating that the review has been sent, and the form fields are now empty and unfocused."
+  },
+  {
+    "initial_state": "Pre-baked Gingerbread House Kit Value Pack product detail page with a review section opened and a form for adding a new review.",
+    "action": "type [1665] [5 ] where [1665] is \ue605\ue605\ue605\ue605\ue605 Rating \ue605 1 star \ue605 1 star Rating \ue605\ue605 2 stars \ue605\ue605 2 stars Rating \ue605\ue605\ue605 3 stars \ue605\ue605\ue605 3 stars Rating \ue605\ue605\ue605\ue605 4 stars \ue605\ue605\ue605\ue605 4 stars Rating \ue605\ue605\ue605\ue605\ue605 5 stars \ue605\ue605\ue605\ue605\ue605 5 stars",
+    "environmental_dynamics": "The rating selection field in the review form was updated to display '5' stars selected."
+  },
+  {
+    "initial_state": "Product page for Pre-baked Gingerbread House Kit Value Pack with a review section visible and options to write a review",
+    "action": "click [1699] where [1699] is Submit Review",
+    "environmental_dynamics": "The 'Submit Review' button was clicked, but no visible changes occurred on the page."
+  },
+  {
+    "initial_state": "Detail page for a pre-baked gingerbread house kit on an online store, with a 'Qty' dropdown in a layout table for purchasing options",
+    "action": "click [1546] where [1546] is Qty",
+    "environmental_dynamics": "The 'Qty' dropdown received focus, allowing user input selection."
+  },
+  {
+    "initial_state": "Product page for a pre-baked gingerbread house kit with a visible 'Reviews' tab. The review section includes a prompt for users to add their reviews.",
+    "action": "type [1691] [I enjoyed building this gingerbread house with my children, it was a fun activity that kept us engaged for a while. ] where [1691] is ",
+    "environmental_dynamics": "The 'Summary' text field in the review section now contains the text 'I enjoyed building this gingerbread house with my children, it was a fun activity that kept us engaged for a while.', indicating that content was typed into the field."
+  },
+  {
+    "initial_state": "Product page for Pre-baked Gingerbread House Kit Value Pack with customer review section and a form to submit a new review, which currently has default values.",
+    "action": "click [1699] where [1699] is Submit Review",
+    "environmental_dynamics": "The review submission form remained unchanged, but it implies that the 'Submit Review' action was processed, though no visible feedback was provided."
+  },
+  {
+    "initial_state": "Product page for Pre-baked Gingerbread House Kit with review section partially visible",
+    "action": "click [1534] where [1534] is ",
+    "environmental_dynamics": "The review section expanded, making the input fields for rating, nickname, summary, and review text visible and interactive."
+  },
+  {
+    "initial_state": "Product page detailing 'Pre-baked Gingerbread House Kit Value Pack, 17 oz., Pack of 2, Total 34 oz.', displaying reviews",
+    "action": "click [1523] where [1523] is 1\u00a0 Review ",
+    "environmental_dynamics": "The '1 Review' link became focused, highlighting it as the currently selected item."
+  },
+  {
+    "initial_state": "Product page for 'Pre-baked Gingerbread House Kit Value Pack, 17 oz., Pack of 2, Total 34 oz.' with a review form visible and a 'Submit Review' button",
+    "action": "click [1699] where [1699] is Submit Review",
+    "environmental_dynamics": "The 'Submit Review' button gained focus and became clickable, indicating that it would proceed to submit the customer's review once clicked."
+  },
+  {
+    "initial_state": "Product page for 'Pre-baked Gingerbread House Kit Value Pack, 17 oz., Pack of 2, Total 34 oz.' with a single customer review visible",
+    "action": "click [1797] where [1797] is ",
+    "environmental_dynamics": "The customer review section expanded to reveal the detail of the review, showing the rating, summary, and full text of the review."
+  },
+  {
+    "initial_state": "Product detail page for 'Pre-baked Gingerbread House Kit Value Pack'",
+    "action": "click [1553] where [1553] is Add to Wish List",
+    "environmental_dynamics": "The product was added to the user's wish list, transitioning the page to display the 'My Wish List' contents with an alert confirming the addition of the item."
+  },
+  {
+    "initial_state": "Online store page displaying a user's wish list with alert about an item being added",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page scrolled down, revealing more content from the wish list including additional product details and options."
+  },
+  {
+    "initial_state": "My Wish List page with two items listed and a user-specific header.",
+    "action": "click [1550] where [1550] is Comment",
+    "environmental_dynamics": "The 'Comment' textbox for the second item on the wish list became focused and editable."
+  },
+  {
+    "initial_state": "My Wish List page showing 2 items, with the second item's comment field focused on a text box containing no text",
+    "action": "type [1550] [A lovely gift for a birthday party! ] where [1550] is Comment",
+    "environmental_dynamics": "The comment text box for the second item ('Pre-baked Gingerbread House Kit Value Pack, 17 oz., Pack of 2, Total 34 oz.') was filled with the text 'A lovely gift for a birthday party!'"
+  },
+  {
+    "initial_state": "My Wish List page with 2 items and 'Edit' option for each item visible",
+    "action": "click [1563] where [1563] is Edit",
+    "environmental_dynamics": "The page displayed an error alert stating the Wish List item could not load, and the main content area indicated there were no items in the wish list."
+  },
+  {
+    "initial_state": "An individual product item page displaying a gingerbread house kit in the user's wish list",
+    "action": "click [1649] where [1649] is \ue616 Remove This Item",
+    "environmental_dynamics": "The page transitioned to a '404 Not Found' error page after clicking the 'Remove This Item' button."
+  },
+  {
+    "initial_state": "404 Not Found page with a list of previously compared products",
+    "action": "click [1486] where [1486] is ",
+    "environmental_dynamics": "Navigated to the product page for 'Beautyfine Men's Hoodie Jean Jacket Coat Fashion Cowboy Jacket Casual Comfortable'."
+  },
+  {
+    "initial_state": "Product page for a Beautyfine Men's Hoodie Jean Jacket Coat with options for color, size, and quantity selection",
+    "action": "hover [1510] where [1510] is ",
+    "environmental_dynamics": "No change"
+  },
+  {
+    "initial_state": "Product details page for a men's hoodie jacket, with tabs for details and reviews",
+    "action": "click [1640] where [1640] is ",
+    "environmental_dynamics": "The 'Details' tab content was expanded and visible upon clicking."
+  },
+  {
+    "initial_state": "Product page for 'Beautyfine Men's Hoodie Jean Jacket Coat Fashion Cowboy Jacket Casual Comfortable'",
+    "action": "click [1582] where [1582] is Qty",
+    "environmental_dynamics": "The spinbutton 'Qty' field is now focused."
+  },
+  {
+    "initial_state": "Product page for a Beautyfine Men's Hoodie Jean Jacket showing options for color and size, with an 'Add to Cart' button",
+    "action": "click [1584] where [1584] is Add to Cart",
+    "environmental_dynamics": "A confirmation message appeared indicating the item was added to the cart, with radio buttons for color and size now marked as required fields."
+  },
+  {
+    "initial_state": "Product page of 'Beautyfine Men's Hoodie Jean Jacket Coat Fashion Cowboy Jacket Casual Comfortable'",
+    "action": "click [1694] where [1694] is Reviews",
+    "environmental_dynamics": "The Reviews tab was opened, expanding the Reviews section and displaying a form for submitting a review."
+  },
+  {
+    "initial_state": "Product page for 'Beautyfine Men's Hoodie Jean Jacket Coat Fashion Cowboy Jacket Casual Comfortable', with user interface elements including color and size options, 'Add to Cart' button, and review section.",
+    "action": "click [1715] where [1715] is ",
+    "environmental_dynamics": "The review section expanded to include pre-filled nickname and summary fields, indicating an attempt to open the review submission form."
+  },
+  {
+    "initial_state": "Product detail page for 'Beautyfine Men's Hoodie Jean Jacket Coat Fashion Cowboy Jacket Casual Comfortable' with a review section displayed and a 'Review*' textbox not focused",
+    "action": "click [1750] where [1750] is Review*",
+    "environmental_dynamics": "The 'Review*' textbox received keyboard focus, indicating it is ready for text input."
+  },
+  {
+    "initial_state": "Product page for a men's hoodie jacket with a review section",
+    "action": "type [1750] [This jacket is comfortable and stylish, perfect for winter! ] where [1750] is Review*",
+    "environmental_dynamics": "The review text box (Review*) now displays the text 'This jacket is comfortable and stylish, perfect for winter!'. The text box is focused and still visible."
+  },
+  {
+    "initial_state": "Product review page displaying a form for users to rate and review the 'Beautyfine Men's Hoodie Jean Jacket Coat Fashion Cowboy Jacket Casual Comfortable'. The 'Rating' field is focused, and the 'Nickname' field is filled with 'Emma'.",
+    "action": "click [1753] where [1753] is Submit Review",
+    "environmental_dynamics": "No change."
+  },
+  {
+    "initial_state": "Product page for 'Beautyfine Men's Hoodie Jean Jacket Coat Fashion Cowboy Jacket Casual Comfortable'",
+    "action": "click [1490] where [1490] is ",
+    "environmental_dynamics": "The page transitioned to a showcase layout featuring multiple product items with images and 'Add to Cart' buttons."
+  },
+  {
+    "initial_state": "One Stop Market homepage with multiple product showcases and sections for user account actions, including a main banner, navigation menu, and product listings.",
+    "action": "click [229] where [229] is My Wish List",
+    "environmental_dynamics": "The page transitioned to 'My Wish List', displaying a message that the user has no items in their wish list, along with My Account section options and recent order items."
+  }
+]

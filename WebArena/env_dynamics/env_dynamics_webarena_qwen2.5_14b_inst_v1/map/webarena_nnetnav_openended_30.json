@@ -1,0 +1,22 @@
+[
+  {
+    "initial_state": "OpenStreetMap homepage with various navigation links and a search bar",
+    "action": "goto [http://openstreetmap.org]",
+    "environmental_dynamics": "No change"
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with search bar visible and a closing welcome message",
+    "action": "type [145] [Central Park ] where [145] is Search",
+    "environmental_dynamics": "The search bar contained 'Central Park' after typing, and a section showing search results from OpenStreetMap Nominatim appeared below the search bar."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage focused on 'Central Park' search results, with a search bar containing 'Central Park'",
+    "action": "click [449] where [449] is Central Park, New York County, City of New York, New York, United States",
+    "environmental_dynamics": "The page transitioned to a new location by clicking on the specific 'Central Park' result; a loading status message appeared indicating that the page is updating to the new location details."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage focused on 'Central Park' with various navigation options and map controls",
+    "action": "hover [463] where [463] is ",
+    "environmental_dynamics": "No change"
+  }
+]

@@ -1,0 +1,10 @@
+{
+    "sites": [
+        "shopping_admin"
+    ],
+    "start_url": "WA_SHOPPING_ADMIN",
+    "geolocation": null,
+    "require_reset": false,
+    "storage_state": "./.auth/shopping_admin_state.json",
+    "intent": "n/a"
+}

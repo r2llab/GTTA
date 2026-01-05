@@ -1,0 +1,112 @@
+[
+  {
+    "initial_state": "Dashboard / Magento Admin",
+    "action": "click [850] where [850] is http://ec2-54-85-214-136.compute-1.amazonaws.com:8083/admin/sales/order/view/order_id/299/",
+    "environmental_dynamics": "The browser navigated to the 'Order View' page for order #000000299, displaying detailed information about the order including products ordered, customer details, and order status."
+  },
+  {
+    "initial_state": "Magento Admin Order page for order #000000299",
+    "action": "click [755] where [755] is Edit Customer",
+    "environmental_dynamics": "The page navigated to the Customer view section for 'Sarah Miller', updating the context to show customer details and personal information."
+  },
+  {
+    "initial_state": "Sarah Miller / Customers / Customers / Magento Admin with Orders list item not focused",
+    "action": "click [861] where [861] is Orders",
+    "environmental_dynamics": "The 'Orders' list item became focused, indicating that the page transitioned to displaying the orders related to the customer."
+  },
+  {
+    "initial_state": "Magento Admin Customer Order Overview for Sarah Miller",
+    "action": "click [1077] where [1077] is http://ec2-54-85-214-136.compute-1.amazonaws.com:8083/admin/sales/order/view/order_id/299/customer_id/5/",
+    "environmental_dynamics": "The page transitioned to the Order View for order #000000299, displaying detailed information about the order, including order status, customer information, and ordered items."
+  },
+  {
+    "initial_state": "Magento Admin Order Details page for order #000000299, showing customer and order information",
+    "action": "click [784] where [784] is Edit Customer",
+    "environmental_dynamics": "The browser navigated to the Magento Admin Customer Details page for Sarah Miller, displaying her personal and account information."
+  },
+  {
+    "initial_state": "Magento Admin Customer page with various customer management options",
+    "action": "click [861] where [861] is Orders",
+    "environmental_dynamics": "The Orders section became focused, indicating it has been accessed, and details related to customer orders are now visible, allowing for further interaction."
+  },
+  {
+    "initial_state": "Magento Admin Order List for Customer 'Sarah Miller'",
+    "action": "click [1077] where [1077] is http://ec2-54-85-214-136.compute-1.amazonaws.com:8083/admin/sales/order/view/order_id/299/customer_id/5/",
+    "environmental_dynamics": "The page navigated to the Order View for Order #000000299, displaying detailed information about the order, including order date, status, and customer information."
+  },
+  {
+    "initial_state": "Magento order view page with details of order #000000299",
+    "action": "type [1055] [Please ensure the order is shipped promptly.] [press_enter_after=0 ] where [1055] is ",
+    "environmental_dynamics": "The textbox for comments was filled with the text 'Please ensure the order is shipped promptly.' but no action was executed after typing since the 'Enter' key was not pressed."
+  },
+  {
+    "initial_state": "Magento Admin Order View page with order details visible",
+    "action": "click [1065] where [1065] is Submit Comment",
+    "environmental_dynamics": "The comment input was submitted, potentially processing the input without any visible changes to the user interface."
+  },
+  {
+    "initial_state": "Magento Admin Order View page with Information tab selected",
+    "action": "click [2372] where [2372] is Invoices",
+    "environmental_dynamics": "The Invoices tab is now expanded and selected, displaying invoice-related information with a message indicating that no records were found."
+  },
+  {
+    "initial_state": "Export options in Invoices tab of Magento Admin",
+    "action": "click [1208] where [1208] is \ue635 Export",
+    "environmental_dynamics": "The Export options area became visible, displaying radio buttons for 'CSV' and 'Excel XML', with 'CSV' selected as the default format."
+  },
+  {
+    "initial_state": "Magento Admin panel with 'Invoices' tab selected but collapsed",
+    "action": "click [2372] where [2372] is Invoices",
+    "environmental_dynamics": "The 'Invoices' tab expanded, revealing its content, which includes buttons and options for managing invoices."
+  },
+  {
+    "initial_state": "Magento Admin Orders page with visible buttons including 'Send Email'",
+    "action": "click [738] where [738] is Send Email",
+    "environmental_dynamics": "A confirmation dialog appeared, asking the user if they are sure they want to send an order email to the customer, with 'Cancel' and 'OK' buttons available."
+  },
+  {
+    "initial_state": "Magento Admin Order View page with modal dialog asking for order email confirmation",
+    "action": "click [2851] where [2851] is OK",
+    "environmental_dynamics": "The modal dialog confirming the action closed, and a message appeared on the page indicating that the order email was sent."
+  },
+  {
+    "initial_state": "Magento Admin Order page for Order #000000299",
+    "action": "Attempt to perfom \"click\" on element \"[2372]\" but no matching element found. Please check the observation more carefully.",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "Magento Admin Orders page for order #000000299",
+    "action": "click [784] where [784] is ",
+    "environmental_dynamics": "The page navigated to the Customers section for 'Sarah Miller', displaying customer-specific options and information."
+  },
+  {
+    "initial_state": "Magento Admin panel with Customers page",
+    "action": "click [649] where [649] is Create Order",
+    "environmental_dynamics": "The page changed to the 'New Order' section, displaying fields to create a new order for the customer Sarah Miller, including sections for billing and shipping information."
+  },
+  {
+    "initial_state": "New Order / Orders / Operations / Sales / Magento Admin",
+    "action": "click [2544] where [2544] is Get shipping methods and rates",
+    "environmental_dynamics": "A message appeared indicating that no shipping quotes are available for the order, which may affect the ability to proceed with order submission."
+  },
+  {
+    "initial_state": "New Order / Orders / Operations / Sales / Magento Admin",
+    "action": "click [717] where [717] is Submit Order",
+    "environmental_dynamics": "A validation message appeared indicating the shipping method is missing, prompting the user to select a shipping method to proceed with the order."
+  },
+  {
+    "initial_state": "New Order / Orders / Operations / Sales / Magento Admin with shipping method section not displaying updates",
+    "action": "click [2551] where [2551] is Get shipping methods and rates",
+    "environmental_dynamics": "The system fetched available shipping methods and rates, resulting in a message indicating that no quotes are available for this order."
+  },
+  {
+    "initial_state": "New Order for Sarah Miller in Default Store View on Magento Admin",
+    "action": "Attempt to perfom \"click\" on element \"[2551]\" but no matching element found. Please check the observation more carefully.",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "New Order / Orders / Operations / Sales / Magento Admin",
+    "action": "Attempt to perfom \"click\" on element \"[2551]\" but no matching element found. Please check the observation more carefully.",
+    "environmental_dynamics": "no change"
+  }
+]

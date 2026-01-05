@@ -1,0 +1,197 @@
+[
+  {
+    "initial_state": "Magento Admin dashboard page displaying various summary tables including 'Last Orders', with order rows listed such as 'Sarah Miller'.",
+    "action": "click [858] where [858] is http://ec2-18-226-185-217.us-east-2.compute.amazonaws.com:8083/admin/sales/order/view/order_id/299/",
+    "environmental_dynamics": "The browser navigated to the detailed order view page for order #000000299, showing comprehensive information about the order including order/account data, items, addresses, totals, and tabs for related documents like invoices and shipments."
+  },
+  {
+    "initial_state": "Magento Admin order view page with the 'Comment' textbox empty and ready for input.",
+    "action": "type [1086] [Your order has shipped and is on its way. Thank you for shopping with us!] where [1086] is Comment",
+    "environmental_dynamics": "The 'Comment' textbox is now filled with the text 'Your order has shipped and is on its way. Thank you for shopping with us!' and is focused."
+  },
+  {
+    "initial_state": "Magento Admin order view page for order #000000299, with the 'Notify Customer by Email' checkbox unchecked.",
+    "action": "click [1090] where [1090] is Notify Customer by Email",
+    "environmental_dynamics": "The 'Notify Customer by Email' checkbox became checked and focused, indicating it is now selected to notify the customer by email."
+  },
+  {
+    "initial_state": "Magento Admin order details page, with the 'Comment' textbox containing the text 'Your order has shipped and is on its way. Thank you for shopping with us!'",
+    "action": "type [1086] [Your shipment is on schedule and should arrive soon. Please contact us if you have any questions.] where [1086] is Comment",
+    "environmental_dynamics": "The 'Comment' textbox was updated to contain the text 'Your shipment is on schedule and should arrive soon. Please contact us if you have any questions.' and is now focused."
+  },
+  {
+    "initial_state": "Magento Admin order details page with the 'Submit Comment' button visible and the comment textbox focused.",
+    "action": "click [1096] where [1096] is Submit Comment",
+    "environmental_dynamics": "The 'Submit Comment' button became focused, but no visible changes occurred to the content or order information; the comment was not submitted and the page did not update."
+  },
+  {
+    "initial_state": "Magento Admin order detail view with the 'Information' tab selected and visible; other tabs including 'Shipments' are present but not selected.",
+    "action": "click [2483] where [2483] is Shipments",
+    "environmental_dynamics": "The 'Shipments' tab was selected and expanded, displaying the shipment records and shipment management interface for the order, while the 'Information' tab became deselected."
+  },
+  {
+    "initial_state": "Magento Admin order view page with the 'Shipments' tab selected, displaying a table of shipment records with a 'View' link for a specific shipment.",
+    "action": "click [2404] where [2404] is View",
+    "environmental_dynamics": "The interface transitions to display detailed information for shipment #000000004, including order, shipping, customer, and item details, replacing the previous list of shipment records."
+  },
+  {
+    "initial_state": "Magento Admin shipment details page with shipping carrier combobox collapsed, showing Custom Value selected.",
+    "action": "click [811] where [811] is ",
+    "environmental_dynamics": "The shipping carrier combobox expanded, displaying options for carrier selection and taking focus."
+  },
+  {
+    "initial_state": "Magento Admin shipment details page with a combobox for carrier selection expanded, showing 'Custom Value' selected and other carrier options visible (including DHL).",
+    "action": "click [813] where [813] is DHL",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "Magento Admin shipment details page, with a shipping information table including an empty textbox in the 'Number' field for entering tracking information.",
+    "action": "type [821] [JD0123456789] where [821] is ",
+    "environmental_dynamics": "The 'Number' textbox in the Shipping and Tracking Information section is now populated with 'JD0123456789' and is focused."
+  },
+  {
+    "initial_state": "Magento Admin shipment details page showing a form to add a shipping carrier, title, and tracking number, with a filled tracking number and an 'Add' button next to it.",
+    "action": "click [823] where [823] is Add",
+    "environmental_dynamics": "A new row for entering additional shipping information appeared below the previously filled tracking number, allowing input of another carrier, title, and tracking number."
+  },
+  {
+    "initial_state": "Magento Admin shipment details page, with the 'Notify Customer by Email' checkbox unchecked.",
+    "action": "click [925] where [925] is Notify Customer by Email",
+    "environmental_dynamics": "The 'Notify Customer by Email' checkbox became checked, indicating the option is now enabled to notify the customer by email."
+  },
+  {
+    "initial_state": "Magento Admin shipment detail page with the 'Comment Text' textbox empty and focused.",
+    "action": "type [921] [Your shipment has left our facility and is en route. Thank you for choosing us!] where [921] is Comment Text",
+    "environmental_dynamics": "The 'Comment Text' textbox is now populated with the text 'Your shipment has left our facility and is en route. Thank you for choosing us!' and it remains focused."
+  },
+  {
+    "initial_state": "Magento Admin shipment detail page displaying a shipment comment box (pre-filled), with the 'Submit Comment' button visible and clickable.",
+    "action": "click [931] where [931] is Submit Comment",
+    "environmental_dynamics": "A 'Please wait...' message appeared, indicating the comment submission process is in progress, and the focus moved to the 'Submit Comment' button."
+  },
+  {
+    "initial_state": "Magento Admin shipment details page with 'Custom Value' selected in the carrier combobox for adding tracking, the combobox is collapsed and not focused.",
+    "action": "click [1070] where [1070] is ",
+    "environmental_dynamics": "The 'Custom Value' carrier combobox was expanded and became focused, showing a dropdown menu of carrier options for selection."
+  },
+  {
+    "initial_state": "Magento Admin shipment details page displaying order, account, address, shipping, and tracking information, with the shipping carrier combobox expanded and 'Custom Value' selected.",
+    "action": "click [1072] where [1072] is DHL",
+    "environmental_dynamics": "No change; clicking the 'DHL' option in the expanded combobox did not update the selection or collapse the dropdown."
+  },
+  {
+    "initial_state": "Magento Admin shipment details page with a table for Payment & Shipping Method, including an empty textbox intended for carrier tracking number input.",
+    "action": "type [1079] [JD0123456789] where [1079] is ",
+    "environmental_dynamics": "The textbox for the carrier tracking number now contains the value 'JD0123456789' and is focused, but no additional UI changes or submissions occurred."
+  },
+  {
+    "initial_state": "Magento Admin shipment details page with a tracking number textbox populated as 'JD0123456789' and an 'Add' button present in the shipment tracking table.",
+    "action": "click [1081] where [1081] is Add",
+    "environmental_dynamics": "A new row with the 'Custom Value' carrier and tracking number 'JD0123456789' was added to the shipment tracking table, duplicating the previous entry."
+  },
+  {
+    "initial_state": "Magento Admin shipment details page with the 'Notify Customer by Email' checkbox unchecked.",
+    "action": "click [1100] where [1100] is Notify Customer by Email",
+    "environmental_dynamics": "The 'Notify Customer by Email' checkbox became checked and is now focused, indicating that the customer will be notified by email."
+  },
+  {
+    "initial_state": "Magento Admin shipment details page with the 'Comment Text' textbox empty and focused.",
+    "action": "type [1096] [Your shipment is on its way. If you need any assistance, feel free to contact us!] where [1096] is Comment Text",
+    "environmental_dynamics": "The 'Comment Text' textbox is now populated and focused with the text 'Your shipment is on its way. If you need any assistance, feel free to contact us!'."
+  },
+  {
+    "initial_state": "Magento Admin shipment details page, with the 'Submit Comment' button visible and a comment entered in the comment textbox.",
+    "action": "click [1106] where [1106] is Submit Comment",
+    "environmental_dynamics": "A 'Please wait...' message appeared at the top of the page, indicating that the comment submission process has started and the page is processing the action."
+  },
+  {
+    "initial_state": "Magento Admin shipment detail page with order, shipping, and comment sections shown, 'Submit Comment' was focused, and 'Print' button was visible but not focused.",
+    "action": "click [703] where [703] is Print",
+    "environmental_dynamics": "The 'Print' button is now focused, but there is no indication that a print dialog or any visible content change occurred on the page itself; otherwise, the content remains the same."
+  },
+  {
+    "initial_state": "Magento Admin shipment details page with shipment tables and action buttons visible; no modal dialogs present.",
+    "action": "click [1145] where [1145] is \ue630",
+    "environmental_dynamics": "A confirmation dialog appeared asking 'Are you sure?', containing 'Cancel' and 'OK' buttons, as a result of clicking the action button in the shipment tracking table."
+  },
+  {
+    "initial_state": "Magento Admin shipment detail page with a modal dialog open asking for confirmation, showing 'Cancel' and 'OK' buttons with the 'OK' button focused.",
+    "action": "click [1195] where [1195] is OK",
+    "environmental_dynamics": "The confirmation modal dialog disappeared from the page after clicking the 'OK' button."
+  },
+  {
+    "initial_state": "Magento Admin shipment details page, with the 'Comment Text' textbox empty in the 'Shipment History' section.",
+    "action": "type [1159] [Your package is out for delivery and should arrive today.] where [1159] is Comment Text",
+    "environmental_dynamics": "The 'Comment Text' textbox in the 'Shipment History' section is now populated with the text 'Your package is out for delivery and should arrive today.' and is focused."
+  },
+  {
+    "initial_state": "Magento admin shipment detail page with the 'Notify Customer by Email' checkbox unchecked and not focused.",
+    "action": "click [1163] where [1163] is Notify Customer by Email",
+    "environmental_dynamics": "'Notify Customer by Email' checkbox is now checked and focused, indicating it has been activated to notify the customer by email."
+  },
+  {
+    "initial_state": "Magento Admin shipment details page displaying order, customer, shipment, and comment section with the 'Submit Comment' button visible.",
+    "action": "click [1169] where [1169] is Submit Comment",
+    "environmental_dynamics": "A 'Please wait...' message appeared at the top of the page, indicating the comment submission is being processed and the 'Submit Comment' button is now focused."
+  },
+  {
+    "initial_state": "Magento Admin shipment details page with the focus on the 'Submit Comment' button and the 'Print' button visible.",
+    "action": "click [703] where [703] is Print",
+    "environmental_dynamics": "Focus shifted from the 'Submit Comment' button to the 'Print' button, but no print dialog or content change is reflected in the accessibility tree."
+  },
+  {
+    "initial_state": "Magento Admin shipment detail page with the 'Notify Customer by Email' checkbox unchecked.",
+    "action": "click [1240] where [1240] is Notify Customer by Email",
+    "environmental_dynamics": "The 'Notify Customer by Email' checkbox is now checked and has received keyboard focus."
+  },
+  {
+    "initial_state": "Magento Admin shipment details page with the 'Comment Text' textbox empty and focused in the 'Shipment History' section.",
+    "action": "type [1236] [Your shipment has been delivered. Thank you for choosing us!] where [1236] is Comment Text",
+    "environmental_dynamics": "The text 'Your shipment has been delivered. Thank you for choosing us!' was entered into the 'Comment Text' textbox, which remains focused."
+  },
+  {
+    "initial_state": "Magento Admin shipment detail page with comment textbox containing a pre-written message and the 'Submit Comment' button visible.",
+    "action": "click [1246] where [1246] is Submit Comment",
+    "environmental_dynamics": "A 'Please wait...' message appeared at the top of the page, and the 'Submit Comment' button is now focused, indicating that the comment submission process has started but is not yet completed."
+  },
+  {
+    "initial_state": "Order shipment details page for Sarah Miller in Magento Admin, showing order and account details, addresses, shipping status, and customer info.",
+    "action": "click [741] where [741] is Edit Customer",
+    "environmental_dynamics": "The page navigated from the order shipment details to the customer profile editing page for Sarah Miller, displaying customer management actions and personal data-specific options."
+  },
+  {
+    "initial_state": "Magento Admin customer detail page for Sarah Miller, displaying navigation bar, action buttons, and footer with legal links.",
+    "action": "Attempt to perfom \"click\" on element \"[173]\" but no matching element found. Please check the observation more carefully.",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "Magento Admin customer details page for Sarah Miller, displaying personal information and a side menu with 'Orders' as a clickable list item.",
+    "action": "click [870] where [870] is Orders",
+    "environmental_dynamics": "The main content area updated to display the customer's full order history, including a table of orders and search/filter options, and the 'Orders' link in the sidebar is now focused."
+  },
+  {
+    "initial_state": "Magento Admin customer details page showing Sarah Miller's information and orders, with a table listing past orders including order #000000299.",
+    "action": "click [1085] where [1085] is http://ec2-18-226-185-217.us-east-2.compute.amazonaws.com:8083/admin/sales/order/view/order_id/299/customer_id/5/",
+    "environmental_dynamics": "The page navigated to the detailed view of order #000000299, displaying order-specific information including account details, billing/shipping addresses, items ordered, payment and shipping method, and order totals."
+  },
+  {
+    "initial_state": "Magento Admin order details page with an empty 'Comment' textbox for adding order notes.",
+    "action": "type [1088] [Your order was processed and has been shipped. Thank you for your purchase!] where [1088] is Comment",
+    "environmental_dynamics": "The 'Comment' textbox is now filled with the text 'Your order was processed and has been shipped. Thank you for your purchase!' and is focused."
+  },
+  {
+    "initial_state": "Magento Admin Order View page for order #000000299, with the 'Notify Customer by Email' checkbox unchecked.",
+    "action": "click [1092] where [1092] is Notify Customer by Email",
+    "environmental_dynamics": "The 'Notify Customer by Email' checkbox is now checked and focused, indicating that the customer will be notified by email."
+  },
+  {
+    "initial_state": "Magento Admin order view page with the 'Submit Comment' button visible and focused; all order and comment details displayed.",
+    "action": "click [1098] where [1098] is Submit Comment",
+    "environmental_dynamics": "The 'Submit Comment' button has been clicked, and the button remains focused, but there is no visible update to the order data, comment text, or other page content in the accessibility tree."
+  },
+  {
+    "initial_state": "Magento Admin order view page showing the Information tab with details about order #000000299, including order, account, shipping, and payment information.",
+    "action": "click [2486] where [2486] is Shipments",
+    "environmental_dynamics": "The Shipments tab was opened and its contents displayed, showing a shipments list for the order; the tab focus changed from Information to Shipments."
+  }
+]

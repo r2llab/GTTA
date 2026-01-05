@@ -1,0 +1,197 @@
+[
+  {
+    "initial_state": "One Stop Market homepage with a header containing navigation options and a product showcase section",
+    "action": "click [1401] where [1401] is ",
+    "environmental_dynamics": "An alert message confirming the addition of an item (Pre-baked Gingerbread House Kit) to the shopping cart appeared, and the 'Add to Cart' button for the same item became focused."
+  },
+  {
+    "initial_state": "One Stop Market homepage with product showcases and a search bar",
+    "action": "click [1392] where [1392] is 1 \u00a0Review",
+    "environmental_dynamics": "The page navigated to the product detail page for 'Pre-baked Gingerbread House Kit Value Pack, 17 oz., Pack of 2, Total 34 oz.'"
+  },
+  {
+    "initial_state": "Product page for 'Pre-baked Gingerbread House Kit Value Pack, 17 oz., Pack of 2, Total 34 oz.'",
+    "action": "click [1500] where [1500] is Add Your Review",
+    "environmental_dynamics": "The Reviews tab expanded to show existing customer reviews and a form to add a new review."
+  },
+  {
+    "initial_state": "Product page for Pre-baked Gingerbread House Kit with 'Add Your Review' section focused",
+    "action": "click [1508] where [1508] is ",
+    "environmental_dynamics": "The 'Add Your Review' section expanded, showing input fields for rating, nickname, summary, and review text."
+  },
+  {
+    "initial_state": "Product detail page for a pre-baked gingerbread house kit, containing reviews and the ability to submit a new review.",
+    "action": "click [1696] where [1696] is Rating \ue605\ue605\ue605\ue605\ue605 5 stars",
+    "environmental_dynamics": "The radio button for rating 5 stars was selected, and the rating indicator is now focused on the 5-star option."
+  },
+  {
+    "initial_state": "Product page for Pre-baked Gingerbread House Kit with fields for adding a review including rating, nickname, summary, and review text.",
+    "action": "type [1704] [Emma] where [1704] is Nickname*",
+    "environmental_dynamics": "The 'Nickname*' textbox was filled with the content 'Emma' and became focused."
+  },
+  {
+    "initial_state": "Product page for Pre-baked Gingerbread House Kit with customer review section visible and Summary field empty",
+    "action": "type [1709] [Excellent product for children!] where [1709] is Summary*",
+    "environmental_dynamics": "The Summary field now contains the text 'Excellent product for children!' and is focused."
+  },
+  {
+    "initial_state": "Product page of 'Pre-baked Gingerbread House Kit Value Pack' with a review form partially filled and focused on the 'Review' field",
+    "action": "click [1717] where [1717] is Submit Review",
+    "environmental_dynamics": "The review form submitted, leading to the focused state transferring from the 'Review' field to the 'Submit Review' button, which was clicked."
+  },
+  {
+    "initial_state": "Product page for Pre-baked Gingerbread House Kit Value Pack with detailed reviews",
+    "action": "go_back",
+    "environmental_dynamics": "The browser returned to the homepage, displaying a list of product showcases."
+  },
+  {
+    "initial_state": "One Stop Market homepage with a product showcase section listing multiple products",
+    "action": "click [1757] where [1757] is ",
+    "environmental_dynamics": "The browser navigated to the detailed page of the product 'Briess DME - Pilsen Light - 1 lb Bag', displaying product-specific details, images, reviews, and purchasing options."
+  },
+  {
+    "initial_state": "OneStopMarket product page for Briess DME - Pilsen Light - 1 lb Bag",
+    "action": "goto [http://onestopmarket.com/childrens.html]",
+    "environmental_dynamics": "The page transitioned to a 404 error page, indicating the requested URL was not found."
+  },
+  {
+    "initial_state": "A 404 Not Found page with a list of options and user account information visible",
+    "action": "click [1453] where [1453] is My Account",
+    "environmental_dynamics": "Navigated to the 'My Account' page displaying account details, recent orders, and account management options."
+  },
+  {
+    "initial_state": "My Account page with order and wish list details visible",
+    "action": "click [1733] where [1733] is \ue616 Remove This Item",
+    "environmental_dynamics": "Navigated to a 404 Not Found page, indicating an error due to removal of an item from the wish list."
+  },
+  {
+    "initial_state": "404 Not Found page with an error message and options to navigate, including a list of recent products and wish list items",
+    "action": "click [1451] where [1451] is Store Home",
+    "environmental_dynamics": "Navigated back to the homepage of One Stop Market displaying product showcases and category navigation."
+  },
+  {
+    "initial_state": "One Stop Market homepage with product showcases starting from item 1 to 12",
+    "action": "click [1906] where [1906] is Page 2",
+    "environmental_dynamics": "The page content changed to display products from item 13 to 24, indicating a change to the second page of product listings."
+  },
+  {
+    "initial_state": "One Stop Market homepage with various product showcases, navigation, and header information.",
+    "action": "click [1679] where [1679] is ",
+    "environmental_dynamics": "No change."
+  },
+  {
+    "initial_state": "One Stop Market homepage with a variety of product showcases",
+    "action": "click [1655] where [1655] is ",
+    "environmental_dynamics": "The browser navigated to a detailed product page for 'NUNATURE Cocodate Dates And Cacao Spread - 100% Natural Chocolate Date Spread, Vegan, Paleo Friendly, Gluten & Dairy Free Snack, Non-GMO, Sugar-free'."
+  },
+  {
+    "initial_state": "Product detail page for NUNATURE Cocodate Dates And Cacao Spread with SKU information and rating display",
+    "action": "click [1483] where [1483] is ",
+    "environmental_dynamics": "No change"
+  },
+  {
+    "initial_state": "Product page describing NuNature Cocodate Dates And Cacao Spread with a review section initially collapsed.",
+    "action": "click [1496] where [1496] is 12\u00a0 Reviews ",
+    "environmental_dynamics": "The 'Reviews' section expanded upon clicking the '12 Reviews' link, displaying customer reviews for the product."
+  },
+  {
+    "initial_state": "Product page for NUNATURE Cocodate Dates And Cacao Spread with reviews section expanded and review form hidden",
+    "action": "click [1772] where [1772] is Review*",
+    "environmental_dynamics": "The review form became visible and focused, allowing the user to start typing a review."
+  },
+  {
+    "initial_state": "Product page of NUNATURE Cocodate Dates And Cacao Spread with customer review section showing existing reviews and form for adding a new review with review textarea focused",
+    "action": "type [1767] [This is a healthy and delicious spread made from natural ingredients, perfect for children! ] where [1767] is ",
+    "environmental_dynamics": "The review textarea was populated with the text 'This is a healthy and delicious spread made from natural ingredients, perfect for children!'. The summary field also got filled with the same text."
+  },
+  {
+    "initial_state": "Product page for NUNATURE Cocodate Dates And Cacao Spread with visible reviews and a filled-out review submission form waiting to be submitted",
+    "action": "click [1775] where [1775] is Submit Review",
+    "environmental_dynamics": "The review submission form was cleared and reset after submission, awaiting another review entry."
+  },
+  {
+    "initial_state": "NUNATURE Cocodate Dates And Cacao Spread product page with reviews listed on the first page",
+    "action": "click [2113] where [2113] is \ue608 Page Next",
+    "environmental_dynamics": "The reviews tab content updated to show the second page of reviews, indicating a transition from page 1 to page 2 of customer reviews."
+  },
+  {
+    "initial_state": "Product page with reviews tab and details tab",
+    "action": "click [1718] where [1718] is Reviews (12)",
+    "environmental_dynamics": "The reviews tab was selected, expanding the review section to show detailed customer reviews."
+  },
+  {
+    "initial_state": "Product page for NUNATURE Cocodate Dates And Cacao Spread with a review section showing two customer reviews and a visible 'Add Your Review' form. The review submission form's rating section has no radio button selected.",
+    "action": "click [1754] where [1754] is Rating \ue605\ue605\ue605\ue605\ue605 5 stars",
+    "environmental_dynamics": "The radio button for rating '5 stars' in the review submission form is now selected and focused."
+  },
+  {
+    "initial_state": "Product page for NUNATURE Cocodate Dates And Cacao Spread with reviews and the review form not filled out",
+    "action": "type [1772] [This is a healthy and delicious spread made from natural ingredients, perfect for children. ] where [1772] is ",
+    "environmental_dynamics": "The review content fields, including nickname, summary, and review, were filled out with text, and the review text input was focused."
+  },
+  {
+    "initial_state": "A product page for a coco-date date spread, featuring detailed information, reviews, and a 'Submit Review' button.",
+    "action": "click [1775] where [1775] is Submit Review",
+    "environmental_dynamics": "A confirmation alert appeared indicating that the submitted review was under moderation."
+  },
+  {
+    "initial_state": "Product page for NUNATURE Cocodate Dates And Cacao Spread",
+    "action": "go_back",
+    "environmental_dynamics": "The browser navigated back to the previous page, likely a category or catalog page."
+  },
+  {
+    "initial_state": "Product page for 'NUNATURE Cocodate Dates And Cacao Spread' with review section collapsed and showing 12 reviews link.",
+    "action": "click [1499] where [1499] is Add Your Review",
+    "environmental_dynamics": "The review section expanded, showing detailed customer reviews and a form for adding a new review."
+  },
+  {
+    "initial_state": "Product page for NUNATURE Cocodate Dates And Cacao Spread with section for customer reviews visible and the form for new review not filled in",
+    "action": "type [1767] [This is a healthy and delicious spread made from natural ingredients, perfect for children!  ] where [1767] is Summary*",
+    "environmental_dynamics": "The summary field of the customer review form is now filled with text 'This is a healthy and delicious spread made from natural ingredients, perfect for children!'"
+  },
+  {
+    "initial_state": "Product page for NUNATURE Cocodate Dates And Cacao Spread with user input fields for review ready for submission",
+    "action": "click [1775] where [1775] is Submit Review",
+    "environmental_dynamics": "The review submission process was initiated, prompting a confirmation or further actions required to finalize the submission."
+  },
+  {
+    "initial_state": "A product page for NUNATURE Cocodate Dates And Cacao Spread",
+    "action": "go_back",
+    "environmental_dynamics": "The page changed to the homepage of the online marketplace 'One Stop Market'."
+  },
+  {
+    "initial_state": "One Stop Market product showcase page displaying various products with images, names, prices, and add-to-cart buttons.",
+    "action": "click [1737] where [1737] is Image",
+    "environmental_dynamics": "The page navigated to a product detail page for the item '(NOT A CASE) Original Concentrated Hot Curry Paste Tomato Cumin and Chile', showing detailed information, images, and product options."
+  },
+  {
+    "initial_state": "Product page for '(NOT A CASE) Original Concentrated Hot Curry Paste Tomato Cumin and Chile'",
+    "action": "click [1514] where [1514] is Add to Wish List",
+    "environmental_dynamics": "Navigated to the 'My Wish List' page, showing a confirmation alert for the product being added to the wish list and displaying a list of currently wished items including the recently added curry paste product."
+  },
+  {
+    "initial_state": "My Wish List page showing 2 items",
+    "action": "click [1527] where [1527] is Remove item",
+    "environmental_dynamics": "The page navigated to a 404 Not Found error, indicating that one item was removed, reducing the number of items from 2 to 1."
+  },
+  {
+    "initial_state": "Page with a 404 Not Found error and comparison of products visible",
+    "action": "click [1451] where [1451] is Store Home",
+    "environmental_dynamics": "The browser navigated to the homepage of 'One Stop Market' displaying product showcases."
+  },
+  {
+    "initial_state": "One Stop Market homepage, showcasing a list of products with images and detail links",
+    "action": "click [1450] where [1450] is Image",
+    "environmental_dynamics": "The browser focused on a product detail page for 'Pre-baked Gingerbread House Kit Value Pack, 17 oz., Pack of 2, Total 34 oz.'"
+  },
+  {
+    "initial_state": "Product page for a gingerbread house kit value pack",
+    "action": "click [1526] where [1526] is Add to Wish List",
+    "environmental_dynamics": "Navigated to the 'My Wish List' page and added the gingerbread house kit value pack to the wish list, displaying a confirmation alert message."
+  },
+  {
+    "initial_state": "My Wish List page with a list of two items visible",
+    "action": "click [1538] where [1538] is Remove item",
+    "environmental_dynamics": "The notification showed that the item 'Pre-baked Gingerbread House Kit Value Pack, 17 oz., Pack of 2, Total 34 oz.' was removed, reducing the item count from 2 to 1 and updating the relevant sections reflecting this change."
+  }
+]

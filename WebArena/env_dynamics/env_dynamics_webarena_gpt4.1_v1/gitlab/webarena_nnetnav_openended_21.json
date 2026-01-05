@@ -1,0 +1,67 @@
+[
+  {
+    "initial_state": "GitLab dashboard 'Projects' page showing a list of projects and a 'New project' link.",
+    "action": "click [248] where [248] is New project",
+    "environmental_dynamics": "The browser navigated to the 'Create new project' page, displaying options for creating a blank project, using a template, or importing a project."
+  },
+  {
+    "initial_state": "GitLab 'New Project' selection page with options to create a blank project, create from template, or import a project.",
+    "action": "click [244] where [244] is Create from template Create a project pre-populated with the necessary files to get you started quickly.",
+    "environmental_dynamics": "The page transitioned to display the 'Create from template' workflow, showing a list of available project templates with selection options and details."
+  },
+  {
+    "initial_state": "GitLab new project creation page displaying a list of project templates, with all 'Use template' radio buttons unchecked.",
+    "action": "click [390] where [390] is Use template",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "GitLab 'New Project' template selection page showing a list of project templates with 'Use template' radio buttons all unchecked.",
+    "action": "click [402] where [402] is Use template",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "GitLab 'Create from template' page displaying a list of available project templates, none of which are selected.",
+    "action": "click [414] where [414] is Use template",
+    "environmental_dynamics": "The .NET Core template is now selected, and a project creation form has appeared, allowing the user to configure details for the new project based on this template."
+  },
+  {
+    "initial_state": "GitLab 'New Project' page displaying a form to create a new project from a template, with focus on the 'Project name' textbox.",
+    "action": "type [733] [Website Redesign 2024 ] where [733] is Project name",
+    "environmental_dynamics": "The 'Project name' was filled and the project creation process was completed, leading to a navigation to the new project page where an 'Import in progress' status is shown for 'Website Redesign 2024'."
+  },
+  {
+    "initial_state": "GitLab project page showing 'Import in progress' with a status message indicating the repository import is ongoing.",
+    "action": "press [F5]",
+    "environmental_dynamics": "After pressing F5 (refresh), the page updates to indicate that the repository import has completed successfully, alert messages appear, and full repository content and project details are now visible on the main page."
+  },
+  {
+    "initial_state": "GitLab project repository main page for 'Website Redesign 2024', displaying the file list and a sidebar preview of README.md content.",
+    "action": "click [981] where [981] is README.md",
+    "environmental_dynamics": "Navigated to the dedicated README.md file view, replacing the main content area with the full rendered markdown and file-specific actions such as 'Copy file path', 'Replace', 'Delete', and file navigation links."
+  },
+  {
+    "initial_state": "GitLab repository page showing the README.md file for the 'Website Redesign 2024' project, with the project navigation sidebar expanded.",
+    "action": "click [363] where [363] is CI/CD",
+    "environmental_dynamics": "The main content switched from the README.md view to the CI/CD Pipelines page, displaying tabs for All, Finished, Branches, and Tags, pipeline operations (Run pipeline, CI lint), and a message indicating there are currently no pipelines."
+  },
+  {
+    "initial_state": "GitLab Pipelines page for 'Byte Blaze / Website Redesign 2024' project, showing no pipelines present, with a visible 'Run pipeline' link.",
+    "action": "click [619] where [619] is Run pipeline",
+    "environmental_dynamics": "The page transitioned to the 'Run pipeline' form, displaying options to select branch/tags, specify variables, and initiate or cancel a pipeline run."
+  },
+  {
+    "initial_state": "GitLab 'Run pipeline' page for the 'Website Redesign 2024' project, with a button labeled 'master' for branch selection visible and collapsed.",
+    "action": "click [585] where [585] is master",
+    "environmental_dynamics": "Clicking the 'master' button opened a dropdown menu displaying available branches, with the 'master' branch menu expanded and a search box for branches visible."
+  },
+  {
+    "initial_state": "GitLab 'Run pipeline' page for 'Website Redesign 2024' with the branch selection dropdown menu ('master') expanded and showing available branch/tag options.",
+    "action": "click [712] where [712] is master",
+    "environmental_dynamics": "The branch selection menu was closed and the 'master' branch button became focused, indicating the selection or confirmation of that branch/tag for the new pipeline run."
+  },
+  {
+    "initial_state": "GitLab 'Run pipeline' page for the 'Website Redesign 2024' project, with a visible form to run a pipeline on a selected branch or tag and a 'Run pipeline' button.",
+    "action": "click [622] where [622] is Run pipeline",
+    "environmental_dynamics": "After clicking 'Run pipeline', the page transitioned to a pipeline status page, displaying details about the initialized pipeline run, job information, commit SHA, and a link to the commit, while the To-Do List count incremented by one."
+  }
+]

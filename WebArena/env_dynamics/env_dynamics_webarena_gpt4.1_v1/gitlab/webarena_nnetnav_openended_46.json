@@ -1,0 +1,197 @@
+[
+  {
+    "initial_state": "GitLab 'Projects' dashboard page listing various projects and showing a 'New project' button.",
+    "action": "click [248] where [248] is New project",
+    "environmental_dynamics": "The browser navigated to the 'Create new project' page, displaying options for creating a blank project, using a template, or importing a project."
+  },
+  {
+    "initial_state": "GitLab new project page offering options to create a blank project, create from template, or import project.",
+    "action": "click [244] where [244] is Create from template Create a project pre-populated with the necessary files to get you started quickly.",
+    "environmental_dynamics": "The main content updated to display available project templates, including template categories, descriptions, and options to use or preview each template."
+  },
+  {
+    "initial_state": "GitLab new project template selection page with many templates listed, none of the 'Use template' radio buttons selected.",
+    "action": "click [390] where [390] is Use template",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "GitLab 'Create from template' page for starting a new project, with a list of many project templates and their 'Use template' options visible.",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page was scrolled down, likely bringing additional template options further into view."
+  },
+  {
+    "initial_state": "GitLab 'New Project' page showing a list of available project templates, each with an unchecked 'Use template' radio button.",
+    "action": "click [390] where [390] is Use template",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "GitLab 'Create from template' new project page with a list of project templates displayed, main content at the top of the template list.",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page scrolled down, making additional templates further down the list more visible in the main area."
+  },
+  {
+    "initial_state": "GitLab 'New Project' page with a list of project templates, each having an unchecked 'Use template' radio button.",
+    "action": "click [390] where [390] is Use template",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "GitLab new project creation page displaying a list of project templates, starting from the top of the template selection list.",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page scrolled down, revealing more of the project template options in the list."
+  },
+  {
+    "initial_state": "GitLab 'New Project' page displaying a list of project templates, each with an associated 'Use template' radio button (all unchecked).",
+    "action": "click [390] where [390] is Use template",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "GitLab 'New Project' page displaying a list of project templates, with many templates and associated 'Use template' radios and 'Preview' links visible",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page scrolled down, potentially revealing additional template options or content further down the list."
+  },
+  {
+    "initial_state": "GitLab 'Create from template' project creation page displaying various template options with none selected.",
+    "action": "click [390] where [390] is Use template",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "GitLab 'New Project' page with a list of project templates, starting from 'Ruby on Rails' at the top of the template list.",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page scrolled down, revealing additional templates further down the list such as 'Pages/Plain HTML', 'Pages/GitBook', 'Pages/Hexo', and others, making them visible in the viewport."
+  },
+  {
+    "initial_state": "GitLab new project creation page showing a list of project templates, each with a 'Use template' radio button unchecked.",
+    "action": "click [390] where [390] is Use template",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "GitLab 'Create from template' page showing a list of project templates, with the top of the template list visible.",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page scrolled down, revealing more templates and content further down the 'Create from template' list."
+  },
+  {
+    "initial_state": "GitLab new project creation page showing a list of project templates, none of the 'Use template' radio buttons selected.",
+    "action": "click [366] where [366] is Use template",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "GitLab 'Create from template' page with a long list of project templates and associated controls visible near the top.",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page scrolled down, revealing more project template options that were previously out of view."
+  },
+  {
+    "initial_state": "GitLab 'New Project' page displaying a list of project templates, each with an unchecked 'Use template' radio button.",
+    "action": "click [390] where [390] is Use template",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "GitLab 'Create from template' project creation page displaying a list of starter project templates, with multiple template options visible",
+    "action": "scroll [down]",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "GitLab 'Create from template' project creation page with a list of project templates and 'Use template' radio buttons unchecked.",
+    "action": "click [414] where [414] is Use template",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "GitLab 'New Project' page with a list of project templates and preview/use template options, scroll position near the top.",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page content scrolled down, revealing additional template options and associated actions further down the list."
+  },
+  {
+    "initial_state": "GitLab new project page showing multiple project templates, with each template having an associated unchecked 'Use template' radio button.",
+    "action": "click [498] where [498] is Use template",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "GitLab 'Create from template' page with a long list of project templates, starting near the top of the template section.",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page scrolled down, revealing more project templates lower in the list that were previously off-screen."
+  },
+  {
+    "initial_state": "GitLab 'Create from template' page showing a list of project templates, each with an unchecked 'Use template' radio button.",
+    "action": "click [390] where [390] is Use template",
+    "environmental_dynamics": "The template selection interface was replaced by a project creation form for the 'NodeJS Express' template, with fields for project name, URL, slug, description, and visibility, allowing the user to configure and create the new project."
+  },
+  {
+    "initial_state": "GitLab 'New Project' page with the 'Project name' textbox focused and empty.",
+    "action": "type [733] [express-collab-demo] where [733] is Project name",
+    "environmental_dynamics": "The text 'express-collab-demo' was entered into the 'Project name' textbox, which now displays this value."
+  },
+  {
+    "initial_state": "GitLab new project creation page with the 'Project slug' textbox empty and focused.",
+    "action": "type [746] [express-collab-demo] where [746] is Project slug",
+    "environmental_dynamics": "The 'Project slug' textbox is now filled with the text 'express-collab-demoexpress-collab-demo', indicating the typed content was appended to an already filled slug."
+  },
+  {
+    "initial_state": "GitLab new project creation page with the 'Project description (optional)' textbox empty and not focused.",
+    "action": "type [759] [A collaborative Express.js demo project for experimentation and contribution.] where [759] is Project description (optional)",
+    "environmental_dynamics": "The 'Project description (optional)' textbox is now populated with 'A collaborative Express.js demo project for experimentation and contribution.' and is focused."
+  },
+  {
+    "initial_state": "GitLab new project creation page with project details filled in, including project name, slug, description, and visibility, and 'Create project' button visible.",
+    "action": "click [790] where [790] is Create project",
+    "environmental_dynamics": "Upon clicking the 'Create project' button, the page transitioned to an 'Import in progress' screen for the 'express-collab-demo' project, showing project navigation and status that the repository import is underway."
+  },
+  {
+    "initial_state": "GitLab project page showing 'Import in progress' status for 'express-collab-demo', with a main section telling the user to wait for the import and to refresh as needed.",
+    "action": "press [F5]",
+    "environmental_dynamics": "The page refreshed and the import completed; the project page now shows repository files, project details, recent commits, and alert banners confirming successful import and additional repository setup instructions."
+  },
+  {
+    "initial_state": "GitLab project repository main page for 'express-collab-demo', showing the file list including 'README.md' and a preview of its rendered contents in the main area.",
+    "action": "click [1009] where [1009] is README.md",
+    "environmental_dynamics": "The view changed from the general repository file list and project overview to a dedicated page displaying the full 'README.md' file with options to view, copy, or download the file, its size, and source."
+  },
+  {
+    "initial_state": "GitLab project page displaying the README.md file in the 'express-collab-demo' repository, with navigation links and alert banners visible.",
+    "action": "click [297] where [297] is Repository",
+    "environmental_dynamics": "The page navigated from the specific README.md file view to the overview page for the repository, displaying the file list, repository navigation tabs, and a table of project files and directories."
+  },
+  {
+    "initial_state": "GitLab project repository file listing page with various files including package.json visible in the table.",
+    "action": "click [898] where [898] is package.json",
+    "environmental_dynamics": "The contents of package.json were opened and displayed in the main section, replacing the file listing with the file viewer for package.json."
+  },
+  {
+    "initial_state": "GitLab repository file view page showing the package.json file in the 'express-collab-demo' project, with file content and navigation options visible.",
+    "action": "click [1081] where [1081] is History",
+    "environmental_dynamics": "The page navigated from the package.json file view to the 'Commits' (history) page for the repository, displaying a list of recent commits and associated metadata."
+  },
+  {
+    "initial_state": "GitLab project commits page for express-collab-demo, showing a list of recent commits with details for each commit.",
+    "action": "click [670] where [670] is Initialized from 'NodeJS Express' project template",
+    "environmental_dynamics": "The browser navigated to the detailed view of the commit 'Initialized from NodeJS Express project template', displaying commit metadata, file change summaries, and file diffs for .gitignore, .gitpod.yml, .node-version, Dockerfile, and README.md."
+  },
+  {
+    "initial_state": "GitLab commit page with a file list, including a visible link to 'Dockerfile'",
+    "action": "click [1703] where [1703] is Dockerfile ",
+    "environmental_dynamics": "The 'Dockerfile' file content area became visible and focused, displaying the file's lines and changes for this commit."
+  },
+  {
+    "initial_state": "GitLab commit detail page for 'Initialized from NodeJS Express project template', with a list of changed files including a visible link for 'README.md'.",
+    "action": "click [1913] where [1913] is README.md ",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "GitLab commit details page with a visible button to add a comment to a specific line in the README.md diff table.",
+    "action": "click [1947] where [1947] is Add a comment to this line",
+    "environmental_dynamics": "A comment input box with formatting options has appeared for the selected line, allowing the user to write and submit a comment on this specific line of the diff."
+  },
+  {
+    "initial_state": "GitLab commit details page with the comment input box focused and empty at the bottom of the README.md diff view.",
+    "action": "type [5875] [Great start! Consider adding a section about contributing guidelines so newcomers can easily participate.] where [5875] is Write a comment or drag your files here\u2026",
+    "environmental_dynamics": "A comment was typed into the comment box for the README.md diff, reading 'Great start! Consider adding a section about contributing guidelines so newcomers can easily participate.'"
+  },
+  {
+    "initial_state": "GitLab commit page with a comment box containing a comment draft, and the 'Comment' button visible but not yet pressed.",
+    "action": "click [5912] where [5912] is Comment",
+    "environmental_dynamics": "The drafted comment was submitted and is now posted under the relevant section, showing the comment text and author with options to reply, react, edit, or take more actions."
+  },
+  {
+    "initial_state": "GitLab commit detail page for 'Initialized from NodeJS Express project template', showing a diff for multiple files including .gitignore and .gitpod.yml, with .gitpod.yml listed in the file sidebar.",
+    "action": "click [1525] where [1525] is .gitpod.yml ",
+    "environmental_dynamics": "The detailed diff view for the file .gitpod.yml became focused and visible, displaying its line-by-line changes in the main content area."
+  }
+]

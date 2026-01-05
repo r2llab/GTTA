@@ -1,0 +1,132 @@
+[
+  {
+    "initial_state": "Product showcase page of One Stop Market with a list of items, cart summary, and footer section containing newsletter subscription form",
+    "action": "click [1850] where [1850] is Subscribe",
+    "environmental_dynamics": "The newsletter subscription form became focused and the 'Subscribe' button was clicked, awaiting a confirmation or a response."
+  },
+  {
+    "initial_state": "One Stop Market product showcase homepage with multiple product listings",
+    "action": "click [1760] where [1760] is Lobster Cobbler Pot Pie - Gourmet Frozen Seafood Appetizers (Set of 8 Trays)",
+    "environmental_dynamics": "Navigated to the detailed page for 'Lobster Cobbler Pot Pie - Gourmet Frozen Seafood Appetizers (Set of 8 Trays)', highlighting product information, gallery, and interactions like 'Add to Cart' button."
+  },
+  {
+    "initial_state": "Product page for Lobster Cobbler Pot Pie - Gourmet Frozen Seafood Appetizers (Set of 8 Trays)",
+    "action": "click [1543] where [1543] is Add to Wish List",
+    "environmental_dynamics": "The page navigated to the 'My Wish List' page, showing a confirmation alert that the product has been added to the wish list along with a list of current wish list items."
+  },
+  {
+    "initial_state": "My Wish List page with 2 items",
+    "action": "click [1594] where [1594] is Remove item",
+    "environmental_dynamics": "The number of items in the Wish List decreased to 1, and an alert message confirmed the removal of 'Lobster Cobbler Pot Pie - Gourmet Frozen Seafood Appetizers (Set of 8 Trays)'."
+  },
+  {
+    "initial_state": "My Wish List page showing 1 wishlisted item with a 'Remove This Item' button",
+    "action": "click [1687] where [1687] is \ue616 Remove This Item",
+    "environmental_dynamics": "The wishlisted item was removed, resulting in a message indicating 'You have no items in your wish list.'"
+  },
+  {
+    "initial_state": "User on their My Wish List in their account with a 'Welcome, Emma Lopez!' greeting and an alert at the top regarding an item removal from the wish list.",
+    "action": "click [1522] where [1522] is My Account",
+    "environmental_dynamics": "The page changed to 'My Account' page, displaying account information, contact details, recent orders table, and different navigational links."
+  },
+  {
+    "initial_state": "My Account page on an e-commerce website, displaying account information, order history, and other account management options",
+    "action": "click [1640] where [1640] is ",
+    "environmental_dynamics": "The browser navigated to the 'My Orders' section, showing a detailed table of order history including order numbers, dates, totals, statuses, and actions."
+  },
+  {
+    "initial_state": "My Orders page displaying orders from page 1 with items 1 to 10 of 37 total",
+    "action": "click [1645] where [1645] is \ue608 Page Next",
+    "environmental_dynamics": "The page scrolled and updated to display orders from page 2, showing items 11 to 20 of 37 total with new order details."
+  },
+  {
+    "initial_state": "Browser displaying 'My Orders' page with a list of completed orders",
+    "action": "click [1573] where [1573] is View Order",
+    "environmental_dynamics": "The browser navigated to a detailed view of a specific order (Order # 000000174), showing items, pricing, and shipping details."
+  },
+  {
+    "initial_state": "Order confirmation page showing details of order #000000174",
+    "action": "click [1502] where [1502] is Reorder",
+    "environmental_dynamics": "Navigated to a new page titled 'Shopping Cart', displaying various items and controls for managing the shopping cart."
+  },
+  {
+    "initial_state": "Shopping Cart page showing cart items summary, including links and buttons to proceed with checkout or continue shopping.",
+    "action": "click [1572] where [1572] is \ue617Continue Shopping",
+    "environmental_dynamics": "Moved to the product showcase page displaying various products with 'Add to Cart' and 'Add to Wish List' options."
+  },
+  {
+    "initial_state": "One Stop Market product page showcasing multiple products",
+    "action": "click [1577] where [1577] is Pre-baked Gingerbread House Kit Value Pack, 17 oz., Pack of 2, Total 34 oz.",
+    "environmental_dynamics": "Navigated to a detailed product page for the 'Pre-baked Gingerbread House Kit Value Pack, 17 oz., Pack of 2, Total 34 oz.' displaying item details, images, and a 'Qty' control for adding to the cart."
+  },
+  {
+    "initial_state": "A product page for a gingerbread house kit, displaying product details and options to add to cart and wish list.",
+    "action": "click [1645] where [1645] is Add to Wish List",
+    "environmental_dynamics": "The user was navigated to the My Wish List page with a confirmation message displayed that the gingerbread house kit has been added to the wish list."
+  },
+  {
+    "initial_state": "My Wish List page, displaying two items",
+    "action": "click [1622] where [1622] is Remove item",
+    "environmental_dynamics": "The page content was replaced with a 404 error message indicating that the requested page was not found."
+  },
+  {
+    "initial_state": "404 Not Found page with sections like 'My Account', 'My Wish List', 'Recently Ordered', and 'My Wish List' 2 items listed",
+    "action": "click [1626] where [1626] is My Wish List",
+    "environmental_dynamics": "The 'My Wish List' section gained visibility after clicking the 'My Wish List' heading."
+  },
+  {
+    "initial_state": "A 404 Not Found page with a list of navigation items and a message about the page not being found",
+    "action": "click [1572] where [1572] is Store Home",
+    "environmental_dynamics": "Navigated to the 'Store Home', displaying a product showcase page with multiple product listings and navigation options."
+  },
+  {
+    "initial_state": "One Stop Market homepage with a list of product showcases",
+    "action": "click [1629] where [1629] is 12 \u00a0Reviews",
+    "environmental_dynamics": "A product details page for 'V8 +Energy, Healthy Energy Drink' opened, displaying product reviews, images, and purchase options."
+  },
+  {
+    "initial_state": "Product page for 'V8 +Energy, Healthy Energy Drink, Steady Energy from Black and Green Tea, Pomegranate Blueberry, 8 Ounce Can, Pack of 24'",
+    "action": "hover [1841] where [1841] is Reviews (12)",
+    "environmental_dynamics": "The 'Reviews (12)' tab was hovered over, potentially highlighting it or displaying additional information related to the reviews."
+  },
+  {
+    "initial_state": "Product detail page for V8 +Energy Healthy Energy Drink, with cart count showing 7 items, and a 'Add to Cart' button present",
+    "action": "click [1643] where [1643] is Add to Cart",
+    "environmental_dynamics": "The 'Add to Cart' button's text changed to 'Added', indicating the product was successfully added to the cart, and the cart count updated to 8 items."
+  },
+  {
+    "initial_state": "Product page for V8 +Energy drink with a navigation tab for Reviews (12) in a non-expanded state",
+    "action": "click [1841] where [1841] is Reviews (12)",
+    "environmental_dynamics": "The 'Reviews (12)' tab expanded, displaying detailed customer reviews for the product."
+  },
+  {
+    "initial_state": "Product page for V8 +Energy, including a customer review section and a form to submit a review",
+    "action": "click [2163] where [2163] is Submit Review",
+    "environmental_dynamics": "The review form highlighted a required field error message, indicating the need to fill in all mandatory fields before submission."
+  },
+  {
+    "initial_state": "Product page for V8 +Energy drink with a user logged in and reviews section visible",
+    "action": "click [2182] where [2182] is Subscribe",
+    "environmental_dynamics": "The user's focus was redirected to the newsletter subscription field, and the cursor is now placed within it, indicating that the Subscribe button may have triggered a newsletter subscription prompt."
+  },
+  {
+    "initial_state": "Product page for V8 +Energy, Healthy Energy Drink, showing customer reviews and providing a review submission section",
+    "action": "click [2155] where [2155] is ",
+    "environmental_dynamics": "The 'Summary' textbox in the review submission section became focused and ready for input."
+  },
+  {
+    "initial_state": "Product page for V8 +Energy, Healthy Energy Drink, with an active review form that requires a summary and review text, with the summary field being unfocused.",
+    "action": "type [2155] [Great taste, but disappointed with the recent quality of product] where [2155] is Summary*",
+    "environmental_dynamics": "The summary field in the review form was filled with the text 'Great taste, but disappointed with the recent quality of product' and gained focus."
+  },
+  {
+    "initial_state": "Product page for V8 +Energy, Healthy Energy Drink, displaying customer reviews and a summary section for adding a new review",
+    "action": "click [2163] where [2163] is Submit Review",
+    "environmental_dynamics": "A submission confirmation appeared, indicating that the review was successfully added and the review form was reset."
+  },
+  {
+    "initial_state": "V8 +Energy product page with customer reviews section expanded",
+    "action": "Attempt to perfom \"click\" on element \"[1850]\" but no matching element found. Please check the observation more carefully.",
+    "environmental_dynamics": "No change."
+  }
+]

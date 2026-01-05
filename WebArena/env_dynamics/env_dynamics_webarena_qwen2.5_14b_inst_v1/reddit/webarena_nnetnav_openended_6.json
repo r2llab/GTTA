@@ -1,0 +1,197 @@
+[
+  {
+    "initial_state": "Postmill homepage with sections for forums, wiki, notifications, submit, and featured forums",
+    "action": "click [117] where [117] is Submissions",
+    "environmental_dynamics": "The page state remained unchanged as clicking the 'Submissions' link likely did not trigger a navigation or significant dynamic update within the observed accessibility tree."
+  },
+  {
+    "initial_state": "Postmill homepage with featured forums and submission options",
+    "action": "click [62] where [62] is Submit",
+    "environmental_dynamics": "The page transitioned to a 'Create submission' form with options for URL/Image upload, title and body input fields, and a 'Create submission' button."
+  },
+  {
+    "initial_state": "Create submission page with form inputs and a 'Create submission' button",
+    "action": "click [395] where [395] is Create submission",
+    "environmental_dynamics": "An alert appeared indicating that a required field is missing, and the title input field gained a focused state with an error message."
+  },
+  {
+    "initial_state": "Create submission page with an empty title field requiring input",
+    "action": "type [137] [Sample Fitness Routine] where [137] is Title This field is required.",
+    "environmental_dynamics": "The title field now contains the text 'Sample Fitness Routine'"
+  },
+  {
+    "initial_state": "Create submission page with a combobox for selecting a forum and a 'Create submission' button which is not focused",
+    "action": "click [395] where [395] is Create submission",
+    "environmental_dynamics": "The 'Create submission' button was clicked, but the page did not transition and no changes were visible, except the combobox was now focused."
+  },
+  {
+    "initial_state": "Create submission page with initial text inputs for title and forum selection",
+    "action": "type [142] [Check out this fantastic new running routine! ] where [142] is ",
+    "environmental_dynamics": "The text in the body textbox was updated to 'Check out this fantastic new running routine!', and the textbox gained focus for further editing."
+  },
+  {
+    "initial_state": "Create submission page on a forum site, with a form for creating a submission with fields such as URL, title, body, and forum selection.",
+    "action": "click [395] where [395] is Create submission",
+    "environmental_dynamics": "The combobox for forum selection became focused and expanded, allowing the user to select a forum option."
+  },
+  {
+    "initial_state": "Create submission page with a dropdown menu labeled 'Choose one\u2026' closed",
+    "action": "click [378] where [378] is Choose one\u2026",
+    "environmental_dynamics": "The 'Choose one\u2026' combobox expanded to reveal a list of forum options for selection."
+  },
+  {
+    "initial_state": "Create submission page with a dropdown menu for selecting a forum, currently displaying 'Choose one\u2026'",
+    "action": "click [477] where [477] is Connecticut",
+    "environmental_dynamics": "The selected value in the forum combobox changed to 'Connecticut', and the dropdown menu closed."
+  },
+  {
+    "initial_state": "Create submission form visible with pre-filled fields for title and body",
+    "action": "click [395] where [395] is Create submission",
+    "environmental_dynamics": "The form submission led to a new page displaying the submitted content titled 'Sample Fitness Routine', showing comments and interaction options such as upvoting and downvoting."
+  },
+  {
+    "initial_state": "Sample Fitness Routine page with sections for main content and comments, no comments visible",
+    "action": "click [145] where [145] is No comments",
+    "environmental_dynamics": "No change"
+  },
+  {
+    "initial_state": "Sample Fitness Routine page with a textbox for comments and a checkbox for formatting help",
+    "action": "click [185] where [185] is ",
+    "environmental_dynamics": "The formatting help checkbox became focused and checked when clicked, expanding to reveal a table showing various Markdown syntax examples."
+  },
+  {
+    "initial_state": "Sample Fitness Routine page with a textbox for comments idle",
+    "action": "type [178] [Great routine, thanks for sharing! ] where [178] is Comment",
+    "environmental_dynamics": "The comment textbox is now populated with the text 'Great routine, thanks for sharing!', and a preview of the comment is visible below the textbox."
+  },
+  {
+    "initial_state": "A page displaying a sample fitness routine with a comment section where the user is composing a comment",
+    "action": "click [318] where [318] is Post",
+    "environmental_dynamics": "The composed comment was posted as a new comment thread, with the comment section now showing the posted comment and associated actions like 'Reply' and 'Edit'."
+  },
+  {
+    "initial_state": "Page displaying a sample fitness routine with a single comment thread",
+    "action": "click [189] where [189] is Reply",
+    "environmental_dynamics": "The 'Reply' link became clickable and is now focused, indicating that a reply section has appeared below the comment thread."
+  },
+  {
+    "initial_state": "View of a fitness routine post, with a comment thread including a comment by MarvelsGrantMan136 and a reply input form below.",
+    "action": "type [210] [This routine has been really helpful for my fitness goals! Keep them coming! ] where [210] is ",
+    "environmental_dynamics": "The checkbox for 'Formatting help' in the reply input form was checked and the textbox content was updated with the provided text 'This routine has been really helpful for my fitness goals! Keep them coming!'. The button to post the reply remains in a clickable state."
+  },
+  {
+    "initial_state": "Webpage displaying a fitness routine with a comment and a reply section where the comment text box and post button are available but the text box is unfocused.",
+    "action": "click [345] where [345] is Post",
+    "environmental_dynamics": "The text box for the comment is now focused and an alert 'Please fill in this field.' is displayed, indicating that the post button is active and requires input before submission."
+  },
+  {
+    "initial_state": "Viewing a forum page detailing a 'Sample Fitness Routine' with a comment section visible and a timestamp for the OP's comment",
+    "action": "click [178] where [178] is September 23, 2025 at 5:36:08 PM EDT",
+    "environmental_dynamics": "No change"
+  },
+  {
+    "initial_state": "Webpage displaying a fitness routine submission with a comment thread, including a hidden reply section",
+    "action": "type [210] [Really enjoy the cardio in this routine! ] where [210] is ",
+    "environmental_dynamics": "The checkbox for 'Formatting help' was checked and the text input area for the comment accepted the typed content 'Really enjoy the cardio in this routine!'. The post button remains clickable, allowing for submission of the comment."
+  },
+  {
+    "initial_state": "Page displaying a comment thread on a fitness routine submitted by MarvelsGrantMan136, with a comment box for replying",
+    "action": "click [345] where [345] is Post",
+    "environmental_dynamics": "The comment input textbox is now focused, and an alert message indicating that the field needs to be filled in appears."
+  },
+  {
+    "initial_state": "A page showing a sample fitness routine with comments and options to delete, retract upvote, downvote, or reply.",
+    "action": "click [138] where [138] is Edit",
+    "environmental_dynamics": "The page transitioned to an edit submission mode, displaying fields for URL, title, and body with formatting help and a preview section."
+  },
+  {
+    "initial_state": "Editing submission page for 'Sample Fitness Routine' with fields for URL, title, body, and preview",
+    "action": "click [267] where [267] is Edit submission",
+    "environmental_dynamics": "The submission was successfully edited, and the page transitioned to the published submission view with a confirmation alert displaying the edit status, modified comment section, and updated title section."
+  },
+  {
+    "initial_state": "A webpage displaying a fitness routine submission, showing the submitter 'MarvelsGrantMan136' and a comment section.",
+    "action": "type [142] [This routine has been updated with new exercises!  ] where [142] is MarvelsGrantMan136",
+    "environmental_dynamics": "The comment section updated with a new comment by 'MarvelsGrantMan136' stating 'This routine has been updated with new exercises!'"
+  },
+  {
+    "initial_state": "A page detailing a fitness routine submission with initial voting status",
+    "action": "click [174] where [174] is Downvote",
+    "environmental_dynamics": "The previously displayed 'Downvote' button changed to 'Retract downvote', and the vote count updated to '-1'."
+  },
+  {
+    "initial_state": "A web page displaying a sample fitness routine with a downvote count of -1 and a button labeled 'Retract downvote'.",
+    "action": "click [174] where [174] is Retract downvote",
+    "environmental_dynamics": "The downvote count changed to 0, and the button text updated to 'Downvote'."
+  },
+  {
+    "initial_state": "A postmill page displaying a fitness routine submission with an upvote count of 0",
+    "action": "click [164] where [164] is Upvote",
+    "environmental_dynamics": "The upvote button was clicked, updating the upvote count to '1' and changing the button text to 'Retract upvote'."
+  },
+  {
+    "initial_state": "A webpage displaying a fitness routine submission with a comment section and various navigation options",
+    "action": "click [326] where [326] is Post",
+    "environmental_dynamics": "The comment textbox gained focus and displays an alert message 'Please fill in this field.' indicating that the 'Post' button was clicked without any input in the textbox."
+  },
+  {
+    "initial_state": "A web page for a fitness routine submission, with a comment section including an original comment by the poster.",
+    "action": "click [357] where [357] is Reply",
+    "environmental_dynamics": "The 'Reply' link for the original comment became focused, expanding the comment section to include a new textbox and 'Post' button for replying."
+  },
+  {
+    "initial_state": "A fitness routine submission page with '1 comment' comments section, a message indicating the submission was edited, and a dismiss button for the message.",
+    "action": "type [186] [This routine has been really helpful for my fitness goals! Keep them coming!  ] where [186] is Comment",
+    "environmental_dynamics": "The comment textbox gained content 'This routine has been really helpful for my fitness goals! Keep them coming! ', and the textbox became focused."
+  },
+  {
+    "initial_state": "A postmill fitness routine page with a single comment thread and a 'Post' button for adding comments.",
+    "action": "click [326] where [326] is Post",
+    "environmental_dynamics": "A new comment from the original poster (OP) 'MarvelsGrantMan136' appeared, incrementing the comment count from 1 to 2 and adding a new section for the comment."
+  },
+  {
+    "initial_state": "A fitness routine submission page with comments section and 2 existing comments.",
+    "action": "click [189] where [189] is Reply",
+    "environmental_dynamics": "A comment input box appeared below the last comment, allowing the user to reply to the comment."
+  },
+  {
+    "initial_state": "Webpage displaying a single comment thread with a textbox and button for posting a reply",
+    "action": "click [345] where [345] is Post",
+    "environmental_dynamics": "An alert message 'Please fill in this field.' appeared, indicating that the comment textbox is required and must not be empty before posting."
+  },
+  {
+    "initial_state": "A web page displaying a fitness routine with comments section, including a reply link that was not focused.",
+    "action": "click [189] where [189] is Reply",
+    "environmental_dynamics": "The 'Reply' link in the comment section is now focused."
+  },
+  {
+    "initial_state": "A comment thread within a fitness routine discussion page on Postmill, with a comment from the original poster visible and the 'Hide \u2212' checkbox checked.",
+    "action": "type [181] [Thank you for your feedback! ] where [181] is ",
+    "environmental_dynamics": "The 'Hide \u2212' checkbox was deselected, and the text 'Thank you for your feedback!' was entered as a reply to the comment."
+  },
+  {
+    "initial_state": "A webpage displaying a sample fitness routine comment thread on Postmill, with the last comment from MarvelsGrantMan136 focused and a 'Reply' button available but unclicked.",
+    "action": "click [189] where [189] is Reply",
+    "environmental_dynamics": "A text box for entering a new reply, along with formatting options and a 'Post' button, became visible after clicking the 'Reply' button."
+  },
+  {
+    "initial_state": "A webpage containing a post with comments, including a reply section with a comment box and various controls like 'Hide' and 'Formatting help'",
+    "action": "type [210] [Awesome feedback, thanks!  ] where [210] is Formatting help +",
+    "environmental_dynamics": "The 'Formatting help +' checkbox next to the comment box has been toggled off, and the comment input area is now available for text input."
+  },
+  {
+    "initial_state": "A postmill forum page displaying a fitness routine submission with comment thread and post button visible",
+    "action": "click [345] where [345] is Post",
+    "environmental_dynamics": "An alert was displayed, indicating the need to fill in the comment field, and the comment field was focused."
+  },
+  {
+    "initial_state": "A webpage displaying a sample fitness routine with a single comment thread and a reply form.",
+    "action": "type [210] [Very useful and motivating! Thanks! ] where [210] is Formatting help +",
+    "environmental_dynamics": "The 'Formatting help +' checkbox in the reply form was checked, showing additional formatting options, and the text 'Very useful and motivating! Thanks! ' was typed into the comment textbox."
+  },
+  {
+    "initial_state": "Page displaying a single fitness routine with comments and reply section focused on the comment textbox",
+    "action": "click [345] where [345] is Post",
+    "environmental_dynamics": "An alert message 'Please fill in this field.' appeared, indicating that the post button cannot be clicked without filling the comment textbox."
+  }
+]

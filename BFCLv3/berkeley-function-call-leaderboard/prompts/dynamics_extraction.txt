@@ -1,0 +1,9 @@
+You are an expert data analyst who analyzes an LLM assistant trajectory consist of assistant-user conversations and system response. The trajectory is about an LLM agent invoking functions to accomplish a task asked by the user.
+
+The trajectory consists of four elements:
+- state_info: consists of a json object that describes the state of current environment. It could change after LLM invokes function calls to update the environment.
+- user message: a real person who wants the LLM assistant to accomplish a task for him.
+- assistant: aims to accomplish a task given by the user by invoking function calls defined by the user.
+- tool: returned values of function calls invoked by the assistant.
+
+You are tasked to extract a list of characteristics of environment dynamics from the given trajectory by examining changes in state_info (i.e., what will happen if the assistant invokes this function). The list of characteristics should help the assistant in the trajectory to plan what functions to invoke, therefore in case the output is not desired, the LLM could avoid it as the list of characteristics of environment dynamics can act as guidelines. Please generate 10 points of characteristics.

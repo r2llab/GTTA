@@ -1,0 +1,197 @@
+[
+  {
+    "initial_state": "OpenStreetMap homepage with search bar focused",
+    "action": "Attempt to perfom \"type\" on element \"[164]\" but no matching element found. Please check the observation more carefully.",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap homepage",
+    "action": "type [145] [attractions near CMU ] where [145] is Search",
+    "environmental_dynamics": "The search textbox was updated with the value 'attractions near CMU', and search results section was added, displaying 'No results found'."
+  },
+  {
+    "initial_state": "OpenStreetMap page showing attractions near CMU",
+    "action": "click [396] where [396] is Zoom Out",
+    "environmental_dynamics": "The page zoom level decreased, enabling 'Zoom Out' to be highlighted and the viewport adjusted accordingly to show a larger area."
+  },
+  {
+    "initial_state": "OpenStreetMap displaying attractions near CMU with no results found",
+    "action": "type [145] [attractions in Pittsburgh ] where [145] is Search",
+    "environmental_dynamics": "The search input was updated to 'attractions in Pittsburgh', and the search results section was populated with multiple listings of attractions in Pittsburgh."
+  },
+  {
+    "initial_state": "OpenStreetMap search results for 'attractions in Pittsburgh'",
+    "action": "click [482] where [482] is McAnulty Drive, Bluff, Pittsburgh, Allegheny County, Pennsylvania, 15219, United States",
+    "environmental_dynamics": "The page navigated to a detailed view of a specific attraction, displaying information like the attraction's coordinates, editing history, and associated tags."
+  },
+  {
+    "initial_state": "OpenStreetMap node details page",
+    "action": "click [109] where [109] is User Diaries",
+    "environmental_dynamics": "The browser navigated to the 'Users' Diaries' section of OpenStreetMap, and the heading changed to reflect the new page, which now displays 'No diary entries'."
+  },
+  {
+    "initial_state": "Users' Diaries | OpenStreetMap page with options to edit or view diaries",
+    "action": "click [67] where [67] is GPS Traces",
+    "environmental_dynamics": "The page navigated to 'Public GPS Traces | OpenStreetMap', displaying recent GPS trace uploads and options to upload a trace."
+  },
+  {
+    "initial_state": "Public GPS Traces page on OpenStreetMap",
+    "action": "click [104] where [104] is All Traces",
+    "environmental_dynamics": "The page navigated to the 'All Traces' section, displaying a list of all GPS traces available."
+  },
+  {
+    "initial_state": "Public GPS Traces page on OpenStreetMap",
+    "action": "click [110] where [110] is Upload a trace",
+    "environmental_dynamics": "The page transitioned to the OpenStreetMap login page, displaying fields for email and password entry along with a login button."
+  },
+  {
+    "initial_state": "OpenStreetMap login page with fields for email address and password",
+    "action": "type [110] [myemail@example.com ] where [110] is ",
+    "environmental_dynamics": "The email address textbox was populated with the value 'myemail@example.com', allowing the user to see their input."
+  },
+  {
+    "initial_state": "OpenStreetMap login page with login fields visible",
+    "action": "type [119] [mysecurepassword ] where [119] is ",
+    "environmental_dynamics": "The password field was filled with 'mysecurepassword', allowing for potential login submission."
+  },
+  {
+    "initial_state": "OpenStreetMap login page with input fields for email and password",
+    "action": "click [127] where [127] is Login",
+    "environmental_dynamics": "The login attempt initiated by clicking the 'Login' button resulted in an error message indicating that the login was unsuccessful, as the same login page remains visible with the existing elements unchanged."
+  },
+  {
+    "initial_state": "OpenStreetMap login page with email field populated",
+    "action": "type [119] [mysecurepassword ] where [119] is ",
+    "environmental_dynamics": "The password textbox was updated with the entered text 'mysecurepassword', allowing the user to input their password for authentication."
+  },
+  {
+    "initial_state": "OpenStreetMap login page with credentials entered",
+    "action": "click [127] where [127] is Login",
+    "environmental_dynamics": "The page attempted to log in, resulting in a feedback message stating 'Sorry, could not log in with those details.' indicating an unsuccessful login attempt."
+  },
+  {
+    "initial_state": "OpenStreetMap login page with email field filled and password field empty",
+    "action": "type [119] [mysecurepassword] where [119] is ",
+    "environmental_dynamics": "The password field was updated to display masked characters (\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022) after entering the password 'mysecurepassword', and it became focused."
+  },
+  {
+    "initial_state": "OpenStreetMap login page with login credentials entered",
+    "action": "click [127] where [127] is Login",
+    "environmental_dynamics": "The login process initiated, but an error message remains stating 'Sorry, could not log in with those details.' indicating the credentials were incorrect."
+  },
+  {
+    "initial_state": "OpenStreetMap login page with login form visible",
+    "action": "click [121] where [121] is Lost your password?",
+    "environmental_dynamics": "The page transitioned to the 'Lost password' section, displaying a prompt to enter the email address for password recovery and providing a reset password button."
+  },
+  {
+    "initial_state": "Lost password | OpenStreetMap with email input field visible",
+    "action": "type [106] [myemail@example.com ] where [106] is ",
+    "environmental_dynamics": "The email address 'myemail@example.com' was entered into the textbox, and an image displayed a message indicating 'Could not find that email address, sorry.'"
+  },
+  {
+    "initial_state": "Lost password | OpenStreetMap page with Email Address input field and Reset password button",
+    "action": "click [113] where [113] is Reset password",
+    "environmental_dynamics": "A loading indicator appeared briefly, suggesting that a request to reset the password is being processed, but no content change was noted in the user interface."
+  },
+  {
+    "initial_state": "Lost password | OpenStreetMap page with password reset options",
+    "action": "click [92] where [92] is Log In",
+    "environmental_dynamics": "The page transitioned to the login section, displaying fields for 'Email Address or Username' and 'Password' along with a 'Login' button and a link for 'Lost your password?'."
+  },
+  {
+    "initial_state": "OpenStreetMap login page with email and password fields",
+    "action": "type [119] [mysecurepassword ] where [119] is ",
+    "environmental_dynamics": "The password field was updated with the input 'mysecurepassword', allowing the user to prepare for login."
+  },
+  {
+    "initial_state": "OpenStreetMap login page with email and password fields",
+    "action": "click [121] where [121] is Login",
+    "environmental_dynamics": "A message appeared stating 'Sorry, could not log in with those details.' along with modifications in the layout of sections and labels, indicating an unsuccessful login attempt."
+  },
+  {
+    "initial_state": "OpenStreetMap login page with empty email and password fields",
+    "action": "type [116] [myemail@example.com] where [116] is ",
+    "environmental_dynamics": "The email address textbox was populated with the value 'myemail@example.com', and it is now focused, allowing for further input."
+  },
+  {
+    "initial_state": "OpenStreetMap login page with email and password fields visible",
+    "action": "type [119] [mysecurepassword ] where [119] is Password:",
+    "environmental_dynamics": "The Password textbox received input, with the content changed to 'mysecurepassword', while other interface elements remain unchanged."
+  },
+  {
+    "initial_state": "OpenStreetMap login page with login fields visible",
+    "action": "click [127] where [127] is Login",
+    "environmental_dynamics": "After clicking the 'Login' button, a loading animation appeared indicating that the login process is being initiated."
+  },
+  {
+    "initial_state": "OpenStreetMap login page with login form displayed",
+    "action": "click [121] where [121] is Lost your password?",
+    "environmental_dynamics": "The page navigated to the 'Lost password' section, displaying a new heading 'Forgotten Password?' and a form where the user can enter their email to reset their password."
+  },
+  {
+    "initial_state": "Lost password | OpenStreetMap page with email input field",
+    "action": "type [106] [myemail@example.com ] where [106] is ",
+    "environmental_dynamics": "The textbox received the input 'myemail@example.com', and an error message displayed stating 'Could not find that email address, sorry.', indicating that the provided email address is not recognized."
+  },
+  {
+    "initial_state": "Lost password | OpenStreetMap page with fields for email address and a 'Reset password' button",
+    "action": "click [113] where [113] is Reset password",
+    "environmental_dynamics": "A loading indicator appeared while processing the password reset request."
+  },
+  {
+    "initial_state": "Lost password | OpenStreetMap page with an empty email textbox",
+    "action": "type [112] [myemail@example.com] where [112] is ",
+    "environmental_dynamics": "The email textbox was filled with the value 'myemail@example.com', which is now visible and focused."
+  },
+  {
+    "initial_state": "Lost password | OpenStreetMap with email input filled",
+    "action": "click [113] where [113] is Reset password",
+    "environmental_dynamics": "The email address was cleared from the textbox after clicking the 'Reset password' button."
+  },
+  {
+    "initial_state": "Lost password | OpenStreetMap page with input fields and error message visible",
+    "action": "go_back",
+    "environmental_dynamics": "The page navigated back to the previous page the user was viewing."
+  },
+  {
+    "initial_state": "Lost password | OpenStreetMap page with input fields",
+    "action": "type [112] [newemail@example.com ] where [112] is ",
+    "environmental_dynamics": "The email address 'newemail@example.com' was entered into the textbox."
+  },
+  {
+    "initial_state": "Lost password | OpenStreetMap page with reset password button visible",
+    "action": "click [113] where [113] is Reset password",
+    "environmental_dynamics": "A loading indication appeared, suggesting that the password reset process was initiated after clicking the 'Reset password' button."
+  },
+  {
+    "initial_state": "Lost password | OpenStreetMap page with input fields for email",
+    "action": "type [112] [newemail@example.com ] where [112] is ",
+    "environmental_dynamics": "The text 'newemail@example.com' was entered into the email address textbox."
+  },
+  {
+    "initial_state": "Lost password | OpenStreetMap page with email input field",
+    "action": "click [113] where [113] is Reset password",
+    "environmental_dynamics": "A loading indicator appeared on the screen while the password reset request was processed."
+  },
+  {
+    "initial_state": "Lost password | OpenStreetMap page with email address field visible",
+    "action": "type [112] [newemail@example.com ] where [112] is ",
+    "environmental_dynamics": "The textbox for the email address has been filled with the email 'newemail@example.com'."
+  },
+  {
+    "initial_state": "Lost password | OpenStreetMap page, focused on the 'Reset password' button",
+    "action": "click [113] where [113] is Reset password",
+    "environmental_dynamics": "The button labeled 'Reset password' was clicked, which likely triggered a response to process the password reset request, but there is no visible change in the current state of the browser."
+  },
+  {
+    "initial_state": "Lost password | OpenStreetMap page with email input field and reset password button visible",
+    "action": "type [112] [my_new_email@example.com ] where [112] is ",
+    "environmental_dynamics": "The email address 'my_new_email@example.com' was typed into the email address input field."
+  },
+  {
+    "initial_state": "Lost password | OpenStreetMap page with a visible 'Reset password' button",
+    "action": "click [113] where [113] is Reset password",
+    "environmental_dynamics": "A notification appeared indicating that the reset password link has been sent to the provided email address."
+  }
+]

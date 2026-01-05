@@ -1,0 +1,197 @@
+[
+  {
+    "initial_state": "Product listing page with multiple products, each having options to 'Add to Cart', 'Add to Wish List', and 'Add to Compare'. There are also navigation and account options on the top banner.",
+    "action": "click [1748] where [1748] is \ue61f Add to Compare",
+    "environmental_dynamics": "An alert message appears confirming that the product 'Tony Chachere's More Spice Creole Seasoning - 14 oz' has been added to the comparison list."
+  },
+  {
+    "initial_state": "One Stop Market homepage showcasing various products",
+    "action": "click [1897] where [1897] is Image",
+    "environmental_dynamics": "The browser navigated to the product page of 'Lobster Cobbler Pot Pie - Gourmet Frozen Seafood Appetizers (Set of 8 Trays)'."
+  },
+  {
+    "initial_state": "Product page for 'Lobster Cobbler Pot Pie - Gourmet Frozen Seafood Appetizers (Set of 8 Trays)' with a 'Add to Cart' button",
+    "action": "click [1574] where [1574] is Add to Cart",
+    "environmental_dynamics": "An alert message appeared confirming the product was added to the cart, and the 'My Cart' item count incremented from 4 to 5."
+  },
+  {
+    "initial_state": "Product detail page for Lobster Cobbler Pot Pie - Gourmet Frozen Seafood Appetizers (Set of 8 Trays), with various product information, review options, and links to other sections of the site",
+    "action": "click [1579] where [1579] is Add to Wish List",
+    "environmental_dynamics": "The page transitioned to the 'My Wish List' page, displaying the list of items in the wish list including the newly added item, Lobster Cobbler Pot Pie."
+  },
+  {
+    "initial_state": "My Wish List page with 3 items listed",
+    "action": "click [1605] where [1605] is Remove item",
+    "environmental_dynamics": "The page transitioned from 'My Wish List' to a '404 Not Found' page, and the number of items in the wish list is now 2, indicating one item was removed."
+  },
+  {
+    "initial_state": "404 Not Found page with information about a missing page, list of recent orders and wish list items",
+    "action": "click [1595] where [1595] is ",
+    "environmental_dynamics": "Navigated to a product page for 'Lobster Cobbler Pot Pie - Gourmet Frozen Seafood Appetizers (Set of 8 Trays)', showing product details, pricing, and options to add to cart or wishlist."
+  },
+  {
+    "initial_state": "Product page for 'Lobster Cobbler Pot Pie - Gourmet Frozen Seafood Appetizers (Set of 8 Trays)'",
+    "action": "click [1581] where [1581] is Add to Wish List",
+    "environmental_dynamics": "The browser navigated to 'My Wish List' page, where a confirmation message indicated that the product was added to the wish list and a list of two items is displayed, including the added product."
+  },
+  {
+    "initial_state": "An Amazon-like wish list page displaying 2 items",
+    "action": "click [1773] where [1773] is \ue616 Remove This Item",
+    "environmental_dynamics": "One item was removed from the wish list, reducing the total item count to 1."
+  },
+  {
+    "initial_state": "My Wish List page with 1 item listed",
+    "action": "click [1701] where [1701] is \ue616 Remove This Item",
+    "environmental_dynamics": "The item 'Lobster Cobbler Pot Pie - Gourmet Frozen Seafood Appetizers (Set of 8 Trays)' was removed from the wish list, resulting in the wish list being empty."
+  },
+  {
+    "initial_state": "My Wish List page showing no items with navigation links to various sections like My Account, My Orders, etc.",
+    "action": "click [1528] where [1528] is ",
+    "environmental_dynamics": "No change was observed, but the element [1528] 'My Wish List' was clicked, which may trigger actions not reflected in the accessibility tree."
+  },
+  {
+    "initial_state": "My Wish List page with a list of navigation options such as My Account, My Wish List, Sign Out, Compare Products, and Welcome message.",
+    "action": "click [1522] where [1522] is My Account",
+    "environmental_dynamics": "Navigated to the My Account page, displaying account information, contact details, recent orders, and account management options."
+  },
+  {
+    "initial_state": "My Account page showing personal and contact information as well as recent orders and account settings",
+    "action": "click [1542] where [1542] is ",
+    "environmental_dynamics": "No change. Clicking on a label does not affect the overall state of the page."
+  },
+  {
+    "initial_state": "My Account page displaying account information and recent orders.",
+    "action": "click [1641] where [1641] is My Orders",
+    "environmental_dynamics": "Navigated to 'My Orders' page displaying an order table with details such as order number, date, total, status, and actions."
+  },
+  {
+    "initial_state": "My Orders page with a list of past orders and options to view or reorder items",
+    "action": "click [1520] where [1520] is Reorder",
+    "environmental_dynamics": "The page transitioned to the shopping cart page displaying a summary of the selected items, their quantities, prices, and options to proceed with the checkout process."
+  },
+  {
+    "initial_state": "Shopping cart page displaying various product items with quantities, prices, subtotal, and option to move to wishlist, edit, or remove items.",
+    "action": "click [2078] where [2078] is ",
+    "environmental_dynamics": "A new row for shipping cost 'Shipping(Flat Rate - Fixed)' appeared below the subtotal, showing an increase in the Order Total to $1,616.30."
+  },
+  {
+    "initial_state": "Shopping Cart page with a list of items, including 'Kitsch Pro Dual Edge Brush and Comb, 2-in-1 Edge Control and Hair Brush, Hairline brush, 2 Pack'",
+    "action": "click [2082] where [2082] is Move to Wishlist",
+    "environmental_dynamics": "An alert message appeared indicating that 'Kitsch Pro Dual Edge Brush and Comb, 2-in-1 Edge Control and Hair Brush, Hairline brush, 2 Pack' has been moved to the wish list, and the total item count in the cart was reduced from 11 to 10."
+  },
+  {
+    "initial_state": "Shopping Cart page containing items with quantities and subtotal amounts",
+    "action": "click [2111] where [2111] is Move to Wishlist",
+    "environmental_dynamics": "One item ('Uttermost Volterra Crackled Taupe-Gray Ceramic Table Lamp') has been moved to the wishlist, reducing the item count in the cart, and the total and subtotal prices have been adjusted accordingly."
+  },
+  {
+    "initial_state": "Shopping Cart page with initially zero shipping cost",
+    "action": "click [2082] where [2082] is ",
+    "environmental_dynamics": "The 'Shipping(Flat Rate - Fixed)' row updated from $0.00 to $40.00, resulting in an increased 'Order Total' from $1,053.73 to $1,093.73."
+  },
+  {
+    "initial_state": "Shopping Cart page displaying a list of items including a rustic coat rack wall mounted shelf and plus size lingerie with a total count of 8 items",
+    "action": "click [2088] where [2088] is Remove item",
+    "environmental_dynamics": "The item 'NOZE Rustic Coat Rack Wall Mounted Shelf with 4 Hooks' was removed from the cart, reducing the total item count to 7."
+  },
+  {
+    "initial_state": "Shopping Cart page with summary and order details",
+    "action": "click [2031] where [2031] is Proceed to Checkout",
+    "environmental_dynamics": "Navigated to a new page titled 'Checkout', displaying the shipping address and available shipping methods."
+  },
+  {
+    "initial_state": "Checkout page with details of shipping address and shipping methods, focused on the 'Next' button",
+    "action": "click [816] where [816] is Next",
+    "environmental_dynamics": "The payment information section and the order summary dialog appeared, with the 'Place Order' button now visible for completing the checkout process."
+  },
+  {
+    "initial_state": "Checkout page with order summary and payment details visible",
+    "action": "click [1418] where [1418] is Place Order",
+    "environmental_dynamics": "The 'Place Order' button was clicked and is now focused, indicating a loading state while the order is being processed."
+  },
+  {
+    "initial_state": "Checkout page with user's payment details and order summary",
+    "action": "type [992] [credit card] where [992] is ",
+    "environmental_dynamics": "The user navigated to a 'Success Page' after entering 'credit card' as the payment method and placing the order."
+  },
+  {
+    "initial_state": "Thank you for your purchase! confirmation page",
+    "action": "click [1366] where [1366] is Continue Shopping",
+    "environmental_dynamics": "Returned to the homepage displaying product showcases and navigation menus, facilitating continuation of shopping."
+  },
+  {
+    "initial_state": "One Stop Market homepage with product showcases",
+    "action": "click [1748] where [1748] is \ue601 Add to Wish List",
+    "environmental_dynamics": "Navigated to the 'My Wish List' page indicating Tony Chachere's More Spice Creole Seasoning has been added to the wish list. The page now displays a summary of items in the wish list and options to update or share the wish list."
+  },
+  {
+    "initial_state": "A My Wish List page with 3 items, including Tony Chachere's More Spice Creole Seasoning, Uttermost Volterra Table Lamp, and Kitsch Dual Brush.",
+    "action": "click [1512] where [1512] is Remove item",
+    "environmental_dynamics": "The number of items decreased from 3 to 2 as Tony Chachere's More Spice Creole Seasoning was removed from the wish list, and a message was displayed confirming its removal."
+  },
+  {
+    "initial_state": "My Wish List page with details of 2 items, including Uttermost Volterra Crackled Taupe-Gray Ceramic Table Lamp",
+    "action": "click [1607] where [1607] is Image",
+    "environmental_dynamics": "Navigated to the product page for the Uttermost Volterra Crackled Taupe-Gray Ceramic Table Lamp, showing detailed product information and options for adding to cart or wishlist."
+  },
+  {
+    "initial_state": "Product detail page for 'Uttermost Volterra Crackled Taupe-Gray Ceramic Table Lamp' with the 'Details' tab selected",
+    "action": "click [1613] where [1613] is Reviews",
+    "environmental_dynamics": "The 'Details' tab was deselected and the 'Reviews' tab was selected, expanding the reviews section and displaying a form to submit a review."
+  },
+  {
+    "initial_state": "Product details page of 'Uttermost Volterra Crackled Taupe-Gray Ceramic Table Lamp' with a reviews tab opened",
+    "action": "click [1645] where [1645] is Rating \ue605\ue605\ue605 3 stars",
+    "environmental_dynamics": "The radio button for 3 stars in the review rating section became focused and checked."
+  },
+  {
+    "initial_state": "Product page for Uttermost Volterra Crackled Taupe-Gray Ceramic Table Lamp with review form partially filled",
+    "action": "type [1664] [Emma thinks this lamp gives a good amount of light and has a beautiful design, perfect for a night table in a child's bedroom. ] where [1664] is ",
+    "environmental_dynamics": "The 'Summary' field in the review form was populated with 'Emma thinks this lamp gives a good amount of light and has a beautiful design, perfect for a night table in a child's bedroom.'. The text field is now focused and marked as required, with an error message indicating that it cannot be empty."
+  },
+  {
+    "initial_state": "Product page for Uttermost Volterra Crackled Taupe-Gray Ceramic Table Lamp with active 'Reviews' section and review form elements being visible and required fields unchecked/focused.",
+    "action": "type [1669] [The lamp is sturdy, safe and does not have any sharp edges which makes it appropriate for a kid's room. ] where [1669] is Review*",
+    "environmental_dynamics": "The 'Review*' textbox was filled with the content 'The lamp is sturdy, safe and does not have any sharp edges which makes it appropriate for a kid's room.', indicating that a review text was entered by the agent."
+  },
+  {
+    "initial_state": "Product page for 'Uttermost Volterra Crackled Taupe-Gray Ceramic Table Lamp' with review tab open",
+    "action": "click [1421] where [1421] is ",
+    "environmental_dynamics": "No change"
+  },
+  {
+    "initial_state": "Product page for 'Uttermost Volterra Crackled Taupe-Gray Ceramic Table Lamp' with a product review form partially filled out and unfocused.",
+    "action": "click [1672] where [1672] is Submit Review",
+    "environmental_dynamics": "The review form became focused on the 'Summary' field after the 'Submit Review' button was clicked, indicating a reset or prospective input focus shift to complete the form."
+  },
+  {
+    "initial_state": "Product detail page for 'Uttermost Volterra Crackled Taupe-Gray Ceramic Table Lamp' with sections for reviews and product information.",
+    "action": "click [1440] where [1440] is Add to Wish List",
+    "environmental_dynamics": "Navigated to the My Wish List page, where the product was added and its details along with comments and options to edit or remove it were displayed in a list of items."
+  },
+  {
+    "initial_state": "My Wish List page with a list of items in wish list",
+    "action": "click [1514] where [1514] is ",
+    "environmental_dynamics": "No change"
+  },
+  {
+    "initial_state": "Wish List page with various items and navigation links available",
+    "action": "click [1603] where [1603] is ",
+    "environmental_dynamics": "No change"
+  },
+  {
+    "initial_state": "My Wish List page with a list of items and options to manipulate the wish list (e.g., remove items, add to cart, edit items, etc.)",
+    "action": "go_back",
+    "environmental_dynamics": "Returned to the previous page showing details of the 'Uttermost Volterra Crackled Taupe-Gray Ceramic Table Lamp'"
+  },
+  {
+    "initial_state": "Product page for 'Uttermost Volterra Crackled Taupe-Gray Ceramic Table Lamp' with a 'Add to Wish List' button",
+    "action": "click [1440] where [1440] is Add to Wish List",
+    "environmental_dynamics": "The product has been added to the wish list and the page transitions to the wish list page, displaying an alert confirming the addition and a list of items in the wish list."
+  },
+  {
+    "initial_state": "A My Wish List page with 2 items",
+    "action": "click [1459] where [1459] is Add to Cart",
+    "environmental_dynamics": "The number of items in the wish list decreased to 1, and an alert informed that 'Uttermost Volterra Crackled Taupe-Gray Ceramic Table Lamp' was added to the shopping cart."
+  }
+]

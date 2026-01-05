@@ -1,0 +1,197 @@
+[
+  {
+    "initial_state": "GitLab homepage with a visible search box and other project listings",
+    "action": "click [127] where [127] is ",
+    "environmental_dynamics": "The search bar expanded and is able to consume input, displaying default search results and suggestions."
+  },
+  {
+    "initial_state": "Projects dashboard showing various GitLab project lists and details",
+    "action": "type [968] [tech recruiter ] where [968] is Search GitLab",
+    "environmental_dynamics": "The search bar expanded to reveal 'Search for projects, issues, etc.' and input 'tech recruiter' was added, narrowing the displayed results to only those related to 'tech recruiter'."
+  },
+  {
+    "initial_state": "GitLab search results page with a specific search term, showing projects related to the search",
+    "action": "click [316] where [316] is Byte Blaze / byteblaze_tech_recruiter_project",
+    "environmental_dynamics": "Navigated to the project page 'Byte Blaze / byteblaze_tech_recruiter_project' which displays the project's details and files, including breadcrumb navigation and sidebar menu."
+  },
+  {
+    "initial_state": "GitLab repository page displaying issues, merge requests, and other project information",
+    "action": "click [352] where [352] is Merge requests",
+    "environmental_dynamics": "The page transitioned to the 'Merge requests' section, showing a heading that explains merge requests and a button to create new merge requests."
+  },
+  {
+    "initial_state": "GitLab merge requests page for Byte Blaze / byteblaze_tech_recruiter_project with a 'New merge request' link",
+    "action": "hover [599] where [599] is New merge request",
+    "environmental_dynamics": "No change, but the 'New merge request' link was hovered over, potentially altering its visual style (such as highlighting or underlining) to indicate focus."
+  },
+  {
+    "initial_state": "GitLab merge requests page for the Byte Blaze / byteblaze_tech_recruiter_project repository",
+    "action": "click [599] where [599] is New merge request",
+    "environmental_dynamics": "The page navigated to the 'New merge request' form, where fields for selecting source and target branches are visible."
+  },
+  {
+    "initial_state": "A GitLab page for creating a new merge request, with fields and buttons for selecting source and target branches.",
+    "action": "click [610] where [610] is byteblaze/byteblaze_tech_recruiter_project",
+    "environmental_dynamics": "The source branch button expanded, displaying a search box and a list of projects for selecting the source branch."
+  },
+  {
+    "initial_state": "GitLab page for creating a new merge request with the 'Source branch' and 'Target branch' sections both expanded",
+    "action": "click [656] where [656] is byteblaze/byteblaze_tech_recruiter_project",
+    "environmental_dynamics": "The 'Target branch' dropdown collapsed, while the 'Source branch' dropdown remained expanded."
+  },
+  {
+    "initial_state": "GitLab merge request creation page, showing options for selecting source and target branches",
+    "action": "click [674] where [674] is main",
+    "environmental_dynamics": "The 'main' target branch button expanded, displaying a list of branches for comparison."
+  },
+  {
+    "initial_state": "GitLab merge request creation page displaying source and target branch selection forms with target branch 'main' expanded",
+    "action": "click [676] where [676] is ",
+    "environmental_dynamics": "The 'main' target branch button became focused and its expansion state changed to False."
+  },
+  {
+    "initial_state": "Page for creating a new merge request on GitLab, with sections for source and target branches and a list of commits.",
+    "action": "click [649] where [649] is ",
+    "environmental_dynamics": "The list of branches for comparison expanded to display branches, showing a list of commits for the selected source branch."
+  },
+  {
+    "initial_state": "GitLab page for creating a new merge request with target and source branch selectors present",
+    "action": "click [674] where [674] is main",
+    "environmental_dynamics": "The target branch selector expanded, showing a list of branches to compare with the source branch."
+  },
+  {
+    "initial_state": "GitLab New Merge Request page",
+    "action": "click [695] where [695] is ",
+    "environmental_dynamics": "The target branch list item expanded to show commit details."
+  },
+  {
+    "initial_state": "GitLab merge request creation page with 'main' branch button collapsed",
+    "action": "click [674] where [674] is main",
+    "environmental_dynamics": "The 'main' branch button expanded, showing a 'Close' button and a searchbox for branch names, along with a list of branches."
+  },
+  {
+    "initial_state": "GitLab page for creating a new merge request with fields for selecting source and target branches",
+    "action": "click [713] where [713] is Compare branches and continue",
+    "environmental_dynamics": "An alert message appeared indicating that the form contains an error because source and target branches must be selected."
+  },
+  {
+    "initial_state": "GitLab page displaying the 'New merge request' form with open errors due to missing source and target branch selection",
+    "action": "Attempt to perfom \"hover\" on element \"[352]\" but no matching element found. Please check the observation more carefully.",
+    "environmental_dynamics": "No change"
+  },
+  {
+    "initial_state": "GitLab merge request creation page with source and target branch selection",
+    "action": "click [628] where [628] is Select source branch",
+    "environmental_dynamics": "The 'Select source branch' dropdown menu expanded, displaying a search box and a list of branches to choose from."
+  },
+  {
+    "initial_state": "Merge request creation page with a dropdown to select source and target branches",
+    "action": "click [809] where [809] is main",
+    "environmental_dynamics": "The 'main' branch was selected as the source branch, reducing the list of available branches."
+  },
+  {
+    "initial_state": "GitLab Merge Request creation page, showing errors due to lack of selected branches",
+    "action": "click [610] where [610] is byteblaze/byteblaze_tech_recruiter_project",
+    "environmental_dynamics": "The 'byteblaze/byteblaze_tech_recruiter_project' source branch button expanded, showing a dropdown menu with a search box for selecting the source project."
+  },
+  {
+    "initial_state": "GitLab 'New merge request' page with focused source and target branch selection",
+    "action": "click [674] where [674] is main",
+    "environmental_dynamics": "The target branch button expanded, showing a list of branches to select from, now allowing the user to choose a target branch."
+  },
+  {
+    "initial_state": "GitLab page for creating a new merge request, with focus on target branch selection",
+    "action": "click [676] where [676] is ",
+    "environmental_dynamics": "The target branch selection 'main' became focused and expanded, making it interactable and currently selected."
+  },
+  {
+    "initial_state": "GitLab new merge request page with a selection form for source and target branches",
+    "action": "click [674] where [674] is main",
+    "environmental_dynamics": "The target branch selection button expanded to reveal a list of branches along with a search box for filtering branches, and became focused."
+  },
+  {
+    "initial_state": "GitLab 'New merge request' page, showing form to create a merge request with visible branches and commits.",
+    "action": "click [606] where [606] is Source branch",
+    "environmental_dynamics": "The source branch dropdown menu was expanded to allow selection of a source branch."
+  },
+  {
+    "initial_state": "GitLab page for creating a new merge request with a source and target branch selection form, showing an error for unselected branches",
+    "action": "click [676] where [676] is ",
+    "environmental_dynamics": "The target branch dropdown expanded, showing an input field for searching branches and a list of available branches."
+  },
+  {
+    "initial_state": "New merge request page with source branch and target branch options, missing valid selection error",
+    "action": "click [720] where [720] is Compare branches and continue",
+    "environmental_dynamics": "The error message changed to 'You must select different branches' after clicking the 'Compare branches and continue' button."
+  },
+  {
+    "initial_state": "GitLab project page showing 'New merge request' form with merge requests link available",
+    "action": "click [165] where [165] is ",
+    "environmental_dynamics": "The merge requests link expanded, showing a dropdown menu with options 'Merge requests', 'Assigned to you 3', and 'Review requests for you 5'."
+  },
+  {
+    "initial_state": "Merge request creation page with 'main' and 'byteblaze/byteblaze_tech_recruiter_project' branches available for selection",
+    "action": "click [628] where [628] is main",
+    "environmental_dynamics": "The 'main' branch selection button expanded to allow more detailed branch selection and a search box appeared for filtering branches."
+  },
+  {
+    "initial_state": "GitLab merge request creation page with source and target branch selection",
+    "action": "click [673] where [673] is byteblaze/byteblaze_tech_recruiter_project",
+    "environmental_dynamics": "The target branch menu expanded, showing available branches for selection."
+  },
+  {
+    "initial_state": "A GitLab interface for creating a new merge request, with an error message indicating branches must be different and a target branch list opened.",
+    "action": "click [679] where [679] is Close",
+    "environmental_dynamics": "The target branch list was closed, removing the visible list of branches and the 'Close' button."
+  },
+  {
+    "initial_state": "GitLab merge request creation page with a selectable source branch",
+    "action": "click [610] where [610] is byteblaze/byteblaze_tech_recruiter_project",
+    "environmental_dynamics": "The source branch 'byteblaze/byteblaze_tech_recruiter_project' expanded to allow selection of further details."
+  },
+  {
+    "initial_state": "GitLab page for creating a new merge request",
+    "action": "click [691] where [691] is main",
+    "environmental_dynamics": "The target branch dropdown menu expanded, revealing additional options for selecting a target branch."
+  },
+  {
+    "initial_state": "Merge request creation page where source and target branches are selected",
+    "action": "click [673] where [673] is byteblaze/byteblaze_tech_recruiter_project",
+    "environmental_dynamics": "The target branch dropdown expanded, showing a selection of projects and branches, with a focused search box for project navigation."
+  },
+  {
+    "initial_state": "GitLab page for creating a new merge request with an error alert indicating branches must be different",
+    "action": "click [737] where [737] is Compare branches and continue",
+    "environmental_dynamics": "The error alert remained, but the 'Compare branches and continue' button was clicked, potentially triggering further form validation or actions related to continuing with the merge request."
+  },
+  {
+    "initial_state": "GitLab project page with a focused 'New merge request' form displaying source and target branch options",
+    "action": "click [75] where [75] is Skip to content",
+    "environmental_dynamics": "Navigated to the Dashboard where a list of projects is displayed, including specific project details such as name, ownership, and recent updates."
+  },
+  {
+    "initial_state": "GitLab Projects dashboard, showing a list of projects organized by alphabet, with a search bar prompting 'Search GitLab'.",
+    "action": "type [127] [tech recruiter ] where [127] is ",
+    "environmental_dynamics": "The search bar expanded and is displaying the partially typed text 'tech recruiter'."
+  },
+  {
+    "initial_state": "GitLab Projects dashboard showing a list of Byte Blaze owned projects and others",
+    "action": "click [316] where [316] is ",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "GitLab projects dashboard",
+    "action": "click [316] where [316] is ",
+    "environmental_dynamics": "No change"
+  },
+  {
+    "initial_state": "GitLab Projects page with a list of Byte Blaze projects including 'byteblaze_tech_recruiter_project', 'cloud-to-butt', 'dotfiles', and others.",
+    "action": "click [606] where [606] is ",
+    "environmental_dynamics": "The project list maintained its structure and content, with no specific project being selected or expanded, indicating the click on [606] did not trigger any further actions to visibly change the project details or display additional information."
+  },
+  {
+    "initial_state": "GitLab dashboard showing a list of Byte Blaze's projects, with details such as owner, description, and last updated time displayed",
+    "action": "click [495] where [495] is ",
+    "environmental_dynamics": "The list item corresponding to 'Byte Blaze / cloud-to-butt' was clicked and highlights it, but no additional changes or page transition occurred."
+  }
+]

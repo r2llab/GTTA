@@ -1,0 +1,197 @@
+[
+  {
+    "initial_state": "OpenStreetMap homepage with search box, navigation links, welcome message, and a visible 'Find directions between two points' link.",
+    "action": "click [149] where [149] is Find directions between two points",
+    "environmental_dynamics": "A directions panel appeared with input fields for 'From' and 'To', a transportation mode selector, and buttons for submission and reversing directions."
+  },
+  {
+    "initial_state": "OpenStreetMap page with a route planning section visible; the 'From' textbox is empty.",
+    "action": "type [158] [123 Main St, Pittsburgh, PA ] where [158] is From",
+    "environmental_dynamics": "The 'From' textbox in the route planning section is now filled with '123 Main St, Pittsburgh, PA' and is focused."
+  },
+  {
+    "initial_state": "OpenStreetMap page with the 'From' textbox filled with '123 Main St, Pittsburgh, PA' and the 'To' textbox empty and not focused.",
+    "action": "type [163] [5000 Forbes Ave, Pittsburgh, PA ] where [163] is To",
+    "environmental_dynamics": "The 'To' textbox is filled and focused with the address 'Warner Hall, 5000, Forbes Avenue, Squirrel Hill North, Pittsburgh, Allegheny County, Pennsylvania, 15213, United States', and detailed driving directions between the two addresses are displayed, including step-by-step instructions, distance, and estimated time."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with the directions section displayed and the transportation mode combobox collapsed, set to 'Car (OSRM)'.",
+    "action": "click [166] where [166] is ",
+    "environmental_dynamics": "The transportation mode combobox was expanded and is now focused, showing the available options ('Bicycle (OSRM)', 'Car (OSRM)', 'Foot (OSRM)')."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with the routing options menu open and 'Car (OSRM)' selected in the travel mode combobox.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions panel with the route set from '123, South Main Street...' to 'Warner Hall...' using 'Car (OSRM)', with travel distance and steps shown for a car route.",
+    "action": "click [169] where [169] is Foot (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with a route shown from '123, South Main Street, West End, Pittsburgh, Allegheny County, Pennsylvania, 15220, United States' to 'Warner Hall, 5000, Forbes Avenue, Squirrel Hill North, Pittsburgh, Allegheny County, Pennsylvania, 15213, United States', directions summary and steps already displayed, and the 'Car (OSRM)' route mode combobox expanded.",
+    "action": "click [171] where [171] is Go",
+    "environmental_dynamics": "The 'Car (OSRM)' route mode combobox collapsed, and the 'Go' button became focused; the directions, map, and UI elements remain unchanged."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with the 'Car (OSRM)' option selected in a collapsed route mode combobox.",
+    "action": "click [166] where [166] is ",
+    "environmental_dynamics": "The route mode combobox was expanded, displaying the available options (Bicycle, Car, Foot)."
+  },
+  {
+    "initial_state": "OpenStreetMap directions panel is open with routes shown from '123, South Main Street...' to 'Warner Hall...' using the 'Car (OSRM)' option, with the transportation mode combobox expanded.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "No visible change; the 'Bicycle (OSRM)' option in the combobox was clicked, but the selection and visible values remain unchanged and the panel still shows car routes."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with route calculated for 'Car (OSRM)' between two Pittsburgh addresses. The transport mode combobox is expanded and focused, showing 'Bicycle', 'Car' (selected), and 'Foot'.",
+    "action": "click [169] where [169] is Foot (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with the 'Go' button visible and a combobox expanded showing route options.",
+    "action": "click [171] where [171] is Go",
+    "environmental_dynamics": "The 'Go' button was focused and the route type combobox collapsed, but the directions and all other content remained the same."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with a route displayed and a mode of transport combobox (Car (OSRM)) not expanded.",
+    "action": "click [166] where [166] is ",
+    "environmental_dynamics": "The transport mode combobox expanded, displaying the available options (Bicycle (OSRM), Car (OSRM), Foot (OSRM)) and is now focused for selection."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with the 'Car (OSRM)' option currently selected in the directions mode combobox, routes and directions for car travel shown.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions panel is open, with the route set from South Main Street to Warner Hall using 'Car (OSRM)' as the selected travel mode. The travel mode dropdown is expanded and focused.",
+    "action": "click [169] where [169] is Foot (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap page showing route directions from '123, South Main Street' to 'Warner Hall' with the transport mode combobox expanded and the 'Go' button visible.",
+    "action": "click [171] where [171] is Go",
+    "environmental_dynamics": "The transport mode combobox collapsed and the 'Go' button became focused, but the directions and route information on the page did not change."
+  },
+  {
+    "initial_state": "OpenStreetMap page with driving directions from '123, South Main Street...' to 'Warner Hall, 5000, Forbes Avenue...' and the route mode set to 'Car (OSRM)' with detailed directions visible.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap page displaying directions from '123, South Main Street, West End, Pittsburgh' to 'Warner Hall, 5000, Forbes Avenue, Pittsburgh' by car, with a Go button focused and the directions results already present in the 'Directions' section.",
+    "action": "click [171] where [171] is Go",
+    "environmental_dynamics": "A new 'Directions' section was recreated with the same instructions and results, with new element ids assigned, but the directions information remained unchanged."
+  },
+  {
+    "initial_state": "OpenStreetMap directions results page with the transport mode combobox ('Car (OSRM)') collapsed and not focused.",
+    "action": "click [166] where [166] is ",
+    "environmental_dynamics": "The 'Car (OSRM)' transport mode combobox is now focused and expanded, displaying its options for selection."
+  },
+  {
+    "initial_state": "OpenStreetMap directions results page with the 'Car (OSRM)' option selected in the transport mode combobox, which is open and focused.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "No visible change; the 'Bicycle (OSRM)' option was clicked in the open combobox, but the selected option remains 'Car (OSRM)' and the page's contents did not update."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page, route and directions displayed for 'Car (OSRM)' between two Pittsburgh addresses, with the combobox for travel mode expanded and 'Car (OSRM)' selected.",
+    "action": "click [169] where [169] is Foot (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap page showing directions from South Main Street to Warner Hall, with the transport mode combobox open and 'Car (OSRM)' selected.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page showing route details from one address to another with travel mode set to 'Car (OSRM)' in the expanded combobox.",
+    "action": "click [169] where [169] is Foot (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions/results page with route input fields filled, transport mode combobox expanded, and the 'Go' button present but not focused.",
+    "action": "click [171] where [171] is Go",
+    "environmental_dynamics": "The directions section updated with new element identifiers (IDs), the transport mode combobox collapsed, and the 'Go' button is now focused; otherwise, the visible route, inputs, and directions remain the same."
+  },
+  {
+    "initial_state": "OpenStreetMap directions results page with the travel mode combobox (currently showing 'Car (OSRM)') closed and unfocused.",
+    "action": "click [166] where [166] is ",
+    "environmental_dynamics": "The travel mode combobox ('Car (OSRM)') is now focused and expanded, displaying all selectable travel mode options."
+  },
+  {
+    "initial_state": "OpenStreetMap directions sidebar is open, showing directions from '123, South Main Street, West End, Pittsburgh...' to 'Warner Hall, 5000, Forbes Avenue...', with the routing mode selector combobox expanded and currently set to 'Car (OSRM)'.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "No change. The combobox remained expanded, and the content of the page and selection state did not update after clicking 'Bicycle (OSRM)'."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with the transportation mode dropdown expanded and 'Car (OSRM)' selected.",
+    "action": "click [169] where [169] is Foot (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with the transport mode combobox expanded and 'Car (OSRM)' selected.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with 'Car (OSRM)' selected as the current travel mode in the route planner combobox, which is expanded and focused.",
+    "action": "click [169] where [169] is Foot (OSRM)",
+    "environmental_dynamics": "No visible change; the 'Car (OSRM)' travel mode remains selected in the route planner combobox, and there is no update to directions."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with 'Car (OSRM)' selected in the routing mode combobox, showing directions from '123, South Main Street...' to 'Warner Hall...'.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap route page with directions shown from '123, South Main Street' to 'Warner Hall' using 'Car (OSRM)' as the selected routing mode and the routing method dropdown expanded.",
+    "action": "click [169] where [169] is Foot (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with the transportation combobox expanded and the 'Go' button visible but not focused.",
+    "action": "click [171] where [171] is Go",
+    "environmental_dynamics": "The transportation combobox collapsed and the focus shifted to the 'Go' button, but the displayed directions and the rest of the interface remained unchanged."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page displaying route information with the transport combobox (set to 'Car (OSRM)') not expanded and not focused.",
+    "action": "click [166] where [166] is ",
+    "environmental_dynamics": "The transport mode combobox is now focused and expanded, showing its options for selection."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with the 'Car (OSRM)' travel mode selected in the directions section, showing route from '123, South Main Street...' to 'Warner Hall, 5000, Forbes Avenue...'.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap route directions page with the directions displayed for Car (OSRM); the route mode combobox is expanded and has focus.",
+    "action": "click [169] where [169] is Foot (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap page displaying driving (Car OSRM) directions between two addresses, with the route and step-by-step instructions for car travel visible and the 'Bicycle (OSRM)' option in the transport mode combobox not selected.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions panel is open with a filled 'From' and 'To' address, the travel mode combobox is expanded, and the directions with steps are displayed.",
+    "action": "click [171] where [171] is Go",
+    "environmental_dynamics": "The travel mode combobox collapsed and the focus shifted to the 'Go' button, but the visible directions and route information remained unchanged."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with the route details shown and the 'Car (OSRM)' routing mode combobox present but collapsed.",
+    "action": "click [166] where [166] is ",
+    "environmental_dynamics": "The routing mode combobox expanded and received focus, showing the available routing options (Bicycle, Car, Foot)."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page displaying directions from '123, South Main Street' to 'Warner Hall' with the 'Car (OSRM)' option selected in the routing mode combobox.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with route details from '123, South Main Street' to 'Warner Hall', and the travel mode combobox expanded with 'Car (OSRM)' selected.",
+    "action": "click [169] where [169] is Foot (OSRM)",
+    "environmental_dynamics": "no change"
+  }
+]

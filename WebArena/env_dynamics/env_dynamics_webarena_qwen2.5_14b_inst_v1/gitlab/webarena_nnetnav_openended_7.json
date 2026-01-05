@@ -1,0 +1,7 @@
+[
+  {
+    "initial_state": "GitLab Dashboard displaying project list and navigation sections with options like 'Issues', 'Merge requests', 'To-Do List', and 'Help' visible",
+    "action": "click [175] where [175] is Help",
+    "environmental_dynamics": "The 'Help' section has expanded to reveal sub-items such as 'What's new', 'Support', 'Community forum', 'Keyboard shortcuts', 'Submit feedback', and 'Contribute to GitLab'."
+  }
+]

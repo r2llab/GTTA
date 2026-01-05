@@ -1,0 +1,12 @@
+[
+  {
+    "initial_state": "Postmill homepage with navigation links and a search box visible",
+    "action": "type [54] [fitness ] where [54] is Search query",
+    "environmental_dynamics": "The search box was populated with the text 'fitness', allowing for search functionality."
+  },
+  {
+    "initial_state": "Search results page for the query 'fitness', search button is visible and clickable",
+    "action": "click [115] where [115] is Search",
+    "environmental_dynamics": "The search process was initiated, potentially leading to new results being displayed, but no immediate change to the search results layout or content occurred."
+  }
+]

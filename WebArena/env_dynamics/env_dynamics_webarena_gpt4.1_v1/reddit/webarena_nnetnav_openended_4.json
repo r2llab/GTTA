@@ -1,0 +1,187 @@
+[
+  {
+    "initial_state": "Postmill homepage with the navigation menu, including a 'Submissions' link, visible and not focused or expanded.",
+    "action": "click [117] where [117] is Submissions",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "Postmill homepage with main navigation, forum controls, and a 'Sort by: Hot' button visible and collapsed.",
+    "action": "click [135] where [135] is Sort by: Hot",
+    "environmental_dynamics": "The 'Sort by: Hot' dropdown menu expanded, revealing sort options such as Hot, New, Active, Top, Controversial, and Most commented."
+  },
+  {
+    "initial_state": "Postmill homepage with a 'Sort by: Hot' menu expanded, showing sorting options (Hot, New, Active, Top, etc.), and the current sort focused on 'Hot'.",
+    "action": "click [148] where [148] is Top",
+    "environmental_dynamics": "The sorting menu closed, and the main sort mode changed from 'Hot' to 'Top', with the interface reflecting the selection and a new filter 'From: Past 24 hours' appearing."
+  },
+  {
+    "initial_state": "Postmill main page with filter, sort, and date range buttons all set to their default values, and the 'Sort by' button labeled 'Top'.",
+    "action": "click [117] where [117] is Submissions",
+    "environmental_dynamics": "After clicking 'Submissions', the main content updates to show only the list related to 'Submissions', and the 'Sort by' button label changes from 'Top' to 'Hot'. Section headings and instructions for the user and the empty state remain present."
+  },
+  {
+    "initial_state": "Forum-like homepage with navigation links, user menu, filter and sort buttons (Sort by: Hot collapsed), and a message about not being subscribed to any forum.",
+    "action": "click [135] where [135] is Sort by: Hot",
+    "environmental_dynamics": "The 'Sort by: Hot' button expanded to show a dropdown menu with sorting options (Hot, New, Active, Top, Controversial, Most commented), and the button received focus."
+  },
+  {
+    "initial_state": "A Postmill web page displaying a set of filter and sort buttons with the 'Sort by: Hot' menu expanded, showing sorting options like Hot, New, Active, Top, etc.",
+    "action": "click [148] where [148] is Top",
+    "environmental_dynamics": "The sort option changed from 'Hot' to 'Top'; the 'Sort by: Top' button replaced the previous sort button, and the submenu for sort options closed."
+  },
+  {
+    "initial_state": "Postmill homepage showing 'Submissions' and 'Comments' links in the main navigation and the sort button displaying 'Sort by: Top'.",
+    "action": "click [117] where [117] is Submissions",
+    "environmental_dynamics": "The sort button changed from 'Sort by: Top' to 'Sort by: Hot', and the structure of the main and complementary sections was updated, likely indicating that the page filtered or refreshed submissions accordingly."
+  },
+  {
+    "initial_state": "Postmill homepage with options to filter and sort posts, the 'Sort by: Hot' button is visible but not expanded.",
+    "action": "click [135] where [135] is Sort by: Hot",
+    "environmental_dynamics": "The 'Sort by: Hot' button is now focused and expanded, revealing a dropdown list of sorting options, including Hot, New, Active, Top, Controversial, and Most commented."
+  },
+  {
+    "initial_state": "A Postmill homepage with the 'Sort by: Hot' menu expanded, showing sorting options such as Hot, New, Active, Top, Controversial, and Most commented.",
+    "action": "click [148] where [148] is Top",
+    "environmental_dynamics": "The sorting changed from 'Hot' to 'Top', the menu collapsed, and a time range filter button ('From: Past 24 hours') appeared next to the sorting controls."
+  },
+  {
+    "initial_state": "Postmill homepage with the main content showing a feed filtered by 'Featured', sorted by 'Top', and for the 'Past 24 hours', and a message stating there are no featured forums to display.",
+    "action": "click [117] where [117] is Submissions",
+    "environmental_dynamics": "The 'Sort by' filter changed from 'Top' to 'Hot', and sections of the page were re-rendered, but the message about not being subscribed to any forum and no featured forums persisted."
+  },
+  {
+    "initial_state": "Postmill main page with sorting button 'Sort by: Hot' visible and collapsed, displaying the current sort as 'Hot'.",
+    "action": "click [135] where [135] is Sort by: Hot",
+    "environmental_dynamics": "Clicking the 'Sort by: Hot' button expanded a sorting menu, displaying sorting options including 'Hot', 'New', 'Active', 'Top', 'Controversial', and 'Most commented'."
+  },
+  {
+    "initial_state": "Postmill homepage with the 'Sort by: Hot' dropdown menu expanded and focused, showing sorting options.",
+    "action": "click [117] where [117] is Submissions",
+    "environmental_dynamics": "The 'Sort by: Hot' dropdown menu closed, returning the button to its collapsed state; no navigation to 'Submissions' has occurred."
+  },
+  {
+    "initial_state": "Main page of Postmill with navigation links, search, user menu, filter and sort buttons, and a message indicating no forum subscriptions; the 'Sort by: Hot' button is collapsed.",
+    "action": "click [135] where [135] is Sort by: Hot",
+    "environmental_dynamics": "The 'Sort by: Hot' button expanded, displaying a list of sort options such as Hot, New, Active, Top, Controversial, and Most commented, allowing the user to select a new sorting method."
+  },
+  {
+    "initial_state": "Postmill homepage with the 'Sort by: Hot' menu expanded and the sort option set to Hot.",
+    "action": "click [148] where [148] is Top",
+    "environmental_dynamics": "The sort option changed from 'Hot' to 'Top', the sort menu was collapsed, and an additional filter button for 'From: Past 24 hours' appeared."
+  },
+  {
+    "initial_state": "Postmill homepage with options for filtering and sorting submissions, filter set to 'Featured', sort set to 'Top', and the 'Submissions' navigation link visible.",
+    "action": "click [117] where [117] is Submissions",
+    "environmental_dynamics": "After clicking the 'Submissions' link, the sorting button changed from 'Sort by: Top' to 'Sort by: Hot', indicating the view is now set to show submissions with a different sorting order; supporting sections and messages persist but may have shifted positions."
+  },
+  {
+    "initial_state": "Postmill homepage with a button labeled 'Sort by: Hot' that is not expanded.",
+    "action": "click [135] where [135] is Sort by: Hot",
+    "environmental_dynamics": "Clicking the 'Sort by: Hot' button expanded a dropdown menu, displaying sorting options including 'Hot', 'New', 'Active', 'Top', 'Controversial', and 'Most commented', with the menu now focused and expanded."
+  },
+  {
+    "initial_state": "Postmill main page with the sorting menu expanded and 'Hot' selected as the current sort method.",
+    "action": "click [148] where [148] is Top",
+    "environmental_dynamics": "The sorting menu collapsed, and the sort order changed to 'Top'; a time frame filter button ('From: Past 24 hours') also appeared."
+  },
+  {
+    "initial_state": "Postmill homepage with 'Sort by: Top' filter selected and the main section showing 'You are not subscribed to any forum.'",
+    "action": "click [117] where [117] is Submissions",
+    "environmental_dynamics": "The 'Sort by' filter changed from 'Top' to 'Hot', and the page content re-rendered while retaining the message about not being subscribed to any forum."
+  },
+  {
+    "initial_state": "Postmill homepage with a 'Sort by: Hot' button visible and collapsed in the main content area.",
+    "action": "click [135] where [135] is Sort by: Hot",
+    "environmental_dynamics": "Clicking the 'Sort by: Hot' button expanded a dropdown menu, displaying sort options such as Hot, New, Active, Top, Controversial, and Most commented, with the menu now focused and visible."
+  },
+  {
+    "initial_state": "Postmill main page with the 'Sort by: Hot' menu expanded and options such as Hot, New, Active, Top, Controversial, and Most commented visible.",
+    "action": "click [148] where [148] is Top",
+    "environmental_dynamics": "The sort filter changed from 'Sort by: Hot' (expanded) to 'Sort by: Top' (collapsed), and a new filter 'From: Past 24 hours' appeared next to the sort filter."
+  },
+  {
+    "initial_state": "Postmill homepage with main navigation visible, 'Sort by: Top' sorting option, and the Submissions tab present but not focused.",
+    "action": "click [117] where [117] is Submissions",
+    "environmental_dynamics": "The Submissions tab was clicked, updating the sorting option to 'Sort by: Hot' and shifting the tree structure to focus on Submissions, but the rest of the page content remained generally the same."
+  },
+  {
+    "initial_state": "Postmill main page with navigation, filter, and sort buttons; the 'Sort by: Hot' button is unexpanded and not focused.",
+    "action": "click [135] where [135] is Sort by: Hot",
+    "environmental_dynamics": "The 'Sort by: Hot' button became focused and expanded, revealing a menu with additional sorting options including 'Hot', 'New', 'Active', 'Top', 'Controversial', and 'Most commented'."
+  },
+  {
+    "initial_state": "Main feed page with sorting button 'Sort by: Hot' expanded and sorting options menu visible ('Hot', 'New', 'Active', 'Top', etc.),",
+    "action": "click [148] where [148] is Top",
+    "environmental_dynamics": "The sorting button updated to 'Sort by: Top', the options menu was closed, and a new 'From: Past 24 hours' filtering button appeared."
+  },
+  {
+    "initial_state": "Postmill homepage displaying navigation links, filter and sort buttons (with 'Sort by: Top' active), a message about featured forums, and no featured forums listed.",
+    "action": "click [117] where [117] is Submissions",
+    "environmental_dynamics": "The 'Sort by' filter changed from 'Top' to 'Hot,' and the supporting elements on the page were updated to reflect this new sort order."
+  },
+  {
+    "initial_state": "Postmill homepage displaying navigation links and a 'Sort by: Hot' button in a collapsed state.",
+    "action": "click [135] where [135] is Sort by: Hot",
+    "environmental_dynamics": "Clicking the 'Sort by: Hot' button expanded a menu below it with additional sorting options ('Hot', 'New', 'Active', 'Top', 'Controversial', 'Most commented'), and the button is now focused and marked as expanded."
+  },
+  {
+    "initial_state": "Postmill homepage with a 'Sort by: Hot' button expanded and the sort options list visible, focusing on sorting submissions.",
+    "action": "click [144] where [144] is New",
+    "environmental_dynamics": "The sort mode changed from 'Hot' to 'New', the 'Sort by: Hot' button updated to 'Sort by: New', and the sort options menu collapsed."
+  },
+  {
+    "initial_state": "Postmill homepage displaying main navigation, search, user menu, sort and filter controls with the 'Sort by: New' button unexpanded.",
+    "action": "click [135] where [135] is Sort by: New",
+    "environmental_dynamics": "Clicking the 'Sort by: New' button expanded a popup menu with sorting options (Hot, New, Active, Top, Controversial, Most commented) and focused the button."
+  },
+  {
+    "initial_state": "Postmill homepage showing submissions with the 'Sort by: New' dropdown expanded and options visible.",
+    "action": "click [142] where [142] is Hot",
+    "environmental_dynamics": "The sort order changed from 'New' to 'Hot', collapsing the dropdown menu and updating the sort indicator to 'Hot'."
+  },
+  {
+    "initial_state": "Postmill homepage with navigation links and a main section displaying a message about not being subscribed to any forum, and a link labeled 'Submissions' visible in the menu.",
+    "action": "click [117] where [117] is Submissions",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "Postmill homepage with the 'Sort by: Hot' button visible and collapsed.",
+    "action": "click [135] where [135] is Sort by: Hot",
+    "environmental_dynamics": "Clicking 'Sort by: Hot' expanded a menu below the button, displaying sorting options such as Hot, New, Active, Top, Controversial, and Most commented."
+  },
+  {
+    "initial_state": "Main feed on Postmill showing sorting menu expanded with 'Hot' selected and sorting options including 'Hot', 'New', 'Active', 'Top', etc. visible.",
+    "action": "click [144] where [144] is New",
+    "environmental_dynamics": "The sorting changed from 'Hot' to 'New', and the sorting menu closed, now indicating 'Sort by: New' as the selected option."
+  },
+  {
+    "initial_state": "A Postmill homepage or dashboard displaying navigation links, filters, and sort buttons, with the current sort set to 'New'.",
+    "action": "click [117] where [117] is Submissions",
+    "environmental_dynamics": "The 'Sort by' button changed from 'New' to 'Hot', indicating the sort order of submissions was updated after clicking 'Submissions'."
+  },
+  {
+    "initial_state": "Main page of Postmill with a 'Sort by: Hot' button that has a popup menu, but the menu is not expanded.",
+    "action": "click [135] where [135] is Sort by: Hot",
+    "environmental_dynamics": "Clicking the 'Sort by: Hot' button expanded its popup menu, revealing sorting options: Hot, New, Active, Top, Controversial, and Most commented."
+  },
+  {
+    "initial_state": "Postmill homepage with the 'Sort by: Hot' dropdown expanded and highlighting different sort options including 'New'.",
+    "action": "click [144] where [144] is New",
+    "environmental_dynamics": "The sort order changed from 'Hot' to 'New', and the 'Sort by' dropdown collapsed with 'New' as the selected option."
+  },
+  {
+    "initial_state": "Postmill homepage showing a message that no forums are subscribed to, with navigation links to Forums, Wiki, Submissions, Comments, and a header stating 'You are not subscribed to any forum. Showing featured forums instead.'",
+    "action": "click [42] where [42] is Forums",
+    "environmental_dynamics": "The browser navigated to a 'List of forums' page, displaying a comprehensive list of forums with headings, subscription buttons, submission counts, and pagination controls, replacing the initial homepage message."
+  },
+  {
+    "initial_state": "List of forums page with a visible link for 'memes \u2014 memes'",
+    "action": "click [244] where [244] is memes \u2014 memes",
+    "environmental_dynamics": "The browser navigated to the 'memes' forum page, displaying its posts, description, and related sidebar information."
+  },
+  {
+    "initial_state": "Memes forum homepage displaying a list of posts, including 'Which of the following fruits will be the 2nd most popular?' among others.",
+    "action": "click [152] where [152] is Which of the following fruits will be the 2nd most popular?",
+    "environmental_dynamics": "The browser navigated to the detailed post page for 'Which of the following fruits will be the 2nd most popular?', showing the full post, poll explanation, a comment entry area, and the thread of comments."
+  }
+]

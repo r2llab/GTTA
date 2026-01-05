@@ -1,0 +1,27 @@
+[
+  {
+    "initial_state": "OpenStreetMap homepage with search input focused",
+    "action": "type [145] [tourist attractions near New York ] where [145] is Search",
+    "environmental_dynamics": "The search box was populated with the text 'tourist attractions near New York', and this change is now reflected in the input field."
+  },
+  {
+    "initial_state": "OpenStreetMap page focused on tourist attractions near New York",
+    "action": "click [422] where [422] is OpenStreetMap contributors",
+    "environmental_dynamics": "The page navigated to the 'OpenStreetMap contributors' section, replacing the previous content with detailed information about the contributors and copyright policies of OpenStreetMap."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with navigation and map features visible",
+    "action": "type [164] [tourist attractions near New York ] where [164] is CC BY 4.0",
+    "environmental_dynamics": "The text 'tourist attractions near New York ' was entered into the field for CC BY 4.0, presumably initiating a search for related geographical data."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with various navigation links and information displayed",
+    "action": "Attempt to perfom \"click\" on element \"[422]\" but no matching element found. Please check the observation more carefully.",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with various sections and links available",
+    "action": "type [164] [tourist attractions near New York ] where [164] is CC BY 4.0",
+    "environmental_dynamics": "The search input was activated allowing the user to type 'tourist attractions near New York' into the CC BY 4.0 field."
+  }
+]

@@ -1,0 +1,197 @@
+[
+  {
+    "initial_state": "One Stop Market homepage with a product showcase section",
+    "action": "goto [http://onestopmarket.com/kids-products/]",
+    "environmental_dynamics": "Navigated to a page displaying a '404 Not Found' error message, indicating the requested 'kids-products' page does not exist."
+  },
+  {
+    "initial_state": "404 Not Found page with a wish list showing 2 items",
+    "action": "click [1621] where [1621] is \ue616 Remove This Item",
+    "environmental_dynamics": "An alert appeared indicating that an item has been removed from the wish list, and the total number of items in the wish list is updated to 1."
+  },
+  {
+    "initial_state": "Magento Store 404 Not Found page with content about order and wish list items",
+    "action": "goto [http://ec2-54-162-4-248.compute-1.amazonaws.com:8082/kids-products/]",
+    "environmental_dynamics": "Navigated to a new URL, displaying a page for kids products on the Magento Store."
+  },
+  {
+    "initial_state": "404 error page indicating missing content",
+    "action": "click [1621] where [1621] is Privacy and Cookie Policy",
+    "environmental_dynamics": "Navigated to the Privacy and Cookie Policy page, displaying details about privacy and cookie usage policies."
+  },
+  {
+    "initial_state": "Privacy and Cookie Policy page of the One Stop Market website",
+    "action": "goto [http://onestopmarket.com/kids-products/]",
+    "environmental_dynamics": "Navigated to a 404 Not Found page, indicating the requested URL was not found."
+  },
+  {
+    "initial_state": "A 404 Not Found page with navigation links, product list, and user information section",
+    "action": "click [1579] where [1579] is Image",
+    "environmental_dynamics": "The page transitioned to a product detail page for 'Beautyfine Men's Hoodie Jean Jacket Coat Fashion Cowboy Jacket Casual Comfortable' with details, size options, and an 'Add to Cart' button becoming visible."
+  },
+  {
+    "initial_state": "An e-commerce product page for a hoodie, with navigation options, account links (e.g., My Account, My Cart), and add to wish list/compare functionality",
+    "action": "click [1633] where [1633] is ",
+    "environmental_dynamics": "A new link 'Compare Products 2 items' appeared under the user account section, and an alert message was displayed notifying the user that the product was added to the comparison list."
+  },
+  {
+    "initial_state": "Product page for the 'Beautyfine Men's Hoodie Jean Jacket Coat Fashion Cowboy Jacket Casual Comfortable' with user options to add to cart or wish list",
+    "action": "click [1636] where [1636] is Add to Compare",
+    "environmental_dynamics": "An alert message appeared indicating the product was added to the comparison list."
+  },
+  {
+    "initial_state": "Product page for 'Beautyfine Men's Hoodie Jean Jacket Coat Fashion Cowboy Jacket Casual Comfortable' with options for size and color selection.",
+    "action": "click [1634] where [1634] is Add to Wish List",
+    "environmental_dynamics": "Transitioned to the 'My Wish List' page, displaying the added product in a list with two items and showing a confirmation alert for the successful addition of the hoodie to the wish list."
+  },
+  {
+    "initial_state": "A webpage displaying the user's wish list with two items.",
+    "action": "click [1605] where [1605] is Remove item",
+    "environmental_dynamics": "The item 'Beautyfine Men's Hoodie Jean Jacket Coat Fashion Cowboy Jacket Casual Comfortable' was removed from the wish list, reducing the total items to one."
+  },
+  {
+    "initial_state": "A web page displaying the user's 'My Wish List' with two items listed.",
+    "action": "click [1755] where [1755] is \ue616 Remove This Item",
+    "environmental_dynamics": "One item was removed from the wish list, updating the state to display only one item with corresponding changes in item count and alert messages."
+  },
+  {
+    "initial_state": "My Wish List page with a single item listed: 'Tony Chachere's More Spice Creole Seasoning - 14 oz'",
+    "action": "click [1718] where [1718] is \ue616 Remove This Item",
+    "environmental_dynamics": "The item 'Tony Chachere's More Spice Creole Seasoning - 14 oz' was removed from the wish list, and the alert message displayed updated to reflect that this item has been removed."
+  },
+  {
+    "initial_state": "My Wish List page with one item in the wish list",
+    "action": "click [1722] where [1722] is Go to Wish List",
+    "environmental_dynamics": "The user navigated to the Wish List page and an additional item was added to the wish list, now showing two items."
+  },
+  {
+    "initial_state": "My Wish List page showing two wishlisted items",
+    "action": "click [1579] where [1579] is ",
+    "environmental_dynamics": "No visual change noted, but the 'Lobster Cobbler Pot Pie' section may have become clickable if previously non-clickable."
+  },
+  {
+    "initial_state": "Page showing Emma Lopez's 'My Wish List' contents with options to edit, remove, and add items to the cart",
+    "action": "click [1652] where [1652] is My Product Reviews",
+    "environmental_dynamics": "The page transitioned to 'My Product Reviews', displaying a message that Emma has not yet submitted any reviews."
+  },
+  {
+    "initial_state": "My Product Reviews page showing recent orders, wish list, and compare products features",
+    "action": "goto [http://onestopmarket.com/kids-products/]",
+    "environmental_dynamics": "Navigated to a '404 Not Found' page indicating the requested URL was not found."
+  },
+  {
+    "initial_state": "404 Not Found page with a main content area indicating the page was not found",
+    "action": "goto [http://ec2-54-162-4-248.compute-1.amazonaws.com:8082/kids-products/]",
+    "environmental_dynamics": "Navigated to 'Kids Products' page, resulting in a change of content to display products for kids."
+  },
+  {
+    "initial_state": "404 Not Found page showing compare products and recently ordered widgets",
+    "action": "click [1622] where [1622] is Go to Wish List",
+    "environmental_dynamics": "Navigated to the 'My Wish List' page displaying the user's wish list items and associated controls."
+  },
+  {
+    "initial_state": "My Wish List page on an e-commerce site",
+    "action": "goto [http://ec2-54-162-4-248.compute-1.amazonaws.com:8082/kids-products/]",
+    "environmental_dynamics": "Navigated to a 404 Not Found page for the URL 'http://ec2-54-162-4-248.compute-1.amazonaws.com:8082/kids-products/'."
+  },
+  {
+    "initial_state": "404 Not Found page with elements for navigation and user account",
+    "action": "click [1518] where [1518] is Store Home",
+    "environmental_dynamics": "Transitioned to the main product showcases page, displaying a list of product items and their details."
+  },
+  {
+    "initial_state": "One Stop Market homepage with various product showcases and navigation elements",
+    "action": "goto [http://ec2-54-162-4-248.compute-1.amazonaws.com:8082/kids-products/]",
+    "environmental_dynamics": "The page navigated to a 404 error page indicating 'Whoops, our bad...' and showing error details and navigation options."
+  },
+  {
+    "initial_state": "A 404 not found page with links to 'My Account', 'My Wish List', 'Sign Out', 'Compare Products', and sections like 'Recently Ordered' and 'My Wish List'.",
+    "action": "goto [http://ec2-54-162-4-248.compute-1.amazonaws.com:8082/kids-products/]",
+    "environmental_dynamics": "The page navigated from a 404 error page to a new URL, loading a page with content related to 'kids-products'."
+  },
+  {
+    "initial_state": "404 Not Found error page with navigation elements",
+    "action": "go_back",
+    "environmental_dynamics": "Navigated back to the main product showcases page, displaying product listings and a navbar with user account information."
+  },
+  {
+    "initial_state": "One Stop Market product showcase with multiple product listings",
+    "action": "goto [http://ec2-54-162-4-248.compute-1.amazonaws.com:8082/kids-products/]",
+    "environmental_dynamics": "Navigated to a 404 Not Found page indicating the requested URL was not found."
+  },
+  {
+    "initial_state": "404 Not Found page with links to main sections like My Account, My Cart, and product comparison options",
+    "action": "click [1520] where [1520] is My Account",
+    "environmental_dynamics": "Navigated to the 'My Account' page displaying account information, contact details, newsletter subscriptions, address book, recent orders, and account management options."
+  },
+  {
+    "initial_state": "My Account page containing user details, order history, wish list, and compare products section.",
+    "action": "goto [http://ec2-54-162-4-248.compute-1.amazonaws.com:8082/kids-products/]",
+    "environmental_dynamics": "Navigated to a '404 Not Found' page indicating the requested URL was not found."
+  },
+  {
+    "initial_state": "404 Not Found page with navigation links and account summary",
+    "action": "click [1514] where [1514] is Go back",
+    "environmental_dynamics": "The page transitioned to the 'My Account' page, displaying details of the user's account including contact, billing, and shipping information along with recent orders."
+  },
+  {
+    "initial_state": "My Account page on a website",
+    "action": "goto [http://onestopmarket.com]",
+    "environmental_dynamics": "Navigated to the homepage of One Stop Market, displaying product showcases and a store overview."
+  },
+  {
+    "initial_state": "Product showcase page with multiple products listed",
+    "action": "goto [http://ec2-54-162-4-248.compute-1.amazonaws.com:8082/kids-products/]",
+    "environmental_dynamics": "The page transitioned to a '404 Not Found' page indicating the requested URL was not found."
+  },
+  {
+    "initial_state": "404 Not Found error page with links to the home page and navigation options for the user\u2019s account and shopping cart",
+    "action": "click [1514] where [1514] is Go back",
+    "environmental_dynamics": "The page transitioned to the product showcase page of One Stop Market, displaying various product listings with options to add to cart, wish list, and compare."
+  },
+  {
+    "initial_state": "Home/products page of One Stop Market displaying various product showcases",
+    "action": "goto [http://ec2-54-162-4-248.compute-1.amazonaws.com:8082/kids-products/]",
+    "environmental_dynamics": "Navigated to a 'kids-products' page, which resulted in a 404 Not Found error page."
+  },
+  {
+    "initial_state": "404 Not Found page with a list of products and navigational links",
+    "action": "go_back",
+    "environmental_dynamics": "Returned to the main Product Showcases page with a list of available products and detailed product information."
+  },
+  {
+    "initial_state": "One Stop Market homepage showing products and a navigation menu",
+    "action": "goto [http://ec2-54-162-4-248.compute-1.amazonaws.com:8082/kids-products/]",
+    "environmental_dynamics": "Navigated to a 'kids-products/' page resulting in a 404 Not Found error page."
+  },
+  {
+    "initial_state": "404 Not Found page with information about the page not being found and buttons to go back or search",
+    "action": "click [1514] where [1514] is Go back",
+    "environmental_dynamics": "The page navigated back to the product showcases page of One Stop Market, displaying product listings and navigation menus."
+  },
+  {
+    "initial_state": "Online store homepage displaying product showcases and top categories",
+    "action": "goto [http://ec2-54-162-4-248.compute-1.amazonaws.com:8082/kids-products/]",
+    "environmental_dynamics": "Navigation to a new page resulted in a '404 Not Found' error page being displayed."
+  },
+  {
+    "initial_state": "404 error page displaying a list of recent products and a compare products section",
+    "action": "go_back",
+    "environmental_dynamics": "Navigated back to the homepage displaying product showcases and a navigation menu."
+  },
+  {
+    "initial_state": "One Stop Market homepage displaying product showcases and a tabbed navigation menu",
+    "action": "goto [http://ec2-54-162-4-248.compute-1.amazonaws.com:8082/kids-products/]",
+    "environmental_dynamics": "Navigated to 'kids-products' page which resulted in a 404 Not Found error page."
+  },
+  {
+    "initial_state": "404 Not Found page with a list of navigation options and recent items",
+    "action": "click [1514] where [1514] is Go back",
+    "environmental_dynamics": "Navigated back to the product showcase page with a list of products and options for adding to cart, wishlist, and compare."
+  },
+  {
+    "initial_state": "One Stop Market homepage with products and navigation menu prominently displayed",
+    "action": "goto [http://ec2-54-162-4-248.compute-1.amazonaws.com:8082/kids-products/]",
+    "environmental_dynamics": "Navigated to a non-existing page, resulting in a 404 Not Found page with guidance to help the user navigate back to the main site or specific sections."
+  }
+]

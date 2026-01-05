@@ -1,0 +1,37 @@
+[
+  {
+    "initial_state": "One Stop Market homepage displaying several product showcases and a vertical menu with categories including 'Office Products'.",
+    "action": "click [721] where [721] is \ue622 Office Products",
+    "environmental_dynamics": "The browser navigated to the Office Products category page, updating the main content to display a list of office products, new filtering options, and associated pagination for items in this category."
+  },
+  {
+    "initial_state": "Office Products category page with the 'Sort By' combobox visible and collapsed, showing items 1-12 of 958.",
+    "action": "click [1527] where [1527] is Sort By",
+    "environmental_dynamics": "The 'Sort By' combobox has become focused and expanded, displaying its sorting options to the user."
+  },
+  {
+    "initial_state": "Office Products category page with the 'Sort By' combobox expanded and the 'Position' option selected.",
+    "action": "click [1530] where [1530] is Price",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "Office Products category page displaying a grid of products, including the 'Epson WorkForce WF-3620 WiFi Direct All-in-One Color Inkjet Printer' among the product listings.",
+    "action": "click [1545] where [1545] is Epson WorkForce WF-3620 WiFi Direct All-in-One Color Inkjet Printer, Copier, Scanner, Amazon Dash Replenishment Ready",
+    "environmental_dynamics": "The browser navigated to the product detail page for the 'Epson WorkForce WF-3620 WiFi Direct All-in-One Color Inkjet Printer, Copier, Scanner, Amazon Dash Replenishment Ready', showing detailed information, images, reviews, and purchase options for that specific product."
+  },
+  {
+    "initial_state": "Product detail page for the Epson WorkForce WF-3620 printer, with the 'Details' tab expanded in the product information section. The 'Reviews (12)' tab is present but not expanded.",
+    "action": "click [2037] where [2037] is Reviews (12)",
+    "environmental_dynamics": "The 'Reviews (12)' tab has been expanded and is now selected, revealing a panel with multiple customer reviews for the product, while the 'Details' tab is collapsed."
+  },
+  {
+    "initial_state": "Product detail page for Epson WorkForce WF-3620 with customer reviews tab open, displaying reviews from page 1.",
+    "action": "click [2431] where [2431] is Page 2",
+    "environmental_dynamics": "The reviews tab content updated to show reviews from page 2, with pagination indicating the user is currently reading page 2 and a link to page 1 and 'Page Previous' becomes available."
+  },
+  {
+    "initial_state": "Product detail page for Epson WorkForce WF-3620 All-in-One Printer, with reviews, add-to-cart, and review submission interface visible.",
+    "action": "new_tab",
+    "environmental_dynamics": "A new, empty browser tab was opened, leaving the content area blank."
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "initial_state": "GitLab dashboard page",
+    "action": "type [130] [frontend developer ] where [130] is Search GitLab",
+    "environmental_dynamics": "The search box populated with the text 'frontend developer', and a search interface is now displayed with relevant search options."
+  },
+  {
+    "initial_state": "GitLab search page for 'frontend developer', focusing on Merge requests",
+    "action": "type [130] [frontend developer jobs ] where [130] is Merge requests",
+    "environmental_dynamics": "The search box updated its value to 'frontend developer jobs', indicating a new search term for projects."
+  },
+  {
+    "initial_state": "GitLab search page with 'frontend developer' query",
+    "action": "click [126] where [126] is Issues",
+    "environmental_dynamics": "The page navigated to the Issues section, displaying a list of issues related to different projects with counts of opened and closed issues."
+  },
+  {
+    "initial_state": "GitLab Issues page with search bar focused",
+    "action": "type [123] [frontend developer ] where [123] is Search GitLab",
+    "environmental_dynamics": "The search functionality returned an error message indicating that the endpoint has been requested too many times, preventing further input from being processed."
+  }
+]

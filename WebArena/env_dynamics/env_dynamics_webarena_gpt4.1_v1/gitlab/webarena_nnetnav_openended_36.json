@@ -1,0 +1,127 @@
+[
+  {
+    "initial_state": "GitLab user dashboard with a list of project cards, including Byte Blaze / a11y-syntax-highlighting, visible as one of the projects.",
+    "action": "click [320] where [320] is Byte Blaze / a11y-syntax-highlighting",
+    "environmental_dynamics": "The browser navigated to the project page for 'Byte Blaze / a11y-syntax-highlighting', revealing its repository contents, project-specific navigation sidebar, and README details."
+  },
+  {
+    "initial_state": "GitLab project repository overview page for 'a11y-syntax-highlighting', with navigation and file lists visible.",
+    "action": "click [328] where [328] is Issues",
+    "environmental_dynamics": "The main area updated to display the Issues page, showing a list of open issues and issue management controls."
+  },
+  {
+    "initial_state": "GitLab issues list page for the 'a11y-syntax-highlighting' project, displaying a list of issues including 'Improve code block accessibility for colorblind users'.",
+    "action": "click [761] where [761] is Improve code block accessibility for colorblind users",
+    "environmental_dynamics": "The browser navigated to the issue detail page for 'Improve code block accessibility for colorblind users', displaying all related information, comments, tasks, and activity for that specific issue."
+  },
+  {
+    "initial_state": "GitLab issue page for 'Improve code block accessibility for colorblind users' with a list of linked items including a visible link labeled 'Research colorblind-friendly color palettes'.",
+    "action": "click [845] where [845] is Research colorblind-friendly color palettes",
+    "environmental_dynamics": "A modal dialog opened displaying detailed information and editable properties for the 'Research colorblind-friendly color palettes' task, including title, status, assignee, labels, dates, and description."
+  },
+  {
+    "initial_state": "GitLab issue detail page with a modal dialog open for the task 'Research colorblind-friendly color palettes', showing task details, including an assignee section with a button labeled 'avatar Byte Blaze Close'.",
+    "action": "click [1816] where [1816] is avatar Byte Blaze Close",
+    "environmental_dynamics": "The modal dialog was closed, and the page navigated to the 'Byte Blaze' user profile, now displaying user information and activity history."
+  },
+  {
+    "initial_state": "GitLab user profile page for Byte Blaze, showing an overview of the user, recent activity, contribution graph, and a list of their personal projects including 'Website Redesign 2024'.",
+    "action": "click [583] where [583] is Website Redesign 2024",
+    "environmental_dynamics": "Navigated from the Byte Blaze profile page to the 'Website Redesign 2024' project page, displaying the project navigation sidebar and repository contents including files, readme, and project details."
+  },
+  {
+    "initial_state": "GitLab project repository page for 'Website Redesign 2024', with project overview, list of files, and README content visible.",
+    "action": "click [328] where [328] is Issues",
+    "environmental_dynamics": "Navigated to the Issues section of the project, displaying issue-related options, project issue introduction, and the 'New issue' button; the file list and README are replaced by the issues interface."
+  },
+  {
+    "initial_state": "GitLab project issues page for 'Website Redesign 2024', showing issue overview and a 'New issue' button.",
+    "action": "click [601] where [601] is New issue",
+    "environmental_dynamics": "The browser navigated to the 'New Issue' creation page, displaying a form with fields for title, description, assignees, labels, and other options for creating a new issue."
+  },
+  {
+    "initial_state": "GitLab 'New Issue' page for the 'Website Redesign 2024' project, with the title input field focused and empty.",
+    "action": "type [605] [Create mobile responsive layout ] where [605] is Title (required)",
+    "environmental_dynamics": "The 'Title (required)' textbox was filled with the text 'Create mobile responsive layout', and focus moved to the 'Description' textbox."
+  },
+  {
+    "initial_state": "GitLab 'New Issue' page for the 'Website Redesign 2024' project with the 'Description' textbox focused and empty.",
+    "action": "type [688] [Ensure all new and existing pages are usable on mobile devices and pass Google Mobile-Friendly Test. Consider responsive breakpoints and touch targets.] where [688] is Description",
+    "environmental_dynamics": "The 'Description' textbox is now populated with the text: 'Ensure all new and existing pages are usable on mobile devices and pass Google Mobile-Friendly Test. Consider responsive breakpoints and touch targets.'."
+  },
+  {
+    "initial_state": "GitLab new issue creation page for the 'Website Redesign 2024' project with the issue title and description fields filled out and the 'Create issue' button visible.",
+    "action": "click [856] where [856] is Create issue",
+    "environmental_dynamics": "After clicking the 'Create issue' button, the browser transitioned to the issue details page displaying the newly created issue with its title and description, and the sidebar now indicates there is one issue in the project."
+  },
+  {
+    "initial_state": "GitLab issue detail page with the 'Assign yourself' button visible in the assignees section, currently showing '0 Assignees' and 'None -' as the assignee status.",
+    "action": "click [999] where [999] is assign yourself",
+    "environmental_dynamics": "Clicking the 'Assign yourself' button added 'Byte Blaze' as the assignee in the assignees section, displaying the assignee's name and avatar, and updating the label from '0 Assignees'/'None -' to show the user as assigned. Additionally, a tooltip with user details appeared on the page."
+  },
+  {
+    "initial_state": "GitLab issue detail page for 'Create mobile responsive layout', with the sidebar showing label information and labels currently set to 'None', and an 'Edit' button for labels present.",
+    "action": "click [1027] where [1027] is Edit",
+    "environmental_dynamics": "After clicking the 'Edit' button for labels, a 'Label' menu opened in the sidebar with focus on a searchbox, displaying options to assign, create, or manage project labels."
+  },
+  {
+    "initial_state": "GitLab issue page with the 'Label' menu open and the 'Search labels' searchbox focused and empty.",
+    "action": "type [1055] [mobile ] where [1055] is Search labels",
+    "environmental_dynamics": "The word 'mobile' was typed into the 'Search labels' searchbox and now appears as its value, and a 'No matching results' menu item is shown in the label menu."
+  },
+  {
+    "initial_state": "GitLab issue page with the 'Label' menu open and a search for 'mobile' returning no matching results; the option to 'Create project label' is visible and clickable.",
+    "action": "click [1069] where [1069] is Create project label",
+    "environmental_dynamics": "The 'Create project label' interface appeared, displaying a focused textbox for entering a new label name and a palette of color options to select for the new label; the 'Create' button is now visible but disabled until input."
+  },
+  {
+    "initial_state": "GitLab issue page with the 'Label' menu open and the 'Name new label' textbox focused but empty.",
+    "action": "type [1376] [mobile] where [1376] is Name new label",
+    "environmental_dynamics": "The text 'mobile' was entered into the 'Name new label' textbox, which now displays 'mobile' as its value."
+  },
+  {
+    "initial_state": "GitLab issue page with the label creation menu open, 'mobile' typed as the label name, and no color selected, showing a list of color options with 'Create' button disabled.",
+    "action": "click [1379] where [1379] is Green-cyan",
+    "environmental_dynamics": "The 'Green-cyan' color option was selected for the new label, updating the color field; a tooltip for 'Green-cyan' is now visible and the 'Create' button became enabled."
+  },
+  {
+    "initial_state": "GitLab issue page with the 'Create project label' form open, 'mobile' as the label name and a selected custom color; the 'Create' button is visible and clickable.",
+    "action": "click [1404] where [1404] is Create",
+    "environmental_dynamics": "The 'Create project label' modal was replaced by a label search interface still showing 'mobile' as the search text, indicating that the attempted label creation either failed or requires confirmation; additional menu items like 'No matching results', 'Create project label', and 'Manage project labels' are now visible."
+  },
+  {
+    "initial_state": "GitLab issue page with label search menu open, searchbox containing the query 'mobile', and 'No matching results' displayed.",
+    "action": "click [1418] where [1418] is Clear",
+    "environmental_dynamics": "The 'Clear' button in the label search was clicked, clearing the 'mobile' search query so the searchbox is now empty and a matching 'mobile' label menu item is shown."
+  },
+  {
+    "initial_state": "GitLab issue page with the issue details and sidebar open, and the labels dropdown open in the sidebar. The 'Edit' button for 'Due date' is visible and clickable.",
+    "action": "click [1097] where [1097] is Edit",
+    "environmental_dynamics": "No visible change; clicking the 'Edit' button for 'Due date' did not alter the browser's accessibility tree state."
+  },
+  {
+    "initial_state": "GitLab issue page with the 'Label' dropdown menu open and the label search interface visible.",
+    "action": "click [1051] where [1051] is Close",
+    "environmental_dynamics": "The 'Label' dropdown menu was closed and the label assignment interface was dismissed, returning the sidebar to its default state."
+  },
+  {
+    "initial_state": "GitLab issue details page for 'Create mobile responsive layout', with an 'Add' button (for tasks) present and unexpanded.",
+    "action": "click [781] where [781] is Add",
+    "environmental_dynamics": "Clicking the 'Add' button expanded a dropdown menu presenting options to add a 'New task' or an 'Existing task' to the Tasks section."
+  },
+  {
+    "initial_state": "GitLab issue page with the 'Add' task menu expanded, showing menu options for 'New task' and 'Existing task'.",
+    "action": "click [788] where [788] is New task",
+    "environmental_dynamics": "A new section appeared below the tasks heading with an input form for creating a task, including a focused textbox for the task title, and 'Create task' and 'Cancel' buttons."
+  },
+  {
+    "initial_state": "GitLab issue page for 'Create mobile responsive layout' with a task creation form open and the 'Add a title' textbox focused and empty, showing '0' tasks.",
+    "action": "type [1450] [Test layout on different mobile devices ] where [1450] is Add a title",
+    "environmental_dynamics": "The content 'Test layout on different mobile devices ' was entered into the 'Add a title' textbox, resulting in a new task being created and listed under 'Tasks' (now showing '1'), along with its associated controls and display."
+  },
+  {
+    "initial_state": "GitLab issue page with a task creation form, where the 'Add a title' textbox is focused and empty. The task list shows one task.",
+    "action": "type [1450] [Test layout on different mobile devices ] where [1450] is Add a title",
+    "environmental_dynamics": "The text 'Test layout on different mobile devices ' was entered into the 'Add a title' textbox, and a new task appeared in the task list, increasing the task count to two and displaying the new task accordingly. An entry was also added to the activity log documenting the task creation."
+  }
+]

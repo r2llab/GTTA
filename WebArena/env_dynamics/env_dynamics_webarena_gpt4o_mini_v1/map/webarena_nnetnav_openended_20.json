@@ -1,0 +1,197 @@
+[
+  {
+    "initial_state": "OpenStreetMap homepage with map interface visible",
+    "action": "click [394] where [394] is Zoom In",
+    "environmental_dynamics": "The map zoomed in, changing the displayed map scale from '50 km' and '50 mi' to '30 km' and '20 mi', and the 'Zoom In' link is now focused with a tooltip indicating its function."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with search bar visible",
+    "action": "type [145] [attractions near 42.896,-75.108 ] where [145] is Search",
+    "environmental_dynamics": "The search bar was updated with the input 'attractions near 42.896,-75.108', which is now focused, and the page transitioned to show search results, including a heading for 'Search Results' and a message indicating 'No results found'."
+  },
+  {
+    "initial_state": "OpenStreetMap map view with search results displayed",
+    "action": "click [394] where [394] is Zoom In",
+    "environmental_dynamics": "The 'Zoom In' link was clicked, resulting in the map being zoomed in and the 'Zoom In' link becoming focused."
+  },
+  {
+    "initial_state": "OpenStreetMap attractions page with search results visible",
+    "action": "click [396] where [396] is Zoom Out",
+    "environmental_dynamics": "The map zoomed out, increasing the visible area, and the focus shifted to the 'Zoom Out' link, indicating it is now actively selected for further actions."
+  },
+  {
+    "initial_state": "OpenStreetMap search results for 'attractions near 42.896,-75.108'",
+    "action": "type [145] [attractions near Ithaca, NY ] where [145] is Search",
+    "environmental_dynamics": "The search text was updated to 'attractions near Ithaca, NY', and new search results were generated, displaying a relevant attraction in the results list."
+  },
+  {
+    "initial_state": "OpenStreetMap search results page highlighting attractions near Ithaca, NY",
+    "action": "click [529] where [529] is The Overlook At West Hill (housing for the elderly), Trumansburg Road, Hayts Corner, Town of Ithaca, Tompkins County, New York, 14886, United States",
+    "environmental_dynamics": "The browser navigated to a detail view of 'The Overlook At West Hill (housing for the elderly)', displaying additional information including its location, tags, and edit history."
+  },
+  {
+    "initial_state": "OpenStreetMap page displaying The Overlook At West Hill",
+    "action": "click [394] where [394] is Zoom In",
+    "environmental_dynamics": "The Zoom In link was clicked, causing the map to zoom in closer to the location, with the Zoom In link now focused and accompanied by a tooltip indicating its function."
+  },
+  {
+    "initial_state": "OpenStreetMap page for The Overlook At West Hill",
+    "action": "type [145] [transportation options near The Overlook At West Hill ] where [145] is Search",
+    "environmental_dynamics": "The search textbox was populated with the query 'transportation options near The Overlook At West Hill', and the page is now showing a section for search results, indicating the search was submitted."
+  },
+  {
+    "initial_state": "transportation options near The Overlook At West Hill | OpenStreetMap",
+    "action": "type [145] [attractions near The Overlook At West Hill ] where [145] is Search",
+    "environmental_dynamics": "The search input updated to reflect the new query 'attractions near The Overlook At West Hill', and the page reloaded with search results for attractions."
+  },
+  {
+    "initial_state": "OpenStreetMap page showing attractions near The Overlook At West Hill",
+    "action": "type [145] [transportation options near The Overlook At West Hill ] where [145] is Search",
+    "environmental_dynamics": "The search textbox was updated with new input, changing the search query to 'transportation options near The Overlook At West Hill', and the results section is now ready to display results for the new search."
+  },
+  {
+    "initial_state": "transportation options near The Overlook At West Hill | OpenStreetMap",
+    "action": "type [145] [attractions near Ithaca, NY ] where [145] is Search",
+    "environmental_dynamics": "The search input was updated to reflect the new query 'attractions near Ithaca, NY', and the page transitioned to display relevant search results."
+  },
+  {
+    "initial_state": "OpenStreetMap search results page displaying attractions near Ithaca, NY",
+    "action": "click [639] where [639] is More results",
+    "environmental_dynamics": "The page fetched and displayed additional search results, updating the list of attractions."
+  },
+  {
+    "initial_state": "OpenStreetMap attractions near Ithaca, NY search results page",
+    "action": "click [637] where [637] is The Overlook At West Hill (housing for the elderly), Trumansburg Road, Hayts Corner, Town of Ithaca, Tompkins County, New York, 14886, United States",
+    "environmental_dynamics": "The browser navigated to the detail page for 'The Overlook At West Hill (housing for the elderly)', providing comprehensive information about the attraction including its location and editing history."
+  },
+  {
+    "initial_state": "OpenStreetMap page focused on The Overlook At West Hill",
+    "action": "type [145] [local attractions near The Overlook At West Hill ] where [145] is Search",
+    "environmental_dynamics": "The search textbox was populated with the query 'local attractions near The Overlook At West Hill', and the textbox is now focused and able to receive input."
+  },
+  {
+    "initial_state": "local attractions near The Overlook At West Hill | OpenStreetMap with search textbox focused",
+    "action": "type [145] [transportation options near The Overlook At West Hill ] where [145] is Search",
+    "environmental_dynamics": "The search textbox updated its value to 'transportation options near The Overlook At West Hill', indicating a change in the search query."
+  },
+  {
+    "initial_state": "OpenStreetMap page focused on transportation options near The Overlook At West Hill",
+    "action": "click [394] where [394] is Zoom In",
+    "environmental_dynamics": "The page zoomed in, with the 'Zoom In' link now focused and a tooltip displayed that provides additional information about the zoom feature."
+  },
+  {
+    "initial_state": "OpenStreetMap page for transportation options near The Overlook At West Hill",
+    "action": "type [145] [attractions near The Overlook At West Hill ] where [145] is Search",
+    "environmental_dynamics": "The search input was updated to 'attractions near The Overlook At West Hill', allowing the user to perform a new search for attractions."
+  },
+  {
+    "initial_state": "Search results page for attractions near The Overlook At West Hill",
+    "action": "click [707] where [707] is The Overlook At West Hill (housing for the elderly), Trumansburg Road, Hayts Corner, Town of Ithaca, Tompkins County, New York, 14886, United States",
+    "environmental_dynamics": "The browser navigated to the detail page for 'The Overlook At West Hill (housing for the elderly)', displaying its specific information and associated tags."
+  },
+  {
+    "initial_state": "OpenStreetMap page centered on 'The Overlook At West Hill'",
+    "action": "type [145] [local attractions near The Overlook At West Hill ] where [145] is Search",
+    "environmental_dynamics": "The search box was populated with the query 'local attractions near The Overlook At West Hill', indicating the user has initiated a search for local attractions."
+  },
+  {
+    "initial_state": "local attractions near The Overlook At West Hill | OpenStreetMap",
+    "action": "type [145] [attractions near Ithaca, NY ] where [145] is Search",
+    "environmental_dynamics": "The search input was updated with the new query 'attractions near Ithaca, NY', triggering a change in the search results displayed."
+  },
+  {
+    "initial_state": "OpenStreetMap search results page showing attractions near Ithaca, NY",
+    "action": "click [774] where [774] is The Overlook At West Hill (housing for the elderly), Trumansburg Road, Hayts Corner, Town of Ithaca, Tompkins County, New York, 14886, United States",
+    "environmental_dynamics": "The browser navigated to a detailed view of 'The Overlook At West Hill', displaying information such as its node identifier, edit history, and geographical tags."
+  },
+  {
+    "initial_state": "OpenStreetMap page for The Overlook At West Hill",
+    "action": "type [145] [local attractions near The Overlook At West Hill ] where [145] is Search",
+    "environmental_dynamics": "The search textbox was populated with the query 'local attractions near The Overlook At West Hill', which is now focused, indicating the user can perform a search."
+  },
+  {
+    "initial_state": "OpenStreetMap page focused on local attractions near The Overlook At West Hill",
+    "action": "click [394] where [394] is Zoom In",
+    "environmental_dynamics": "The 'Zoom In' link became focused and a tooltip describing 'Zoom In' appeared."
+  },
+  {
+    "initial_state": "OpenStreetMap page showing local attractions near The Overlook At West Hill",
+    "action": "type [145] [local attractions near Ithaca, NY ] where [145] is Search",
+    "environmental_dynamics": "The search text was updated to 'local attractions near Ithaca, NY' in the search textbox, modifying the input value."
+  },
+  {
+    "initial_state": "local attractions near Ithaca, NY | OpenStreetMap",
+    "action": "type [145] [restaurants near Ithaca, NY ] where [145] is Search",
+    "environmental_dynamics": "The search textbox was updated with the value 'restaurants near Ithaca, NY', and the search results section is now prepared to display relevant restaurants."
+  },
+  {
+    "initial_state": "OpenStreetMap search results page for restaurants near Ithaca, NY",
+    "action": "click [846] where [846] is Komonz Cafe, 146, East State Street, Downtown, Ward 2, City of Ithaca, Tompkins County, New York, 14850, United States",
+    "environmental_dynamics": "The page navigated to a 'Not Found' error page, displaying a message indicating that the selected node could not be found."
+  },
+  {
+    "initial_state": "Not Found | OpenStreetMap with a focused search bar",
+    "action": "type [145] [attractions near Ithaca, NY ] where [145] is Search",
+    "environmental_dynamics": "The search bar was updated with the input 'attractions near Ithaca, NY', and the webpage title changed to 'attractions near Ithaca, NY | OpenStreetMap', displaying search results related to the location."
+  },
+  {
+    "initial_state": "OpenStreetMap page for attractions near Ithaca, NY",
+    "action": "click [394] where [394] is Zoom In",
+    "environmental_dynamics": "The page zoomed in, enhancing the visibility of map details, with the 'Zoom In' link now focused and a tooltip displaying 'Zoom In' appeared."
+  },
+  {
+    "initial_state": "Results from OpenStreetMap Nominatim with search results displayed",
+    "action": "click [908] where [908] is More results",
+    "environmental_dynamics": "The list of search results was updated to display a new message indicating 'No results found'."
+  },
+  {
+    "initial_state": "OpenStreetMap map view centered on attractions near Ithaca, NY with search results displayed",
+    "action": "click [394] where [394] is Zoom In",
+    "environmental_dynamics": "The 'Zoom In' link was clicked, causing the map to zoom in and the corresponding tooltip 'Zoom In' to become visible."
+  },
+  {
+    "initial_state": "OpenStreetMap results page showing attractions near Ithaca, NY",
+    "action": "click [906] where [906] is The Overlook At West Hill (housing for the elderly), Trumansburg Road, Hayts Corner, Town of Ithaca, Tompkins County, New York, 14886, United States",
+    "environmental_dynamics": "The browser navigated to the detailed information page for 'The Overlook At West Hill (housing for the elderly)', including various data elements such as location coordinates and editing history."
+  },
+  {
+    "initial_state": "Map view centered on The Overlook At West Hill (housing for the elderly)",
+    "action": "type [145] [local attractions near The Overlook At West Hill ] where [145] is Search",
+    "environmental_dynamics": "The search input field populated with the text 'local attractions near The Overlook At West Hill', focusing the search for local attractions."
+  },
+  {
+    "initial_state": "local attractions near The Overlook At West Hill | OpenStreetMap",
+    "action": "type [145] [attractions near Ithaca, NY ] where [145] is Search",
+    "environmental_dynamics": "The search field was updated with the new query 'attractions near Ithaca, NY', allowing the search results to reflect this new input."
+  },
+  {
+    "initial_state": "Search results page for attractions near Ithaca, NY on OpenStreetMap",
+    "action": "click [987] where [987] is The Overlook At West Hill (housing for the elderly), Trumansburg Road, Hayts Corner, Town of Ithaca, Tompkins County, New York, 14886, United States",
+    "environmental_dynamics": "The page navigated to the details of 'The Overlook At West Hill', displaying a dedicated information section including its name, location, and additional metadata."
+  },
+  {
+    "initial_state": "OpenStreetMap view of The Overlook At West Hill location",
+    "action": "type [145] [attractions near The Overlook At West Hill ] where [145] is Search",
+    "environmental_dynamics": "The search textbox was updated with the value 'attractions near The Overlook At West Hill', and the page displayed new search results related to attractions near that location."
+  },
+  {
+    "initial_state": "OpenStreetMap attractions search results page showing attractions near The Overlook At West Hill",
+    "action": "click [1049] where [1049] is More results",
+    "environmental_dynamics": "The page updated to display a status message 'Loading...' indicating that more results are being fetched for the search query."
+  },
+  {
+    "initial_state": "OpenStreetMap search results page for attractions near The Overlook At West Hill",
+    "action": "click [1041] where [1041] is The Overlook At West Hill (housing for the elderly), Trumansburg Road, Hayts Corner, Town of Ithaca, Tompkins County, New York, 14886, United States",
+    "environmental_dynamics": "The browser navigated to a detailed node page for 'The Overlook At West Hill (housing for the elderly)', showing additional information and history about the location."
+  },
+  {
+    "initial_state": "OpenStreetMap page showing information about The Overlook At West Hill",
+    "action": "type [145] [local attractions near The Overlook At West Hill ] where [145] is Search",
+    "environmental_dynamics": "The search box is populated with the query 'local attractions near The Overlook At West Hill', and it is now focused and ready for further action."
+  },
+  {
+    "initial_state": "OpenStreetMap page showing local attractions near The Overlook At West Hill with search input focused",
+    "action": "type [145] [transportation options near The Overlook At West Hill ] where [145] is Search",
+    "environmental_dynamics": "The search input value was updated to 'transportation options near The Overlook At West Hill', readying the user for a new search query."
+  }
+]

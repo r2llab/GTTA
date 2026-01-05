@@ -1,0 +1,1392 @@
+{
+    "apple": [
+        {
+            "persona": "Tech Lover",
+            "description": "Keeps up with the latest Apple product launches and eagerly watches every keynote."
+        },
+        {
+            "persona": "Gadget Shopper",
+            "description": "Visits the website to compare and purchase iPhones, iPads, or Macs."
+        },
+        {
+            "persona": "Creative Professional",
+            "description": "Looks for high-performance tools for video editing, graphic design, or music production."
+        },
+        {
+            "persona": "Apple Ecosystem Fan",
+            "description": "Explores how different Apple devices and services integrate seamlessly to simplify daily tasks."
+        },
+        {
+            "persona": "Support Seeker",
+            "description": "Frequently checks the support pages for troubleshooting or tips to maximize device performance."
+        },
+        {
+            "persona": "Student",
+            "description": "Looks for education discounts on devices and tools that help with school projects and study."
+        },
+        {
+            "persona": "Business Owner",
+            "description": "Explores Apple’s business solutions for team collaboration and device management."
+        },
+        {
+            "persona": "Privacy Advocate",
+            "description": "Examines Apple's privacy features and security updates to protect personal data."
+        },
+        {
+            "persona": "Accessory Hunter",
+            "description": "Browses for cases, headphones, and other add-ons to enhance Apple devices."
+        },
+        {
+            "persona": "Repair Enthusiast",
+            "description": "Checks repair and warranty services for broken devices."
+        },
+        {
+            "persona": "Investor",
+            "description": "Reads updates and press releases about Apple's business growth and product launches."
+        },
+        {
+            "persona": "Environmental Advocate",
+            "description": "Researches Apple’s sustainability initiatives and product recycling programs."
+        },
+        {
+            "persona": "Content Creator",
+            "description": "Seeks tools and features to create professional content on Apple platforms."
+        },
+        {
+            "persona": "Gaming Enthusiast",
+            "description": "Explores Apple's gaming capabilities and the latest games on Apple Arcade."
+        },
+        {
+            "persona": "Early Adopter",
+            "description": "Pre-orders every new Apple product immediately after its announcement."
+        },
+        {
+            "persona": "Photographer",
+            "description": "Analyzes camera features on iPhones to enhance their photography projects."
+        },
+        {
+            "persona": "Traveler",
+            "description": "Finds devices and apps to assist with travel planning and communication."
+        },
+        {
+            "persona": "Fitness Enthusiast",
+            "description": "Looks for Apple Watch features and health tracking apps to monitor wellness."
+        },
+        {
+            "persona": "Family Organizer",
+            "description": "Researches family sharing features and parental controls for managing kids’ devices."
+        }
+    ],
+    "alltrails": [
+        {
+            "persona": "Casual Hiker",
+            "description": "Searches for easy, family-friendly trails for weekend outings."
+        },
+        {
+            "persona": "Trail Runner",
+            "description": "Looks for trails suitable for running, with varying difficulty levels and scenic views."
+        },
+        {
+            "persona": "Mountain Climber",
+            "description": "Explores challenging trails with steep climbs and mountain peaks."
+        },
+        {
+            "persona": "Dog Walker",
+            "description": "Finds trails that are dog-friendly and safe for pets."
+        },
+        {
+            "persona": "Nature Photographer",
+            "description": "Seeks trails with breathtaking landscapes and wildlife for photography."
+        },
+        {
+            "persona": "Camping Enthusiast",
+            "description": "Finds trails that lead to camping spots for overnight stays."
+        },
+        {
+            "persona": "Backpacker",
+            "description": "Looks for multi-day trails for immersive outdoor adventures."
+        },
+        {
+            "persona": "Fitness Enthusiast",
+            "description": "Searches for trails that provide a good workout and are less crowded."
+        },
+        {
+            "persona": "Bird Watcher",
+            "description": "Seeks trails known for diverse bird species and quiet environments."
+        },
+        {
+            "persona": "Cyclist",
+            "description": "Looks for trails that are suitable for mountain biking or cycling."
+        },
+        {
+            "persona": "Trail Reviewer",
+            "description": "Explores new trails to write detailed reviews and share tips with the community."
+        },
+        {
+            "persona": "Solo Explorer",
+            "description": "Finds safe and well-traveled trails for solo adventures."
+        },
+        {
+            "persona": "Family Planner",
+            "description": "Looks for trails that are accessible for kids and elderly family members."
+        },
+        {
+            "persona": "History Buff",
+            "description": "Searches for trails with historical landmarks or cultural significance."
+        },
+        {
+            "persona": "Wildflower Enthusiast",
+            "description": "Finds trails known for seasonal wildflower blooms and botanical diversity."
+        },
+        {
+            "persona": "Winter Adventurer",
+            "description": "Explores trails that are open and safe for snowshoeing or winter hiking."
+        },
+        {
+            "persona": "Urban Hiker",
+            "description": "Looks for trails close to cities or suburban areas for quick access."
+        },
+        {
+            "persona": "Waterfall Seeker",
+            "description": "Seeks out trails that feature waterfalls or scenic rivers."
+        },
+        {
+            "persona": "Geology Enthusiast",
+            "description": "Finds trails with unique rock formations, caves, or geological features."
+        },
+        {
+            "persona": "Sunset Chaser",
+            "description": "Searches for trails with stunning sunset views to enjoy at the end of a hike."
+        }
+    ],
+    "bbc_news": [
+        {
+            "persona": "Global News Seeker",
+            "description": "Stays updated on international affairs and breaking news."
+        },
+        {
+            "persona": "Politics Enthusiast",
+            "description": "Follows in-depth coverage and analysis of global politics."
+        },
+        {
+            "persona": "Tech News Reader",
+            "description": "Explores the latest trends in technology and innovation."
+        },
+        {
+            "persona": "Sports Fan",
+            "description": "Keeps track of the latest scores and highlights across various sports."
+        },
+        {
+            "persona": "Entertainment Buff",
+            "description": "Follows celebrity news, movie reviews, and pop culture stories."
+        },
+        {
+            "persona": "Environmentalist",
+            "description": "Reads articles on climate change, sustainability, and green initiatives."
+        },
+        {
+            "persona": "Business Analyst",
+            "description": "Tracks economic developments and stock market trends."
+        },
+        {
+            "persona": "Science Curious",
+            "description": "Explores the latest discoveries and studies in science."
+        },
+        {
+            "persona": "Travel Enthusiast",
+            "description": "Reads travel stories and tips for global destinations."
+        },
+        {
+            "persona": "Opinion Reader",
+            "description": "Engages with editorials and opinion pieces for diverse perspectives."
+        },
+        {
+            "persona": "History Lover",
+            "description": "Reads stories that connect current events to historical context."
+        },
+        {
+            "persona": "Health Conscious Reader",
+            "description": "Seeks articles on wellness, nutrition, and medical advancements."
+        },
+        {
+            "persona": "Education Seeker",
+            "description": "Explores articles about global education trends and policies."
+        },
+        {
+            "persona": "Lifestyle Enthusiast",
+            "description": "Follows stories on fashion, home design, and daily living."
+        },
+        {
+            "persona": "Podcast Listener",
+            "description": "Enjoys BBC podcasts for in-depth discussions on various topics."
+        },
+        {
+            "persona": "Video Watcher",
+            "description": "Prefers video content to understand news visually."
+        },
+        {
+            "persona": "World Conflict Analyst",
+            "description": "Monitors conflicts and crises in various regions for detailed updates."
+        },
+        {
+            "persona": "Science Fiction Fan",
+            "description": "Loves exploring articles about futuristic concepts and space exploration."
+        },
+        {
+            "persona": "Digital Nomad",
+            "description": "Keeps informed on news that impacts remote workers."
+        },
+        {
+            "persona": "Casual Reader",
+            "description": "Browses BBC News occasionally to catch up on trending topics."
+        }
+    ],
+    "booking": [
+        {
+            "persona": "Budget Traveler",
+            "description": "Looks for affordable accommodations and travel deals."
+        },
+        {
+            "persona": "Luxury Seeker",
+            "description": "Searches for high-end hotels and premium stays."
+        },
+        {
+            "persona": "Solo Explorer",
+            "description": "Finds accommodations that are safe and suitable for solo travelers."
+        },
+        {
+            "persona": "Family Planner",
+            "description": "Looks for family-friendly hotels with amenities for kids."
+        },
+        {
+            "persona": "Last-Minute Booker",
+            "description": "Finds accommodations on short notice due to sudden plans."
+        },
+        {
+            "persona": "Business Traveler",
+            "description": "Seeks hotels with business facilities and proximity to work locations."
+        },
+        {
+            "persona": "Adventure Seeker",
+            "description": "Explores stays near adventure activity hubs like hiking trails or beaches."
+        },
+        {
+            "persona": "Eco-Conscious Traveler",
+            "description": "Prefers eco-friendly accommodations and sustainable practices."
+        },
+        {
+            "persona": "Romantic Getaway Planner",
+            "description": "Searches for cozy accommodations for couples."
+        },
+        {
+            "persona": "Pet Owner",
+            "description": "Finds pet-friendly accommodations to travel with their furry friends."
+        },
+        {
+            "persona": "City Explorer",
+            "description": "Looks for accommodations near urban centers and attractions."
+        },
+        {
+            "persona": "Cultural Traveler",
+            "description": "Chooses stays near historic landmarks and cultural hubs."
+        },
+        {
+            "persona": "Frequent Traveler",
+            "description": "Manages multiple bookings for frequent work or leisure trips."
+        },
+        {
+            "persona": "Student",
+            "description": "Finds affordable accommodations near campuses or travel spots."
+        },
+        {
+            "persona": "Festival Goer",
+            "description": "Searches for stays near music, art, or cultural festivals."
+        },
+        {
+            "persona": "Digital Nomad",
+            "description": "Looks for accommodations with reliable Wi-Fi and workspaces."
+        },
+        {
+            "persona": "Event Attendee",
+            "description": "Finds stays near conferences, weddings, or large gatherings."
+        },
+        {
+            "persona": "Road Tripper",
+            "description": "Finds motels and lodges along driving routes."
+        },
+        {
+            "persona": "Multi-Stop Planner",
+            "description": "Books stays in different locations for extended itineraries."
+        },
+        {
+            "persona": "Seasonal Traveler",
+            "description": "Finds accommodations based on seasonal attractions like ski resorts or beaches."
+        }
+    ],
+    "cambridge_dictionary": [
+        {
+            "persona": "Language Learner",
+            "description": "Uses the dictionary to look up new words and improve vocabulary."
+        },
+        {
+            "persona": "English Teacher",
+            "description": "References definitions and examples to prepare teaching materials."
+        },
+        {
+            "persona": "Translator",
+            "description": "Checks accurate translations between English and other languages."
+        },
+        {
+            "persona": "Writer",
+            "description": "Looks up synonyms and antonyms to enhance their writing."
+        },
+        {
+            "persona": "Student",
+            "description": "Uses the dictionary for homework and understanding complex texts."
+        },
+        {
+            "persona": "Spelling Checker",
+            "description": "Confirms the correct spelling of words during writing."
+        },
+        {
+            "persona": "Pronunciation Seeker",
+            "description": "Listens to audio pronunciations to improve speaking skills."
+        },
+        {
+            "persona": "Test Taker",
+            "description": "Prepares for exams like TOEFL or IELTS by expanding vocabulary."
+        },
+        {
+            "persona": "Non-native Speaker",
+            "description": "Uses the dictionary to understand idioms and phrases."
+        },
+        {
+            "persona": "Grammar Enthusiast",
+            "description": "Consults grammatical information and usage notes."
+        },
+        {
+            "persona": "Crossword Solver",
+            "description": "Looks up definitions to solve puzzle clues."
+        },
+        {
+            "persona": "Business Professional",
+            "description": "Ensures correct usage of business terminology."
+        },
+        {
+            "persona": "Etymology Fan",
+            "description": "Explores word origins and historical development."
+        },
+        {
+            "persona": "Poet",
+            "description": "Finds precise words to express emotions and ideas."
+        },
+        {
+            "persona": "Copy Editor",
+            "description": "Verifies word meanings and usage in editing content."
+        },
+        {
+            "persona": "Language Researcher",
+            "description": "Studies language patterns and usage trends."
+        },
+        {
+            "persona": "Scrabble Player",
+            "description": "Checks if a word is valid for the game."
+        },
+        {
+            "persona": "Linguist",
+            "description": "Analyzes linguistic nuances and phonetics."
+        },
+        {
+            "persona": "Traveling Tourist",
+            "description": "Looks up phrases to communicate while abroad."
+        },
+        {
+            "persona": "Content Creator",
+            "description": "Finds accurate definitions to inform their audience."
+        }
+    ],
+    "coursera": [
+        {
+            "persona": "Lifelong Learner",
+            "description": "Takes courses out of personal interest to expand knowledge."
+        },
+        {
+            "persona": "Career Switcher",
+            "description": "Enrolls in courses to gain skills for a new career path."
+        },
+        {
+            "persona": "Student",
+            "description": "Uses courses to supplement university education."
+        },
+        {
+            "persona": "Professional Development Seeker",
+            "description": "Enhances job skills with specialized courses."
+        },
+        {
+            "persona": "Certification Hunter",
+            "description": "Completes courses to earn certificates and credentials."
+        },
+        {
+            "persona": "Entrepreneur",
+            "description": "Learns business skills to start or grow a company."
+        },
+        {
+            "persona": "Language Learner",
+            "description": "Takes language courses to become bilingual or multilingual."
+        },
+        {
+            "persona": "Data Scientist",
+            "description": "Enrolls in data analytics and machine learning courses."
+        },
+        {
+            "persona": "Teacher",
+            "description": "Uses courses to stay updated in their teaching field."
+        },
+        {
+            "persona": "Hobbyist",
+            "description": "Pursues courses in arts, music, or photography for enjoyment."
+        },
+        {
+            "persona": "IT Professional",
+            "description": "Takes courses on programming languages and software development."
+        },
+        {
+            "persona": "Researcher",
+            "description": "Uses courses to delve deeper into academic subjects."
+        },
+        {
+            "persona": "Retiree",
+            "description": "Engages in learning during retirement to stay active."
+        },
+        {
+            "persona": "Test Prep Student",
+            "description": "Prepares for standardized tests like GRE or GMAT."
+        },
+        {
+            "persona": "Health Enthusiast",
+            "description": "Learns about nutrition, fitness, and well-being."
+        },
+        {
+            "persona": "Social Activist",
+            "description": "Takes courses on social issues and policy to make a difference."
+        },
+        {
+            "persona": "Designer",
+            "description": "Improves skills in graphic or UX design."
+        },
+        {
+            "persona": "Manager",
+            "description": "Develops leadership and project management abilities."
+        },
+        {
+            "persona": "Financial Analyst",
+            "description": "Studies finance and economics courses."
+        },
+        {
+            "persona": "Curious Teenager",
+            "description": "Explores various subjects to find their passion."
+        }
+    ],
+    "espn": [
+        {
+            "persona": "Sports Fan",
+            "description": "Follows their favorite teams and athletes for updates."
+        },
+        {
+            "persona": "Fantasy Sports Player",
+            "description": "Uses statistics and analysis to manage fantasy teams."
+        },
+        {
+            "persona": "Betting Enthusiast",
+            "description": "Looks for odds and expert predictions to inform bets."
+        },
+        {
+            "persona": "Sports Journalist",
+            "description": "Keeps up with sports news for reporting."
+        },
+        {
+            "persona": "Athlete",
+            "description": "Watches highlights and analyses to improve their game."
+        },
+        {
+            "persona": "Coach",
+            "description": "Studies game strategies and player performances."
+        },
+        {
+            "persona": "Statistician",
+            "description": "Analyzes sports data for trends and insights."
+        },
+        {
+            "persona": "Sports Historian",
+            "description": "Researches past games and legendary players."
+        },
+        {
+            "persona": "Casual Viewer",
+            "description": "Watches major sports events occasionally."
+        },
+        {
+            "persona": "College Sports Fan",
+            "description": "Follows NCAA games and prospects."
+        },
+        {
+            "persona": "International Sports Enthusiast",
+            "description": "Keeps up with global sports like soccer, cricket, and rugby."
+        },
+        {
+            "persona": "Podcast Listener",
+            "description": "Enjoys sports talk shows and expert opinions."
+        },
+        {
+            "persona": "Esports Fan",
+            "description": "Follows competitive gaming events and news."
+        },
+        {
+            "persona": "Parent of Athlete",
+            "description": "Supports their child's athletic interests by staying informed."
+        },
+        {
+            "persona": "Retired Athlete",
+            "description": "Keeps connected to the sports community."
+        },
+        {
+            "persona": "Sports Memorabilia Collector",
+            "description": "Tracks significant moments to find valuable items."
+        },
+        {
+            "persona": "Social Media Manager",
+            "description": "Monitors trending sports topics for content creation."
+        },
+        {
+            "persona": "Gambler",
+            "description": "Looks for insider info to influence betting decisions."
+        },
+        {
+            "persona": "Sports Event Organizer",
+            "description": "Stays updated on scheduling and league changes."
+        },
+        {
+            "persona": "Fitness Enthusiast",
+            "description": "Draws inspiration from professional athletes."
+        }
+    ],
+    "github": [
+        {
+            "persona": "Software Developer",
+            "description": "Hosts and collaborates on code repositories."
+        },
+        {
+            "persona": "Open Source Contributor",
+            "description": "Contributes to public projects to improve software."
+        },
+        {
+            "persona": "Student",
+            "description": "Uses GitHub for learning version control and coding."
+        },
+        {
+            "persona": "Project Manager",
+            "description": "Oversees development projects and team contributions."
+        },
+        {
+            "persona": "Data Scientist",
+            "description": "Shares and accesses code for data analysis and modeling."
+        },
+        {
+            "persona": "DevOps Engineer",
+            "description": "Automates deployment pipelines using GitHub integrations."
+        },
+        {
+            "persona": "Technical Recruiter",
+            "description": "Reviews code samples to assess potential hires."
+        },
+        {
+            "persona": "Hobbyist Programmer",
+            "description": "Works on personal coding projects for fun."
+        },
+        {
+            "persona": "Designer",
+            "description": "Collaborates on UX/UI projects and version control for design files."
+        },
+        {
+            "persona": "Security Researcher",
+            "description": "Finds vulnerabilities and submits security patches."
+        },
+        {
+            "persona": "Startup Founder",
+            "description": "Manages codebases for their products."
+        },
+        {
+            "persona": "Documentation Writer",
+            "description": "Creates and maintains project documentation."
+        },
+        {
+            "persona": "Educator",
+            "description": "Uses GitHub to share educational resources and assignments."
+        },
+        {
+            "persona": "Language Maintainer",
+            "description": "Contributes to programming language development."
+        },
+        {
+            "persona": "Community Moderator",
+            "description": "Manages project issues and discussions."
+        },
+        {
+            "persona": "Version Control Novice",
+            "description": "Learning Git and GitHub basics."
+        },
+        {
+            "persona": "API Developer",
+            "description": "Creates and maintains APIs for applications."
+        },
+        {
+            "persona": "Tester",
+            "description": "Writes test cases and reports issues."
+        },
+        {
+            "persona": "Collaborator",
+            "description": "Works with others on shared codebases."
+        },
+        {
+            "persona": "Tech Enthusiast",
+            "description": "Explores interesting projects and stays updated on tech trends."
+        }
+    ],
+    "google_maps": [
+        {
+            "persona": "Commuter",
+            "description": "Checks traffic updates and fastest routes to work."
+        },
+        {
+            "persona": "Traveler",
+            "description": "Plans trips and navigates unfamiliar cities."
+        },
+        {
+            "persona": "Delivery Driver",
+            "description": "Uses navigation for efficient delivery routes."
+        },
+        {
+            "persona": "Business Owner",
+            "description": "Manages business listings and monitors customer reviews."
+        },
+        {
+            "persona": "Hiker",
+            "description": "Finds trails and outdoor locations."
+        },
+        {
+            "persona": "Event Planner",
+            "description": "Scouts locations and calculates distances between venues."
+        },
+        {
+            "persona": "Real Estate Agent",
+            "description": "Explores neighborhoods and properties."
+        },
+        {
+            "persona": "Foodie",
+            "description": "Searches for restaurants and reads reviews."
+        },
+        {
+            "persona": "Cyclist",
+            "description": "Finds bike-friendly routes and paths."
+        },
+        {
+            "persona": "Public Transit User",
+            "description": "Checks bus and train schedules."
+        },
+        {
+            "persona": "Tourist",
+            "description": "Visits landmarks and uses street view for previews."
+        },
+        {
+            "persona": "Taxi Driver",
+            "description": "Navigates to passenger destinations efficiently."
+        },
+        {
+            "persona": "Emergency Responder",
+            "description": "Uses maps to reach incident locations quickly."
+        },
+        {
+            "persona": "Urban Planner",
+            "description": "Analyzes city layouts and traffic patterns."
+        },
+        {
+            "persona": "Parent",
+            "description": "Finds parks and family-friendly activities."
+        },
+        {
+            "persona": "Geocacher",
+            "description": "Uses coordinates to find hidden items."
+        },
+        {
+            "persona": "Language Learner",
+            "description": "Explores areas in countries of the target language."
+        },
+        {
+            "persona": "Photographer",
+            "description": "Scouts photo shoot locations."
+        },
+        {
+            "persona": "Accessibility Advocate",
+            "description": "Finds wheelchair-accessible routes and locations."
+        },
+        {
+            "persona": "Environmental Researcher",
+            "description": "Studies geographical changes and environmental data."
+        }
+    ],
+    "google_search": [
+        {
+            "persona": "Information Seeker",
+            "description": "Searches for answers to general questions."
+        },
+        {
+            "persona": "Student",
+            "description": "Researches topics for homework and projects."
+        },
+        {
+            "persona": "Shopper",
+            "description": "Looks up products and compares prices."
+        },
+        {
+            "persona": "News Reader",
+            "description": "Finds the latest news on current events."
+        },
+        {
+            "persona": "Job Seeker",
+            "description": "Searches for job openings and company information."
+        },
+        {
+            "persona": "Health Concerned",
+            "description": "Looks up symptoms and medical advice."
+        },
+        {
+            "persona": "Recipe Finder",
+            "description": "Searches for cooking recipes."
+        },
+        {
+            "persona": "Tech Enthusiast",
+            "description": "Keeps up with technology trends and updates."
+        },
+        {
+            "persona": "DIY Hobbyist",
+            "description": "Finds tutorials and guides for projects."
+        },
+        {
+            "persona": "Investor",
+            "description": "Checks stock prices and financial news."
+        },
+        {
+            "persona": "Entertainment Seeker",
+            "description": "Searches for movies, music, and game information."
+        },
+        {
+            "persona": "Traveler",
+            "description": "Researches destinations and travel tips."
+        },
+        {
+            "persona": "Parent",
+            "description": "Finds parenting advice and child-friendly activities."
+        },
+        {
+            "persona": "Language Learner",
+            "description": "Looks up translations and language resources."
+        },
+        {
+            "persona": "Event Planner",
+            "description": "Searches for venues and event ideas."
+        },
+        {
+            "persona": "Sports Fan",
+            "description": "Checks scores and sports news."
+        },
+        {
+            "persona": "Academic Researcher",
+            "description": "Finds scholarly articles and references."
+        },
+        {
+            "persona": "Marketer",
+            "description": "Analyzes search trends and SEO strategies."
+        },
+        {
+            "persona": "Problem Solver",
+            "description": "Looks for solutions to technical or practical problems."
+        },
+        {
+            "persona": "Fashion Enthusiast",
+            "description": "Keeps up with fashion trends and brands."
+        }
+    ],
+    "wolfram_alpha": [
+        {
+            "persona": "Math Student",
+            "description": "Solves equations and checks homework solutions."
+        },
+        {
+            "persona": "Scientist",
+            "description": "Performs complex calculations and data analysis."
+        },
+        {
+            "persona": "Engineer",
+            "description": "Calculates technical specifications and simulations."
+        },
+        {
+            "persona": "Educator",
+            "description": "Creates teaching materials and visualizations."
+        },
+        {
+            "persona": "Data Analyst",
+            "description": "Processes data sets and statistical computations."
+        },
+        {
+            "persona": "Curious Learner",
+            "description": "Explores various topics for knowledge."
+        },
+        {
+            "persona": "Programmer",
+            "description": "Tests algorithms and computational logic."
+        },
+        {
+            "persona": "Financial Analyst",
+            "description": "Performs financial calculations and modeling."
+        },
+        {
+            "persona": "Physicist",
+            "description": "Computes physical equations and constants."
+        },
+        {
+            "persona": "Chemist",
+            "description": "Looks up chemical properties and reactions."
+        },
+        {
+            "persona": "Statistician",
+            "description": "Analyzes probability distributions and data trends."
+        },
+        {
+            "persona": "Astronomer",
+            "description": "Calculates celestial events and properties."
+        },
+        {
+            "persona": "Medical Professional",
+            "description": "Accesses medical data and calculations."
+        },
+        {
+            "persona": "Economist",
+            "description": "Analyzes economic indicators and models."
+        },
+        {
+            "persona": "High School Student",
+            "description": "Uses it for help with math and science assignments."
+        },
+        {
+            "persona": "Linguist",
+            "description": "Analyzes language data and patterns."
+        },
+        {
+            "persona": "History Buff",
+            "description": "Looks up historical timelines and facts."
+        },
+        {
+            "persona": "Environmental Scientist",
+            "description": "Calculates ecological data and climate models."
+        },
+        {
+            "persona": "Puzzle Solver",
+            "description": "Uses computational power to solve complex puzzles."
+        },
+        {
+            "persona": "Philosopher",
+            "description": "Explores logical problems and paradoxes."
+        }
+    ],
+    "huggingface": [
+        {
+            "persona": "AI Developer",
+            "description": "Regularly explores the latest machine learning models and integrates them into their projects."
+        },
+        {
+            "persona": "Researcher",
+            "description": "Uses the platform for cutting-edge AI research, collaborating on novel model architectures."
+        },
+        {
+            "persona": "Beginner Coder",
+            "description": "Searches for beginner-friendly tools and tutorials to learn about AI and natural language processing."
+        },
+        {
+            "persona": "Data Scientist",
+            "description": "Finds pre-trained models to quickly prototype solutions for data-driven problems."
+        },
+        {
+            "persona": "Open-Source Contributor",
+            "description": "Engages with the community by contributing code, datasets, or feedback on model performance."
+        },
+        {
+            "persona": "Educator",
+            "description": "Uses Hugging Face resources to teach students about AI concepts and applications."
+        },
+        {
+            "persona": "Product Manager",
+            "description": "Explores use cases for integrating AI tools into commercial products."
+        },
+        {
+            "persona": "Entrepreneur",
+            "description": "Seeks AI-powered solutions to innovate and disrupt traditional industries."
+        },
+        {
+            "persona": "Community Builder",
+            "description": "Engages in forums and discussions to connect with other AI enthusiasts."
+        },
+        {
+            "persona": "Tech Journalist",
+            "description": "Investigates new models and trends to report on AI advancements."
+        },
+        {
+            "persona": "Tool Integrator",
+            "description": "Looks for APIs and integrations to deploy AI features in existing platforms."
+        },
+        {
+            "persona": "Language Enthusiast",
+            "description": "Explores natural language processing models to analyze and generate text in multiple languages."
+        },
+        {
+            "persona": "Hobbyist",
+            "description": "Experiments with AI tools for personal projects and fun applications."
+        },
+        {
+            "persona": "Game Developer",
+            "description": "Uses Hugging Face tools to create AI-powered characters and environments."
+        },
+        {
+            "persona": "Cloud Architect",
+            "description": "Integrates Hugging Face models into scalable cloud solutions."
+        },
+        {
+            "persona": "Ethics Advocate",
+            "description": "Examines the ethical implications and biases of various AI models."
+        },
+        {
+            "persona": "Documentation Reader",
+            "description": "Studies technical guides and papers to deeply understand model mechanics."
+        },
+        {
+            "persona": "Translator",
+            "description": "Utilizes multilingual AI models for accurate and fast translations."
+        },
+        {
+            "persona": "Performance Tweaker",
+            "description": "Optimizes AI models to improve speed and reduce resource usage."
+        },
+        {
+            "persona": "Startup Advisor",
+            "description": "Advises startups on using AI technologies to accelerate growth."
+        }
+    ],
+    "arxiv": [
+        {
+            "persona": "Academic Researcher",
+            "description": "Regularly reads preprints in their field to stay updated with the latest research."
+        },
+        {
+            "persona": "Graduate Student",
+            "description": "Uses arXiv to find papers for thesis or coursework and to understand current research trends."
+        },
+        {
+            "persona": "Postdoctoral Fellow",
+            "description": "Keeps track of cutting-edge studies to build collaborations and expand their research."
+        },
+        {
+            "persona": "Industry Researcher",
+            "description": "Looks for practical applications of theoretical advancements in their specific domain."
+        },
+        {
+            "persona": "Aspiring Researcher",
+            "description": "Explores papers to learn and get inspired for their own projects and experiments."
+        },
+        {
+            "persona": "Professor",
+            "description": "Follows new publications to incorporate the latest findings into their teaching material."
+        },
+        {
+            "persona": "AI Enthusiast",
+            "description": "Reads machine learning and AI papers to understand advancements in technology and algorithms."
+        },
+        {
+            "persona": "Physicist",
+            "description": "Explores papers on quantum mechanics, relativity, and other physics topics for new insights."
+        },
+        {
+            "persona": "Mathematician",
+            "description": "Finds mathematical proofs and theoretical papers to advance their understanding of the field."
+        },
+        {
+            "persona": "Bibliometrics Analyst",
+            "description": "Analyzes trends in preprints and citations for research on scientific publication patterns."
+        },
+        {
+            "persona": "Peer Reviewer",
+            "description": "Uses arXiv to cross-reference and validate content for journals they review."
+        },
+        {
+            "persona": "Open Science Advocate",
+            "description": "Promotes the use of arXiv for sharing research to support global scientific collaboration."
+        },
+        {
+            "persona": "Startup Founder",
+            "description": "Explores innovative papers that might lead to new product ideas or business opportunities."
+        },
+        {
+            "persona": "Interdisciplinary Researcher",
+            "description": "Looks for papers across multiple domains to integrate ideas into hybrid fields."
+        },
+        {
+            "persona": "High School Teacher",
+            "description": "Finds simplified scientific concepts from research to inspire young students."
+        },
+        {
+            "persona": "Data Scientist",
+            "description": "Uses arXiv to discover data-heavy research and improve their analytical models."
+        },
+        {
+            "persona": "Science Writer",
+            "description": "Reads preprints to report on groundbreaking scientific discoveries for the general public."
+        },
+        {
+            "persona": "Collaborative Scientist",
+            "description": "Connects with authors of arXiv papers for joint research opportunities."
+        },
+        {
+            "persona": "Conference Organizer",
+            "description": "Scans arXiv for potential speakers and topics for upcoming conferences."
+        },
+        {
+            "persona": "Curious Mind",
+            "description": "Reads papers casually out of personal interest in understanding the complexities of science."
+        }
+    ],
+    "allrecipes": [
+        {
+            "persona": "Home Chef",
+            "description": "Searches for dinner ideas and carefully curated recipes to cook for family and friends."
+        },
+        {
+            "persona": "Baking Enthusiast",
+            "description": "Focuses on exploring dessert recipes, from classic cookies to elaborate cakes."
+        },
+        {
+            "persona": "Budget Cook",
+            "description": "Looks for cost-effective meals using basic ingredients already in the pantry."
+        },
+        {
+            "persona": "Health-Conscious Eater",
+            "description": "Seeks recipes with calorie counts and nutritional details to fit their fitness goals."
+        },
+        {
+            "persona": "Experimenter",
+            "description": "Loves trying unique recipes or putting a twist on traditional dishes to surprise guests."
+        },
+        {
+            "persona": "Meal Prepper",
+            "description": "Finds recipes that are easy to make in batches and store for the week."
+        },
+        {
+            "persona": "Vegetarian",
+            "description": "Searches for plant-based recipes for breakfast, lunch, and dinner."
+        },
+        {
+            "persona": "Culinary Newbie",
+            "description": "Learns basic cooking techniques and easy recipes to build confidence in the kitchen."
+        },
+        {
+            "persona": "Food Blogger",
+            "description": "Finds recipes to recreate, photograph, and share on their blog or social media."
+        },
+        {
+            "persona": "Holiday Host",
+            "description": "Looks for festive recipes to impress guests during holiday gatherings."
+        },
+        {
+            "persona": "Grill Master",
+            "description": "Explores BBQ recipes and grilling techniques for meats, vegetables, and sides."
+        },
+        {
+            "persona": "Parent",
+            "description": "Seeks kid-friendly recipes and snacks that are easy to make and nutritious."
+        },
+        {
+            "persona": "Comfort Food Lover",
+            "description": "Searches for hearty, nostalgic recipes like casseroles and soups."
+        },
+        {
+            "persona": "Cultural Explorer",
+            "description": "Tries recipes from different cuisines to experience global flavors at home."
+        },
+        {
+            "persona": "Ingredient Forager",
+            "description": "Explores recipes based on specific ingredients they have on hand."
+        },
+        {
+            "persona": "Diet-Specific Cook",
+            "description": "Finds recipes tailored to keto, paleo, or gluten-free diets."
+        },
+        {
+            "persona": "Event Caterer",
+            "description": "Searches for crowd-pleasing recipes for large gatherings or events."
+        },
+        {
+            "persona": "Leftovers Innovator",
+            "description": "Looks for ways to repurpose leftover ingredients into new dishes."
+        },
+        {
+            "persona": "Time Saver",
+            "description": "Prioritizes quick and easy recipes for busy weeknights."
+        },
+        {
+            "persona": "Presentation Perfectionist",
+            "description": "Focuses on recipes with stunning plating to wow their dinner guests."
+        }
+    ],
+    "amazon": [
+        {
+            "persona": "Bargain Hunter",
+            "description": "Constantly searches for the best deals and discounts across categories."
+        },
+        {
+            "persona": "Prime Member",
+            "description": "Uses Amazon for fast shipping, exclusive deals, and access to Prime Video."
+        },
+        {
+            "persona": "Tech Shopper",
+            "description": "Explores the latest gadgets, electronics, and accessories for purchase."
+        },
+        {
+            "persona": "Gift Buyer",
+            "description": "Finds perfect gifts for birthdays, holidays, or special occasions."
+        },
+        {
+            "persona": "Small Business Owner",
+            "description": "Purchases supplies and inventory to run their business efficiently."
+        },
+        {
+            "persona": "Bookworm",
+            "description": "Browses and buys physical books, e-books, and audiobooks on Kindle."
+        },
+        {
+            "persona": "Home Organizer",
+            "description": "Searches for home and kitchen products to improve household efficiency."
+        },
+        {
+            "persona": "Fitness Enthusiast",
+            "description": "Looks for fitness equipment, apparel, and supplements to stay active."
+        },
+        {
+            "persona": "Parent",
+            "description": "Shops for baby products, toys, and educational materials for kids."
+        },
+        {
+            "persona": "Fashionista",
+            "description": "Explores clothing, shoes, and accessories to keep up with the latest trends."
+        },
+        {
+            "persona": "DIY Enthusiast",
+            "description": "Buys tools, materials, and guides for home improvement projects."
+        },
+        {
+            "persona": "Beauty Lover",
+            "description": "Seeks skincare, makeup, and grooming products to enhance their routine."
+        },
+        {
+            "persona": "Gourmet Cook",
+            "description": "Finds specialty ingredients, cookware, and recipe books for culinary adventures."
+        },
+        {
+            "persona": "Frequent Reviewer",
+            "description": "Writes detailed reviews for products to share their experiences with others."
+        },
+        {
+            "persona": "Gadget Tester",
+            "description": "Orders new tech products to experiment and provide feedback online."
+        },
+        {
+            "persona": "Subscription Seeker",
+            "description": "Uses Amazon for subscriptions like groceries, household essentials, or streaming."
+        },
+        {
+            "persona": "Holiday Shopper",
+            "description": "Stockpiles gifts and decorations for major holidays like Christmas or Halloween."
+        },
+        {
+            "persona": "Global Buyer",
+            "description": "Orders unique products from international sellers not available locally."
+        },
+        {
+            "persona": "Pet Owner",
+            "description": "Purchases pet supplies, food, and accessories for their furry friends."
+        },
+        {
+            "persona": "Eco-Conscious Buyer",
+            "description": "Looks for eco-friendly products and supports sustainable brands."
+        }
+    ],
+    "googlemaps": [
+        {
+            "persona": "Commuter",
+            "description": "Uses Google Maps for daily navigation to avoid traffic and find the fastest routes."
+        },
+        {
+            "persona": "Traveler",
+            "description": "Explores new destinations, landmarks, and attractions during trips."
+        },
+        {
+            "persona": "Foodie",
+            "description": "Searches for highly rated restaurants, cafes, and food trucks nearby."
+        },
+        {
+            "persona": "Real Estate Hunter",
+            "description": "Uses Maps to scout neighborhoods and check property proximities to amenities."
+        },
+        {
+            "persona": "Delivery Driver",
+            "description": "Relies on accurate navigation to deliver goods and services efficiently."
+        },
+        {
+            "persona": "Cyclist",
+            "description": "Finds bike-friendly routes and calculates distance for daily rides."
+        },
+        {
+            "persona": "Hiker",
+            "description": "Seeks trailhead locations and terrain details for hiking adventures."
+        },
+        {
+            "persona": "Event Planner",
+            "description": "Uses Google Maps to find venues and organize event logistics."
+        },
+        {
+            "persona": "Business Locator",
+            "description": "Finds stores, offices, and services for errands or work-related purposes."
+        },
+        {
+            "persona": "Explorer",
+            "description": "Spends time virtually exploring new cities and areas out of curiosity."
+        },
+        {
+            "persona": "Public Transport User",
+            "description": "Uses Maps to plan trips with buses, trains, or metro systems."
+        },
+        {
+            "persona": "Photographer",
+            "description": "Searches for scenic spots and photography opportunities in the area."
+        },
+        {
+            "persona": "Reviewer",
+            "description": "Visits locations and writes detailed reviews to share their experiences."
+        },
+        {
+            "persona": "Shopper",
+            "description": "Finds malls, markets, and retail stores to plan shopping trips."
+        },
+        {
+            "persona": "Eco-Traveler",
+            "description": "Looks for walking routes and public transport to minimize their carbon footprint."
+        },
+        {
+            "persona": "Emergency Locator",
+            "description": "Uses Maps to quickly find nearby hospitals, police stations, or pharmacies."
+        },
+        {
+            "persona": "Tour Guide",
+            "description": "Plans itineraries for groups based on popular locations and landmarks."
+        },
+        {
+            "persona": "History Buff",
+            "description": "Explores historic sites and learns about the past through location details."
+        },
+        {
+            "persona": "Road Tripper",
+            "description": "Plans long-distance drives with stops at interesting points along the way."
+        },
+        {
+            "persona": "Urban Planner",
+            "description": "Analyzes city layouts and infrastructure for planning and development."
+        }
+    ],
+    "google_flights": [
+        {
+            "persona": "Frequent Traveler",
+            "description": "Regularly checks flight deals for work trips or personal vacations."
+        },
+        {
+            "persona": "Bargain Hunter",
+            "description": "Looks for the cheapest flights and uses filters to get the best value for money."
+        },
+        {
+            "persona": "Itinerary Planner",
+            "description": "Compares multiple destinations and routes to plan the perfect vacation."
+        },
+        {
+            "persona": "Last-Minute Booker",
+            "description": "Searches for flights with imminent departures due to sudden travel plans."
+        },
+        {
+            "persona": "Aviation Enthusiast",
+            "description": "Explores flight routes, airplane models, and carrier options out of pure interest in aviation."
+        },
+        {
+            "persona": "Solo Traveler",
+            "description": "Looks for flights to unique destinations for solo adventures."
+        },
+        {
+            "persona": "Family Vacationer",
+            "description": "Plans trips with family-friendly schedules and connections."
+        },
+        {
+            "persona": "Luxury Seeker",
+            "description": "Searches for premium cabin flights and exclusive travel experiences."
+        },
+        {
+            "persona": "Digital Nomad",
+            "description": "Finds flexible flights to cities with reliable work-from-anywhere amenities."
+        },
+        {
+            "persona": "Adventure Seeker",
+            "description": "Looks for flights to destinations with thrilling activities like hiking or diving."
+        },
+        {
+            "persona": "Weekend Getaway Planner",
+            "description": "Finds short flights to nearby locations for quick escapes."
+        },
+        {
+            "persona": "Eco-Conscious Traveler",
+            "description": "Prefers flights with lower carbon emissions and sustainable airlines."
+        },
+        {
+            "persona": "First-Time Flyer",
+            "description": "Seeks simple and direct flight options to minimize stress."
+        },
+        {
+            "persona": "Frequent Flyer Program User",
+            "description": "Looks for flights that maximize loyalty program points and benefits."
+        },
+        {
+            "persona": "Student Traveler",
+            "description": "Searches for student discounts and budget-friendly routes."
+        },
+        {
+            "persona": "Multi-City Explorer",
+            "description": "Plans trips with multiple stops and open-jaw flights."
+        },
+        {
+            "persona": "Seasonal Traveler",
+            "description": "Checks flights for holiday trips or seasonal migration patterns."
+        },
+        {
+            "persona": "Cultural Enthusiast",
+            "description": "Finds flights to immerse themselves in new cultures and traditions."
+        },
+        {
+            "persona": "Travel Agency Pro",
+            "description": "Uses Google Flights to manage client itineraries efficiently."
+        },
+        {
+            "persona": "Photography Buff",
+            "description": "Selects flights to picturesque destinations for capturing stunning landscapes."
+        }
+    ]
+}

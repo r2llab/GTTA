@@ -1,0 +1,177 @@
+[
+  {
+    "initial_state": "Dashboard / Magento Admin with focus on the Dashboard section",
+    "action": "click [156] where [156] is \ue60b SALES",
+    "environmental_dynamics": "The page focused on the 'SALES' link, which is now highlighted, and a submenu appears below it with options like 'Orders', 'Invoices', 'Shipments', 'Credit Memos', 'Billing Agreements', and 'Transactions'."
+  },
+  {
+    "initial_state": "Dashboard / Magento Admin",
+    "action": "click [168] where [168] is Orders",
+    "environmental_dynamics": "The page navigated to the 'Orders' section within the Sales area of the Magento Admin, changing the focus and displaying relevant order information."
+  },
+  {
+    "initial_state": "Magento Admin Orders page",
+    "action": "click [714] where [714] is Create New Order",
+    "environmental_dynamics": "The page transitioned to a new order creation interface titled 'Create New Order in Default Store View', with options for customer selection and a new set of buttons for creating and managing customer data."
+  },
+  {
+    "initial_state": "Magento Admin Panel - New Order for Orders section, with a table of customers available",
+    "action": "click [973] where [973] is 70",
+    "environmental_dynamics": "A loading indication 'Please wait...' appeared, suggesting that the application is processing the action related to the selected customer ID 70."
+  },
+  {
+    "initial_state": "New Order / Orders / Operations / Sales / Magento Admin with the 'Submit Order' button not focused",
+    "action": "click [630] where [630] is Submit Order",
+    "environmental_dynamics": "The 'Submit Order' button was clicked, and it is now focused, indicating the order process is being initiated."
+  },
+  {
+    "initial_state": "New Order / Orders / Operations / Sales / Magento Admin",
+    "action": "click [3863] where [3863] is Get shipping methods and rates",
+    "environmental_dynamics": "A section was updated with a message stating 'Sorry, no quotes are available for this order,' indicating that shipping methods and rates could not be retrieved."
+  },
+  {
+    "initial_state": "New Order / Orders / Operations / Sales / Magento Admin with product ordering details",
+    "action": "click [2495] where [2495] is Add Products",
+    "environmental_dynamics": "A new section appeared, displaying options to select products including 'Add Selected Product(s) to Order', 'Search', and 'Reset Filter', along with a product table showing available items and their details."
+  },
+  {
+    "initial_state": "New Order page in Magento Admin for Emma Lopez",
+    "action": "click [2796] where [2796] is ",
+    "environmental_dynamics": "The checkbox corresponding to 'Select' for 'Erika Running Short-32-Green' was clicked, causing it to become checked and enabling selection for that product."
+  },
+  {
+    "initial_state": "Magento Admin panel on Create New Order page with product selection options",
+    "action": "click [2659] where [2659] is Add Selected Product(s) to Order",
+    "environmental_dynamics": "A confirmation dialog appeared with the message 'Please wait...' indicating that the selected product(s) are being added to the order."
+  },
+  {
+    "initial_state": "New Order / Orders / Operations / Sales / Magento Admin page with elements ready",
+    "action": "click [630] where [630] is Submit Order",
+    "environmental_dynamics": "The 'Submit Order' button was clicked, leading to the submission of the order and indicating a potential transition to an order confirmation state or process."
+  },
+  {
+    "initial_state": "New Order creation screen in Magento Admin, products section has an 'Add Products' button visible",
+    "action": "click [2495] where [2495] is Add Products",
+    "environmental_dynamics": "A product selection interface opened, allowing the user to choose products to add to the order."
+  },
+  {
+    "initial_state": "New Order / Orders / Operations / Sales / Magento Admin",
+    "action": "Attempt to perfom \"click\" on element \"[2659]\" but no matching element found. Please check the observation more carefully.",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "New Order / Orders / Operations / Sales / Magento Admin",
+    "action": "Attempt to perfom \"click\" on element \"[2495]\" but no matching element found. Please check the observation more carefully.",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "New Order / Orders / Operations / Sales / Magento Admin, focused",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page scrolled down, revealing additional products and details in the order management interface."
+  },
+  {
+    "initial_state": "New Order / Orders / Operations / Sales / Magento Admin",
+    "action": "Attempt to perfom \"click\" on element \"[2495]\" but no matching element found. Please check the observation more carefully.",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "New Order / Orders / Operations / Sales / Magento Admin, focused",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page scrolled down, revealing additional products and order information."
+  },
+  {
+    "initial_state": "New Order / Orders / Operations / Sales / Magento Admin, search area with 'Search' button clickable",
+    "action": "click [4030] where [4030] is Search",
+    "environmental_dynamics": "The 'Search' button was clicked, possibly initiating a search operation without any observable change in the UI."
+  },
+  {
+    "initial_state": "New Order / Orders / Operations / Sales / Magento Admin with product table visible",
+    "action": "click [4023] where [4023] is Add Selected Product(s) to Order",
+    "environmental_dynamics": "A confirmation message appeared indicating that the selected product(s) were successfully added to the order, and the button 'Add Selected Product(s) to Order' was interacted with."
+  },
+  {
+    "initial_state": "New Order / Orders / Operations / Sales / Magento Admin page, focused with order details visible",
+    "action": "click [5192] where [5192] is Get shipping methods and rates",
+    "environmental_dynamics": "The shipping method options appeared, displaying available shipping methods alongside their associated costs, enabling the user to select a preferred shipping option."
+  },
+  {
+    "initial_state": "Magento Admin - Create New Order for Emma Lopez in Default Store View",
+    "action": "click [2495] where [2495] is Add Products",
+    "environmental_dynamics": "The 'Add Products' section opened, displaying available products with options to select and add them to the order."
+  },
+  {
+    "initial_state": "New Order / Orders / Operations / Sales / Magento Admin",
+    "action": "Attempt to perfom \"click\" on element \"[2659]\" but no matching element found. Please check the observation more carefully.",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "New Order / Orders / Operations / Sales / Magento Admin with product selection options",
+    "action": "click [4788] where [4788] is Add Selected Product(s) to Order",
+    "environmental_dynamics": "A button titled 'Add Products' was added to the user interface, allowing users to add selected products to the order."
+  },
+  {
+    "initial_state": "New Order / Orders / Operations / Sales / Magento Admin",
+    "action": "click [5701] where [5701] is Get shipping methods and rates",
+    "environmental_dynamics": "A section displaying available shipping methods and their rates opened, allowing the user to view different shipping options such as 'Flat Rate' and 'Best Way'."
+  },
+  {
+    "initial_state": "New Order for Emma Lopez in Default Store View with product list",
+    "action": "click [2495] where [2495] is Add Products",
+    "environmental_dynamics": "A new section was activated displaying product selection options, including buttons to add selected products, search, and reset filters, along with a table listing available products with associated details."
+  },
+  {
+    "initial_state": "New Order form on Magento Admin Panel",
+    "action": "Attempt to perfom \"click\" on element \"[2659]\" but no matching element found. Please check the observation more carefully.",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "New Order / Orders / Operations / Sales / Magento Admin, focused",
+    "action": "Attempt to perfom \"click\" on element \"[4788]\" but no matching element found. Please check the observation more carefully.",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "New Order / Orders / Operations / Sales / Magento Admin",
+    "action": "Attempt to perfom \"click\" on element \"[4788]\" but no matching element found. Please check the observation more carefully.",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "New Order page in Magento Admin",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page was scrolled down, revealing additional items and data related to the new order."
+  },
+  {
+    "initial_state": "New Order / Orders / Operations / Sales / Magento Admin",
+    "action": "Attempt to perfom \"click\" on element \"[4788]\" but no matching element found. Please check the observation more carefully.",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "New Order / Orders / Operations / Sales / Magento Admin, Reset Filter button visible",
+    "action": "click [5306] where [5306] is Reset Filter",
+    "environmental_dynamics": "The filter settings reset, and the page reflects back to the default state with all products visible again."
+  },
+  {
+    "initial_state": "New Order / Orders / Operations / Sales / Magento Admin, with a visible and clickable 'Search' button",
+    "action": "click [5807] where [5807] is Search",
+    "environmental_dynamics": "The 'Search' button was clicked, resulting in the initiation of a product search process, but the specifics of the search results or changes in the visible elements are not detailed."
+  },
+  {
+    "initial_state": "New Order / Orders / Operations / Sales / Magento Admin, focused",
+    "action": "Attempt to perfom \"click\" on element \"[5807]\" but no matching element found. Please check the observation more carefully.",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "New Order / Orders / Operations / Sales / Magento Admin",
+    "action": "Attempt to perfom \"click\" on element \"[5306]\" but no matching element found. Please check the observation more carefully.",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "New Order / Orders / Operations / Sales / Magento Admin with various input fields and buttons visible",
+    "action": "Attempt to perfom \"click\" on element \"[5807]\" but no matching element found. Please check the observation more carefully.",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "New Order page in Magento Admin with order details and product options",
+    "action": "click [630] where [630] is Submit Order",
+    "environmental_dynamics": "The 'Submit Order' button was clicked, initiating the order submission process, which may result in confirmation messages or loading new content."
+  }
+]

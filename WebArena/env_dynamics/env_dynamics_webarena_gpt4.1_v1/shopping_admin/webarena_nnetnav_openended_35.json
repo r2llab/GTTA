@@ -1,0 +1,187 @@
+[
+  {
+    "initial_state": "Magento Admin Dashboard page with main navigation menu visible and the 'CATALOG' link not expanded or focused.",
+    "action": "click [189] where [189] is \ue608 CATALOG",
+    "environmental_dynamics": "The 'CATALOG' menu item became focused and expanded, revealing submenu options such as 'Products' and 'Categories' beneath it."
+  },
+  {
+    "initial_state": "Magento Admin Dashboard displaying dashboard statistics and tables, including a table of bestsellers with 'Sprite Stasis Ball 55 cm' as a clickable product row.",
+    "action": "click [815] where [815] is http://ec2-18-226-185-217.us-east-2.compute.amazonaws.com:8083/admin/catalog/product/edit/id/25/",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "Magento Admin Dashboard with main navigation menu visible, including a 'CATALOG' link that is not expanded or focused.",
+    "action": "click [189] where [189] is \ue608 CATALOG",
+    "environmental_dynamics": "The 'CATALOG' link in the navigation menu became focused and expanded, revealing a vertical submenu with options for 'Products' and 'Categories'."
+  },
+  {
+    "initial_state": "Magento Admin Dashboard displaying Bestsellers table with product rows, including a clickable row for 'Sprite Stasis Ball 55 cm'",
+    "action": "click [815] where [815] is http://ec2-18-226-185-217.us-east-2.compute.amazonaws.com:8083/admin/catalog/product/edit/id/25/",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "Magento Admin Dashboard displaying sales reports, tables of recent orders, and lists of search terms, with a 'Bestsellers' product table showing 'Sprite Stasis Ball 55 cm' as a row.",
+    "action": "click [815] where [815] is http://ec2-18-226-185-217.us-east-2.compute.amazonaws.com:8083/admin/catalog/product/edit/id/25/",
+    "environmental_dynamics": "The browser navigated to the product edit page for 'Sprite Stasis Ball 55 cm', replacing the dashboard with a detailed editable form for this product."
+  },
+  {
+    "initial_state": "Magento Admin product editing page for 'Sprite Stasis Ball 55 cm' with details and configuration options visible, including an 'Advanced Inventory' button.",
+    "action": "click [1013] where [1013] is Advanced Inventory",
+    "environmental_dynamics": "An 'Advanced Inventory' dialog opened, displaying additional inventory and stock configuration settings for the product."
+  },
+  {
+    "initial_state": "Magento Admin product edit page with an open 'Advanced Inventory' dialog; within the dialog, the 'Use Config Settings' checkbox for 'Minimum Qty Allowed in Shopping Cart' is checked and all associated input fields are disabled.",
+    "action": "click [2629] where [2629] is \ue62d Use Config Settings",
+    "environmental_dynamics": "The 'Use Config Settings' checkbox for 'Minimum Qty Allowed in Shopping Cart' in the 'Advanced Inventory' dialog was unchecked, enabling the associated input field for minimum quantity entry."
+  },
+  {
+    "initial_state": "Magento Admin 'Advanced Inventory' dialog is open for editing a product, with the '[global] Minimum Qty Allowed in Shopping Cart' input box showing value '1'.",
+    "action": "type [2582] [5] where [2582] is [global] Minimum Qty Allowed in Shopping Cart",
+    "environmental_dynamics": "The value of the '[global] Minimum Qty Allowed in Shopping Cart' input box was changed from '1' to '5'."
+  },
+  {
+    "initial_state": "Magento Admin product edit page with the 'Advanced Inventory' modal open and the 'Done' button visible and clickable.",
+    "action": "click [2058] where [2058] is Done",
+    "environmental_dynamics": "The 'Advanced Inventory' modal was closed after clicking the 'Done' button, returning focus to the main product edit page."
+  },
+  {
+    "initial_state": "Magento Admin product edit page for 'Sprite Stasis Ball 55 cm', with the 'Quantity' field set to 120.",
+    "action": "type [1010] [150] where [1010] is [global] Quantity",
+    "environmental_dynamics": "The value in the 'Quantity' textbox was updated from 120 to 150, reflecting a new product stock level."
+  },
+  {
+    "initial_state": "Magento Admin product edit page for 'Sprite Stasis Ball 55 cm' with product attribute fields and the 'Save' button visible.",
+    "action": "click [877] where [877] is Save",
+    "environmental_dynamics": "After clicking the 'Save' button, a confirmation message 'You saved the product.' is displayed, indicating that changes to the product were saved."
+  },
+  {
+    "initial_state": "Magento Admin product details page for 'Sprite Stasis Ball 55 cm', displaying editable product attributes and a 'Back' button.",
+    "action": "click [848] where [848] is \ue626 Back",
+    "environmental_dynamics": "Navigated back from the product details page to the main products list page, displaying a table of products and available actions such as search and filters."
+  },
+  {
+    "initial_state": "Magento Admin Catalog product listing page filtered by keyword 'Daria Bikram Pant', showing a table with product variants and an 'Edit Daria Bikram Pant' link visible.",
+    "action": "click [1841] where [1841] is Edit Daria Bikram Pant",
+    "environmental_dynamics": "The browser navigated to the 'Edit Product' page for 'Daria Bikram Pant', displaying detailed editable product information, configuration options, and variant management."
+  },
+  {
+    "initial_state": "Magento Admin product detail page for 'Daria Bikram Pant', showing a table of product variations with each row offering a 'Select' button as part of its actions dropdown.",
+    "action": "click [1857] where [1857] is Select",
+    "environmental_dynamics": "The 'Select' button for the variation 'Daria Bikram Pant-28-Black' was clicked, revealing an inline dropdown menu with options to 'Choose a different Product', 'Disable Product', or 'Remove Product' for that row."
+  },
+  {
+    "initial_state": "Magento Admin product detail page for 'Daria Bikram Pant', Configurations section is open and no modal dialogs are present; the 'Advanced Inventory' button is available.",
+    "action": "click [1036] where [1036] is Advanced Inventory",
+    "environmental_dynamics": "An 'Advanced Inventory' dialog appeared, displaying inventory management fields and controls for the product."
+  },
+  {
+    "initial_state": "Magento Admin product editing page with the 'Advanced Inventory' dialog open and the '[global] Qty' textbox empty or unfocused.",
+    "action": "type [3056] [200 ] where [3056] is [global] Qty",
+    "environmental_dynamics": "The '[global] Qty' textbox in the 'Advanced Inventory' dialog was filled with the value '200', and the textbox is focused, also updating the summary 'Quantity' field to display the new value."
+  },
+  {
+    "initial_state": "Magento Admin product edit page with the 'Advanced Inventory' dialog open and the 'Done' button visible and clickable.",
+    "action": "click [2565] where [2565] is Done",
+    "environmental_dynamics": "The 'Advanced Inventory' dialog was closed, returning focus to the main product edit page and the 'Advanced Inventory' button is now focused on the main page."
+  },
+  {
+    "initial_state": "Magento Admin product configuration page showing a list of current product variations, with clickable 'Select' buttons for each variation row.",
+    "action": "click [1928] where [1928] is Select",
+    "environmental_dynamics": "Clicking the 'Select' button for the variation 'Daria Bikram Pant-28-Gray' opened a dropdown menu with additional options: 'Choose a different Product', 'Disable Product', and 'Remove Product'."
+  },
+  {
+    "initial_state": "Magento Admin product edit page for 'Daria Bikram Pant', with the 'Advanced Inventory' button visible but no dialog open.",
+    "action": "click [1036] where [1036] is Advanced Inventory",
+    "environmental_dynamics": "The Advanced Inventory dialog has opened, displaying inventory management options such as Qty, Out-of-Stock Threshold, Minimum/Maximum Qty Allowed, and other advanced stock settings."
+  },
+  {
+    "initial_state": "Magento Admin product edit page with an 'Advanced Inventory' dialog open and the 'Done' button visible.",
+    "action": "click [2565] where [2565] is Done",
+    "environmental_dynamics": "The 'Done' button within the 'Advanced Inventory' dialog was clicked, but the dialog remains visible with no visible change to the page state or fields."
+  },
+  {
+    "initial_state": "Magento Admin product edit page, with a table listing current product variations and a 'Select' button visible for each variation row.",
+    "action": "click [1999] where [1999] is Select",
+    "environmental_dynamics": "After clicking the 'Select' button for the 'Daria Bikram Pant-28-White' variation, a contextual list of additional actions\u2014'Choose a different Product', 'Disable Product', and 'Remove Product'\u2014appeared next to the button."
+  },
+  {
+    "initial_state": "Magento Admin product edit page with a contextual actions menu open for a configurable product variation, showing 'Choose a different Product', 'Disable Product', and 'Remove Product'.",
+    "action": "click [2003] where [2003] is Choose a different Product",
+    "environmental_dynamics": "A 'Select Associated Product' dialog opened, displaying a list of alternative products to choose from, allowing the current product configuration to be replaced."
+  },
+  {
+    "initial_state": "Magento Admin product edit page with the 'Select Associated Product' dialog open, showing a list of products for selection to associate or replace in a configuration.",
+    "action": "click [3477] where [3477] is 1815",
+    "environmental_dynamics": "The target product row (ID 1815) in the 'Select Associated Product' dialog has been highlighted or activated, and its corresponding product now appears as an available option for configuration in the variations table, replacing one of the previous product variations."
+  },
+  {
+    "initial_state": "Magento Admin configurable product page showing a table of product variations with multiple 'Select' buttons in the Actions column.",
+    "action": "click [2070] where [2070] is Select",
+    "environmental_dynamics": "Clicking the 'Select' button for the variation 'Daria Bikram Pant-29-Black' opened an inline action list with options to 'Choose a different Product', 'Disable Product', or 'Remove Product' for that row."
+  },
+  {
+    "initial_state": "Magento Admin product edit page showing a list of configurable product variations, with the 'Select' button for the variation 'Daria Bikram Pant-29-Black' focused and the action panel (Choose a different Product / Disable Product / Remove Product) open for that row.",
+    "action": "click [2141] where [2141] is Select",
+    "environmental_dynamics": "The action panel with additional options (Choose a different Product / Disable Product / Remove Product) for 'Daria Bikram Pant-29-Black' is closed, and the focus returns to the standard 'Select' button display for all rows; no other interface changes are visible."
+  },
+  {
+    "initial_state": "Magento Admin product edit page for 'Daria Bikram Pant', with an 'Advanced Inventory' button visible but not activated.",
+    "action": "click [1036] where [1036] is Advanced Inventory",
+    "environmental_dynamics": "An 'Advanced Inventory' dialog appeared, showing detailed inventory settings and options for the product."
+  },
+  {
+    "initial_state": "Magento Admin 'Advanced Inventory' dialog is open for a product, with the inventory quantity ('[global] Qty') set to 200.",
+    "action": "type [3056] [250 ] where [3056] is [global] Qty",
+    "environmental_dynamics": "The inventory quantity ('[global] Qty') field was updated from 200 to 250."
+  },
+  {
+    "initial_state": "Magento Admin product inventory edit page with an 'Advanced Inventory' dialog open and the 'Done' button visible inside the dialog; the 'Qty' textbox within the dialog is focused.",
+    "action": "click [2565] where [2565] is Done",
+    "environmental_dynamics": "The 'Advanced Inventory' dialog was closed and focus returned to the main product page, with the 'Advanced Inventory' button now focused; no changes are visible to the product data in the main interface."
+  },
+  {
+    "initial_state": "Magento Admin product edit page for 'Daria Bikram Pant', showing unsaved changes and a detailed editable product form with a visible 'Save' button.",
+    "action": "click [900] where [900] is Save",
+    "environmental_dynamics": "After clicking the 'Save' button, the product is saved and a confirmation message 'You saved the product.' appears on the page, while the editable fields and detailed product form are no longer visible."
+  },
+  {
+    "initial_state": "Magento Admin Catalog page with horizontal navigation bar and sections for product information and save/alert messages; the Catalog link is present but not focused and submenus for Catalog are not expanded.",
+    "action": "click [317] where [317] is \ue608 CATALOG",
+    "environmental_dynamics": "The 'CATALOG' link in the navigation bar became focused and its submenu expanded, revealing Catalog management options like 'Products' and 'Categories'; additional Catalog page content, system messages, and product configuration details became visible in the main area."
+  },
+  {
+    "initial_state": "Magento Admin Panel product edit page for 'Daria Bikram Pant' with a table listing product variations, each row having a 'Select' button.",
+    "action": "click [1965] where [1965] is Select",
+    "environmental_dynamics": "The table row containing the 'Select' button (for 'Daria Bikram Pant-28-Black') is now marked as visible along with all its inner elements, and all elements in the variations table rows are also explicitly marked as visible, but no substantial new interface or modal appears; overall, no significant change to page structure or content after clicking 'Select'."
+  },
+  {
+    "initial_state": "Magento Admin product edit page for 'Daria Bikram Pant', with various product details and configuration options visible, including an 'Advanced Inventory' button.",
+    "action": "click [1144] where [1144] is Advanced Inventory",
+    "environmental_dynamics": "An 'Advanced Inventory' dialog opened, overlaying the page and displaying advanced inventory settings for the product, while the underlying page remains visible."
+  },
+  {
+    "initial_state": "Magento Admin product edit page, with Advanced Inventory dialog open and the '[global] Qty' textbox empty in the dialog.",
+    "action": "type [3060] [180] [press_enter_after=0 ] where [3060] is [global] Qty",
+    "environmental_dynamics": "The '[global] Qty' textbox in the Advanced Inventory dialog has been filled with the text '180] [press_enter_after=0', and a validation error message 'Please enter a valid number in this field.' appeared indicating invalid input."
+  },
+  {
+    "initial_state": "Magento Admin product edit page with the 'Advanced Inventory' dialog open, and the 'Done' button visible but not focused.",
+    "action": "click [2570] where [2570] is Done",
+    "environmental_dynamics": "The 'Done' button in the 'Advanced Inventory' dialog became focused, but the dialog remained open and no visible page state changes occurred."
+  },
+  {
+    "initial_state": "Magento Admin product edit page for 'Daria Bikram Pant' with the 'Advanced Inventory' dialog open and the 'Done' button focused.",
+    "action": "click [833] where [833] is Save",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "Magento Admin product edit page with the 'Advanced Inventory' dialog open and the '[global] Qty' textbox containing an invalid value '180] [press_enter_after=0' and no textbox focused.",
+    "action": "type [3060] [180] [press_enter_after=0 ] where [3060] is [global] Qty Please enter a valid number in this field.",
+    "environmental_dynamics": "The '[global] Qty' textbox in the 'Advanced Inventory' dialog is now focused, but its value remains '180] [press_enter_after=0'; no new value was entered and the error message persists."
+  },
+  {
+    "initial_state": "Magento Admin product edit page with 'Advanced Inventory' dialog open and the '[global] Qty' field containing the invalid value '180] [press_enter_after=0' and focused, displaying a validation error.",
+    "action": "type [3060] [180] [press_enter_after=0 ] where [3060] is [global] Qty Please enter a valid number in this field.",
+    "environmental_dynamics": "no change"
+  }
+]

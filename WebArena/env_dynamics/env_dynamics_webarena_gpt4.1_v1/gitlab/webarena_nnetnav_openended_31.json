@@ -1,0 +1,197 @@
+[
+  {
+    "initial_state": "GitLab user dashboard displaying a list of projects, including headings and summaries for each project such as 'Byte Blaze / a11y-syntax-highlighting'.",
+    "action": "click [320] where [320] is Byte Blaze / a11y-syntax-highlighting",
+    "environmental_dynamics": "Navigated to the 'Byte Blaze / a11y-syntax-highlighting' project page, displaying project-specific navigation, repository files, and detailed README and project information."
+  },
+  {
+    "initial_state": "GitLab project main page for 'a11y-syntax-highlighting', showing project directory and a preview of README.md content in the lower section.",
+    "action": "click [962] where [962] is README.md",
+    "environmental_dynamics": "The browser navigated to the dedicated README.md file view, and the main content area is now focused on an extended and detailed rendering of the README.md file, with file action buttons and breadcrumb navigation updated to reflect the file context."
+  },
+  {
+    "initial_state": "GitLab repository README page for 'a11y-syntax-highlighting', with repository navigation, file contents, and sidebar visible.",
+    "action": "click [328] where [328] is Issues",
+    "environmental_dynamics": "Navigated from the repository's README page to the Issues section, displaying the project issue tracker with open, closed, and all issue tabs, issue list, and issue management controls."
+  },
+  {
+    "initial_state": "GitLab project issues page listing several issues and tasks, including 'Research colorblind-friendly color palettes'.",
+    "action": "click [794] where [794] is Research colorblind-friendly color palettes",
+    "environmental_dynamics": "The browser navigated to the detailed view for the 'Research colorblind-friendly color palettes' task, displaying its title, assignee, labels, due dates, description, and related controls."
+  },
+  {
+    "initial_state": "GitLab task detail page for 'Research colorblind-friendly color palettes' within the byteblaze/a11y-syntax-highlighting project, showing task metadata and description.",
+    "action": "click [327] where [327] is Issues",
+    "environmental_dynamics": "The browser navigated away from the task detail view to the issues list page, displaying a list of open and closed issues for the repository."
+  },
+  {
+    "initial_state": "GitLab issues list page for the 'a11y-syntax-highlighting' project, with multiple issues including 'Research colorblind-friendly color palettes' shown in a list.",
+    "action": "click [794] where [794] is Research colorblind-friendly color palettes",
+    "environmental_dynamics": "The browser navigated to the details page for the 'Research colorblind-friendly color palettes' task, displaying its description, status, labels, assignee, and associated dates."
+  },
+  {
+    "initial_state": "GitLab project task detail page for 'Research colorblind-friendly color palettes', showing all task metadata and content.",
+    "action": "click [327] where [327] is Issues",
+    "environmental_dynamics": "The browser navigated to the project Issues list, displaying all issues including the selected task as a list item rather than its detailed view."
+  },
+  {
+    "initial_state": "GitLab repository issues list page for 'a11y-syntax-highlighting', showing multiple issues including 'Research colorblind-friendly color palettes'",
+    "action": "click [794] where [794] is Research colorblind-friendly color palettes",
+    "environmental_dynamics": "The browser navigated to the detailed view page for the issue 'Research colorblind-friendly color palettes', displaying its metadata, description, status, and related controls."
+  },
+  {
+    "initial_state": "GitLab task detail page for 'Research colorblind-friendly color palettes' with the task description, status, labels, assignee, and dates visible.",
+    "action": "click [327] where [327] is Issues",
+    "environmental_dynamics": "The page navigated from the specific task detail view to the Issues list page, displaying all issues for the 'a11y-syntax-highlighting' project."
+  },
+  {
+    "initial_state": "GitLab project issues page showing a list of issues, including 'Research colorblind-friendly color palettes'.",
+    "action": "click [794] where [794] is Research colorblind-friendly color palettes",
+    "environmental_dynamics": "The browser navigated to the detail page for the 'Research colorblind-friendly color palettes' issue, displaying its full description, status, labels, assignee, and other issue-specific metadata."
+  },
+  {
+    "initial_state": "Single issue detail page for 'Research colorblind-friendly color palettes' with all issue-specific metadata and content visible.",
+    "action": "click [327] where [327] is Issues",
+    "environmental_dynamics": "Navigated from the issue detail page to the main issues list, displaying a list of all issues within the repository with summary information for each."
+  },
+  {
+    "initial_state": "GitLab project issues page showing a list of issues for 'a11y-syntax-highlighting', with issue titles and brief info displayed.",
+    "action": "click [794] where [794] is Research colorblind-friendly color palettes",
+    "environmental_dynamics": "The browser navigated to the detailed issue page for 'Research colorblind-friendly color palettes', displaying its full content, status, labels, assignee, dates, and description."
+  },
+  {
+    "initial_state": "GitLab task detail page for 'Research colorblind-friendly color palettes' within the byteblaze/a11y-syntax-highlighting project, showing full task details.",
+    "action": "click [327] where [327] is Issues",
+    "environmental_dynamics": "Navigated away from the task detail page to the Issues list page, displaying all issues for the a11y-syntax-highlighting project."
+  },
+  {
+    "initial_state": "GitLab project issues list page for 'a11y-syntax-highlighting', with three open issues displayed including 'Research colorblind-friendly color palettes'.",
+    "action": "click [794] where [794] is Research colorblind-friendly color palettes",
+    "environmental_dynamics": "The view switched from the issues list to the detailed page for the 'Research colorblind-friendly color palettes' task, showing its description, labels, assignee, dates, and additional details."
+  },
+  {
+    "initial_state": "GitLab task detail page for 'Research colorblind-friendly color palettes', showing task information, labels, and details.",
+    "action": "click [327] where [327] is Issues",
+    "environmental_dynamics": "The interface navigated to the Issues list page for the Byte Blaze / a11y-syntax-highlighting project, displaying an overview of all issues including the selected task as an entry in the list."
+  },
+  {
+    "initial_state": "GitLab issues list page for the 'a11y-syntax-highlighting' project, displaying several issues including 'Research colorblind-friendly color palettes'.",
+    "action": "click [794] where [794] is Research colorblind-friendly color palettes",
+    "environmental_dynamics": "The browser navigated from the list of issues to the detailed view of the 'Research colorblind-friendly color palettes' issue, displaying its description, assignees, labels, and associated dates."
+  },
+  {
+    "initial_state": "Single task detail page for 'Research colorblind-friendly color palettes' in the GitLab project 'a11y-syntax-highlighting', with detailed info about the task such as status, assignees, labels, dates, and description visible.",
+    "action": "click [327] where [327] is Issues",
+    "environmental_dynamics": "The page navigated away from the task detail view to the project's main Issues list view, showing all open, closed, and all issues with summary information for each."
+  },
+  {
+    "initial_state": "GitLab project Issues page displaying a list of issues and tasks, including the 'Research colorblind-friendly color palettes' task in the list.",
+    "action": "click [794] where [794] is Research colorblind-friendly color palettes",
+    "environmental_dynamics": "The page navigated from the issue list to the detailed view of the 'Research colorblind-friendly color palettes' task, displaying all its metadata, assignees, labels, dates, and a full description."
+  },
+  {
+    "initial_state": "Individual task detail page for 'Research colorblind-friendly color palettes' within the 'a11y-syntax-highlighting' GitLab project, showing task information and controls.",
+    "action": "click [327] where [327] is Issues",
+    "environmental_dynamics": "Navigated from the individual task detail view to the project-wide Issues list page, displaying all issues for the 'a11y-syntax-highlighting' project with summary information."
+  },
+  {
+    "initial_state": "GitLab project issues page listing multiple issues and tasks, including 'Research colorblind-friendly color palettes'",
+    "action": "click [794] where [794] is Research colorblind-friendly color palettes",
+    "environmental_dynamics": "The browser navigated from the issues list to the detailed view of the 'Research colorblind-friendly color palettes' task, displaying its title, status, assignee, labels, dates, milestone, and full description."
+  },
+  {
+    "initial_state": "GitLab issue detail page for 'Research colorblind-friendly color palettes' task, showing task-specific fields and data.",
+    "action": "click [327] where [327] is Issues",
+    "environmental_dynamics": "The browser navigated to the GitLab 'Issues' list page for the a11y-syntax-highlighting repository, displaying all issues including 'Research colorblind-friendly color palettes' among others."
+  },
+  {
+    "initial_state": "GitLab issues list page for the 'a11y-syntax-highlighting' project, showing a list of open issues including 'Research colorblind-friendly color palettes'.",
+    "action": "click [794] where [794] is Research colorblind-friendly color palettes",
+    "environmental_dynamics": "The interface navigated to the detail page for the 'Research colorblind-friendly color palettes' task, displaying full information and actions for that issue."
+  },
+  {
+    "initial_state": "GitLab task details page for 'Research colorblind-friendly color palettes' within the byteblaze/a11y-syntax-highlighting project, showing detailed information about the selected issue/task.",
+    "action": "click [327] where [327] is Issues",
+    "environmental_dynamics": "The view switched from the individual task details page to the project 'Issues' list page, displaying the list of issues including 'Research colorblind-friendly color palettes' and associated metadata."
+  },
+  {
+    "initial_state": "GitLab project issues page showing a list of issues, including 'Research colorblind-friendly color palettes' as one of the listed items.",
+    "action": "click [794] where [794] is Research colorblind-friendly color palettes",
+    "environmental_dynamics": "The browser navigated to the details page for the issue 'Research colorblind-friendly color palettes', displaying its full information, description, labels, dates, and assignee details."
+  },
+  {
+    "initial_state": "GitLab task details page for 'Research colorblind-friendly color palettes', showing assignment, labels, due dates, and task description.",
+    "action": "click [327] where [327] is Issues",
+    "environmental_dynamics": "The view switched from the specific task detail to the main Issues list page, displaying all issues in the repository in a summary view."
+  },
+  {
+    "initial_state": "GitLab issues list page for the 'a11y-syntax-highlighting' project, showing a list of issues including 'Research colorblind-friendly color palettes'.",
+    "action": "click [794] where [794] is Research colorblind-friendly color palettes",
+    "environmental_dynamics": "The browser navigated from the issues list to the detailed view of the issue 'Research colorblind-friendly color palettes', displaying all its information, title, status, assignees, labels, dates, and description."
+  },
+  {
+    "initial_state": "GitLab issue detail page for 'Research colorblind-friendly color palettes', with detailed information about the task, status, dates, labels, and description visible.",
+    "action": "click [327] where [327] is Issues",
+    "environmental_dynamics": "The browser navigated to the main Issues list page for the 'a11y-syntax-highlighting' project, displaying all issues with summary information and filters."
+  },
+  {
+    "initial_state": "GitLab repository issues page listing several issues, including 'Research colorblind-friendly color palettes'",
+    "action": "click [794] where [794] is Research colorblind-friendly color palettes",
+    "environmental_dynamics": "The browser navigated to the detail view of the task 'Research colorblind-friendly color palettes', displaying its full description, status, dates, assignees, and labels."
+  },
+  {
+    "initial_state": "GitLab issue detail page for 'Research colorblind-friendly color palettes' with issue metadata, description, and sidebar navigation visible.",
+    "action": "click [327] where [327] is Issues",
+    "environmental_dynamics": "Navigated from the issue detail page to the Issues list page, displaying a list of issues for the project including their titles, statuses, assignees, creation dates, and associated labels."
+  },
+  {
+    "initial_state": "GitLab project issues page listing multiple issues including 'Research colorblind-friendly color palettes'.",
+    "action": "click [794] where [794] is Research colorblind-friendly color palettes",
+    "environmental_dynamics": "The detailed view for the 'Research colorblind-friendly color palettes' issue opened, displaying its status, assignee, labels, dates, and full description."
+  },
+  {
+    "initial_state": "GitLab project task details page for 'Research colorblind-friendly color palettes', with sidebar navigation visible.",
+    "action": "click [296] where [296] is Repository",
+    "environmental_dynamics": "The main content area changed from the task details view to the repository view, displaying the 'Files' listing and README for the 'a11y-syntax-highlighting' project."
+  },
+  {
+    "initial_state": "GitLab repository file listing page for 'a11y-syntax-highlighting', showing README and project files with navigation sidebar.",
+    "action": "click [326] where [326] is Issues",
+    "environmental_dynamics": "The view switched to the 'Issues' page for the repository, displaying tabs for open, closed, and all issues, and showing a list of current issues with labels, statuses, and actions such as subscribing or creating a new issue."
+  },
+  {
+    "initial_state": "GitLab project issues page for Byte Blaze / a11y-syntax-highlighting, showing a list of issues and tasks including 'Research colorblind-friendly color palettes'",
+    "action": "click [794] where [794] is Research colorblind-friendly color palettes",
+    "environmental_dynamics": "The browser navigated from the issues list to the detailed view of the 'Research colorblind-friendly color palettes' task, displaying its description, assignee, labels, dates, and other metadata."
+  },
+  {
+    "initial_state": "GitLab issue detail page for 'Research colorblind-friendly color palettes' in the byteblaze/a11y-syntax-highlighting project.",
+    "action": "click [296] where [296] is Repository",
+    "environmental_dynamics": "Navigated from the issue detail page to the repository main page, displaying the file tree, recent commits, and README for the project."
+  },
+  {
+    "initial_state": "GitLab project repository page showing the directory listing and README.md preview in the main content area.",
+    "action": "click [819] where [819] is README.md",
+    "environmental_dynamics": "The page navigated to the detailed README.md file view, displaying the full file contents along with additional file operation buttons and a specialized breadcrumb indicating the README.md file is open."
+  },
+  {
+    "initial_state": "GitLab repository page for 'a11y-syntax-highlighting' showing the README.md file.",
+    "action": "click [326] where [326] is Issues",
+    "environmental_dynamics": "The browser navigated from the README file view to the Issues page for the repository, displaying a list of open, closed, and all issues with options for filtering and interacting with them."
+  },
+  {
+    "initial_state": "GitLab issues list page for the a11y-syntax-highlighting project, displaying multiple issues including 'Research colorblind-friendly color palettes' as a clickable link.",
+    "action": "click [794] where [794] is Research colorblind-friendly color palettes",
+    "environmental_dynamics": "The browser navigated to the detail page for the 'Research colorblind-friendly color palettes' issue, displaying its title, status, assignee, labels, dates, milestone, and description."
+  },
+  {
+    "initial_state": "GitLab issue detail page for 'Research colorblind-friendly color palettes' within the byteblaze/a11y-syntax-highlighting project.",
+    "action": "click [327] where [327] is Issues",
+    "environmental_dynamics": "The browser navigated from the issue detail page to the project's Issues list view, displaying all the issues for the repository."
+  },
+  {
+    "initial_state": "GitLab Issues page for the 'a11y-syntax-highlighting' project, showing a list of issues including 'Research colorblind-friendly color palettes'.",
+    "action": "click [794] where [794] is Research colorblind-friendly color palettes",
+    "environmental_dynamics": "The browser navigated to the detailed page for the issue 'Research colorblind-friendly color palettes', showing its description, assignee, labels, and other metadata for that task."
+  }
+]

@@ -1,0 +1,197 @@
+[
+  {
+    "initial_state": "OpenStreetMap homepage with navigation links and search elements, and a visible link labeled 'Find directions between two points'.",
+    "action": "click [149] where [149] is Find directions between two points",
+    "environmental_dynamics": "A new directions panel appeared with input fields for 'From' and 'To' locations, a transport mode selector, and buttons for 'Go' and 'Reverse Directions', allowing route planning between two locations."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with the 'From' textbox empty in the directions section.",
+    "action": "type [158] [CMU ] where [158] is From",
+    "environmental_dynamics": "The text 'CMU' was entered into the 'From' textbox in the directions section, and the textbox is now focused and displays this value."
+  },
+  {
+    "initial_state": "OpenStreetMap directions panel with the 'From' field set to 'CMU' and the 'To' field empty and unfocused.",
+    "action": "type [163] [Pittsburgh Downtown ] where [163] is To",
+    "environmental_dynamics": "The 'To' field in the directions panel is now filled with 'Pittsburgh Downtown', and this field is focused."
+  },
+  {
+    "initial_state": "OpenStreetMap routing panel open with start location as 'Carnegie Mellon University...' and end location as 'Pittsburgh Downtown'; the 'Go' button is present but directions are not shown.",
+    "action": "click [171] where [171] is Go",
+    "environmental_dynamics": "After clicking 'Go', the route is calculated and a new directions panel appears displaying step-by-step driving directions, distance, estimated time, and detailed maneuver instructions from Carnegie Mellon University to Downtown Pittsburgh."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with 'From' and 'To' fields set to place names (Carnegie Mellon University and Downtown, Pittsburgh) and driving directions displayed from 'From' to 'To'.",
+    "action": "click [174] where [174] is Reverse Directions",
+    "environmental_dynamics": "The 'From' and 'To' fields were swapped and updated with latitude/longitude coordinates, and the driving directions were recalculated to reflect the reversed route."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with the route options combobox ('Car (OSRM)') visible and collapsed.",
+    "action": "click [166] where [166] is ",
+    "environmental_dynamics": "The route options combobox ('Car (OSRM)') expanded, displaying alternative routing options and now has keyboard focus."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with Car (OSRM) selected in the transportation combobox, showing route details for that mode.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page displaying a route from '40.4414, -80.0039' to '40.4442, -79.9427' with travel mode set to 'Car (OSRM)' and a combobox expanded showing mode options.",
+    "action": "click [169] where [169] is Foot (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page displaying a route from '40.4414, -80.0039' to '40.4442, -79.9427' using Car (OSRM), with Car (OSRM) selected in the route mode combobox.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions panel with 'Car (OSRM)' selected in the transportation mode combobox and detailed driving directions displayed.",
+    "action": "click [169] where [169] is Foot (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions panel is open, with the transportation mode combobox expanded and 'Car (OSRM)' selected.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions panel is open with 'Car (OSRM)' selected in the route mode combobox and route directions for car displayed.",
+    "action": "click [169] where [169] is Foot (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions panel is open, showing route and turn-by-turn directions from '40.4414, -80.0039' (From) to '40.4442, -79.9427' (To) by Car (OSRM).",
+    "action": "click [174] where [174] is Reverse Directions",
+    "environmental_dynamics": "The 'From' and 'To' locations in the directions panel have been swapped, the route and turn-by-turn directions have updated to reflect travel from '40.4442, -79.9427' to '40.4414, -80.0039', and the directions panel displays the reversed itinerary and updated distance/time."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with transportation mode combobox collapsed and 'Car (OSRM)' selected.",
+    "action": "click [166] where [166] is ",
+    "environmental_dynamics": "The transportation mode combobox expanded, displaying all available options and bringing it into focus."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with 'Car (OSRM)' selected in the transportation mode combobox and corresponding directions displayed.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions panel is open with the 'Car (OSRM)' option selected in the travel mode combobox.",
+    "action": "click [169] where [169] is Foot (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page showing route details with 'Car (OSRM)' selected in the travel mode combobox and directions displayed for that mode.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with the mode of transport combobox expanded and 'Car (OSRM)' selected, showing driving directions.",
+    "action": "click [169] where [169] is Foot (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with 'Car (OSRM)' selected as the mode of transportation in the combobox, with route directions shown.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page showing route and steps for Car (OSRM), with 'Car (OSRM)' selected in the routing mode combobox.",
+    "action": "click [169] where [169] is Foot (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with the transport mode combobox expanded and 'Car (OSRM)' selected.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page showing a driving route from '40.4442, -79.9427' to '40.4414, -80.0039', with the 'Car (OSRM)' travel mode selected in the expanded combobox.",
+    "action": "click [169] where [169] is Foot (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with the 'Car (OSRM)' travel mode selected, and the combobox menu for travel modes expanded and focused.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "No visible change occurred; the combobox travel mode remains 'Car (OSRM)' and the directions shown have not updated."
+  },
+  {
+    "initial_state": "OpenStreetMap directions panel open with travel mode set to 'Car (OSRM)', combobox expanded showing options for 'Bicycle (OSRM)', 'Car (OSRM)', and 'Foot (OSRM)' with 'Car (OSRM)' currently selected.",
+    "action": "click [169] where [169] is Foot (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with a directions panel visible, showing route instructions and a 'Close' button for the directions.",
+    "action": "click [612] where [612] is Close",
+    "environmental_dynamics": "The directions panel was closed, and the main map interface is now shown along with a 'Welcome to OpenStreetMap!' banner."
+  },
+  {
+    "initial_state": "OpenStreetMap page displaying route directions with 'From' and 'To' fields filled and a 'Reverse Directions' button present.",
+    "action": "click [174] where [174] is Reverse Directions",
+    "environmental_dynamics": "The values in the 'From' and 'To' fields were swapped, and updated route directions were displayed, including a new 'Directions' section with step-by-step navigation, distance, and time."
+  },
+  {
+    "initial_state": "OpenStreetMap directions panel is open with the travel mode combobox collapsed and the 'Reverse Directions' button focused.",
+    "action": "click [166] where [166] is ",
+    "environmental_dynamics": "The travel mode combobox became expanded and focused, displaying available options ('Bicycle (OSRM)', 'Car (OSRM)', and 'Foot (OSRM)')."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with the directions panel open, 'Car (OSRM)' selected in the combobox for route type.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "No change."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page showing a route from '40.4414, -80.0039' (From) to '40.4442, -79.9427' (To) with travel details and step-by-step directions.",
+    "action": "click [174] where [174] is Reverse Directions",
+    "environmental_dynamics": "Clicking 'Reverse Directions' swapped the 'From' and 'To' addresses, recalculated the route, and updated the directions, distance, time, and turn-by-turn instructions accordingly."
+  },
+  {
+    "initial_state": "OpenStreetMap directions results page with 'Car (OSRM)' selected as the routing mode and directions displayed.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions panel is open with 'From' set to '40.4442, -79.9427' and 'To' set to '40.4414, -80.0039', showing a driving route and step-by-step directions.",
+    "action": "click [174] where [174] is Reverse Directions",
+    "environmental_dynamics": "The 'From' and 'To' locations in the directions panel have been swapped, and the directions have been recalculated and updated to reflect the reversed route."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page showing driving (Car OSRM) directions for a route, with the 'Car (OSRM)' option selected in the route mode combobox.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions panel showing a route from '40.4414, -80.0039' to '40.4442, -79.9427', with driving instructions, distance, and time.",
+    "action": "click [174] where [174] is Reverse Directions",
+    "environmental_dynamics": "The 'From' and 'To' fields were swapped, and the directions were recalculated and updated, reflecting a new route from '40.4442, -79.9427' to '40.4414, -80.0039' with updated step-by-step driving instructions, distance, and time."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with the transportation mode combobox set to 'Car (OSRM)' and not expanded.",
+    "action": "click [166] where [166] is ",
+    "environmental_dynamics": "The transportation mode combobox is now expanded and focused, displaying the available options ('Bicycle', 'Car', 'Foot')."
+  },
+  {
+    "initial_state": "OpenStreetMap directions panel with 'Car (OSRM)' selected in the transportation mode combobox, showing route details from Forbes Avenue to Stanwix Street.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap web app displaying driving directions from '40.4442, -79.9427' to '40.4414, -80.0039' with the directions and summary shown.",
+    "action": "click [174] where [174] is Reverse Directions",
+    "environmental_dynamics": "The 'From' and 'To' addresses were swapped, the directions and summary were recalculated to reflect the new route, and the directions panel updated to show the revised step-by-step instructions and travel time."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with the travel method combobox collapsed and 'Car (OSRM)' selected.",
+    "action": "click [166] where [166] is ",
+    "environmental_dynamics": "The travel method combobox expanded, displaying available options (Bicycle, Car, Foot) and received focus."
+  },
+  {
+    "initial_state": "OpenStreetMap directions results displayed for Car (OSRM), with the Car (OSRM) option selected in the route planner combobox.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions panel is open with a route from '40.4414, -80.0039' (From) to '40.4442, -79.9427' (To), showing step-by-step driving instructions.",
+    "action": "click [174] where [174] is Reverse Directions",
+    "environmental_dynamics": "Clicking 'Reverse Directions' swapped the origin and destination fields, recalculated the route in the opposite direction, and updated the directions, distance, and travel time accordingly."
+  }
+]

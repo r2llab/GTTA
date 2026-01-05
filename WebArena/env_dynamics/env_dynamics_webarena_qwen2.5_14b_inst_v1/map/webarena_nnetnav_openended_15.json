@@ -1,0 +1,57 @@
+[
+  {
+    "initial_state": "OpenStreetMap homepage with a search bar",
+    "action": "type [145] [New York ] where [145] is Search",
+    "environmental_dynamics": "The search bar was populated with the text 'New York', and a section titled 'Search Results' containing a list of relevant results emerged below the search bar."
+  },
+  {
+    "initial_state": "OpenStreetMap page with 'New York' in the search bar and 'Search Results' already displayed",
+    "action": "click [147] where [147] is Go",
+    "environmental_dynamics": "The 'Go' button was clicked, maintaining the search results visible but shifting focus to the 'Go' button."
+  },
+  {
+    "initial_state": "OpenStreetMap page for New York, with search results and map images",
+    "action": "click [487] where [487] is City of New York, New York, United States",
+    "environmental_dynamics": "A 'Loading...' status bar appeared, and the map started loading a more detailed view centered on 'City of New York, New York, United States'."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage displaying New York",
+    "action": "click [145] where [145] is Search",
+    "environmental_dynamics": "The search bar became focused, indicating it is ready for user input, and additional details about the 'City of New York' relation appeared below."
+  },
+  {
+    "initial_state": "An OpenStreetMap page displaying details of the 'City of New York' relation with a menu allowing access to various page sections, such as GPS traces, user diaries, and login options, with a search bar.",
+    "action": "click [408] where [408] is Share",
+    "environmental_dynamics": "A pop-up sharing section appeared, offering options to share the current map view through a link, short link, HTML, Geo URI, and an image download tab."
+  },
+  {
+    "initial_state": "An OpenStreetMap page displaying information about the relation 'City of New York' (175905) with a section on 'Share' that has a heading but no expanded details",
+    "action": "click [304] where [304] is Share",
+    "environmental_dynamics": "No change, as clicking on the 'Share' heading did not expand or alter any visible details."
+  },
+  {
+    "initial_state": "OpenStreetMap page displaying information for the City of New York (ID: 175905), including details like relations, versions, and various names.",
+    "action": "click [312] where [312] is Include marker",
+    "environmental_dynamics": "The checkbox 'Include marker' for the 'Link or HTML' section is now checked, possibly altering the URL to include marker coordinates."
+  },
+  {
+    "initial_state": "OpenStreetMap page with details about 'Relation: City of New York (175905)'",
+    "action": "click [343] where [343] is ",
+    "environmental_dynamics": "The 'Scale:' textbox gained focus, allowing input."
+  },
+  {
+    "initial_state": "OpenStreetMap page showing details for 'Relation: City of New York (175905)' with scale textbox set to '419812'",
+    "action": "click [344] where [344] is ",
+    "environmental_dynamics": "The scale textbox with value '419812' gained focus, indicating it can accept input."
+  },
+  {
+    "initial_state": "OpenStreetMap page displaying relation details for the City of New York, with the 'Scale:' textbox containing value '419812'.",
+    "action": "type [344] [100000] where [344] is Scale:",
+    "environmental_dynamics": "The 'Scale:' textbox value in the image section was updated to '100000' and the textbox became focused."
+  },
+  {
+    "initial_state": "OpenStreetMap page displaying details of the 'City of New York' relation with a zoom scale input box for custom dimensions set to '100000'.",
+    "action": "click [343] where [343] is ",
+    "environmental_dynamics": "The focus moved to the 'Scale:' textbox for custom dimensions, and the value changed to '185000' with a new corresponding image dimension of '2007x1963'."
+  }
+]

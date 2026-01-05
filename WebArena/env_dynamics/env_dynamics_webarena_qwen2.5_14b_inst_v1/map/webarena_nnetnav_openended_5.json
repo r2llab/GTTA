@@ -1,0 +1,27 @@
+[
+  {
+    "initial_state": "OpenStreetMap homepage with a search bar and other navigation options",
+    "action": "type [145] [museums near me ] where [145] is Search",
+    "environmental_dynamics": "The search bar now contains the text 'museums near me' and is focused, and a 'Loading...' status message indicates that a search request is being processed."
+  },
+  {
+    "initial_state": "OpenStreetMap page with search bar focused on 'museums near me' and loading status",
+    "action": "click [147] where [147] is Go",
+    "environmental_dynamics": "The 'Go' button was clicked, shifting its focus and updating the search results section to display 'No results found'."
+  },
+  {
+    "initial_state": "An OpenStreetMap page with the search bar displaying 'museums near me' and showing no search results",
+    "action": "type [145] [museums near New York ] where [145] is Search",
+    "environmental_dynamics": "The search bar's input was changed to 'museums near New York', and new search results related to museums near New York were displayed."
+  },
+  {
+    "initial_state": "OpenStreetMap page listing museums near New York with search input focused",
+    "action": "click [147] where [147] is Go",
+    "environmental_dynamics": "The 'Go' button became focused, indicating it has been clicked, but the page content remained unchanged."
+  },
+  {
+    "initial_state": "OpenStreetMap search results page with 'museums near New York' as the search query",
+    "action": "click [507] where [507] is Trailside nature museum, Reservation Road, Town of Pound Ridge, Westchester County, New York, 10518, United States",
+    "environmental_dynamics": "The page details for a specific museum, Trailside nature museum, are displayed, showing its location, edits history, and tags with additional information like its street address, operator, and website."
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "initial_state": "Postmill homepage",
+    "action": "click [42] where [42] is Forums",
+    "environmental_dynamics": "The page transitioned to the 'List of forums', displaying various forum categories along with a 'Create forum' link."
+  },
+  {
+    "initial_state": "List of forums with multiple articles and subscription buttons",
+    "action": "click [38] where [38] is Forums",
+    "environmental_dynamics": "The browser navigated to the 'Forums' section, displaying a list of available forums with detailed content."
+  },
+  {
+    "initial_state": "List of forums",
+    "action": "click [144] where [144] is AskReddit \u2014 AskReddit",
+    "environmental_dynamics": "Navigated to the 'AskReddit' forum page, displaying focused content related to AskReddit discussions."
+  },
+  {
+    "initial_state": "AskReddit main page with multiple articles visible",
+    "action": "click [262] where [262] is What is a battle that you are losing right now?",
+    "environmental_dynamics": "The page navigated to the article titled 'What is a battle that you are losing right now?', focusing on its content and displaying related comments."
+  },
+  {
+    "initial_state": "Discussion thread about a battle someone is losing, with a comment textbox visible",
+    "action": "type [172] [I'm struggling to maintain my workout routine lately, any tips? ] where [172] is Comment",
+    "environmental_dynamics": "The text 'I'm struggling to maintain my workout routine lately, any tips?' was entered into the comment textbox, ready for submission."
+  },
+  {
+    "initial_state": "AskReddit comment submission page with a comment textbox visible",
+    "action": "click [312] where [312] is Post",
+    "environmental_dynamics": "An alert appeared stating 'Please fill in this field.', indicating that the comment textbox requires input before the form can be submitted."
+  },
+  {
+    "initial_state": "Comment textbox with 'Comment' label focused, ready to submit a comment",
+    "action": "click [312] where [312] is Post",
+    "environmental_dynamics": "A submission confirmation message appeared, indicating that the comment was posted successfully."
+  }
+]

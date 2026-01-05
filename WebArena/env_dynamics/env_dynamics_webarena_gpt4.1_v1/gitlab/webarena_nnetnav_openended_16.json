@@ -1,0 +1,197 @@
+[
+  {
+    "initial_state": "GitLab dashboard displaying a list of projects, including 'Byte Blaze / a11y-syntax-highlighting' as one of the options.",
+    "action": "click [320] where [320] is Byte Blaze / a11y-syntax-highlighting",
+    "environmental_dynamics": "The view changed from the dashboard to the detailed project page for 'Byte Blaze / a11y-syntax-highlighting', displaying repository navigation, project information, file list, README content, and multiple alerts related to SSH keys and Auto DevOps."
+  },
+  {
+    "initial_state": "GitLab project main page for 'a11y-syntax-highlighting' with overview, file tree, and README visible.",
+    "action": "click [696] where [696] is 48 Commits",
+    "environmental_dynamics": "The browser navigated to the 'Commits' page for the 'main' branch, displaying a list of all commits with details such as author, message, and date."
+  },
+  {
+    "initial_state": "GitLab commits page for Byte Blaze / a11y-syntax-highlighting project, with a list of commits and various clickable author names.",
+    "action": "click [671] where [671] is Eric Bailey",
+    "environmental_dynamics": "The focus shifted to the 'Eric Bailey' author link in the most recent commit, but no new content or navigation occurred."
+  },
+  {
+    "initial_state": "GitLab repository commit history page with the 'Eric Bailey' author link focused for the 'Add credit for Vi/Vim' commit.",
+    "action": "click [696] where [696] is Eric Bailey",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "GitLab repository commits page for 'a11y-syntax-highlighting', with the 'Eric Bailey' link in the 29 Jan, 2023 commit focused.",
+    "action": "click [671] where [671] is Eric Bailey",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "GitLab repository Commits page for 'a11y-syntax-highlighting' project, with the list of commits visible.",
+    "action": "click [309] where [309] is Contributors",
+    "environmental_dynamics": "The main page content changed from the commits list to the Contributors view, now displaying contributor names, email addresses, commit counts, and contribution history graphs."
+  },
+  {
+    "initial_state": "GitLab contributors page for the 'a11y-syntax-highlighting' project, displaying a list of contributors including Eric Bailey with his commit statistics.",
+    "action": "click [628] where [628] is Eric Bailey",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "GitLab contributors page for the Byte Blaze / a11y-syntax-highlighting project, showing statistics and commit graphs for each contributor.",
+    "action": "click [679] where [679] is Commits Avg: 1.94m \u00b7 Max: 3",
+    "environmental_dynamics": "No visible change occurred on the page after clicking the 'Commits Avg: 1.94m \u00b7 Max: 3' button."
+  },
+  {
+    "initial_state": "GitLab Contributors page for the a11y-syntax-highlighting project, displaying a list of contributors and their commit statistics, with Eric Bailey's section visible among others.",
+    "action": "click [628] where [628] is Eric Bailey",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "GitLab project contributors page for 'a11y-syntax-highlighting', displaying contributor statistics and graphs.",
+    "action": "click [301] where [301] is Commits",
+    "environmental_dynamics": "The page navigated to the 'Commits' view, now displaying a chronological list of commits to the 'main' branch including commit messages, authors, timestamps, and related actions."
+  },
+  {
+    "initial_state": "GitLab repository commits page with a list of commit entries, including clickable author names such as 'Eric Bailey'.",
+    "action": "click [671] where [671] is Eric Bailey",
+    "environmental_dynamics": "The 'Eric Bailey' author link inside the most recent commit now has keyboard focus, but no navigation or page content change has occurred."
+  },
+  {
+    "initial_state": "GitLab repository page for Byte Blaze / a11y-syntax-highlighting showing the 'Commits' section with a list of commits.",
+    "action": "click [309] where [309] is Contributors",
+    "environmental_dynamics": "The page navigated from the 'Commits' section to the 'Contributors' section, displaying contributor statistics and commit charts for individual contributors."
+  },
+  {
+    "initial_state": "GitLab Contributors page for Byte Blaze / a11y-syntax-highlighting project, with multiple contributors and per-contributor stats displayed including Eric Bailey as a section heading.",
+    "action": "click [628] where [628] is Eric Bailey",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "GitLab project contributors page showing a list of contributors and their commit details, including 'Eric Bailey' with 29 commits (eric.w.bailey@gmail.com).",
+    "action": "click [629] where [629] is ",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "GitLab project Contributors page for 'a11y-syntax-highlighting' with a sidebar containing links for navigation.",
+    "action": "click [301] where [301] is Commits",
+    "environmental_dynamics": "The main content area updated from showing contributor statistics to displaying a list of individual commits for the 'main' branch, including details for each commit, while the sidebar and navigation remained present."
+  },
+  {
+    "initial_state": "GitLab repository 'a11y-syntax-highlighting' Commits page, with the author name 'Eric Bailey' as a clickable link but not focused.",
+    "action": "click [671] where [671] is Eric Bailey",
+    "environmental_dynamics": "The 'Eric Bailey' link is now focused, indicating it has been selected, but no new navigation or major visible change has occurred."
+  },
+  {
+    "initial_state": "GitLab repository 'a11y-syntax-highlighting' page showing the commits list in the main area.",
+    "action": "click [309] where [309] is Contributors",
+    "environmental_dynamics": "The main content area changed from a list of commits to an overview showing repository contributors, including commit counts, charts, and contributor details."
+  },
+  {
+    "initial_state": "GitLab contributors page for the 'a11y-syntax-highlighting' project, with a visible heading for 'Eric Bailey' among other contributors.",
+    "action": "click [628] where [628] is Eric Bailey",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "GitLab project 'a11y-syntax-highlighting' Contributors page with sidebar showing repository sections including 'Commits', and main area listing contributors and their commit counts.",
+    "action": "click [301] where [301] is Commits",
+    "environmental_dynamics": "The main content changed from a list of contributors to a detailed list of individual commits on the 'main' branch, displaying commit messages, authors, dates, and other commit actions."
+  },
+  {
+    "initial_state": "GitLab commit history page for the a11y-syntax-highlighting project, with the commit list and user names displayed but no specific user selected or focused.",
+    "action": "click [671] where [671] is Eric Bailey",
+    "environmental_dynamics": "The 'Eric Bailey' link for the most recent commit is now focused, but no visible page content has changed or new user details have appeared."
+  },
+  {
+    "initial_state": "GitLab repository 'a11y-syntax-highlighting' on the 'Commits' page, showing a list of commits and contributors in the left sidebar.",
+    "action": "click [309] where [309] is Contributors",
+    "environmental_dynamics": "The main content area changed from a detailed list of commits to a contributors statistics page, displaying commit counts and contributor names along with graphs."
+  },
+  {
+    "initial_state": "GitLab Contributors page for the Byte Blaze / a11y-syntax-highlighting project, listing contributors including Eric Bailey, each with headings and stats.",
+    "action": "click [628] where [628] is Eric Bailey",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "GitLab contributors page for the 'a11y-syntax-highlighting' project, with several contributor headings including '\u5c0f\u5b50\u6b20\u6241' visible.",
+    "action": "click [668] where [668] is \u5c0f\u5b50\u6b20\u6241",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "GitLab contributors page for the a11y-syntax-highlighting repository, displaying detailed statistics and headings for each contributor, including a heading for Eric Bailey.",
+    "action": "click [628] where [628] is Eric Bailey",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "GitLab Contributors page for the project 'a11y-syntax-highlighting', with contributor sections including one for '\u5c0f\u5b50\u6b20\u6241', all visible and interactive.",
+    "action": "click [668] where [668] is \u5c0f\u5b50\u6b20\u6241",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "GitLab Contributors page for the 'a11y-syntax-highlighting' project, with contributor 'Reuben L. Lillie' listed and visible as a heading.",
+    "action": "click [688] where [688] is Reuben L. Lillie",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "GitLab project contributors page displaying the contributions and commit charts for various contributors including '\u5c0f\u5b50\u6b20\u6241', with each contributor name as a heading and summary paragraph.",
+    "action": "click [668] where [668] is \u5c0f\u5b50\u6b20\u6241",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "GitLab project contributors page for 'a11y-syntax-highlighting' with a sidebar showing navigation links including 'Commits', and detailed stats/charts for contributors in the main section.",
+    "action": "click [301] where [301] is Commits",
+    "environmental_dynamics": "The main content area changed from contributor charts and statistics to a list of project commits, showing commit messages, authors, dates, and options to copy commit SHA or browse commit files."
+  },
+  {
+    "initial_state": "GitLab repository commits page for 'a11y-syntax-highlighting', showing a list of commits with author links.",
+    "action": "click [671] where [671] is Eric Bailey",
+    "environmental_dynamics": "The 'Eric Bailey' author link for the most recent commit is now focused, but there is no navigation or visible content change."
+  },
+  {
+    "initial_state": "GitLab project 'a11y-syntax-highlighting' commits page, showing a list of commit entries and navigation links including 'Contributors' in the sidebar.",
+    "action": "click [309] where [309] is Contributors",
+    "environmental_dynamics": "The browser navigated from the commits page to the 'Contributors' page, displaying charts and statistics for individual contributors and their commit counts."
+  },
+  {
+    "initial_state": "GitLab project contributors page showing detailed contributor statistics, with a visible heading 'Eric Bailey' among other contributors.",
+    "action": "click [628] where [628] is Eric Bailey",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "GitLab project contributors page for 'a11y-syntax-highlighting', showing contributor statistics and commit graphs.",
+    "action": "click [301] where [301] is Commits",
+    "environmental_dynamics": "The page navigated from the contributors statistics and graphs view to the 'Commits' page, now displaying a chronological list of commits with their authors, messages, and timestamps for the 'main' branch."
+  },
+  {
+    "initial_state": "GitLab repository commits page with a list of commits, including clickable author names, none of which are focused.",
+    "action": "click [671] where [671] is Eric Bailey",
+    "environmental_dynamics": "The Eric Bailey author link for the latest commit is now focused, but no visible content or navigation change has occurred."
+  },
+  {
+    "initial_state": "GitLab project page showing the list of commits for the 'a11y-syntax-highlighting' repository, with full commit history and commit details visible.",
+    "action": "click [309] where [309] is Contributors",
+    "environmental_dynamics": "The page navigated to the 'Contributors' section, displaying contribution statistics for project members including charts and commit counts per contributor."
+  },
+  {
+    "initial_state": "GitLab repository contributors page for Byte Blaze / a11y-syntax-highlighting with sidebar navigation and contributor statistics visible.",
+    "action": "click [301] where [301] is Commits",
+    "environmental_dynamics": "The main content switched from the list of contributors and their commit statistics to a chronological list of individual commits with authors, messages, and timestamps for the main branch."
+  },
+  {
+    "initial_state": "GitLab repository commits page with a list of commits; the link labeled 'Reuben L. Lillie' is visible but not focused.",
+    "action": "click [748] where [748] is Reuben L. Lillie",
+    "environmental_dynamics": "The 'Reuben L. Lillie' link is now focused, but no new page, modal, or content has appeared or changed."
+  },
+  {
+    "initial_state": "GitLab repository commits page for 'Byte Blaze / a11y-syntax-highlighting', showing a list of recent commits.",
+    "action": "click [309] where [309] is Contributors",
+    "environmental_dynamics": "The page navigated to the Contributors section, displaying contribution statistics and commit counts for individual contributors to the repository."
+  },
+  {
+    "initial_state": "GitLab project contributors page is open and displaying contributor statistics, including a heading with Eric Bailey's name.",
+    "action": "click [628] where [628] is Eric Bailey",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "GitLab project contributors page showing a list of contributors with their commit stats and headings for each contributor, including '\u5c0f\u5b50\u6b20\u6241'.",
+    "action": "click [668] where [668] is \u5c0f\u5b50\u6b20\u6241",
+    "environmental_dynamics": "no change"
+  }
+]

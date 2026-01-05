@@ -1,0 +1,992 @@
+{
+  "shopping_admin": [
+    {
+      "initial_state": "Magento Admin dashboard showing a 'Bestsellers' table with clickable product rows.",
+      "action": "click [809] (product row 'Sprite Stasis Ball 65 cm')",
+      "environmental_dynamics": "The browser navigated from the dashboard to the product edit page for 'Sprite Stasis Ball 65 cm', replacing the dashboard with a full product-editing interface."
+    },
+    {
+      "initial_state": "Product edit page for 'Sprite Stasis Ball 65 cm' with an 'Add Attribute' button visible and no modal dialogs open.",
+      "action": "click [720] (Add Attribute)",
+      "environmental_dynamics": "An 'Add Attribute' dialog opened, overlaying the page and listing existing attributes with controls such as search, filtering and a \u2018Create New Attribute\u2019 button."
+    },
+    {
+      "initial_state": "'Add Attribute' dialog open; column-header \u2018Options\u2019 button collapsed.",
+      "action": "click [2372] (Options)",
+      "environmental_dynamics": "The \u2018Options\u2019 button expanded a dropdown menu containing the option \u2018Select All\u2019, enabling bulk selection of attributes."
+    },
+    {
+      "initial_state": "'Add Attribute' dialog with attribute check-boxes unchecked.",
+      "action": "click [2407] (first attribute checkbox)",
+      "environmental_dynamics": "All 17 attribute check-boxes were programmatically checked and the \u2018Selected Attributes\u2019 counter updated to reflect the bulk selection."
+    },
+    {
+      "initial_state": "'Add Attribute' dialog listing 17 selected attributes and an enabled 'Add Selected' button.",
+      "action": "click [2156] (Add Selected)",
+      "environmental_dynamics": "The dialog closed and focus returned to the main product page, indicating the selected attributes were added to the product form."
+    },
+    {
+      "initial_state": "Product edit page with 'Add Attribute' dialog open; user chooses to create a new attribute.",
+      "action": "click [2174] (Create New Attribute)",
+      "environmental_dynamics": "A secondary modal titled 'New Attribute' appeared on top of the first dialog, presenting a form to define label, input type, and other attribute properties."
+    },
+    {
+      "initial_state": "'New Attribute' dialog with empty 'Attribute Label *' field.",
+      "action": "type [2873] \u201cWater Resistance\u201d",
+      "environmental_dynamics": "The text \u2018Water Resistance\u2019 was entered into the label field."
+    },
+    {
+      "initial_state": "'New Attribute' dialog fully filled in with valid data; 'Save Attribute' button available.",
+      "action": "click [2842] (Save Attribute)",
+      "environmental_dynamics": "Both \u2018New Attribute\u2019 and parent \u2018Add Attribute\u2019 dialogs closed and a \u2018Please wait\u2026\u2019 indicator appeared, signalling back-end processing of the new attribute."
+    },
+    {
+      "initial_state": "Product edit page, Attributes accordion collapsed.",
+      "action": "click [2034] (expand Attributes)",
+      "environmental_dynamics": "The Attributes section expanded, revealing newly added fields including the freshly created \u2018Water Resistance\u2019 input."
+    },
+    {
+      "initial_state": "Attributes section open; 'Water Resistance' field empty.",
+      "action": "type [3300] \u201cIPX7\u201d",
+      "environmental_dynamics": "The \u2018Water Resistance\u2019 field accepted the value \u2018IPX7\u2019; an unsaved-changes tooltip appeared on the section header."
+    },
+    {
+      "initial_state": "Product edit page with unsaved changes and active 'Save' button.",
+      "action": "click [839] (Save)",
+      "environmental_dynamics": "The page reloaded, cleared the unsaved-changes tooltip, and displayed the confirmation banner \u2018You saved the product.\u2019"
+    },
+    {
+      "initial_state": "Product edit page for 'Sprite Stasis Ball 55 cm' with an 'Advanced Inventory' button.",
+      "action": "click [1013] (Advanced Inventory)",
+      "environmental_dynamics": "An \u2018Advanced Inventory\u2019 modal opened, presenting extra stock-management fields such as quantity thresholds and configuration check-boxes."
+    },
+    {
+      "initial_state": "'Advanced Inventory' dialog where 'Use Config Settings' for Minimum Qty is checked (inputs disabled).",
+      "action": "click [2629] (uncheck Use Config Settings)",
+      "environmental_dynamics": "Unchecking enabled the \u2018Minimum Qty Allowed in Shopping Cart\u2019 textbox, making it editable."
+    },
+    {
+      "initial_state": "Enabled 'Minimum Qty Allowed in Shopping Cart' textbox showing \u20181\u2019.",
+      "action": "type [2582] \u201c5\u201d",
+      "environmental_dynamics": "The minimum quantity value was updated from \u20181\u2019 to \u20185\u2019."
+    },
+    {
+      "initial_state": "'Advanced Inventory' dialog with edits complete and 'Done' button visible.",
+      "action": "click [2058] (Done)",
+      "environmental_dynamics": "The dialog closed, returning focus to the main product form with the new inventory settings applied."
+    },
+    {
+      "initial_state": "Product edit page with '[global] Quantity' field showing \u2018120\u2019.",
+      "action": "type [1126] \u201c150\u201d",
+      "environmental_dynamics": "The Quantity field value changed from \u2018120\u2019 to \u2018150\u2019, marking the form dirty."
+    },
+    {
+      "initial_state": "Unsaved product edit page after quantity change; Save button enabled.",
+      "action": "click [834] (Save)",
+      "environmental_dynamics": "Most detailed form sections collapsed, and a success banner confirmed the product save while presenting an abbreviated summary view."
+    },
+    {
+      "initial_state": "Product variations table for configurable product 'Daria Bikram Pant', each row with a 'Select' button.",
+      "action": "click [1849] (row \u2018Daria Bikram Pant-28-Black\u2019 Select)",
+      "environmental_dynamics": "An inline action menu appeared in the row, offering \u2018Choose a different Product\u2019, \u2018Disable Product\u2019, and \u2018Remove Product\u2019 options."
+    },
+    {
+      "initial_state": "Variations table with action menu open; user selects \u2018Choose a different Product\u2019.",
+      "action": "click [2003] (Choose a different Product)",
+      "environmental_dynamics": "A 'Select Associated Product' dialog opened, listing alternative products to associate with the variation."
+    },
+    {
+      "initial_state": "'Select Associated Product' dialog listing products.",
+      "action": "click [3477] (product ID 1815)",
+      "environmental_dynamics": "The selected variation in the variations grid was replaced with product ID 1815, reflecting the new association."
+    },
+    {
+      "initial_state": "'Advanced Inventory' dialog for another product, '[global] Qty' textbox empty.",
+      "action": "type [3060] \u201c180] [press_enter_after=0\u201d",
+      "environmental_dynamics": "A validation error \u2018Please enter a valid number in this field.\u2019 appeared, flagging the input as invalid."
+    },
+    {
+      "initial_state": "Same dialog with validation error displayed and 'Done' button visible.",
+      "action": "click [2570] (Done)",
+      "environmental_dynamics": "The dialog remained open and no data were saved, illustrating that invalid input prevented closure."
+    },
+    {
+      "initial_state": "Product edit page with 'Country of Manufacture' combobox collapsed.",
+      "action": "click [1281] (Country of Manufacture)",
+      "environmental_dynamics": "The combobox expanded, revealing the full list of countries."
+    },
+    {
+      "initial_state": "Expanded 'Country of Manufacture' list; user clicks \u2018United States\u2019.",
+      "action": "click [1518] (United States)",
+      "environmental_dynamics": "Unexpectedly, no selection was registered and the combobox state did not change."
+    },
+    {
+      "initial_state": "New Products grid page with an 'Add Product' button visible.",
+      "action": "click [726] (Add Product)",
+      "environmental_dynamics": "The interface switched to the 'New Product' creation form with empty fields for entering product data."
+    },
+    {
+      "initial_state": "'New Product' page with empty 'Product Name' field.",
+      "action": "type [941] \u201cWireless Ergonomic Mouse\u201d",
+      "environmental_dynamics": "The Product Name field was populated with \u2018Wireless Ergonomic Mouse\u2019."
+    },
+    {
+      "initial_state": "New product form fully filled; Save button enabled.",
+      "action": "click [849] (Save)",
+      "environmental_dynamics": "The page changed to the newly created product\u2019s detail view and displayed \u2018You saved the product.\u2019"
+    },
+    {
+      "initial_state": "'Images and Videos' section expanded; user clicks 'Add Video'.",
+      "action": "click [2333] (Add Video)",
+      "environmental_dynamics": "A \u2018New Video\u2019 modal appeared with fields for URL, title, description, and preview."
+    },
+    {
+      "initial_state": "'New Video' dialog with Vimeo URL filled; user clicks 'Get Video Information'.",
+      "action": "click [2442] (Get Video Information)",
+      "environmental_dynamics": "Video metadata were fetched and a live preview, thumbnail, and canonical title/description populated the dialog."
+    },
+    {
+      "initial_state": "Video metadata loaded in 'New Video' dialog.",
+      "action": "click [2390] (Save)",
+      "environmental_dynamics": "The dialog closed and the video thumbnail appeared in the \u2018Images and Videos\u2019 gallery for the product."
+    },
+    {
+      "initial_state": "'New Category' dialog opened from product form; 'Category Name' filled but parent category unselected.",
+      "action": "click [2490] (Create Category)",
+      "environmental_dynamics": "Form validation failed and an inline error \u2018This is a required field.\u2019 appeared for the missing Parent Category."
+    },
+    {
+      "initial_state": "Dashboard with top navigation bar collapsed; 'MARKETING' menu item visible.",
+      "action": "click [226] (MARKETING)",
+      "environmental_dynamics": "The Marketing menu expanded, revealing sub-sections for Promotions, Communications, SEO & Search, and User Content."
+    },
+    {
+      "initial_state": "Marketing submenu open; 'Catalog Price Rule' link visible.",
+      "action": "click [240] (Catalog Price Rule)",
+      "environmental_dynamics": "Navigation to the Catalog Price Rule listing page, displaying existing rules and buttons \u2018Add New Rule\u2019 and \u2018Apply Rules\u2019."
+    },
+    {
+      "initial_state": "Catalog Price Rule page with rules table; 'Add New Rule' button visible.",
+      "action": "click [686] (Add New Rule)",
+      "environmental_dynamics": "The interface switched to the \u2018New Catalog Price Rule\u2019 form, exposing fields for rule information, conditions and actions."
+    },
+    {
+      "initial_state": "'New Catalog Price Rule' form completed with dates and discount amount; 'Save and Apply' button pressed.",
+      "action": "click [719] (Save and Apply)",
+      "environmental_dynamics": "No confirmation or navigation occurred, indicating the form submission did not succeed (silent failure)."
+    },
+    {
+      "initial_state": "Magento Admin dashboard table \u2018Last Orders\u2019; order row for #000000299 clickable.",
+      "action": "click [858] (order #000000299)",
+      "environmental_dynamics": "The browser navigated to the detailed Order View page for order #000000299, showing account, address, and item data along with management tabs."
+    },
+    {
+      "initial_state": "Order View page; \u2018Comment\u2019 textbox filled; \u2018Notify Customer by Email\u2019 unchecked.",
+      "action": "click [1090] (Notify Customer by Email)",
+      "environmental_dynamics": "The checkbox became checked, enabling email notification for the forthcoming comment."
+    },
+    {
+      "initial_state": "Order View page with comment ready; \u2018Submit Comment\u2019 button clicked.",
+      "action": "click [1096] (Submit Comment)",
+      "environmental_dynamics": "The button received focus but no visible update occurred \u2013 the comment was not persisted, highlighting an unexpected no-change scenario."
+    },
+    {
+      "initial_state": "Order View page; \u2018Shipments\u2019 tab not selected.",
+      "action": "click [2483] (Shipments)",
+      "environmental_dynamics": "The Shipments tab became active, replacing the Information tab\u2019s content with a shipments list."
+    },
+    {
+      "initial_state": "Shipments list; user clicks \u2018View\u2019 of shipment #000000004.",
+      "action": "click [2404] (View)",
+      "environmental_dynamics": "Navigation to the Shipment Detail page displaying shipping, tracking and item information for the shipment."
+    },
+    {
+      "initial_state": "Shipment Detail page; carrier combobox collapsed.",
+      "action": "click [811] (expand carrier combobox)",
+      "environmental_dynamics": "The combobox expanded, listing carrier options such as DHL, FedEx, and USPS."
+    },
+    {
+      "initial_state": "Expanded carrier combobox; user clicks \u2018DHL\u2019.",
+      "action": "click [813] (DHL)",
+      "environmental_dynamics": "Unexpectedly, the selection did not change and the dropdown remained open (no-change anomaly)."
+    },
+    {
+      "initial_state": "Shipment Detail page; tracking number field empty.",
+      "action": "type [821] \u201cJD0123456789\u201d",
+      "environmental_dynamics": "The tracking number textbox was populated with \u2018JD0123456789\u2019."
+    },
+    {
+      "initial_state": "Tracking number entered; \u2018Add\u2019 button visible.",
+      "action": "click [823] (Add)",
+      "environmental_dynamics": "A new tracking row was appended under Shipping & Tracking Information, reflecting the entered carrier and number."
+    },
+    {
+      "initial_state": "Shipment Detail page; \u2018Notify Customer by Email\u2019 checkbox unchecked.",
+      "action": "click [925] (Notify Customer by Email)",
+      "environmental_dynamics": "The checkbox became checked, enabling customer e-mail notification for shipment updates."
+    },
+    {
+      "initial_state": "Shipment Detail page with comment entered; \u2018Submit Comment\u2019 button clicked.",
+      "action": "click [931] (Submit Comment)",
+      "environmental_dynamics": "A \u2018Please wait\u2026\u2019 banner appeared, indicating the comment submission workflow had started."
+    },
+    {
+      "initial_state": "Shipment Detail page; delete-row icon clicked, triggering confirmation modal.",
+      "action": "click [1145] (trash icon)",
+      "environmental_dynamics": "A confirmation dialog \u2018Are you sure?\u2019 appeared with \u2018Cancel\u2019 and \u2018OK\u2019 buttons."
+    },
+    {
+      "initial_state": "Confirmation dialog open; \u2018OK\u2019 button focused.",
+      "action": "click [1195] (OK)",
+      "environmental_dynamics": "The confirmation dialog closed and the selected tracking row was removed from the table."
+    },
+    {
+      "initial_state": "Order Shipment page; sidebar link \u2018Edit Customer\u2019 visible.",
+      "action": "click [741] (Edit Customer)",
+      "environmental_dynamics": "The interface navigated to the Customer Edit page for Sarah Miller, presenting customer profile and management tabs."
+    },
+    {
+      "initial_state": "Customer Edit page; sidebar \u2018Orders\u2019 link.",
+      "action": "click [870] (Orders)",
+      "environmental_dynamics": "Main content switched to display the customer\u2019s full order history table with filtering controls."
+    }
+  ],
+  "map": [
+    {
+      "initial_state": "OpenStreetMap homepage with main navigation links, search box, and a visible 'Find directions between two points' link.",
+      "action": "click [149] where [149] is Find directions between two points",
+      "environmental_dynamics": "A directions panel opened on the page, displaying 'From' and 'To' textbox fields, a transportation mode selector, and additional direction-related buttons and controls."
+    },
+    {
+      "initial_state": "OpenStreetMap page with the 'From' textbox in the directions section empty and focused.",
+      "action": "type [158] [Pittsburgh Fire Station ] where [158] is From",
+      "environmental_dynamics": "The 'From' textbox was populated with 'Pittsburgh Bureau of Fire Station 24, 1729, Mary Street, South Side Flats, Pittsburgh, Allegheny County, Pennsylvania, 15203, United States' as a result of entering 'Pittsburgh Fire Station', and the field is now focused and shows the resolved location as static text."
+    },
+    {
+      "initial_state": "OpenStreetMap webpage with the route planning panel open; the 'From' textbox is filled with an address and focused, while the 'To' textbox is empty and unfocused.",
+      "action": "type [163] [UPMC Mercy Hospital ] where [163] is To",
+      "environmental_dynamics": "The 'To' textbox is now filled with 'UPMC Mercy, 1400, Locust Street, Bluff, Pittsburgh, Allegheny County, Pennsylvania, 15219, United States' and is focused, and detailed driving directions from Pittsburgh Bureau of Fire Station 24 to UPMC Mercy are displayed in a new 'Directions' section below."
+    },
+    {
+      "initial_state": "OpenStreetMap way detail page with a directions route planner section showing a collapsed combobox for transportation mode, defaulted to 'Car (OSRM)'.",
+      "action": "click [166] where [166] is ",
+      "environmental_dynamics": "The transportation mode combobox in the route planner expanded and became focused, displaying the available options: Bicycle (OSRM), Car (OSRM), and Foot (OSRM)."
+    },
+    {
+      "initial_state": "OpenStreetMap directions page showing directions from 'Pittsburgh Bureau of Fire Station 24' to 'UPMC Mercy', with corresponding addresses in the 'From' and 'To' fields, and the directions table displayed.",
+      "action": "click [174] where [174] is Reverse Directions",
+      "environmental_dynamics": "The 'Reverse Directions' button was clicked, swapping the 'From' and 'To' fields to lat/lon coordinates for the new start and end points, updating both the distance/time summary and the step-by-step driving directions to reflect the reversed route."
+    },
+    {
+      "initial_state": "OpenStreetMap directions panel is visible with detailed directions from 'From' to 'To' and the 'Close' button is present.",
+      "action": "click [153] where [153] is Close",
+      "environmental_dynamics": "The directions panel was closed, removing the specific directions, route options, and summary section from the view and returning to the homepage welcome content."
+    },
+    {
+      "initial_state": "OpenStreetMap homepage with the search box focused and empty.",
+      "action": "type [145] [bike trails near Pittsburgh, PA ] where [145] is Search",
+      "environmental_dynamics": "The search box is filled with the text 'bike trails near Pittsburgh, PA', the page title updates, and new elements appear including a 'Search Results' section, 'Results from OpenStreetMap Nominatim', and a 'Loading...' status indicator, showing that a search is in progress."
+    },
+    {
+      "initial_state": "OpenStreetMap search results page for 'bike trails near Pittsburgh, PA', with a textbox and the Go button visible and the status area showing 'Loading...'.",
+      "action": "click [147] where [147] is Go",
+      "environmental_dynamics": "After clicking the Go button, the search results section updated to indicate 'No results found' from OpenStreetMap Nominatim, and focus shifted to the Go button."
+    },
+    {
+      "initial_state": "OpenStreetMap search results page for 'bike trails near Pittsburgh, PA', showing 'No results found' in the results section with the search box populated accordingly.",
+      "action": "type [145] [Three Rivers Heritage Trail Pittsburgh ] where [145] is Search",
+      "environmental_dynamics": "The search box was updated with 'Three Rivers Heritage Trail Pittsburgh', and the search results list now shows relevant entries for cycle paths, specifically locations for the Three Rivers Heritage Trail in Pittsburgh."
+    },
+    {
+      "initial_state": "OpenStreetMap search results page for 'Three Rivers Heritage Trail Pittsburgh' with a list of clickable search results.",
+      "action": "click [476] where [476] is Three Rivers Heritage Trail, Firstside Historic District, Downtown, Pittsburgh, Allegheny County, Pennsylvania, 15262, United States",
+      "environmental_dynamics": "The browser navigated to the detailed OpenStreetMap page for the selected search result, displaying route metadata, tags, relations, and related nodes for the 'Three Rivers Heritage Trail'."
+    },
+    {
+      "initial_state": "OpenStreetMap page with map, directions, controls, and a visible 'Share' link.",
+      "action": "click [408] where [408] is Share",
+      "environmental_dynamics": "A 'Share' modal dialog opened, displaying link sharing options, a Geo URI, and image export settings; the 'Share' link is now focused."
+    },
+    {
+      "initial_state": "OpenStreetMap page with a Share modal open, displaying the current map link in the textbox.",
+      "action": "click [315] where [315] is Short Link",
+      "environmental_dynamics": "After clicking 'Short Link', the value in the link textbox updated from the long OpenStreetMap URL to a shortened URL, and the textbox is now focused."
+    },
+    {
+      "initial_state": "OpenStreetMap directions and sharing page with a visible 'Share' dialog that includes sections for sharing links, images, and geo URIs.",
+      "action": "click [306] where [306] is Close",
+      "environmental_dynamics": "The 'Share' dialog was closed and is no longer present on the page; the rest of the interface remains unchanged except for the share modal being dismissed."
+    },
+    {
+      "initial_state": "OpenStreetMap search results page for 'Syracuse NY bike routes', with search results loading and the 'Layers' link visible.",
+      "action": "click [402] where [402] is Layers",
+      "environmental_dynamics": "The map layer options panel opened, showing various layer choices, overlay toggles, and the 'Layers' link is now focused."
+    },
+    {
+      "initial_state": "OpenStreetMap results page for 'Syracuse NY bike routes' showing no results, with the 'Map Layers' panel open and the 'Standard' as the initially highlighted layer.",
+      "action": "click [246] where [246] is ",
+      "environmental_dynamics": "The base map layer changed from 'Standard' to 'CyclOSM' after the 'CyclOSM' option was clicked, and copyright/footer details specific to CyclOSM (including links to CyclOSM and OpenStreetMap France) appeared at the bottom of the page."
+    },
+    {
+      "initial_state": "OpenStreetMap search results page for 'Syracuse NY bike routes', with the map, layer options, and navigation controls visible, including a 'Zoom In' link.",
+      "action": "click [394] where [394] is Zoom In",
+      "environmental_dynamics": "The 'Zoom In' control was activated, resulting in the map zooming in (distance scale changed from 50 km/50 mi to 30 km/20 mi), the 'Zoom In' control receiving focus and displaying a tooltip labeled 'Zoom In', and checkboxes for overlays (like 'Map Notes') becoming clickable."
+    },
+    {
+      "initial_state": "OpenStreetMap search results page showing 'No results found', with a list of map overlays including an unchecked and unfocused 'Public GPS Traces' checkbox.",
+      "action": "click [295] where [295] is Public GPS Traces",
+      "environmental_dynamics": "The 'Public GPS Traces' checkbox is now checked and focused, indicating that the corresponding map layer or overlay has been enabled."
+    },
+    {
+      "initial_state": "OpenStreetMap search results page for 'Syracuse NY bike routes', with map layers menu open and 'Map Data' checkbox unchecked.",
+      "action": "click [292] where [292] is Map Data",
+      "environmental_dynamics": "The 'Map Data' checkbox was checked and is now focused, enabling the display of map data overlay on the map."
+    }
+  ],
+  "shopping": [
+    {
+      "initial_state": "One Stop Market homepage displaying several product showcases and a vertical menu with categories including 'Office Products'.",
+      "action": "click [721] where [721] is \ue622 Office Products",
+      "environmental_dynamics": "The browser navigated to the Office Products category page, updating the main content to display a list of office products, new filtering options, and associated pagination for items in this category."
+    },
+    {
+      "initial_state": "Office Products category page with the 'Sort By' combobox expanded and the 'Position' option selected.",
+      "action": "click [1530] where [1530] is Price",
+      "environmental_dynamics": "no change"
+    },
+    {
+      "initial_state": "Office Products category page displaying a grid of products, including the 'Epson WorkForce WF-3620 WiFi Direct All-in-One Color Inkjet Printer' among the product listings.",
+      "action": "click [1545] where [1545] is Epson WorkForce WF-3620 WiFi Direct All-in-One Color Inkjet Printer, Copier, Scanner, Amazon Dash Replenishment Ready",
+      "environmental_dynamics": "The browser navigated to the product detail page for the 'Epson WorkForce WF-3620 WiFi Direct All-in-One Color Inkjet Printer, Copier, Scanner, Amazon Dash Replenishment Ready', showing detailed information, images, reviews, and purchase options for that specific product."
+    },
+    {
+      "initial_state": "Product detail page for the Epson WorkForce WF-3620 printer, with the 'Details' tab expanded in the product information section. The 'Reviews (12)' tab is present but not expanded.",
+      "action": "click [2037] where [2037] is Reviews (12)",
+      "environmental_dynamics": "The 'Reviews (12)' tab has been expanded and is now selected, revealing a panel with multiple customer reviews for the product, while the 'Details' tab is collapsed."
+    },
+    {
+      "initial_state": "Product detail page for Epson WorkForce WF-3620 All-in-One Printer, with reviews, add-to-cart, and review submission interface visible.",
+      "action": "new_tab",
+      "environmental_dynamics": "A new, empty browser tab was opened, leaving the content area blank."
+    },
+    {
+      "initial_state": "One Stop Market homepage with several featured products and a search bar available for input; the search bar is empty and the user is welcomed as Emma Lopez.",
+      "action": "type [272] [pet ] where [272] is \ue655 Search",
+      "environmental_dynamics": "A search was submitted for the term 'pet', and the page updated to display the search results for 'pet', showing relevant products and updating the heading, breadcrumbs, and filters to match the search query."
+    },
+    {
+      "initial_state": "E-commerce search results page for 'pet', with a list of product results including 'PetCords Dog and Cat Cord Protector', and a visible link for '12 Reviews' on that product.",
+      "action": "click [1414] where [1414] is 12  Reviews",
+      "environmental_dynamics": "The page navigated to the product detail page for 'PetCords Dog and Cat Cord Protector', displaying product details, pricing, reviews, and purchase options."
+    },
+    {
+      "initial_state": "Product page for PetCords Dog and Cat Cord Protector with the 'Submit Review' button visible and a review form filled out with rating, nickname, summary, and review text.",
+      "action": "click [2094] where [2094] is Submit Review",
+      "environmental_dynamics": "After clicking 'Submit Review', an alert appears stating 'You submitted your review for moderation,' the review form is no longer present, and the product details tab becomes selected instead of the reviews tab."
+    },
+    {
+      "initial_state": "Product detail page for PetCords Dog and Cat Cord Protector with product information and 'Add to Cart' button visible.",
+      "action": "click [1448] where [1448] is Add to Cart",
+      "environmental_dynamics": "A new alert appeared confirming the product was added to the cart, and the 'My Cart' link now shows '1 item' in the cart."
+    },
+    {
+      "initial_state": "Product detail page for PetCords Dog and Cat Cord Protector, with an alert confirming the item was added to the shopping cart and a visible link to the shopping cart.",
+      "action": "click [1968] where [1968] is shopping cart",
+      "environmental_dynamics": "Navigated from the product detail page to the shopping cart page, displaying the shopping cart contents, order total, and checkout options."
+    },
+    {
+      "initial_state": "Shopping cart page displaying the cart summary and a single item (PetCords Dog and Cat Cord Protector) with item controls.",
+      "action": "click [1928] where [1928] is PetCords Dog and Cat Cord Protector- Protects Your Pets from Chewing Through Insulated Cables up to 10ft, Unscented, Odorless",
+      "environmental_dynamics": "Navigated to the product detail page for PetCords Dog and Cat Cord Protector, presenting detailed descriptions, images, reviews, and options to add to cart or wishlist."
+    },
+    {
+      "initial_state": "Product review page with the review submission form for 'PetCords Dog and Cat Cord Protector' open, the 'Review*' textbox empty and focused.",
+      "action": "click [1877] where [1877] is Submit Review",
+      "environmental_dynamics": "After clicking 'Submit Review', a validation error message 'This is a required field.' appeared below the empty 'Review*' textbox, indicating the field must be filled to submit the review."
+    },
+    {
+      "initial_state": "Product page for PetCords with a review form visible and filled out, showing a required field error for the Review textbox.",
+      "action": "click [1877] where [1877] is Submit Review",
+      "environmental_dynamics": "no change"
+    },
+    {
+      "initial_state": "Product page for PetCords Dog and Cat Cord Protector with a visible review submission form filled out and the 'Submit Review' button available.",
+      "action": "click [1877] where [1877] is Submit Review",
+      "environmental_dynamics": "The review form disappeared and was replaced by an alert stating 'You submitted your review for moderation.'; the details tab became active, and the 'Reviews' tab was deselected, showing the product description instead of the list of customer reviews."
+    },
+    {
+      "initial_state": "Product page for 'PetCords Dog and Cat Cord Protector' with 1 item in the cart and no notification about adding to cart.",
+      "action": "click [1495] where [1495] is Add to Cart",
+      "environmental_dynamics": "The cart number increased from 1 to 2, and a confirmation alert appeared indicating that 'PetCords Dog and Cat Cord Protector' was added to the shopping cart."
+    },
+    {
+      "initial_state": "Product detail page for 'PetCords Dog and Cat Cord Protector', showing product information, stock status, add to cart button, wish list/compare links, and alerts for review submission and item addition to cart.",
+      "action": "click [2355] where [2355] is shopping cart",
+      "environmental_dynamics": "The view switched from the product detail page to the Shopping Cart page, displaying a summary of cart totals, item details (PetCords Dog and Cat Cord Protector with quantity and subtotal), checkout options, and cart management features."
+    },
+    {
+      "initial_state": "Shopping cart page with the 'Estimate Shipping and Tax' tab collapsed and not selected; summary and order details are visible.",
+      "action": "click [1509] where [1509] is Estimate Shipping and Tax \ue622",
+      "environmental_dynamics": "The 'Estimate Shipping and Tax' tab was expanded and selected, displaying a form to enter country, state, and zip code for shipping estimation and revealing flat rate shipping options."
+    },
+    {
+      "initial_state": "Shopping cart page displaying cart summary and a list of cart items with options to move, edit, or remove each item, and the 'Edit' link for a product is present and clickable.",
+      "action": "click [1957] where [1957] is Edit",
+      "environmental_dynamics": "The browser navigated from the shopping cart page to the detailed product page for 'PetCords Dog and Cat Cord Protector', showing in-depth product information and allowing item modifications such as quantity updates or adding to wish list or compare."
+    },
+    {
+      "initial_state": "Product detail page for 'PetCords Dog and Cat Cord Protector,' showing product reviews, cart quantity set to 2, and an 'Update Cart' button available.",
+      "action": "click [1485] where [1485] is Update Cart",
+      "environmental_dynamics": "The browser navigated to the Shopping Cart page, displaying a confirmation alert that the product was updated in the shopping cart and showing the current contents and totals of the cart."
+    },
+    {
+      "initial_state": "Shopping cart page showing multiple items in the cart, including their quantities, subtotals, and options to proceed to checkout, edit, or remove items.",
+      "action": "click [1847] where [1847] is Proceed to Checkout",
+      "environmental_dynamics": "After clicking 'Proceed to Checkout', the shopping cart was emptied and a message appeared stating 'You have no items in your shopping cart,' with a link to continue shopping."
+    },
+    {
+      "initial_state": "One Stop Market homepage with various product showcases and the navigation menu expanded, showing categories like Beauty & Personal Care, Sports & Outdoors, Clothing, Shoes & Jewelry, etc.",
+      "action": "click [648] where [648] is \ue622 Clothing, Shoes & Jewelry",
+      "environmental_dynamics": "The view changed to the 'Clothing, Shoes & Jewelry' category page, displaying a list of items in this category along with sorting, filtering, and pagination options."
+    },
+    {
+      "initial_state": "One Stop Market homepage with 'Product Showcases' visible and main navigation menu including the 'Health & Household' category.",
+      "action": "click [772] where [772] is \ue622 Health & Household",
+      "environmental_dynamics": "The page navigated to the 'Health & Household' category, displaying related products, filter options, and a heading indicating 'Health & Household Items 1-12 of 537'."
+    },
+    {
+      "initial_state": "Health & Household category page displaying a list of product items, including the Manitoba Harvest Hemp Seed Oil among other products.",
+      "action": "click [1491] where [1491] is Manitoba Harvest Hemp Seed Oil, 12g of Omegas 3&6 Per Serving, Non-GMO, Vegan, Gluten-Free 12 Fl Oz",
+      "environmental_dynamics": "The browser navigated to the detailed product page for Manitoba Harvest Hemp Seed Oil, revealing the product's images, descriptions, specifications, nutrition benefits, and additional details."
+    },
+    {
+      "initial_state": "Product page for Manitoba Harvest Hemp Seed Oil showing details, stock status, and with the 'Add to Cart' button available. The cart indicator shows 'My Cart 1 1items'.",
+      "action": "click [1502] where [1502] is Add to Cart",
+      "environmental_dynamics": "After clicking 'Add to Cart', a confirmation alert appears reporting the item was added to the shopping cart, and the cart indicator updates to 'My Cart 3 3items'."
+    },
+    {
+      "initial_state": "Product detail page for Manitoba Harvest Hemp Seed Oil, with 'My Cart' link showing 3 items, and no cart details visible.",
+      "action": "click [280] where [280] is \ue610 My Cart 3 3items",
+      "environmental_dynamics": "A cart summary dialog opened, displaying the 3 items in the shopping cart with details, subtotal, and checkout options."
+    },
+    {
+      "initial_state": "Product detail page for Manitoba Harvest Hemp Seed Oil with a mini cart dialog open showing 3 items in cart and the Proceed to Checkout button visible and focused.",
+      "action": "click [308] where [308] is Proceed to Checkout",
+      "environmental_dynamics": "The web page transitioned from the product/cart page to the 'Checkout' page, displaying shipping address selection, shipping methods, and an order summary dialog for items in the cart."
+    },
+    {
+      "initial_state": "Checkout page displaying shipping address and shipping method selection, with the primary option being 'Fixed Flat Rate' selected and a visible 'Next' button.",
+      "action": "click [816] where [816] is Next",
+      "environmental_dynamics": "Clicking the 'Next' button transitioned the page from the shipping selection step to the review and payments step, displaying payment information fields, order summary details, and the final order confirmation button."
+    },
+    {
+      "initial_state": "Checkout page with order summary and shipping/payment information visible; the Place Order button is present and clickable.",
+      "action": "click [1365] where [1365] is Place Order",
+      "environmental_dynamics": "A loading overlay with a 'Loading...' image appeared, indicating that the order submission is being processed after clicking the Place Order button."
+    },
+    {
+      "initial_state": "Checkout page displaying payment and shipping information as well as an order summary on a modal dialog, with a tab labeled '3Items in Cart' visible.",
+      "action": "click [864] where [864] is 3Items in Cart \ue622",
+      "environmental_dynamics": "The page has navigated to the Success Page following order placement, displaying a purchase confirmation, order number, and various account and shopping navigation options; the checkout and cart summary are no longer visible."
+    },
+    {
+      "initial_state": "Success page confirming a recent purchase is displayed, with a navigation menu including a 'Health & Household' menu item.",
+      "action": "click [763] where [763] is \ue622 Health & Household",
+      "environmental_dynamics": "The browser navigated to the 'Health & Household' category page, displaying a list of related products with sorting, filtering, and pagination options."
+    },
+    {
+      "initial_state": "Health & Household category page displaying a grid of multiple products, including 'Whey Protein Powder | Six Star Whey Protein Plus | Whey Protein Isolate & Peptides | Lean Protein Powder for Muscle Gain | Muscle Builder for Men & Women | Vanilla, 2 lbs (Package May Vary)' with its title as a clickable link.",
+      "action": "click [1698] where [1698] is Whey Protein Powder | Six Star Whey Protein Plus | Whey Protein Isolate & Peptides | Lean Protein Powder for Muscle Gain | Muscle Builder for Men & Women | Vanilla, 2 lbs (Package May Vary)",
+      "environmental_dynamics": "Navigated from the category listing to the product detail page for 'Whey Protein Powder | Six Star Whey Protein Plus | Whey Protein Isolate & Peptides | Lean Protein Powder for Muscle Gain | Muscle Builder for Men & Women | Vanilla, 2 lbs (Package May Vary)', displaying detailed information, flavors, pricing, and purchase options for the selected item."
+    },
+    {
+      "initial_state": "Product detail page for Six Star Whey Protein Plus with 'Add to Cart' button visible and My Cart showing no item count.",
+      "action": "click [1475] where [1475] is Add to Cart",
+      "environmental_dynamics": "After clicking 'Add to Cart', a confirmation alert appeared stating the product was added to the shopping cart, and the 'My Cart' link updated to display '2 items'."
+    },
+    {
+      "initial_state": "Product page for 'Whey Protein Powder | Six Star Whey Protein Plus' with a visible alert showing the item was added to the cart and a cart icon ('My Cart 2 2items') in the banner.",
+      "action": "click [280] where [280] is \ue610 My Cart 2 2items",
+      "environmental_dynamics": "Clicking the 'My Cart' link opened a cart summary dialog displaying the current cart contents, pricing, item details, and checkout options."
+    },
+    {
+      "initial_state": "Checkout page displaying payment and shipping information, with a visible 'Place Order' button.",
+      "action": "click [1377] where [1377] is Place Order",
+      "environmental_dynamics": "After clicking 'Place Order', an alert appeared stating a server error stopped the order from being placed, and the 'Place Order' button became focused; a loading image was also displayed in the order summary dialog."
+    },
+    {
+      "initial_state": "Checkout page on an e-commerce site with focus on the 'Place Order' button and an error alert indicating a server error occurred during the previous attempt to place the order, and the payment information form still present.",
+      "action": "click [1377] where [1377] is Place Order",
+      "environmental_dynamics": "After clicking 'Place Order', the checkout page reverted to the previous step, displaying the shipping address and shipping method selection fields instead of the payment information and order placement section, indicating the user must re-confirm shipping details before trying to complete their purchase again."
+    },
+    {
+      "initial_state": "Checkout page at the shipping step, with shipping address and shipping methods visible and the 'Next' button available.",
+      "action": "click [816] where [816] is Next",
+      "environmental_dynamics": "An alert appeared stating 'Current customer does not have an active cart,' and the 'Next' button became focused but no progress was made to the next checkout step."
+    },
+    {
+      "initial_state": "One Stop Market homepage with banner, menu, cart, product listings, and an 'Advanced Search' link visible in the search section.",
+      "action": "click [275] where [275] is Advanced Search",
+      "environmental_dynamics": "The browser navigated to the Advanced Search page, replacing the main content area with an advanced search form including fields such as Product Name, SKU, Description, Short Description, and Price."
+    },
+    {
+      "initial_state": "Advanced Search page with the product name 'action figure' entered in the search box and the Search button available.",
+      "action": "click [1518] where [1518] is Search",
+      "environmental_dynamics": "The page updated to display 'Advanced Search Results' showing an alert that no items matched the search criteria, provided an option to modify the search, and showed search criteria and recently ordered products."
+    },
+    {
+      "initial_state": "Advanced Search Results page displaying an alert indicating no items matched the search criteria, with a visible 'Modify your search.' link.",
+      "action": "click [1481] where [1481] is Modify your search.",
+      "environmental_dynamics": "The browser navigated from the search results page back to the Advanced Search input form, with previously entered search criteria ('action figure') pre-filled in the Product Name field, allowing the search to be modified."
+    },
+    {
+      "initial_state": "Advanced Search page with various search fields filled, particularly the 'Product Name' field containing 'collectible', and a 'Search' button available.",
+      "action": "click [1518] where [1518] is Search",
+      "environmental_dynamics": "The page transitioned from the Advanced Search form to the Advanced Search Results page, displaying a list of 723 items that match the search term 'collectible', along with additional filtering, paging, and result browsing options."
+    },
+    {
+      "initial_state": "Advanced Search Results page displaying a product list, including '212 by Carolina Herrera for Women 0.17 oz Eau de Toilette Miniature Collectible' with its reviews link visible.",
+      "action": "click [1624] where [1624] is 10  Reviews",
+      "environmental_dynamics": "Navigated to the product page for '212 by Carolina Herrera for Women 0.17 oz Eau de Toilette Miniature Collectible', displaying detailed information, image, price, rating, and options to add to cart, wish list, or compare, with review information prominently shown."
+    },
+    {
+      "initial_state": "Product page for '(Mix case) Vintage soda - Americana Variety (12 pack)' is visible with product details and customer reviews.",
+      "action": "click [2009] where [2009] is Contact Us",
+      "environmental_dynamics": "The browser navigated to the 'Contact Us' page, displaying a contact form for user inquiries, and the heading 'Contact Us' is now focused."
+    },
+    {
+      "initial_state": "Advanced Search page with the 'Product Name' textbox already containing the value 'autograph'",
+      "action": "type [1486] [comic book ] where [1486] is Product Name",
+      "environmental_dynamics": "After updating the 'Product Name' field with 'comic book', the page navigated to and displayed the 'Advanced Search Results' page showing the results for the query 'comic book', including 6 items found and their details."
+    },
+    {
+      "initial_state": "Catalog Advanced Search Results page displaying a list of 6 items found for 'comic book', including '3dRose Retro Aliens and Flying Saucer Comic Book Cover Design Pillow Case, 16 x 16' as a clickable product link.",
+      "action": "click [1525] where [1525] is 3dRose Retro Aliens and Flying Saucer Comic Book Cover Design Pillow Case, 16 x 16",
+      "environmental_dynamics": "The browser navigated to the product detail page for '3dRose Retro Aliens and Flying Saucer Comic Book Cover Design Pillow Case, 16 x 16', showing the product description, price, availability, and additional details."
+    },
+    {
+      "initial_state": "Advanced Search page with various search input fields, including 'Product Name', and the search button initially enabled.",
+      "action": "type [1486] [trading card ] where [1486] is Product Name",
+      "environmental_dynamics": "The browser navigated from the Advanced Search page to the Advanced Search Results page, displaying results for the search term 'trading card', with one item found and the search criteria shown."
+    },
+    {
+      "initial_state": "Advanced search results page listing one product ('TCGAMES Card Binder for Pokemon Cards Binder 4-Pocket, 440 Pockets Trading Card Games Collection Binder with Sleeves') with clickable link to the product page.",
+      "action": "click [1525] where [1525] is TCGAMES Card Binder for Pokemon Cards Binder 4-Pocket, 440 Pockets Trading Card Games Collection Binder with Sleeves",
+      "environmental_dynamics": "Navigated from the search results to the product details page for the 'TCGAMES Card Binder for Pokemon Cards Binder 4-Pocket, 440 Pockets Trading Card Games Collection Binder with Sleeves', displaying product information, images, description, and purchase options."
+    },
+    {
+      "initial_state": "One Stop Market homepage showing a selection of product showcases and a vertical menu with categories including 'Beauty & Personal Care'.",
+      "action": "click [287] where [287] is \ue622 Beauty & Personal Care",
+      "environmental_dynamics": "The view switched to the 'Beauty & Personal Care' category page, displaying related filters, shopping options, and a list of products in that category."
+    },
+    {
+      "initial_state": "Beauty & Personal Care category product listing page displaying a list of beauty products, including 'Mineralogie All Natural Lip Gloss, Ruby Rose' with a clickable link for '3 Reviews'.",
+      "action": "click [1672] where [1672] is 3  Reviews",
+      "environmental_dynamics": "Navigated to the product detail page for 'Mineralogie All Natural Lip Gloss, Ruby Rose', displaying product information, available color options, price, stock status, review links, and additional details."
+    },
+    {
+      "initial_state": "Product page for 'Mineralogie All Natural Lip Gloss, Ruby Rose' with product options and an 'Add to Cart' button available.",
+      "action": "click [1471] where [1471] is Add to Cart",
+      "environmental_dynamics": "After clicking 'Add to Cart', the 'Add to Cart' button changed to 'Added', and the 'My Cart' link in the banner now displays a loading animation with 'Loading...' indicating an update in progress."
+    },
+    {
+      "initial_state": "Product detail page for '3-Tier Bookshelf Wood and Metal Bookcase' displaying product information and actions including 'Add to Wish List'.",
+      "action": "click [1552] where [1552] is Add to Wish List",
+      "environmental_dynamics": "The page transitioned to the 'My Wish List' section, displaying a confirmation alert that the product was added to the wish list and showing the product listed within the wish list."
+    },
+    {
+      "initial_state": "User's wish list page displaying 1 item (3-Tier Bookshelf Wood and Metal Bookcase) with an 'Add to Cart' button available for that item.",
+      "action": "click [1525] where [1525] is Add to Cart",
+      "environmental_dynamics": "The selected item was removed from the wish list and added to the shopping cart, as indicated by the cart count increasing from 3 to 4 and wish list sections now displaying 'You have no items in your wish list.'"
+    },
+    {
+      "initial_state": "Success page after a completed purchase with order confirmation message and a 'Print receipt' link visible.",
+      "action": "click [1348] where [1348] is Print receipt",
+      "environmental_dynamics": "Clicking 'Print receipt' replaced the success page with the detailed order summary page, displaying order items, prices, addresses, shipping, and payment information for order #000000194."
+    }
+  ],
+  "reddit": [
+    {
+      "initial_state": "Postmill homepage displaying a feed of posts with a sidebar navigation link labeled 'Forums'.",
+      "action": "click [43] where [43] is Forums",
+      "environmental_dynamics": "The browser navigated to the 'List of forums' page, displaying a directory of forums with subscribe buttons and pagination controls."
+    },
+    {
+      "initial_state": "List of forums page showing the first page of forum listings with a clickable 'Next' link in the pagination bar.",
+      "action": "click [655] where [655] is Next",
+      "environmental_dynamics": "The forums list advanced to page 2, replacing the previous set of forums and enabling the 'Previous' button in the pagination bar."
+    },
+    {
+      "initial_state": "List of forums page displaying various forums including a link titled 'food \u2014 food'.",
+      "action": "click [285] where [285] is food \u2014 food",
+      "environmental_dynamics": "The browser navigated to the 'food' forum page, showing food-specific submissions and sidebar details for the forum."
+    },
+    {
+      "initial_state": "Food forum page showing a list of posts, including '[Homemade] Margherita pizza' as a clickable link.",
+      "action": "click [228] where [228] is [Homemade] Margherita pizza",
+      "environmental_dynamics": "The page switched to an image-focused view displaying the picture associated with '[Homemade] Margherita pizza'."
+    },
+    {
+      "initial_state": "Standalone image page displaying a single clickable image file.",
+      "action": "click [5] where [5] is",
+      "environmental_dynamics": "No change occurred after clicking the image that already filled the page."
+    },
+    {
+      "initial_state": "Standalone image page for '[Homemade] Margherita pizza'.",
+      "action": "go_back",
+      "environmental_dynamics": "The browser returned to the 'food' forum page, restoring the list of food-related posts and the forum sidebar."
+    },
+    {
+      "initial_state": "Post page for '[Homemade] Margherita pizza' with an Upvote button showing 11 506 upvotes.",
+      "action": "click [152] where [152] is Upvote",
+      "environmental_dynamics": "The Upvote button changed to 'Retract upvote' and the displayed vote count dropped to '1', indicating the up-vote was registered and exposing a likely display error."
+    },
+    {
+      "initial_state": "Comment textbox on the Margherita pizza post is empty and unfocused.",
+      "action": "type [174] [This looks delicious! Thanks for sharing the recipe.] where [174] is Comment",
+      "environmental_dynamics": "The textbox became focused and filled with the typed text, while a live preview of the comment appeared below it."
+    },
+    {
+      "initial_state": "Margherita pizza post with the filled comment textbox and a 'Post' button.",
+      "action": "click [314] where [314] is Post",
+      "environmental_dynamics": "The new comment was added to the thread under the user\u2019s name, the total comment count increased, and reply/edit/delete controls appeared for the posted comment."
+    },
+    {
+      "initial_state": "Margherita pizza discussion page showing a single comment thread and a 'View all comments' link.",
+      "action": "click [163] where [163] is View all comments",
+      "environmental_dynamics": "The page expanded to display the full comment section with all nested replies instead of only the single thread."
+    },
+    {
+      "initial_state": "Margherita pizza post with the comment 'Instant dry yeast.' visible and an Upvote button beside it.",
+      "action": "click [480] where [480] is Upvote",
+      "environmental_dynamics": "The Upvote button for that comment changed to 'Retract upvote', confirming the vote was recorded and updating the comment\u2019s score."
+    },
+    {
+      "initial_state": "Comment thread where the comment 'You bet!' shows a collapsed 'Reply' link.",
+      "action": "click [564] where [564] is Reply",
+      "environmental_dynamics": "A nested reply input box appeared directly beneath the comment, enabling the user to type a response."
+    },
+    {
+      "initial_state": "Reply input box focused beneath the comment 'You bet!' and currently empty.",
+      "action": "type [8719] [Thanks again! Can't wait to try this tonight. Any tips for making the crust extra crispy?] where [8719] is Comment",
+      "environmental_dynamics": "The typed reply text populated the input field, awaiting submission."
+    },
+    {
+      "initial_state": "Reply box containing text, with a 'Post' button ready to submit.",
+      "action": "click [8859] where [8859] is Post",
+      "environmental_dynamics": "An on-page alert appeared saying 'Please fill out this field.', indicating the submission failed because a required field was considered empty."
+    },
+    {
+      "initial_state": "Margherita pizza post page with a search bar labeled 'Search query'.",
+      "action": "type [57] [pasta ] where [57] is Search query",
+      "environmental_dynamics": "The query 'pasta' was entered and the view changed to a search results page showing posts containing the keyword."
+    },
+    {
+      "initial_state": "Search results page listing pasta-related posts, including '[Homemade] Pasta with vodka sauce.'.",
+      "action": "click [509] where [509] is [Homemade] Pasta with vodka sauce.",
+      "environmental_dynamics": "The browser opened a new page focused on the image associated with '[Homemade] Pasta with vodka sauce.'."
+    },
+    {
+      "initial_state": "Standalone image viewer for 'd70a7b53dc246f247707e3cf91ac273270f789ac25e9323c516ca6b33961135b.jpg'.",
+      "action": "go_back",
+      "environmental_dynamics": "The browser returned to the pasta search results page, restoring the list of matching posts and the search interface."
+    },
+    {
+      "initial_state": "Postmill homepage with a collapsed 'Sort by: Hot' button below the main feed.",
+      "action": "click [135] where [135] is Sort by: Hot",
+      "environmental_dynamics": "The 'Sort by: Hot' button expanded into a dropdown menu showing options: Hot, New, Active, Top, Controversial, and Most commented."
+    },
+    {
+      "initial_state": "Dropdown menu for 'Sort by' is open with 'Hot' currently selected.",
+      "action": "click [148] where [148] is Top",
+      "environmental_dynamics": "The sort order changed to 'Top', the dropdown closed, and a new time-range filter button ('From: Past 24 hours') appeared."
+    },
+    {
+      "initial_state": "Postmill main page now sorted by 'Top' with a 'Submissions' navigation link visible.",
+      "action": "click [117] where [117] is Submissions",
+      "environmental_dynamics": "After clicking 'Submissions', the main content re-filtered to show submissions, and the sort indicator switched from 'Top' back to 'Hot'."
+    },
+    {
+      "initial_state": "Postmill homepage with the 'Sort by: Hot' button collapsed.",
+      "action": "click [135] where [135] is Sort by: Hot",
+      "environmental_dynamics": "The sorting dropdown reopened, again listing the available sort options."
+    },
+    {
+      "initial_state": "'Sort by' dropdown open with 'Hot' highlighted.",
+      "action": "click [144] where [144] is New",
+      "environmental_dynamics": "The sort mode switched to 'New', the dropdown closed, and the button label updated to 'Sort by: New'."
+    },
+    {
+      "initial_state": "Postmill homepage with navigation links and a visible 'Submissions' link; current sort is 'New'.",
+      "action": "click [117] where [117] is Submissions",
+      "environmental_dynamics": "No visible change occurred; clicking 'Submissions' did not alter the page state."
+    }
+  ],
+  "gitlab": [
+    {
+      "initial_state": "GitLab user dashboard with a list of project cards, including Byte Blaze / a11y-syntax-highlighting, visible as one of the projects.",
+      "action": "click [320] where [320] is Byte Blaze / a11y-syntax-highlighting",
+      "environmental_dynamics": "The browser navigated to the project page for 'Byte Blaze / a11y-syntax-highlighting', revealing its repository contents, project-specific navigation sidebar, and README details."
+    },
+    {
+      "initial_state": "GitLab project repository overview page for 'a11y-syntax-highlighting', with navigation and file lists visible.",
+      "action": "click [328] where [328] is Issues",
+      "environmental_dynamics": "The main area updated to display the Issues page, showing a list of open issues and issue management controls."
+    },
+    {
+      "initial_state": "GitLab issues list page for the 'a11y-syntax-highlighting' project, displaying a list of issues including 'Improve code block accessibility for colorblind users'.",
+      "action": "click [761] where [761] is Improve code block accessibility for colorblind users",
+      "environmental_dynamics": "The browser navigated to the issue detail page for 'Improve code block accessibility for colorblind users', displaying all related information, comments, tasks, and activity for that specific issue."
+    },
+    {
+      "initial_state": "GitLab issue page for 'Improve code block accessibility for colorblind users' with a list of linked items including a visible link labeled 'Research colorblind-friendly color palettes'.",
+      "action": "click [845] where [845] is Research colorblind-friendly color palettes",
+      "environmental_dynamics": "A modal dialog opened displaying detailed information and editable properties for the 'Research colorblind-friendly color palettes' task, including title, status, assignee, labels, dates, and description."
+    },
+    {
+      "initial_state": "GitLab issue detail page with a modal dialog open for the task 'Research colorblind-friendly color palettes', showing task details, including an assignee section with a button labeled 'avatar Byte Blaze Close'.",
+      "action": "click [1816] where [1816] is avatar Byte Blaze Close",
+      "environmental_dynamics": "The modal dialog was closed, and the page navigated to the 'Byte Blaze' user profile, now displaying user information and activity history."
+    },
+    {
+      "initial_state": "GitLab user profile page for Byte Blaze, showing an overview of the user, recent activity, contribution graph, and a list of their personal projects including 'Website Redesign 2024'.",
+      "action": "click [583] where [583] is Website Redesign 2024",
+      "environmental_dynamics": "Navigated from the Byte Blaze profile page to the 'Website Redesign 2024' project page, displaying the project navigation sidebar and repository contents including files, readme, and project details."
+    },
+    {
+      "initial_state": "GitLab project repository page for 'Website Redesign 2024', with project overview, list of files, and README content visible.",
+      "action": "click [328] where [328] is Issues",
+      "environmental_dynamics": "Navigated to the Issues section of the project, displaying issue-related options, project issue introduction, and the 'New issue' button; the file list and README are replaced by the issues interface."
+    },
+    {
+      "initial_state": "GitLab project issues page for 'Website Redesign 2024', showing issue overview and a 'New issue' button.",
+      "action": "click [601] where [601] is New issue",
+      "environmental_dynamics": "The browser navigated to the 'New Issue' creation page, displaying a form with fields for title, description, assignees, labels, and other options for creating a new issue."
+    },
+    {
+      "initial_state": "GitLab 'New Issue' page for the 'Website Redesign 2024' project, with the title input field focused and empty.",
+      "action": "type [605] [Create mobile responsive layout ] where [605] is Title (required)",
+      "environmental_dynamics": "The 'Title (required)' textbox was filled with the text 'Create mobile responsive layout', and focus moved to the 'Description' textbox."
+    },
+    {
+      "initial_state": "GitLab 'New Issue' page for the 'Website Redesign 2024' project with the 'Description' textbox focused and empty.",
+      "action": "type [688] [Ensure all new and existing pages are usable on mobile devices and pass Google Mobile-Friendly Test. Consider responsive breakpoints and touch targets.] where [688] is Description",
+      "environmental_dynamics": "The 'Description' textbox is now populated with the text: 'Ensure all new and existing pages are usable on mobile devices and pass Google Mobile-Friendly Test. Consider responsive breakpoints and touch targets.'."
+    },
+    {
+      "initial_state": "GitLab new issue creation page for the 'Website Redesign 2024' project with the issue title and description fields filled out and the 'Create issue' button visible.",
+      "action": "click [856] where [856] is Create issue",
+      "environmental_dynamics": "After clicking the 'Create issue' button, the browser transitioned to the issue details page displaying the newly created issue with its title and description, and the sidebar now indicates there is one issue in the project."
+    },
+    {
+      "initial_state": "GitLab issue detail page with the 'Assign yourself' button visible in the assignees section, currently showing '0 Assignees' and 'None -' as the assignee status.",
+      "action": "click [999] where [999] is assign yourself",
+      "environmental_dynamics": "Clicking the 'Assign yourself' button added 'Byte Blaze' as the assignee in the assignees section, displaying the assignee's name and avatar, and updating the label from '0 Assignees'/'None -' to show the user as assigned. Additionally, a tooltip with user details appeared on the page."
+    },
+    {
+      "initial_state": "GitLab issue detail page for 'Create mobile responsive layout', with the sidebar showing label information and labels currently set to 'None', and an 'Edit' button for labels present.",
+      "action": "click [1027] where [1027] is Edit",
+      "environmental_dynamics": "After clicking the 'Edit' button for labels, a 'Label' menu opened in the sidebar with focus on a searchbox, displaying options to assign, create, or manage project labels."
+    },
+    {
+      "initial_state": "GitLab issue page with the 'Label' menu open and a search for 'mobile' returning no matching results; the option to 'Create project label' is visible and clickable.",
+      "action": "click [1069] where [1069] is Create project label",
+      "environmental_dynamics": "The 'Create project label' interface appeared, displaying a focused textbox for entering a new label name and a palette of color options to select for the new label; the 'Create' button is now visible but disabled until input."
+    },
+    {
+      "initial_state": "GitLab issue page with the label creation menu open, 'mobile' typed as the label name, and no color selected, showing a list of color options with 'Create' button disabled.",
+      "action": "click [1379] where [1379] is Green-cyan",
+      "environmental_dynamics": "The 'Green-cyan' color option was selected for the new label, updating the color field; a tooltip for 'Green-cyan' is now visible and the 'Create' button became enabled."
+    },
+    {
+      "initial_state": "GitLab issue page with the 'Create project label' form open, 'mobile' as the label name and a selected custom color; the 'Create' button is visible and clickable.",
+      "action": "click [1404] where [1404] is Create",
+      "environmental_dynamics": "The 'Create project label' modal was replaced by a label search interface still showing 'mobile' as the search text, indicating that the attempted label creation either failed or requires confirmation; additional menu items like 'No matching results', 'Create project label', and 'Manage project labels' are now visible."
+    },
+    {
+      "initial_state": "GitLab issue page with the issue details and sidebar open, and the labels dropdown open in the sidebar. The 'Edit' button for 'Due date' is visible and clickable.",
+      "action": "click [1097] where [1097] is Edit",
+      "environmental_dynamics": "No visible change; clicking the 'Edit' button for 'Due date' did not alter the browser's accessibility tree state."
+    },
+    {
+      "initial_state": "GitLab issue details page for 'Create mobile responsive layout', with an 'Add' button (for tasks) present and unexpanded.",
+      "action": "click [781] where [781] is Add",
+      "environmental_dynamics": "Clicking the 'Add' button expanded a dropdown menu presenting options to add a 'New task' or an 'Existing task' to the Tasks section."
+    },
+    {
+      "initial_state": "GitLab issue page with the 'Add' task menu expanded, showing menu options for 'New task' and 'Existing task'.",
+      "action": "click [788] where [788] is New task",
+      "environmental_dynamics": "A new section appeared below the tasks heading with an input form for creating a task, including a focused textbox for the task title, and 'Create task' and 'Cancel' buttons."
+    },
+    {
+      "initial_state": "GitLab issue page for 'Create mobile responsive layout' with a task creation form open and the 'Add a title' textbox focused and empty, showing '0' tasks.",
+      "action": "type [1450] [Test layout on different mobile devices ] where [1450] is Add a title",
+      "environmental_dynamics": "The content 'Test layout on different mobile devices ' was entered into the 'Add a title' textbox, resulting in a new task being created and listed under 'Tasks' (now showing '1'), along with its associated controls and display."
+    },
+    {
+      "initial_state": "GitLab dashboard Projects page listing multiple repositories, including 'Byte Blaze / dotfiles', with project summaries and statistics.",
+      "action": "click [542] where [542] is Byte Blaze / dotfiles",
+      "environmental_dynamics": "The browser navigated to the 'Byte Blaze / dotfiles' project page, displaying repository details, files, documentation (README), navigation sidebar, and project-specific alerts."
+    },
+    {
+      "initial_state": "GitLab project repository page for 'dotfiles' with a file table listing files including .gitconfig.",
+      "action": "click [1036] where [1036] is .gitconfig",
+      "environmental_dynamics": "The contents of the .gitconfig file are displayed in the main area, showing the file's details, commit info, and code content, replacing the previous repository overview."
+    },
+    {
+      "initial_state": "GitLab repository file view page for .gitconfig, with the 'Download' link/button visible but not focused or activated.",
+      "action": "click [297] where [297] is Repository",
+      "environmental_dynamics": "Navigated from the individual file view of '.gitconfig' to the general 'Repository' overview, displaying the repository file browser, project readme, and directory listing."
+    },
+    {
+      "initial_state": "GitLab repository page for Byte Blaze / dotfiles, showing the root directory and a rendered README.md in the main view.",
+      "action": "click [784] where [784] is .ssh",
+      "environmental_dynamics": "Navigated into the '.ssh' directory; the main content updated to show the files within '.ssh', and the README.md preview was replaced by the directory's file listing."
+    },
+    {
+      "initial_state": "GitLab project repository '.ssh' folder view with a list of files including 'config'",
+      "action": "click [1729] where [1729] is config",
+      "environmental_dynamics": "The page navigated from the folder view to display the contents of the 'config' file, showing line-by-line code and related file action buttons."
+    },
+    {
+      "initial_state": "Viewing the '.ssh/config' file in the 'dotfiles' repository on GitLab, with the 'History' link visible in the file navigation.",
+      "action": "click [2161] where [2161] is History",
+      "environmental_dynamics": "Navigated from the file view to the commit history page for 'config', showing a chronological list of commits affecting the file."
+    },
+    {
+      "initial_state": "GitLab repository 'dotfiles' commits list page showing recent commits and their metadata, including commit messages like 'Update config' as clickable links.",
+      "action": "click [681] where [681] is Update config",
+      "environmental_dynamics": "The browser navigated to the individual commit details page for the 'Update config' commit (2468fc44), displaying commit metadata, diffs, related options, and commenting interface."
+    },
+    {
+      "initial_state": "GitLab commit view page showing the commit details, file changes, and diff for .ssh/config at commit 2468fc44.",
+      "action": "click [731] where [731] is View file @ 2468fc44",
+      "environmental_dynamics": "The page navigated from the commit diff view to the file view for .ssh/config at commit 2468fc44, displaying the file's content, available file operations (copy, download, etc.), and the commit details in a new layout focused on the raw file rather than the diff."
+    },
+    {
+      "initial_state": "GitLab file view page for .ssh/config with file content displayed in code blocks and various file operations available, including a visible 'Open raw' link.",
+      "action": "click [696] where [696] is Open raw",
+      "environmental_dynamics": "The page transitioned to a simplified 'raw' view showing the file content as plain text without the surrounding GitLab interface or navigation."
+    },
+    {
+      "initial_state": "GitLab repository commits page for 'a11y-syntax-highlighting' project, with the list of commits and various clickable author names.",
+      "action": "click [309] where [309] is Contributors",
+      "environmental_dynamics": "The main page content changed from the commits list to the Contributors view, now displaying contributor names, email addresses, commit counts, and contribution history graphs."
+    },
+    {
+      "initial_state": "GitLab contributors page for the 'a11y-syntax-highlighting' project, displaying a list of contributors including Eric Bailey with his commit statistics.",
+      "action": "click [628] where [628] is Eric Bailey",
+      "environmental_dynamics": "no change"
+    },
+    {
+      "initial_state": "GitLab dashboard Projects page with a 'New project' link visible among project navigation and filters.",
+      "action": "click [248] where [248] is New project",
+      "environmental_dynamics": "The browser navigated to the 'Create new project' page, displaying options for creating a blank project, using a template, or importing a project."
+    },
+    {
+      "initial_state": "GitLab 'New Project' page where the user can choose to create a blank project, use a template, or import a project, with an overview of each option.",
+      "action": "click [244] where [244] is Create from template Create a project pre-populated with the necessary files to get you started quickly.",
+      "environmental_dynamics": "The main content area switched to display the 'Create from template' flow, revealing an extensive list of available project templates, their descriptions, options to preview, and buttons to use each template."
+    },
+    {
+      "initial_state": "GitLab 'Create from template' page listing multiple project templates, none of the 'Use template' radio buttons selected.",
+      "action": "click [389] where [389] is ",
+      "environmental_dynamics": "The project creation form for the 'NodeJS Express' template is now displayed, with fields to specify project name, slug, description, and visibility, replacing the template listing."
+    },
+    {
+      "initial_state": "GitLab 'New Project' page with an empty and focused 'Project name' textbox.",
+      "action": "type [733] [weather-api-demo] where [733] is Project name",
+      "environmental_dynamics": "The 'Project name' textbox is now filled with the text 'weather-api-demo' and displays this value as static text below the input."
+    },
+    {
+      "initial_state": "GitLab new project creation page with the 'Project description (optional)' textbox empty and unfocused.",
+      "action": "type [759] [A demo weather API built with Express.js, includes endpoints and usage examples.] where [759] is Project description (optional)",
+      "environmental_dynamics": "The 'Project description (optional)' textbox is now filled with 'A demo weather API built with Express.js, includes endpoints and usage examples.' and is focused."
+    },
+    {
+      "initial_state": "GitLab new project creation page for 'weather-api-demo', with form fields and 'Create project' button visible and unfocused.",
+      "action": "click [790] where [790] is Create project",
+      "environmental_dynamics": "After clicking 'Create project', the page transitioned to an 'Import in progress' screen for the 'weather-api-demo' project, showing a progress message and sidebar navigation for the new project."
+    },
+    {
+      "initial_state": "GitLab project import progress page for 'weather-api-demo', displaying a message that the repository import is in progress.",
+      "action": "goto [http://ec2-18-226-185-217.us-east-2.compute.amazonaws.com:9001/byteblaze/weather-api-demo/-/import]",
+      "environmental_dynamics": "The page finished loading and now displays the full project overview for 'weather-api-demo' including project files, repository information, and alerts indicating the import was completed successfully."
+    },
+    {
+      "initial_state": "GitLab project repository page for 'weather-api-demo', showing the list of files and a preview of README.md contents in the lower section.",
+      "action": "click [1009] where [1009] is README.md",
+      "environmental_dynamics": "The browser navigated to the dedicated README.md file view, displaying the full rendered README.md content along with file-related operations and navigation options specific to this file."
+    },
+    {
+      "initial_state": "GitLab repository page displaying README.md file in the standard view with various navigation and project controls visible.",
+      "action": "click [1290] where [1290] is Open raw",
+      "environmental_dynamics": "The main content switched to show the raw text version of README.md, removing navigation elements and displaying only the Markdown source code."
+    },
+    {
+      "initial_state": "GitLab project README page for a Node Express template project, displaying information about CI/CD, Gitpod setup, and general instructions.",
+      "action": "goto [http://ec2-18-226-185-217.us-east-2.compute.amazonaws.com:9001/byteblaze/weather-api-demo]",
+      "environmental_dynamics": "The page navigated to the main GitLab project overview for 'Byte Blaze / weather-api-demo', revealing full project navigation menus, file listings, project-specific alerts, statistics, and the README rendered within the project context."
+    },
+    {
+      "initial_state": "GitLab file view for app.js, with file contents rendered in a structured web interface along with navigation and repository actions visible.",
+      "action": "click [1145] where [1145] is Open raw",
+      "environmental_dynamics": "The interface switched to show the raw contents of app.js as plain text, removing navigation elements and displaying only the file's code in a minimal view."
+    },
+    {
+      "initial_state": "GitLab 'Run pipeline' page for the 'Website Redesign 2024' project, with a visible form to run a pipeline on a selected branch or tag and a 'Run pipeline' button.",
+      "action": "click [622] where [622] is Run pipeline",
+      "environmental_dynamics": "After clicking 'Run pipeline', the page transitioned to a pipeline status page, displaying details about the initialized pipeline run, job information, commit SHA, and a link to the commit, while the To-Do List count incremented by one."
+    },
+    {
+      "initial_state": "GitLab project Wiki landing page with an option to 'Create your first page' visible.",
+      "action": "click [589] where [589] is Create your first page",
+      "environmental_dynamics": "The interface navigated to the new Wiki page creation form, displaying fields for title, format selection, content editor, and commit message, prefilled for creating the home page."
+    },
+    {
+      "initial_state": "GitLab Wiki 'Create New Page' screen with the 'Title' set to 'home', and the 'Content' textbox empty and unfocused.",
+      "action": "type [676] [# Welcome to the a11y-syntax-highlighting Wiki! This wiki will help guide you through accessible syntax highlighting techniques and tips for colorblind users.] where [676] is Content",
+      "environmental_dynamics": "The 'Content' textbox is now filled with the provided markdown text, has become focused, and the 'Create page' button is now enabled and clickable."
+    },
+    {
+      "initial_state": "GitLab issue detail page for 'Improve code block accessibility for colorblind users', with the '\ud83d\udc4d 0' reaction button visible and unselected.",
+      "action": "click [700] where [700] is \ud83d\udc4d 0",
+      "environmental_dynamics": "The '\ud83d\udc4d' reaction count increased from 0 to 1, a tooltip appeared stating 'You reacted with :thumbsup:', and a status banner appeared indicating 'Award added'."
+    },
+    {
+      "initial_state": "GitLab issue detail page with the '\ud83d\udc4d 1' reaction button displayed alongside the issue content, showing a current count of 1 thumbs up.",
+      "action": "click [703] where [703] is \ud83d\udc4d 1",
+      "environmental_dynamics": "The thumbs up reaction count changed from 1 to 0 and a status message appeared at the bottom indicating 'Award removed', confirming the removal of the user's thumbs up reaction."
+    },
+    {
+      "initial_state": "GitLab issue detail page with the 'Add a to do' button visible in the sidebar.",
+      "action": "click [1353] where [1353] is Add a to do",
+      "environmental_dynamics": "After clicking 'Add a to do', the sidebar button changed to 'Mark as done' and the to-do count in the top navigation bar increased from 5 to 6, indicating that the issue was added to the user's to-do list."
+    },
+    {
+      "initial_state": "GitLab issue page showing an open issue with various buttons including 'Add a related issue' visible.",
+      "action": "click [809] where [809] is Add a related issue",
+      "environmental_dynamics": "A new section appeared with a textbox to paste an issue link or ID and 'Add'/'Cancel' buttons, allowing the user to input a related issue."
+    },
+    {
+      "initial_state": "GitLab issue detail page with a visible link labeled 'Research colorblind-friendly color palettes' under 'Linked items'.",
+      "action": "click [1571] where [1571] is Research colorblind-friendly color palettes",
+      "environmental_dynamics": "Clicking the 'Research colorblind-friendly color palettes' link opened a modal dialog displaying the details for that linked task, including title, status, assignee, labels, and date options."
+    },
+    {
+      "initial_state": "GitLab issue details page with a modal dialog open for the 'Research colorblind-friendly color palettes' task, where due date has not been set yet.",
+      "action": "click [1919] where [1919] is Add due date",
+      "environmental_dynamics": "A date picker dialog for selecting the due date opened within the modal, showing a calendar grid for August 2025 and options to pick a month and year."
+    },
+    {
+      "initial_state": "A GitLab issue modal for 'Research colorblind-friendly color palettes' is open, with the 'Due date' textbox focused and currently empty.",
+      "action": "type [1957] [2025-09-02 ] where [1957] is Due date",
+      "environmental_dynamics": "The 'Due date' textbox in the modal is populated with the value '2025-09-02' and a 'Clear date' button appears, indicating the due date was set."
+    },
+    {
+      "initial_state": "GitLab issue page with a modal open for the 'Research colorblind-friendly color palettes' task, and the label menu expanded, showing available labels.",
+      "action": "click [2247] where [2247] is help wanted",
+      "environmental_dynamics": "The 'help wanted' label option is now present with a 'Remove label' button beside it, indicating that the label has been added to the task in the modal."
+    }
+  ]
+}

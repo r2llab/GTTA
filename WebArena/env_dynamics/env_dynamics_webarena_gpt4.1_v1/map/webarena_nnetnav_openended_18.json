@@ -1,0 +1,197 @@
+[
+  {
+    "initial_state": "OpenStreetMap homepage with the search textbox focused and empty.",
+    "action": "type [145] [bike trails near Syracuse NY ] where [145] is Search",
+    "environmental_dynamics": "The search textbox was filled with 'bike trails near Syracuse NY', a search was submitted, and a search results panel appeared indicating 'No results found' from OpenStreetMap Nominatim."
+  },
+  {
+    "initial_state": "OpenStreetMap search results page for 'bike trails near Syracuse NY', with the search box containing the previous query and a visible message stating 'No results found'.",
+    "action": "type [145] [trails near Syracuse NY ] where [145] is Search",
+    "environmental_dynamics": "The search box value changed from 'bike trails near Syracuse NY' to 'trails near Syracuse NY', but the page otherwise remains unchanged and still displays 'No results found'."
+  },
+  {
+    "initial_state": "OpenStreetMap search page showing search results for 'trails near Syracuse NY' with 'No results found' displayed and the Search textbox focused and filled with 'trails near Syracuse NY'.",
+    "action": "type [145] [Syracuse NY trails ] where [145] is Search",
+    "environmental_dynamics": "The text in the Search textbox was replaced with 'Syracuse NY trails', updating the search value to match the new query, but the search results and overall page content remained unchanged until a search is executed."
+  },
+  {
+    "initial_state": "OpenStreetMap search results page for 'Syracuse NY trails', with the search box focused and populated with that query, and 'No results found' displayed.",
+    "action": "type [145] [Syracuse NY bike routes ] where [145] is Search",
+    "environmental_dynamics": "The search box content changed to 'Syracuse NY bike routes', and the search results section updated to indicate loading of new results."
+  },
+  {
+    "initial_state": "OpenStreetMap search results page for 'Syracuse NY bike routes', with search results loading and the 'Layers' link visible.",
+    "action": "click [402] where [402] is Layers",
+    "environmental_dynamics": "The map layer options panel opened, showing various layer choices, overlay toggles, and the 'Layers' link is now focused."
+  },
+  {
+    "initial_state": "OpenStreetMap results page for 'Syracuse NY bike routes' showing no results, with the 'Map Layers' panel open and 'Standard' as the initially highlighted layer.",
+    "action": "click [246] where [246] is ",
+    "environmental_dynamics": "The base map layer changed from 'Standard' to 'CyclOSM' after the 'CyclOSM' option was clicked, and copyright/footer details specific to CyclOSM (including links to CyclOSM and OpenStreetMap France) appeared at the bottom of the page."
+  },
+  {
+    "initial_state": "OpenStreetMap search results page for 'Syracuse NY bike routes' with the map and controls visible, including a 'Zoom In' link.",
+    "action": "click [394] where [394] is Zoom In",
+    "environmental_dynamics": "The 'Zoom In' control was activated, resulting in the map zooming in (distance scale changed from 50 km/50 mi to 30 km/20 mi), the 'Zoom In' control receiving focus and displaying a tooltip labeled 'Zoom In', and checkboxes for overlays (like 'Map Notes') becoming clickable."
+  },
+  {
+    "initial_state": "OpenStreetMap page displaying search results for 'Syracuse NY bike routes', with a map layers panel showing several selectable map styles including 'CyclOSM' (label [246]) and 'Standard'.",
+    "action": "click [246] where [246] is ",
+    "environmental_dynamics": "The map style or layer selection was changed\u2014additional map images appeared in the accessibility tree, indicating a new map style, likely 'CyclOSM', was activated, though no other visible interface components changed."
+  },
+  {
+    "initial_state": "OpenStreetMap search results page showing 'No results found', with a list of map overlays including an unchecked and unfocused 'Public GPS Traces' checkbox.",
+    "action": "click [295] where [295] is Public GPS Traces",
+    "environmental_dynamics": "The 'Public GPS Traces' checkbox is now checked and focused, indicating that the corresponding map layer or overlay has been enabled."
+  },
+  {
+    "initial_state": "OpenStreetMap page for 'Syracuse NY bike routes' showing search results (no results found), with the Map Layers panel open and the 'CyclOSM' layer option visible.",
+    "action": "click [246] where [246] is ",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap page showing Syracuse NY bike routes, with the map, search, and map controls including a 'Zoom In' link present.",
+    "action": "click [394] where [394] is Zoom In",
+    "environmental_dynamics": "The 'Zoom In' control became focused, a tooltip labeled 'Zoom In' appeared, and the map's scale indicators updated to '20 km' and '10 mi', reflecting a zoomed-in view."
+  },
+  {
+    "initial_state": "OpenStreetMap results page for 'Syracuse NY bike routes', with the 'Map Layers' section open and the current layer highlighted as 'Standard'",
+    "action": "click [246] where [246] is ",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap search results page for 'Syracuse NY bike routes', showing a map, search box, search results ('No results found'), map layer options, and the 'Zoom In' link.",
+    "action": "click [394] where [394] is Zoom In",
+    "environmental_dynamics": "The map view zoomed in, as indicated by changed scale text ('10 km', '5 mi'), updated map images, 'Zoom In' link now focused with an accompanying tooltip, and the rest of the interface remains the same."
+  },
+  {
+    "initial_state": "OpenStreetMap page displaying search results for 'Syracuse NY bike routes', with the 'Map Layers' menu open and the 'CyclOSM' map layer option visible and clickable.",
+    "action": "click [246] where [246] is ",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap page displaying Syracuse NY bike routes search results, with the map and various overlays and controls, and the 'Zoom In' link available.",
+    "action": "click [394] where [394] is Zoom In",
+    "environmental_dynamics": "The map zoom level increased, updating the map's distance scale from 10 km/5 mi to 5 km/3 mi; the 'Zoom In' control gained focus and a tooltip labeled 'Zoom In' appeared."
+  },
+  {
+    "initial_state": "OpenStreetMap search page for 'Syracuse NY bike routes' with map layers panel open; 'CyclOSM' map layer option is visible and clickable.",
+    "action": "click [246] where [246] is ",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap search results page for 'Syracuse NY bike routes', with the map, layer options, and navigation controls visible.",
+    "action": "click [394] where [394] is Zoom In",
+    "environmental_dynamics": "The map zoom level increased, updating the map scale indicators to '2 km' and '1 mi', and the 'Zoom In' control is now focused and described by a visible tooltip."
+  },
+  {
+    "initial_state": "OpenStreetMap search results page for 'Syracuse NY bike routes' with the map layers menu open and the 'Standard' map layer selected.",
+    "action": "click [246] where [246] is ",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap page showing search results for 'Syracuse NY bike routes', with the 'Zoom In' link visible and not focused.",
+    "action": "click [394] where [394] is Zoom In",
+    "environmental_dynamics": "The 'Zoom In' link became focused and a tooltip displaying 'Zoom In' appeared; the map images and scale updated, and the scale bar changed from '2 km/1 mi' to '1 km/3000 ft'."
+  },
+  {
+    "initial_state": "OpenStreetMap search results page for 'Syracuse NY bike routes' with the default map layer and various selectable map layer options visible.",
+    "action": "click [246] where [246] is ",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap search results page for 'Syracuse NY bike routes' with 'Map Data' checkbox unchecked.",
+    "action": "click [292] where [292] is Map Data",
+    "environmental_dynamics": "The 'Map Data' checkbox was checked and is now focused, enabling the display of map data overlay on the map."
+  },
+  {
+    "initial_state": "OpenStreetMap search results page for 'Syracuse NY bike routes' with map layers selection visible, 'CyclOSM' currently not indicated as active.",
+    "action": "click [246] where [246] is ",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap page showing search results for 'Syracuse NY bike routes', with map controls including a visible and clickable 'Zoom In' link.",
+    "action": "click [394] where [394] is Zoom In",
+    "environmental_dynamics": "The 'Zoom In' map control was clicked, causing the map scale to decrease from '1 km' to '500 m', and the 'Zoom In' link became focused with a visible tooltip labeled 'Zoom In'."
+  },
+  {
+    "initial_state": "OpenStreetMap search results page for 'Syracuse NY bike routes' with a map layers panel visible and the 'Standard' map layer selected.",
+    "action": "click [246] where [246] is ",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap page for 'Syracuse NY bike routes' with the map, search, and map layer UI, 'Zoom In' and 'Zoom Out' links available, and the map zoom scale at 500 m/2000 ft.",
+    "action": "click [394] where [394] is Zoom In",
+    "environmental_dynamics": "The 'Zoom In' control was clicked, resulting in the map zooming in\u2014now displaying a scale of 300 m/1000 ft\u2014and a tooltip for 'Zoom In' appearing; the 'Zoom In' link is now focused."
+  },
+  {
+    "initial_state": "OpenStreetMap search results page for 'Syracuse NY bike routes', with the 'CyclOSM' map layer option visible and selectable in the map layers list.",
+    "action": "click [246] where [246] is ",
+    "environmental_dynamics": "No change; clicking on the 'CyclOSM' label in the map layers list did not modify the visible state or selection indicators in the accessibility tree."
+  },
+  {
+    "initial_state": "OpenStreetMap results page for 'Syracuse NY bike routes', showing no search results, map controls, visible 'Zoom In' and 'Zoom Out' links.",
+    "action": "click [394] where [394] is Zoom In",
+    "environmental_dynamics": "The map was zoomed in, updating the map scale indicators and bringing focus to the 'Zoom In' link with a visible 'Zoom In' tooltip."
+  },
+  {
+    "initial_state": "OpenStreetMap search results page for 'Syracuse NY bike routes' with the map layers menu open and the 'Standard' map view selected.",
+    "action": "click [246] where [246] is ",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap search results page for 'Syracuse NY bike routes', displaying search and map layers controls as well as zoom controls.",
+    "action": "click [394] where [394] is Zoom In",
+    "environmental_dynamics": "The 'Zoom In' control was clicked, causing the map to zoom in (reflected in new scale indicators and focused state on the 'Zoom In' control, as well as an updated tooltip and refreshed map tile images)."
+  },
+  {
+    "initial_state": "OpenStreetMap page displaying Syracuse NY bike routes, with map layer options visible and the Zoom In control focused with its tooltip displayed.",
+    "action": "click [246] where [246] is ",
+    "environmental_dynamics": "The Zoom In control lost focus and its tooltip closed, but otherwise the visible content and layer selections did not change."
+  },
+  {
+    "initial_state": "OpenStreetMap page for 'Syracuse NY bike routes' with the 'Public GPS Traces' checkbox checked in the 'Map Layers' section.",
+    "action": "click [295] where [295] is Public GPS Traces",
+    "environmental_dynamics": "The 'Public GPS Traces' checkbox became unchecked and gained keyboard focus, disabling the display of public GPS traces on the map."
+  },
+  {
+    "initial_state": "OpenStreetMap search results page for 'Syracuse NY bike routes', with Map Layers panel showing and the 'Standard' base map selected.",
+    "action": "click [246] where [246] is ",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap page showing search results for 'Syracuse NY bike routes', with map controls and current zoom level at 50 m / 200 ft.",
+    "action": "click [394] where [394] is Zoom In",
+    "environmental_dynamics": "Clicking the 'Zoom In' link focused the zoom control, displayed a 'Zoom In' tooltip, and adjusted the zoom level of the map to 30 m / 100 ft, indicating a closer zoom on the map."
+  },
+  {
+    "initial_state": "OpenStreetMap search results page for 'Syracuse NY bike routes,' with the 'Map Layers' menu open and the Standard background layer apparently selected.",
+    "action": "click [246] where [246] is ",
+    "environmental_dynamics": "No visible change in core UI elements, but the accessibility tree now shows additional images under map layer containers, indicating the map background style was switched from 'Standard' to 'CyclOSM'."
+  },
+  {
+    "initial_state": "OpenStreetMap search results page for 'Syracuse NY bike routes' with map and overlays visible, including map controls such as the 'Zoom In' link.",
+    "action": "click [394] where [394] is Zoom In",
+    "environmental_dynamics": "The map zoom level increased (zoomed in), the scale bar updated to show smaller distances ('20 m'/'50 ft'), the 'Zoom In' control is now focused and a tooltip for 'Zoom In' appeared."
+  },
+  {
+    "initial_state": "OpenStreetMap page showing search results for 'Syracuse NY bike routes', 'Map Layers' menu open with 'Standard' map layer selected, and various listitems for different map styles visible.",
+    "action": "click [246] where [246] is ",
+    "environmental_dynamics": "The 'CyclOSM' map layer was selected, and additional map tile images for that layer were loaded, updating the underlying map view to use the CyclOSM style."
+  },
+  {
+    "initial_state": "OpenStreetMap search results page for 'Syracuse NY bike routes' showing no results found.",
+    "action": "type [145] [Syracuse NY ] where [145] is Search",
+    "environmental_dynamics": "The search box has been updated to 'Syracuse NY', the search results now list the city 'City of Syracuse, Onondaga County, New York, United States', and the search results section is refreshed with relevant entries."
+  },
+  {
+    "initial_state": "OpenStreetMap page showing Syracuse NY, with the map layers panel open and 'Standard', 'CyclOSM', '\u00d6PNVKarte', and 'Humanitarian' map layer options visible, and 'CyclOSM' option listed but not active.",
+    "action": "click [246] where [246] is ",
+    "environmental_dynamics": "The 'CyclOSM' map layer option was selected, as indicated by the change in associated image element; the map may be updated to display the CyclOSM layer."
+  },
+  {
+    "initial_state": "OpenStreetMap page for Syracuse NY, showing map, search results, and a sidebar with map layers and overlays, with the 'Zoom In' link visible.",
+    "action": "click [394] where [394] is Zoom In",
+    "environmental_dynamics": "The 'Zoom In' link is now focused and a tooltip labeled 'Zoom In' has appeared; the map scale bar has updated to '1 km' and '3000 ft', indicating the map zoomed in, and several map overlay images in the accessibility tree have changed."
+  }
+]

@@ -1,0 +1,13 @@
+Do you think you have well-explored all functions that you are interested in, particularly those with ambiguous input formats/structures or potentially unexpected outputs? 
+
+Consider stopping (###STOP) if:
+- You have thoroughly tested functions with unclear parameter requirements
+- You have explored functions that might produce unexpected or variable output formats
+- You have sufficient understanding of how to handle edge cases and errors
+
+Continue exploring (###CONTINUE) if:
+- There are still functions with ambiguous input specifications that need clarification
+- You haven't fully tested functions that could have unpredictable outputs
+- You need more exploration to understand parameter constraints and error handling
+
+Please output ###STOP if you believe you have comprehensive coverage, or ###CONTINUE if more exploration is needed.

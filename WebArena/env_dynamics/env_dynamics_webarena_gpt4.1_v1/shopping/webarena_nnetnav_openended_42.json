@@ -1,0 +1,197 @@
+[
+  {
+    "initial_state": "One Stop Market homepage with 'Product Showcases' visible and main navigation menu including the 'Health & Household' category.",
+    "action": "click [772] where [772] is \ue622 Health & Household",
+    "environmental_dynamics": "The page navigated to the 'Health & Household' category, displaying related products, filter options, and a heading indicating 'Health & Household Items 1-12 of 537'."
+  },
+  {
+    "initial_state": "Health & Household category page displaying a list of product items, including the Manitoba Harvest Hemp Seed Oil among other products.",
+    "action": "click [1491] where [1491] is Manitoba Harvest Hemp Seed Oil, 12g of Omegas 3&6 Per Serving, Non-GMO, Vegan, Gluten-Free 12 Fl Oz",
+    "environmental_dynamics": "The browser navigated to the detailed product page for Manitoba Harvest Hemp Seed Oil, revealing the product's images, descriptions, specifications, nutrition benefits, and additional details."
+  },
+  {
+    "initial_state": "Product page for Manitoba Harvest Hemp Seed Oil with two size options, neither selected.",
+    "action": "click [1489] where [1489] is 32 Fl Oz (Pack of 1)",
+    "environmental_dynamics": "The '32 Fl Oz (Pack of 1)' radio button is now selected and focused, indicating this size option has been chosen."
+  },
+  {
+    "initial_state": "Product page for Manitoba Harvest Hemp Seed Oil showing details, stock status, and with the 'Add to Cart' button available. The cart indicator shows 'My Cart 1 1items'.",
+    "action": "click [1502] where [1502] is Add to Cart",
+    "environmental_dynamics": "After clicking 'Add to Cart', a confirmation alert appears reporting the item was added to the shopping cart, and the cart indicator updates to 'My Cart 3 3items'."
+  },
+  {
+    "initial_state": "Product detail page for Manitoba Harvest Hemp Seed Oil, with 'My Cart' link showing 3 items, and no cart details visible.",
+    "action": "click [280] where [280] is \ue611 My Cart 3 3items",
+    "environmental_dynamics": "A cart summary dialog opened, displaying the 3 items in the shopping cart with details, subtotal, and checkout options."
+  },
+  {
+    "initial_state": "Product detail page for Manitoba Harvest Hemp Seed Oil with a mini cart dialog open showing 3 items in cart and the Proceed to Checkout button visible and focused.",
+    "action": "click [308] where [308] is Proceed to Checkout",
+    "environmental_dynamics": "The web page transitioned from the product/cart page to the 'Checkout' page, displaying shipping address selection, shipping methods, and an order summary dialog for items in the cart."
+  },
+  {
+    "initial_state": "Checkout page displaying shipping address and shipping method selection, with the primary option being 'Fixed Flat Rate' selected and a visible 'Next' button.",
+    "action": "click [816] where [816] is Next",
+    "environmental_dynamics": "Clicking the 'Next' button transitioned the page from the shipping selection step to the review and payments step, displaying payment information fields, order summary details, and the final order confirmation button."
+  },
+  {
+    "initial_state": "Checkout page with order summary and shipping/payment information visible; the Place Order button is present and clickable.",
+    "action": "click [1365] where [1365] is Place Order",
+    "environmental_dynamics": "A loading overlay with a 'Loading...' image appeared, indicating that the order submission is being processed after clicking the Place Order button."
+  },
+  {
+    "initial_state": "Checkout page displaying payment and shipping information as well as an order summary on a modal dialog, with a tab labeled '3Items in Cart' visible.",
+    "action": "click [864] where [864] is 3Items in Cart \ue622",
+    "environmental_dynamics": "The page has navigated to the Success Page following order placement, displaying a purchase confirmation, order number, and various account and shopping navigation options; the checkout and cart summary are no longer visible."
+  },
+  {
+    "initial_state": "Success page confirming a recent purchase is displayed, with a navigation menu including a 'Health & Household' menu item.",
+    "action": "click [763] where [763] is \ue622 Health & Household",
+    "environmental_dynamics": "The browser navigated to the 'Health & Household' category page, displaying a list of related products with sorting, filtering, and pagination options."
+  },
+  {
+    "initial_state": "Health & Household category page displaying a grid of multiple products, including 'Manitoba Harvest Hemp Seed Oil, 12g of Omegas 3&6 Per Serving, Non-GMO, Vegan, Gluten-Free 12 Fl Oz' with its associated link.",
+    "action": "click [1444] where [1444] is Manitoba Harvest Hemp Seed Oil, 12g of Omegas 3&6 Per Serving, Non-GMO, Vegan, Gluten-Free 12 Fl Oz",
+    "environmental_dynamics": "The browser navigated to the product detail page for 'Manitoba Harvest Hemp Seed Oil, 12g of Omegas 3&6 Per Serving, Non-GMO, Vegan, Gluten-Free 12 Fl Oz', showing detailed information, options, images, and specifications for this item."
+  },
+  {
+    "initial_state": "Product page for Manitoba Harvest Hemp Seed Oil with size options available; neither size radio button (12 Fl Oz or 32 Fl Oz) is checked.",
+    "action": "click [1438] where [1438] is 12 Fl Oz (Pack of 1)",
+    "environmental_dynamics": "The '12 Fl Oz (Pack of 1)' radio button is now selected and focused, indicating this size choice is active."
+  },
+  {
+    "initial_state": "Product page for Manitoba Harvest Hemp Seed Oil with product details, add to cart button, and empty shopping cart.",
+    "action": "click [1455] where [1455] is Add to Cart",
+    "environmental_dynamics": "A confirmation alert appeared indicating the product was added to the shopping cart, and the cart icon now shows 1 item inside."
+  },
+  {
+    "initial_state": "Product detail page for Manitoba Harvest Hemp Seed Oil with a notification that the item was added to the cart, and the cart link indicating 1 item.",
+    "action": "click [280] where [280] is \ue611 My Cart 1 1items",
+    "environmental_dynamics": "A cart preview dialog opened, showing the cart contents including Manitoba Harvest Hemp Seed Oil, its price, quantity, and options to proceed to checkout, view and edit the cart, edit, or remove the item."
+  },
+  {
+    "initial_state": "Product detail page for Manitoba Harvest Hemp Seed Oil with a cart dialog open showing 1 item in the cart and the Proceed to Checkout button visible.",
+    "action": "click [2097] where [2097] is Proceed to Checkout",
+    "environmental_dynamics": "The page navigated from the product detail and cart view to the Checkout page, displaying shipping address and shipping method options, and showing an order summary dialog."
+  },
+  {
+    "initial_state": "Checkout page showing shipping address and shipping method selection with a 'Next' button visible.",
+    "action": "click [816] where [816] is Next",
+    "environmental_dynamics": "The page advanced to the 'Review & Payments' step, displaying payment information entry, billing address confirmation, and an updated detailed order summary with totals and itemized charges."
+  },
+  {
+    "initial_state": "Checkout page with billing/shipping details, payment options, and a visible 'Place Order' button.",
+    "action": "click [1368] where [1368] is Place Order",
+    "environmental_dynamics": "After clicking 'Place Order', a loading indicator appears and the interface becomes busy, with the 'Place Order' button now focused."
+  },
+  {
+    "initial_state": "Checkout page with order summary, shipping information, payment methods, and a 'Place Order' button; an 'edit' button is present in the 'Ship To' section.",
+    "action": "click [1439] where [1439] is \ue606 edit",
+    "environmental_dynamics": "After clicking the 'edit' button for the shipping information, the browser navigated to a Success Page confirming purchase completion, displaying a thank you message and the order number."
+  },
+  {
+    "initial_state": "Success page after purchase showing an order number, confirmation message, and a sign-up textbox for the newsletter, which is empty and not focused.",
+    "action": "type [1377] [emma.lopez@email.com] where [1377] is Sign Up for Our Newsletter:",
+    "environmental_dynamics": "The newsletter sign-up textbox is now focused and filled with 'emma.lopez@email.com'."
+  },
+  {
+    "initial_state": "Success page confirming a purchase, with order details, thank you message, and a newsletter signup box focused.",
+    "action": "click [763] where [763] is \ue622 Health & Household",
+    "environmental_dynamics": "The webpage navigated from the purchase success page to the 'Health & Household' category listing, displaying relevant product listings and filters for that category."
+  },
+  {
+    "initial_state": "Category page for 'Health & Household' showing a grid of products, including the 'Manitoba Harvest Hemp Seed Oil' as one of the listed items.",
+    "action": "click [1444] where [1444] is Manitoba Harvest Hemp Seed Oil, 12g of Omegas 3&6 Per Serving, Non-GMO, Vegan, Gluten-Free 12 Fl Oz",
+    "environmental_dynamics": "The browser navigated to the individual product detail page for 'Manitoba Harvest Hemp Seed Oil, 12g of Omegas 3&6 Per Serving, Non-GMO, Vegan, Gluten-Free 12 Fl Oz', displaying detailed product information, options, and a full description."
+  },
+  {
+    "initial_state": "Product page for Manitoba Harvest Hemp Seed Oil, with two size radio buttons ('12 Fl Oz (Pack of 1)' and '32 Fl Oz (Pack of 1)') both unchecked.",
+    "action": "click [1438] where [1438] is 12 Fl Oz (Pack of 1)",
+    "environmental_dynamics": "The '12 Fl Oz (Pack of 1)' radio button is now checked and focused, indicating it has been selected as the product size."
+  },
+  {
+    "initial_state": "Product page for Manitoba Harvest Hemp Seed Oil, with the Add to Cart button available, and the cart showing no items.",
+    "action": "click [1455] where [1455] is Add to Cart",
+    "environmental_dynamics": "After clicking 'Add to Cart', an alert appears confirming the product was added, and the cart now displays '1 item' indicating an item has been added."
+  },
+  {
+    "initial_state": "Product page for 'Manitoba Harvest Hemp Seed Oil' with a header cart link labeled 'My Cart 1 1items', and the main content and cart alert visible.",
+    "action": "click [280] where [280] is \ue611 My Cart 1 1items",
+    "environmental_dynamics": "A shopping cart preview dialog opened, showing details of the item in the user\u2019s cart including cart subtotal, quantity, product image, and buttons for proceeding to checkout, editing, and removing items."
+  },
+  {
+    "initial_state": "Product page for Manitoba Harvest Hemp Seed Oil with a cart dialog open showing 1 item in the cart and a visible 'Proceed to Checkout' button.",
+    "action": "click [2097] where [2097] is Proceed to Checkout",
+    "environmental_dynamics": "The page transitioned from the product page with cart dialog to the checkout page, displaying shipping address, shipping methods, and an order summary dialog."
+  },
+  {
+    "initial_state": "Checkout page showing the shipping address selection and shipping method options, with the 'Next' button visible.",
+    "action": "click [816] where [816] is Next",
+    "environmental_dynamics": "Clicking 'Next' advanced the checkout to the 'Review & Payments' step, replacing the shipping address and method selections with a payment information form and order summary, while updating the order summary to include a cost breakdown and providing a 'Place Order' button."
+  },
+  {
+    "initial_state": "Checkout page displaying payment and shipping information, with the order summary and a visible, clickable 'Place Order' button.",
+    "action": "click [1351] where [1351] is Place Order",
+    "environmental_dynamics": "After clicking 'Place Order', a loading indicator appeared and the page is marked as busy, indicating that the order is being processed."
+  },
+  {
+    "initial_state": "Checkout page displaying payment, address, and order summary sections with a tab labeled '1Item in Cart' visible in the order summary dialog.",
+    "action": "click [864] where [864] is 1Item in Cart \ue622",
+    "environmental_dynamics": "The page transitioned to a 'Success Page' showing an order confirmation message, order number, and options like 'Print receipt' and 'Continue Shopping', indicating successful completion of the purchase."
+  },
+  {
+    "initial_state": "Success page confirming order, showing 'Thank you for your purchase!' message, order number, and options for printing receipt or continuing shopping.",
+    "action": "click [763] where [763] is \ue622 Health & Household",
+    "environmental_dynamics": "The page changed from the success confirmation to the 'Health & Household' shopping category, displaying product listings and filtering options related to Health & Household."
+  },
+  {
+    "initial_state": "Health & Household category page displaying a list of products, including 'Whey Protein Powder | Six Star Whey Protein Plus | Whey Protein Isolate & Peptides | Lean Protein Powder for Muscle Gain | Muscle Builder for Men & Women | Vanilla, 2 lbs (Package May Vary)' with its title as a clickable link.",
+    "action": "click [1698] where [1698] is Whey Protein Powder | Six Star Whey Protein Plus | Whey Protein Isolate & Peptides | Lean Protein Powder for Muscle Gain | Muscle Builder for Men & Women | Vanilla, 2 lbs (Package May Vary)",
+    "environmental_dynamics": "Navigated from the category listing to the product detail page for 'Whey Protein Powder | Six Star Whey Protein Plus | Whey Protein Isolate & Peptides | Lean Protein Powder for Muscle Gain | Muscle Builder for Men & Women | Vanilla, 2 lbs (Package May Vary)', displaying detailed information, flavors, pricing, and purchase options for the selected item."
+  },
+  {
+    "initial_state": "Product page for Six Star Whey Protein Plus with multiple unselected flavor radio options, including 'Vanilla', none selected.",
+    "action": "click [1462] where [1462] is Vanilla",
+    "environmental_dynamics": "The 'Vanilla' flavor radio option is now selected and focused, indicating it as the chosen flavor."
+  },
+  {
+    "initial_state": "Product detail page for Six Star Whey Protein Powder with 'Add to Cart' button visible and My Cart showing no item count.",
+    "action": "click [1475] where [1475] is Add to Cart",
+    "environmental_dynamics": "After clicking 'Add to Cart', a confirmation alert appeared stating the product was added to the shopping cart, and the 'My Cart' link updated to display '2 items'."
+  },
+  {
+    "initial_state": "Product page for 'Whey Protein Powder | Six Star Whey Protein Plus' with a visible alert showing the item was added to the cart and a cart icon ('My Cart 2 2items') in the banner.",
+    "action": "click [280] where [280] is \ue611 My Cart 2 2items",
+    "environmental_dynamics": "Clicking the 'My Cart' link opened a cart summary dialog displaying the current cart contents, pricing, item details, and checkout options."
+  },
+  {
+    "initial_state": "Product page for Whey Protein Powder with a cart dialog open showing cart items and a 'Proceed to Checkout' button visible.",
+    "action": "click [1736] where [1736] is Proceed to Checkout",
+    "environmental_dynamics": "The page navigated from the product/cart dialog to the checkout page, displaying shipping address and shipping method selection."
+  },
+  {
+    "initial_state": "Checkout page at the shipping method selection step, with shipping address and shipping options displayed and the 'Next' button visible.",
+    "action": "click [816] where [816] is Next",
+    "environmental_dynamics": "The page advanced to the payment and review stage, displaying payment information input fields, billing address details, a 'Place Order' button, and an expanded order summary with itemized totals and shipping details."
+  },
+  {
+    "initial_state": "Checkout page displaying payment and shipping information, with a visible 'Place Order' button.",
+    "action": "click [1377] where [1377] is Place Order",
+    "environmental_dynamics": "After clicking 'Place Order', an alert appeared stating a server error stopped the order from being placed, and the 'Place Order' button became focused; a loading image was also displayed in the order summary dialog."
+  },
+  {
+    "initial_state": "Checkout page on an e-commerce site with focus on the 'Place Order' button and an error alert indicating a server error occurred during the previous attempt to place the order, and the payment information form still present.",
+    "action": "click [1377] where [1377] is Place Order",
+    "environmental_dynamics": "After clicking 'Place Order', the checkout page reverted to the previous step, displaying the shipping address and shipping method selection fields instead of the payment information and order placement section, indicating the user must re-confirm shipping details before trying to complete their purchase again."
+  },
+  {
+    "initial_state": "Checkout page displaying shipping address, shipping method selection, and an order summary dialog; all content visible and structured in lists and tables.",
+    "action": "Attempt to perfom \"click\" on element \"[1377]\" but no matching element found. Please check the observation more carefully.",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "Checkout page at the shipping step, with shipping address and shipping methods visible and the 'Next' button available.",
+    "action": "click [816] where [816] is Next",
+    "environmental_dynamics": "An alert appeared stating 'Current customer does not have an active cart,' and the 'Next' button became focused but no progress was made to the next checkout step."
+  }
+]

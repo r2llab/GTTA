@@ -1,0 +1,22 @@
+[
+  {
+    "initial_state": "GitLab Projects Dashboard with multiple project listings",
+    "action": "click [140] where [140] is ",
+    "environmental_dynamics": "A tooltip and a menu for creating new items (project, repository, group, snippet) has appeared when hovering over 'Create new...'."
+  },
+  {
+    "initial_state": "GitLab projects dashboard with a 'New project/repository' dropdown option",
+    "action": "click [147] where [147] is New project/repository",
+    "environmental_dynamics": "Navigated to the 'New Project' page, displaying options to create blank projects, projects from templates, or import projects."
+  },
+  {
+    "initial_state": "GitLab New Project page",
+    "action": "click [244] where [244] is Create from template Create a project pre-populated with the necessary files to get you started quickly.",
+    "environmental_dynamics": "The page transitioned to a 'Create from template' section, displaying available project templates, each with an option to preview and use the template."
+  },
+  {
+    "initial_state": "GitLab 'New Project' page showing various project templates",
+    "action": "click [366] where [366] is Use template",
+    "environmental_dynamics": "A radio button with the label 'Use template' for the Ruby on Rails project template was clicked, selecting it as the chosen template."
+  }
+]

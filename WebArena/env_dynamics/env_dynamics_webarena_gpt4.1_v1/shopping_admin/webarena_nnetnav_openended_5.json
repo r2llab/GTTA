@@ -1,0 +1,122 @@
+[
+  {
+    "initial_state": "Magento Admin dashboard with the horizontal top navigation bar visible and no expanded submenu; all navigation links are collapsed.",
+    "action": "click [226] where [226] is \ue609 MARKETING",
+    "environmental_dynamics": "The 'MARKETING' menu in the navigation bar was clicked, causing its submenu to expand and display sections for Promotions, Communications, SEO & Search, and User Content, each with their respective submenu links."
+  },
+  {
+    "initial_state": "Magento Admin dashboard is displayed, with the Marketing menu expanded showing various submenu items including 'Catalog Price Rule', and the overall focus is on the dashboard.",
+    "action": "click [240] where [240] is Catalog Price Rule",
+    "environmental_dynamics": "The browser navigated to the 'Catalog Price Rule' page under Promotions, which now shows a table of catalog price rules, related filters, and action buttons like 'Add New Rule' and 'Apply Rules'."
+  },
+  {
+    "initial_state": "Magento Admin Catalog Price Rule page, displaying a table of existing catalog price rules and providing 'Add New Rule' and 'Apply Rules' buttons.",
+    "action": "click [686] where [686] is Add New Rule",
+    "environmental_dynamics": "Clicking 'Add New Rule' navigated to the New Catalog Price Rule creation form, replacing the rules table with form fields for rule details such as Name, Description, Status, Website, Customer Groups, Dates, and Priority, along with save options."
+  },
+  {
+    "initial_state": "Magento Admin page for creating a new Catalog Price Rule, with the 'Rule Name *' textbox empty and ready for input.",
+    "action": "type [770] [Spring Sale 2024] where [770] is Rule Name *",
+    "environmental_dynamics": "The 'Rule Name *' textbox was populated with the text 'Spring Sale 2024', and it is now focused."
+  },
+  {
+    "initial_state": "Magento Admin 'New Catalog Price Rule' page with the 'Description' textbox empty and focused on the 'Rule Name' field.",
+    "action": "type [776] [10% discount on all spring collection items for March and April 2024 ] where [776] is Description",
+    "environmental_dynamics": "Text was entered into the 'Description' textbox, updating it to '10% discount on all spring collection items for March and April 2024', shifting focus to the 'Description' field, and a tooltip appeared indicating unsaved changes in the 'Rule Information' section."
+  },
+  {
+    "initial_state": "Magento Admin 'New Catalog Price Rule' creation page with the 'Active' checkbox labeled 'No' unchecked, and the description textbox currently focused.",
+    "action": "click [783] where [783] is Active * No",
+    "environmental_dynamics": "The focus was removed from the 'Description' textbox, but the 'Active' checkbox labeled 'No' remains unchecked; there is no visible change to the checkbox's state or form elements."
+  },
+  {
+    "initial_state": "Magento Admin 'New Catalog Price Rule' form page, with the 'Websites' multiselect listbox visible but no option selected.",
+    "action": "click [792] where [792] is ",
+    "environmental_dynamics": "The 'Websites' multiselect listbox became focused and its first option was selected."
+  },
+  {
+    "initial_state": "Magento Admin page for creating a new catalog price rule, with focus on the 'Websites' listbox; customer groups listbox present but no customer group selected.",
+    "action": "click [803] where [803] is ",
+    "environmental_dynamics": "The first customer group option in the 'Customer Groups' listbox was selected, changing its selection state from unselected to selected."
+  },
+  {
+    "initial_state": "Magento Admin page for creating a new catalog price rule, with the 'From' date textbox empty and an unsaved changes tooltip visible.",
+    "action": "type [812] [2024-03-01 ] where [812] is From",
+    "environmental_dynamics": "The 'From' date textbox now contains '2024-03-01', becomes focused, and an inline error message 'Please enter a valid date.' appears along with a tooltip warning that the tab contains invalid data."
+  },
+  {
+    "initial_state": "Magento Admin page for creating a new catalog price rule, with the 'To' date textbox empty and the 'From' date textbox containing '2024-03-01'.",
+    "action": "type [820] [2024-04-30] where [820] is To",
+    "environmental_dynamics": "The 'To' date textbox was filled with the value '2024-04-30' and is now focused."
+  },
+  {
+    "initial_state": "Magento Admin page for creating a new catalog price rule, with form fields filled for rule details, and the 'To' date textbox focused.",
+    "action": "click [719] where [719] is Save and Apply",
+    "environmental_dynamics": "No visible change occurred after clicking the 'Save and Apply' button; no confirmation, error, or navigation is present in the accessibility tree."
+  },
+  {
+    "initial_state": "Magento Admin 'New Catalog Price Rule' creation form with the 'Discount Amount' field empty and unfocused, and the 'From' date field focused.",
+    "action": "type [1246] [10 ] where [1246] is Discount Amount * This is a required field.",
+    "environmental_dynamics": "The focus shifted to the 'Discount Amount' field, and the value '10' was entered, filling the required field and visually displaying '10' in the textbox. A tooltip now indicates unsaved changes in the 'Actions' section."
+  },
+  {
+    "initial_state": "Magento Admin New Catalog Price Rule creation page with unsaved changes, including a filled rule form and visible tooltips for invalid data or unsaved changes.",
+    "action": "click [719] where [719] is Save and Apply",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "Magento Admin page for creating a new Catalog Price Rule, with the 'From' date textbox focused and its value set to '2024-03-01'.",
+    "action": "type [812] [2024-03-01 ] where [812] is From Please enter a valid date.",
+    "environmental_dynamics": "The agent typed '2024-03-01 ' (with a trailing space) into the 'From' date textbox, but the value in the accessibility tree remains '2024-03-01', so there is no visible change in the tree."
+  },
+  {
+    "initial_state": "Magento Admin 'New Catalog Price Rule' page with the 'From' date textbox focused and already containing '2024-03-01'.",
+    "action": "type [812] [2024-03-01 ] where [812] is From Please enter a valid date.",
+    "environmental_dynamics": "Typing '2024-03-01 ' (extra space) into the 'From' date field resulted in no visible change to the accessibility tree, indicating that the text box content and validation state remain unchanged."
+  },
+  {
+    "initial_state": "Magento Admin new catalog price rule creation form with the 'Active' checkbox labeled 'No' and unchecked.",
+    "action": "click [783] where [783] is Active * No",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "Magento Admin 'New Catalog Price Rule' creation page with the 'Active' checkbox (currently unchecked) in the 'Rule Information' section.",
+    "action": "click [783] where [783] is Active * No",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "Magento Admin 'New Catalog Price Rule' form page with the 'From' date textbox unfocused and containing the value '2024-03-01'.",
+    "action": "type [812] [2024-03-01 ] where [812] is From Please enter a valid date.",
+    "environmental_dynamics": "The 'From' date textbox is now focused, but its value remains unchanged at '2024-03-01'; no other changes are visible."
+  },
+  {
+    "initial_state": "Magento Admin panel on the 'New Catalog Price Rule' setup page, with the 'Active' checkbox unchecked ('No'). The 'From' date field is focused.",
+    "action": "click [783] where [783] is Active * No",
+    "environmental_dynamics": "The 'Active' checkbox lost focus, but remains unchecked. No visible change occurred as a result of the click action."
+  },
+  {
+    "initial_state": "Magento Admin 'New Catalog Price Rule' creation form with form fields filled and the 'Save and Apply' button visible.",
+    "action": "click [719] where [719] is Save and Apply",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "Magento Admin page for creating a new catalog price rule, with the 'From' date textbox focused and currently set to '2024-03-01'.",
+    "action": "type [812] [2024-03-01 ] where [812] is From Please enter a valid date.",
+    "environmental_dynamics": "No visible change; the 'From' date textbox already contained '2024-03-01', so retyping the same content with an additional space did not alter the form's state."
+  },
+  {
+    "initial_state": "Magento Admin 'New Catalog Price Rule' form with the 'From' date textbox focused and containing the value '2024-03-01'.",
+    "action": "type [812] [2024-03-01 ] where [812] is From Please enter a valid date.",
+    "environmental_dynamics": "The 'From' date textbox value remained '2024-03-01' as before, with no visible change to the content or form state."
+  },
+  {
+    "initial_state": "Magento Admin 'New Catalog Price Rule' form with the 'Active' checkbox unchecked (set to 'No'), with focus on the 'From' date input.",
+    "action": "click [783] where [783] is Active * No",
+    "environmental_dynamics": "The checkbox for 'Active' remains unchecked and there is no observable change to the form state; the page and its fields are unchanged."
+  },
+  {
+    "initial_state": "Magento Admin 'New Catalog Price Rule' creation page, with the 'Active' checkbox currently unchecked (set to 'No').",
+    "action": "click [783] where [783] is Active * No",
+    "environmental_dynamics": "no change"
+  }
+]

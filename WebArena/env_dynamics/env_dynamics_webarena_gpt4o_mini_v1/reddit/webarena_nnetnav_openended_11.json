@@ -1,0 +1,197 @@
+[
+  {
+    "initial_state": "Postmill homepage with search box visible",
+    "action": "click [54] where [54] is Search query",
+    "environmental_dynamics": "The search box became focused, allowing the user to enter input."
+  },
+  {
+    "initial_state": "Postmill homepage with search box focused",
+    "action": "type [54] [r/fitness ] where [54] is Search query",
+    "environmental_dynamics": "The search query 'r/fitness' was entered into the search box, and the page transitioned to a search results view with the heading 'Search' and two results displayed."
+  },
+  {
+    "initial_state": "Search results page for r/fitness with two articles visible",
+    "action": "click [117] where [117] is ",
+    "environmental_dynamics": "The first article expanded, revealing additional content including comments, options to upvote or downvote, and links to respond."
+  },
+  {
+    "initial_state": "Postmill search results with displayed articles",
+    "action": "click [161] where [161] is Upvote",
+    "environmental_dynamics": "The Upvote button was clicked, changing it to a 'Retract upvote' button, indicating that the item has been upvoted."
+  },
+  {
+    "initial_state": "Search results page for r/fitness",
+    "action": "click [117] where [117] is ",
+    "environmental_dynamics": "The page navigated to the article section where the details of the first search result are displayed, highlighting the content related to 'r/fitness' and the associated comments."
+  },
+  {
+    "initial_state": "Search results page for 'r/fitness' with articles displayed",
+    "action": "click [179] where [179] is ",
+    "environmental_dynamics": "The checkbox for 'Hide \u2212' was clicked, causing the corresponding comment thread to be hidden from view."
+  },
+  {
+    "initial_state": "Search results page for 'r/fitness' with articles displayed",
+    "action": "click [179] where [179] is ",
+    "environmental_dynamics": "A detailed view of the article content was opened, focusing on a specific discussion regarding fitness-related studies."
+  },
+  {
+    "initial_state": "Search results page for r/fitness with comments visible",
+    "action": "click [180] where [180] is ",
+    "environmental_dynamics": "The content of the comment by 'ronwharton' expanded to show additional details, allowing the viewer to read more about the associated discussion."
+  },
+  {
+    "initial_state": "Webpage displaying search results for 'r/fitness' with articles and comments",
+    "action": "click [179] where [179] is ",
+    "environmental_dynamics": "A comment section expanded, allowing the user to see more details regarding the posts and interactions."
+  },
+  {
+    "initial_state": "Search results page for 'r/fitness' with multiple articles displayed",
+    "action": "click [161] where [161] is Retract upvote",
+    "environmental_dynamics": "The upvote count for the first article was updated from '1' to '0' after the 'Retract upvote' button was clicked."
+  },
+  {
+    "initial_state": "Postmill page with search results for 'r/fitness'",
+    "action": "click [140] where [140] is Heavy-load exercise in older adults activates vasculogenesis and has a stronger impact on muscle gene expression than in young adults (Oct 2022)",
+    "environmental_dynamics": "The page transitioned to an article titled 'Heavy-load exercise in older adults activates vasculogenesis and has a stronger impact on muscle gene expression than in young adults (Oct 2022)', displaying detailed content and comments related to the topic."
+  },
+  {
+    "initial_state": "Article page discussing heavy-load exercise in older adults, focused",
+    "action": "Attempt to perfom \"click\" on element \"[54]\" but no matching element found. Please check the observation more carefully.",
+    "environmental_dynamics": "The search box became focused, allowing the user to start typing queries directly into the search field."
+  },
+  {
+    "initial_state": "RootWebArea 'Heavy-load exercise in older adults activates vasculogenesis and has a stronger impact on muscle gene expression than in young adults (Oct 2022)', focused",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page scrolled down, revealing additional comments and content related to the article."
+  },
+  {
+    "initial_state": "Comments section of the article with a focus on a specific comment, 'As an older adult, it would be helpful if some limits were set on what counts as 'heavy load exercise'.'",
+    "action": "click [344] where [344] is Reply",
+    "environmental_dynamics": "A reply textbox opened below the comment, allowing the user to type a response."
+  },
+  {
+    "initial_state": "RootWebArea 'Heavy-load exercise in older adults activates vasculogenesis and has a stronger impact on muscle gene expression than in young adults (Oct 2022)', focused",
+    "action": "type [173] [I agree! Setting limits on what counts as 'heavy load exercise' could be beneficial for older adults. ] where [173] is Comment",
+    "environmental_dynamics": "The comment textbox was populated with the content 'I agree! Setting limits on what counts as 'heavy load exercise' could be beneficial for older adults.'"
+  },
+  {
+    "initial_state": "Heavy-load exercise in older adults activates vasculogenesis and has a stronger impact on muscle gene expression than in young adults (Oct 2022) article page with comments visible",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page scrolled down, revealing more comments and additional content related to the article."
+  },
+  {
+    "initial_state": "Comment section of article page on heavy-load exercise in older adults",
+    "action": "click [313] where [313] is Post",
+    "environmental_dynamics": "An alert appeared stating 'Please fill in this field.' indicating that the comment textbox was focused and required input."
+  },
+  {
+    "initial_state": "RootWebArea 'Heavy-load exercise in older adults activates vasculogenesis and has a stronger impact on muscle gene expression than in young adults (Oct 2022)', focused",
+    "action": "click [313] where [313] is Post",
+    "environmental_dynamics": "A new comment was posted in the discussion, as the button labeled 'Post' was clicked, submitting the content filled in the comment textbox."
+  },
+  {
+    "initial_state": "RootWebArea 'Heavy-load exercise in older adults activates vasculogenesis and has a stronger impact on muscle gene expression than in young adults (Oct 2022)', focused",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page scrolled down, revealing additional comments and articles related to the topic."
+  },
+  {
+    "initial_state": "Comment section on a post about heavy-load exercise in older adults",
+    "action": "click [313] where [313] is Post",
+    "environmental_dynamics": "An alert message appeared stating 'Please fill in this field.', indicating that the comment submission lacked required input."
+  },
+  {
+    "initial_state": "Article page with comments section, comment textbox focused",
+    "action": "click [313] where [313] is Post",
+    "environmental_dynamics": "The comment was submitted, and the comments list updated to reflect the new contribution, while the comment textbox cleared for further input."
+  },
+  {
+    "initial_state": "RootWebArea 'Heavy-load exercise in older adults activates vasculogenesis and has a stronger impact on muscle gene expression than in young adults (Oct 2022)', focused with comment textbox empty",
+    "action": "type [173] [This is a very interesting topic! Heavy-load exercise can indeed support muscle health in older adults. ] where [173] is Comment",
+    "environmental_dynamics": "The comment textbox was populated with the text 'This is a very interesting topic! Heavy-load exercise can indeed support muscle health in older adults.' and is now focused."
+  },
+  {
+    "initial_state": "Single comment thread under a post about heavy-load exercise in older adults",
+    "action": "click [313] where [313] is Post",
+    "environmental_dynamics": "The view switched to show the full comments section of the post, including the newly expanded visibility of comments and options to upvote or downvote, as well as interactions for replying to comments."
+  },
+  {
+    "initial_state": "Comment thread on a forum discussing a study's findings",
+    "action": "Attempt to perfom \"click\" on element \"[313]\" but no matching element found. Please check the observation more carefully.",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "Comment thread on 'Heavy-load exercise in older adults' article with a checkbox for hiding comments checked",
+    "action": "type [173] [This is a very interesting topic! Heavy-load exercise can indeed support muscle health in older adults. ] where [173] is September 22, 2025 at 4:29:05 PM EDT",
+    "environmental_dynamics": "The text 'This is a very interesting topic! Heavy-load exercise can indeed support muscle health in older adults.' was entered into the comment input field, ready for submission."
+  },
+  {
+    "initial_state": "Comment section with a single comment by MarvelsGrantMan136",
+    "action": "click [161] where [161] is ",
+    "environmental_dynamics": "The comment thread was expanded to show additional comments, changing the display from a single comment view to a comprehensive view of all comments."
+  },
+  {
+    "initial_state": "Heavy-load exercise in older adults activates vasculogenesis and has a stronger impact on muscle gene expression than in young adults (Oct 2022) article page",
+    "action": "Attempt to perfom \"click\" on element \"[313]\" but no matching element found. Please check the observation more carefully.",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "Heavy-load exercise article page",
+    "action": "Attempt to perfom \"click\" on element \"[313]\" but no matching element found. Please check the observation more carefully.",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "Comment thread on a forum post about heavy-load exercise in older adults",
+    "action": "type [173] [I agree! Setting limits on what counts as 'heavy load exercise' could be beneficial for older adults. ] where [173] is September 22, 2025 at 4:29:05 PM EDT",
+    "environmental_dynamics": "The text 'I agree! Setting limits on what counts as 'heavy load exercise' could be beneficial for older adults.' was typed into the comment box, preparing to submit a response."
+  },
+  {
+    "initial_state": "Postmill discussion page for a research article with comments visible",
+    "action": "click [39] where [39] is Wiki",
+    "environmental_dynamics": "The page transitioned to a 'Page not found' error, showing an error message instead of the requested Wiki content, indicating the link was broken or the page does not exist."
+  },
+  {
+    "initial_state": "Page not found with search box visible",
+    "action": "click [48] where [48] is Search query",
+    "environmental_dynamics": "The search box became focused, allowing the user to input a search query."
+  },
+  {
+    "initial_state": "Page not found with focused search box",
+    "action": "type [48] [r/running ] where [48] is Search query",
+    "environmental_dynamics": "The text 'r/running' was typed into the focused search box, and the page transitioned to displaying search results related to 'r/running', reflecting a successful search operation."
+  },
+  {
+    "initial_state": "Search results page for 'r/running' with one result visible",
+    "action": "click [117] where [117] is ",
+    "environmental_dynamics": "The section featuring the search result has expanded to reveal additional details about the post."
+  },
+  {
+    "initial_state": "Postmill forum page with search results for 'r/running'",
+    "action": "click [117] where [117] is ",
+    "environmental_dynamics": "The article section expanded to include more details about the post, allowing users to view additional content related to the search result."
+  },
+  {
+    "initial_state": "Search results page for 'r/running'",
+    "action": "Attempt to perfom \"click\" on element \"[161]\" but no matching element found. Please check the observation more carefully.",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "Search results page for 'r/running' with one result displayed",
+    "action": "click [148] where [148] is Reply",
+    "environmental_dynamics": "The reply section expanded, providing a textbox for inputting comments along with a checkbox for formatting help, allowing the user to compose a reply to the post."
+  },
+  {
+    "initial_state": "Search page showing results for 'r/running' with a comment textbox present",
+    "action": "type [189] [I think it's important to share experiences to help others find the best running techniques! ] where [189] is Comment",
+    "environmental_dynamics": "The comment textbox was populated with the text 'I think it's important to share experiences to help others find the best running techniques!'. The textbox remains focused and is ready for further input or submission."
+  },
+  {
+    "initial_state": "Postmill forum page with search results displayed",
+    "action": "click [117] where [117] is ",
+    "environmental_dynamics": "The content of the section expanded to show more details related to the result for 'r/running', including additional text and interaction options."
+  },
+  {
+    "initial_state": "Search results page for 'r/running' with one result displayed",
+    "action": "click [117] where [117] is ",
+    "environmental_dynamics": "The article content expanded to include more details about the post, possibly revealing additional text or options related to the search result."
+  }
+]

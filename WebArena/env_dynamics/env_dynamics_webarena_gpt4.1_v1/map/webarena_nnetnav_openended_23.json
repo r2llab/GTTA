@@ -1,0 +1,197 @@
+[
+  {
+    "initial_state": "OpenStreetMap homepage with the search box focused and empty.",
+    "action": "type [145] [bike trails near Pittsburgh, PA ] where [145] is Search",
+    "environmental_dynamics": "The search box is filled with the text 'bike trails near Pittsburgh, PA', the page title updates, and new elements appear including a 'Search Results' section, 'Results from OpenStreetMap Nominatim', and a 'Loading...' status indicator, showing that a search is in progress."
+  },
+  {
+    "initial_state": "OpenStreetMap search results page for 'bike trails near Pittsburgh, PA', with a textbox and the Go button visible and the status area showing 'Loading...'",
+    "action": "click [147] where [147] is Go",
+    "environmental_dynamics": "After clicking the Go button, the search results section updated to indicate 'No results found' from OpenStreetMap Nominatim, and focus shifted to the Go button."
+  },
+  {
+    "initial_state": "OpenStreetMap search results page for 'bike trails near Pittsburgh, PA', showing 'No results found' in the results section with the search box populated accordingly.",
+    "action": "type [145] [Three Rivers Heritage Trail Pittsburgh ] where [145] is Search",
+    "environmental_dynamics": "The search box was updated with 'Three Rivers Heritage Trail Pittsburgh', and the search results list now shows relevant entries for cycle paths, specifically locations for the Three Rivers Heritage Trail in Pittsburgh."
+  },
+  {
+    "initial_state": "OpenStreetMap search results page for 'Three Rivers Heritage Trail Pittsburgh' with a list of clickable search results.",
+    "action": "click [476] where [476] is Three Rivers Heritage Trail, Firstside Historic District, Downtown, Pittsburgh, Allegheny County, Pennsylvania, 15262, United States",
+    "environmental_dynamics": "The browser navigated to the detailed OpenStreetMap page for the selected search result, displaying route metadata, tags, relations, and related nodes for the 'Three Rivers Heritage Trail'."
+  },
+  {
+    "initial_state": "OpenStreetMap way detail page for Three Rivers Heritage Trail, including a details section and a 'Part of' section listing related routes with clickable links.",
+    "action": "click [554] where [554] is Great Allegheny Passage (8908270)",
+    "environmental_dynamics": "The details section for the current way collapsed or disappeared, leaving only the main navigation, search area, and site interface visible; the details about the selected relation (Great Allegheny Passage) have not yet loaded or are not displayed."
+  },
+  {
+    "initial_state": "OpenStreetMap way page for 'Three Rivers Heritage Trail' with standard navigation bars, search box, and a link labeled 'Find directions between two points'.",
+    "action": "click [149] where [149] is Find directions between two points",
+    "environmental_dynamics": "A directions input panel appeared on the page, allowing entry for 'From' and 'To' fields with options to select travel mode (Car, Bicycle, Foot) and buttons for 'Go' and 'Reverse Directions'; additionally, a welcome modal appears near the bottom."
+  },
+  {
+    "initial_state": "OpenStreetMap way detail page with a directions route planner section showing a collapsed combobox for transportation mode, defaulted to 'Car (OSRM)'.",
+    "action": "click [166] where [166] is ",
+    "environmental_dynamics": "The transportation mode combobox in the route planner expanded and became focused, displaying the available options: Bicycle (OSRM), Car (OSRM), and Foot (OSRM)."
+  },
+  {
+    "initial_state": "OpenStreetMap Way page with a directions panel open, combobox for routing currently set to 'Car (OSRM)' and expanded.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "No change; clicking the 'Bicycle (OSRM)' option did not alter the selection, as the combobox remains expanded and the selected value is still 'Car (OSRM)'."
+  },
+  {
+    "initial_state": "OpenStreetMap way page with a directions section open; the 'From' textbox is empty and focused, and the 'Car (OSRM)' transport combobox is expanded.",
+    "action": "type [158] [Downtown Pittsburgh ] where [158] is From",
+    "environmental_dynamics": "The 'From' textbox now contains the address 'Pittsburgh Ballet Theater Building, 113-115, Wood Street, Firstside Historic District, Downtown, Pittsburgh, Allegheny County, Pennsylvania, 15222, United States' and displays it as static text, the combobox collapsed, and a new marker button and image appeared on the map interface."
+  },
+  {
+    "initial_state": "OpenStreetMap route planning section with the 'From' textbox focused and transport type combobox (currently set to 'Car (OSRM)') not expanded.",
+    "action": "click [166] where [166] is ",
+    "environmental_dynamics": "The transport type combobox received focus and expanded, displaying its options (Bicycle, Car, Foot) for selection."
+  },
+  {
+    "initial_state": "OpenStreetMap page with directions section visible, and the travel mode combobox expanded and set to 'Car (OSRM)' with 'Car (OSRM)' selected.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap route planner visible with the 'To' textbox empty and focused, and the mode combobox expanded.",
+    "action": "type [163] [Point State Park, Pittsburgh, PA ] where [163] is To",
+    "environmental_dynamics": "The 'To' textbox was filled with 'Point State Park, Pittsburgh, PA', the textbox is now focused, and the mode combobox collapsed."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with direction fields visible, 'To' textbox focused, and route type combobox ('Car (OSRM)') present but not expanded.",
+    "action": "click [166] where [166] is ",
+    "environmental_dynamics": "The route type combobox ('Car (OSRM)') expanded, displaying options for 'Bicycle (OSRM)', 'Car (OSRM)', and 'Foot (OSRM)', and the combobox is now focused."
+  },
+  {
+    "initial_state": "Directions pane is open on OpenStreetMap with the route calculated for 'Car (OSRM)' between two locations; the travel mode combobox is expanded showing options for Bicycle, Car (selected), and Foot.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions panel is shown with route details entered, transport mode combobox expanded (showing Bicycle, Car, Foot), and the Go button present but not focused.",
+    "action": "click [171] where [171] is Go",
+    "environmental_dynamics": "The transport mode combobox collapsed and the Go button is now focused; all visible directions and details remain unchanged."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with the route from 'Pittsburgh Ballet Theater Building' to 'Point State Park' shown, and the transportation mode combobox set to 'Car (OSRM)' (collapsed).",
+    "action": "click [166] where [166] is ",
+    "environmental_dynamics": "The transportation mode combobox expanded, showing options for 'Bicycle (OSRM)', 'Car (OSRM)', and 'Foot (OSRM)'."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with route details shown for 'Car (OSRM)' between two addresses, and the transport mode combobox is expanded and currently set to 'Car (OSRM)'.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions pane is visible with route details from 'Pittsburgh Ballet Theater Building' to 'Point State Park' for 'Car (OSRM)', and the transportation mode combobox is expanded.",
+    "action": "click [171] where [171] is Go",
+    "environmental_dynamics": "The combobox for transportation mode has collapsed and the 'Go' button is now focused, but the directions and route information remain unchanged."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with the 'Car (OSRM)' option selected in a route mode combobox, but the combobox is not expanded.",
+    "action": "click [166] where [166] is ",
+    "environmental_dynamics": "The route mode combobox becomes focused and expands, displaying available travel options (Bicycle, Car, Foot)."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with the 'Car (OSRM)' routing option selected in the transportation mode combobox, and directions from Pittsburgh Ballet Theater Building to Point State Park for car travel displayed.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page for Three Rivers Heritage Trail, with the route options form expanded to show the 'From', 'To', and 'Car (OSRM)' combobox, and route details and steps displayed below.",
+    "action": "click [171] where [171] is Go",
+    "environmental_dynamics": "The route options combobox collapsed and the 'Go' button became focused, but the directions and visible content remained unchanged."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with route details visible and the transportation mode combobox set to 'Car (OSRM)' and not expanded.",
+    "action": "click [166] where [166] is ",
+    "environmental_dynamics": "The transportation mode combobox was expanded, showing selectable options for 'Bicycle (OSRM)', 'Car (OSRM)', and 'Foot (OSRM)'."
+  },
+  {
+    "initial_state": "OpenStreetMap page displaying directions from the Pittsburgh Ballet Theater Building to Point State Park with 'Car (OSRM)' selected in the route type combobox, and directions shown for a car route.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page showing route from Pittsburgh Ballet Theater Building to Point State Park, with the 'Go' button present and unfocused, and the transportation method combobox expanded.",
+    "action": "click [171] where [171] is Go",
+    "environmental_dynamics": "The transportation method combobox collapsed, and the 'Go' button is now focused, but the directions and page content remain otherwise unchanged."
+  },
+  {
+    "initial_state": "OpenStreetMap page displaying route directions with the transportation mode dropdown set to 'Car (OSRM)' and collapsed.",
+    "action": "click [166] where [166] is ",
+    "environmental_dynamics": "The transportation mode combobox is now expanded and focused, revealing alternative route mode options such as 'Bicycle (OSRM)' and 'Foot (OSRM)'."
+  },
+  {
+    "initial_state": "OpenStreetMap directions panel open with route set for 'Car (OSRM)' option selected in the travel mode combobox.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "Directions panel is open with 'From' and 'To' fields filled, transport mode combobox expanded showing options, and the 'Go' button visible but not focused.",
+    "action": "click [171] where [171] is Go",
+    "environmental_dynamics": "The transport mode combobox has collapsed and the 'Go' button is now focused, but the directions and route details remain unchanged."
+  },
+  {
+    "initial_state": "OpenStreetMap route directions page showing directions from 'Pittsburgh Ballet Theater Building' to 'Point State Park' by 'Car (OSRM)', with the route combobox collapsed and 'Go' button focused.",
+    "action": "click [166] where [166] is ",
+    "environmental_dynamics": "The 'Car (OSRM)' route type combobox expanded, displaying route type options and took focus."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with the directions panel open, 'Car (OSRM)' selected as the route mode in the combobox, and driving directions listed from 'Pittsburgh Ballet Theater Building' to 'Point State Park'.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with driving directions displayed for a route from Pittsburgh Ballet Theater Building to Point State Park and the transport mode combobox expanded.",
+    "action": "click [171] where [171] is Go",
+    "environmental_dynamics": "The transport mode combobox collapsed and the 'Go' button became focused, but the directions and route information remained unchanged."
+  },
+  {
+    "initial_state": "OpenStreetMap page displaying directions from 'Pittsburgh Ballet Theater Building' to 'Point State Park', with the routing method combobox set to 'Car (OSRM)' and not expanded.",
+    "action": "click [166] where [166] is ",
+    "environmental_dynamics": "The routing method combobox was expanded, showing available routing options ('Bicycle (OSRM)', 'Car (OSRM)', 'Foot (OSRM)')."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page showing a route from the Pittsburgh Ballet Theater Building to Point State Park, with the transportation mode set to 'Car (OSRM)' and the directions, distance, and travel time reflecting that mode.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions sidebar is open with the 'Go' button visible and a route for 'Car (OSRM)' already shown between two locations, with the combobox for travel mode expanded.",
+    "action": "click [171] where [171] is Go",
+    "environmental_dynamics": "The 'Go' button is now focused and the travel mode combobox has collapsed, but the directions and displayed route remain the same."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with the transportation mode combobox ('Car (OSRM)') collapsed and not focused.",
+    "action": "click [166] where [166] is ",
+    "environmental_dynamics": "The transportation mode combobox ('Car (OSRM)') is now focused and expanded, displaying available route options such as 'Bicycle (OSRM)', 'Car (OSRM)', and 'Foot (OSRM)'."
+  },
+  {
+    "initial_state": "OpenStreetMap directions panel open with 'Car (OSRM)' selected in the transportation mode combobox, showing directions from Pittsburgh Ballet Theater Building to Point State Park.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions panel showing route details from 'Pittsburgh Ballet Theater Building' to 'Point State Park' with the 'Go' button visible and a directions table displayed for 'Car (OSRM)' mode.",
+    "action": "click [171] where [171] is Go",
+    "environmental_dynamics": "The combobox for mode selection collapsed and the 'Go' button is now focused, but the directions content and the rest of the state remain unchanged."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page showing route details, with transportation mode combobox collapsed and set to 'Car (OSRM)'",
+    "action": "click [166] where [166] is ",
+    "environmental_dynamics": "The transportation mode combobox expanded, showing additional mode options 'Bicycle (OSRM)' and 'Foot (OSRM)' while remaining set to 'Car (OSRM)'."
+  },
+  {
+    "initial_state": "OpenStreetMap directions panel displayed with 'Car (OSRM)' selected in the routing mode combobox and directions for a car route visible.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page showing a directions panel with populated 'From' and 'To' textboxes, a transport mode combobox expanded, and detailed directions already displayed.",
+    "action": "click [171] where [171] is Go",
+    "environmental_dynamics": "The transport mode combobox was collapsed, and the 'Go' button became focused, but the directions content remained the same; no new route was calculated or displayed."
+  }
+]

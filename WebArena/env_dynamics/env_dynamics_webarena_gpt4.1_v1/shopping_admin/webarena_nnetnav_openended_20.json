@@ -1,0 +1,172 @@
+[
+  {
+    "initial_state": "Magento Admin Dashboard with the top navigation menu visible and 'CATALOG' as a clickable menu item, but its submenu is not expanded.",
+    "action": "click [189] where [189] is \ue608 CATALOG",
+    "environmental_dynamics": "The 'CATALOG' menu item in the navigation bar became focused and its submenu expanded, revealing additional options such as 'Products' and 'Categories'."
+  },
+  {
+    "initial_state": "Magento Admin dashboard with the CATALOG menu expanded and the 'Products' submenu item visible but not selected.",
+    "action": "click [201] where [201] is Products",
+    "environmental_dynamics": "The Products page under Inventory/Catalog opened, displaying a searchable, filterable table of all products including their names, SKUs, prices, quantities, and statuses."
+  },
+  {
+    "initial_state": "Magento Admin product catalog page showing a table of products, including a row for 'Helios Endurance Tank' with an 'Edit' link.",
+    "action": "click [1801] where [1801] is Edit Helios Endurance Tank",
+    "environmental_dynamics": "The browser navigated to the product editing page for 'Helios Endurance Tank', displaying detailed editable fields and configuration options for the selected product."
+  },
+  {
+    "initial_state": "Magento Admin product edit page for 'Helios Endurance Tank', with the 'Images And Videos' section collapsed and only its title visible among other product information sections.",
+    "action": "click [2196] where [2196] is ",
+    "environmental_dynamics": "The 'Images And Videos' section expanded, displaying options to add a video, choose image files, and a drag-and-drop image uploader area."
+  },
+  {
+    "initial_state": "Magento Admin product edit page for 'Helios Endurance Tank', with the 'Choose Files' button visible in the 'Images And Videos' section.",
+    "action": "click [3010] where [3010] is Choose Files",
+    "environmental_dynamics": "The 'Choose Files' button became focused, but no file dialog or file selection is shown in the accessibility tree; otherwise, the page content did not change."
+  },
+  {
+    "initial_state": "Magento Admin product editing page for 'Helios Endurance Tank', with various editable fields and a visible 'Save' button.",
+    "action": "click [890] where [890] is Save",
+    "environmental_dynamics": "After clicking the 'Save' button, the interface updates to display a confirmation message 'You saved the product.', signaling the product was successfully saved and reducing the product editing elements shown."
+  },
+  {
+    "initial_state": "Magento Admin product detail page for 'Helios Endurance Tank' with a confirmation message 'You saved the product.' and a visible 'Back' button.",
+    "action": "click [729] where [729] is \ue626 Back",
+    "environmental_dynamics": "The browser navigated back to the main 'Products' page in the inventory/catalog section, showing the product table (currently with no records found), additional controls for adding products, searching, and a system cache warning message."
+  },
+  {
+    "initial_state": "Magento Admin Catalog Products page showing product list with 'Add Product' button visible.",
+    "action": "click [726] where [726] is Add Product",
+    "environmental_dynamics": "The interface transitioned to the New Product creation form, displaying input fields and controls for entering product details."
+  },
+  {
+    "initial_state": "Magento Admin New Product page, with the 'Product Name' textbox empty and ready for input.",
+    "action": "type [941] [Sample Product Name] where [941] is [store view] Product Name *",
+    "environmental_dynamics": "The 'Product Name' textbox is now filled with 'Sample Product Name' and is focused."
+  },
+  {
+    "initial_state": "Magento Admin 'New Product' creation page with the SKU textbox ([global] SKU *) empty and the Product Name textbox containing 'Sample Product Name'.",
+    "action": "type [947] [SAMPLE-SKU-001 ] where [947] is [global] SKU *",
+    "environmental_dynamics": "The SKU textbox now contains 'Sample Product NameSAMPLE-SKU-001', and a tooltip appeared under 'Search Engine Optimization' indicating that changes have not been saved."
+  },
+  {
+    "initial_state": "Magento Admin new product creation page with the '[global] Price * $' textbox visible but not focused.",
+    "action": "click [958] where [958] is [global] Price * $",
+    "environmental_dynamics": "The '[global] Price * $' textbox became focused, allowing the user to input a price value."
+  },
+  {
+    "initial_state": "Magento Admin 'New Product' page with the price textbox focused and empty or unset.",
+    "action": "type [958] [49.99 ] where [958] is [global] Price * $",
+    "environmental_dynamics": "The price textbox under '[global] Price * $' has been filled with the value '49.99', reflecting the new product price."
+  },
+  {
+    "initial_state": "Magento Admin new product creation page with the '[global] Quantity' textbox present and the '[global] Price * $' textbox focused.",
+    "action": "click [982] where [982] is [global] Quantity",
+    "environmental_dynamics": "Focus shifted from the '[global] Price * $' textbox to the '[global] Quantity' textbox, allowing it to receive input."
+  },
+  {
+    "initial_state": "Magento Admin 'New Product' page with the Quantity field focused and empty or unset.",
+    "action": "type [982] [100 ] where [982] is [global] Quantity",
+    "environmental_dynamics": "The Quantity field under '[global] Quantity' is now filled with the value '100' and displays this value."
+  },
+  {
+    "initial_state": "Magento Admin 'New Product' creation page with product details filled including 'Sample Product Name', focused on the quantity textbox and the 'Save' button visible.",
+    "action": "click [849] where [849] is Save",
+    "environmental_dynamics": "The page updated to show the new product detail page for 'Sample Product Name', and a confirmation message 'You saved the product.' appeared, indicating the product was successfully saved."
+  },
+  {
+    "initial_state": "Magento Admin product detail page for 'Sample Product Name', with a success message 'You saved the product.' and a visible 'Back' button.",
+    "action": "click [647] where [647] is \ue626 Back",
+    "environmental_dynamics": "Navigating away from the product detail view, the interface returns to the main products grid in the Catalog, displaying a table listing all products and their details."
+  },
+  {
+    "initial_state": "Magento Admin catalog products page showing a list of product records, with an 'Add Product' button visible.",
+    "action": "click [726] where [726] is Add Product",
+    "environmental_dynamics": "The interface transitioned to the product creation form ('New Product' page), replacing the product list with fields for entering new product information and options for saving the product."
+  },
+  {
+    "initial_state": "Magento Admin New Product page with the Product Name textbox ([941]) empty or unfocused.",
+    "action": "type [941] [Sample Product 2] where [941] is [store view] Product Name *",
+    "environmental_dynamics": "The Product Name textbox ([941]) is now populated with the text 'Sample Product 2' and is focused."
+  },
+  {
+    "initial_state": "Magento Admin 'New Product' page, with the '[global] SKU *' textbox empty and focused.",
+    "action": "type [947] [SAMPLEPROD2 ] where [947] is [global] SKU *",
+    "environmental_dynamics": "The '[global] SKU *' textbox is now populated with the text 'Sample Product 2SAMPLEPROD2' and a 'Changes have been made to this section that have not been saved.' tooltip appears in the 'Search Engine Optimization' section, indicating unsaved modifications."
+  },
+  {
+    "initial_state": "Magento Admin 'New Product' form with the '[global] Price * $' textbox present but not focused.",
+    "action": "click [958] where [958] is [global] Price * $",
+    "environmental_dynamics": "The '[global] Price * $' textbox is now focused, ready for input."
+  },
+  {
+    "initial_state": "Magento Admin 'New Product' page with the '[global] Price * $' textbox focused and empty",
+    "action": "type [958] [29.99  ] where [958] is [global] Price * $",
+    "environmental_dynamics": "The '[global] Price * $' textbox was updated to contain '29.99 '."
+  },
+  {
+    "initial_state": "Magento Admin new product page with focus on the Price textbox, showing editable product and inventory fields, including a textbox for [global] Quantity.",
+    "action": "click [982] where [982] is [global] Quantity",
+    "environmental_dynamics": "Focus shifted from the Price textbox to the [global] Quantity textbox, allowing it to receive input."
+  },
+  {
+    "initial_state": "Magento Admin new product creation page with the '[global] Quantity' textbox focused but empty.",
+    "action": "type [982] [50  ] where [982] is [global] Quantity",
+    "environmental_dynamics": "The '[global] Quantity' textbox was populated with the value '50 ', updating the quantity for the new product."
+  },
+  {
+    "initial_state": "Magento Admin 'New Product' form with the '[global] Weight lbs' textbox present but not focused.",
+    "action": "click [1005] where [1005] is [global] Weight lbs",
+    "environmental_dynamics": "The '[global] Weight lbs' textbox is now focused, ready for input, with the rest of the form unchanged."
+  },
+  {
+    "initial_state": "Magento Admin 'New Product' page with the 'Weight' field focused and empty or containing a default value.",
+    "action": "type [1005] [2.5 ] where [1005] is [global] Weight lbs",
+    "environmental_dynamics": "The value '2.5 ' was entered into the '[global] Weight lbs' textbox, and this field now displays '2.5' as its value and remains focused."
+  },
+  {
+    "initial_state": "Magento Admin New Product page with a 'New Category' button visible but no category creation modal open",
+    "action": "click [1087] where [1087] is New Category",
+    "environmental_dynamics": "A 'New Category' dialog appeared, allowing the user to enter a category name and select a parent category."
+  },
+  {
+    "initial_state": "Magento Admin New Product page with a 'New Category' dialog open; the 'Category Name' textbox is empty and focused.",
+    "action": "type [2335] [Accessories] where [2335] is Category Name *",
+    "environmental_dynamics": "The text 'Accessories' was entered into the 'Category Name' textbox in the 'New Category' dialog, and the textbox is now focused with this value."
+  },
+  {
+    "initial_state": "Magento Admin 'New Product' page with a modal dialog open for creating a new category, category name input set to 'Accessories', and the 'Create Category' button visible but not yet pressed.",
+    "action": "click [2310] where [2310] is Create Category",
+    "environmental_dynamics": "After clicking 'Create Category', the dialog shows a validation message: 'This is a required field.' under 'Parent Category', indicating the category was not created because a required field is missing."
+  },
+  {
+    "initial_state": "Magento Admin 'New Product' page with a 'New Category' dialog open, where the 'Category Name' textbox contains 'Accessories' and the 'Parent Category' label and 'Select...' static text are visible. The 'Create Category' button is focused.",
+    "action": "click [2338] where [2338] is ",
+    "environmental_dynamics": "The focus in the 'New Category' dialog changed from the 'Create Category' button to the 'Parent Category' label element, but otherwise the modal remains unchanged."
+  },
+  {
+    "initial_state": "Magento Admin New Product page with a modal dialog for creating a new category open and the 'Create Category' button visible but not focused.",
+    "action": "click [2310] where [2310] is Create Category",
+    "environmental_dynamics": "The 'Create Category' button in the New Category dialog became focused, but no other visible change occurred in the page state."
+  },
+  {
+    "initial_state": "Magento Admin 'New Product' page with a 'New Category' dialog open; the dialog has a 'Category Name' field containing 'Accessories' and the 'Parent Category' field labeled and present.",
+    "action": "click [2338] where [2338] is ",
+    "environmental_dynamics": "The 'New Category' dialog is now focused, but no visible change has occurred in the dialog or the main page as a result of clicking the 'Parent Category' label."
+  },
+  {
+    "initial_state": "Magento Admin - New Product page with the 'New Category' dialog open, showing the 'Create Category' button (unfocused), category name 'Accessories', and a missing parent category selection.",
+    "action": "click [2310] where [2310] is Create Category",
+    "environmental_dynamics": "The 'Create Category' button in the 'New Category' dialog has become focused, but no new category has been created and the dialog remains with the required field warning visible; the state of the form is unchanged otherwise."
+  },
+  {
+    "initial_state": "Magento Admin 'New Product' page with the 'New Category' dialog open, showing the category name 'Accessories' and a required but unselected 'Parent Category' field.",
+    "action": "click [2338] where [2338] is ",
+    "environmental_dynamics": "The 'Parent Category' label within the 'New Category' dialog was clicked, likely to open a menu or focus the selection for choosing a parent category."
+  },
+  {
+    "initial_state": "The 'New Category' dialog is open with a textbox for 'Category Name' set to 'Accessories' and the 'Parent Category' label and selection prompt visible.",
+    "action": "click [2338] where [2338] is ",
+    "environmental_dynamics": "no change"
+  }
+]

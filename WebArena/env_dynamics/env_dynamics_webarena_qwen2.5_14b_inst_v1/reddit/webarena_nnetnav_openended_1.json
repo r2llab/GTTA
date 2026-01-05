@@ -1,0 +1,47 @@
+[
+  {
+    "initial_state": "Postmill homepage with featured forums and submission & comment navigation options",
+    "action": "click [117] where [117] is Submissions",
+    "environmental_dynamics": "The page clicked on the 'Submissions' link, likely transitioning the main content area to display a submissions list, but the accessibility tree snapshot did not reflect these changes, hence no change is indicated."
+  },
+  {
+    "initial_state": "Postmill homepage with navigation links and featured forums section",
+    "action": "click [119] where [119] is Comments",
+    "environmental_dynamics": "The page transitioned to the 'Recent comments' section, displaying various comment threads with upvote/downvote options and reply functionalities."
+  },
+  {
+    "initial_state": "Postmill homepage with recent comments visible",
+    "action": "click [1455] where [1455] is More",
+    "environmental_dynamics": "The webpage scrolled or navigated to load more recent comments, changing the visible comment content section."
+  },
+  {
+    "initial_state": "Recent comments page of a forum",
+    "action": "click [341] where [341] is ",
+    "environmental_dynamics": "The page navigated to a specific post titled 'I (28F) I\u2019m unattracted to this guy (27M) because of his weight' in the 'relationship_advice' subreddit."
+  },
+  {
+    "initial_state": "Reddit-like discussion post page with content about relationship advice and a commenting section",
+    "action": "goto [http://ec2-54-162-4-248.compute-1.amazonaws.com:8080/r/fitness]",
+    "environmental_dynamics": "The browser navigated to a 404 Not Found page."
+  },
+  {
+    "initial_state": "404 Not Found page with a link to go to the home page",
+    "action": "click [12] where [12] is Go to home page",
+    "environmental_dynamics": "Navigated to the Postmill homepage, displaying various interactive elements such as navigation links, a search box, and user interface components."
+  },
+  {
+    "initial_state": "Postmill homepage with various navigation links, a main area indicating 'Showing featured forums', and a complementary area with no featured forums to display.",
+    "action": "click [42] where [42] is Forums",
+    "environmental_dynamics": "The page transitioned to a list of forums, displaying forum names, descriptions, and subscribe buttons, along with a heading 'List of forums' and a navigation area for paginated forum lists."
+  },
+  {
+    "initial_state": "List of forums page with main content and sidebar containing forums sorted by most active or recent activity",
+    "action": "click [117] where [117] is Alphabetical",
+    "environmental_dynamics": "The page transitioned to show an alphabetical list of all forums."
+  },
+  {
+    "initial_state": "Overview of a subreddit page containing multiple forums and navigation options",
+    "action": "click [315] where [315] is science",
+    "environmental_dynamics": "The page focused on the 'science' subreddit, showing discussion articles, upvote/downvote buttons, and comment counts related to scientific topics."
+  }
+]

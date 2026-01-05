@@ -1,0 +1,197 @@
+[
+  {
+    "initial_state": "Magento Admin dashboard with the horizontal menu bar, where the 'CATALOG' navigation link is visible along with other menu options.",
+    "action": "click [189] where [189] is \ue608 CATALOG",
+    "environmental_dynamics": "The 'CATALOG' navigation menu was expanded and focused, revealing submenu options including 'Products' and 'Categories' underneath the 'CATALOG' section."
+  },
+  {
+    "initial_state": "Magento Admin Dashboard page with the CATALOG menu expanded and the 'Products' link visible in the vertical submenu.",
+    "action": "click [201] where [201] is Products",
+    "environmental_dynamics": "Navigating from the dashboard to the Products Catalog page, displaying a searchable, filterable product grid with product rows and management controls."
+  },
+  {
+    "initial_state": "Magento Admin Catalog Products page showing a list of products and a visible 'Add Product' button.",
+    "action": "click [726] where [726] is Add Product",
+    "environmental_dynamics": "The interface transitioned to the 'New Product' creation form, displaying fields for entering new product details and options for configuration, instead of the product list."
+  },
+  {
+    "initial_state": "Magento Admin New Product page with the 'Product Name' field empty or unfocused.",
+    "action": "type [941] [Wireless Ergonomic Mouse] where [941] is [store view] Product Name *",
+    "environmental_dynamics": "The 'Product Name' textbox is now populated with 'Wireless Ergonomic Mouse' and is focused."
+  },
+  {
+    "initial_state": "Magento Admin New Product page, with the SKU textbox ([global] SKU *) empty and Product Name set to 'Wireless Ergonomic Mouse'.",
+    "action": "type [947] [ERG-MOUSE-001 ] where [947] is [global] SKU *",
+    "environmental_dynamics": "The SKU textbox for the product now contains the value 'Wireless Ergonomic MouseERG-MOUSE-001', indicating the additional text 'ERG-MOUSE-001' was appended to the previous Product Name value. Also, a tooltip appears near the 'Search Engine Optimization' section indicating unsaved changes."
+  },
+  {
+    "initial_state": "Magento Admin New Product page with '[global] Price * $' field empty or not set, and focus is on the '[global] SKU *' textbox.",
+    "action": "type [958] [49.99 ] where [958] is [global] Price * $",
+    "environmental_dynamics": "The '[global] Price * $' textbox is now populated with the value '49.99' and is focused."
+  },
+  {
+    "initial_state": "Magento Admin new product creation page, with the '[global] Quantity' field empty or unset and focused.",
+    "action": "type [982] [100 ] where [982] is [global] Quantity",
+    "environmental_dynamics": "The '[global] Quantity' field is now set to '100' and remains focused, reflecting the newly entered value."
+  },
+  {
+    "initial_state": "Magento Admin page for creating a new product, with the 'Images And Videos' section present but not expanded or focused.",
+    "action": "click [1499] where [1499] is ",
+    "environmental_dynamics": "The 'Images And Videos' section is expanded and focused, revealing buttons for adding video and choosing files, along with instructions for uploading images or dragging them into the area."
+  },
+  {
+    "initial_state": "Magento Admin new product page with the 'Images And Videos' section focused and the 'Choose Files' button unfocused.",
+    "action": "click [2340] where [2340] is Choose Files",
+    "environmental_dynamics": "Focus moved to the 'Choose Files' button in the 'Images And Videos' section, but no files have been selected or uploaded yet."
+  },
+  {
+    "initial_state": "Magento Admin 'New Product' page with unsaved product details for 'Wireless Ergonomic Mouse', with Save button visible.",
+    "action": "click [849] where [849] is Save",
+    "environmental_dynamics": "The page has transitioned to the product details view for 'Wireless Ergonomic Mouse' and displays a message indicating 'You saved the product.'."
+  },
+  {
+    "initial_state": "Magento Admin product details page for 'Wireless Ergonomic Mouse' with a confirmation message 'You saved the product.' and a 'Back' button visible.",
+    "action": "click [718] where [718] is \ue626 Back",
+    "environmental_dynamics": "The page navigated from the product details view back to the main product catalog listing, now displaying search and filter controls, product table headers, and a message indicating that no records were found."
+  },
+  {
+    "initial_state": "Magento Admin panel on the Products page, with a visible table showing '0 records found' and an 'Add Product' button available.",
+    "action": "click [726] where [726] is Add Product",
+    "environmental_dynamics": "Clicking 'Add Product' navigated to the New Product creation form, displaying fields to enter product details, configurable options, and save or go back."
+  },
+  {
+    "initial_state": "Magento Admin 'New Product' creation page with the 'Product Name' textbox empty and ready for input.",
+    "action": "type [941] [Wireless Ergonomic Mouse] where [941] is [store view] Product Name *",
+    "environmental_dynamics": "The 'Product Name' textbox is now filled with the value 'Wireless Ergonomic Mouse', displaying this text and focusing the input field."
+  },
+  {
+    "initial_state": "Magento Admin New Product page with the SKU textbox empty and the Product Name set to 'Wireless Ergonomic Mouse'.",
+    "action": "type [947] [ERG-MOUSE-001] where [947] is [global] SKU *",
+    "environmental_dynamics": "The SKU textbox was filled with 'Wireless Ergonomic MouseERG-MOUSE-001'; a tooltip appeared indicating that changes have been made to the 'Search Engine Optimization' section that have not been saved."
+  },
+  {
+    "initial_state": "Magento Admin new product creation page with the 'Price' field empty or not set for a product called 'Wireless Ergonomic Mouse'.",
+    "action": "type [958] [49.99 ] where [958] is [global] Price * $",
+    "environmental_dynamics": "The 'Price' field for the product was updated to '49.99' and is now focused, displaying this new value."
+  },
+  {
+    "initial_state": "Magento Admin New Product page with the '[global] Quantity' field empty or unset, focused for input.",
+    "action": "type [982] [100 ] where [982] is [global] Quantity",
+    "environmental_dynamics": "The '[global] Quantity' field was filled in with the value '100', and this value is now displayed in the field."
+  },
+  {
+    "initial_state": "Magento Admin Panel on the 'New Product' creation page with the 'Images And Videos' section header present among other product detail sections.",
+    "action": "click [1499] where [1499] is ",
+    "environmental_dynamics": "The 'Images And Videos' section expanded and is now focused, displaying controls to add videos, choose files, and browse or drag images for upload."
+  },
+  {
+    "initial_state": "Magento Admin 'New Product' page with the 'Choose Files' button in the 'Images And Videos' section unfocused.",
+    "action": "click [2340] where [2340] is Choose Files",
+    "environmental_dynamics": "The 'Choose Files' button became focused, indicating readiness for file selection or upload."
+  },
+  {
+    "initial_state": "Magento Admin new product page with an 'Add Video' button visible in the Images And Videos section.",
+    "action": "click [2333] where [2333] is Add Video",
+    "environmental_dynamics": "A 'New Video' dialog appeared with fields for entering video URL, title, description, and options for video roles, overlaying the product creation form."
+  },
+  {
+    "initial_state": "Magento Admin 'New Product' page with an open 'New Video' dialog showing a required, empty 'Url *' textbox focused for input.",
+    "action": "type [2414] [https://vimeo.com/12345678 ] where [2414] is Url *",
+    "environmental_dynamics": "The 'Url *' textbox in the 'New Video' dialog was filled with 'https://vimeo.com/12345678', displaying the entered value in the field."
+  },
+  {
+    "initial_state": "Magento Admin 'New Product' page with a 'New Video' dialog open; the URL field has a Vimeo link, and the Title textbox is empty and focused.",
+    "action": "type [2422] [Wireless Ergonomic Mouse Product Demo] where [2422] is Title *",
+    "environmental_dynamics": "The Title textbox in the 'New Video' dialog has been filled with 'Wireless Ergonomic Mouse Product Demo', but an 'Attention' dialog appeared showing an error message: 'Error: \"Video not found\"' with an 'OK' button focused."
+  },
+  {
+    "initial_state": "Magento Admin 'New Product' page with a 'New Video' dialog open, the video title filled, and the description textbox empty in the 'New Video' dialog.",
+    "action": "type [2427] [Demonstrates the ergonomic features and wireless functionality of the mouse.] where [2427] is Description",
+    "environmental_dynamics": "The 'Description' textbox for the new video in the 'New Video' dialog is now filled with 'Demonstrates the ergonomic features and wireless functionality of the mouse.' and is focused."
+  },
+  {
+    "initial_state": "Magento Admin 'New Product' page with a 'New Video' dialog open containing an error dialog 'Attention' indicating 'Error: \"Video not found\"' and an 'OK' button.",
+    "action": "click [2497] where [2497] is OK",
+    "environmental_dynamics": "The 'Attention' error dialog with the message 'Error: \"Video not found\"' was dismissed after clicking the 'OK' button; the 'New Video' dialog remains open."
+  },
+  {
+    "initial_state": "Magento Admin's New Product page with the 'New Video' dialog open; 'Url *' field in the video dialog is empty and focused.",
+    "action": "type [2414] [https://vimeo.com/76979871 ] where [2414] is Url *",
+    "environmental_dynamics": "The 'Url *' field in the 'New Video' dialog is now filled with 'https://vimeo.com/76979871', and the field remains focused."
+  },
+  {
+    "initial_state": "Magento Admin 'New Product' page with an open 'New Video' dialog, where the video fields contain a Vimeo URL, title, and description, and the 'Get Video Information' button is visible but not focused.",
+    "action": "click [2442] where [2442] is ",
+    "environmental_dynamics": "Clicking 'Get Video Information' in the 'New Video' dialog fetched video metadata from Vimeo, populating the title and description fields with the canonical Vimeo data, displaying a video preview iframe with playback options, an image preview, and additional video information such as title, upload date, uploader, and duration."
+  },
+  {
+    "initial_state": "Magento Admin 'New Product' page with a modal dialog open for adding a new video to the product, including filled fields for URL, Title, Description, and checkboxes for image roles.",
+    "action": "click [2390] where [2390] is Save",
+    "environmental_dynamics": "The 'New Video' modal dialog has closed and the video is now displayed under 'Images And Videos' for the product, including thumbnail, title, image roles list, and a 'Delete video' button."
+  },
+  {
+    "initial_state": "Magento Admin new product creation page with a form to add a new product and a 'Back' button visible.",
+    "action": "click [860] where [860] is \ue626 Back",
+    "environmental_dynamics": "The interface navigated from the new product creation page back to the main Products list/grid page, displaying all products and their details in a table format."
+  },
+  {
+    "initial_state": "Magento Admin catalog page showing the product list with an 'Add Product' button visible.",
+    "action": "click [726] where [726] is Add Product",
+    "environmental_dynamics": "The page transitioned to the New Product creation form, displaying fields and options to create and configure a new product."
+  },
+  {
+    "initial_state": "Magento Admin New Product page with an empty 'Product Name' textbox",
+    "action": "type [941] [Wireless Ergonomic Keyboard] where [941] is [store view] Product Name *",
+    "environmental_dynamics": "The 'Product Name' textbox now contains the text 'Wireless Ergonomic Keyboard', and it is focused."
+  },
+  {
+    "initial_state": "Magento Admin new product page with the Product Name field filled as 'Wireless Ergonomic Keyboard' and the SKU field empty; the page is focused on the Product Name textbox.",
+    "action": "type [947] [ERG-KBD-001 ] where [947] is [global] SKU *",
+    "environmental_dynamics": "The SKU field was updated to 'Wireless Ergonomic KeyboardERG-KBD-001', and a tooltip now indicates that there are unsaved changes in the 'Search Engine Optimization' section."
+  },
+  {
+    "initial_state": "Magento Admin 'New Product' page with the '[global] Price * $' textbox empty and focused.",
+    "action": "type [958] [89.99  ] where [958] is [global] Price * $",
+    "environmental_dynamics": "The '[global] Price * $' textbox was filled with the value '89.99 '."
+  },
+  {
+    "initial_state": "Magento Admin new product creation page with the '[global] Quantity' textbox focused and empty or set to a default value.",
+    "action": "type [982] [100  ] where [982] is [global] Quantity",
+    "environmental_dynamics": "The '[global] Quantity' textbox now contains the value '100 ', updating the product quantity field."
+  },
+  {
+    "initial_state": "Magento Admin 'New Product' page, with all product sections including 'Images And Videos' shown as headings but not expanded; focus is on the '[global] Quantity' textbox.",
+    "action": "click [1499] where [1499] is ",
+    "environmental_dynamics": "The 'Images And Videos' section expanded and is now focused, revealing image upload controls including 'Choose Files', 'Add Video', and a drag-and-drop area for images or video upload."
+  },
+  {
+    "initial_state": "Magento Admin New Product page with a visible 'New Category' button in the Categories section, no category creation dialog open.",
+    "action": "click [1087] where [1087] is New Category",
+    "environmental_dynamics": "Clicking the 'New Category' button opened a 'New Category' dialog, allowing the creation of a new category by entering its name and parent category."
+  },
+  {
+    "initial_state": "Magento Admin 'New Product' page with 'New Category' dialog open and the 'Category Name' textbox empty and focused.",
+    "action": "type [2515] [Keyboards ] where [2515] is Category Name *",
+    "environmental_dynamics": "The 'Category Name' textbox within the 'New Category' dialog is now filled with the value 'Keyboards ' and remains focused."
+  },
+  {
+    "initial_state": "Magento Admin 'New Product' page with an unfocused 'New Category' dialog open and the textbox 'Category Name *' focused.",
+    "action": "click [2518] where [2518] is ",
+    "environmental_dynamics": "The focus in the 'New Category' dialog shifted from the 'Category Name *' textbox to the 'Parent Category' label, preparing the user to select a parent category."
+  },
+  {
+    "initial_state": "Magento Admin 'New Product' page with the 'New Category' dialog open and the 'Create Category' button present but not focused or activated.",
+    "action": "click [2490] where [2490] is Create Category",
+    "environmental_dynamics": "The 'Create Category' button within the 'New Category' dialog is now focused, but no category was created; instead, an error message 'This is a required field.' appeared, indicating a missing required field (likely 'Parent Category')."
+  },
+  {
+    "initial_state": "Magento Admin New Product page with a 'New Category' dialog open; the dialog shows the 'Category Name' field filled and a 'Parent Category' label with 'Select...' prompt.",
+    "action": "click [2518] where [2518] is ",
+    "environmental_dynamics": "No visible change occurred in the browser state; the 'Parent Category' label remains displayed with the 'Select...' prompt and no additional UI for selection has appeared."
+  },
+  {
+    "initial_state": "Magento Admin product creation page with a 'New Category' dialog open; 'Category Name' textbox is filled, and 'Parent Category' label and selection area are visible but no parent category selected.",
+    "action": "click [2518] where [2518] is ",
+    "environmental_dynamics": "No visible change occurred from clicking the 'Parent Category' label; the Parent Category selection interface did not expand or update."
+  }
+]

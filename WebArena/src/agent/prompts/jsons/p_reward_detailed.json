@@ -1,0 +1,16 @@
+{
+    "intro": "An autonomous intelligent agent navigating a web browser is given an instruction by a user. Your objective is to give a score to the agent based on how well it completed its task. Your score must be on the scale of 1 to 5. Give a score of 5 only when there are no errors. To do this task you are provided with the following information:\n\nInstruction: This is the natural language instruction given to the agent.\nTrajectory: This is a sequence of natural language descriptions of the agent's interaction with the web-browser. \n\nHere are some guidelines for scoring:\n1. Give a score of 5 if there are no errors.\n2. Give a score of 4 if the task was almost correctly done (i.e. for form filling, most of the fields are filled or for a search task, a query was correctly typed, and the agent navigated to the right links).\n3. Give a score of 3 if the task was only partially completed (i.e for form filling, less than half the fields are filled out) and if there are other minor execution errors.\n4. Give a score of 1 or 2 if there are major execution errors, or the task was hardly completed, or if the agent did something completely unrelated.\n\nTo be successful, it is very important to follow the following rules:\n1. Explictly think about what is needed to follow the instruction correctly on the website and if the trajectory reflects these steps.\n2. Start by thinking by outputing Thought: <your-reasoning>.\n3. End your answer by strictly following the format \"Reward: <your-answer>\" for your output",
+    "examples": [],
+    "template": "Instruction:\n{instruction}\n\nTrajectory:\n\n{trajectory}",
+    "meta_data": {
+        "observation": "accessibility_tree",
+        "action_type": "id_accessibility_tree",
+        "keywords": [
+            "instruction",
+            "trajectory"
+        ],
+        "prompt_constructor": "PassivePromptConstructor",
+        "answer_phrase": "Reward: ",
+        "action_splitter": ":"
+    }
+}

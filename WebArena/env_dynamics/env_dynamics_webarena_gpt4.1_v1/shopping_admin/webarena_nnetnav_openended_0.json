@@ -1,0 +1,197 @@
+[
+  {
+    "initial_state": "Magento Admin dashboard showing sales data, recent orders, bestsellers, and search terms, with a table of bestselling products where each row is clickable.",
+    "action": "click [801] where [801] is http://ec2-18-226-185-217.us-east-2.compute.amazonaws.com:8083/admin/catalog/product/edit/id/20/",
+    "environmental_dynamics": "The page navigated to the product detail/edit page for 'Quest Lumaflex\u2122 Band', displaying detailed editable product information and configuration options."
+  },
+  {
+    "initial_state": "Magento Admin product edit page for 'Quest Lumaflex\u2122 Band', with various product information fields and an 'Add Attribute' button present but no modal or dialog visible.",
+    "action": "click [834] where [834] is Add Attribute",
+    "environmental_dynamics": "An 'Add Attribute' dialog opened, allowing selection or creation of product attributes, presenting a searchable/filterable table of existing attributes and options to add or create new ones."
+  },
+  {
+    "initial_state": "Magento Admin 'Add Attribute' dialog is open with a table of selectable attributes, where none of the attribute checkboxes are selected.",
+    "action": "click [2392] where [2392] is ",
+    "environmental_dynamics": "The 'climate' attribute checkbox was checked, marking it as selected in the attributes table and updating the 'Selected Attributes' list to indicate one selected attribute."
+  },
+  {
+    "initial_state": "Magento Admin product edit page with the 'Add Attribute' dialog open and one attribute ('climate') selected for addition.",
+    "action": "click [2141] where [2141] is Add Selected",
+    "environmental_dynamics": "Clicking 'Add Selected' triggered a loading state\u2014'Please wait...' appears, and the 'Add Attribute' dialog is dismissed, indicating the process of adding the selected attribute to the product."
+  },
+  {
+    "initial_state": "Magento Admin product edit page for 'Quest Lumaflex\u2122 Band' with a visible and enabled Save button.",
+    "action": "click [821] where [821] is Save",
+    "environmental_dynamics": "After clicking the Save button, a confirmation message 'You saved the product.' appeared, indicating the product was successfully saved."
+  },
+  {
+    "initial_state": "Magento Admin product edit page for 'Quest Lumaflex\u2122 Band', with the main product form and various product details and attribute controls visible, including an 'Add Attribute' button.",
+    "action": "click [849] where [849] is Add Attribute",
+    "environmental_dynamics": "An 'Add Attribute' dialog appeared over the product edit page, allowing the selection or creation of product attributes, with filtering, pagination, and list of available attributes."
+  },
+  {
+    "initial_state": "Magento Admin product editing page with the 'Add Attribute' dialog open and list of attributes visible; the 'Options' button in the columnheader row is not focused and its dropdown is not visible.",
+    "action": "click [2384] where [2384] is ",
+    "environmental_dynamics": "The 'Options' button in the table header row is focused and its dropdown menu with 'Select All' is now visible, allowing attribute selection controls to be accessed."
+  },
+  {
+    "initial_state": "Magento Admin 'Add Attribute' dialog is open, with a table of selectable product attributes, and all attribute checkboxes in the visible table rows are unchecked.",
+    "action": "click [2419] where [2419] is ",
+    "environmental_dynamics": "The checkbox for the 'collar' attribute (row 1) in the attributes table is now checked, marking it as selected, and the total number of selected attributes is reflected in the summary list and counts."
+  },
+  {
+    "initial_state": "Magento Admin 'Add Attribute' dialog is open over a product editing page, with the 'Add Selected' button visible and the dialog focused.",
+    "action": "click [2168] where [2168] is Add Selected",
+    "environmental_dynamics": "The 'Add Attribute' dialog was closed, returning focus to the main product editing page and focusing the 'Add Attribute' button; the dialog and its contents are no longer present in the accessibility tree."
+  },
+  {
+    "initial_state": "Magento Admin product edit page with the 'Country of Manufacture' combobox (notice-HQ2C5N1) collapsed and not focused.",
+    "action": "click [1281] where [1281] is notice-HQ2C5N1",
+    "environmental_dynamics": "The 'Country of Manufacture' combobox became focused and expanded, displaying all country options for selection."
+  },
+  {
+    "initial_state": "Magento Admin product editing page with a combobox 'Country of Manufacture' expanded and no country selected (first option, empty, is selected).",
+    "action": "click [1518] where [1518] is United States",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "Magento Admin product edit page for 'Quest Lumaflex\u2122 Band', with the main form open and a visible success message 'You saved the product.'; the 'Save' button is clickable.",
+    "action": "click [836] where [836] is Save",
+    "environmental_dynamics": "The page reloaded or refreshed the product form, resetting element IDs and structure. The 'You saved the product.' success message remains, indicating the product was saved again; otherwise, content and visible fields remain nearly identical."
+  },
+  {
+    "initial_state": "Magento Admin product edit page for 'Quest Lumaflex\u2122 Band' with an 'Add Attribute' button visible but no modal dialog open.",
+    "action": "click [852] where [852] is Add Attribute",
+    "environmental_dynamics": "An 'Add Attribute' modal dialog appeared, overlaying the page, which includes options to create a new attribute, filter and view attribute records, and select or cancel the action."
+  },
+  {
+    "initial_state": "Magento Admin Page with product edit open and an 'Add Attribute' dialog visible, but only the attribute selection table and a 'Create New Attribute' button are present.",
+    "action": "click [2174] where [2174] is Create New Attribute",
+    "environmental_dynamics": "A new 'New Attribute' dialog opened, displaying a form for entering details of a new product attribute including label, input type, and requirement status, overlaying the 'Add Attribute' dialog."
+  },
+  {
+    "initial_state": "Magento Admin product detail page with the 'New Attribute' dialog open and the Attribute Label textbox empty and focused.",
+    "action": "type [2873] [Water Resistance] where [2873] is Attribute Label *",
+    "environmental_dynamics": "The text 'Water Resistance' was entered into the 'Attribute Label *' textbox in the 'New Attribute' dialog, with the textbox now containing and displaying this value."
+  },
+  {
+    "initial_state": "Magento Admin Catalog product edit page with both the 'Add Attribute' dialog and the 'New Attribute' dialog open; the 'New Attribute' dialog has the 'Save Attribute' button visible and the attribute form filled in and focused.",
+    "action": "click [2842] where [2842] is Save Attribute",
+    "environmental_dynamics": "After clicking 'Save Attribute', both modal dialogs ('Add Attribute', 'New Attribute') closed and a 'Please wait...' indicator appeared on the main page, indicating the system is processing the attribute creation."
+  },
+  {
+    "initial_state": "Magento Admin product edit page for 'Quest Lumaflex\u2122 Band', with the main interface and an 'Attributes' section visible but not expanded.",
+    "action": "click [2034] where [2034] is ",
+    "environmental_dynamics": "The 'Attributes' section has expanded, revealing additional fields and controls related to product attributes such as Climate, Collar, Features, Format, Manufacturer, Pattern, Size, Sleeve, Strap/Handle, Style Bags, Style Bottom, Style General, and Water Resistance."
+  },
+  {
+    "initial_state": "Magento Admin product edit page for 'Quest Lumaflex\u2122 Band' with the Water Resistance field empty and the Attributes section focused.",
+    "action": "type [3300] [IPX7 ] where [3300] is [store view] Water Resistance",
+    "environmental_dynamics": "The Water Resistance field was updated to 'IPX7', and a tooltip appeared on the Attributes section indicating that there are unsaved changes."
+  },
+  {
+    "initial_state": "Magento Admin product edit page for 'Quest Lumaflex\u2122 Band' with unsaved changes and the 'Save' button visible and clickable.",
+    "action": "click [839] where [839] is Save",
+    "environmental_dynamics": "The page reloaded or updated, clearing the 'unsaved changes' tooltip and saving the product, but the content and form inputs remain largely the same and a confirmation message 'You saved the product.' is still visible."
+  },
+  {
+    "initial_state": "Magento Admin product detail page for 'Quest Lumaflex\u2122 Band' with the global navigation menu visible and the Catalog link unexpanded.",
+    "action": "click [297] where [297] is \ue608 CATALOG",
+    "environmental_dynamics": "The 'CATALOG' menu in the global navigation was expanded, revealing vertical submenus for 'Products' and 'Categories', and the Catalog link is now focused; a system message about the cache also appeared above the banner."
+  },
+  {
+    "initial_state": "Magento Admin product edit page with detailed product information and an 'Add Attribute' button visible among several product options.",
+    "action": "click [827] where [827] is Add Attribute",
+    "environmental_dynamics": "No visible change: clicking 'Add Attribute' did not trigger any new dialogs, fields, or UI elements in the accessibility tree."
+  },
+  {
+    "initial_state": "Magento Admin product edit page for 'Quest Lumaflex\u2122 Band' with the 'Activity' label (id 1522) not visibly focused or expanded.",
+    "action": "click [1522] where [1522] is ",
+    "environmental_dynamics": "The 'Activity' label and its associated listbox became visible and the '[global] Activity' listbox received focus, enabling interaction with its options."
+  },
+  {
+    "initial_state": "Magento Admin product edit page for 'Quest Lumaflex\u2122 Band', with the 'Color' combobox (value 'Black') not expanded.",
+    "action": "click [1593] where [1593] is notice-BQHMVNE",
+    "environmental_dynamics": "The 'Color' combobox is now expanded and focused, displaying all available color options for selection."
+  },
+  {
+    "initial_state": "Magento Admin product edit page for 'Quest Lumaflex\u2122 Band' with the Color combobox expanded and 'Black' selected.",
+    "action": "click [1596] where [1596] is Blue",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "Magento Admin product edit page for 'Quest Lumaflex\u2122 Band', with product attribute forms visible and the 'Save' button available.",
+    "action": "click [814] where [814] is Save",
+    "environmental_dynamics": "After clicking the 'Save' button, the detailed product attribute forms were hidden and the page UI returned to a summary state, still displaying the success message 'You saved the product.'"
+  },
+  {
+    "initial_state": "Magento Admin page for Quest Lumaflex\u2122 Band with the main navigation bar visible and the 'CATALOG' menu item present and clickable but not expanded.",
+    "action": "click [191] where [191] is \ue608 CATALOG",
+    "environmental_dynamics": "The 'CATALOG' menu item became focused and expanded, showing a vertical submenu with links for 'Products' and 'Categories'; additional content such as a system message about cache status also appeared on the page."
+  },
+  {
+    "initial_state": "Magento Admin product details page with the 'Stock Status' combobox for the product showing 'In Stock' but collapsed.",
+    "action": "click [1109] where [1109] is notice-H7V9G68",
+    "environmental_dynamics": "The 'Stock Status' combobox was activated (clicked), but the selection state did not change nor did the combobox expand; essentially, no visible change occurred."
+  },
+  {
+    "initial_state": "Magento Admin product edit page for 'Quest Lumaflex\u2122 Band', with the main product details and multiple accordion sections visible, including a strong 'Attributes' section label that is not expanded.",
+    "action": "click [2002] where [2002] is ",
+    "environmental_dynamics": "The 'Attributes' section was expanded, revealing the detailed attribute controls and fields related to product attributes for editing."
+  },
+  {
+    "initial_state": "Magento Admin product edit page for 'Quest Lumaflex\u2122 Band', with unsaved attribute data and a visible 'You saved the product.' message from a previous save.",
+    "action": "click [707] where [707] is Save",
+    "environmental_dynamics": "The page refreshed after clicking the 'Save' button, but remains on the same product edit page with the confirmation message 'You saved the product.' still visible, indicating the product was saved."
+  },
+  {
+    "initial_state": "Magento Admin product editing page for 'Quest Lumaflex\u2122 Band', with the main navigation menubar including 'CATALOG' as an option.",
+    "action": "click [279] where [279] is \ue608 CATALOG",
+    "environmental_dynamics": "The 'CATALOG' menu item is now focused, and a catalog submenu has expanded, revealing further navigation links such as 'Products' and 'Categories'; additionally, a message about invalidated cache and a more detailed product editing interface are now visible."
+  },
+  {
+    "initial_state": "Magento Admin product detail page for Quest Lumaflex\u2122 Band with the full set of product attribute fields visible, including an 'Add Attribute' button.",
+    "action": "click [808] where [808] is Add Attribute",
+    "environmental_dynamics": "No visible change occurred; the accessibility tree content remains unchanged after clicking the 'Add Attribute' button."
+  },
+  {
+    "initial_state": "Magento Admin product edit page for 'Quest Lumaflex\u2122 Band', with product details and options visible and an 'Add Attribute' button available.",
+    "action": "click [808] where [808] is Add Attribute",
+    "environmental_dynamics": "An 'Add Attribute' dialog appeared as a modal overlay with controls to create or select product attributes, without altering the underlying page content."
+  },
+  {
+    "initial_state": "Magento admin product edit page with 'Add Attribute' dialog open, displaying options to add existing attributes or create a new one, but with no new attribute dialog visible.",
+    "action": "click [2573] where [2573] is Create New Attribute",
+    "environmental_dynamics": "A new modal dialog titled 'New Attribute' appeared, presenting a form to define the properties of a new product attribute, including label, input type, and settings."
+  },
+  {
+    "initial_state": "Magento Admin panel with 'New Attribute' dialog open; the 'Attribute Label *' textbox is empty and focused, ready for input.",
+    "action": "type [2886] [Water Resistance] where [2886] is Attribute Label *",
+    "environmental_dynamics": "The 'Attribute Label *' textbox in the 'New Attribute' dialog is now filled with the text 'Water Resistance' and remains focused."
+  },
+  {
+    "initial_state": "Magento Admin product attribute creation dialog open with 'Attribute Label' set to 'Water Resistance', and no warning or error messages displayed.",
+    "action": "click [2855] where [2855] is Save Attribute",
+    "environmental_dynamics": "After clicking 'Save Attribute', an error message appeared in the 'New Attribute' dialog stating that an attribute with the code 'water_resistance' already exists."
+  },
+  {
+    "initial_state": "Magento Admin product edit page with 'Add Attribute' and 'New Attribute' dialogs open, 'New Attribute' dialog showing an error that the attribute code already exists, and the 'Cancel' button in the 'New Attribute' dialog is available.",
+    "action": "click [2860] where [2860] is Cancel",
+    "environmental_dynamics": "The 'New Attribute' dialog was closed after clicking 'Cancel', leaving only the 'Add Attribute' dialog open and focused."
+  },
+  {
+    "initial_state": "Magento Admin product detail page with the 'Add Attribute' dialog open and focused on the 'Create New Attribute' button.",
+    "action": "click [2168] where [2168] is Cancel",
+    "environmental_dynamics": "The 'Add Attribute' dialog was closed, returning focus to the main product detail page with the 'Add Attribute' button now focused."
+  },
+  {
+    "initial_state": "Magento Admin product edit page for 'Quest Lumaflex\u2122 Band', with the 'Add Attribute' button focused and no attribute dialog visible.",
+    "action": "click [808] where [808] is Add Attribute",
+    "environmental_dynamics": "An 'Add Attribute' dialog opened on top of the page, displaying attribute selection options and controls such as 'Create New Attribute', 'Add Selected', and a table indicating that no attributes are currently found."
+  },
+  {
+    "initial_state": "Magento Admin Catalog Product page with the 'Add Attribute' dialog open, displaying the option to 'Create New Attribute' among other controls but the attribute creation form is not visible.",
+    "action": "click [2573] where [2573] is Create New Attribute",
+    "environmental_dynamics": "A new 'New Attribute' dialog appeared, overlaying the page and displaying a form to enter details for a new product attribute, including fields for attribute label, input type, and required status."
+  }
+]

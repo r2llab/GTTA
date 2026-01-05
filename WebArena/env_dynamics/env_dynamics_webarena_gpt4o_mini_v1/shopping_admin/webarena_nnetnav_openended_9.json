@@ -1,0 +1,12 @@
+[
+  {
+    "initial_state": "Dashboard / Magento Admin",
+    "action": "click [840] where [840] is ",
+    "environmental_dynamics": "The page navigated to the order view for order #000000125, displaying detailed information about the order and its status, including customer details and order items."
+  },
+  {
+    "initial_state": "Magento Admin Order View for Order #000000125",
+    "action": "click [755] where [755] is Edit Customer",
+    "environmental_dynamics": "The agent clicked on the 'Edit Customer' link, changing the focus to the customer editing view for Matt Baker, and the UI became busy as it loads the customer information."
+  }
+]

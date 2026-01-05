@@ -1,0 +1,812 @@
+{
+  "map": [
+    {
+      "initial_state": "OpenStreetMap homepage with search bar focused",
+      "action": "type [145] [attractions near NYC ] where [145] is Search",
+      "environmental_dynamics": "The search bar was populated with the text 'attractions near NYC', and the page transitioned to display search results related to this query."
+    },
+    {
+      "initial_state": "Search results page for attractions near NYC on OpenStreetMap with a list of clickable links",
+      "action": "click [449] where [449] is Site of the Beach Pneumatic Subway, 1, Murray Street, Tribeca, Manhattan, New York County, City of New York, New York, 10007, United States",
+      "environmental_dynamics": "The page navigated to the detail view for 'Site of the Beach Pneumatic Subway', displaying specific information about the location along with its coordinates and edit history."
+    },
+    {
+      "initial_state": "Node: Site of the Beach Pneumatic Subway | OpenStreetMap",
+      "action": "click [534] where [534] is View History",
+      "environmental_dynamics": "The browser navigated to the History page for the Site of the Beach Pneumatic Subway, changing the title and displaying relevant history information."
+    },
+    {
+      "initial_state": "OpenStreetMap search results for attractions near Murray Street NYC",
+      "action": "Attempt to perfom \"click\" on element \"[449]\" but no matching element found. Please check the observation more carefully.",
+      "environmental_dynamics": "no change"
+    },
+    {
+      "initial_state": "Search results for 'attractions near Murray Street NYC' on OpenStreetMap",
+      "action": "click [589] where [589] is Woolworth Building, Park Place, Tribeca, Manhattan, New York County, City of New York, New York, 10007, United States",
+      "environmental_dynamics": "The page navigated to a detailed view of the 'Woolworth Building', displaying information such as its identification number and tags related to the building."
+    },
+    {
+      "initial_state": "OpenStreetMap page with details about Woolworth Building",
+      "action": "click [634] where [634] is Close",
+      "environmental_dynamics": "The details section about the Woolworth Building closed, and a welcome message appeared indicating the user is on the OpenStreetMap platform."
+    },
+    {
+      "initial_state": "OpenStreetMap search results page with attractions listed",
+      "action": "click [796] where [796] is Saint Paul's Chapel, 209, Broadway, Financial District, Manhattan, New York County, City of New York, New York, 10007, United States",
+      "environmental_dynamics": "A status message appeared indicating 'Loading...' as the page began to load the details for 'Saint Paul's Chapel'."
+    },
+    {
+      "initial_state": "OpenStreetMap homepage with search bar focused",
+      "action": "type [145] [attractions near CMU ] where [145] is Search",
+      "environmental_dynamics": "The search textbox was updated with the value 'attractions near CMU', and search results section was added, displaying 'No results found'."
+    },
+    {
+      "initial_state": "OpenStreetMap displaying attractions near CMU with no results found",
+      "action": "type [145] [attractions in Pittsburgh ] where [145] is Search",
+      "environmental_dynamics": "The search input was updated to 'attractions in Pittsburgh', and the search results section was populated with multiple listings of attractions in Pittsburgh."
+    },
+    {
+      "initial_state": "OpenStreetMap search results for 'attractions in Pittsburgh'",
+      "action": "click [482] where [482] is McAnulty Drive, Bluff, Pittsburgh, Allegheny County, Pennsylvania, 15219, United States",
+      "environmental_dynamics": "The page navigated to a detailed view of a specific attraction, displaying information like the attraction's coordinates, editing history, and associated tags."
+    },
+    {
+      "initial_state": "OpenStreetMap node details page",
+      "action": "click [109] where [109] is User Diaries",
+      "environmental_dynamics": "The browser navigated to the 'Users' Diaries' section of OpenStreetMap, and the heading changed to reflect the new page, which now displays 'No diary entries'."
+    },
+    {
+      "initial_state": "Users' Diaries | OpenStreetMap page with options to edit or view diaries",
+      "action": "click [67] where [67] is GPS Traces",
+      "environmental_dynamics": "The page navigated to 'Public GPS Traces | OpenStreetMap', displaying recent GPS trace uploads and options to upload a trace."
+    },
+    {
+      "initial_state": "Public GPS Traces page on OpenStreetMap",
+      "action": "click [104] where [104] is All Traces",
+      "environmental_dynamics": "The page navigated to the 'All Traces' section, displaying a list of all GPS traces available."
+    },
+    {
+      "initial_state": "Public GPS Traces page on OpenStreetMap",
+      "action": "click [110] where [110] is Upload a trace",
+      "environmental_dynamics": "The page transitioned to the OpenStreetMap login page, displaying fields for email and password entry along with a login button."
+    },
+    {
+      "initial_state": "OpenStreetMap login page with input fields for email and password",
+      "action": "click [127] where [127] is Login",
+      "environmental_dynamics": "The login attempt initiated by clicking the 'Login' button resulted in an error message indicating that the login was unsuccessful, as the same login page remains visible with the existing elements unchanged."
+    },
+    {
+      "initial_state": "OpenStreetMap login page with login form visible",
+      "action": "click [121] where [121] is Lost your password?",
+      "environmental_dynamics": "The page transitioned to the 'Lost password' section, displaying a prompt to enter the email address for password recovery and providing a reset password button."
+    },
+    {
+      "initial_state": "Lost password | OpenStreetMap with email input field visible",
+      "action": "type [106] [myemail@example.com ] where [106] is ",
+      "environmental_dynamics": "The email address 'myemail@example.com' was entered into the textbox, and an image displayed a message indicating 'Could not find that email address, sorry.'"
+    },
+    {
+      "initial_state": "Lost password | OpenStreetMap page with a visible 'Reset password' button",
+      "action": "click [113] where [113] is Reset password",
+      "environmental_dynamics": "A notification appeared indicating that the reset password link has been sent to the provided email address."
+    },
+    {
+      "initial_state": "OpenStreetMap homepage with the search bar focused",
+      "action": "type [145] [parks near San Francisco ] where [145] is Search",
+      "environmental_dynamics": "The search bar was populated with the text 'parks near San Francisco', updating the search input for user query."
+    },
+    {
+      "initial_state": "Search results page displaying parks near San Francisco",
+      "action": "click [449] where [449] is Civic Center Plaza, Civic Center, South of Market, San Francisco, California, United States",
+      "environmental_dynamics": "The page navigated to a 'Not Found' error state, indicating the selected location could not be found."
+    },
+    {
+      "initial_state": "Not Found | OpenStreetMap, focused on the Search textbox",
+      "action": "type [145] [tourist attractions in San Francisco ] where [145] is Search",
+      "environmental_dynamics": "The search input was populated with the text 'tourist attractions in San Francisco', and the page updated to display search results including a heading and a message indicating 'No results found'."
+    },
+    {
+      "initial_state": "OpenStreetMap page displaying search results for 'restaurants near San Francisco'",
+      "action": "click [147] where [147] is Go",
+      "environmental_dynamics": "The page refreshed to show updated search results, with the section header changed from 'Search Results' to reflect new content and various static text values updated."
+    },
+    {
+      "initial_state": "OpenStreetMap page focused on tourist attractions near New York",
+      "action": "click [422] where [422] is OpenStreetMap contributors",
+      "environmental_dynamics": "The page navigated to the 'OpenStreetMap contributors' section, replacing the previous content with detailed information about the contributors and copyright policies of OpenStreetMap."
+    },
+    {
+      "initial_state": "OpenStreetMap homepage with search bar visible",
+      "action": "type [145] [attractions near 42.896,-75.108 ] where [145] is Search",
+      "environmental_dynamics": "The search bar was updated with the input 'attractions near 42.896,-75.108', which is now focused, and the page transitioned to show search results, including a heading for 'Search Results' and a message indicating 'No results found'."
+    },
+    {
+      "initial_state": "OpenStreetMap search results page highlighting attractions near Ithaca, NY",
+      "action": "click [529] where [529] is The Overlook At West Hill (housing for the elderly), Trumansburg Road, Hayts Corner, Town of Ithaca, Tompkins County, New York, 14886, United States",
+      "environmental_dynamics": "The browser navigated to a detail view of 'The Overlook At West Hill (housing for the elderly)', displaying additional information including its location, tags, and edit history."
+    },
+    {
+      "initial_state": "OpenStreetMap search results page displaying attractions near Ithaca, NY",
+      "action": "click [639] where [639] is More results",
+      "environmental_dynamics": "The page fetched and displayed additional search results, updating the list of attractions."
+    },
+    {
+      "initial_state": "attractions near Paris | OpenStreetMap with 'Show My Location' button visible",
+      "action": "click [399] where [399] is Show My Location",
+      "environmental_dynamics": "The 'Show My Location' button was clicked, triggering a tooltip indicating the action taken, and the button is now focused, showing its functionality."
+    },
+    {
+      "initial_state": "OpenStreetMap attractions near Paris page with search results visible",
+      "action": "click [402] where [402] is Layers",
+      "environmental_dynamics": "A 'Map Layers' section opened, displaying options for different map layers along with checkboxes for overlays, allowing the user to customize the map view."
+    },
+    {
+      "initial_state": "OpenStreetMap page focused on the Statue of Liberty with search results displayed",
+      "action": "click [449] where [449] is Statue of Liberty, Flagpole Plaza, Manhattan, New York County, City of New York, New York, 10004, United States",
+      "environmental_dynamics": "A new section of the map related to the clicked link was loaded, indicated by a 'Loading...' status message appearing, and the previous search results were likely replaced with this new view."
+    },
+    {
+      "initial_state": "Statue of Liberty | OpenStreetMap with directions and search available",
+      "action": "click [149] where [149] is Find directions between two points",
+      "environmental_dynamics": "The browser navigated to a new page displaying the details for navigating directions from one point to another, including new input fields and buttons for route settings."
+    },
+    {
+      "initial_state": "OpenStreetMap route planning page with directions displayed",
+      "action": "click [171] where [171] is Go",
+      "environmental_dynamics": "The button labeled 'Go' was clicked, which triggered a route calculation, resulting in the directions section being updated with the relevant route and estimated time."
+    },
+    {
+      "initial_state": "OpenStreetMap directions page displaying route from Times Square to the Statue of Liberty",
+      "action": "click [174] where [174] is Reverse Directions",
+      "environmental_dynamics": "The directions were reversed, updating the route to show directions from Times Square back to Central Park, with new distance and time details accordingly."
+    },
+    {
+      "initial_state": "OpenStreetMap main map view with directions displayed",
+      "action": "click [408] where [408] is Share",
+      "environmental_dynamics": "A sharing options modal appeared, allowing users to access links or HTML for sharing the map, along with additional options such as including a marker and selecting image formats."
+    },
+    {
+      "initial_state": "OpenStreetMap homepage with navigation options visible",
+      "action": "click [314] where [314] is Link",
+      "environmental_dynamics": "A modal dialog opened displaying a link for sharing the map, allowing users to easily copy or share the map link with others."
+    },
+    {
+      "initial_state": "OpenStreetMap homepage with directions available",
+      "action": "click [315] where [315] is Short Link",
+      "environmental_dynamics": "The 'Short Link' was clicked, resulting in the textbox updated to display a new shortened URL for sharing."
+    },
+    {
+      "initial_state": "Way: Granary Burying Ground (29861355) | OpenStreetMap",
+      "action": "click [117] where [117] is About",
+      "environmental_dynamics": "The page navigated to the 'About' section of OpenStreetMap, displaying detailed information about the platform and its community."
+    },
+    {
+      "initial_state": "OpenStreetMap search results page displaying museums in New York City",
+      "action": "click [503] where [503] is Hall des Lumi\u00e8res, 49, Chambers Street, Lower Manhattan, Manhattan, New York County, City of New York, New York, 10007, United States",
+      "environmental_dynamics": "The browser navigated to the details page for 'Hall des Lumi\u00e8res', showing focused information about the location, including the address and other pertinent details."
+    }
+  ],
+  "reddit": [
+    {
+      "initial_state": "Search results page with a focused search bar and results for 'fitness tips'",
+      "action": "click [54] where [54] is ",
+      "environmental_dynamics": "The browser navigated to the 'Notifications' page, indicating no new notifications are displayed."
+    },
+    {
+      "initial_state": "Notifications page with no entries to display",
+      "action": "click [54] where [54] is ",
+      "environmental_dynamics": "No change"
+    },
+    {
+      "initial_state": "Notifications page with no entries to display",
+      "action": "click [54] where [54] is ",
+      "environmental_dynamics": "The 'Entries' section was activated and is ready to display notifications, although still showing 'There are no entries to display.'"
+    },
+    {
+      "initial_state": "Notifications page with no entries to display",
+      "action": "click [54] where [54] is ",
+      "environmental_dynamics": "The 'Notifications' section now displays a loading animation as it retrieves new notifications after clicking the notification icon."
+    },
+    {
+      "initial_state": "Notifications page with no entries displayed",
+      "action": "click [54] where [54] is ",
+      "environmental_dynamics": "A popup menu appeared after clicking the button associated with 'MarvelsGrantMan136', presenting additional options for user interaction."
+    },
+    {
+      "initial_state": "Notifications page with no entries displayed",
+      "action": "click [54] where [54] is ",
+      "environmental_dynamics": "A notification popup opened, providing more details about notifications related to the user, which previously were not visible."
+    },
+    {
+      "initial_state": "Postmill homepage",
+      "action": "click [42] where [42] is Forums",
+      "environmental_dynamics": "The page transitioned to the 'List of forums', displaying various forum categories along with a 'Create forum' link."
+    },
+    {
+      "initial_state": "List of forums",
+      "action": "click [144] where [144] is AskReddit \u2014 AskReddit",
+      "environmental_dynamics": "Navigated to the 'AskReddit' forum page, displaying focused content related to AskReddit discussions."
+    },
+    {
+      "initial_state": "AskReddit main page with multiple articles visible",
+      "action": "click [262] where [262] is What is a battle that you are losing right now?",
+      "environmental_dynamics": "The page navigated to the article titled 'What is a battle that you are losing right now?', focusing on its content and displaying related comments."
+    },
+    {
+      "initial_state": "AskReddit comment submission page with a comment textbox visible",
+      "action": "click [312] where [312] is Post",
+      "environmental_dynamics": "An alert appeared stating 'Please fill in this field.', indicating that the comment textbox requires input before the form can be submitted."
+    },
+    {
+      "initial_state": "Comment textbox with 'Comment' label focused, ready to submit a comment",
+      "action": "click [312] where [312] is Post",
+      "environmental_dynamics": "A submission confirmation message appeared, indicating that the comment was posted successfully."
+    },
+    {
+      "initial_state": "List of forums with various forum listings",
+      "action": "type [50] [fitness ] where [50] is Search query",
+      "environmental_dynamics": "The search input box was updated with the term 'fitness', and the page transitioned to a search results view displaying articles related to fitness."
+    },
+    {
+      "initial_state": "Search results page for 'workout routines'",
+      "action": "click [56] where [56] is Submit",
+      "environmental_dynamics": "The page navigated to a 'Create submission' form where users can submit content by entering a title, body, and selecting a forum."
+    },
+    {
+      "initial_state": "Create submission page with a focused textbox for the Title",
+      "action": "type [137] [My Latest Workout Routine] where [137] is ",
+      "environmental_dynamics": "The textbox for the Title now displays a tooltip indicating that it is a required field, enhancing user guidance."
+    },
+    {
+      "initial_state": "Create submission page with 'Choose one\u2026' combobox visible",
+      "action": "click [378] where [378] is Choose one\u2026",
+      "environmental_dynamics": "The 'Choose one\u2026' combobox expanded, revealing a list of selectable options for the user to choose from."
+    },
+    {
+      "initial_state": "Create submission page with various input fields and options",
+      "action": "click [620] where [620] is ",
+      "environmental_dynamics": "The 'Formatting help' checkbox was clicked, changing its checked state to 'true', indicating an active selection."
+    },
+    {
+      "initial_state": "Search results for 'fitness'",
+      "action": "click [781] where [781] is Best place for a bra fitting?",
+      "environmental_dynamics": "The browser navigated to the 'Best place for a bra fitting?' article, where the page updates to display the article content, including previous comments and a reply feature, indicating a transition from a search results view to a detailed article view."
+    },
+    {
+      "initial_state": "Webpage displaying a forum with various articles and advice related to fitness",
+      "action": "click [781] where [781] is -erisx",
+      "environmental_dynamics": "The browser navigated to a '404 Not Found' page indicating that the requested page does not exist."
+    },
+    {
+      "initial_state": "404 Not Found error page with a link to home page",
+      "action": "click [12] where [12] is Go to home page",
+      "environmental_dynamics": "The browser navigated to the 'Postmill' homepage, displaying navigation links, a search box, and various sections related to forums and submissions."
+    },
+    {
+      "initial_state": "Search results page for 'running advice'",
+      "action": "Attempt to perfom \"click\" on element \"[171]\" but no matching element found. Please check the observation more carefully.",
+      "environmental_dynamics": "no change"
+    },
+    {
+      "initial_state": "Search results page for 'running advice'",
+      "action": "click [138] where [138] is 25k Career Starter Loan (2.99% APR)",
+      "environmental_dynamics": "The browser navigated to the detailed page of the '25k Career Starter Loan (2.99% APR)', displaying the content and comments related to the loan."
+    },
+    {
+      "initial_state": "Postmill article page on '25k Career Starter Loan (2.99% APR'",
+      "action": "type [57] [fitness  ] where [57] is Search query",
+      "environmental_dynamics": "The search box was filled with the text 'fitness', and the page refreshed to display search results related to that term."
+    },
+    {
+      "initial_state": "Comment thread with user replies and voting buttons",
+      "action": "click [313] where [313] is Post",
+      "environmental_dynamics": "A new comment was posted by 'MarvelsGrantMan136', updating the comment count from 7 to 8 and indicating that there is 1 new comment available for viewing."
+    },
+    {
+      "initial_state": "Page displaying a discussion thread about bra fittings, with an option to view comments",
+      "action": "click [162] where [162] is View all comments",
+      "environmental_dynamics": "The comments section expanded, revealing all 9 comments related to the discussion, allowing users to read and interact with them."
+    },
+    {
+      "initial_state": "Postmill search results with displayed articles",
+      "action": "click [161] where [161] is Upvote",
+      "environmental_dynamics": "The Upvote button was clicked, changing it to a 'Retract upvote' button, indicating that the item has been upvoted."
+    },
+    {
+      "initial_state": "Search results page for 'r/fitness' with articles displayed",
+      "action": "click [179] where [179] is ",
+      "environmental_dynamics": "The checkbox for 'Hide \u2212' was clicked, causing the corresponding comment thread to be hidden from view."
+    },
+    {
+      "initial_state": "Search results page for 'r/fitness' with multiple articles displayed",
+      "action": "click [161] where [161] is Retract upvote",
+      "environmental_dynamics": "The upvote count for the first article was updated from '1' to '0' after the 'Retract upvote' button was clicked."
+    },
+    {
+      "initial_state": "Postmill page with search results for 'r/fitness'",
+      "action": "click [140] where [140] is Heavy-load exercise in older adults activates vasculogenesis and has a stronger impact on muscle gene expression than in young adults (Oct 2022)",
+      "environmental_dynamics": "The page transitioned to an article titled 'Heavy-load exercise in older adults activates vasculogenesis and has a stronger impact on muscle gene expression than in young adults (Oct 2022)', displaying detailed content and comments related to the topic."
+    },
+    {
+      "initial_state": "Comments section of the article with a focus on a specific comment, 'As an older adult, it would be helpful if some limits were set on what counts as 'heavy load exercise'.'",
+      "action": "click [344] where [344] is Reply",
+      "environmental_dynamics": "A reply textbox opened below the comment, allowing the user to type a response."
+    },
+    {
+      "initial_state": "Comment section of article page on heavy-load exercise in older adults",
+      "action": "click [313] where [313] is Post",
+      "environmental_dynamics": "An alert appeared stating 'Please fill in this field.', indicating that the comment submission lacked required input."
+    },
+    {
+      "initial_state": "RootWebArea 'Heavy-load exercise in older adults activates vasculogenesis and has a stronger impact on muscle gene expression than in young adults (Oct 2022)', focused",
+      "action": "click [313] where [313] is Post",
+      "environmental_dynamics": "A new comment was posted in the discussion, as the button labeled 'Post' was clicked, submitting the content filled in the comment textbox."
+    },
+    {
+      "initial_state": "Postmill discussion page for a research article with comments visible",
+      "action": "click [39] where [39] is Wiki",
+      "environmental_dynamics": "The page transitioned to a 'Page not found' error, showing an error message instead of the requested Wiki content, indicating the link was broken or the page does not exist."
+    },
+    {
+      "initial_state": "Search results page for 'r/running' with one result visible",
+      "action": "click [117] where [117] is ",
+      "environmental_dynamics": "The section featuring the search result has expanded to reveal additional details about the post."
+    },
+    {
+      "initial_state": "Search results page for 'r/running' with one result displayed",
+      "action": "click [148] where [148] is Reply",
+      "environmental_dynamics": "The reply section expanded, providing a textbox for inputting comments along with a checkbox for formatting help, allowing the user to compose a reply to the post."
+    },
+    {
+      "initial_state": "Running routes DTJC? discussion page with comments section visible",
+      "action": "click [151] where [151] is Upvote",
+      "environmental_dynamics": "The button 'Upvote' changed to 'Retract upvote', indicating that the post has been successfully upvoted, and the displayed vote count increased to 1."
+    },
+    {
+      "initial_state": "Running routes DTJC? discussion thread with comments visible",
+      "action": "click [151] where [151] is Retract upvote",
+      "environmental_dynamics": "The button for 'Retract upvote' was clicked, resulting in a visual change where the user's upvote for the post was removed, now displaying '0' as the upvote count."
+    },
+    {
+      "initial_state": "Comment submission form with a focused textbox for typing a comment",
+      "action": "click [313] where [313] is Post",
+      "environmental_dynamics": "The comment was submitted, and the post's comment count increased from 12 to 13, now indicating '13 comments (1 new)'."
+    },
+    {
+      "initial_state": "Discussion forum on fitness tips with articles and comments",
+      "action": "click [125] where [125] is Sweaty-Evidence-2565",
+      "environmental_dynamics": "The page navigated to a '404 Not Found' error screen, indicating that the requested content is unavailable."
+    },
+    {
+      "initial_state": "Postmill main page",
+      "action": "click [115] where [115] is Comments",
+      "environmental_dynamics": "The browser navigated to the 'Comments' section, displaying comments related to posts, and the main content area is now focused on discussions."
+    },
+    {
+      "initial_state": "Search results page for 'workout routines'",
+      "action": "click [125] where [125] is ",
+      "environmental_dynamics": "The page navigated to the '5-Day Workout Routine to Build Strength' article, with the focus on the article heading and an increase in content visibility, including the author's information and options for commenting."
+    },
+    {
+      "initial_state": "5-Day Workout Routine to Build Strength article page with comments section visible",
+      "action": "click [318] where [318] is Post",
+      "environmental_dynamics": "The comment was posted, and the comment count updated to reflect '4 comments' along with an indication of '1 new' comment."
+    },
+    {
+      "initial_state": "5-Day Workout Routine to Build Strength article with a focus on comments",
+      "action": "click [134] where [134] is 4 comments",
+      "environmental_dynamics": "The comment section expanded, displaying the existing comments and options to reply, edit, or delete them."
+    }
+  ],
+  "shopping_admin": [
+    {
+      "initial_state": "Dashboard / Magento Admin",
+      "action": "click [156] where [156] is \ue60b SALES",
+      "environmental_dynamics": "The SALES menu expanded, revealing a vertical submenu with additional options such as Orders, Invoices, Shipments, etc., and the SALES link became focused."
+    },
+    {
+      "initial_state": "Dashboard / Magento Admin",
+      "action": "click [168] where [168] is Orders",
+      "environmental_dynamics": "The page transitioned from the dashboard to the dedicated 'Orders' section, displaying the order-management interface."
+    },
+    {
+      "initial_state": "Orders / Operations / Sales / Magento Admin with multiple entries displayed",
+      "action": "click [1424] where [1424] is View",
+      "environmental_dynamics": "The browser navigated to the detailed view of order #000000299, showing customer information, ordered items, and order-management controls."
+    },
+    {
+      "initial_state": "Magento Admin order details page for order #000000299",
+      "action": "click [784] where [784] is Edit Customer",
+      "environmental_dynamics": "The page switched to the customer-information view for Sarah Miller, exposing editable customer details and management options."
+    },
+    {
+      "initial_state": "Sarah Miller / Customers / Customers / Magento Admin",
+      "action": "click [862] where [862] is Orders",
+      "environmental_dynamics": "The Orders subsection opened for Sarah Miller, showing her historical orders in a tabular view."
+    },
+    {
+      "initial_state": "Customer information page for Sarah Miller with order history visible",
+      "action": "click [1112] where [1112] is Reorder",
+      "environmental_dynamics": "The interface transitioned to a 'New Order' creation screen pre-filled for Sarah Miller, enabling product selection, payment, and shipping setup."
+    },
+    {
+      "initial_state": "Magento Admin panel to create a new order",
+      "action": "click [670] where [670] is Submit Order",
+      "environmental_dynamics": "The order was successfully submitted. The system displayed an order-confirmation view for the newly created order #000000309, including status, billing, and shipping information."
+    },
+    {
+      "initial_state": "Magento Admin order page displaying order #000000309",
+      "action": "click [737] where [737] is Hold",
+      "environmental_dynamics": "The selected order status changed to 'On Hold', and a confirmation message indicated the order was put on hold."
+    },
+    {
+      "initial_state": "Magento Admin Order #000000309 detailed view with order on hold",
+      "action": "click [745] where [745] is Unhold",
+      "environmental_dynamics": "The order status reverted from 'On Hold' back to 'Pending'; a message confirmed the order was released from hold."
+    },
+    {
+      "initial_state": "Dashboard / Magento Admin",
+      "action": "click [207] where [207] is \ue603 CUSTOMERS",
+      "environmental_dynamics": "The CUSTOMERS menu item became focused and expanded, displaying options such as 'All Customers', 'Now Online', 'Login as Customer Log', and 'Customer Groups'."
+    },
+    {
+      "initial_state": "Dashboard / Magento Admin",
+      "action": "click [214] where [214] is All Customers",
+      "environmental_dynamics": "The interface navigated to the 'All Customers' management page, listing existing customer records with search and action controls."
+    },
+    {
+      "initial_state": "Magento Admin Customers page with a list of customers and 'Add New Customer' button visible",
+      "action": "click [716] where [716] is Add New Customer",
+      "environmental_dynamics": "The page transitioned to the 'New Customer' form, exposing input fields for personal details, account settings, and contact information."
+    },
+    {
+      "initial_state": "New Customer form in Magento Admin",
+      "action": "click [741] where [741] is Save Customer",
+      "environmental_dynamics": "A confirmation dialogue appeared stating that the customer information was successfully saved."
+    },
+    {
+      "initial_state": "New Customer form in Magento Admin with customer details filled in",
+      "action": "click [741] where [741] is Save Customer",
+      "environmental_dynamics": "An error message appeared indicating that a customer with the same email address already exists, preventing the save operation."
+    },
+    {
+      "initial_state": "Magento Admin Order View page with Information tab selected",
+      "action": "click [2372] where [2372] is Invoices",
+      "environmental_dynamics": "The Invoices tab became active, displaying invoice-related information with a notice that no invoice records were found."
+    },
+    {
+      "initial_state": "Export options in Invoices tab of Magento Admin",
+      "action": "click [1208] where [1208] is \ue635 Export",
+      "environmental_dynamics": "An export-options panel appeared, showing radio buttons for CSV and Excel XML formats, with CSV pre-selected."
+    },
+    {
+      "initial_state": "Magento Admin Orders page with visible buttons including 'Send Email'",
+      "action": "click [738] where [738] is Send Email",
+      "environmental_dynamics": "A confirmation modal asked whether to send an order email to the customer, offering 'Cancel' and 'OK' actions."
+    },
+    {
+      "initial_state": "Magento Admin Order View page with modal dialog asking for order email confirmation",
+      "action": "click [2851] where [2851] is OK",
+      "environmental_dynamics": "The dialog closed and a success message reported that the order email was sent to the customer."
+    },
+    {
+      "initial_state": "New Order / Orders / Operations / Sales / Magento Admin",
+      "action": "click [2544] where [2544] is Get shipping methods and rates",
+      "environmental_dynamics": "The system attempted to retrieve shipping quotes but displayed a message: 'Sorry, no quotes are available for this order.'"
+    },
+    {
+      "initial_state": "New Order / Orders / Operations / Sales / Magento Admin with product ordering details",
+      "action": "click [2495] where [2495] is Add Products",
+      "environmental_dynamics": "A product-selection interface opened, presenting a table of catalog items and controls such as 'Add Selected Product(s) to Order', 'Search', and 'Reset Filter'."
+    },
+    {
+      "initial_state": "Product-selection interface within New Order creation",
+      "action": "click [4023] where [4023] is Add Selected Product(s) to Order",
+      "environmental_dynamics": "A confirmation message appeared indicating the chosen products were successfully added to the draft order."
+    },
+    {
+      "initial_state": "New Order / Orders / Operations / Sales / Magento Admin page, focused with order details visible",
+      "action": "click [5192] where [5192] is Get shipping methods and rates",
+      "environmental_dynamics": "Available shipping methods and costs were displayed (e.g., 'Flat Rate' and 'Best Way'), enabling selection of a preferred shipping option."
+    },
+    {
+      "initial_state": "Grace Nguyen / Customers / Customers / Magento Admin",
+      "action": "click [749] where [749] is Reset Password",
+      "environmental_dynamics": "A notice stated, 'The customer will receive an email with a link to reset password,' confirming initiation of a password-reset email."
+    },
+    {
+      "initial_state": "Grace Nguyen / Customers / Customers / Magento Admin with Addresses section visible",
+      "action": "click [1029] where [1029] is Default Billing Address Edit",
+      "environmental_dynamics": "An 'Add/Update Address' dialog opened, allowing editing of the customer\u2019s billing address with standard address fields."
+    },
+    {
+      "initial_state": "Add/Update Address dialog for Grace Nguyen",
+      "action": "type [2606] [123 New Address St ] where [2606] is Street Address",
+      "environmental_dynamics": "The Street Address field was updated to '123 New Address St', modifying the pending address data."
+    },
+    {
+      "initial_state": "Add/Update Address dialog for Grace Nguyen",
+      "action": "click [1594] where [1594] is Save",
+      "environmental_dynamics": "The address changes were saved successfully and the dialog closed, returning to the customer details view."
+    },
+    {
+      "initial_state": "Customers / Customers / Magento Admin with a list of customers displayed",
+      "action": "click [1649] where [1649] is (checkbox for Sarah Miller)",
+      "environmental_dynamics": "The checkbox for Sarah Miller was selected, marking her record for bulk or contextual actions."
+    },
+    {
+      "initial_state": "Customers / Customers / Magento Admin page with a focused dialog showing operation description",
+      "action": "click [2031] where [2031] is (dialog confirm button)",
+      "environmental_dynamics": "A confirmation message inside the dialog reported '1 item was successfully updated', signaling completion of the previous bulk action."
+    },
+    {
+      "initial_state": "Orders / Operations / Sales / Magento Admin with multiple entries displayed",
+      "action": "click [1404] where [1404] is 000000309",
+      "environmental_dynamics": "The interface navigated to the detail view of order #000000309, presenting full order, payment, and customer information."
+    },
+    {
+      "initial_state": "Orders / Operations / Sales / Magento Admin page",
+      "action": "click [1460] where [1460] is View",
+      "environmental_dynamics": "The browser opened the order-detail page for order #000000065, including customer info, order status, and itemised products."
+    }
+  ],
+  "gitlab": [
+    {
+      "initial_state": "GitLab Projects Dashboard page with the search box 'Search GitLab' visible",
+      "action": "click [130] where [130] is Search GitLab",
+      "environmental_dynamics": "The search interface expanded to show suggestions below the search box, with options for navigating to various results, and the input field became focused, allowing for immediate text input."
+    },
+    {
+      "initial_state": "GitLab dashboard with search bar visible",
+      "action": "type [898] [JavaScript ] where [898] is Search GitLab",
+      "environmental_dynamics": "The search bar displayed a message indicating that the endpoint has been requested too many times, preventing further interaction."
+    },
+    {
+      "initial_state": "GitLab search results page focused on JavaScript",
+      "action": "Attempt to perfom \"type\" on element \"[898]\" but no matching element found. Please check the observation more carefully.",
+      "environmental_dynamics": "no change"
+    },
+    {
+      "initial_state": "GitLab search results page displaying various projects related to JavaScript",
+      "action": "click [320] where [320] is sweet-js / sweet-core",
+      "environmental_dynamics": "The page navigated to the specific repository page for 'sweet-js / sweet-core', changing the focus to that project's details, including project ID, updates, and file navigation."
+    },
+    {
+      "initial_state": "GitLab project page for sweet-js / sweet-core",
+      "action": "click [322] where [322] is Issues",
+      "environmental_dynamics": "The page transitioned to the 'Issues' tab, displaying a list of issues associated with the project, showing 'Open 62' issues and a variety of details including issue titles and metadata."
+    },
+    {
+      "initial_state": "GitLab search page with 'accessibility' in the search box",
+      "action": "click [174] where [174] is Byte Blaze",
+      "environmental_dynamics": "The 'Byte Blaze' link became focused and expanded a popup menu, displaying additional clickable options such as 'Set status', 'Edit profile', 'Preferences', and 'Sign out'."
+    },
+    {
+      "initial_state": "GitLab homepage with search bar and various navigation links",
+      "action": "click [186] where [186] is Edit profile",
+      "environmental_dynamics": "The page navigated to the 'Edit Profile' section within User Settings, displaying user profile settings and information fields for editing."
+    },
+    {
+      "initial_state": "Edit Profile \u00b7 User Settings \u00b7 GitLab, with profile settings visible",
+      "action": "click [595] where [595] is Update profile settings",
+      "environmental_dynamics": "A status message appeared confirming 'Profile was successfully updated', indicating the changes made were successfully saved."
+    },
+    {
+      "initial_state": "GitLab 'Edit Profile' page for User Settings",
+      "action": "click [419] where [419] is ",
+      "environmental_dynamics": "The emoji selection menu opened, displaying various emoji options for the user's status, allowing for selection and customization."
+    },
+    {
+      "initial_state": "Edit Profile page with User Settings for Byte Blaze",
+      "action": "click [588] where [588] is ",
+      "environmental_dynamics": "The checkbox for 'Include private contributions on my profile' was checked, indicating that the user now wishes to display contributions from private projects on their profile."
+    },
+    {
+      "initial_state": "Edit Profile \u00b7 User Settings \u00b7 GitLab, focused on 'Pronouns' textbox",
+      "action": "type [509] [they/them ] where [509] is Pronouns",
+      "environmental_dynamics": "The 'Pronouns' textbox was populated with the input 'they/them' to specify the user's preferred pronouns."
+    },
+    {
+      "initial_state": "GitLab search page with 'frontend developer' in the search box",
+      "action": "type [130] [frontend engineer ] where [130] is Merge requests",
+      "environmental_dynamics": "The search box was updated to reflect the new input 'frontend engineer ', and the link 'Issues' now shows a count of 74 instead of 0."
+    },
+    {
+      "initial_state": "GitLab homepage with search bar and navigation links visible",
+      "action": "click [114] where [114] is Create new...",
+      "environmental_dynamics": "A dropdown menu expanded under the 'Create new...' link, showing additional options to create a new project/repository, new group, and new snippet."
+    },
+    {
+      "initial_state": "GitLab search page with the search term 'web accessibility candidates' entered",
+      "action": "type [227] [web accessibility candidates ] where [227] is Search for projects, issues, etc.",
+      "environmental_dynamics": "The search input was updated to reflect the new query 'web accessibility candidates', resulting in a change in the displayed search results indicating no projects were found matching the new search term."
+    }
+  ],
+  "shopping": [
+    {
+      "initial_state": "One Stop Market homepage with search bar collapsed",
+      "action": "click [272] where [272] is Search entire store here...",
+      "environmental_dynamics": "The search bar expanded and is now focused, allowing users to enter search terms and displaying an autocomplete list."
+    },
+    {
+      "initial_state": "One Stop Market homepage, focused on product showcases",
+      "action": "click [1382] where [1382] is Pre-baked Gingerbread House Kit Value Pack, 17 oz., Pack of 2, Total 34 oz.",
+      "environmental_dynamics": "The browser navigated to the product detail page for the 'Pre-baked Gingerbread House Kit Value Pack', displaying detailed product information and an option to add the item to the cart."
+    },
+    {
+      "initial_state": "Product page for Pre-baked Gingerbread House Kit with focused view on product details",
+      "action": "click [1503] where [1503] is Reviews (1)",
+      "environmental_dynamics": "The 'Reviews (1)' tab became expanded and selected, displaying the customer review section along with the existing review content, including a rating and a form to submit a new review."
+    },
+    {
+      "initial_state": "One Stop Market homepage",
+      "action": "click [1536] where [1536] is V8 +Energy, Healthy Energy Drink, Steady Energy from Black and Green Tea, Pomegranate Blueberry, 8 Ounce Can ,Pack of 24",
+      "environmental_dynamics": "The page navigated to the product detail page for 'V8 +Energy, Healthy Energy Drink, Steady Energy from Black and Green Tea, Pomegranate Blueberry, 8 Ounce Can, Pack of 24', displaying product details such as pricing, rating, and available actions such as 'Add to Cart', 'Add to Wish List', and 'Add to Compare'."
+    },
+    {
+      "initial_state": "V8 +Energy product page with product details",
+      "action": "click [1534] where [1534] is 12  Reviews ",
+      "environmental_dynamics": "The page navigated to the Reviews section, expanding to show customer reviews, including ratings and feedback from users about the product."
+    },
+    {
+      "initial_state": "V8 +Energy product page with customer reviews section visible",
+      "action": "click [1537] where [1537] is Add Your Review",
+      "environmental_dynamics": "The 'Add Your Review' section expanded, allowing the user to input a star rating, nickname, summary, and review text, along with an active submit button."
+    },
+    {
+      "initial_state": "V8 +Energy product page with review form visible",
+      "action": "click [1816] where [1816] is Submit Review",
+      "environmental_dynamics": "A confirmation alert appeared stating 'You submitted your review for moderation,' indicating that the review has been successfully submitted."
+    },
+    {
+      "initial_state": "V8 +Energy product page",
+      "action": "click [1564] where [1564] is Add to Wish List",
+      "environmental_dynamics": "The browser navigated to the 'My Wish List' page, indicating that the item 'V8 +Energy, Healthy Energy Drink' has been successfully added to the wish list, along with an alert message confirming the addition."
+    },
+    {
+      "initial_state": "My Wish List with 1 item (V8 +Energy, Healthy Energy Drink, Steady Energy from Black and Green Tea, Pomegranate Blueberry, 8 Ounce Can, Pack of 24)",
+      "action": "click [1672] where [1672] is \ue616 Remove This Item",
+      "environmental_dynamics": "The item was removed from the wish list, and an alert indicated that 'V8 +Energy, Healthy Energy Drink, Steady Energy from Black and Green Tea, Pomegranate Blueberry, 8 Ounce Can, Pack of 24 has been removed from your Wish List.' The wish list now shows 'You have no items in your wish list.'"
+    },
+    {
+      "initial_state": "My Wish List page with items listed",
+      "action": "click [239] where [239] is \ue611 My Cart 3 3items",
+      "environmental_dynamics": "A cart dialog opened, displaying details of the items in the cart, including the subtotal and options to proceed to checkout or edit the cart."
+    },
+    {
+      "initial_state": "My Wish List with items visible",
+      "action": "click [267] where [267] is Proceed to Checkout",
+      "environmental_dynamics": "The browser navigated to the 'Checkout' page, displaying the checkout process with shipping details and an order summary."
+    },
+    {
+      "initial_state": "Checkout page with Shipping Address and a button to add a new address",
+      "action": "click [398] where [398] is +New Address",
+      "environmental_dynamics": "A modal dialog for entering a new shipping address opened, allowing the user to input information such as name, address, and phone number."
+    },
+    {
+      "initial_state": "Checkout page with shipping address section",
+      "action": "type [776] [6505551212 ] where [776] is ",
+      "environmental_dynamics": "The phone number textbox accepted the input '6505551212', and the provided zip/postal code textbox displayed an alert indicating the zip code seems to be invalid, suggesting a correction."
+    },
+    {
+      "initial_state": "Product page for 'Pre-baked Gingerbread House Kit Value Pack, 17 oz., Pack of 2, Total 34 oz.' with review submission form visible",
+      "action": "click [1710] where [1710] is Submit Review",
+      "environmental_dynamics": "A confirmation alert appeared indicating that the review was submitted for moderation."
+    },
+    {
+      "initial_state": "Pre-baked Gingerbread House Kit product page with review section visible",
+      "action": "click [1713] where [1713] is Submit Review",
+      "environmental_dynamics": "The review submission process initiated, displaying error messages indicating that both the summary and review text fields are required and need to be filled before submission."
+    },
+    {
+      "initial_state": "One Stop Market homepage",
+      "action": "click [287] where [287] is \ue622 Beauty & Personal Care",
+      "environmental_dynamics": "The page navigated to the 'Beauty & Personal Care' section, updating the content to display relevant products and categories related to beauty and personal care."
+    },
+    {
+      "initial_state": "Beauty & Personal Care items list page",
+      "action": "click [1518] where [1518] is Tweezers For Succulents Duo",
+      "environmental_dynamics": "The browser navigated to the product detail page for 'Tweezers For Succulents Duo', displaying specific product information including SKU, price, availability, and detailed descriptions."
+    },
+    {
+      "initial_state": "Product page for 'Tweezers For Succulents Duo', focused on product details",
+      "action": "click [1667] where [1667] is Reviews",
+      "environmental_dynamics": "The tab for 'Reviews' was clicked, bringing the review section into focus and displaying options to submit a rating and review for the product."
+    },
+    {
+      "initial_state": "Tweezers For Succulents Duo product page with review form visible",
+      "action": "click [1725] where [1725] is Submit Review",
+      "environmental_dynamics": "A confirmation alert appeared indicating that the review was submitted for moderation."
+    },
+    {
+      "initial_state": "Review submission page for 'Tweezers For Succulents Duo', focused on summary input",
+      "action": "type [1717] [Great tweezers for any succulent lover! ] where [1717] is Summary*",
+      "environmental_dynamics": "The summary input field was populated with the text 'Great tweezers for any succulent lover!', and an error message was displayed indicating that the review field is required."
+    },
+    {
+      "initial_state": "One Stop Market homepage",
+      "action": "click [542] where [542] is \ue622 Clothing, Shoes & Jewelry",
+      "environmental_dynamics": "The browser navigated to the 'Clothing, Shoes & Jewelry' section, displaying items available in that category, along with updated navigation and listing elements."
+    },
+    {
+      "initial_state": "Clothing, Shoes & Jewelry items listing page",
+      "action": "click [1488] where [1488] is HFHAPW Onesie Pajamas for Women,Women's Valentines Day Sexy Jumpsuit V Neck Button Down Red Lip Printed One Piece Pajamas",
+      "environmental_dynamics": "The page navigated to the product details page for 'HFHAPW Onesie Pajamas for Women, Women's Valentines Day Sexy Jumpsuit V Neck Button Down Red Lip Printed One Piece Pajamas', displaying detailed information about the product."
+    },
+    {
+      "initial_state": "Product details page for HFHAPW Onesie Pajamas, focused",
+      "action": "click [1600] where [1600] is Reviews",
+      "environmental_dynamics": "The Reviews tab was activated, expanding its content to show the review submission form for the product, allowing the user to enter their rating, nickname, summary, and full review."
+    },
+    {
+      "initial_state": "HFHAPW Onesie Pajamas for Women product page with review section",
+      "action": "click [1659] where [1659] is Submit Review",
+      "environmental_dynamics": "A confirmation alert appeared stating 'You submitted your review for moderation', indicating that the user's review submission was successful."
+    },
+    {
+      "initial_state": "HFHAPW Onesie Pajamas product page",
+      "action": "hover [436] where [436] is \ue622 Beauty & Personal Care",
+      "environmental_dynamics": "The Beauty & Personal Care menu item displayed its submenu upon hovering, revealing additional categories related to beauty products."
+    },
+    {
+      "initial_state": "HFHAPW Onesie Pajamas for Women product page",
+      "action": "Attempt to perfom \"click\" on element \"[542]\" but no matching element found. Please check the observation more carefully.",
+      "environmental_dynamics": "no change"
+    },
+    {
+      "initial_state": "HFHAPW Onesie Pajamas product review page",
+      "action": "type [1753] [Disappointed with the product ] where [1753] is Summary*",
+      "environmental_dynamics": "The summary text box is now populated with the input 'Disappointed with the product', and a message indicating that the review field is required has appeared."
+    },
+    {
+      "initial_state": "Clothing, Shoes & Jewelry items page",
+      "action": "click [1547] where [1547] is Christmas Elf Tshirt I'm The Sporty Elf Matching Xmas Gift Tank Top",
+      "environmental_dynamics": "The browser navigated to the product detail page for 'Christmas Elf Tshirt I'm The Sporty Elf Matching Xmas Gift Tank Top', displaying product details, pricing, and options for size and color."
+    },
+    {
+      "initial_state": "Product page for Christmas Elf Tshirt",
+      "action": "click [262] where [262] is My Account",
+      "environmental_dynamics": "The page transition occurred to the 'My Account' section, displaying user account details, including contact information and recent orders."
+    },
+    {
+      "initial_state": "My Account page focused on user account details",
+      "action": "click [828] where [828] is \ue622 Office Products",
+      "environmental_dynamics": "The browser navigated to the 'Office Products' category page, displaying a list of office product items along with sorting and viewing options."
+    },
+    {
+      "initial_state": "Office Products category page showing multiple items with pagination",
+      "action": "click [1518] where [1518] is PHOTOSMART PLUS B209 CLR INKJETFB P/S/C USB/WRLS 1",
+      "environmental_dynamics": "The browser navigated to the product detail page of 'PHOTOSMART PLUS B209 CLR INKJETFB P/S/C USB/WRLS 1', displaying detailed information about the product including price, reviews, and options to add to cart, wish list, or compare."
+    },
+    {
+      "initial_state": "PHOTOSMART PLUS B209 product page with product details",
+      "action": "click [1537] where [1537] is 2  Reviews ",
+      "environmental_dynamics": "The Reviews tab expanded, displaying customer reviews and ratings for the product, allowing users to read feedback on the printer."
+    },
+    {
+      "initial_state": "Product review submission page for PHOTOSMART PLUS B209 CLR INKJETFB P/S/C USB/WRLS 1",
+      "action": "click [1703] where [1703] is Submit Review",
+      "environmental_dynamics": "An alert appeared confirming that the user's review was submitted for moderation."
+    },
+    {
+      "initial_state": "One Stop Market homepage with various product listings",
+      "action": "click [1496] where [1496] is 20 PCS Balls Cake Topper Mini Balloons Cake Topper Pearl Balls Cake Pick Foam Ball Cupcake Topper Baking Decoration Supplies Toothpick Party Wedding Anniversary Birthday Baby Shower Cake Decoration",
+      "environmental_dynamics": "Navigated to the product detail page for '20 PCS Balls Cake Topper Mini Balloons Cake Topper', displaying detailed information about the item, including SKU, ratings, pricing, and options for color and quantity."
+    },
+    {
+      "initial_state": "Product review page for '20 PCS Balls Cake Topper Mini Balloons Cake Topper'",
+      "action": "click [1409] where [1409] is Add Your Review",
+      "environmental_dynamics": "The review form opened up, allowing the user to submit their rating and written review for the product."
+    },
+    {
+      "initial_state": "Product review submission form on '20 PCS Balls Cake Topper' page",
+      "action": "click [1604] where [1604] is Submit Review",
+      "environmental_dynamics": "The review was submitted, reflecting the user's feedback and the submission button is now unresponsive."
+    },
+    {
+      "initial_state": "Product review page for Dilwe1 12'' Phone Screen Magnifier, with a focused review submission form",
+      "action": "click [1703] where [1703] is Submit Review",
+      "environmental_dynamics": "A validation alert appeared stating 'Please enter a review.', indicating that the review submission was unsuccessful due to an empty review text field."
+    }
+  ]
+}

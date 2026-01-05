@@ -1,0 +1,11 @@
+{
+  "sites": [
+    "gitlab"
+  ],
+  "require_login": true,
+  "storage_state": "./.auth/gitlab_state.json",
+  "start_url": "WA_GITLAB",
+  "geolocation": null,
+  "intent": "n/a",
+  "require_reset": false
+}

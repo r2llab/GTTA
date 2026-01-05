@@ -1,0 +1,10 @@
+{
+    "sites": [
+        "map"
+    ],
+    "start_url": "WA_MAP",
+    "geolocation": null,
+    "require_reset": false,
+    "storage_state": null,
+    "intent": "Find and purchase a vegan snack item online."
+}

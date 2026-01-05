@@ -1,0 +1,197 @@
+[
+  {
+    "initial_state": "Magento Admin Dashboard page",
+    "action": "click [156] where [156] is \ue60b SALES",
+    "environmental_dynamics": "The 'SALES' section was clicked, causing it to become focused, and a vertical menu with options such as 'Orders', 'Invoices', 'Shipments', etc., was displayed."
+  },
+  {
+    "initial_state": "Dashboard / Magento Admin",
+    "action": "click [168] where [168] is Orders",
+    "environmental_dynamics": "The page navigated to the 'Orders' section, updating the header to 'Orders / Operations / Sales / Magento Admin' and displaying related functionalities specific to orders."
+  },
+  {
+    "initial_state": "Orders / Operations / Sales / Magento Admin with multiple entries displayed",
+    "action": "click [1400] where [1400] is ",
+    "environmental_dynamics": "A row was selected in the table, with its checkbox now checked, indicating that an order has been selected."
+  },
+  {
+    "initial_state": "Order details page for order ID #000000299 in Magento Admin",
+    "action": "click [1424] where [1424] is View",
+    "environmental_dynamics": "The page updated to display detailed information about the selected order including order date, status, customer information, payment method, and items ordered."
+  },
+  {
+    "initial_state": "Magento Admin Order page for customer Sarah Miller",
+    "action": "click [784] where [784] is Edit Customer",
+    "environmental_dynamics": "The browser navigated to the Customer Information page for Sarah Miller, revealing detailed personal information and options for managing the customer profile."
+  },
+  {
+    "initial_state": "Sarah Miller / Customers / Customers / Magento Admin with Save Customer button visible",
+    "action": "click [755] where [755] is Save Customer",
+    "environmental_dynamics": "A confirmation message appeared on the screen stating 'You saved the customer.', indicating that the customer information has been successfully saved."
+  },
+  {
+    "initial_state": "Customers / Customers / Magento Admin page with 'CUSTOMERS' link focused",
+    "action": "click [233] where [233] is \ue603 CUSTOMERS",
+    "environmental_dynamics": "The 'CUSTOMERS' link is now marked as focused, and a vertical navigation menu for customer-related actions has appeared, providing options such as 'All Customers', 'Now Online', 'Login as Customer Log', and 'Customer Groups'."
+  },
+  {
+    "initial_state": "Magento Admin customer management page with customer records visible",
+    "action": "click [715] where [715] is Add New Customer",
+    "environmental_dynamics": "A new customer form appeared on the page, allowing for the entry of details to add a new customer."
+  },
+  {
+    "initial_state": "Magento Admin Panel with 'Customers' page focused",
+    "action": "click [182] where [182] is \ue60b SALES",
+    "environmental_dynamics": "The 'SALES' link became focused, and a menu opened vertically underneath it, revealing various sales options like 'Orders', 'Invoices', 'Shipments', etc."
+  },
+  {
+    "initial_state": "Magento Admin Panel for Customers overview",
+    "action": "Attempt to perfom \"click\" on element \"[168]\" but no matching element found. Please check the observation more carefully.",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "Magento Admin Customers page with customer records visible",
+    "action": "click [715] where [715] is Add New Customer",
+    "environmental_dynamics": "A form for adding a new customer appeared, allowing the user to enter customer details."
+  },
+  {
+    "initial_state": "Magento Admin Customers page with search functionality",
+    "action": "type [857] [Sarah Miller ] where [857] is Search by keyword",
+    "environmental_dynamics": "The search textbox was populated with the keyword 'Sarah Miller', and now displays 'Sarah Miller' as its value, indicating the focused state of the search input."
+  },
+  {
+    "initial_state": "Customers / Customers / Magento Admin page with search field focused and the button 'Search' visible",
+    "action": "click [858] where [858] is Search",
+    "environmental_dynamics": "The search action was triggered, indicating that the system is processing or displaying results based on the keyword 'Sarah Miller'."
+  },
+  {
+    "initial_state": "Magento Admin Customer details page",
+    "action": "click [1675] where [1675] is Sarah Miller",
+    "environmental_dynamics": "The details for Sarah Miller were displayed in an editable format, showing options to change customer information along with a 'Save' and 'Cancel' button."
+  },
+  {
+    "initial_state": "Customers / Customers / Magento Admin",
+    "action": "click [3500] where [3500] is Cancel",
+    "environmental_dynamics": "The action triggered a cancellation of the current operation, likely affecting the editing of the customer details, and reverting any unsaved changes back to their previous state."
+  },
+  {
+    "initial_state": "Magento Admin Panel on the Customers page",
+    "action": "click [233] where [233] is \ue603 CUSTOMERS",
+    "environmental_dynamics": "The CUSTOMERS link was clicked, which highlighted the link, and a vertical submenu opened beneath it displaying additional options such as 'All Customers', 'Now Online', 'Login as Customer Log', and 'Customer Groups'."
+  },
+  {
+    "initial_state": "Customers / Customers / Magento Admin",
+    "action": "type [857] [Sarah Miller ] where [857] is Search by keyword",
+    "environmental_dynamics": "The text 'Sarah Miller' was entered into the search textbox, and the textbox gained focus as a result."
+  },
+  {
+    "initial_state": "Magento Admin Panel with the 'Search' button and search textbox focused",
+    "action": "click [858] where [858] is Search",
+    "environmental_dynamics": "The search functionality was initiated, and the interface processed the current search input, but there were no visible changes to the elements in the browser."
+  },
+  {
+    "initial_state": "Magento Admin Customers page with customer records visible",
+    "action": "click [1675] where [1675] is Sarah Miller",
+    "environmental_dynamics": "The details of 'Sarah Miller' were expanded to show additional editable information, including email, group, and buttons for 'Cancel' and 'Save'."
+  },
+  {
+    "initial_state": "Customers / Customers / Magento Admin page with main content visible",
+    "action": "click [738] where [738] is ",
+    "environmental_dynamics": "A dropdown list appeared under the 'Default View' button, showing options 'Default View' and 'Save View As...' for the user to choose."
+  },
+  {
+    "initial_state": "Magento Admin Customer page",
+    "action": "click [715] where [715] is Add New Customer",
+    "environmental_dynamics": "The page transitioned to the 'New Customer' section, focusing on a form to create a new customer, with all relevant fields for customer information now visible."
+  },
+  {
+    "initial_state": "New Customer / Customers / Customers / Magento Admin, focused",
+    "action": "type [818] [John ] where [818] is ",
+    "environmental_dynamics": "The textbox for 'First Name' populated with the value 'John', and the field became focused."
+  },
+  {
+    "initial_state": "New Customer / Customers / Customers / Magento Admin, Last Name field focused with value 'John'",
+    "action": "type [830] [Doe ] where [830] is Last Name *",
+    "environmental_dynamics": "The Last Name field was updated to 'Doe', reflecting the new input of the user's last name."
+  },
+  {
+    "initial_state": "New Customer / Customers / Customers / Magento Admin with an empty Email textbox",
+    "action": "type [842] [john.doe@example.com ] where [842] is Email *",
+    "environmental_dynamics": "The Email textbox was updated with the value 'john.doe@example.com', and it now reflects this input as focused."
+  },
+  {
+    "initial_state": "New Customer / Customers / Customers / Magento Admin",
+    "action": "click [751] where [751] is Save Customer",
+    "environmental_dynamics": "The page transitioned from the 'New Customer' form to the 'Customers' overview, indicating that the customer details were successfully saved and displaying a confirmation message along with customer search functionalities."
+  },
+  {
+    "initial_state": "Customers / Customers / Magento Admin page with search options visible",
+    "action": "click [857] where [857] is Search",
+    "environmental_dynamics": "The search button was clicked, resulting in the interface updating to show the search button focused, indicating that the search query has been executed."
+  },
+  {
+    "initial_state": "Magento Admin customer overview page with details of customers listed",
+    "action": "click [1695] where [1695] is Sarah Miller",
+    "environmental_dynamics": "The checkbox for 'Sarah Miller' was selected, indicating the customer has been chosen for further actions."
+  },
+  {
+    "initial_state": "Customers / Customers / Magento Admin",
+    "action": "Attempt to perfom \"click\" on element \"[784]\" but no matching element found. Please check the observation more carefully.",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "Customers / Customers / Magento Admin with the 'Try' button visible",
+    "action": "Attempt to perfom \"click\" on element \"[1675]\" but no matching element found. Please check the observation more carefully.",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "Customers / Customers / Magento Admin with search options visible",
+    "action": "click [857] where [857] is Search",
+    "environmental_dynamics": "The focus shifted to the 'Search' button, indicating it was prepared for user interaction, but no additional visual changes to the page elements occurred."
+  },
+  {
+    "initial_state": "Customers / Customers / Magento Admin page with focus on 'View Details' link",
+    "action": "click [1286] where [1286] is View Details",
+    "environmental_dynamics": "A details dialog opened, displaying operation summaries and a description of the action taken for the customer, with options to confirm or dismiss the dialog."
+  },
+  {
+    "initial_state": "Customers / Customers / Magento Admin panel",
+    "action": "Attempt to perfom \"click\" on element \"[784]\" but no matching element found. Please check the observation more carefully.",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "Magento Admin Customer Management page",
+    "action": "click [714] where [714] is Add New Customer",
+    "environmental_dynamics": "A form to add a new customer opened up, allowing the user to input details for a new customer."
+  },
+  {
+    "initial_state": "Customers / Customers / Magento Admin, focused on the main page with various buttons and input fields visible",
+    "action": "Attempt to perfom \"type\" on element \"[818]\" but no matching element found. Please check the observation more carefully.",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "Customers / Customers / Magento Admin with customer records displayed",
+    "action": "click [714] where [714] is Add New Customer",
+    "environmental_dynamics": "A modal dialog opened prompting the user to enter details for a new customer, providing input fields such as name, email, and other relevant information."
+  },
+  {
+    "initial_state": "Customers / Customers / Magento Admin with a focused dialog for operation details",
+    "action": "Attempt to perfom \"click\" on element \"[1675]\" but no matching element found. Please check the observation more carefully.",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "Customers / Customers / Magento Admin",
+    "action": "Attempt to perfom \"click\" on element \"[858]\" but no matching element found. Please check the observation more carefully.",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "Customers / Customers / Magento Admin page with a focused dialog showing operation description",
+    "action": "click [2031] where [2031] is ",
+    "environmental_dynamics": "The dialog remained focused, displaying a confirmation message indicating that 1 item was successfully updated."
+  },
+  {
+    "initial_state": "Customers / Customers / Magento Admin with main section focused",
+    "action": "click [233] where [233] is ",
+    "environmental_dynamics": "A section became available for editing or displaying more details relating to the customer, expanding interaction options within the admin panel."
+  }
+]

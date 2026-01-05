@@ -1,0 +1,42 @@
+[
+  {
+    "initial_state": "Magento Admin Dashboard with Sales, Catalog, Customers, Marketing, Content, Reports, Stores, System, and Partners sections",
+    "action": "click [156] where [156] is \ue60b SALES",
+    "environmental_dynamics": "The 'SALES' menu item was clicked, expanding the Sales submenu with options like Orders, Invoices, Shipments, Credit Memos, Billing Agreements, and Transactions."
+  },
+  {
+    "initial_state": "Dashboard / Magento Admin homepage with Sales menu section visible",
+    "action": "click [168] where [168] is Orders",
+    "environmental_dynamics": "Navigated to the Orders page under the Sales section, displaying a table of orders with detailed information such as order ID, purchase date, customer name, and order status."
+  },
+  {
+    "initial_state": "Orders page of Magento Admin with a list of orders",
+    "action": "click [1700] where [1700] is 000000009",
+    "environmental_dynamics": "The browser navigated to the order details page for order #000000009, displaying detailed information including order date, status, account information, address details, and payment & shipping methods."
+  },
+  {
+    "initial_state": "Magento Admin panel displaying order details page with sections providing information about the order and associated product items.",
+    "action": "click [735] where [735] is Ship",
+    "environmental_dynamics": "Navigated to a new shipment page within the order section where details like product shipment quantities and options for adding tracking numbers are available."
+  },
+  {
+    "initial_state": "Magento Admin page displaying the order details for a new shipment",
+    "action": "click [871] where [871] is ",
+    "environmental_dynamics": "The textbox for the 'Qty to Ship' of 'Chloe Compete Tank' received focus."
+  },
+  {
+    "initial_state": "Magento Admin New Shipment page listing items to ship with the focus on the 'Qty to Ship' textbox for 'Chloe Compete Tank SKU: WT06-M-Yellow Color: Yellow Size: M'",
+    "action": "type [871] [2] where [871] is ",
+    "environmental_dynamics": "The value in the 'Qty to Ship' textbox for 'Chloe Compete Tank SKU: WT06-M-Yellow Color: Yellow Size: M' was updated to '2'."
+  },
+  {
+    "initial_state": "Magento admin New Shipment page displaying order details and product shipment information",
+    "action": "click [817] where [817] is ",
+    "environmental_dynamics": "No change"
+  },
+  {
+    "initial_state": "Magento Admin New Shipment page with order and account information, address details, payment and shipping methods, inventory and items to ship, shipment total, and shipment options.",
+    "action": "type [838] [3 ] where [838] is ",
+    "environmental_dynamics": "The 'Qty to Ship' value for 'Sprite Yoga Strap 8 foot SKU: 24-WG086' was updated to '3', and the corresponding input field became focused."
+  }
+]

@@ -1,0 +1,197 @@
+[
+  {
+    "initial_state": "One Stop Market homepage showing a selection of product showcases and a vertical menu with categories including 'Beauty & Personal Care'.",
+    "action": "click [287] where [287] is \ue622 Beauty & Personal Care",
+    "environmental_dynamics": "The view switched to the 'Beauty & Personal Care' category page, displaying related filters, shopping options, and a list of products in that category."
+  },
+  {
+    "initial_state": "Beauty & Personal Care category product listing page displaying a list of beauty products, including 'Mineralogie All Natural Lip Gloss, Ruby Rose' with a clickable link for '3 Reviews'.",
+    "action": "click [1672] where [1672] is 3 \u00a0Reviews",
+    "environmental_dynamics": "Navigated to the product detail page for 'Mineralogie All Natural Lip Gloss, Ruby Rose', displaying product information, available color options, price, stock status, review links, and additional details."
+  },
+  {
+    "initial_state": "Product page for 'Mineralogie All Natural Lip Gloss, Ruby Rose' with multiple tabs including 'Details' and 'Reviews (3)', but the 'Reviews (3)' tab is not selected and review content is not visible.",
+    "action": "click [1642] where [1642] is Reviews (3)",
+    "environmental_dynamics": "The 'Reviews (3)' tab was selected, revealing customer reviews and a review submission form under the tab panel."
+  },
+  {
+    "initial_state": "Product page for 'Mineralogie All Natural Lip Gloss, Ruby Rose' with the 'Reviews (3)' tab open, review form visible, and no star rating selected.",
+    "action": "click [1766] where [1766] is Rating \ue605\ue605\ue605\ue605\ue605 5 stars",
+    "environmental_dynamics": "The 'Rating 5 stars' radio button in the review form is now focused and checked, indicating the user has selected a 5-star rating for the review."
+  },
+  {
+    "initial_state": "Product page for 'Mineralogie All Natural Lip Gloss, Ruby Rose' with the review form open and the Summary* field empty.",
+    "action": "type [1779] [Loved the color and texture!] where [1779] is Summary*",
+    "environmental_dynamics": "The 'Summary*' textbox in the review form was filled with the text 'Loved the color and texture!', and the field is now focused."
+  },
+  {
+    "initial_state": "Product detail page for 'Mineralogie All Natural Lip Gloss, Ruby Rose' with a review form where the 'Review*' textbox is empty and focused.",
+    "action": "type [1784] [This lip gloss gives a beautiful shine and feels lightweight. Highly recommend for everyday use!] where [1784] is Review*",
+    "environmental_dynamics": "The 'Review*' textbox was filled with the text: 'This lip gloss gives a beautiful shine and feels lightweight. Highly recommend for everyday use!' and is now focused with the new value displayed."
+  },
+  {
+    "initial_state": "Product page with the 'Write a Review' form open; in the review section, the '1 star' rating radio is selected.",
+    "action": "click [1766] where [1766] is Rating \ue605\ue605\ue605\ue605\ue605 5 stars",
+    "environmental_dynamics": "The '5 stars' rating radio button in the review form is now selected, replacing the previously selected '1 star' rating; no other changes are visible."
+  },
+  {
+    "initial_state": "Product page for 'Mineralogie All Natural Lip Gloss, Ruby Rose' with the user review form filled and focused on the review text field.",
+    "action": "click [1787] where [1787] is Submit Review",
+    "environmental_dynamics": "The user's review was submitted, the review form and reviews tab are no longer visible, and an alert message appears informing the user that their review has been submitted for moderation."
+  },
+  {
+    "initial_state": "Product page for 'Mineralogie All Natural Lip Gloss, Ruby Rose' with multiple color options, none selected.",
+    "action": "click [1539] where [1539] is Ruby Rose",
+    "environmental_dynamics": "The 'Ruby Rose' color radio button is now selected and focused, indicating it has been chosen as the color option."
+  },
+  {
+    "initial_state": "Product page for 'Mineralogie All Natural Lip Gloss, Ruby Rose' with the 'Details' tab expanded, and the Reviews tab visible but not selected.",
+    "action": "click [1642] where [1642] is Reviews (3)",
+    "environmental_dynamics": "The 'Reviews (3)' tab was expanded and selected, revealing customer reviews and the review submission form below the product details section."
+  },
+  {
+    "initial_state": "Product page for 'Mineralogie All Natural Lip Gloss, Ruby Rose', with 'Ruby Rose' color selected.",
+    "action": "click [1535] where [1535] is Jasmine",
+    "environmental_dynamics": "The color selection changed to 'Jasmine', making its radio button checked and focused, while 'Ruby Rose' is now deselected."
+  },
+  {
+    "initial_state": "Product page for 'Mineralogie All Natural Lip Gloss, Ruby Rose' with the color 'Jasmine' selected and color options (Jasmine, Ruby Rose, Tequila Sunrise) visible.",
+    "action": "click [1539] where [1539] is Ruby Rose",
+    "environmental_dynamics": "The selected color changed from 'Jasmine' to 'Ruby Rose', with the 'Ruby Rose' radio button now checked and focused."
+  },
+  {
+    "initial_state": "Product page for 'Mineralogie All Natural Lip Gloss, Ruby Rose' with the 'Reviews (3)' tab selected and the reviews panel open.",
+    "action": "click [1605] where [1605] is Details",
+    "environmental_dynamics": "The 'Details' tab was selected, replacing the reviews panel with the product details section, including product description and technical specifications."
+  },
+  {
+    "initial_state": "Product page for 'Mineralogie All Natural Lip Gloss, Ruby Rose' with the 'Details' tab currently selected, showing product details and description.",
+    "action": "click [1642] where [1642] is Reviews (3)",
+    "environmental_dynamics": "The 'Reviews (3)' tab became active, displaying customer reviews and the review submission form, while the 'Details' tab became inactive and its content was hidden."
+  },
+  {
+    "initial_state": "Product page for 'Mineralogie All Natural Lip Gloss, Ruby Rose' with the 'Reviews' tab selected and reviews section visible.",
+    "action": "click [1605] where [1605] is Details",
+    "environmental_dynamics": "The 'Details' tab was selected, switching the main content area from the reviews section to the product details section, now showing product description and specifications instead of customer reviews and review submission form."
+  },
+  {
+    "initial_state": "Product page for 'Mineralogie All Natural Lip Gloss, Ruby Rose' with the 'Details' tab selected, and a 'Reviews (3)' tab unselected and collapsed.",
+    "action": "click [1642] where [1642] is Reviews (3)",
+    "environmental_dynamics": "The 'Reviews (3)' tab is now selected and expanded, displaying customer reviews and the review submission form, while the 'Details' tab is deselected and collapsed."
+  },
+  {
+    "initial_state": "Product page for 'Mineralogie All Natural Lip Gloss, Ruby Rose' with the 'Reviews (3)' tab active and the product review section visible.",
+    "action": "click [1605] where [1605] is Details",
+    "environmental_dynamics": "The active tab switched to 'Details', making the product description and specifications visible while hiding the product reviews section."
+  },
+  {
+    "initial_state": "Product page for 'Mineralogie All Natural Lip Gloss, Ruby Rose' with the Details tab selected and the product description visible, while the Reviews tab is not expanded.",
+    "action": "click [1642] where [1642] is Reviews (3)",
+    "environmental_dynamics": "The Reviews (3) tab became selected and expanded, displaying a panel with customer reviews and the review submission form."
+  },
+  {
+    "initial_state": "Product detail page for 'Mineralogie All Natural Lip Gloss, Ruby Rose', with color options, where 'Ruby Rose' is selected.",
+    "action": "click [1535] where [1535] is Jasmine",
+    "environmental_dynamics": "'Jasmine' color radio button became checked and focused, and 'Ruby Rose' became unchecked, indicating the selected color switched from 'Ruby Rose' to 'Jasmine'."
+  },
+  {
+    "initial_state": "Product page for Mineralogie All Natural Lip Gloss, Ruby Rose, with the 'Jasmine' color radio button selected.",
+    "action": "click [1539] where [1539] is Ruby Rose",
+    "environmental_dynamics": "The selected color changed from 'Jasmine' to 'Ruby Rose', indicated by the 'Ruby Rose' radio button now being checked and focused."
+  },
+  {
+    "initial_state": "Product page for 'Mineralogie All Natural Lip Gloss, Ruby Rose' with 2 items currently in the shopping cart.",
+    "action": "click [1556] where [1556] is Add to Cart",
+    "environmental_dynamics": "A new alert appeared confirming the product was added to the shopping cart, and the cart icon now reflects only 1 item in the cart."
+  },
+  {
+    "initial_state": "Product detail page for 'Mineralogie All Natural Lip Gloss, Ruby Rose' with a 'My Cart' link showing 1 item in the cart.",
+    "action": "click [280] where [280] is \ue611 My Cart 1 1items",
+    "environmental_dynamics": "A cart summary dialog appeared displaying cart contents, subtotal, and checkout options, overlaying the main page content."
+  },
+  {
+    "initial_state": "Product page for Mineralogie All Natural Lip Gloss, Ruby Rose with a mini cart dialog open showing 1 item and a 'Proceed to Checkout' button visible.",
+    "action": "click [308] where [308] is Proceed to Checkout",
+    "environmental_dynamics": "The browser navigated from the product/cart interface to the checkout page, displaying shipping address, shipping methods, and an order summary for items in the cart."
+  },
+  {
+    "initial_state": "Checkout page with shipping address and shipping method sections displayed, and 'Next' button visible.",
+    "action": "click [816] where [816] is Next",
+    "environmental_dynamics": "Clicking 'Next' advanced the checkout process to the payment information step, displaying payment method selection, billing address confirmation, a 'Place Order' button, and an updated order summary with subtotal, shipping, and total."
+  },
+  {
+    "initial_state": "Checkout page displaying payment and shipping details with a visible and clickable 'Place Order' button",
+    "action": "click [1377] where [1377] is Place Order",
+    "environmental_dynamics": "After clicking 'Place Order', the interface shows a busy state and a loading image, indicating that the order placement process is in progress."
+  },
+  {
+    "initial_state": "Checkout page with payment and order summary sections visible, and the 'Place Order' button focused.",
+    "action": "click [315] where [315] is store logo",
+    "environmental_dynamics": "Navigated from the checkout page to the store's Success Page with an order confirmation, order number, and options to print receipt or continue shopping now visible."
+  },
+  {
+    "initial_state": "Success page after a completed purchase with order confirmation message and a 'Print receipt' link visible.",
+    "action": "click [1348] where [1348] is Print receipt",
+    "environmental_dynamics": "Clicking 'Print receipt' replaced the success page with the detailed order summary page, displaying order items, prices, addresses, shipping, and payment information for order #000000194."
+  },
+  {
+    "initial_state": "Order details page for Order # 000000194, displaying order summary, items, shipping and billing information.",
+    "action": "click [193] where [193] is store logo",
+    "environmental_dynamics": "The page changed from the order details view to the storefront homepage, showing navigational elements, product showcases, and main store features instead of a specific order's details."
+  },
+  {
+    "initial_state": "One Stop Market homepage showing product showcases and a main product grid with navigation menu including a 'Beauty & Personal Care' menu item.",
+    "action": "click [287] where [287] is \ue622 Beauty & Personal Care",
+    "environmental_dynamics": "The page navigated to the 'Beauty & Personal Care' category, updating the main heading, product listings, filters, and pagination to display items specific to 'Beauty & Personal Care'."
+  },
+  {
+    "initial_state": "Beauty & Personal Care category page displaying a grid of items, including 'Mineralogie All Natural Lip Gloss, Ruby Rose' in the 'Recently Ordered' section.",
+    "action": "click [1898] where [1898] is Mineralogie All Natural Lip Gloss, Ruby Rose",
+    "environmental_dynamics": "Navigated to the product detail page for 'Mineralogie All Natural Lip Gloss, Ruby Rose', displaying its product information, options, price, and additional details."
+  },
+  {
+    "initial_state": "Product page for 'Mineralogie All Natural Lip Gloss, Ruby Rose' with the 'Details' tab expanded and the 'Reviews (3)' tab collapsed.",
+    "action": "click [1556] where [1556] is Reviews (3)",
+    "environmental_dynamics": "The 'Reviews (3)' tab is now expanded and selected, revealing the customer reviews section and the review submission form, while the 'Details' tab is collapsed."
+  },
+  {
+    "initial_state": "Product page for 'Mineralogie All Natural Lip Gloss, Ruby Rose' with three unselected color radio buttons: Jasmine, Ruby Rose, and Tequila Sunrise.",
+    "action": "click [1454] where [1454] is Ruby Rose",
+    "environmental_dynamics": "The 'Ruby Rose' radio button is now selected and focused, indicating that 'Ruby Rose' is chosen as the color option."
+  },
+  {
+    "initial_state": "Product page for 'Mineralogie All Natural Lip Gloss, Ruby Rose' with product options and an 'Add to Cart' button available.",
+    "action": "click [1471] where [1471] is Add to Cart",
+    "environmental_dynamics": "After clicking 'Add to Cart', the 'Add to Cart' button changed to 'Added', and the 'My Cart' link in the banner now displays a loading animation with 'Loading...' indicating an update in progress."
+  },
+  {
+    "initial_state": "Product page for 'Mineralogie All Natural Lip Gloss, Ruby Rose' with the 'Reviews' tab currently selected and reviews form open.",
+    "action": "click [1520] where [1520] is Details",
+    "environmental_dynamics": "The 'Details' tab became selected, displaying the product details section and hiding the reviews and review submission form."
+  },
+  {
+    "initial_state": "Product page for 'Mineralogie All Natural Lip Gloss, Ruby Rose' with the 'Details' tab selected and product details visible.",
+    "action": "click [1556] where [1556] is Reviews (3)",
+    "environmental_dynamics": "The 'Reviews (3)' tab became selected, displaying customer reviews and a review submission form."
+  },
+  {
+    "initial_state": "Product page for Mineralogie All Natural Lip Gloss, Ruby Rose with the product review form present; none of the rating options in the review form are selected.",
+    "action": "click [1595] where [1595] is Rating \ue605\ue605\ue605\ue605\ue605 5 stars",
+    "environmental_dynamics": "The 5-star rating radio button in the review form is now selected and focused, indicating the user has chosen a 5-star rating for their review."
+  },
+  {
+    "initial_state": "Magento product page for 'Mineralogie All Natural Lip Gloss, Ruby Rose' with the review form open and the 'Summary*' textbox empty.",
+    "action": "type [1608] [Loved the shine and color!] where [1608] is Summary*",
+    "environmental_dynamics": "The 'Summary*' textbox in the review form was filled with the text 'Loved the shine and color!' and is now focused."
+  },
+  {
+    "initial_state": "Product page for 'Mineralogie All Natural Lip Gloss, Ruby Rose', with the review submission form visible and the Review* textbox empty.",
+    "action": "type [1613] [This lip gloss gives my lips a beautiful shine and feels lightweight, not sticky. Ruby Rose is the perfect everyday color. Highly recommended for anyone who loves natural-looking gloss! ] where [1613] is Review*",
+    "environmental_dynamics": "Text was entered into the 'Review*' textbox, filling it with the provided review content."
+  },
+  {
+    "initial_state": "Product detail page for 'Mineralogie All Natural Lip Gloss, Ruby Rose' with the 'Add Your Review' form open and filled out, and the Submit Review button present.",
+    "action": "click [1616] where [1616] is Submit Review",
+    "environmental_dynamics": "Submitting the review replaced the review form with an alert message confirming 'You submitted your review for moderation.' and closed the review form; the reviews tab is no longer selected and the product details tab is now open."
+  }
+]

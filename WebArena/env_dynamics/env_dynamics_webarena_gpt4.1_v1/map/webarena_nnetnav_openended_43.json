@@ -1,0 +1,182 @@
+[
+  {
+    "initial_state": "OpenStreetMap homepage with the search textbox focused and empty.",
+    "action": "type [145] [New York City ] where [145] is Search",
+    "environmental_dynamics": "The search box was populated with the text 'New York City', triggering the display of a 'Search Results' section and a loading status, indicating that OpenStreetMap is processing the search query."
+  },
+  {
+    "initial_state": "OpenStreetMap page displaying a search box with 'New York City' entered and a visible 'Find directions between two points' link, with search results shown.",
+    "action": "click [149] where [149] is Find directions between two points",
+    "environmental_dynamics": "The directions interface appeared, showing input fields for 'From' and 'To', a mode selector (Car/Bicycle/Foot), and direction control buttons, replacing the previous search results panel."
+  },
+  {
+    "initial_state": "OpenStreetMap directions panel with the 'From' textbox empty and focused.",
+    "action": "type [158] [JFK Airport ] where [158] is From",
+    "environmental_dynamics": "The 'From' textbox now contains the full address for John F. Kennedy International Airport, and it displays the corresponding autocomplete result as static text."
+  },
+  {
+    "initial_state": "OpenStreetMap directions section is visible with 'From' field set to JFK Airport and 'To' field empty, and directions results are not yet displayed.",
+    "action": "type [163] [Central Park ] where [163] is To",
+    "environmental_dynamics": "The 'To' field was filled with 'Central Park, New York County, City of New York, New York, United States', and a detailed directions panel appeared showing route instructions, estimated distance and time from JFK Airport to Central Park."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page showing route from JFK Airport to Central Park, with the 'To' textbox focused and the transportation mode combobox (set to 'Car (OSRM)') not expanded.",
+    "action": "click [166] where [166] is ",
+    "environmental_dynamics": "The transportation mode combobox is now focused and expanded, revealing options for 'Bicycle (OSRM)', 'Car (OSRM)', and 'Foot (OSRM)'."
+  },
+  {
+    "initial_state": "OpenStreetMap Directions page displaying directions from JFK International Airport to Central Park using 'Car (OSRM)' as the selected mode of transport. The transport mode combobox is expanded and focused, showing options: Bicycle (OSRM), Car (OSRM) (selected), and Foot (OSRM).",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page displaying route from JFK to Central Park by car, with the 'Car (OSRM)' option selected in the expanded transportation combobox.",
+    "action": "click [169] where [169] is Foot (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page showing driving (Car OSRM) directions from JFK Airport to Central Park with directions displayed.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with the route set from JFK Airport to Central Park, transportation mode combobox expanded with 'Car (OSRM)' selected, showing directions for car.",
+    "action": "click [169] where [169] is Foot (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page showing route from JFK Airport to Central Park by car, with the route details and the 'Car (OSRM)' option selected in the transportation combobox.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page showing route details from JFK Airport to Central Park, directions and settings section open, 'Car (OSRM)' selected in the routing mode combobox, dropdown menu expanded.",
+    "action": "click [169] where [169] is Foot (OSRM)",
+    "environmental_dynamics": "No visible change; combobox with routing options remains expanded and the selection stays on 'Car (OSRM)' despite clicking the 'Foot (OSRM)' option."
+  },
+  {
+    "initial_state": "OpenStreetMap directions panel is open showing a route from JFK Airport to Central Park by car (Car (OSRM) selected in the transportation combobox, which is expanded and focused).",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with the route set from JFK Airport to Central Park, the mode of transport currently set to 'Car (OSRM)' with the transport mode combobox expanded and 'Car (OSRM)' selected.",
+    "action": "click [169] where [169] is Foot (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page displaying a route from JFK Airport to Central Park with 'Car (OSRM)' selected in the travel mode combobox, and the combobox is expanded and focused.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions panel with 'From' set to JFK Airport and 'To' set to Central Park, combobox for Car selected, and step-by-step car directions from JFK to Central Park displayed.",
+    "action": "click [174] where [174] is Reverse Directions",
+    "environmental_dynamics": "The 'Reverse Directions' button was clicked: the 'From' and 'To' fields swapped values (now 'From' is Central Park coordinates and 'To' is JFK Airport coordinates), and the directions table updated to show the step-by-step route from Central Park to JFK Airport instead."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with 'From' and 'To' fields populated and a transport mode combobox set to 'Car (OSRM)', combobox not expanded.",
+    "action": "click [166] where [166] is ",
+    "environmental_dynamics": "The transport mode combobox is now expanded and focused, displaying the available options to select a different mode of transportation."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page showing a route from Central Park to JFK using 'Car (OSRM)' as the selected transport mode, with detailed driving steps displayed.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions panel with 'Car (OSRM)' selected in the transport mode combobox and the directions displayed for car travel.",
+    "action": "click [169] where [169] is Foot (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page showing route details for Car (OSRM), with the transportation mode combobox expanded and 'Car (OSRM)' currently selected.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page displaying a route, directions pane, and detailed driving instructions between two points.",
+    "action": "click [153] where [153] is Close",
+    "environmental_dynamics": "The directions pane and associated route details were closed, returning the interface to the OpenStreetMap homepage layout with general search and welcome options visible."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with navigation links and a 'Find directions between two points' link visible, but no directions input section open.",
+    "action": "click [149] where [149] is Find directions between two points",
+    "environmental_dynamics": "A directions input panel appeared, providing 'From' and 'To' textboxes, a transport mode combobox, and options for submitting and reversing directions."
+  },
+  {
+    "initial_state": "OpenStreetMap homepage with a directions panel open; the 'From' textbox is empty and ready for user input.",
+    "action": "type [158] [JFK Airport ] where [158] is From",
+    "environmental_dynamics": "The 'From' textbox is now populated with 'John F. Kennedy International Airport, JFK Access Road, Queens, Queens County, City of New York, New York, 11430, United States' after typing 'JFK Airport ', and the input field is focused."
+  },
+  {
+    "initial_state": "OpenStreetMap directions panel is open with the 'From' field containing 'John F. Kennedy International Airport' and the 'To' field empty and focused.",
+    "action": "type [163] [Central Park ] where [163] is To",
+    "environmental_dynamics": "The 'To' textbox now contains 'Central Park, New York County, City of New York, New York, United States' and the page displays step-by-step driving directions from JFK Airport to Central Park, with a directions summary, detailed route instructions, and a directions panel appearing on the page."
+  },
+  {
+    "initial_state": "OpenStreetMap with directions showing from JFK to Central Park, with the 'To' textbox focused and the transportation mode combobox (Car (OSRM)) visible but not expanded or focused.",
+    "action": "click [166] where [166] is ",
+    "environmental_dynamics": "The transportation mode combobox (Car (OSRM)) became focused and expanded, showing available options."
+  },
+  {
+    "initial_state": "OpenStreetMap route planner showing directions from JFK Airport to Central Park with 'Car (OSRM)' selected in the travel mode combobox and route details displayed for car mode.",
+    "action": "click [169] where [169] is Foot (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page showing car route from JFK Airport to Central Park, with the 'Car (OSRM)' routing option selected and its combobox expanded.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page displaying directions from JFK Airport to Central Park using 'Car (OSRM)' as the selected route option, with the route details and steps visible.",
+    "action": "click [169] where [169] is Foot (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with 'Car (OSRM)' selected as the current routing option in an expanded and focused routing mode combobox, showing directions from JFK Airport to Central Park by car.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page displaying a route from JFK Airport to Central Park with the 'Car (OSRM)' option selected in the travel mode combobox and directions shown for car travel.",
+    "action": "click [169] where [169] is Foot (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page showing car route from John F. Kennedy International Airport to Central Park with step-by-step directions and input fields reflecting these locations.",
+    "action": "click [174] where [174] is Reverse Directions",
+    "environmental_dynamics": "The 'From' and 'To' fields were swapped (now Central Park to JFK), and the route directions table updated to show the new reverse route, with the 'Reverse Directions' button now focused."
+  },
+  {
+    "initial_state": "OpenStreetMap directions page with the 'Directions' panel open and the travel mode combobox ('Car (OSRM)') collapsed and not focused.",
+    "action": "click [166] where [166] is ",
+    "environmental_dynamics": "The travel mode combobox became focused and expanded, displaying the available options ('Bicycle (OSRM)', 'Car (OSRM)', 'Foot (OSRM)')."
+  },
+  {
+    "initial_state": "OpenStreetMap route directions page with 'Car (OSRM)' selected as the route mode in the expanded combobox.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page showing a 'Car (OSRM)' route from '40.7828, -73.9654' to '40.6429, -73.7794' with instructions and summary displayed, with the 'Car (OSRM)' combobox option selected and expanded.",
+    "action": "click [169] where [169] is Foot (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap page displaying driving directions from '40.7828, -73.9654' to '40.6429, -73.7794' with the 'Car (OSRM)' mode selected in the combobox and route instructions visible.",
+    "action": "click [167] where [167] is Bicycle (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap directions page showing a route from '40.7828, -73.9654' to '40.6429, -73.7794' with 'Car (OSRM)' mode selected in the expanded combobox and detailed car route directions displayed.",
+    "action": "click [169] where [169] is Foot (OSRM)",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "OpenStreetMap page displaying directions between two locations, with directions panel expanded and the main map UI visible.",
+    "action": "click [408] where [408] is Share",
+    "environmental_dynamics": "A 'Share' dialog opened, displaying sharing options including a shareable link, HTML, Geo URI, and image export options; the 'Share' link is now focused."
+  }
+]

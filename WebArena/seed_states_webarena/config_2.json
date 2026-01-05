@@ -1,0 +1,10 @@
+{
+    "sites": [
+        "reddit"
+    ],
+    "start_url": "WA_REDDIT",
+    "geolocation": null,
+    "require_reset": false,
+    "storage_state": "./.auth/reddit_state.json",
+    "intent": "n/a"
+}

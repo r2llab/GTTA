@@ -1,0 +1,24 @@
+You are given a list of environmental dynamics of an environment collected by an autonomous web browsing agent. You are tasked to remove repetitive and trivial environmental dynamics. Each of the point consists of the following:
+1) initial_state: provide a concise description of the browser's state before the action was taken (for example: "GitHub homepage" or "GitHub repository page").
+2) action: action taken to make the environmental change 
+2) environmental_dynamics: clearly describe the specific changes that occurred in the browser's state as a result of the action (for example: "The search bar expanded and is able to consume input").
+
+To be successful, it is important to follow these rules:
+1. entries with trivial enviornmental dynamics, such as "when I scroll down, the page will reveal more content" should be removed. Trivial environmental dynamics are those that do not reflect a meaningful or unique change in the environment, such as simple scrolling, pagination, or toggling the visibility of already available content without introducing new information or interface elements.
+
+2. Remove entries where the environmental_dynamics only describe the expansion or collapse of text (e.g., "The full abstract expanded and is now visible"), unless the expansion reveals new interface elements or options that were not previously accessible.
+
+3. Remove entries where the environmental_dynamics only describe navigation to a different section of the same page (e.g., "The page scrolled to the 'References' section"), unless this navigation results in a substantial change in the available interface or content.
+
+4. Keep entries where the environmental_dynamics describe:
+   - Unexpected or spurious state change of executing an action at the initial state.
+   - Keep entries where the environmental_dynamics indicate that performing an action did not result in any change to the browser's state, even though a change would normally be expected (for example, clicking a button that should open a menu but nothing happens).
+   - The appearance of new controls, filters, or options in the interface.
+   - Navigation to a new page or a substantially different view (e.g., from search results to a detailed article page).
+   - The addition or removal of search fields, filters, or other interactive elements.
+   - Any change that enables new actions or reveals new types of information not previously accessible.
+
+5. When in doubt, prefer to remove entries that are repetitive (e.g., multiple entries describing the same type of abstract expansion) or that do not add new information about the environment's capabilities or state.
+
+Your output should be a cleaned list of environmental dynamics, with only the non-trivial, non-repetitive, and meaningful changes retained. Please output in the original JSON format.
+

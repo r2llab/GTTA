@@ -1,0 +1,27 @@
+[
+  {
+    "initial_state": "OpenStreetMap homepage with an empty search bar",
+    "action": "type [145] [tourist attractions in New York City ] where [145] is Search",
+    "environmental_dynamics": "The search bar was populated with the text 'tourist attractions in New York City', indicating a search input."
+  },
+  {
+    "initial_state": "OpenStreetMap page showing tourist attractions in New York City with the search results displayed",
+    "action": "click [396] where [396] is Zoom Out",
+    "environmental_dynamics": "The Zoom Out link was clicked, causing the map zoom level to decrease, resulting in a tooltip being displayed for 'Zoom Out' and the zoom level values changing to '100 km' and '100 mi'."
+  },
+  {
+    "initial_state": "OpenStreetMap map page showing tourist attractions in New York City",
+    "action": "click [396] where [396] is Zoom Out",
+    "environmental_dynamics": "The map zoomed out, changing the scale indicators from '100 km' to '300 km' and from '100 mi' to '200 mi'."
+  },
+  {
+    "initial_state": "tourist attractions in New York City | OpenStreetMap with search bar visible",
+    "action": "type [145] [museums in New York City ] where [145] is Search",
+    "environmental_dynamics": "The search bar was updated to display the value 'museums in New York City', indicating a new search query."
+  },
+  {
+    "initial_state": "OpenStreetMap search results page displaying museums in New York City",
+    "action": "click [503] where [503] is Hall des Lumi\u00e8res, 49, Chambers Street, Lower Manhattan, Manhattan, New York County, City of New York, New York, 10007, United States",
+    "environmental_dynamics": "The browser navigated to the details page for 'Hall des Lumi\u00e8res', showing focused information about the location, including the address and other pertinent details."
+  }
+]

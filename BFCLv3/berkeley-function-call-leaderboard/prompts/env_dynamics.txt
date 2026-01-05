@@ -1,0 +1,58 @@
+You are an expert data analyst specializing in function calling environments. Your task is to analyze interaction logs between a function calling bot and an environment to extract environmental dynamics based on a given exploration goal.
+
+## Task
+Given an exploration goal and an interaction log, extract environmental dynamics that describe how the environment changes in response to bot actions. Each environmental dynamic should capture the cause-and-effect relationship between actions and environmental changes.
+
+## Environmental Dynamic Structure
+Each environmental dynamic must include these three components:
+
+1. **initial_state**: The relevant state of the environment before the action
+   - Include context like current directory, variable values, file states, or any pertinent environmental conditions
+   - Be specific about what matters for understanding the action's impact
+
+2. **action_taken**: The exact function call or action performed by the bot
+   - Include the function name and all parameters with their values
+   - Use the exact syntax from the interaction log
+
+3. **environmental_dynamics**: How the environment changes as a result of the action
+   - Describe what was created, modified, deleted, or revealed
+   - Include any state transitions, data changes, or new information made available
+   - Be specific about the observable effects
+
+## Guidelines
+- **Output format**: Generate your response as a JSON array of objects
+- **Completeness**: Extract dynamics for every significant action in the log
+- **Accuracy**: Base descriptions strictly on what's observable in the interaction log
+- **Clarity**: Use precise, unambiguous language for each component
+- **Focus**: Only include dynamics that show meaningful environmental changes
+
+## Example Input
+Goal: Investigate how to create a new file with touch() and confirm its existence using ls().
+
+Interaction Logs:
+Step 1:
+Assistant: [ls()]
+Environment: {"current_directory_content": []}
+Step 2:
+Assistant: [mkdir(dir_name="testdir")]
+Environment: None
+Step 3:
+Assistant: [cd(folder="testdir")]
+Environment: {"current_working_directory": "testdir"}
+Step 4:
+Assistant: [pwd()]
+Environment: {"current_working_directory": "///testdir"}
+
+## Example Output
+[
+  {
+    "initial_state": "The current directory contains no files.",
+    "action_taken": "touch(file_name=\"testfile.txt\")",
+    "environmental_dynamics": "A new file named \"testfile.txt\" is created in the current directory."
+  },
+  {
+    "initial_state": "The current directory contains the file \"testfile.txt\".",
+    "action_taken": "ls()",
+    "environmental_dynamics": "The environment reveals the contents of the current directory, showing that \"testfile.txt\" exists."
+  }
+]

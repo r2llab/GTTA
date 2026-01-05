@@ -1,0 +1,32 @@
+[
+  {
+    "initial_state": "Postmill homepage with navigation links, search box, and user profile options visible",
+    "action": "click [30] where [30] is Home",
+    "environmental_dynamics": "No change"
+  },
+  {
+    "initial_state": "Postmill forum page displaying featured forums and general navigation links",
+    "action": "click [117] where [117] is Submissions",
+    "environmental_dynamics": "The page content did not change visually, but the 'Submissions' link was clicked, potentially indicating a navigation to the submissions section."
+  },
+  {
+    "initial_state": "Postmill homepage with navigation links and featured forums section",
+    "action": "click [29] where [29] is ",
+    "environmental_dynamics": "No change"
+  },
+  {
+    "initial_state": "Postmill homepage displaying featured forums and navigation options",
+    "action": "click [117] where [117] is Submissions",
+    "environmental_dynamics": "The focus shifted to the 'Submissions' navigation link in the main content, but no other visible changes occurred."
+  },
+  {
+    "initial_state": "Homepage with featured forums, search bar, and user menu",
+    "action": "click [42] where [42] is Forums",
+    "environmental_dynamics": "The page transitioned to a list of forums, displaying forum names, descriptions, and subscription buttons."
+  },
+  {
+    "initial_state": "List of forums with multiple forum categories listed",
+    "action": "click [303] where [303] is technology \u2014 technology",
+    "environmental_dynamics": "The browser navigated to the 'technology' forum page, displaying recent submissions and discussion details related to technology topics."
+  }
+]

@@ -1,0 +1,117 @@
+[
+  {
+    "initial_state": "GitLab dashboard Projects page listing multiple repositories, including 'Byte Blaze / dotfiles', with project summaries and statistics.",
+    "action": "click [542] where [542] is Byte Blaze / dotfiles",
+    "environmental_dynamics": "The browser navigated to the 'Byte Blaze / dotfiles' project page, displaying repository details, files, documentation (README), navigation sidebar, and project-specific alerts."
+  },
+  {
+    "initial_state": "GitLab project repository page for 'dotfiles' with a file table listing files including .gitconfig.",
+    "action": "click [1036] where [1036] is .gitconfig",
+    "environmental_dynamics": "The contents of the .gitconfig file are displayed in the main area, showing the file's details, commit info, and code content, replacing the previous repository overview."
+  },
+  {
+    "initial_state": "GitLab repository file view page for .gitconfig, with the 'Download' link/button visible but not focused or activated.",
+    "action": "click [1894] where [1894] is Download",
+    "environmental_dynamics": "A tooltip displaying 'Download' appeared, indicating that the 'Download' link is now focused or hovered, but no download has started yet."
+  },
+  {
+    "initial_state": "GitLab file view page for '.gitconfig' in the 'dotfiles' repository, with file contents, commit info, and sidebar navigation visible.",
+    "action": "click [297] where [297] is Repository",
+    "environmental_dynamics": "Navigated from the individual file view of '.gitconfig' to the general 'Repository' overview, displaying the repository file browser, project readme, and directory listing."
+  },
+  {
+    "initial_state": "GitLab repository page for Byte Blaze / dotfiles, showing the root directory and a rendered README.md in the main view.",
+    "action": "click [784] where [784] is .ssh",
+    "environmental_dynamics": "Navigated into the '.ssh' directory; the main content updated to show the files within '.ssh', and the README.md preview was replaced by the directory's file listing."
+  },
+  {
+    "initial_state": "GitLab project repository '.ssh' folder view with a list of files including 'config'",
+    "action": "click [1729] where [1729] is config",
+    "environmental_dynamics": "The page navigated from the folder view to display the contents of the 'config' file, showing line-by-line code and related file action buttons."
+  },
+  {
+    "initial_state": "GitLab file view for '.ssh/config' in the Byte Blaze / dotfiles repository, with a visible and clickable 'Download' link next to file actions.",
+    "action": "click [1819] where [1819] is Download",
+    "environmental_dynamics": "A tooltip labeled 'Download' appeared next to the 'Download' link, providing contextual information about the button."
+  },
+  {
+    "initial_state": "GitLab file view page for '.ssh/config', showing the contents of the file with code lines and related actions.",
+    "action": "click [1711] where [1711] is .ssh",
+    "environmental_dynamics": "Navigated to the '.ssh' directory view; the directory listing is now shown with available files (such as 'config'), commit info, and file-related actions instead of the detailed file content view."
+  },
+  {
+    "initial_state": "GitLab repository page showing the contents of the .ssh directory with a file list including 'config'.",
+    "action": "click [1947] where [1947] is config",
+    "environmental_dynamics": "The browser navigated to the 'config' file view within the .ssh directory, displaying the file contents and related actions."
+  },
+  {
+    "initial_state": "GitLab repository file view page displaying '.ssh/config', with a visible and clickable 'Download' link.",
+    "action": "click [2017] where [2017] is Download",
+    "environmental_dynamics": "A tooltip labeled 'Download' appeared next to the 'Download' link, and the link is now focused, indicating that the download action was initiated or hovered."
+  },
+  {
+    "initial_state": "GitLab file view page for .ssh/config, showing file contents and various file action buttons, with the sidebar and breadcrumbs visible.",
+    "action": "click [1711] where [1711] is .ssh",
+    "environmental_dynamics": "Navigated up in the file structure to the .ssh directory, replacing the file content view with a directory listing of files and submodules within .ssh and updating the main section to show the directory table instead of the file details."
+  },
+  {
+    "initial_state": "GitLab repository folder view for the .ssh directory, displaying a file listing including 'config'",
+    "action": "click [2145] where [2145] is config",
+    "environmental_dynamics": "The browser navigated into the 'config' file, now displaying its content and related file actions instead of the .ssh directory listing."
+  },
+  {
+    "initial_state": "GitLab file viewer page for .ssh/config, showing file contents with a visible and clickable 'Download' link.",
+    "action": "click [2215] where [2215] is Download",
+    "environmental_dynamics": "A tooltip labeled 'Download' appeared next to the 'Download' link, indicating the download option is now visually highlighted or explained."
+  },
+  {
+    "initial_state": "Viewing the '.ssh/config' file in the 'dotfiles' repository on GitLab, with the 'History' link visible in the file navigation.",
+    "action": "click [2161] where [2161] is History",
+    "environmental_dynamics": "Navigated from the file view to the commit history page for 'config', showing a chronological list of commits affecting the file."
+  },
+  {
+    "initial_state": "GitLab repository 'dotfiles' commits list page showing recent commits and their metadata, including commit messages like 'Update config' as clickable links.",
+    "action": "click [681] where [681] is Update config",
+    "environmental_dynamics": "The browser navigated to the individual commit details page for the 'Update config' commit (2468fc44), displaying commit metadata, diffs, related options, and commenting interface."
+  },
+  {
+    "initial_state": "GitLab commit view page showing the commit details, file changes, and diff for .ssh/config at commit 2468fc44.",
+    "action": "click [731] where [731] is View file @ 2468fc44",
+    "environmental_dynamics": "The page navigated from the commit diff view to the file view for .ssh/config at commit 2468fc44, displaying the file's content, available file operations (copy, download, etc.), and the commit details in a new layout focused on the raw file rather than the diff."
+  },
+  {
+    "initial_state": "GitLab file view page for .ssh/config, with various file operation buttons including a visible Download link.",
+    "action": "click [698] where [698] is Download",
+    "environmental_dynamics": "A tooltip labeled 'Download' appeared, and the 'Download' link is now focused, indicating download interaction feedback."
+  },
+  {
+    "initial_state": "Viewing the contents of the '.ssh/config' file in the 'dotfiles' repository on GitLab, with the 'History' link visible and clickable.",
+    "action": "click [624] where [624] is History",
+    "environmental_dynamics": "The page navigated to the 'Commits' history for the '.ssh/config' file, displaying a chronological list of commits and related metadata."
+  },
+  {
+    "initial_state": "GitLab repository commit history page for 'dotfiles', showing a list of commits with details for each commit including messages and authors.",
+    "action": "click [681] where [681] is Update config",
+    "environmental_dynamics": "The page navigated to the detailed view for the selected commit ('Update config'), displaying information, authorship, and file changes associated with that commit."
+  },
+  {
+    "initial_state": "GitLab commit details page showing changes for commit 2468fc44 in the dotfiles repository, including summary, changed file diff, and options to comment or interact with commit/lines.",
+    "action": "click [731] where [731] is View file @ 2468fc44",
+    "environmental_dynamics": "The view transitioned from the commit diff details to directly viewing the contents of the .ssh/config file as of commit 2468fc44, displaying the file's lines, metadata, and actions for copying, raw view, or download."
+  },
+  {
+    "initial_state": "GitLab file view page for .ssh/config with file content displayed in code blocks and various file operations available, including a visible 'Open raw' link.",
+    "action": "click [696] where [696] is Open raw",
+    "environmental_dynamics": "The page transitioned to a simplified 'raw' view showing the file content as plain text without the surrounding GitLab interface or navigation."
+  },
+  {
+    "initial_state": "A page displaying static configuration text content, focused",
+    "action": "go_back",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "A page displaying static SSH configuration text is focused",
+    "action": "go_back",
+    "environmental_dynamics": "no change"
+  }
+]

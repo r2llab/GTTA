@@ -1,0 +1,97 @@
+[
+  {
+    "initial_state": "Magento Admin dashboard with various statistics and tables, including a 'Bestsellers' table showing product names as clickable rows.",
+    "action": "click [809] where [809] is http://ec2-18-226-185-217.us-east-2.compute.amazonaws.com:8083/admin/catalog/product/edit/id/29/",
+    "environmental_dynamics": "The browser navigated to the product edit page for 'Sprite Stasis Ball 65 cm', displaying detailed editable fields and configuration options for that product."
+  },
+  {
+    "initial_state": "Magento Admin product edit page for 'Sprite Stasis Ball 65 cm', with the 'Country of Manufacture' combobox (notice-WPNSU51) collapsed and not focused.",
+    "action": "click [1168] where [1168] is notice-WPNSU51",
+    "environmental_dynamics": "The 'Country of Manufacture' combobox became focused and expanded, showing its list of country options."
+  },
+  {
+    "initial_state": "Magento Admin product edit page, with the 'Country of Manufacture' dropdown expanded and no country selected.",
+    "action": "click [1405] where [1405] is United States",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "Magento Admin product editing page for 'Sprite Stasis Ball 65 cm', with product fields editable and the 'Save' button visible and clickable.",
+    "action": "click [885] where [885] is Save",
+    "environmental_dynamics": "After clicking the 'Save' button, a confirmation message 'You saved the product.' appears on the page, indicating the product was saved successfully, and the page updates certain identifiers for form elements."
+  },
+  {
+    "initial_state": "Magento Admin product edit page for 'Sprite Stasis Ball 65 cm', with the main navigation menu visible and no sub-menu under 'CATALOG' expanded.",
+    "action": "click [320] where [320] is \ue608 CATALOG",
+    "environmental_dynamics": "The 'CATALOG' menu item in the main navigation bar was clicked, causing it to gain focus and expand a vertical sub-menu displaying 'Products' and 'Categories' options, along with a menu heading and related links."
+  },
+  {
+    "initial_state": "Magento Admin product detail page for 'Sprite Stasis Ball 65 cm' with all product attribute forms visible, including a collapsed 'Country of Manufacture' dropdown (combobox).",
+    "action": "click [1267] where [1267] is notice-BKW2147",
+    "environmental_dynamics": "The 'Country of Manufacture' combobox was clicked, causing attribute fields for 'Country of Manufacture' and all subsequent grouped attributes to become visible."
+  },
+  {
+    "initial_state": "Magento Admin product edit page for 'Sprite Stasis Ball 65 cm', with the 'Country of Manufacture' combobox set to no selection.",
+    "action": "click [1504] where [1504] is United States",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "Magento Admin product edit page for 'Sprite Stasis Ball 65 cm', with full editable product details form visible and the 'Save' button available.",
+    "action": "click [836] where [836] is Save",
+    "environmental_dynamics": "After clicking the 'Save' button, the page refreshed with a cleaner layout, hiding the detailed product form fields and showing only the top-level navigation, notification, and confirmation message; detailed form fields are no longer visible."
+  },
+  {
+    "initial_state": "Magento Admin product details page for 'Sprite Stasis Ball 65 cm' with the main navigation menu visible and no submenus expanded.",
+    "action": "click [183] where [183] is \ue608 CATALOG",
+    "environmental_dynamics": "The 'CATALOG' menu item in the navigation bar is now focused and its submenu is expanded, revealing links to 'Products' and 'Categories' under the Catalog section."
+  },
+  {
+    "initial_state": "Magento Admin product edit page for 'Sprite Stasis Ball 65 cm', with the 'Country of Manufacture' combobox collapsed.",
+    "action": "click [1247] where [1247] is notice-N6RMWWY",
+    "environmental_dynamics": "The 'Country of Manufacture' combobox (notice-N6RMWWY) became visible in expanded mode for option selection, along with label and listbox elements in the attributes section becoming visible."
+  },
+  {
+    "initial_state": "Magento Admin product edit page for 'Sprite Stasis Ball 65 cm', with the Country of Manufacture combobox showing '' (empty/none) as selected.",
+    "action": "click [1484] where [1484] is United States",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "Magento Admin product edit page for 'Sprite Stasis Ball 65 cm' with product details form visible and a previous save confirmation message present.",
+    "action": "click [699] where [699] is Save",
+    "environmental_dynamics": "The main product details form and content have been minimized, leaving only the top navigation, banner, and a success message, indicating the page began a save operation or reloaded after saving, hiding the detailed input fields."
+  },
+  {
+    "initial_state": "Magento Admin product edit page for 'Sprite Stasis Ball 65 cm', with the 'Add Attribute' button visible but no attribute selection dialog open.",
+    "action": "click [720] where [720] is Add Attribute",
+    "environmental_dynamics": "Clicking the 'Add Attribute' button opened the 'Add Attribute' dialog, displaying available product attributes for selection and actions such as 'Create New Attribute'."
+  },
+  {
+    "initial_state": "Magento Admin product edit page with the 'Add Attribute' dialog open; in the attributes table, the 'Options' column header includes a checkbox and an 'Options' button, neither focused nor expanded.",
+    "action": "click [2372] where [2372] is ",
+    "environmental_dynamics": "The 'Options' button in the 'Options' column header of the Add Attribute dialog became focused and expanded a dropdown list with a single option, 'Select All', now visible below the button."
+  },
+  {
+    "initial_state": "Magento Admin product page with an 'Add Attribute' dialog open and no attribute checkboxes selected.",
+    "action": "click [2407] where [2407] is ",
+    "environmental_dynamics": "The first attribute checkbox in the attribute table within the 'Add Attribute' dialog was checked, and as a result, the 'Selected Attributes' list now lists all 17 attributes as selected, and all of their respective checkboxes in the table are now checked as well."
+  },
+  {
+    "initial_state": "Magento Admin Catalog Product page with the 'Add Attribute' dialog open and populated, ready to add selected attributes to the product.",
+    "action": "click [2156] where [2156] is Add Selected",
+    "environmental_dynamics": "The 'Add Attribute' dialog closed and focus returned to the main product page, with the 'Add Attribute' button now focused; no visible attribute list/table from the dialog is present."
+  },
+  {
+    "initial_state": "Magento Admin product detail page with the 'Country of Manufacture' combobox closed and not focused.",
+    "action": "click [1258] where [1258] is notice-I8VB4DF",
+    "environmental_dynamics": "The 'Country of Manufacture' combobox became focused and expanded, displaying the full list of country options for selection."
+  },
+  {
+    "initial_state": "Magento Admin product edit page with the 'Country of Manufacture' combobox expanded and no country selected (first option, blank, is selected).",
+    "action": "click [1495] where [1495] is United States",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "Magento Admin product editing page for 'Sprite Stasis Ball 65 cm', with the 'Country of Manufacture' combobox expanded and focused, and the Save button visible and clickable.",
+    "action": "click [707] where [707] is Save",
+    "environmental_dynamics": "The page refreshed or re-rendered after saving, resetting all form element focus/expansion states and returning to its 'normal' edit mode with a confirmation message, while the product data fields remain filled and unchanged."
+  }
+]

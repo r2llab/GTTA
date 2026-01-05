@@ -1,0 +1,342 @@
+{
+    "miniwob.book-flight-nodelay": [
+        {
+            "persona": "Frequent Flyer",
+            "description": "Books flights regularly for business trips, looking for loyalty program benefits and direct flights."
+        },
+        {
+            "persona": "Budget Traveler",
+            "description": "Searches for the cheapest flights, comparing different airlines and using flexible dates to find the best deals."
+        },
+        {
+            "persona": "Family Planner",
+            "description": "Books flights for the entire family, focusing on convenient flight times, seating arrangements, and kid-friendly options."
+        },
+        {
+            "persona": "Last-Minute Traveler",
+            "description": "Books flights at the last minute, prioritizing availability and quick booking processes to secure a seat."
+        },
+        {
+            "persona": "Luxury Traveler",
+            "description": "Looks for first-class or business-class flights with premium services, focusing on comfort and exclusivity."
+        }
+    ],
+    "miniwob.click-tab-2-hard": [
+        {
+            "persona": "Multi-Tasker",
+            "description": "Constantly switches between tabs to manage multiple tasks simultaneously, such as research, communication, and work."
+        },
+        {
+            "persona": "Focused Researcher",
+            "description": "Uses tabs to organize different sources of information while conducting in-depth research on a specific topic."
+        },
+        {
+            "persona": "Casual Browser",
+            "description": "Opens multiple tabs for entertainment, such as watching videos, reading articles, and browsing social media."
+        },
+        {
+            "persona": "Project Manager",
+            "description": "Uses tabs to manage different aspects of a project, keeping relevant documents, timelines, and communication channels open."
+        }
+    ],
+    "miniwob.choose-date-nodelay": [
+        {
+            "persona": "Event Organizer",
+            "description": "Selects dates for events, coordinating with multiple participants and checking for conflicts with other planned activities."
+        },
+        {
+            "persona": "Traveler",
+            "description": "Chooses travel dates, looking for the best combination of availability, weather, and pricing for flights and accommodations."
+        },
+        {
+            "persona": "Appointment Setter",
+            "description": "Schedules meetings or appointments, ensuring availability on both ends and aligning with the calendar."
+        },
+        {
+            "persona": "Student",
+            "description": "Picks dates for academic deadlines, exam schedules, or project timelines, ensuring they fit within the academic calendar."
+        }
+    ],
+    "miniwob.click-checkboxes-soft": [
+        {
+            "persona": "Task Manager",
+            "description": "Uses checkboxes to manage a to-do list, marking tasks as completed throughout the day."
+        },
+        {
+            "persona": "Survey Taker",
+            "description": "Selects multiple options in surveys or forms, ensuring all relevant choices are selected."
+        },
+        {
+            "persona": "Data Entry Clerk",
+            "description": "Uses checkboxes to verify or select specific entries in a database, ensuring accuracy and completeness."
+        },
+        {
+            "persona": "Settings Customizer",
+            "description": "Checks and unchecks options in settings menus to personalize software or application preferences."
+        }
+    ],
+    "miniwob.daily-calendar": [
+        {
+            "persona": "Executive",
+            "description": "Manages a packed schedule of meetings, appointments, and events, using the calendar to stay organized."
+        },
+        {
+            "persona": "Freelancer",
+            "description": "Tracks project deadlines, client meetings, and work hours, ensuring productivity and time management."
+        },
+        {
+            "persona": "Student",
+            "description": "Uses the calendar to keep track of classes, assignments, and study sessions, balancing academic responsibilities."
+        },
+        {
+            "persona": "Parent",
+            "description": "Organizes family activities, school events, and appointments, ensuring everyone in the household stays on track."
+        },
+        {
+            "persona": "Health Enthusiast",
+            "description": "Schedules daily workouts, meal plans, and health appointments, ensuring a balanced and healthy lifestyle."
+        }
+    ],
+    "miniwob.email-inbox": [
+        {
+            "persona": "Corporate Professional",
+            "description": "Manages a high volume of work emails, prioritizing important messages and responding quickly to clients and colleagues."
+        },
+        {
+            "persona": "Newsletter Subscriber",
+            "description": "Receives daily newsletters on various topics, organizing them into folders for later reading."
+        },
+        {
+            "persona": "Support Agent",
+            "description": "Handles customer inquiries and support tickets via email, ensuring timely and accurate responses."
+        },
+        {
+            "persona": "Student",
+            "description": "Checks for updates from professors, school administration, and peers, organizing emails related to assignments and exams."
+        },
+        {
+            "persona": "Casual User",
+            "description": "Uses email for personal communication, reading and responding to messages from friends and family."
+        }
+    ],
+    "miniwob.login-user": [
+        {
+            "persona": "Security-Conscious User",
+            "description": "Uses strong, unique passwords and two-factor authentication to log into accounts securely."
+        },
+        {
+            "persona": "Frequent User",
+            "description": "Logs into multiple accounts throughout the day, often using password managers to streamline the process."
+        },
+        {
+            "persona": "First-Time User",
+            "description": "Navigates the login process carefully, setting up a new account and learning how to access the system."
+        },
+        {
+            "persona": "Multi-Account Manager",
+            "description": "Manages multiple user accounts across different platforms, frequently switching between logins."
+        },
+        {
+            "persona": "Occasional User",
+            "description": "Logs in infrequently and often needs to reset passwords due to forgetting login credentials."
+        }
+    ],
+    "miniwob.navigate-tree": [
+        {
+            "persona": "Software Developer",
+            "description": "Explores project directories, searching for specific files or code snippets within a large repository."
+        },
+        {
+            "persona": "System Administrator",
+            "description": "Navigates file systems to manage server configurations, logs, and backups."
+        },
+        {
+            "persona": "Graphic Designer",
+            "description": "Organizes and navigates through large collections of design assets, images, and project files."
+        },
+        {
+            "persona": "Student",
+            "description": "Accesses folders for different courses, assignments, and research papers, ensuring everything is well-organized."
+        },
+        {
+            "persona": "Content Creator",
+            "description": "Navigates through a hierarchy of video, audio, and text files, organizing content for production."
+        }
+    ],
+    "miniwob.order-food": [
+        {
+            "persona": "Busy Professional",
+            "description": "Orders food quickly during a hectic workday, prioritizing speed, convenience, and healthy options."
+        },
+        {
+            "persona": "Foodie",
+            "description": "Explores menus in detail, looking for unique dishes and reading reviews before placing an order."
+        },
+        {
+            "persona": "Family Planner",
+            "description": "Orders meals for the entire family, considering everyone's preferences and dietary restrictions."
+        },
+        {
+            "persona": "Late-Night Snacker",
+            "description": "Orders food late at night, often looking for comfort food or quick bites that are available 24/7."
+        },
+        {
+            "persona": "Health-Conscious Eater",
+            "description": "Chooses meals based on nutritional information, focusing on balanced, low-calorie, or organic options."
+        }
+    ],
+    "miniwob.phone-book": [
+        {
+            "persona": "Sales Representative",
+            "description": "Uses the phone book to find and contact potential clients, keeping track of business contacts and leads."
+        },
+        {
+            "persona": "Support Agent",
+            "description": "Accesses the phone book to quickly find customer information and contact details for resolving issues."
+        },
+        {
+            "persona": "Event Planner",
+            "description": "Uses the phone book to contact vendors, venues, and participants, coordinating event logistics."
+        },
+        {
+            "persona": "Emergency Responder",
+            "description": "Accesses contact information quickly in emergency situations, ensuring fast communication."
+        },
+        {
+            "persona": "Casual User",
+            "description": "Uses the phone book to find friends and family contacts, staying in touch with loved ones."
+        }
+    ],
+    "miniwob.search-engine": [
+        {
+            "persona": "Researcher",
+            "description": "Uses the search engine to find academic papers, articles, and data for in-depth research."
+        },
+        {
+            "persona": "Shopper",
+            "description": "Searches for products, comparing prices, reading reviews, and finding the best deals online."
+        },
+        {
+            "persona": "News Enthusiast",
+            "description": "Uses the search engine to stay updated on current events, browsing the latest news and analysis."
+        },
+        {
+            "persona": "Casual Browser",
+            "description": "Searches for a variety of topics, from entertainment to random trivia, satisfying curiosity."
+        },
+        {
+            "persona": "Job Seeker",
+            "description": "Uses the search engine to find job listings, company information, and career advice."
+        }
+    ],
+    "miniwob.social-media-all": [
+        {
+            "persona": "Influencer",
+            "description": "Uses social media to build a personal brand, engage with followers, and promote content or products."
+        },
+        {
+            "persona": "Casual User",
+            "description": "Scrolls through feeds, likes posts, and interacts with friends and family, sharing occasional updates."
+        },
+        {
+            "persona": "Business Owner",
+            "description": "Manages social media accounts to market products or services, engaging with customers and promoting the business."
+        },
+        {
+            "persona": "Content Creator",
+            "description": "Posts regularly, focusing on creating engaging content, videos, and images for followers."
+        },
+        {
+            "persona": "News Follower",
+            "description": "Uses social media to follow news outlets, staying updated on current events and public discussions."
+        }
+    ],
+    "miniwob.terminal": [
+        {
+            "persona": "System Administrator",
+            "description": "Uses the terminal to manage servers, configure systems, and troubleshoot issues."
+        },
+        {
+            "persona": "Developer",
+            "description": "Runs code, manages version control, and automates tasks using terminal commands."
+        },
+        {
+            "persona": "Data Scientist",
+            "description": "Uses the terminal to run data analysis scripts, manage large datasets, and automate data processing tasks."
+        },
+        {
+            "persona": "Hacker",
+            "description": "Uses the terminal to explore systems, find vulnerabilities, and run penetration tests."
+        },
+        {
+            "persona": "Student",
+            "description": "Learns to use the terminal for coding assignments, system navigation, and managing files."
+        }
+    ],
+    "miniwob.text-editor": [
+        {
+            "persona": "Writer",
+            "description": "Uses the text editor to draft articles, books, or blog posts, focusing on content creation."
+        },
+        {
+            "persona": "Programmer",
+            "description": "Writes and edits code, using the text editor for development projects and debugging."
+        },
+        {
+            "persona": "Note Taker",
+            "description": "Uses the text editor to take notes during meetings or lectures, organizing thoughts and key points."
+        },
+        {
+            "persona": "Editor",
+            "description": "Edits and revises documents, focusing on grammar, style, and clarity in the text editor."
+        },
+        {
+            "persona": "Student",
+            "description": "Writes essays, reports, and assignments, using the text editor to format and organize academic work."
+        }
+    ],
+    "miniwob.tic-tac-toe": [
+        {
+            "persona": "Casual Player",
+            "description": "Plays tic-tac-toe for fun during breaks, enjoying the simplicity of the game."
+        },
+        {
+            "persona": "Strategist",
+            "description": "Analyzes each move carefully, aiming to outsmart the opponent and win every game."
+        },
+        {
+            "persona": "Child",
+            "description": "Plays tic-tac-toe as an introduction to basic strategy games, learning to recognize patterns."
+        },
+        {
+            "persona": "Competitive Player",
+            "description": "Plays against friends or online opponents, focusing on improving skills and winning."
+        },
+        {
+            "persona": "Teacher",
+            "description": "Uses tic-tac-toe to teach young students about strategy, planning, and fair play."
+        }
+    ],
+    "miniwob.use-autocomplete-nodelay": [
+        {
+            "persona": "Fast Typer",
+            "description": "Relies on autocomplete to speed up typing, allowing for quicker communication and task completion."
+        },
+        {
+            "persona": "Search Engine User",
+            "description": "Uses autocomplete to quickly find search terms, relying on suggestions to refine queries."
+        },
+        {
+            "persona": "Data Entry Clerk",
+            "description": "Uses autocomplete to fill out repetitive forms and entries, ensuring accuracy and efficiency."
+        },
+        {
+            "persona": "Casual User",
+            "description": "Uses autocomplete for convenience in everyday tasks, like sending messages or filling out online forms."
+        },
+        {
+            "persona": "Writer",
+            "description": "Utilizes autocomplete to overcome writer’s block, getting suggestions for completing sentences or ideas."
+        }
+    ]
+}

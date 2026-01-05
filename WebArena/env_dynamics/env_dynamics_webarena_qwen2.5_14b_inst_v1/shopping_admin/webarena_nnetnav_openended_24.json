@@ -1,0 +1,187 @@
+[
+  {
+    "initial_state": "Magento Admin Dashboard displaying various categories and sales data with a focused tab on bestsellers",
+    "action": "click [756] where [756] is The information in this tab has been changed. This tab contains invalid data. Please resolve this before saving. Loading... Bestsellers",
+    "environmental_dynamics": "The 'Bestsellers' tab remains expanded and selected, with its content still marked as containing invalid data and needing resolution."
+  },
+  {
+    "initial_state": "Magento Admin Dashboard with various sales, catalog, customers, and other headings visible",
+    "action": "click [801] where [801] is http://ec2-54-162-4-248.compute-1.amazonaws.com:8083/admin/catalog/product/edit/id/20/",
+    "environmental_dynamics": "The browser navigated to the product edit page for 'Quest Lumaflex\u2122 Band' under the Catalog section, displaying detailed product configuration fields such as price, SKU, and attributes."
+  },
+  {
+    "initial_state": "Magento Admin Panel displaying a product editing screen with a menu bar, product details, and various attributes such as price, categories, and stock status.",
+    "action": "click [1024] where [1024] is ",
+    "environmental_dynamics": "The combobox for 'Weight' was expanded, showing selectable options related to the weight attribute."
+  },
+  {
+    "initial_state": "Magento Admin Panel product page for 'Quest Lumaflex\u2122 Band' with input fields and options",
+    "action": "click [880] where [880] is Save options",
+    "environmental_dynamics": "The 'Save options' button became focused, indicating it is now active for interaction."
+  },
+  {
+    "initial_state": "Magneto Admin Panel open at product details page for 'Quest Lumaflex\u2122 Band' with numerous sections and options available for edit",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page scrolled down, revealing more options and sections below, including 'Product Reviews' and 'Images And Videos'."
+  },
+  {
+    "initial_state": "Magento product management page for 'Quest Lumaflex\u2122 Band', with form fields for various product attributes such as SKU, price, and categories.",
+    "action": "click [1892] where [1892] is ",
+    "environmental_dynamics": "The focus was shifted to a section titled 'Gift Options', bringing related checkboxes and labels into focus."
+  },
+  {
+    "initial_state": "Product creation page in Magento Admin with forms and options for product customization",
+    "action": "click [2516] where [2516] is [global] Allow Gift Message No",
+    "environmental_dynamics": "The 'Allow Gift Message' checkbox changed to 'Yes', indicating that the option has been enabled."
+  },
+  {
+    "initial_state": "Magento Admin Panel's product detail page for Quest Lumaflex\u2122 Band",
+    "action": "click [880] where [880] is Save options",
+    "environmental_dynamics": "The 'Save options' button became focused and highlighted, indicating it is ready for interaction."
+  },
+  {
+    "initial_state": "Magento Admin panel showing product detail page for 'Quest Lumaflex\u2122 Band' with 'Save options' button focused",
+    "action": "click [878] where [878] is Save",
+    "environmental_dynamics": "A confirmation message indicating the product has been saved appeared, and the previously focussed 'Save options' button was replaced with a 'Save' button while additional sections like 'Gift Options' became finalized."
+  },
+  {
+    "initial_state": "The 'Quest Lumaflex\u2122 Band' product page in the Magento Admin panel with various navigation and main content elements available.",
+    "action": "click [846] where [846] is \ue626 Back",
+    "environmental_dynamics": "Navigated back to the main product catalog page displaying a list of all products."
+  },
+  {
+    "initial_state": "Magento Admin products page with various product listings",
+    "action": "click [718] where [718] is Add Product",
+    "environmental_dynamics": "The page transitioned to a new product creation form with fields for product details and configurations."
+  },
+  {
+    "initial_state": "Magento Admin panel with 'New Product' form filled out in the context of the 'Catalog' menu",
+    "action": "click [336] where [336] is \ue608 CATALOG",
+    "environmental_dynamics": "The 'Catalog' menu item became focused and highlighted, indicating it was selected."
+  },
+  {
+    "initial_state": "Magento Admin page for creating a new product with a blank 'Product Name' field",
+    "action": "type [933] [New Product] where [933] is ",
+    "environmental_dynamics": "The 'Product Name' field was filled with the text 'New Product'."
+  },
+  {
+    "initial_state": "Magento Admin product creation page with 'New Product' title and filled SKU field",
+    "action": "click [939] where [939] is [global] SKU *",
+    "environmental_dynamics": "The 'SKU' field became focused and editable after clicking, without any additional changes to other elements on the page."
+  },
+  {
+    "initial_state": "Magento Admin product creation page with 'New Product' and 'SKU' input available",
+    "action": "type [939] [New Product SKU] where [939] is [global] SKU *",
+    "environmental_dynamics": "The 'SKU' input field was filled with 'New Product SKU', bringing the field into focus."
+  },
+  {
+    "initial_state": "Magento Admin New Product creation page, displaying various product details fields and buttons such as Save, Save options, Back, Add Attribute, and a focused 'Price' input field.",
+    "action": "click [841] where [841] is Save",
+    "environmental_dynamics": "No change, as clicking the 'Save' button did not trigger any visible changes on the page."
+  },
+  {
+    "initial_state": "Magento Admin panel at the 'New Product' section of the inventory catalog with various product details and options editable.",
+    "action": "click [855] where [855] is ",
+    "environmental_dynamics": "A dialog titled 'Add Attribute' was opened, allowing the user to add new attributes to the product."
+  },
+  {
+    "initial_state": "New product creation page in Magento Admin",
+    "action": "type [950] [100 ] where [950] is ",
+    "environmental_dynamics": "The price field now contains the value '100', indicating that the price has been set to 100."
+  },
+  {
+    "initial_state": "Magento Admin panel focused on the 'New Product' page with product details form and 'Save' button not clicked",
+    "action": "click [841] where [841] is Save",
+    "environmental_dynamics": "No change in the browser's state, as clicking the Save button does not trigger any visible changes on the page."
+  },
+  {
+    "initial_state": "Magento Admin's New Product creation page with add attribute button visible",
+    "action": "click [854] where [854] is Add Attribute",
+    "environmental_dynamics": "The 'Add Attribute' dialog was opened, overlaying the existing product creation form."
+  },
+  {
+    "initial_state": "New Product creation page within the Magento Admin with 'Add Attribute' dialog visible",
+    "action": "click [2640] where [2640] is color",
+    "environmental_dynamics": "No change occurred except the element with id '2640' (label 'Color') was clicked, but the overall structure and state of the page remained the same."
+  },
+  {
+    "initial_state": "New product creation page in Magento Admin with a dialog for adding attributes open",
+    "action": "click [2650] where [2650] is Global",
+    "environmental_dynamics": "The selected attribute 'Global' was chosen in the 'Scope' column of the 'Add Attribute' dialog, but the overall page state did not change."
+  },
+  {
+    "initial_state": "New Product page within Magento Admin with detailed product creation form fields visible",
+    "action": "Attempt to perfom \"click\" on element \"[2516]\" but no matching element found. Please check the observation more carefully.",
+    "environmental_dynamics": "No changes were observed as the attempted click action did not match any element in the current page's accessibility tree, thus the state of the webpage remains unchanged."
+  },
+  {
+    "initial_state": "New product creation page in Magento Admin with fields for product name, SKU, price, attributes, and more.",
+    "action": "type [950] [50 ] where [950] is [global] Price * $",
+    "environmental_dynamics": "The price field 'Price' value was updated from '100' to '50' and the input field gained focus."
+  },
+  {
+    "initial_state": "The browser is showing a Magento Admin page for creating a new product, with various product attributes set and options available.",
+    "action": "click [841] where [841] is Save",
+    "environmental_dynamics": "No change in the state of the browser, but the 'Save' button was clicked."
+  },
+  {
+    "initial_state": "New product entry page within Magento Admin",
+    "action": "click [855] where [855] is ",
+    "environmental_dynamics": "No change"
+  },
+  {
+    "initial_state": "New Product creation page within the Magento Admin, featuring a form for entering product details",
+    "action": "type [950] [50 ] where [950] is ",
+    "environmental_dynamics": "The price field's value was updated to '50', and the field is now focused."
+  },
+  {
+    "initial_state": "Magento Admin New Product page with product name 'New Product' in the Product Name field",
+    "action": "type [933] [Test Product ] where [933] is [store view] Product Name *",
+    "environmental_dynamics": "The text in the 'Product Name' field changed from 'New Product' to 'Test Product'."
+  },
+  {
+    "initial_state": "Magento Admin New Product page with unsaved changes highlighted",
+    "action": "click [841] where [841] is Save",
+    "environmental_dynamics": "No change was observed after clicking the 'Save' button, indicating that the page remains unchanged and the unsaved changes are still highlighted."
+  },
+  {
+    "initial_state": "New Product page in Magento Admin, showing various product information fields like Product Name, SKU, Price, Tax Class, etc.",
+    "action": "click [841] where [841] is Save",
+    "environmental_dynamics": "no change"
+  },
+  {
+    "initial_state": "New Product page on Magento Admin with various product details and options to configure a product",
+    "action": "click [854] where [854] is Add Attribute",
+    "environmental_dynamics": "A dialog titled 'Add Attribute' appeared and is now visible and focused, allowing the selection of attributes."
+  },
+  {
+    "initial_state": "Magento Admin New Product creation page with elements like product name, SKU, price, etc. visible",
+    "action": "click [336] where [336] is \ue608 CATALOG",
+    "environmental_dynamics": "The web page navigation menu highlights and scrolls to the 'CATALOG' option, indicating a focus on the CATALOG section."
+  },
+  {
+    "initial_state": "Magento Admin New Product page with price set to $50",
+    "action": "type [950] [100 ] where [950] is ",
+    "environmental_dynamics": "The price input was updated to $100."
+  },
+  {
+    "initial_state": "Magento Admin New Product page with form fields and options for creating a product",
+    "action": "click [841] where [841] is Save",
+    "environmental_dynamics": "A warning message appeared indicating that the URL key specified would generate a conflicting URL and suggested solutions to resolve the conflict."
+  },
+  {
+    "initial_state": "New Product creation form on the Magento Admin panel, with a variety of fields like product name, SKU, price, etc., and a 'Save' button at the bottom.",
+    "action": "click [852] where [852] is \ue626 Back",
+    "environmental_dynamics": "Returned to the main products list page, showing a table with a list of configurable products and product management options."
+  },
+  {
+    "initial_state": "Product listing page in Magento Admin for a products catalog",
+    "action": "click [1780] where [1780] is ",
+    "environmental_dynamics": "Navigated to the product detail page for the 'Emma Leggings' product, showing detailed attributes and configurations for the selected product"
+  },
+  {
+    "initial_state": "Magento Admin panel displaying the product page for 'Emma Leggings' with various attributes and product options.",
+    "action": "scroll [down]",
+    "environmental_dynamics": "The page content scrolled down, revealing more sections including 'Product Reviews', 'Images And Videos', 'Search Engine Optimization', 'Related Products, Up-Sells, and Cross-Sells', 'Customizable Options', 'Product in Websites', 'Design', 'Schedule Design Update', and 'Gift Options'."
+  }
+]

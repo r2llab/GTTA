@@ -1,0 +1,17 @@
+[
+  {
+    "initial_state": "OpenStreetMap homepage with the search textbox focused and empty.",
+    "action": "type [145] [hiking trails near Syracuse ] where [145] is Search",
+    "environmental_dynamics": "The query 'hiking trails near Syracuse' was entered into the search textbox, and a search was triggered. A 'Search Results' section appeared showing 'No results found' from OpenStreetMap Nominatim."
+  },
+  {
+    "initial_state": "OpenStreetMap search results page for 'hiking trails near Syracuse', with the search textbox focused and a message displayed stating 'No results found'.",
+    "action": "type [145] [parks near Syracuse ] where [145] is Search",
+    "environmental_dynamics": "The search textbox is updated to 'parks near Syracuse', the page title changes to reflect the new search, and the search results section populates with a list of parks near Syracuse, each with clickable links to details about individual parks."
+  },
+  {
+    "initial_state": "OpenStreetMap search results page showing a list of parks near Syracuse, with detailed results listed in a 'Search Results' section.",
+    "action": "click [466] where [466] is Firefighter's Memorial Park, Downtown, City of Syracuse, Onondaga County, New York, United States",
+    "environmental_dynamics": "The browser navigated to the detailed information page for Firefighter's Memorial Park, displaying metadata, history, and tags relating to the selected park."
+  }
+]

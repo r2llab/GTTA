@@ -1,6 +1,10 @@
 ## Grounded Test-Time Adaptation
 This is the codebase to reproduce the results of the paper "Grounded Test-Time Adaptation for LLM Agents".
 
+| Parametric Adaptation Framework | Non-Parametric Adaptation Framework |
+|:-------------------------------:|:-----------------------------------:|
+| <img src="assets/pa.png" width="400"/> | <img src="assets/npa.png" width="400"/> |
+
 ### WebArena
 We adopt NNetnav's codebase for web navigation exploration and task evaluation. To reproduce our results on WebArena, please refer to [this](WebArena/README.md).
 
